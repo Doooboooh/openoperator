@@ -1,0 +1,43 @@
+{
+  "entries": [
+    {
+      "github": "alice",
+      "score": 95.5,
+      "submitTime": "2026-02-28T11:49:20.484Z",
+      "commitHash": "abc1234",
+      "rank": 1
+    },
+    {
+      "github": "charlie",
+      "score": 92.1,
+      "submitTime": "2026-02-28T11:49:28.552Z",
+      "commitHash": "ghi9012",
+      "rank": 2
+    },
+    {
+      "github": "dog",
+      "score": 91.1,
+      "submitTime": "2026-02-28T11:56:42.251Z",
+      "commitHash": "ghi9342",
+      "rank": 3
+    },
+    {
+      "github": "eoe",
+      "score": 89.1,
+      "submitTime": "2026-02-28T12:03:59.528Z",
+      "commitHash": "ghifwa4",
+      "rank": 4
+    },
+    {
+      "github": "bob",
+      "score": 88.3,
+      "submitTime": "2026-02-28T11:49:24.747Z",
+      "commitHash": "def5678",
+      "rank": 5
+    }
+  ],
+  "stats": {
+    "participantCount": 5,
+    "submissionCount": 5
+  }
+}
