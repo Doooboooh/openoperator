@@ -1,0 +1,2378 @@
+{
+  "competition_info": {
+    "name": "",
+    "description": "",
+    "contact": "Email: doubh25@mail.ustc.edu.cn | Email: huangdi@ict.ac.cn"
+  },
+  "timeline": [
+    { "date": "2026-04-17", "event": "比赛开始" },
+    { "date": "2026-06-12", "event": "比赛结束" }
+  ],
+  "notices": [
+    { "date": "2026-04-17", "title": "题目上线", "content": "001 - 139 已经加入 Problems 列表。" }
+  ],
+  "tasks": [
+    {
+      "id": "001",
+      "name": "001_LeakyReLU",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量应用 LeakyReLU 激活处理。输入包括形状为 `[batch, dim]` 的张量 `x` 以及表示负半轴斜率的标量 `negative_slope`；输出张量的形状与 `x` 相同。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pointwise",
+        "difficulty": "basic",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a LeakyReLU activation.\n    \"\"\"\n    def __init__(self, negative_slope: float = 0.01):\n        \"\"\"\n        Initializes the LeakyReLU module.\n\n        Args:\n            negative_slope (float, optional): The negative slope of the activation function. Defaults to 0.01.\n        \"\"\"\n        super(Model, self).__init__()\n        self.negative_slope = negative_slope\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies LeakyReLU activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with LeakyReLU applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.leaky_relu(x, negative_slope=self.negative_slope)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return [0.01]  # No special initialization inputs needed"
+    },
+    {
+      "id": "002",
+      "name": "002_matrix_scalar_multiplication",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，实现矩阵与标量的逐元素乘法运算。输入包括形状为 `[M, N]` 的张量 `A` 以及浮点数标量 `s`；输出为与 `A` 形状相同的张量。",
+        "workload": "",
+        "source": "kernelbench",
+        "category": "pointwise",
+        "difficulty": "basic",
+        "dtype": []
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a matrix-scalar multiplication (C = A * s)\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, s: float) -> torch.Tensor:\n        \"\"\"\n        Performs matrix-scalar multiplication.\n\n        Args:\n            A: Input matrix of shape (M, N)\n            s: Scalar value\n\n        Returns:\n            C: Resulting matrix of shape (M, N)\n        \"\"\"\n        return A * s\n\nM = 16384 * 4\nN = 4096 * 4\n\ndef get_inputs():\n    A = torch.rand(M, N)\n    s = 3.14\n    return [A, s]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "003",
+      "name": "003_LogSoftmax",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量在指定维度上执行 LogSoftmax 激活计算。输入包括形状为 `[batch_size, dim]` 的张量 `x` 以及用于指定计算维度的整数参数 `dim`；输出张量的形状与 `x` 保持一致。",
+        "workload": "",
+        "source": "operaters",
+        "category": "softmax",
+        "difficulty": "basic",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a LogSoftmax activation.\n    \"\"\"\n    def __init__(self, dim: int = 1):\n        super(Model, self).__init__()\n        self.dim = dim\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies LogSoftmax activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, dim).\n\n        Returns:\n            torch.Tensor: Output tensor with LogSoftmax applied, same shape as input.\n        \"\"\"\n        return torch.log_softmax(x, dim=self.dim)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "004",
+      "name": "004_batched_matrix_multiplication",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行两个三维张量的批量矩阵乘法（Batch Matrix Multiplication）。输入包括形状为 `[batch_size, m, k]` 的张量 `A` 和形状为 `[batch_size, k, n]` 的张量 `B`；输出张量的形状为 `[batch_size, m, n]`。",
+        "workload": "",
+        "source": "kernelbench",
+        "category": "matrix",
+        "difficulty": "basic",
+        "dtype": []
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs batched matrix multiplication (C = A * B) where A, B, and C have the same batch dimension.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs batched matrix multiplication.\n\n        Args:\n            A: Input tensor of shape (batch_size, m, k).\n            B: Input tensor of shape (batch_size, k, n).\n\n        Returns:\n            C: Output tensor of shape (batch_size, m, n).\n        \"\"\"\n        return torch.bmm(A, B)\n\nbatch_size = 128\nm = 128 * 4\nk = 256 * 4\nn = 512 * 4\n\ndef get_inputs():\n    A = torch.rand(batch_size, m, k)\n    B = torch.rand(batch_size, k, n)\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "005",
+      "name": "005_average_pooling_2d",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行二维平均池化（2D Average Pooling）计算。输入包括形状为 `[batch_size, channels, height, width]` 的张量 `x`，以及用于指定窗口大小、步幅和填充的标量参数 `kernel_size`、`stride` 与 `padding`；输出为池化处理后的张量。",
+        "workload": "",
+        "source": "kernelbench",
+        "category": "pool",
+        "difficulty": "basic",
+        "dtype": []
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs 2D Average Pooling.\n    \"\"\"\n    def __init__(self, kernel_size: int, stride: int = None, padding: int = 0):\n        \"\"\"\n        Initializes the Average Pooling layer.\n\n        Args:\n            kernel_size (int): Size of the pooling window.\n            stride (int, optional): Stride of the pooling operation. Defaults to None (same as kernel_size).\n            padding (int, optional): Padding applied to the input tensor. Defaults to 0.\n        \"\"\"\n        super(Model, self).__init__()\n        self.avg_pool = nn.AvgPool2d(kernel_size=kernel_size, stride=stride, padding=padding)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies 2D Average Pooling to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor with Average Pooling applied.\n        \"\"\"\n        return self.avg_pool(x)\n\nbatch_size = 16\nchannels = 64\nheight = 2048\nwidth = 2048\nkernel_size = 11\n\ndef get_inputs():\n    x = torch.rand(batch_size, channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [kernel_size]"
+    },
+    {
+      "id": "006",
+      "name": "006_conv_depthwise_2D_square_input_square_kernel",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行二维逐通道卷积（Depthwise 2D Convolution）运算。输入包括形状为 `[batch, in_channels, H, W]` 的特征图 `x`、形状为 `[in_channels, 1, K, K]` 的权重 `weight` 以及可选的偏置 `bias`；计算过程涉及步长 `stride` 和填充 `padding` 等标量参数。该算子最终输出形状为 `[batch, in_channels, H_out, W_out]` 的卷积结果。",
+        "workload": "",
+        "source": "operaters",
+        "category": "conv",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a depthwise 2D convolution operation with square input and square kernel.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        kernel_size (int): Size of the convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv2d = nn.Conv2d(in_channels, in_channels, kernel_size, stride=stride, padding=padding, groups=in_channels, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the depthwise 2D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, in_channels, height_out, width_out).\n        \"\"\"\n        return self.conv2d(x)\n\n# Test code\nbatch_size = 16\nin_channels = 3\nkernel_size = 3\nwidth = 256\nheight = 256\nstride = 1\npadding = 0\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, kernel_size, stride, padding]"
+    },
+    {
+      "id": "007",
+      "name": "007_conv_depthwise_separable_2D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行深度可分离二维卷积运算。该算子接收形状为 `[batch, in_channels, H, W]` 的输入张量 `x`，并结合深度卷积权重、逐点卷积权重以及 `stride`、`padding`、`dilation` 等卷积参数进行计算；最终输出形状为 `[batch, out_channels, H_out, W_out]` 的结果张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "conv",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a depthwise-separable 2D convolution operation.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        kernel_size (int): Size of the convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        dilation (int, optional): Spacing between kernel elements. Defaults to 1.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, dilation: int = 1, bias: bool = False):\n        super(Model, self).__init__()\n        self.depthwise = nn.Conv2d(in_channels, in_channels, kernel_size, stride=stride, padding=padding, dilation=dilation, groups=in_channels, bias=bias)\n        self.pointwise = nn.Conv2d(in_channels, out_channels, kernel_size=1, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the depthwise-separable 2D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, height_out, width_out).\n        \"\"\"\n        x = self.depthwise(x)\n        x = self.pointwise(x)\n        return x\n\n# Test code\nbatch_size = 16\nin_channels = 3\nout_channels = 64\nkernel_size = 3\nwidth = 256\nheight = 256\nstride = 1\npadding = 0\ndilation = 1\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels, kernel_size, stride, padding, dilation]"
+    },
+    {
+      "id": "008",
+      "name": "008_conv_pointwise_2D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行逐点（Pointwise）二维卷积运算。输入包括形状为 `[batch, in_channels, height, width]` 的输入张量 `x`、形状为 `[out_channels, in_channels, 1, 1]` 的权重张量 `weight` 以及可选的形状为 `[out_channels]` 的偏置张量 `bias`；输出为形状为 `[batch, out_channels, height, width]` 的卷积后张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "conv",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a pointwise 2D convolution operation.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv1d = nn.Conv2d(in_channels, out_channels, kernel_size=1, stride=1, padding=0, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the pointwise 2D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, height, width).\n        \"\"\"\n        return self.conv1d(x)\n\n# Test code\nbatch_size = 16\nin_channels = 3\nout_channels = 64\nwidth = 256\nheight = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels]"
+    },
+    {
+      "id": "009",
+      "name": "009_conv_standard_1D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行标准的一维卷积运算。输入包括形状为 `[batch, in_channels, length]` 的数据张量 `x`、形状为 `[out_channels, in_channels/groups, kernel_size]` 的权重张量 `weight` 以及形状为 `[out_channels]` 的可选偏置张量 `bias`。算子还需支持通过 `stride`、`padding`、`dilation` 和 `groups` 等参数配置卷积行为，并输出形状为 `[batch, out_channels, length_out]` 的张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "conv",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a standard 1D convolution operation.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        kernel_size (int): Size of the convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        dilation (int, optional): Spacing between kernel elements. Defaults to 1.\n        groups (int, optional): Number of blocked connections from input channels to output channels. Defaults to 1.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, dilation: int = 1, groups: int = 1, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv1d = nn.Conv1d(in_channels, out_channels, kernel_size, stride=stride, padding=padding, dilation=dilation, groups=groups, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the 1D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, length).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, length_out).\n        \"\"\"\n        return self.conv1d(x)\n\n# Test code\nbatch_size = 16\nin_channels = 3\nout_channels = 64\nkernel_size = 3\nlength = 512\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, length)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels, kernel_size]  # Provide in_channels, out_channels, kernel_size for initialization"
+    },
+    {
+      "id": "010",
+      "name": "010_conv_standard_2D__square_input__square_kernel",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对四维输入张量执行标准的二维卷积运算。输入包括形状为 `[batch, in_channels, H, W]` 的数据张量 `x`、形状为 `[out_channels, in_channels / groups, K, K]` 的权重 `weight` 以及形状为 `[out_channels]` 的可选偏置 `bias`；同时需支持 `stride`、`padding`、`dilation` 和 `groups` 等参数配置。输出张量的形状为 `[batch, out_channels, H_out, W_out]`。",
+        "workload": "",
+        "source": "operaters",
+        "category": "conv",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a standard 2D convolution operation with a square input and square kernel.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        kernel_size (int): Size of the square convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        dilation (int, optional): Spacing between kernel elements. Defaults to 1.\n        groups (int, optional): Number of blocked connections from input channels to output channels. Defaults to 1.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, dilation: int = 1, groups: int = 1, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv2d = nn.Conv2d(in_channels, out_channels, (kernel_size, kernel_size), stride=stride, padding=padding, dilation=dilation, groups=groups, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the 2D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, height_out, width_out).\n        \"\"\"\n        return self.conv2d(x)\n\n# Test code\nbatch_size = 16\nin_channels = 3\nout_channels = 64\nkernel_size = 3\nwidth = 256\nheight = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels, kernel_size]  # Provide in_channels, out_channels, kernel_size for initialization"
+    },
+    {
+      "id": "011",
+      "name": "011_conv_transposed_1D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入的一维信号执行转置卷积（反卷积）运算。输入包括形状为 `[batch, in_channels, length]` 的特征张量 `x`、形状为 `[in_channels, out_channels / groups, kernel_size]` 的卷积核张量 `weight` 以及可选的偏置 `bias`；输出张量形状为 `[batch, out_channels, length_out]`。该算子需支持通过 stride、padding、output_padding 和 groups 等参数控制卷积行为。",
+        "workload": "",
+        "source": "operaters",
+        "category": "conv",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a transposed 1D convolution operation.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        kernel_size (int): Size of the convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        output_padding (int, optional): Additional size added to one side of the output shape. Defaults to 0.\n        groups (int, optional): Number of blocked connections from input channels to output channels. Defaults to 1.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, output_padding: int = 0, groups: int = 1, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv1d_transpose = nn.ConvTranspose1d(in_channels, out_channels, kernel_size, stride=stride, padding=padding, output_padding=output_padding, groups=groups, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the transposed 1D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, length).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, length_out).\n        \"\"\"\n        return self.conv1d_transpose(x)\n\n# Test code\nbatch_size = 16\nin_channels = 64\nout_channels = 3\nkernel_size = 3\nlength = 128\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, length)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels, kernel_size]  # Provide in_channels, out_channels, kernel_size for initialization"
+    },
+    {
+      "id": "012",
+      "name": "012_conv_transposed_2D__asymmetric_input__square_kernel",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行二维转置卷积运算。输入包括形状为 `[batch, in_channels, h_in, w_in]` 的数据张量 `x`、形状为 `[in_channels, out_channels // groups, kernel_size, kernel_size]` 的卷积核张量以及可选的偏置张量；算子通过 `stride`、`padding`、`output_padding` 和 `groups` 等参数控制输出特征图的形状与计算逻辑。",
+        "workload": "",
+        "source": "operaters",
+        "category": "conv",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a transposed 2D convolution with asymmetric input and a square kernel.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        kernel_size (int): Size of the square convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        output_padding (int, optional): Additional size added to one side of the output shape. Defaults to 0.\n        groups (int, optional): Number of blocked connections from input channels to output channels. Defaults to 1.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, output_padding: int = 0, groups: int = 1, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv_transpose2d = nn.ConvTranspose2d(in_channels, out_channels, kernel_size, stride=stride, padding=padding, output_padding=output_padding, groups=groups, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the transposed 2D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, height_in, width_in).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, height_out, width_out).\n        \"\"\"\n        return self.conv_transpose2d(x)\n\n# Test code\nbatch_size = 16\nin_channels = 32\nout_channels = 64\nkernel_size = 3\nheight_in = 128\nwidth_in = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, height_in, width_in)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels, kernel_size]  # Provide in_channels, out_channels, kernel_size for initialization"
+    },
+    {
+      "id": "013",
+      "name": "013_3D_tensor_matrix_multiplication",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算三维张量与二维矩阵的乘法。输入包括形状为 `[N, M, K]` 的三维张量 `A` 以及形状为 `[K, L]` 的二维矩阵 `B`；输出为形状为 `[N, M, L]` 的张量，其结果由 `A` 的最后两维构成的矩阵与 `B` 相乘得到。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs 3D tensor-matrix multiplication.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A, B):\n        \"\"\"\n        Performs 3D tensor-matrix multiplication.\n\n        Args:\n            A (torch.Tensor): Input 3D tensor of shape (N, M, K).\n            B (torch.Tensor): Input matrix of shape (K, L).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (N, M, L), resulting from the multiplication of A and B along the last dimension of A.\n        \"\"\"\n        return torch.matmul(A, B)\n\nN = 16\nM = 1024\nK = 2048\nL = 768\n\ndef get_inputs():\n    A = torch.randn(N, M, K).bfloat16().float()\n    B = torch.randn(K, L).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "014",
+      "name": "014_4D_tensor_matrix_multiplication",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行四维张量与二维矩阵的乘法，计算张量最后一维与矩阵的缩并。输入包括形状为 `[b, i, j, l]` 的四维张量 `A` 和形状为 `[l, k]` 的二维矩阵 `B`；输出为形状为 `[b, i, j, k]` 的四维张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs 4D tensor-matrix multiplication: \n        C[b, i, j, k] = sum_l A[b, i, j, l] * B[l, k]\n\n    Args:\n        A (torch.Tensor): Input 4D tensor of shape (b, i, j, l)\n        B (torch.Tensor): Input matrix of shape (l, k)\n\n    Returns:\n        torch.Tensor: Output 4D tensor of shape (b, i, j, k)\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, A, B):\n        \"\"\"\n        Performs the 4D tensor-matrix multiplication.\n\n        Args:\n            A (torch.Tensor): Input 4D tensor of shape (b, i, j, l)\n            B (torch.Tensor): Input matrix of shape (l, k)\n\n        Returns:\n            torch.Tensor: Output 4D tensor of shape (b, i, j, k)\n        \"\"\"\n        return torch.einsum(\"bijl,lk->bijk\", A, B)\n\n# Test code\nb = 16\ni = 256\nj = 512\nl = 256\nk = 768\n\ndef get_inputs():\n    A = torch.randn(b, i, j, l).bfloat16().float()\n    B = torch.randn(l, k).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "015",
+      "name": "015_Matmul_for_lower_triangular_matrices",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算两个下三角矩阵 A 和 B 的乘积，并对结果进行下三角化处理。输入为两个形状均为 `[N, N]` 的下三角矩阵张量 `A` 和 `B`；输出为形状相同的下三角矩阵。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a matrix multiplication (C = A * B) where A and B are lower triangular matrices. \n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A, B):\n        \"\"\"\n        Performs matrix multiplication of lower triangular matrices A and B.\n\n        Args:\n            A (torch.Tensor): Lower triangular matrix of shape (N, N).\n            B (torch.Tensor): Lower triangular matrix of shape (N, N).\n\n        Returns:\n            torch.Tensor: The result of matrix multiplication C of shape (N, N).\n        \"\"\"\n        return torch.tril(torch.matmul(A, B))\n\nM = 4096\n\ndef get_inputs():\n    A = torch.randn(M, M).bfloat16().float()\n    B = torch.randn(M, M).bfloat16().float()\n    A = torch.tril(A)\n    B = torch.tril(B)\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "016",
+      "name": "016_Matmul_for_symmetric_matrices",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算两个对称矩阵的矩阵乘法。输入包括两个形状均为 `[N, N]` 的对称矩阵 `A` 和 `B`；输出结果为形状是 `[N, N]` 的张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single matrix multiplication (C = A * B) with A and B being symmetric matrices.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A, B):\n        \"\"\"\n        Performs matrix multiplication of two symmetric matrices.\n\n        Args:\n            A (torch.Tensor): Input matrix A, shape (N, N), symmetric.\n            B (torch.Tensor): Input matrix B, shape (N, N), symmetric.\n\n        Returns:\n            torch.Tensor: Output matrix C, shape (N, N).\n        \"\"\"\n        return torch.matmul(A, B)\n\nN = 4096\n\ndef get_inputs():\n    \"\"\"\n    Generates a pair of random symmetric matrices for testing.\n\n    Returns:\n        list: List containing two symmetric tensors A and B.\n    \"\"\"\n    A = torch.randn(N, N).bfloat16().float()\n    A = (A + A.T) / 2  # Ensure symmetry\n    B = torch.randn(N, N).bfloat16().float()\n    B = (B + B.T) / 2  # Ensure symmetry\n    return [A, B]\n\ndef get_init_inputs():\n    \"\"\"\n    No specific initialization inputs needed for this model.\n\n    Returns:\n        list: Empty list.\n    \"\"\"\n    return []"
+    },
+    {
+      "id": "017",
+      "name": "017_Matmul_for_upper_triangular_matrices",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算两个上三角矩阵的乘积并保留其上三角部分。输入包括形状均为 `[N, N]` 的张量 `A` 和 `B`；输出为形状相同的上三角矩阵。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs matrix multiplication (C = A * B) for upper triangular matrices.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A, B):\n        \"\"\"\n        Performs matrix multiplication for upper triangular matrices.\n\n        Args:\n            A (torch.Tensor): Upper triangular matrix of shape (N, N).\n            B (torch.Tensor): Upper triangular matrix of shape (N, N).\n\n        Returns:\n            torch.Tensor: The product of A and B, also an upper triangular matrix of shape (N, N).\n        \"\"\"\n        return torch.triu(torch.matmul(A, B))\n\nN = 4096\n\ndef get_inputs():\n    \"\"\"\n    Generates upper triangular matrices for testing.\n\n    Returns:\n        list: A list containing two upper triangular matrices of shape (N, N).\n    \"\"\"\n    A = torch.triu(torch.randn(N, N)).bfloat16().float()\n    B = torch.triu(torch.randn(N, N)).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    \"\"\"\n    No specific initialization inputs are needed for this model.\n\n    Returns:\n        list: An empty list.\n    \"\"\"\n    return []"
+    },
+    {
+      "id": "018",
+      "name": "018_Matmul_with_diagonal_matrices_",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算对角矩阵与常规矩阵的乘积，实现对输入矩阵每一行的按元素缩放。输入包括表示对角线元素的向量 `A`，其形状为 `[N]`，以及待相乘的二维矩阵 `B`，其形状为 `[N, M]`；输出张量的形状与 `B` 一致。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a matrix multiplication of a diagonal matrix with another matrix.\n    C = diag(A) * B\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A, B):\n        \"\"\"\n        Performs the matrix multiplication.\n\n        Args:\n            A (torch.Tensor): A 1D tensor representing the diagonal of the diagonal matrix. Shape: (N,).\n            B (torch.Tensor): A 2D tensor representing the second matrix. Shape: (N, M).\n\n        Returns:\n            torch.Tensor: The result of the matrix multiplication. Shape: (N, M).\n        \"\"\"\n        return torch.diag(A) @ B\n\nM = 4096\nN = 4096\n\ndef get_inputs():\n    A = torch.randn(N).bfloat16().float()\n    B = torch.randn(N, M).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "019",
+      "name": "019_Matmul_with_irregular_shapes_",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，完成两个二维矩阵的乘法运算。输入包括形状为 `[M, K]` 的矩阵 `A` 以及形状为 `[K, N]` 的矩阵 `B`；输出结果矩阵的形状为 `[M, N]`。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single matrix multiplication (C = A * B) with irregular shapes\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs matrix multiplication of A and B.\n\n        Args:\n            A: Input tensor with shape (M, K).\n            B: Input tensor with shape (K, N).\n\n        Returns:\n            C: Output tensor with shape (M, N).\n        \"\"\"\n        return torch.matmul(A, B)\n\nM = 8205\nK = 2949\nN = 5921\n\ndef get_inputs():\n    A = torch.randn(M, K).bfloat16().float()\n    B = torch.randn(K, N).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "020",
+      "name": "020_Matmul_with_large_K_dimension_",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，实现两个二维矩阵的乘法运算。输入包括形状为 `[M, K]` 的左矩阵 `A` 和形状为 `[K, N]` 的右矩阵 `B`；输出结果为形状为 `[M, N]` 的张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single matrix multiplication (C = A * B) with a large K dimension\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs matrix multiplication of A and B.\n\n        Args:\n            A: Input tensor of shape (M, K)\n            B: Input tensor of shape (K, N)\n\n        Returns:\n            Output tensor of shape (M, N)\n        \"\"\"\n        return torch.matmul(A, B)\n\nM = 256\nN = 256\nK = 131072\n\ndef get_inputs():\n    A = torch.randn(M, K).bfloat16().float()\n    B = torch.randn(K, N).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "021",
+      "name": "021_Matmul_with_small_K_dimension_",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，完成两个二维矩阵的乘法运算。输入包括形状为 `[M, K]` 的矩阵 `A` 和形状为 `[K, N]` 的矩阵 `B`；输出为两者相乘得到的形状为 `[M, N]` 的结果矩阵。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single matrix multiplication (C = A * B) with a small K dimension\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs matrix multiplication.\n\n        Args:\n            A: Input tensor of shape (M, K).\n            B: Input tensor of shape (K, N).\n\n        Returns:\n            Output tensor of shape (M, N).\n        \"\"\"\n        return torch.matmul(A, B)\n\nM = 16384\nN = 16384\nK = 32\n\ndef get_inputs():\n    A = torch.randn(M, K).bfloat16().float()\n    B = torch.randn(K, N).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "022",
+      "name": "022_Matmul_with_transposed_both",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对两个输入矩阵分别进行转置并计算其矩阵乘积。输入包括形状为 `[K, M]` 的张量 `A` 和形状为 `[N, K]` 的张量 `B`；输出为形状为 `[M, N]` 的结果张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single matrix multiplication (C = A * B)\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs matrix multiplication.\n\n        Args:\n            A: Input tensor of shape (M, K).\n            B: Input tensor of shape (K, N).\n\n        Returns:\n            Output tensor of shape (M, N).\n        \"\"\"\n        return torch.matmul(A.T, B.T)\n\nM = 1024\nK = 4096\nN = 2048\n\ndef get_inputs():\n    A = torch.randn(K, M)#.bfloat16().float()\n    B = torch.randn(N, K)#.bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "023",
+      "name": "023_Matrix_vector_multiplication_",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行矩阵与向量的乘法运算（GEMV）。输入包括形状为 `[M, K]` 的矩阵 `A` 和形状为 `[K, 1]` 的向量 `B`；输出为两者相乘得到的形状为 `[M, 1]` 的结果张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs matrix-vector multiplication (C = A * B).\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs matrix-vector multiplication.\n\n        Args:\n            A: Input matrix of shape (M, K).\n            B: Input vector of shape (K, 1).\n\n        Returns:\n            Output vector of shape (M, 1).\n        \"\"\"\n        return torch.matmul(A, B)\n\nM = 256\nK = 131072\n\ndef get_inputs():\n    A = torch.randn(M, K).bfloat16().float()\n    B = torch.randn(K, 1).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "024",
+      "name": "024_Square_matrix_multiplication_",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行两个方阵的矩阵乘法运算。输入包括两个形状均为 `[N, N]` 的张量 `A` 和 `B`；输出为两矩阵相乘的结果，其形状同样为 `[N, N]`。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nlevel = 1\ntest_id = \"matmul_fp32_2048x2048\"\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single square matrix multiplication (C = A * B)\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the matrix multiplication.\n\n        Args:\n            A (torch.Tensor): Input matrix A of shape (N, N).\n            B (torch.Tensor): Input matrix B of shape (N, N).\n\n        Returns:\n            torch.Tensor: Output matrix C of shape (N, N).\n        \"\"\"\n        return torch.matmul(A, B)\n\nN = 2048\n\ndef get_inputs():\n    A = torch.randn(N, N).bfloat16().float()\n    B = torch.randn(N, N).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "025",
+      "name": "025_fused_matmul_fwd",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行矩阵乘法并可选地叠加偏置项。输入包括形状为 `[M, K]` 的输入矩阵 `x`、形状为 `[K, N]` 的权重矩阵 `w` 以及形状为 `[N]` 的可选偏置向量 `b`；输出为形状为 `[M, N]` 的结果张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\n\nM = 256\nK = 512\nN = 1024\nDTYPE = torch.float16\nSEED = 2026\nRAND_LOW = -5\nRAND_HIGH = 6\n\n\nclass Model(nn.Module):\n    \"\"\"\n    Reference implementation of the fused matmul forward path with optional bias.\n    \"\"\"\n\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(\n        self,\n        x: torch.Tensor,\n        w: torch.Tensor,\n        b: torch.Tensor | None = None,\n    ) -> torch.Tensor:\n        \"\"\"\n        Computes ``x @ w`` and optionally adds ``b`` row-wise.\n\n        Args:\n            x: Input matrix of shape (M, K).\n            w: Weight matrix of shape (K, N).\n            b: Optional bias vector of shape (N,).\n\n        Returns:\n            Output tensor of shape (M, N).\n        \"\"\"\n        out = torch.matmul(x.float(), w.float())\n        if b is not None:\n            out = out + b.float()\n        return out.to(x.dtype)\n\n\ndef get_inputs():\n    torch.manual_seed(SEED)\n    x = torch.randint(RAND_LOW, RAND_HIGH, (M, K), dtype=torch.int32).to(DTYPE)\n    w = torch.randint(RAND_LOW, RAND_HIGH, (K, N), dtype=torch.int32).to(DTYPE)\n    b = torch.randint(RAND_LOW, RAND_HIGH, (N,), dtype=torch.int32).to(DTYPE)\n    return [x, w, b]\n\n\ndef get_init_inputs():\n    return []\n"
+    },
+    {
+      "id": "026",
+      "name": "026_ELU",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量应用 ELU 激活函数处理。输入包括形状为 `[batch, dim]` 的张量 `x` 以及表示激活函数比例系数的浮点标量 `alpha`；输出结果张量与 `x` 的形状相同。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs an ELU activation.\n    \"\"\"\n    def __init__(self, alpha: float = 1.0):\n        \"\"\"\n        Initializes the ELU model.\n\n        Args:\n            alpha (float, optional): The alpha parameter for the ELU function. Defaults to 1.0.\n        \"\"\"\n        super(Model, self).__init__()\n        self.alpha = alpha\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies ELU activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with ELU applied, same shape as input.\n        \"\"\"\n        return F.elu(x, alpha=self.alpha)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return [1.0]  # Provide alpha value for initialization"
+    },
+    {
+      "id": "027",
+      "name": "027_GELU",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行 GELU（Gaussian Error Linear Unit）激活函数处理。输入为形状为 `[batch, dim]` 的张量 `x`；输出张量与 `x` 形状相同。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a GELU activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies GELU activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with GELU applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.gelu(x)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "028",
+      "name": "028_HardSigmoid",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行 HardSigmoid 激活函数计算。输入为一个形状为 `[batch, dim]` 的张量 `x`；输出张量的形状与 `x` 一致。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a HardSigmoid activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies HardSigmoid activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with HardSigmoid applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.hardsigmoid(x)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "029",
+      "name": "029_HardTanh",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量应用 HardTanh 激活函数，实现元素级的数值截断。输入包括形状为 `[batch_size, dim]` 的张量 `x`，以及用于指定裁剪范围的浮点标量参数 `min_val` 和 `max_val`；输出张量与 `x` 具有相同的形状。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a HardTanh activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies HardTanh activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with HardTanh applied, same shape as input.\n        \"\"\"\n        return F.hardtanh(x, min_val=-1., max_val=1.)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "030",
+      "name": "030_MinGPTNewGelu",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算输入张量的高斯误差线性单元（GELU）近似激活值。输入为形状为 `[batch, dim]` 的张量 `x`；输出结果的形状与输入一致。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\nimport math\n\n# From https://github.com/karpathy/minGPT/blob/master/mingpt/model.py\n\nclass Model(nn.Module):\n    \"\"\"\n    Implementation of the GELU activation function currently in Google BERT repo (identical to OpenAI GPT).\n    Reference: Gaussian Error Linear Units (GELU) paper: https://arxiv.org/abs/1606.08415\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x):\n        return 0.5 * x * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (x + 0.044715 * torch.pow(x, 3.0))))\n\nbatch_size = 2000\ndim = 2000\n\ndef get_inputs():\n    return [torch.randn(batch_size, dim)]\n\ndef get_init_inputs():\n    return []"
+    },
+    {
+      "id": "031",
+      "name": "031_Softplus",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量应用 Softplus 激活函数。输入为形状为 `[batch_size, dim]` 的张量 `x`；输出为对 `x` 进行逐元素变换后的张量，其形状与输入相同。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a Softplus activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Softplus activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with Softplus applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.softplus(x)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "032",
+      "name": "032_Softsign",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量应用 Softsign 激活处理。输入为形状是 `[batch_size, dim]` 的张量 `x`；输出结果与输入张量的形状完全一致。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a Softsign activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Softsign activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with Softsign applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.softsign(x)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "033",
+      "name": "033_Swish",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量应用 Swish（即 SiLU）激活函数。输入为形状为 `[batch, dim]` 的张量 `x`；输出张量与输入 `x` 的形状完全相同。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a Swish activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Swish activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with Swish applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.silu(x)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "034",
+      "name": "034_Argmax_over_a_dimension",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，沿指定维度计算输入张量的最大值索引（Argmax）。输入包括形状为 `[D_0, D_1, ..., D_{n-1}]` 的张量 `x` 以及一个用于指定规约维度的整数参数 `dim`；输出为移除该维度后的索引张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Argmax over a specified dimension.\n    \"\"\"\n    def __init__(self, dim: int):\n        \"\"\"\n        Initializes the model with the dimension to perform argmax.\n\n        Args:\n            dim (int): The dimension to perform argmax over.\n        \"\"\"\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies argmax over the specified dimension to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor.\n\n        Returns:\n            torch.Tensor: Output tensor with argmax applied, with the specified dimension removed.\n        \"\"\"\n        return torch.argmax(x, dim=self.dim)\n\nbatch_size = 16\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [1]"
+    },
+    {
+      "id": "035",
+      "name": "035_L1Norm_",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量沿维度 1 执行 L1 归一化操作。输入为形状为 `[batch, dim]` 的张量 `x`；通过计算 `x` 在维度 1 上的绝对值之和对原张量进行缩放，输出与 `x` 形状相同。",
+        "workload": "",
+        "source": "operaters",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs L1 normalization.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes the L1 normalization layer.\n        \"\"\"\n        super(Model, self).__init__()\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies L1 normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (..., dim, ...).\n\n        Returns:\n            torch.Tensor: Output tensor with L1 normalization applied, same shape as input.\n        \"\"\"\n        return x / torch.sum(torch.abs(x), dim=1, keepdim=True)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []"
+    },
+    {
+      "id": "036",
+      "name": "036_L2Norm_",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量在指定维度上进行 L2 归一化处理。输入为形状为 `[batch, dim]` 的张量 `x`，通过计算其在 `dim` 维度上的二范数并执行逐元素除法，使输出向量的模长为 1；输出张量与 `x` 形状相同。",
+        "workload": "",
+        "source": "operaters",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs L2 normalization.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes the L2Norm layer.\n\n        Args:\n            dim (int): Dimension along which to normalize.\n        \"\"\"\n        super(Model, self).__init__()\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies L2 normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (*, dim, *).\n\n        Returns:\n            torch.Tensor: Output tensor with L2 normalization applied, same shape as input.\n        \"\"\"\n        return x / torch.norm(x, p=2, dim=1, keepdim=True)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []"
+    },
+    {
+      "id": "037",
+      "name": "037_Max_reduction_over_a_dimension",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量在指定维度上进行最大值归约（Max Reduction）计算。输入包括形状为 `[d_0, d_1, ..., d_{n-1}]` 的张量 `x` 以及指示归约轴的整数标量 `dim`；输出为在该维度提取最大值后形成的张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Max reduction over a specific dimension.\n    \"\"\"\n    def __init__(self, dim: int):\n        \"\"\"\n        Initializes the model with the dimension to reduce over.\n\n        Args:\n            dim (int): The dimension to reduce over.\n        \"\"\"\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Max reduction over the specified dimension to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor.\n\n        Returns:\n            torch.Tensor: Output tensor after Max reduction over the specified dimension.\n        \"\"\"\n        return torch.max(x, dim=self.dim)[0]\n\nbatch_size = 16\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [1] # Example, change to desired dimension"
+    },
+    {
+      "id": "038",
+      "name": "038_Product_reduction_over_a_dimension",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量在指定维度上执行连乘归约操作。输入包括形状为 `[batch, dim1, dim2]` 的张量 `x` 以及指定归约维度的整数参数 `dim`；输出为沿该维度计算乘积后的张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs product reduction over a dimension.\n    \"\"\"\n    def __init__(self, dim: int):\n        \"\"\"\n        Initializes the model with the dimension to reduce over.\n\n        Args:\n            dim (int): Dimension to reduce over.\n        \"\"\"\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs product reduction over the specified dimension.\n\n        Args:\n            x (torch.Tensor): Input tensor.\n\n        Returns:\n            torch.Tensor: Output tensor with product reduction applied.\n        \"\"\"\n        return torch.prod(x, dim=self.dim)\n\nbatch_size = 16\ndim1 = 256\ndim2 = 256\nreduction_dim = 1\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [reduction_dim]"
+    },
+    {
+      "id": "039",
+      "name": "039_BatchNorm",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对四维张量执行二维批归一化（Batch Normalization）计算。输入包括形状为 `[batch, channel, H, W]` 的数据张量 `x` 以及表示特征通道数的整数 `num_features`；输出张量与 `x` 形状相同。",
+        "workload": "",
+        "source": "operaters",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Batch Normalization.\n    \"\"\"\n    def __init__(self, num_features: int):\n        \"\"\"\n        Initializes the BatchNorm layer.\n\n        Args:\n            num_features (int): Number of features in the input tensor.\n        \"\"\"\n        super(Model, self).__init__()\n        self.bn = nn.BatchNorm2d(num_features=num_features)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Batch Normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, num_features, *).\n\n        Returns:\n            torch.Tensor: Output tensor with Batch Normalization applied, same shape as input.\n        \"\"\"\n        return self.bn(x)\n\nbatch_size = 16\nfeatures = 64\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, features, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [features]"
+    },
+    {
+      "id": "040",
+      "name": "040_CosineSimilarityLoss",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算预测张量与目标张量之间的平均余弦相似度损失。输入包括形状均为 `[batch_size, dim]` 的张量 `predictions` 和 `targets`；该算子在特征维度上计算两组向量的余弦相似度，并返回 $1$ 减去该相似度后的算术平均值。",
+        "workload": "",
+        "source": "operaters",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that computes Cosine Similarity Loss for comparing vectors.\n\n    Parameters:\n        None\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, predictions, targets):\n        cosine_sim = torch.nn.functional.cosine_similarity(predictions, targets, dim=1)\n        return torch.mean(1 - cosine_sim)\n\nbatch_size = 128\ninput_shape = (4096, )\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape), torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    return []\n"
+    },
+    {
+      "id": "041",
+      "name": "041_CrossEntropyLoss",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算多分类任务中的交叉熵损失（Cross Entropy Loss）。输入包括形状为 `[batch_size, num_classes]` 的预测对数几率张量 `predictions`，以及形状为 `[batch_size]` 的真实类别索引张量 `targets`；输出为计算得到的标量损失值。",
+        "workload": "",
+        "source": "operaters",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that computes Cross Entropy Loss for multi-class classification tasks.\n\n    Parameters:\n        None\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, predictions, targets):\n        return torch.nn.functional.cross_entropy(predictions, targets)\n\nbatch_size = 4096\nnum_classes = 10\ninput_shape = (num_classes, )  # Output for each class\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape), torch.randint(0, num_classes, (batch_size,))]\n\ndef get_init_inputs():\n    return []\n"
+    },
+    {
+      "id": "042",
+      "name": "042_FrobeniusNorm_",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量进行 Frobenius 范数归一化。输入为一个形状为 `[D1, D2, ..., Dn]` 的张量 `x`；输出为 `x` 除以其全局 Frobenius 范数（即所有元素平方和的平方根）后的结果，形状与输入一致。",
+        "workload": "",
+        "source": "operaters",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Frobenius norm normalization.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes the Frobenius norm normalization layer.\n        \"\"\"\n        super(Model, self).__init__()\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Frobenius norm normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of arbitrary shape.\n\n        Returns:\n            torch.Tensor: Output tensor with Frobenius norm normalization applied, same shape as input.\n        \"\"\"\n        norm = torch.norm(x, p='fro')\n        return x / norm\n\nbatch_size = 16\nfeatures = 64\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, features, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return []"
+    },
+    {
+      "id": "043",
+      "name": "043_GroupNorm_",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行组归一化（Group Normalization）处理。输入包括形状为 `[batch, num_features, H, W]` 的张量 `x`，以及标量参数分组数 `num_groups` 和通道数 `num_features`；输出张量形状与 `x` 相同。",
+        "workload": "",
+        "source": "operaters",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Group Normalization.\n    \"\"\"\n    def __init__(self, num_groups: int, num_features: int):\n        \"\"\"\n        Initializes the GroupNorm layer.\n\n        Args:\n            num_features (int): Number of features in the input tensor.\n            num_groups (int): Number of groups to divide the channels into.\n        \"\"\"\n        super(Model, self).__init__()\n        self.gn = nn.GroupNorm(num_groups=num_groups, num_channels=num_features)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Group Normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, num_features, *).\n\n        Returns:\n            torch.Tensor: Output tensor with Group Normalization applied, same shape as input.\n        \"\"\"\n        return self.gn(x)\n\nbatch_size = 16\nfeatures = 64\nnum_groups = 8\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, features, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [num_groups, features] # num_features"
+    },
+    {
+      "id": "044",
+      "name": "044_HingeLoss",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算二分类任务中的 Hinge Loss 损失函数。输入包括形状均为 `[batch_size, dim]` 的预测得分张量 `predictions` 和目标标签张量 `targets`；输出为对所有样本损失项 `max(0, 1 - predictions * targets)` 求取算术平均值后的标量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that computes Hinge Loss for binary classification tasks.\n\n    Parameters:\n        None\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, predictions, targets):\n        return torch.mean(torch.clamp(1 - predictions * targets, min=0))\n\nbatch_size = 128\ninput_shape = (1,)\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape), torch.randint(0, 2, (batch_size, 1)).float() * 2 - 1]\n\ndef get_init_inputs():\n    return []"
+    },
+    {
+      "id": "045",
+      "name": "045_HuberLoss",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算预测张量与目标张量之间的 Smooth L1 Loss（即 Huber Loss）。输入包括形状均为 `[batch, dim]` 的预测张量 `predictions` 和目标张量 `targets`；输出为按照 Smooth L1 公式计算得到的损失结果。",
+        "workload": "",
+        "source": "operaters",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that computes Smooth L1 (Huber) Loss for regression tasks.\n\n    Parameters:\n        None\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, predictions, targets):\n        return torch.nn.functional.smooth_l1_loss(predictions, targets)\n\nbatch_size = 128\ninput_shape = (4096, )\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape), torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    return []\n"
+    },
+    {
+      "id": "046",
+      "name": "046_InstanceNorm",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对四维输入张量执行实例归一化（Instance Normalization）处理。输入为形状为 `[batch_size, num_features, height, width]` 的张量 `x`，该算子在每个样本的每个通道内独立计算均值和方差进行归一化；输出张量的形状与输入 `x` 相同。",
+        "workload": "",
+        "source": "operaters",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Instance Normalization.\n    \"\"\"\n    def __init__(self, num_features: int):\n        \"\"\"\n        Initializes the InstanceNorm layer.\n\n        Args:\n            num_features (int): Number of features in the input tensor.\n        \"\"\"\n        super(Model, self).__init__()\n        self.inorm = nn.InstanceNorm2d(num_features=num_features)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Instance Normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, num_features, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor with Instance Normalization applied, same shape as input.\n        \"\"\"\n        return self.inorm(x)\n\nbatch_size = 16\nfeatures = 64\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, features, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [features]"
+    },
+    {
+      "id": "047",
+      "name": "047_Max_Pooling_1D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对三维张量执行一维最大池化（Max Pooling 1D）操作。输入包括形状为 `[batch_size, num_features, sequence_length]` 的张量 `x`，以及 `kernel_size`、`stride`、`padding`、`dilation` 和 `return_indices` 等控制池化窗口行为和索引返回的参数；输出张量的形状为 `[batch_size, num_features, output_sequence_length]`。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pool",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Max Pooling 1D.\n    \"\"\"\n    def __init__(self, kernel_size: int, stride: int = None, padding: int = 0, dilation: int = 1, return_indices: bool = False):\n        \"\"\"\n        Initializes the Max Pooling 1D layer.\n\n        Args:\n            kernel_size (int): Size of the window to take a max over.\n            stride (int, optional): Stride of the window. Defaults to None (same as kernel_size).\n            padding (int, optional): Implicit zero padding to be added on both sides. Defaults to 0.\n            dilation (int, optional): Spacing between kernel elements. Defaults to 1.\n            return_indices (bool, optional): Whether to return the indices of the maximum values. Defaults to False.\n        \"\"\"\n        super(Model, self).__init__()\n        self.maxpool = nn.MaxPool1d(kernel_size=kernel_size, stride=stride, padding=padding, dilation=dilation, return_indices=return_indices)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Max Pooling 1D to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, num_features, sequence_length).\n\n        Returns:\n            torch.Tensor: Output tensor with Max Pooling 1D applied, shape (batch_size, num_features, output_sequence_length).\n        \"\"\"\n        return self.maxpool(x)\n\nbatch_size = 16\nfeatures = 64\nsequence_length = 128\nkernel_size = 4\nstride = 2\npadding = 2\ndilation = 3\nreturn_indices = False\n\ndef get_inputs():\n    x = torch.randn(batch_size, features, sequence_length)\n    return [x]\n\ndef get_init_inputs():\n    return [kernel_size, stride, padding, dilation, return_indices]"
+    },
+    {
+      "id": "048",
+      "name": "048_Max_Pooling_2D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行二维最大池化（Max Pooling 2D）操作。输入包括形状为 `[batch_size, channels, height, width]` 的张量 `x`，以及用于定义池化窗口性质的标量参数 `kernel_size`、`stride`、`padding` 和 `dilation`；输出为经过最大池化处理后的四维张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pool",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Max Pooling 2D.\n    \"\"\"\n    def __init__(self, kernel_size: int, stride: int, padding: int, dilation: int):\n        \"\"\"\n        Initializes the Max Pooling 2D layer.\n\n        Args:\n            kernel_size (int): Size of the pooling window.\n            stride (int): Stride of the pooling window.\n            padding (int): Padding to be applied before pooling.\n            dilation (int): Spacing between kernel elements.\n        \"\"\"\n        super(Model, self).__init__()\n        self.maxpool = nn.MaxPool2d(kernel_size=kernel_size, stride=stride, padding=padding, dilation=dilation)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Max Pooling 2D to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor after Max Pooling 2D, shape (batch_size, channels, pooled_height, pooled_width).\n        \"\"\"\n        return self.maxpool(x)\n\nbatch_size = 16\nchannels = 32\nheight = 128\nwidth = 128\nkernel_size = 2\nstride = 2\npadding = 1\ndilation = 3\n\ndef get_inputs():\n    x = torch.randn(batch_size, channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [kernel_size, stride, padding, dilation]\n"
+    },
+    {
+      "id": "049",
+      "name": "049_Max_Pooling_3D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对五维输入张量执行三维最大池化（Max Pooling 3D）操作。输入包括形状为 `[batch_size, channels, dim1, dim2, dim3]` 的张量 `x`；同时需参考池化核尺寸 `kernel_size`、步长 `stride`、填充 `padding`、空洞率 `dilation` 及 `ceil_mode` 等参数来确定滑动窗口的行为与输出形状。该算子输出在空间维度完成特征提取后的张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "pool",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Max Pooling 3D.\n    \"\"\"\n    def __init__(self, kernel_size: int, stride: int = None, padding: int = 0, dilation: int = 1, return_indices: bool = False, ceil_mode: bool = False):\n        \"\"\"\n        Initializes the Max Pooling 3D layer.\n\n        Args:\n            kernel_size (int): Size of the kernel for the max pooling operation.\n            stride (int, optional): Stride of the pooling operation. Defaults to None, which means stride is equal to kernel_size.\n            padding (int, optional): Padding applied to the input tensor. Defaults to 0.\n            dilation (int, optional): Spacing between kernel elements. Defaults to 1.\n            return_indices (bool, optional): Whether to return indices of the maximum values. Defaults to False.\n            ceil_mode (bool, optional): When True, the output size is ceil(input_size / stride) instead of floor. Defaults to False.\n        \"\"\"\n        super(Model, self).__init__()\n        self.maxpool = nn.MaxPool3d(kernel_size=kernel_size, stride=stride, padding=padding, dilation=dilation, return_indices=return_indices, ceil_mode=ceil_mode)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Max Pooling 3D to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, channels, dim1, dim2, dim3).\n\n        Returns:\n            torch.Tensor: Output tensor with Max Pooling 3D applied.\n        \"\"\"\n        return self.maxpool(x)\n\nbatch_size = 16\nchannels = 32\ndim1 = 64\ndim2 = 64\ndim3 = 64\nkernel_size = 3\nstride = 2\npadding = 1\ndilation = 3\n\ndef get_inputs():\n    x = torch.randn(batch_size, channels, dim1, dim2, dim3)\n    return [x]\n\ndef get_init_inputs():\n    return [kernel_size, stride, padding, dilation]"
+    },
+    {
+      "id": "050",
+      "name": "050_cumprod",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，沿着指定维度对输入张量进行累乘运算。输入包括一个形状为 `[batch_size, *input_shape]` 的张量 `x` 以及用于指定累乘轴的整数参数 `dim`；输出张量的形状与 `x` 保持一致。",
+        "workload": "",
+        "source": "operaters",
+        "category": "cum",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that performs a cumulative product operation along a specified dimension.\n\n    Parameters:\n        dim (int): The dimension along which to perform the cumulative product operation.\n    \"\"\"\n\n    def __init__(self, dim):\n        \"\"\"\n        Initialize the CumulativeProductModel.\n\n        Args:\n            dim (int): The dimension along which to perform the cumulative product.\n        \"\"\"\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x):\n        \"\"\"\n        Forward pass, computing the cumulative product along the specified dimension.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, *input_shape).\n\n        Returns:\n            torch.Tensor: Tensor of the same shape as `x` after applying cumulative product along `dim`.\n        \"\"\"\n        return torch.cumprod(x, dim=self.dim)\n\n# Define input dimensions and parameters\nbatch_size = 128\ninput_shape = (4000,)\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    return [dim]\n"
+    },
+    {
+      "id": "051",
+      "name": "051_cumsum",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量沿指定维度计算累加前缀和（Cumulative Sum）。输入包括形状为 `[d0, d1, ..., dn]` 的张量 `x` 以及表示操作维度的整数 `dim`；输出张量的形状与 `x` 保持一致。",
+        "workload": "",
+        "source": "operaters",
+        "category": "cum",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A simple model that performs a cumulative sum (prefix sum) operation along a specified dimension.\n\n    Parameters:\n        dim (int): The dimension along which to perform the scan operation.\n    \"\"\"\n\n    def __init__(self, dim):\n        \"\"\"\n        Initialize the Scan model.\n\n        Args:\n            dim (int): The dimension along which to perform the cumulative sum.\n        \"\"\"\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x):\n        \"\"\"\n        Forward pass for the Scan model, computing the cumulative sum along the specified dimension.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, *input_shape), where `*input_shape` \n                              can vary depending on the use case.\n\n        Returns:\n            torch.Tensor: Tensor of the same shape as `x` after applying cumulative sum along `dim`.\n        \"\"\"\n        return torch.cumsum(x, dim=self.dim)\n\n# Define input dimensions and parameters\nbatch_size = 128\ninput_shape = (4000,)  # Example shape (arbitrary)\ndim = 1\n\ndef get_inputs():\n    \"\"\"\n    Generates random inputs for testing the Scan model.\n\n    Returns:\n        list: A list containing a single randomly generated tensor with shape \n              (batch_size, *input_shape).\n    \"\"\"\n    return [torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    \"\"\"\n    Returns the initialization parameters for the Scan model.\n\n    Returns:\n        list: A list containing the `dim` parameter for model initialization.\n    \"\"\"\n    return [dim]"
+    },
+    {
+      "id": "052",
+      "name": "052_cumsum_exclusive",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算输入张量沿指定维度的排他性累加和（Exclusive Cumulative Sum）。输入包括形状为 `[batch, length]` 的张量 `x` 以及指定累加维度的整数 `dim`；输出张量与 `x` 形状相同，其每个位置的值为该维度上前序所有元素的总和，但不包含当前位置的元素。",
+        "workload": "",
+        "source": "operaters",
+        "category": "cum",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that performs an exclusive cumulative sum (does not include the current element).\n\n    Parameters:\n        dim (int): The dimension along which to perform the exclusive cumulative sum.\n    \"\"\"\n\n    def __init__(self, dim):\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x):\n        exclusive_cumsum = torch.cat((torch.zeros_like(x.select(self.dim, 0).unsqueeze(self.dim)), x), dim=self.dim)[ :,:-1]\n        return torch.cumsum(exclusive_cumsum, dim=self.dim)\n\nbatch_size = 128\ninput_shape = (4000,)\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    return [dim]\n"
+    },
+    {
+      "id": "053",
+      "name": "053_cumsum_reverse",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，沿指定维度对输入张量执行反向累加和（Reverse Cumulative Sum）操作。输入包括形状为 `[d0, d1, ..., dn]` 的张量 `x` 以及一个表示目标维度的整数标量 `dim`；输出结果与输入 `x` 的形状保持一致。",
+        "workload": "",
+        "source": "operaters",
+        "category": "cum",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that performs a reverse cumulative sum operation along a specified dimension.\n\n    Parameters:\n        dim (int): The dimension along which to perform the reverse cumulative sum.\n    \"\"\"\n\n    def __init__(self, dim):\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x):\n        return torch.cumsum(x.flip(self.dim), dim=self.dim).flip(self.dim)\n\nbatch_size = 128\ninput_shape = (4000,)\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    return [dim]\n"
+    },
+    {
+      "id": "054",
+      "name": "054_binned_gather",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行专家分桶收集操作，将路由后的 Token 数据根据索引映射到各专家的固定容量槽位并应用权重。输入包括形状为 `[tokens, hidden_size]` 的特征张量 `x`、形状为 `[tokens * top_k]` 的路由索引 `indices` 与可选权重张量 `weights`、形状为 `[num_experts]` 的专家累计计数张量 `bins`，以及表示专家容量的 `expert_capacity` 和副本因子的 `top_k` 标量；输出张量形状为 `[num_experts, expert_capacity, hidden_size]`。",
+        "workload": "",
+        "source": "operaters",
+        "category": "io",
+        "difficulty": "medium",
+        "dtype": [
+          ""
+        ]
+      },
+      "reference_implementation": "from typing import Optional, Union\n\nimport torch\nimport torch.nn as nn\n\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs an expert-binned gather operation.\n\n    Args:\n        No initialization arguments are required.\n    \"\"\"\n\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(\n        self,\n        x: torch.Tensor,\n        indices: torch.Tensor,\n        weights: Optional[torch.Tensor],\n        bins: torch.Tensor,\n        expert_capacity: Union[int, torch.Tensor],\n        top_k: Union[int, torch.Tensor],\n    ) -> torch.Tensor:\n        \"\"\"\n        Gathers routed token rows into per-expert capacity slots.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (tokens, hidden_size).\n            indices (torch.Tensor): Routed indices of shape (tokens * top_k,).\n            weights (Optional[torch.Tensor]): Optional per-route scaling factors of shape (tokens * top_k,).\n            bins (torch.Tensor): Cumulative routed counts for each expert, shape (num_experts,).\n            expert_capacity (Union[int, torch.Tensor]): Capacity allocated for each expert in the output.\n            top_k (Union[int, torch.Tensor]): Replication factor used to map routed indices back to source rows.\n\n        Returns:\n            torch.Tensor: Output tensor of shape (num_experts, expert_capacity, hidden_size).\n        \"\"\"\n        expert_capacity = (\n            int(expert_capacity.item()) if torch.is_tensor(expert_capacity) else int(expert_capacity)\n        )\n        top_k = int(top_k.item()) if torch.is_tensor(top_k) else int(top_k)\n\n        num_experts = bins.shape[0]\n        hidden_size = x.shape[1]\n        out = x.new_zeros((num_experts, expert_capacity, hidden_size))\n\n        start = 0\n        for expert_idx in range(num_experts):\n            end = int(bins[expert_idx].item())\n            num_tokens = end - start\n            for entry_idx in range(min(expert_capacity, num_tokens)):\n                index_a = int(indices[start + entry_idx].item())\n                src_row = index_a // top_k\n                values = x[src_row]\n                if weights is not None:\n                    values = values * weights[index_a]\n                out[expert_idx, entry_idx] = values\n            start = end\n\n        return out\n\n\ntokens = 4\nhidden_size = 4\ntop_k = 2\nexpert_capacity = 5\nindices_data = [0, 2, 4, 6, 1, 3, 5, 7]\nweights_data = [1.0, 0.5, 1.25, 0.75, 1.5, 0.8, 1.1, 0.9]\nbins_data = [4, 8]\n\n\ndef get_inputs():\n    x = torch.arange(tokens * hidden_size, dtype=torch.float32).view(tokens, hidden_size)\n    indices = torch.tensor(indices_data, dtype=torch.int32)\n    weights = torch.tensor(weights_data, dtype=torch.float32)\n    bins = torch.tensor(bins_data, dtype=torch.int32)\n    return [x, indices, weights, bins, expert_capacity, top_k]\n\n\ndef get_init_inputs():\n    return []\n"
+    },
+    {
+      "id": "055",
+      "name": "055_binned_scatter",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行混合专家模型（MoE）中的反向 Scatter-Reduce 操作，将按专家分桶存储的特征映射回原始 Token 并进行加权求和。输入包括形状为 `[num_experts, expert_capacity, hidden_size]` 的专家特征张量 `x`、形状为 `[tokens * top_k]` 的路由索引张量 `indices`、形状相同的可选权重张量 `weights`、形状为 `[num_experts]` 的专家分桶边界前缀和张量 `bins` 以及表示每个 Token 选取专家数量的标量 `top_k`。算子最终输出形状为 `[tokens, hidden_size]` 的还原后张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "io",
+        "difficulty": "medium",
+        "dtype": [
+          ""
+        ]
+      },
+      "reference_implementation": "from typing import Optional, Union\n\nimport torch\nimport torch.nn as nn\n\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs an expert-binned scatter-reduce operation.\n\n    Args:\n        No initialization arguments are required.\n    \"\"\"\n\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(\n        self,\n        x: torch.Tensor,\n        indices: torch.Tensor,\n        weights: Optional[torch.Tensor],\n        bins: torch.Tensor,\n        top_k: Union[int, torch.Tensor],\n    ) -> torch.Tensor:\n        \"\"\"\n        Scatters expert-binned rows back to token rows and reduces across top-k routes.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (num_experts, expert_capacity, hidden_size).\n            indices (torch.Tensor): Routed indices of shape (tokens * top_k,).\n            weights (Optional[torch.Tensor]): Optional per-route scaling factors of shape (tokens * top_k,).\n            bins (torch.Tensor): Cumulative routed counts for each expert, shape (num_experts,).\n            top_k (Union[int, torch.Tensor]): Number of routed entries per source token.\n\n        Returns:\n            torch.Tensor: Output tensor of shape (tokens, hidden_size).\n        \"\"\"\n        top_k = int(top_k.item()) if torch.is_tensor(top_k) else int(top_k)\n\n        num_experts = x.shape[0]\n        tokens = indices.shape[0] // top_k\n        hidden_size = x.shape[2]\n        out = x.new_zeros((tokens, hidden_size))\n\n        start = 0\n        for expert_idx in range(num_experts):\n            end = int(bins[expert_idx].item())\n            num_tokens = end - start\n            expert_capacity = x.shape[1]\n            for entry_idx in range(min(expert_capacity, num_tokens)):\n                index_a = int(indices[start + entry_idx].item())\n                values = x[expert_idx, entry_idx]\n                if weights is not None:\n                    values = values * weights[index_a]\n                out[index_a // top_k] += values\n            start = end\n\n        return out\n\n\nnum_experts = 2\nexpert_capacity = 5\nhidden_size = 4\ntop_k = 2\nindices_data = [0, 2, 4, 6, 1, 3, 5, 7]\nweights_data = [1.0, 0.5, 1.25, 0.75, 1.5, 0.8, 1.1, 0.9]\nbins_data = [4, 8]\n\n\ndef get_inputs():\n    x = torch.arange(\n        num_experts * expert_capacity * hidden_size,\n        dtype=torch.float32,\n    ).view(num_experts, expert_capacity, hidden_size)\n    indices = torch.tensor(indices_data, dtype=torch.int32)\n    weights = torch.tensor(weights_data, dtype=torch.float32)\n    bins = torch.tensor(bins_data, dtype=torch.int32)\n    return [x, indices, weights, bins, top_k]\n\n\ndef get_init_inputs():\n    return []\n"
+    },
+    {
+      "id": "056",
+      "name": "056_gather",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，根据索引和分桶规则将输入张量的行数据收集并加权排列到目标缓冲区。输入包括形状为 `[tokens, hidden_size]` 的张量 `x`、形状均为 `[num_elements]` 的索引 `indices` 和分桶 ID `bin_ids`、形状为 `[num_elements]` 的可选权重张量 `weights`、分桶边界张量 `bins` 以及标量 `top_k`；输出张量的形状为 `[tokens * top_k, hidden_size]`。",
+        "workload": "",
+        "source": "operaters",
+        "category": "io",
+        "difficulty": "medium",
+        "dtype": [
+          ""
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\nfrom typing import Optional, Union\n\n\nclass Model(nn.Module):\n    \"\"\"PyTorch reference for megablocks `gather` launch.\"\"\"\n\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(\n        self,\n        x: torch.Tensor,\n        indices: torch.Tensor,\n        bin_ids: torch.Tensor,\n        weights: Optional[torch.Tensor],\n        bins: torch.Tensor,\n        top_k: Union[int, torch.Tensor],\n    ) -> torch.Tensor:\n        device = x.device\n        hidden_size = x.shape[1]\n\n        indices_long = indices.to(torch.long)\n        bin_ids_long = bin_ids.to(torch.long)\n        pid = torch.arange(indices.numel(), device=device, dtype=torch.int32)\n        bin_starts = torch.cat([bins.new_zeros(1), bins[:-1]], dim=0)\n\n        # gather launch is equivalent to padded_gather with padded_bins == bins\n        offset_in_bin = pid - bin_starts[bin_ids_long]\n        index_b = offset_in_bin + bin_starts[bin_ids_long]\n\n        # A_TO_B=True path:\n        # source row = index_a // top_k\n        src_rows = torch.div(indices, top_k, rounding_mode=\"floor\").to(torch.long)\n        values = torch.index_select(x, dim=0, index=src_rows)\n\n        if weights is not None:\n            scales = torch.index_select(weights, dim=0, index=indices_long).unsqueeze(1)\n            values = values * scales\n\n        out = x.new_zeros((int(x.shape[0] * top_k), hidden_size))\n        out[index_b.to(torch.long)] = values\n        return out\n\n\ntokens = 4\nhidden_size = 8\ntop_k = 2\nindices_data = [0, 3, 5, 1, 6, 2, 4, 7]\nbin_ids_data = [0, 0, 0, 1, 1, 2, 2, 2]\nweights_data = [1.00, 0.50, 0.80, 0.75, 1.10, 1.60, 1.25, 0.90]\nbins_data = [3, 5, 8]\n\n\ndef get_inputs():\n    \"\"\"\n    Returns a valid routed test case for `gather`.\n\n    case0 shapes:\n        x       : (4, 8)\n        indices : (8,)\n        bin_ids : (8,)\n        weights : (8,)\n        bins    : (3,)\n        top_k   : scalar\n\n    gather output shape:\n        (tokens * top_k, hidden_size) = (8, 8)\n    \"\"\"\n    x = torch.arange(tokens * hidden_size, dtype=torch.float32).view(tokens, hidden_size)\n    indices = torch.tensor(indices_data, dtype=torch.int32)\n    bin_ids = torch.tensor(bin_ids_data, dtype=torch.int32)\n    weights = torch.tensor(weights_data, dtype=torch.float32)\n    bins = torch.tensor(bins_data, dtype=torch.int32)\n\n    return [x, indices, bin_ids, weights, bins, top_k]\n\n\ndef get_init_inputs():\n    return []\n"
+    },
+    {
+      "id": "057",
+      "name": "057_rotary_pos_emb_fusion",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对 Query 和 Key 张量应用旋转位置编码（RoPE）计算。输入包括形状均为 `[batch, seq_len, num_heads, head_dim]` 的张量 `q` 和 `k`，形状均为 `[seq_len, head_dim]` 的正余弦查找表 `cos` 和 `sin`，以及用于张量广播的维度索引 `unsqueeze_dim`；输出为变换后的 `q_embed` 和 `k_embed`，其形状与输入一致。",
+        "workload": "",
+        "source": "operaters",
+        "category": "embedding",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\n\nBATCH_SIZE = 2\nSEQ_LEN = 64\nNUM_HEADS = 4\nHEAD_DIM = 64\nUNSQUEEZE_DIM = 1\nSEED = 0\n\n\ndef rotate_half(x: torch.Tensor) -> torch.Tensor:\n    half_dim = x.shape[-1] // 2\n    return torch.cat((-x[..., half_dim:], x[..., :half_dim]), dim=-1)\n\n\nclass Model(nn.Module):\n    \"\"\"\n    Apply rotary positional embeddings to Q and K tensors.\n\n    Args:\n        unsqueeze_dim: Broadcast dimension used when expanding cos/sin.\n    \"\"\"\n\n    def __init__(self, unsqueeze_dim: int = 1):\n        super().__init__()\n        self.unsqueeze_dim = unsqueeze_dim\n\n    def forward(\n        self,\n        q: torch.Tensor,\n        k: torch.Tensor,\n        cos: torch.Tensor,\n        sin: torch.Tensor,\n    ):\n        \"\"\"\n        Apply RoPE to Q and K tensors with shape [batch, seq_len, num_heads, head_dim].\n\n        Args:\n            q: Query tensor.\n            k: Key tensor.\n            cos: Cosine cache with shape [seq_len, head_dim].\n            sin: Sine cache with shape [seq_len, head_dim].\n\n        Returns:\n            A tuple `(q_embed, k_embed)` with the same shapes as `q` and `k`.\n        \"\"\"\n        cos = cos.unsqueeze(self.unsqueeze_dim)\n        sin = sin.unsqueeze(self.unsqueeze_dim)\n        q_embed = (q * cos) + (rotate_half(q) * sin)\n        k_embed = (k * cos) + (rotate_half(k) * sin)\n        return q_embed, k_embed\n\n\ndef get_inputs():\n    torch.manual_seed(SEED)\n    q = torch.randn(BATCH_SIZE, SEQ_LEN, NUM_HEADS, HEAD_DIM, dtype=torch.float32)\n    k = torch.randn(BATCH_SIZE, SEQ_LEN, NUM_HEADS, HEAD_DIM, dtype=torch.float32)\n    cos = torch.randn(SEQ_LEN, HEAD_DIM, dtype=torch.float32)\n    sin = torch.randn(SEQ_LEN, HEAD_DIM, dtype=torch.float32)\n    return [q, k, cos, sin]\n\n\ndef get_init_inputs():\n    return [UNSQUEEZE_DIM]\n"
+    },
+    {
+      "id": "058",
+      "name": "058_Softmax",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入的二维张量在特征维度（dim=1）上应用 Softmax 归一化处理。输入为形状为 `[batch_size, num_features]` 的张量 `x`；输出张量与 `x` 形状相同，表示计算后的概率分布。",
+        "workload": "",
+        "source": "operaters",
+        "category": "softmax",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a Softmax activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Softmax activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, num_features).\n\n        Returns:\n            torch.Tensor: Output tensor with Softmax applied, same shape as input.\n        \"\"\"\n        return torch.softmax(x, dim=1)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
+    },
+    {
+      "id": "059",
+      "name": "059_hstu_mask_var_len_fwd",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算变长序列下的 HSTU 注意力机制，并根据上下文、历史及实时信息应用复杂的自定义遮罩逻辑。输入包含张量 `q` [total_len, q_head, qk_dim]、`k` [total_len, kv_head, qk_dim]、`v` [total_len, kv_head, v_dim]，变长前缀和 `seq_offsets` [batch + 1]，以及用于样本级遮罩控制的 `context_size`、`history_size`、`realtime_size`、`history_causal`、`context_expand` 与 `label_lens`（形状均为 [batch]）。此外还需输入标量参数 `alpha`、`max_seq_len` 和执行偏好 `preference`；输出张量的形状为 [total_len, q_head, v_dim]。",
+        "workload": "",
+        "source": "operaters",
+        "category": "attention",
+        "difficulty": "hard",
+        "dtype": [
+          ""
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\n\nSEQ_OFFSETS = [0, 10, 22]\nQ_HEAD = 4\nKV_HEAD = 2\nQK_DIM = 32\nV_DIM = 40\nALPHA = 0.7\nMAX_SEQ_LEN = 12\nCONTEXT_SIZE = [3, 2]\nHISTORY_SIZE = [2, 3]\nREALTIME_SIZE = [1, 1]\nHISTORY_CAUSAL = [1, 0]\nCONTEXT_EXPAND = [1, 0]\nLABEL_LENS = [2, 2]\nPREFERENCE = 2\nSEED = 2026\n\n\ndef _normalize_preference(preference: int | str) -> str:\n    if isinstance(preference, str):\n        return preference\n    return {\n        0: \"FAST\",\n        1: \"HIGH_PRECISION\",\n        2: \"BALANCE\",\n    }[int(preference)]\n\n\ndef _repeat_kv(x: torch.Tensor, n_rep: int) -> torch.Tensor:\n    x = x.unsqueeze(2)\n    x = torch.tile(x, [1, 1, n_rep, 1, 1])\n    return x.reshape(x.shape[0], x.shape[1] * n_rep, x.shape[3], x.shape[4])\n\n\ndef _build_mask(\n    q_len: int,\n    k_len: int,\n    ctx_size: int,\n    htr_size: int,\n    rlt_size: int,\n    htr_causal: bool,\n    ctx_expand: bool,\n    lab_lens: int,\n    device: torch.device,\n) -> torch.Tensor:\n    mask_row = torch.arange(0, q_len, device=device)\n    if ctx_expand:\n        mask_row[0:ctx_size] = ctx_size + htr_size - 1\n    else:\n        mask_row[0:ctx_size] = ctx_size - 1\n    if not htr_causal:\n        mask_row[ctx_size: ctx_size + htr_size] = ctx_size + htr_size - 1\n\n    mask_col1 = torch.arange(0, k_len, device=device)\n    mask_col2 = torch.ones(k_len, device=device, dtype=mask_row.dtype) * k_len\n    lab_begin = ctx_size + htr_size + rlt_size\n    lab_size = q_len - lab_begin\n    lab_groups = lab_size // lab_lens\n    for group_i in range(lab_groups):\n        start = lab_begin + group_i * lab_lens\n        end = lab_begin + (group_i + 1) * lab_lens\n        mask_col2[start:end] = end\n\n    mask1 = mask_row[:, None] >= mask_col1[None, :]\n    mask2 = mask_row[:, None] < mask_col2[None, :]\n    return mask1 & mask2\n\n\ndef _hstu_reference(\n    q: torch.Tensor,\n    k: torch.Tensor,\n    v: torch.Tensor,\n    alpha: float,\n    max_seq_len: int,\n    ctx_size: int,\n    htr_size: int,\n    rlt_size: int,\n    htr_causal: bool,\n    ctx_expand: bool,\n    lab_lens: int,\n) -> torch.Tensor:\n    q = torch.transpose(q, 1, 2)\n    k = torch.transpose(k, 1, 2)\n    v = torch.transpose(v, 1, 2)\n    q_head, q_len = q.shape[1], q.shape[2]\n    kv_head, k_len = k.shape[1], k.shape[2]\n\n    if q_head > kv_head:\n        head_group = q_head // kv_head\n        k = _repeat_kv(k, head_group)\n        v = _repeat_kv(v, head_group)\n\n    mask = _build_mask(\n        q_len=q_len,\n        k_len=k_len,\n        ctx_size=ctx_size,\n        htr_size=htr_size,\n        rlt_size=rlt_size,\n        htr_causal=htr_causal,\n        ctx_expand=ctx_expand,\n        lab_lens=lab_lens,\n        device=q.device,\n    )\n\n    logits = torch.matmul(q.float(), k.transpose(2, 3).float()) * alpha\n    logits = torch.where(\n        mask.unsqueeze(0).unsqueeze(0),\n        logits,\n        torch.full_like(logits, -1e6),\n    )\n    probs = F.silu(logits) * (1.0 / max_seq_len)\n    probs = probs.to(q.dtype).float()\n    out = torch.matmul(probs, v.float()).to(q.dtype)\n    return torch.transpose(out, 1, 2)\n\n\ndef _hstu_varlen_reference(\n    q: torch.Tensor,\n    k: torch.Tensor,\n    v: torch.Tensor,\n    alpha: float,\n    seq_offsets: torch.Tensor,\n    max_seq_len: int,\n    context_size: torch.Tensor,\n    history_size: torch.Tensor,\n    realtime_size: torch.Tensor,\n    history_causal: torch.Tensor,\n    context_expand: torch.Tensor,\n    label_lens: torch.Tensor,\n) -> torch.Tensor:\n    batch_size = seq_offsets.shape[0] - 1\n    seq_lens = (seq_offsets[1:] - seq_offsets[:-1]).tolist()\n    q_list = torch.split(q, seq_lens)\n    k_list = torch.split(k, seq_lens)\n    v_list = torch.split(v, seq_lens)\n\n    out_list = []\n    for i in range(batch_size):\n        out_list.append(\n            _hstu_reference(\n                q_list[i].unsqueeze(0),\n                k_list[i].unsqueeze(0),\n                v_list[i].unsqueeze(0),\n                alpha=alpha,\n                max_seq_len=max_seq_len,\n                ctx_size=int(context_size[i].item()),\n                htr_size=int(history_size[i].item()),\n                rlt_size=int(realtime_size[i].item()),\n                htr_causal=bool(int(history_causal[i].item())),\n                ctx_expand=bool(int(context_expand[i].item())),\n                lab_lens=int(label_lens[i].item()),\n            ).squeeze(0)\n        )\n    return torch.cat(out_list, dim=0)\n\n\nclass Model(nn.Module):\n    \"\"\"\n    Reference implementation of the masked variable-length HSTU forward pass.\n    \"\"\"\n\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(\n        self,\n        q: torch.Tensor,\n        k: torch.Tensor,\n        v: torch.Tensor,\n        alpha: float,\n        seq_offsets: torch.Tensor,\n        max_seq_len: int,\n        context_size: torch.Tensor,\n        history_size: torch.Tensor,\n        realtime_size: torch.Tensor,\n        history_causal: torch.Tensor,\n        context_expand: torch.Tensor,\n        label_lens: torch.Tensor,\n        preference: int | str,\n    ) -> torch.Tensor:\n        \"\"\"\n        Computes flattened HSTU attention with context/history/realtime/label masks.\n        \"\"\"\n        _normalize_preference(preference)\n        return _hstu_varlen_reference(\n            q,\n            k,\n            v,\n            alpha,\n            seq_offsets,\n            max_seq_len,\n            context_size,\n            history_size,\n            realtime_size,\n            history_causal,\n            context_expand,\n            label_lens,\n        )\n\n\ndef get_inputs():\n    torch.manual_seed(SEED)\n    total_seq_len = SEQ_OFFSETS[-1]\n\n    q = torch.randn((total_seq_len, Q_HEAD, QK_DIM), dtype=torch.float32)\n    k = torch.randn((total_seq_len, KV_HEAD, QK_DIM), dtype=torch.float32)\n    v = torch.randn((total_seq_len, KV_HEAD, V_DIM), dtype=torch.float32)\n\n    seq_offsets = torch.tensor(SEQ_OFFSETS, dtype=torch.int32)\n    context_size = torch.tensor(CONTEXT_SIZE, dtype=torch.int32)\n    history_size = torch.tensor(HISTORY_SIZE, dtype=torch.int32)\n    realtime_size = torch.tensor(REALTIME_SIZE, dtype=torch.int32)\n    history_causal = torch.tensor(HISTORY_CAUSAL, dtype=torch.int32)\n    context_expand = torch.tensor(CONTEXT_EXPAND, dtype=torch.int32)\n    label_lens = torch.tensor(LABEL_LENS, dtype=torch.int32)\n\n    return [\n        q,\n        k,\n        v,\n        ALPHA,\n        seq_offsets,\n        MAX_SEQ_LEN,\n        context_size,\n        history_size,\n        realtime_size,\n        history_causal,\n        context_expand,\n        label_lens,\n        PREFERENCE,\n    ]\n\n\ndef get_init_inputs():\n    return []\n"
+    },
+    {
+      "id": "060",
+      "name": "060_cross_entropy",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，支持标签平滑（Label Smoothing）和忽略特定索引值的交叉熵损失计算。输入包括形状为 `[batch, seq_len, vocab]` 的预测对数概率 `_input`、形状为 `[batch * seq_len]` 的目标标签 `target`，以及 `label_smoothing`、`reduce_loss` 和 `ignore_idx` 等控制参数。该算子根据归约标志返回标量形式或形状为 `[batch, seq_len]` 的逐元素损失张量。",
+        "workload": "",
+        "source": "operaters",
+        "category": "loss",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    \"\"\"\n    Reference model for the Distributed Cross Entropy kernel with Label Smoothing.\n    This model simulates the behavior of the Triton kernel, including handling \n    of the ignore_index and the normalization by non-ignored elements.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, _input, target, label_smoothing, reduce_loss, dist_process_group, ignore_idx):\n        label_smoothing = float(label_smoothing.item()) if isinstance(label_smoothing, torch.Tensor) else label_smoothing\n        reduce_loss = bool(reduce_loss.item())\n        ignore_idx = int(ignore_idx.item())\n        # 1. 硬件兼容性处理：强制转为 float32\n        # 解决 \"nll_loss_forward... not implemented for BFloat16\" \n        orig_dtype = _input.dtype\n        logits = _input.to(torch.float32).view(-1, _input.size(-1))\n        target = target.to(torch.long).view(-1)\n\n        # 2. 调用 PyTorch 参考实现\n        loss = F.cross_entropy(\n            logits, \n            target, \n            ignore_index=ignore_idx, \n            label_smoothing=label_smoothing, \n            reduction='none'\n        )\n\n        # 3. 按照 Triton 算子的逻辑进行归约\n        if reduce_loss:\n            n_non_ignore = (target != ignore_idx).sum().to(torch.float32)\n            # 强制转为 1 维\n            loss = (loss.sum() / n_non_ignore.clamp(min=1.0)).view(1)\n        else:\n            loss = loss.view(_input.shape[0], _input.shape[1])\n\n        return loss.to(orig_dtype)\n        \n# 测试参数设置\nbatch_size = 4\nseq_len = 128\nvocab_size = 32768\n\n# 定义控制参数\nlabel_smoothing = 0.1\nreduce_loss = True\ndist_process_group = None  # 测试环境通常不涉及分布式组\nignore_idx = -100\n\ndef get_inputs():\n    \"\"\"\n    Generates representative inputs for the cross entropy kernel.\n    \"\"\"\n    ls = torch.tensor(label_smoothing)\n    rl = torch.tensor(1) # 1 为 True, 0 为 False\n    idx = torch.tensor(-100)\n    dist_process_group = torch.tensor([])\n\n    # 模拟 Logits (B, SQ, V)\n    _input = torch.randn(batch_size, seq_len, vocab_size, dtype=torch.float32)\n    \n    # 模拟标签 (B * SQ)，随机包含一些 ignore_idx\n    target = torch.randint(0, vocab_size, (batch_size * seq_len,))\n    \n    # # 随机插入 ignore_idx 以测试过滤逻辑\n    # mask = torch.rand(target.shape) < 0.1\n    # target[mask] = idx\n    # 将所有参数打包返回\n    # 注意：顺序必须与 Model.forward 的参数顺序完全一致\n    return [_input, target, ls, rl, dist_process_group, idx]\n\ndef get_init_inputs():\n    return []"
+    },
+    {
+      "id": "061",
+      "name": "061_adaptiveaveragepool",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对五维输入张量进行三维自适应平均池化处理。输入包括形状为 `[N, C, T, H, W]` 的张量 `input`，以及分别代表目标输出时间、高度和宽度维度的整数 `osizeT`、`osizeH` 和 `osizeW`；输出为形状为 `[N, C, osizeT, osizeH, osizeW]` 的池化结果。",
+        "workload": "",
+        "source": "jsonl",
+        "category": "reduce",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, input: torch.Tensor, osizeT: int, osizeH: int, osizeW: int) -> torch.Tensor:\n        \"\"\"\n        Perform 3D adaptive average pooling on a 5D input tensor.\n\n        Args:\n            input (torch.Tensor): Input tensor of shape (N, C, T, H, W).\n            osizeT (int): Target size for the temporal dimension.\n            osizeH (int): Target size for the height dimension.\n            osizeW (int): Target size for the width dimension.\n\n        Returns:\n            torch.Tensor: Output tensor of shape (N, C, osizeT, osizeH, osizeW).\n        \"\"\"\n        # Use PyTorch's built-in adaptive_avg_pool3d for efficient computation\n        return F.adaptive_avg_pool3d(input, (osizeT, osizeH, osizeW))"
+    },
+    {
+      "id": "062",
+      "name": "062_compute_agg",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对一维输入张量执行包含当前位置的累加前缀和（Inclusive Prefix Sum）运算。输入为一个形状为 `[N]` 的 `int32` 类型张量 `agg`；输出为数据类型转换为 `int64` 后的前缀和计算结果，其形状与输入相同。",
+        "workload": "",
+        "source": "jsonl",
+        "category": "reduce",
+        "difficulty": "medium",
+        "dtype": [
+          "int32"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, agg: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Perform an inclusive prefix sum (scan) on the input tensor `agg`.\n\n        Args:\n            agg (torch.Tensor): A 1D tensor of dtype torch.int32.\n\n        Returns:\n            torch.Tensor: A 1D tensor of dtype torch.int64 containing the inclusive prefix sum.\n        \"\"\"\n        # Ensure the input tensor is of dtype int32\n        assert agg.dtype == torch.int32, \"Input tensor must be of dtype torch.int32\"\n        # Perform inclusive prefix sum using torch.cumsum and cast to int64\n        return torch.cumsum(agg, dim=0, dtype=torch.int64)"
+    },
+    {
+      "id": "063",
+      "name": "063_calc_block_sums",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算一维张量的分块求和结果。输入包括形状为 `[N]` 的张量 `input` 以及用于确定每个计算单元处理元素数量的整型参数 `iters_per_cta`；输出为形状为 `[num_blocks]` 的张量，其中每个元素对应一个数据块的累加和。",
+        "workload": "",
+        "source": "jsonl",
+        "category": "reduce",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n    \n    def forward(self, input: torch.Tensor, iters_per_cta: int):\n        \"\"\"\n        Compute block-wise sums of the input tensor.\n\n        Args:\n            input (torch.Tensor): Input tensor of shape (N,).\n            iters_per_cta (int): Number of iterations per block.\n\n        Returns:\n            torch.Tensor: Tensor of block-wise sums.\n        \"\"\"\n        BLOCK_THREADS = 128\n        ITEMS_PER_THREAD = 4\n\n        # Calculate the number of elements per block\n        elems_per_block = BLOCK_THREADS * ITEMS_PER_THREAD * iters_per_cta\n\n        # Calculate the number of blocks\n        num_blocks = (input.numel() + elems_per_block - 1) // elems_per_block\n\n        # Pad the input tensor to make it divisible by elems_per_block\n        pad_size = elems_per_block * num_blocks - input.numel()\n        if pad_size > 0:\n            input = torch.nn.functional.pad(input, (0, pad_size), mode='constant', value=0)\n\n        # Reshape the input tensor into blocks\n        input_blocks = input.view(num_blocks, elems_per_block)\n\n        # Compute the sum of each block using efficient vectorized operations\n        block_sums = torch.sum(input_blocks, dim=1)\n\n        return block_sums"
+    },
+    {
+      "id": "064",
+      "name": "064_adaptive_average_pool_nhwc",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对 NHWC 布局的四维张量进行自适应平均池化处理。输入包括形状为 `[B, H, W, C]` 的张量 `input`，以及表示目标输出高度和宽度的整型标量 `osizeH` 与 `osizeW`；输出张量的形状为 `[B, osizeH, osizeW, C]`。",
+        "workload": "",
+        "source": "jsonl",
+        "category": "reduce",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, input: torch.Tensor, osizeH: int, osizeW: int) -> torch.Tensor:\n        \"\"\"\n        Perform adaptive average pooling on an NHWC tensor using PyTorch's built-in operators.\n\n        Args:\n            input (torch.Tensor): Input tensor of shape (B, H, W, C) in NHWC format.\n            osizeH (int): Target output height.\n            osizeW (int): Target output width.\n\n        Returns:\n            torch.Tensor: Output tensor of shape (B, osizeH, osizeW, C) in NHWC format.\n        \"\"\"\n        # Convert NHWC to NCHW for PyTorch's adaptive_avg_pool2d\n        input_nchw = input.permute(0, 3, 1, 2)  # (B, C, H, W)\n\n        # Apply adaptive average pooling\n        output_nchw = F.adaptive_avg_pool2d(input_nchw, (osizeH, osizeW))  # (B, C, osizeH, osizeW)\n\n        # Convert back to NHWC format\n        output_nhwc = output_nchw.permute(0, 2, 3, 1)  # (B, osizeH, osizeW, C)\n\n        return output_nhwc"
+    },
+    {
+      "id": "065",
+      "name": "065_lpmax_cleanup",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算二维张量每一行的最大值，并在计算时忽略 NaN 值（仅当整行均为 NaN 时返回 NaN）。输入包括形状为 `[num_tensors, max_chunks_per_tensor]` 的张量 `output_per_tensor` 以及表示列数的整型参数 `max_chunks_per_tensor`；输出为形状为 `[num_tensors]` 的一维张量。",
+        "workload": "",
+        "source": "jsonl",
+        "category": "reduce",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, output_per_tensor: torch.Tensor, max_chunks_per_tensor: int):\n        \"\"\"\n        Computes the maximum value for each row in the 2D tensor `output_per_tensor`.\n        If a row contains NaN values, the result for that row will also be NaN.\n\n        Args:\n            output_per_tensor (torch.Tensor): A 2D tensor of shape [num_tensors, max_chunks_per_tensor].\n            max_chunks_per_tensor (int): The number of chunks per tensor (must match output_per_tensor.size(1)).\n\n        Returns:\n            torch.Tensor: A 1D tensor of shape [num_tensors] containing the maximum value for each row.\n        \"\"\"\n        # Ensure the input tensor is 2D and the second dimension matches max_chunks_per_tensor\n        assert output_per_tensor.dim() == 2, \"output_per_tensor must be a 2D tensor\"\n        assert output_per_tensor.size(1) == max_chunks_per_tensor, (\n            \"max_chunks_per_tensor must match output_per_tensor.size(1)\"\n        )\n\n        # Replace NaN values with -inf to ensure they don't affect the max computation\n        nan_mask = torch.isnan(output_per_tensor)\n        output_no_nan = output_per_tensor.clone()\n        output_no_nan[nan_mask] = float('-inf')\n\n        # Compute the maximum value for each row\n        row_max, _ = torch.max(output_no_nan, dim=1)\n\n        # If a row contains all NaNs, the result should be NaN\n        all_nan_mask = nan_mask.all(dim=1)\n        row_max[all_nan_mask] = float('nan')\n\n        return row_max"
+    },
+    {
+      "id": "066",
+      "name": "066_transform_vals",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，实现两个张量之间的逐元素加法运算。输入包括形状均为 `[D1, D2, ...]` 的张量 `a` 和 `b`；输出张量与输入形状相同。",
+        "workload": "",
+        "source": "jsonl",
+        "category": "elementwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float32",
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:\n        # Ensure the inputs are of the same shape and type\n        assert a.shape == b.shape, \"Input tensors must have the same shape\"\n        assert a.dtype == torch.float32 and b.dtype == torch.float32, \"Input tensors must be of type float32\"\n        \n        # Perform elementwise addition\n        return a + b"
+    },
+    {
+      "id": "067",
+      "name": "067_renormRowsL1",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行按行求和归一化操作。输入为形状为 `[M, N]` 的张量 `input_tensor`，该算子计算每一行的元素之和，并在行和大于零的情况下将该行元素除以行和以实现归一化；输出张量的形状与 `input_tensor` 相同。",
+        "workload": "",
+        "source": "jsonl",
+        "category": "reduce",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, input_tensor: torch.Tensor) -> torch.Tensor:\n        # Compute the row-wise sum\n        row_sums = input_tensor.sum(dim=1, keepdim=True)\n        \n        # Avoid division by zero: only normalize rows where the sum is positive\n        normalized_tensor = torch.where(\n            row_sums > 0, \n            input_tensor / row_sums, \n            input_tensor\n        )\n        \n        return normalized_tensor"
+    },
+    {
+      "id": "068",
+      "name": "068_upsample_bilinear2d_out_frame",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对四维张量执行二维双线性插值上采样。输入包括形状为 `[N, C, H, W]` 的张量 `input`，目标输出高度 `out_h` 和宽度 `out_w`，以及布尔标量 `align_corners` 用于控制插值时的坐标对齐方式；输出张量的形状为 `[N, C, out_h, out_w]`。",
+        "workload": "",
+        "source": "jsonl",
+        "category": "fuse",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, input: torch.Tensor, out_h: int, out_w: int, align_corners: bool = False) -> torch.Tensor:\n        \"\"\"\n        Perform 2D bilinear upsampling on a 4D tensor (N, C, H, W).\n\n        Args:\n            input (torch.Tensor): Input tensor of shape (N, C, H, W).\n            out_h (int): Desired output height.\n            out_w (int): Desired output width.\n            align_corners (bool): Whether to align corners during interpolation.\n\n        Returns:\n            torch.Tensor: Upsampled tensor of shape (N, C, out_h, out_w).\n        \"\"\"\n        # Extract input dimensions\n        batchsize, channels, height1, width1 = input.shape\n\n        # Compute scaling factors\n        if align_corners and out_h > 1:\n            rheight = (height1 - 1) / (out_h - 1)\n        else:\n            rheight = height1 / out_h\n\n        if align_corners and out_w > 1:\n            rwidth = (width1 - 1) / (out_w - 1)\n        else:\n            rwidth = width1 / out_w\n\n        # Prepare output tensor\n        output = torch.empty((batchsize, channels, out_h, out_w), device=input.device, dtype=input.dtype)\n\n        # Iterate over output spatial dimensions\n        for h2 in range(out_h):\n            h1r = (h2 * rheight) if align_corners else ((h2 + 0.5) * rheight - 0.5)\n            h1r = max(0, min(h1r, height1 - 1))\n            h1 = int(h1r)\n            h1p = min(h1 + 1, height1 - 1)\n            h1lambda = h1r - h1\n            h0lambda = 1.0 - h1lambda\n\n            for w2 in range(out_w):\n                w1r = (w2 * rwidth) if align_corners else ((w2 + 0.5) * rwidth - 0.5)\n                w1r = max(0, min(w1r, width1 - 1))\n                w1 = int(w1r)\n                w1p = min(w1 + 1, width1 - 1)\n                w1lambda = w1r - w1\n                w0lambda = 1.0 - w1lambda\n\n                # Perform bilinear interpolation\n                for n in range(batchsize):\n                    for c in range(channels):\n                        v00 = input[n, c, h1, w1]\n                        v01 = input[n, c, h1, w1p]\n                        v10 = input[n, c, h1p, w1]\n                        v11 = input[n, c, h1p, w1p]\n\n                        output[n, c, h2, w2] = (\n                            h0lambda * (w0lambda * v00 + w1lambda * v01) +\n                            h1lambda * (w0lambda * v10 + w1lambda * v11)\n                        )\n\n        return output"
+    },
+    {
+      "id": "069",
+      "name": "069_lstm_cell_forward",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行 LSTM 单元的前向门控计算与细胞状态更新，生成当前时刻的隐藏状态。输入包括门控输入张量 `input` 与 `hidden`（形状均为 `[batch, 4, hsz]`）、偏置项 `bias1` 与 `bias2`（形状均为 `[4, hsz]`）以及当前细胞状态 `cx`（形状为 `[batch, hsz]`）；同时需传入标量参数隐藏层维度 `hsz` 及总元素个数 `totalElements`。算子对各门控信号应用 Sigmoid 和 Tanh 激活并完成状态融合，最终输出形状为 `[totalElements]` 的更新后隐藏状态。",
+        "workload": "",
+        "source": "jsonl",
+        "category": "fuse",
+        "difficulty": "medium",
+        "dtype": [
+          "float32",
+          "float32",
+          "float32",
+          "float32",
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(\n        self,\n        input: torch.Tensor,\n        hidden: torch.Tensor,\n        bias1: torch.Tensor,\n        bias2: torch.Tensor,\n        cx: torch.Tensor,\n        hsz: int,\n        totalElements: int,\n    ) -> torch.Tensor:\n        # Match original wrapper: return only hy of shape (totalElements,)\n\n        # Ensure contiguity like in C++ wrapper\n        input_c = input.contiguous()\n        hidden_c = hidden.contiguous()\n        bias1_c = bias1.contiguous()\n        bias2_c = bias2.contiguous()\n        cx_c = cx.contiguous()\n\n        batch = totalElements // hsz\n\n        # Reshape to (batch, 4, hsz) to mimic CUDA layout [batch, 4, hsz]\n        input_reshaped = input_c.view(batch, 4, hsz)\n        hidden_reshaped = hidden_c.view(batch, 4, hsz)\n\n        # Stack input and hidden, then sum to avoid per-gate indexing\n        # gates: (batch, 4, hsz)\n        gates = input_reshaped + hidden_reshaped\n\n        # Biases: (4, hsz) -> broadcast to (1, 4, hsz)\n        bias_sum = (bias1_c + bias2_c).unsqueeze(0)\n\n        gates = gates + bias_sum\n\n        # Split gates along gate dimension (dim=1)\n        ig, fg, cg, og = gates.unbind(dim=1)\n\n        ig = torch.sigmoid(ig)\n        fg = torch.sigmoid(fg)\n        cg = torch.tanh(cg)\n        og = torch.sigmoid(og)\n\n        cx_reshaped = cx_c.view(batch, hsz)\n\n        cy = fg * cx_reshaped + ig * cg\n        hy = og * torch.tanh(cy)\n\n        return hy.reshape(totalElements)"
+    },
+    {
+      "id": "070",
+      "name": "070_Sqrt",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行逐元素的绝对值计算并求其平方根。输入为形状为 `[batch_size, dim]` 的张量 `x`；输出张量与 `x` 的形状一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.sqrt(torch.abs(x))\nbatch_size = 16; dim = 16384\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "071",
+      "name": "071_Cos",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算输入张量中各元素的余弦值。输入包括形状为 `[batch_size, dim]` 的张量 `x`；输出张量与输入形状相同。",
+        "workload": "",
+        "source": "custom",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.cos(x)\nbatch_size = 16; dim = 16384\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "072",
+      "name": "072_ElementwiseAdd",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行两个二维张量的逐元素加法运算。输入包括形状均为 `[M, N]` 的张量 `a` 和 `b`；输出结果的形状与输入张量相同。",
+        "workload": "",
+        "source": "custom",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:\n        return a + b\nM = 1024; N = 4096\ndef get_inputs(): return [torch.randn(M, N), torch.randn(M, N)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "073",
+      "name": "073_Power",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算输入张量各元素绝对值的指定幂次。输入包括形状为 `[batch, dim]` 的张量 `x` 以及一个表示指数的浮点数标量 `exponent`；输出张量的形状与 `x` 相同。",
+        "workload": "",
+        "source": "custom",
+        "category": "pointwise",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, exponent: float = 2.0):\n        super().__init__(); self.exponent = exponent\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.pow(x.abs(), self.exponent)\nbatch_size = 16; dim = 16384\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return [2.0]"
+    },
+    {
+      "id": "074",
+      "name": "074_Std_reduction_over_dim",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算输入张量在指定轴上的标准差。输入包括形状为 `[d0, d1, d2]` 的张量 `x` 以及用于指定计算维度的整型参数 `dim`；输出为在该维度约简后的结果张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int):\n        super().__init__(); self.dim = dim\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.std(x, dim=self.dim)\nbatch_size = 16; dim1 = 256; dim2 = 256\ndef get_inputs(): return [torch.randn(batch_size, dim1, dim2)]\ndef get_init_inputs(): return [1]"
+    },
+    {
+      "id": "075",
+      "name": "075_TopK",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，用于在输入张量的指定维度上提取前 $k$ 个最大的数值及其对应的索引。输入包括形状为 `[batch, dim]` 的张量 `x`，以及整型标量参数 `k` 和 `dim`，分别表示需要提取的元素数量和操作的维度；输出为包含最大值及其索引的两个张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, k: int, dim: int):\n        super().__init__(); self.k = k; self.dim = dim\n    def forward(self, x: torch.Tensor):\n        return torch.topk(x, self.k, dim=self.dim)\nbatch_size = 16; dim = 1024\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return [10, 1]"
+    },
+    {
+      "id": "076",
+      "name": "076_Sort",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量在指定维度上执行排序操作并输出排序后的数值结果。输入包括形状为 `[D0, D1, ..., DN]` 的张量 `x`，以及用于指定排序轴的整数 `dim` 和控制排序顺序（升序或降序）的布尔值 `descending`；输出张量与 `x` 形状相同。",
+        "workload": "",
+        "source": "custom",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int, descending: bool = False):\n        super().__init__(); self.dim = dim; self.descending = descending\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.sort(x, dim=self.dim, descending=self.descending).values\nbatch_size = 16; dim = 1024\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return [1, False]"
+    },
+    {
+      "id": "077",
+      "name": "077_LogSumExp_over_dim",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，沿指定维度对输入张量进行对数指数和（LogSumExp）计算。输入包括形状为 `[batch, dim]` 的张量 `x` 以及一个指定归约维度的整数参数 `dim_idx`；输出为沿该维度计算后的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int):\n        super().__init__(); self.dim = dim\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.logsumexp(x, dim=self.dim)\nbatch_size = 16; dim = 1024\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return [1]"
+    },
+    {
+      "id": "078",
+      "name": "078_CumMin",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算输入张量沿指定维度的累积最小值。输入包括形状为 `[batch, length]` 的张量 `x` 和一个指定计算维度的整数 `dim`；输出为累积最小值张量，其形状与 `x` 保持一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "cum",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int):\n        super().__init__(); self.dim = dim\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.cummin(x, dim=self.dim).values\nbatch_size = 128; length = 4000\ndef get_inputs(): return [torch.randn(batch_size, length)]\ndef get_init_inputs(): return [1]"
+    },
+    {
+      "id": "079",
+      "name": "079_Global_sum",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算输入张量中所有元素的全局总和。输入为形状为 `[batch, dim]` 的张量 `x`；输出为包含所有元素累加结果的标量。",
+        "workload": "",
+        "source": "custom",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.sum(x)\nbatch_size = 64; dim = 8192\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "080",
+      "name": "080_All_over_dim",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，用于判断输入张量在指定维度上的元素是否全部大于零。输入包括形状为 `[batch, dim1, dim2]` 的张量 `x` 和一个表示规约维度的整数标量 `dim`；输出为沿 `dim` 维度对比较结果进行逻辑与（All）运算后的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int):\n        super().__init__(); self.dim = dim\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.all(x > 0, dim=self.dim)\nbatch_size = 16; dim1 = 256; dim2 = 256\ndef get_inputs(): return [torch.randn(batch_size, dim1, dim2)]\ndef get_init_inputs(): return [1]"
+    },
+    {
+      "id": "081",
+      "name": "081_Sum_2D_reduction",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对三维张量在最后两个维度上进行求和归约。输入包括形状为 `[batch, H, W]` 的张量 `x`；输出为经过求和降维后形状为 `[batch]` 的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "reduce",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return x.sum(dim=(1, 2))\nbatch_size = 16; H = 256; W = 256\ndef get_inputs(): return [torch.randn(batch_size, H, W)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "082",
+      "name": "082_Scaled_Dot_Product_Attention",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算多头注意力机制中的缩放点积注意力（Scaled Dot-Product Attention）。输入包括形状均为 `[batch, head, seq, dim]` 的查询张量 `q`、键张量 `k` 和值张量 `v`，以及一个用于调整注意力分数的浮点缩放因子 `scale`；输出张量的形状为 `[batch, head, seq, dim]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "attention",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def __init__(self, scale: float = None):\n        super().__init__(); self.scale = scale\n    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor) -> torch.Tensor:\n        d = q.shape[-1]\n        scale = self.scale if self.scale else math.sqrt(d)\n        scores = torch.matmul(q, k.transpose(-2, -1)) / scale\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 2; heads = 8; seq = 128; dim = 64\ndef get_inputs():\n    q = torch.randn(batch, heads, seq, dim)\n    k = torch.randn(batch, heads, seq, dim)\n    v = torch.randn(batch, heads, seq, dim)\n    return [q, k, v]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "083",
+      "name": "083_Causal_Self_Attention",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算带有因果掩码（Causal Mask）的缩放点积注意力（Scaled Dot-Product Attention）。输入包括形状均为 `[batch, heads, seq, dim]` 的张量 `q`、`k` 和 `v`；算子通过对 `q` 和 `k` 的点积结果进行缩放、因果掩码遮蔽及 Softmax 归一化后，再与 `v` 进行矩阵乘法，得到形状为 `[batch, heads, seq, dim]` 的输出张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "attention",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor) -> torch.Tensor:\n        seq = q.shape[2]\n        mask = torch.tril(torch.ones(seq, seq, device=q.device)).bool()\n        d = q.shape[-1]\n        scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(d)\n        scores = scores.masked_fill(~mask.unsqueeze(0).unsqueeze(0), float('-inf'))\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 2; heads = 8; seq = 128; dim = 64\ndef get_inputs():\n    q = torch.randn(batch, heads, seq, dim)\n    k = torch.randn(batch, heads, seq, dim)\n    v = torch.randn(batch, heads, seq, dim)\n    return [q, k, v]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "084",
+      "name": "084_Cross_Attention",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，完成多头注意力（Multi-head Attention）的前向计算。输入包括形状为 `[batch, q_seq, d_model]` 的查询张量 `query`、形状为 `[batch, kv_seq, d_model]` 的键值对张量 `key_value`，以及注意力头数 `num_heads`；该算子通过计算注意力得分并加权聚合，输出形状为 `[batch, q_seq, d_model]` 的结果张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "attention",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, d_model: int, num_heads: int):\n        super().__init__()\n        self.mha = nn.MultiheadAttention(d_model, num_heads, batch_first=True)\n    def forward(self, query: torch.Tensor, key_value: torch.Tensor) -> torch.Tensor:\n        out, _ = self.mha(query, key_value, key_value)\n        return out\nbatch = 4; q_seq = 64; kv_seq = 128; d_model = 512; num_heads = 8\ndef get_inputs():\n    return [torch.randn(batch, q_seq, d_model), torch.randn(batch, kv_seq, d_model)]\ndef get_init_inputs(): return [d_model, num_heads]"
+    },
+    {
+      "id": "085",
+      "name": "085_Linear",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行对输入张量的线性变换操作，计算矩阵乘法并累加偏置。输入包括形状为 `[batch, seq, in_features]` 的张量 `x`、形状为 `[out_features, in_features]` 的权重矩阵 `weight` 以及形状为 `[out_features]` 的偏置向量 `bias`；输出张量的形状为 `[batch, seq, out_features]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_features: int, out_features: int, bias: bool = True):\n        super().__init__()\n        self.linear = nn.Linear(in_features, out_features, bias=bias)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.linear(x)\nbatch = 64; seq = 128; in_features = 512; out_features = 2048\ndef get_inputs(): return [torch.randn(batch, seq, in_features)]\ndef get_init_inputs(): return [in_features, out_features]"
+    },
+    {
+      "id": "086",
+      "name": "086_Batch_outer_product",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对两个输入张量进行批处理外积（Batch Outer Product）运算。输入包含形状为 `[batch, M]` 的张量 `a` 和形状为 `[batch, N]` 的张量 `b`；输出张量形状为 `[batch, M, N]`，表示每个批次中两个向量的外积矩阵。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:\n        return torch.einsum('bi,bj->bij', a, b)\nbatch = 64; M = 256; N = 256\ndef get_inputs(): return [torch.randn(batch, M), torch.randn(batch, N)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "087",
+      "name": "087_Hadamard_product",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对两个张量进行逐元素乘法。输入包括形状均为 `[M, N]` 的张量 `A` 和 `B`；输出结果张量的形状与输入相同。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        return A * B\nM = 2048; N = 2048\ndef get_inputs(): return [torch.randn(M, N), torch.randn(M, N)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "088",
+      "name": "088_Matrix_trace",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算输入张量最后两个维度组成的各矩阵的迹，即对角线元素之和。输入为张量 `A`，其形状为 `[batch, N, N]`；输出为求和后的结果，其形状为 `[batch]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor) -> torch.Tensor:\n        return torch.diagonal(A, dim1=-2, dim2=-1).sum(dim=-1)\nbatch = 32; N = 512\ndef get_inputs(): return [torch.randn(batch, N, N)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "089",
+      "name": "089_Diagonal_extraction",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，提取三维张量最后两个维度上指定偏移量的对角线元素。输入包括形状为 `[batch, M, N]` 的三维张量 `A` 以及一个表示对角线相对于主对角线偏移位置的整数参数 `offset`；输出为包含提取出的对角线元素的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, offset: int = 0):\n        super().__init__(); self.offset = offset\n    def forward(self, A: torch.Tensor) -> torch.Tensor:\n        return torch.diagonal(A, offset=self.offset, dim1=-2, dim2=-1)\nbatch = 32; N = 512\ndef get_inputs(): return [torch.randn(batch, N, N)]\ndef get_init_inputs(): return [0]"
+    },
+    {
+      "id": "090",
+      "name": "090_Einsum_4D_contract",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算两个四维张量在特征维度上的收缩乘积，常用于实现注意力机制中的得分矩阵计算。输入包括形状为 `[batch, heads, seq_i, dim]` 的张量 `A` 和形状为 `[batch, heads, seq_j, dim]` 的张量 `B`；输出为形状为 `[batch, heads, seq_i, seq_j]` 的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        return torch.einsum('bhid,bhjd->bhij', A, B)\nbatch = 4; heads = 8; seq = 128; dim = 64\ndef get_inputs():\n    A = torch.randn(batch, heads, seq, dim)\n    B = torch.randn(batch, heads, seq, dim)\n    return [A, B]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "091",
+      "name": "091_Matrix_inverse",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算输入张量中每一组方阵的逆矩阵。输入为形状是 `[batch, N, N]` 的三维张量 `A`；输出与输入形状相同，包含每个矩阵对应的逆矩阵。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor) -> torch.Tensor:\n        return torch.linalg.inv(A)\nbatch = 8; N = 64\ndef get_inputs():\n    A = torch.randn(batch, N, N)\n    A = A @ A.transpose(-1, -2) + N * torch.eye(N)\n    return [A]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "092",
+      "name": "092_SVD_decomposition",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入的批处理矩阵执行简化奇异值分解（Reduced SVD）。输入为形状为 `[batch, M, N]` 的张量 `A`；输出为分解得到的左奇异向量矩阵 `U`、奇异值向量 `S` 以及右奇异向量矩阵的共轭转置 `Vh`。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor):\n        U, S, Vh = torch.linalg.svd(A, full_matrices=False)\n        return U, S, Vh\nbatch = 8; M = 128; N = 64\ndef get_inputs(): return [torch.randn(batch, M, N)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "093",
+      "name": "093_Batch_triangular_solve",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，用于求解上三角线性方程组。输入包括形状为 `[batch, N, N]` 的上三角系数矩阵 `A` 以及形状为 `[batch, N, K]` 的右端项张量 `b`；输出为形状与 `b` 相同的线性方程组的解。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor, b: torch.Tensor) -> torch.Tensor:\n        return torch.linalg.solve_triangular(A, b, upper=True)\nbatch = 8; N = 64\ndef get_inputs():\n    A = torch.triu(torch.randn(batch, N, N)) + N * torch.eye(N)\n    b = torch.randn(batch, N, 1)\n    return [A, b]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "094",
+      "name": "094_LayerNorm",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行层归一化（Layer Normalization）操作。输入包括形状为 `[batch, seq, d_model]` 的张量 `x`，以及形状均为 `[d_model]` 的缩放参数 `weight` 和偏移参数 `bias`；输出为归一化后的张量，其形状与 `x` 保持一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, normalized_shape):\n        super().__init__()\n        self.ln = nn.LayerNorm(normalized_shape)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.ln(x)\nbatch = 32; seq = 128; d_model = 512\ndef get_inputs(): return [torch.randn(batch, seq, d_model)]\ndef get_init_inputs(): return [d_model]"
+    },
+    {
+      "id": "095",
+      "name": "095_Add_RMSNorm",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行张量逐元素加法与均方根归一化（RMSNorm）的融合计算。输入包括形状均为 `[batch, seq, d_model]` 的张量 `x` 与 `residual`、形状为 `[d_model]` 的权重张量 `weight` 以及用于数值稳定的浮点数标量 `eps`；输出为加法结果经归一化并缩放后的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int, eps: float = 1e-6):\n        super().__init__()\n        self.eps = eps\n        self.weight = nn.Parameter(torch.ones(dim))\n    def forward(self, x: torch.Tensor, residual: torch.Tensor) -> torch.Tensor:\n        h = x + residual\n        rms = h.pow(2).mean(-1, keepdim=True).add(self.eps).rsqrt()\n        return h * rms * self.weight\nbatch = 32; seq = 128; d_model = 512\ndef get_inputs(): return [torch.randn(batch, seq, d_model), torch.randn(batch, seq, d_model)]\ndef get_init_inputs(): return [d_model]"
+    },
+    {
+      "id": "096",
+      "name": "096_LocalResponseNorm",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对四维输入张量执行局部响应归一化（Local Response Norm）操作。输入包括形状为 `[N, C, H, W]` 的张量 `x`，以及用于计算的归一化窗口大小 `size`、缩放因子 `alpha`、指数项 `beta` 和偏移常数 `k`；输出张量形状与输入一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, size: int = 5, alpha: float = 1e-4, beta: float = 0.75, k: float = 1.0):\n        super().__init__()\n        self.lrn = nn.LocalResponseNorm(size, alpha=alpha, beta=beta, k=k)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.lrn(x)\nbatch = 16; channels = 64; H = 56; W = 56\ndef get_inputs(): return [torch.randn(batch, channels, H, W)]\ndef get_init_inputs(): return [5]"
+    },
+    {
+      "id": "097",
+      "name": "097_PixelShuffle",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行像素重排（PixelShuffle）操作，通过将通道维度的特征重组至空间维度以实现图像的上采样。输入包括形状为 `[batch, C * r * r, H, W]` 的张量 `input` 和表示放大倍率的整型标量 `upscale_factor` ($r$)；输出为形状为 `[batch, C, H * r, W * r]` 的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, upscale_factor: int):\n        super().__init__()\n        self.ps = nn.PixelShuffle(upscale_factor)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.ps(x)\nbatch = 4; C = 64; H = 32; W = 32; r = 2\ndef get_inputs(): return [torch.randn(batch, C * r * r, H, W)]\ndef get_init_inputs(): return [2]"
+    },
+    {
+      "id": "098",
+      "name": "098_Attention_with_temperature",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行缩放点积注意力计算（Scaled Dot Product Attention）。输入包括形状均为 `[batch, heads, seq, dim]` 的张量 `q`、`k`、`v`，以及一个用于调整注意力分布平滑度的标量 `temperature`；输出为注意力加权后的结果，其形状与输入张量一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "attention",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, temperature: float = 1.0):\n        super().__init__(); self.temperature = temperature\n    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor) -> torch.Tensor:\n        import math\n        d = q.shape[-1]\n        scores = torch.matmul(q, k.transpose(-2, -1)) / (math.sqrt(d) * self.temperature)\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 2; heads = 8; seq = 128; dim = 64\ndef get_inputs():\n    return [torch.randn(batch, heads, seq, dim)] * 3\ndef get_init_inputs(): return [0.5]"
+    },
+    {
+      "id": "099",
+      "name": "099_DropPath",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，实现 DropPath（随机深度）功能，在训练模式下按样本维度随机丢弃部分输入数据并对剩余部分进行缩放。输入包括形状为 `[batch, ...]` 的张量 `x` 以及表示丢弃概率的浮点数标量 `drop_prob`；输出结果与 `x` 形状一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, drop_prob: float = 0.1):\n        super().__init__(); self.drop_prob = drop_prob\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        if not self.training or self.drop_prob == 0.0:\n            return x\n        keep_prob = 1 - self.drop_prob\n        shape = (x.shape[0],) + (1,) * (x.ndim - 1)\n        random_tensor = torch.rand(shape, device=x.device)\n        output = x / keep_prob * (random_tensor >= self.drop_prob).float()\n        return output\nbatch = 32; seq = 128; d_model = 512\ndef get_inputs(): return [torch.randn(batch, seq, d_model)]\ndef get_init_inputs(): return [0.1]"
+    },
+    {
+      "id": "100",
+      "name": "100_Adaptive_Max_Pool_2D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量进行二维自适应最大池化处理，将其采样至指定的输出尺寸。输入包括形状为 `[batch, channels, H, W]` 的张量 `x` 以及目标输出高度 `out_h` 与宽度 `out_w`；输出为形状是 `[batch, channels, out_h, out_w]` 的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "pool",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, output_size):\n        super().__init__()\n        self.pool = nn.AdaptiveMaxPool2d(output_size)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.pool(x)\nbatch = 16; channels = 64; H = 256; W = 256; out_h = 8; out_w = 8\ndef get_inputs(): return [torch.randn(batch, channels, H, W)]\ndef get_init_inputs(): return [(out_h, out_w)]"
+    },
+    {
+      "id": "101",
+      "name": "101_Max_Pool_2D_with_indices",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对四维张量执行二维最大池化（Max Pooling 2D）运算，并同步返回池化结果及其对应的最大值索引。输入包括形状为 `[batch, channel, height, width]` 的张量 `x`，以及用于定义窗口大小和滑动步长的标量 `kernel_size` 与 `stride`；输出为池化后的张量及其对应的索引张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "pool",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, kernel_size: int, stride: int):\n        super().__init__()\n        self.pool = nn.MaxPool2d(kernel_size, stride=stride, return_indices=True)\n    def forward(self, x: torch.Tensor):\n        return self.pool(x)\nbatch = 16; channels = 32; H = 128; W = 128\ndef get_inputs(): return [torch.randn(batch, channels, H, W)]\ndef get_init_inputs(): return [2, 2]"
+    },
+    {
+      "id": "102",
+      "name": "102_Adaptive_Average_Pool_3D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对五维输入张量执行三维自适应平均池化操作。输入包括形状为 `[batch, C, D, H, W]` 的张量 `x` 以及定义目标输出空间维度的参数 `output_size`；输出张量在保持批大小和通道数不变的情况下，将深度、高度和宽度维度自动调整为 `output_size` 指定的大小。",
+        "workload": "",
+        "source": "custom",
+        "category": "pool",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, output_size):\n        super().__init__(); self.output_size = output_size\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return F.adaptive_avg_pool3d(x, self.output_size)\nbatch = 4; C = 16; D = 32; H = 32; W = 32\ndef get_inputs(): return [torch.randn(batch, C, D, H, W)]\ndef get_init_inputs(): return [(4, 8, 8)]"
+    },
+    {
+      "id": "103",
+      "name": "103_MSE_Loss",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算预测张量与目标张量之间的均方误差（MSE Loss）。输入包括形状均为 `[batch, dim]` 的预测张量 `predictions` 和目标张量 `targets`；输出为计算所得的标量损失值。",
+        "workload": "",
+        "source": "custom",
+        "category": "loss",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, predictions: torch.Tensor, targets: torch.Tensor) -> torch.Tensor:\n        return torch.nn.functional.mse_loss(predictions, targets)\nbatch = 128; dim = 4096\ndef get_inputs(): return [torch.randn(batch, dim), torch.randn(batch, dim)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "104",
+      "name": "104_KL_Divergence_Loss",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算预测对数概率与目标概率之间的 KL 散度，并按照 batch 维度进行平均规约。输入包括形状均为 `[batch, N]` 的张量 `input_log_prob` 和 `target_prob`，分别对应预测的对数概率分布和目标概率分布；输出为按 `batchmean` 模式计算得到的标量结果。",
+        "workload": "",
+        "source": "custom",
+        "category": "loss",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def forward(self, input_log_prob: torch.Tensor, target_prob: torch.Tensor) -> torch.Tensor:\n        return F.kl_div(input_log_prob, target_prob, reduction='batchmean')\nbatch = 128; num_classes = 1024\ndef get_inputs():\n    p = F.softmax(torch.randn(batch, num_classes), dim=-1)\n    q = F.softmax(torch.randn(batch, num_classes), dim=-1)\n    return [torch.log(p), q]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "105",
+      "name": "105_Embedding_lookup",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，根据索引张量从嵌入权重矩阵中查找并提取对应的向量表示。输入包括形状为 `[batch, seq_len]` 的索引张量 `indices` 和形状为 `[num_embeddings, embedding_dim]` 的权重张量 `weight`；输出为形状是 `[batch, seq_len, embedding_dim]` 的特征张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "embedding",
+        "difficulty": "easy",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, num_embeddings: int, embedding_dim: int):\n        super().__init__()\n        self.emb = nn.Embedding(num_embeddings, embedding_dim)\n    def forward(self, indices: torch.Tensor) -> torch.Tensor:\n        return self.emb(indices)\nbatch = 64; seq = 128; vocab_size = 32768; emb_dim = 512\ndef get_inputs(): return [torch.randint(0, vocab_size, (batch, seq))]\ndef get_init_inputs(): return [vocab_size, emb_dim]"
+    },
+    {
+      "id": "106",
+      "name": "106_Embedding_bag_mean",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，根据偏移量对索引序列在词表中进行查找，并对每个 bag 内的嵌入向量计算均值。输入包括一维索引张量 `indices`（形状为 `[total_indices]`）、表示各 bag 起始位置的张量 `offsets`（形状为 `[num_bags]`）以及词表权重矩阵 `weight`（形状为 `[num_embeddings, embedding_dim]`）；输出张量的形状为 `[num_bags, embedding_dim]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "embedding",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, num_embeddings: int, embedding_dim: int):\n        super().__init__()\n        self.emb_bag = nn.EmbeddingBag(num_embeddings, embedding_dim, mode='mean')\n    def forward(self, indices: torch.Tensor, offsets: torch.Tensor) -> torch.Tensor:\n        return self.emb_bag(indices, offsets)\nnum_bags = 64; avg_len = 32; vocab_size = 32768; emb_dim = 256\ndef get_inputs():\n    indices = torch.randint(0, vocab_size, (num_bags * avg_len,))\n    offsets = torch.arange(0, num_bags * avg_len, avg_len)\n    return [indices, offsets]\ndef get_init_inputs(): return [vocab_size, emb_dim]"
+    },
+    {
+      "id": "107",
+      "name": "107_Sinusoidal_positional_encoding",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行正弦位置编码（Sinusoidal Positional Encoding）的加法操作。输入包括形状为 `[batch, seq, d_model]` 的数据张量 `x` 以及预计算的形状为 `[max_len, d_model]` 的位置编码张量 `pe`；输出结果为 `x` 与 `pe` 截取对应序列长度并广播后相加的张量，形状为 `[batch, seq, d_model]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "embedding",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, math\nclass Model(nn.Module):\n    def __init__(self, d_model: int, max_len: int = 5000):\n        super().__init__()\n        pe = torch.zeros(max_len, d_model)\n        position = torch.arange(0, max_len).unsqueeze(1).float()\n        div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))\n        pe[:, 0::2] = torch.sin(position * div_term)\n        pe[:, 1::2] = torch.cos(position * div_term)\n        self.register_buffer('pe', pe)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        seq = x.shape[1]\n        return x + self.pe[:seq].unsqueeze(0)\nbatch = 32; seq = 128; d_model = 512\ndef get_inputs(): return [torch.randn(batch, seq, d_model)]\ndef get_init_inputs(): return [d_model]"
+    },
+    {
+      "id": "108",
+      "name": "108_ALiBi_attention_bias",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，用于计算 Transformer 架构中的 ALiBi 线性位置偏置矩阵。该算子接收表示注意力头数的标量 `num_heads` 和序列长度的标量 `seq_len` 作为输入，计算序列内各位置的绝对距离并结合不同头的衰减斜率生成偏置权重；输出张量的形状为 `[num_heads, seq_len, seq_len]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "embedding",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, math\nclass Model(nn.Module):\n    def __init__(self, num_heads: int):\n        super().__init__()\n        slopes = torch.Tensor([2 ** (-8 * i / num_heads) for i in range(1, num_heads + 1)])\n        self.register_buffer('slopes', slopes)\n    def forward(self, seq_len: int) -> torch.Tensor:\n        pos = torch.arange(seq_len, device=self.slopes.device)\n        rel_pos = (pos.unsqueeze(0) - pos.unsqueeze(1)).abs()\n        bias = -self.slopes.view(-1, 1, 1) * rel_pos.unsqueeze(0)\n        return bias\nnum_heads = 8; seq = 128\ndef get_inputs(): return [torch.tensor(seq)]\ndef get_init_inputs(): return [num_heads]"
+    },
+    {
+      "id": "109",
+      "name": "109_Scatter_add",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，根据索引张量将源张量的数据累加到目标张量的对应位置。输入包括形状为 `[N, D]` 的源张量 `src`、形状为 `[N]` 的索引张量 `index` 以及指定输出首维长度的整数 `dim_size`；输出张量的形状为 `[dim_size, D]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "io",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, src: torch.Tensor, index: torch.Tensor, dim_size: int) -> torch.Tensor:\n        out = torch.zeros(dim_size, src.shape[1], device=src.device, dtype=src.dtype)\n        out.scatter_add_(0, index.unsqueeze(1).expand_as(src), src)\n        return out\nN = 4096; D = 256; dim_size = 512\ndef get_inputs():\n    src = torch.randn(N, D)\n    index = torch.randint(0, dim_size, (N,))\n    return [src, index, dim_size]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "110",
+      "name": "110_Gather_rows",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，在输入张量的第二个维度上根据提供的索引提取元素。输入包括形状为 `[batch, N]` 的数据张量 `input` 和形状为 `[batch, K]` 的索引张量 `index`；输出张量与 `index` 形状相同，即 `[batch, K]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "io",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, input: torch.Tensor, index: torch.Tensor) -> torch.Tensor:\n        return torch.gather(input, 1, index)\nbatch = 64; N = 1024; K = 32\ndef get_inputs():\n    inp = torch.randn(batch, N)\n    idx = torch.randint(0, N, (batch, K))\n    return [inp, idx]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "111",
+      "name": "111_Masked_select",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，根据给定的阈值筛选输入张量中的元素。输入包括形状为 `[M, N]` 的张量 `input` 以及浮点数标量 `threshold`；算子将 `input` 中所有大于 `threshold` 的元素提取并展平为一维张量输出。",
+        "workload": "",
+        "source": "custom",
+        "category": "io",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, input: torch.Tensor, threshold: float) -> torch.Tensor:\n        mask = input > threshold\n        return torch.masked_select(input, mask)\nM = 1024; N = 1024\ndef get_inputs(): return [torch.randn(M, N), 0.0]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "112",
+      "name": "112_Index_put",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，根据指定的索引张量将输入张量的特定行替换为新的数值。输入包括形状为 `[M, N]` 的基础张量 `input`、形状为 `[K, N]` 的更新值张量 `values`、以及形状为 `[K]` 的索引张量 `index`；输出张量的形状与 `input` 保持一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "io",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, input: torch.Tensor, values: torch.Tensor, index: torch.Tensor) -> torch.Tensor:\n        out = input.clone()\n        out[index] = values\n        return out\nM = 4096; N = 512; K = 256\ndef get_inputs():\n    inp = torch.randn(M, N)\n    vals = torch.randn(K, N)\n    idx = torch.randint(0, M, (K,)).unique()\n    idx = idx[:K] if len(idx) >= K else idx\n    vals = vals[:len(idx)]\n    return [inp, vals, idx]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "113",
+      "name": "113_Upsample_nearest",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，采用最近邻插值算法对四维输入张量进行空间维度的上采样。输入包括形状为 `[batch, C, H, W]` 的张量 `x` 以及表示宽高缩放倍数的整数 `scale_factor`；输出张量的形状为 `[batch, C, H * scale_factor, W * scale_factor]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "other",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, scale_factor: int):\n        super().__init__()\n        self.up = nn.Upsample(scale_factor=scale_factor, mode='nearest')\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.up(x)\nbatch = 4; C = 64; H = 64; W = 64\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [2]"
+    },
+    {
+      "id": "114",
+      "name": "114_Pad_constant",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量进行常数边界填充。输入包括形状为 `[N, C, H, W]` 的张量 `x`，规定各维度填充长度的序列 `pad`，以及填充使用的常数标量 `value`；输出为填充后的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "other",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, pad, value: float = 0.0):\n        super().__init__(); self.pad = pad; self.value = value\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return F.pad(x, self.pad, mode='constant', value=self.value)\nbatch = 16; C = 64; H = 128; W = 128\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [(2, 2, 2, 2), 0.0]"
+    },
+    {
+      "id": "115",
+      "name": "115_Unfold",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入的四维张量执行滑窗采样操作，将局部区域展开为连续的列向量。输入包括形状为 `[N, C, H, W]` 的张量 `input`，以及用于控制采样逻辑的标量参数窗口大小 `kernel_size`、步长 `stride` 和填充宽度 `padding`；输出为展开后的张量，其形状由输入尺寸与滑动窗口参数共同决定。",
+        "workload": "",
+        "source": "custom",
+        "category": "other",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, kernel_size: int, stride: int, padding: int):\n        super().__init__()\n        self.unfold = nn.Unfold(kernel_size=kernel_size, stride=stride, padding=padding)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.unfold(x)\nbatch = 16; C = 3; H = 256; W = 256; K = 3\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [3, 1, 0]"
+    },
+    {
+      "id": "116",
+      "name": "116_Grid_sample",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，使用双线性插值模式对输入的 4D 张量进行网格采样。输入包括形状为 `[batch, C, H, W]` 的特征图 `input` 和形状为 `[batch, out_H, out_W, 2]` 的采样网格 `grid`；算子通过 `grid` 提供的归一化坐标在 `input` 上进行双线性插值计算，输出形状为 `[batch, C, out_H, out_W]` 的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "other",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def forward(self, input: torch.Tensor, grid: torch.Tensor) -> torch.Tensor:\n        return F.grid_sample(input, grid, mode='bilinear', padding_mode='zeros', align_corners=True)\nbatch = 4; C = 64; H = 128; W = 128; out_H = 64; out_W = 64\ndef get_inputs():\n    inp = torch.randn(batch, C, H, W)\n    grid = torch.rand(batch, out_H, out_W, 2) * 2 - 1\n    return [inp, grid]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "117",
+      "name": "117_Masked_fill",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，根据掩码张量对输入张量中对应位置的元素进行数值填充。输入包括形状为 `[batch, seq, d]` 的待填充张量 `x`、形状相同的布尔掩码张量 `mask` 以及一个用于填充的浮点标量 `fill_value`；输出结果张量的形状与 `x` 相同。",
+        "workload": "",
+        "source": "custom",
+        "category": "other",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, fill_value: float = 0.0):\n        super().__init__(); self.fill_value = fill_value\n    def forward(self, x: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:\n        return x.masked_fill(mask, self.fill_value)\nbatch = 32; seq = 512; d = 256\ndef get_inputs():\n    x = torch.randn(batch, seq, d)\n    mask = torch.rand(batch, seq, d) > 0.8\n    return [x, mask]\ndef get_init_inputs(): return [float('-inf')]"
+    },
+    {
+      "id": "118",
+      "name": "118_Where_conditional",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，根据布尔条件张量逐元素从两个输入张量中选择数值。输入包括形状均为 `[M, N]` 的条件张量 `condition` 以及数据张量 `x` 和 `y`；输出结果张量的形状与输入一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "other",
+        "difficulty": "easy",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, condition: torch.Tensor, x: torch.Tensor, y: torch.Tensor) -> torch.Tensor:\n        return torch.where(condition, x, y)\nM = 1024; N = 1024\ndef get_inputs():\n    cond = torch.rand(M, N) > 0.5\n    x = torch.randn(M, N)\n    y = torch.randn(M, N)\n    return [cond, x, y]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "119",
+      "name": "119_One_hot_encoding",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，将输入的类别索引张量转换为 float 类型的 one-hot 编码表示。输入包括形状为 `[batch]` 的索引张量 `x` 以及表示类别总数的整数 `num_classes`；输出为形状为 `[batch, num_classes]` 的浮点型张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "other",
+        "difficulty": "easy",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, num_classes: int):\n        super().__init__(); self.num_classes = num_classes\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return F.one_hot(x, self.num_classes).float()\nbatch = 1024; num_classes = 512\ndef get_inputs(): return [torch.randint(0, num_classes, (batch,))]\ndef get_init_inputs(): return [512]"
+    },
+    {
+      "id": "120",
+      "name": "120_Masked_softmax",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行带掩码的 Softmax 归一化处理。输入包括形状为 `[batch, heads, seq, seq]` 的得分张量 `x` 和形状为 `[batch, 1, seq, seq]` 的布尔掩码张量 `mask`；该算子先根据 `mask` 将 `x` 的无效位置填充为负无穷大，随后在最后一个维度进行 Softmax 计算。",
+        "workload": "",
+        "source": "custom",
+        "category": "other",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:\n        x = x.masked_fill(mask == 0, float('-inf'))\n        return F.softmax(x, dim=-1)\nbatch = 32; heads = 8; seq = 128\ndef get_inputs():\n    x = torch.randn(batch, heads, seq, seq)\n    mask = torch.ones(batch, 1, seq, seq).bool()\n    mask[:, :, :, seq//2:] = False\n    return [x, mask]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "121",
+      "name": "121_Scaled_masked_softmax",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对注意力权重张量进行缩放、掩码填充并执行 Softmax 归一化。输入包括形状为 `[batch, heads, seq_len, seq_len]` 的权重张量 `attn_weight`、形状为 `[batch, heads, seq_len, seq_len]` 的布尔掩码 `mask` 以及 float 类型的缩放因子 `scale`；算子对输入进行缩放处理和掩码填充后，在最后一个维度计算 Softmax 结果。",
+        "workload": "",
+        "source": "custom",
+        "category": "attention",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def __init__(self, scale: float = None):\n        super().__init__(); self.scale = scale\n    def forward(self, attn_weight: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:\n        if self.scale:\n            attn_weight = attn_weight * self.scale\n        attn_weight = attn_weight.masked_fill(mask == 0, float('-inf'))\n        return F.softmax(attn_weight, dim=-1)\nbatch = 4; heads = 8; seq = 128\ndef get_inputs():\n    w = torch.randn(batch, heads, seq, seq)\n    mask = torch.tril(torch.ones(seq, seq)).bool().unsqueeze(0).unsqueeze(0)\n    return [w, mask]\ndef get_init_inputs(): return [1.0]"
+    },
+    {
+      "id": "122",
+      "name": "122_Prefix_sum_2D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对三维张量在高度和宽度维度上依次执行累加求和操作，即实现 2D 累加和（2D Cumsum）。输入为形状为 `[batch, H, W]` 的张量 `x`；输出为相同形状的张量，表示输入在 `H` 和 `W` 两个维度上双重累加后的结果。",
+        "workload": "",
+        "source": "custom",
+        "category": "cum",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.cumsum(torch.cumsum(x, dim=1), dim=2)\nbatch = 16; H = 256; W = 256\ndef get_inputs(): return [torch.randn(batch, H, W)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "123",
+      "name": "123_Masked_cumsum",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量应用掩码过滤后沿指定维度计算累加前缀和。输入包括形状为 `[batch, length]` 的张量 `x`、形状相同的掩码张量 `mask` 以及指定累积维度的整数标量 `dim`；输出张量形状与 `x` 保持一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "cum",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor, mask: torch.Tensor, dim: int) -> torch.Tensor:\n        return torch.cumsum(x * mask.float(), dim=dim)\nbatch = 128; length = 4000\ndef get_inputs():\n    x = torch.randn(batch, length)\n    mask = torch.rand(batch, length) > 0.3\n    return [x, mask, 1]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "124",
+      "name": "124_Weight_standardization",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入特征图执行经过权重标准化（Weight Standardization）处理的二维卷积运算。输入包括形状为 `[batch, in_channels, H, W]` 的张量 `x` 以及形状为 `[out_channels, in_channels, kernel_size, kernel_size]` 的卷积权重 `weight`；算子先对 `weight` 在输出通道之外的维度上进行归一化处理，随后与 `x` 进行 padding 为 1 的卷积操作。",
+        "workload": "",
+        "source": "custom",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int):\n        super().__init__()\n        self.weight = nn.Parameter(torch.randn(out_channels, in_channels, kernel_size, kernel_size))\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        w = self.weight\n        mean = w.mean(dim=[1, 2, 3], keepdim=True)\n        std  = w.std(dim=[1, 2, 3], keepdim=True) + 1e-5\n        w_std = (w - mean) / std\n        return F.conv2d(x, w_std, padding=1)\nbatch = 8; C = 64; H = 128; W = 128\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 64, 3]"
+    },
+    {
+      "id": "125",
+      "name": "125_Conditional_LayerNorm",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，实现基于条件向量线性投影的自适应层归一化（AdaLN）。输入包括形状为 `[batch, seq, dim]` 的数据张量 `x`、形状为 `[batch, cond_dim]` 的条件张量 `cond`，以及用于生成投影系数的权重 `w_gamma/w_beta`（形状为 `[dim, cond_dim]`）和偏置 `b_gamma/b_beta`（形状为 `[dim]`）；该算子先对 `x` 进行层归一化（LayerNorm），随后将其与由 `cond` 投影生成的动态缩放因子和偏移量进行仿射变换。",
+        "workload": "",
+        "source": "custom",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int, cond_dim: int):\n        super().__init__()\n        self.ln = nn.LayerNorm(dim, elementwise_affine=False)\n        self.gamma_proj = nn.Linear(cond_dim, dim)\n        self.beta_proj  = nn.Linear(cond_dim, dim)\n    def forward(self, x: torch.Tensor, cond: torch.Tensor) -> torch.Tensor:\n        x = self.ln(x)\n        gamma = self.gamma_proj(cond).unsqueeze(1)\n        beta  = self.beta_proj(cond).unsqueeze(1)\n        return gamma * x + beta\nbatch = 32; seq = 128; dim = 512; cond_dim = 256\ndef get_inputs(): return [torch.randn(batch, seq, dim), torch.randn(batch, cond_dim)]\ndef get_init_inputs(): return [dim, cond_dim]"
+    },
+    {
+      "id": "126",
+      "name": "126_QR_decomposition",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入的三维批量矩阵执行 QR 分解，将其分解为一个正交矩阵 Q 和一个上三角矩阵 R。输入为形状为 `[batch, M, N]` 的张量 `A`；输出为 QR 分解得到的张量 Q 与 R。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor):\n        return torch.linalg.qr(A)\nbatch = 8; M = 128; N = 64\ndef get_inputs(): return [torch.randn(batch, M, N)]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "127",
+      "name": "127_Cholesky_decomposition",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算输入 batch 矩阵的 Cholesky 分解。输入为形状是 `[batch, N, N]` 的对称正定矩阵张量 `A`；算子将其分解为一个下三角矩阵与其转置的乘积，输出与 `A` 形状相同。",
+        "workload": "",
+        "source": "custom",
+        "category": "matrix",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor) -> torch.Tensor:\n        return torch.linalg.cholesky(A)\nbatch = 8; N = 64\ndef get_inputs():\n    A = torch.randn(batch, N, N)\n    A = A @ A.transpose(-1, -2) + N * torch.eye(N)\n    return [A]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "128",
+      "name": "128_Batch_norm_1D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对输入张量执行一维批归一化（Batch Normalization）计算。输入包括形状为 `[batch, features]` 的数据张量 `x`，以及形状均为 `[features]` 的均值、方差、缩放因子和偏移张量；输出张量的形状与 `x` 相同。",
+        "workload": "",
+        "source": "custom",
+        "category": "fused",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, num_features: int):\n        super().__init__()\n        self.bn = nn.BatchNorm1d(num_features=num_features)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.bn(x)\nbatch = 256; features = 512\ndef get_inputs(): return [torch.randn(batch, features)]\ndef get_init_inputs(): return [512]"
+    },
+    {
+      "id": "129",
+      "name": "129_Attention_score_with_bias",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行带偏置项的缩放点积注意力（Scaled Dot-Product Attention）计算。输入包含形状均为 `[batch, heads, seq, dim]` 的查询张量 `q`、键张量 `k` 和值张量 `v`，以及形状为 `[1, heads, seq, seq]` 的偏置张量 `bias`；算子输出为注意力加权后的结果，形状与 `q` 保持一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "attention",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, bias: torch.Tensor) -> torch.Tensor:\n        d = q.shape[-1]\n        scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(d) + bias\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 2; heads = 8; seq = 128; dim = 64\ndef get_inputs():\n    q = torch.randn(batch, heads, seq, dim)\n    k = torch.randn(batch, heads, seq, dim)\n    v = torch.randn(batch, heads, seq, dim)\n    bias = torch.randn(1, heads, seq, seq)\n    return [q, k, v, bias]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "130",
+      "name": "130_Attention_kv_cache",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，将新生成的键值数据与历史 KV Cache 拼接后，对查询向量执行缩放点积注意力（Scaled Dot-Product Attention）计算。输入包括形状为 `[batch, heads, new_len, dim]` 的 `q`、`k_new` 和 `v_new`，以及形状为 `[batch, heads, cache_len, dim]` 的 `k_cache` 和 `v_cache`；算子返回形状为 `[batch, heads, new_len, dim]` 的注意力加权结果。",
+        "workload": "",
+        "source": "custom",
+        "category": "attention",
+        "difficulty": "hard",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def forward(self, q: torch.Tensor, k_cache: torch.Tensor, v_cache: torch.Tensor,\n                k_new: torch.Tensor, v_new: torch.Tensor) -> torch.Tensor:\n        k = torch.cat([k_cache, k_new], dim=2)\n        v = torch.cat([v_cache, v_new], dim=2)\n        d = q.shape[-1]\n        scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(d)\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 1; heads = 8; cache_len = 512; new_len = 1; dim = 64\ndef get_inputs():\n    q  = torch.randn(batch, heads, new_len, dim)\n    kc = torch.randn(batch, heads, cache_len, dim)\n    vc = torch.randn(batch, heads, cache_len, dim)\n    kn = torch.randn(batch, heads, new_len, dim)\n    vn = torch.randn(batch, heads, new_len, dim)\n    return [q, kc, vc, kn, vn]\ndef get_init_inputs(): return []"
+    },
+    {
+      "id": "131",
+      "name": "131_Relative_position_encoding",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，根据序列长度计算两两位置间的相对距离索引，并从查找表中检索对应的嵌入向量。输入包括标量 `seq_len`、形状为 `[2 * max_seq - 1, d_model]` 的位置嵌入权重张量 `rel_emb` 以及用于计算偏移量的标量 `max_seq`；输出为形状为 `[seq_len, seq_len, d_model]` 的相对位置嵌入张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "embedding",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, max_seq: int, d_model: int):\n        super().__init__()\n        self.rel_emb = nn.Embedding(2 * max_seq - 1, d_model)\n        self.max_seq = max_seq\n    def forward(self, seq_len: int) -> torch.Tensor:\n        pos = torch.arange(seq_len)\n        rel = pos.unsqueeze(0) - pos.unsqueeze(1) + self.max_seq - 1\n        return self.rel_emb(rel)\nmax_seq = 256; d_model = 64; seq = 128\ndef get_inputs(): return [torch.tensor(seq)]\ndef get_init_inputs(): return [max_seq, d_model]"
+    },
+    {
+      "id": "132",
+      "name": "132_Sparse_embedding",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，根据索引张量从权重矩阵中查找并提取对应的嵌入向量。输入包括形状为 `[batch, seq_len]` 的索引张量 `x` 和形状为 `[vocab_size, emb_dim]` 的权重矩阵 `weight`；输出为形状是 `[batch, seq_len, emb_dim]` 的特征张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "io",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, vocab_size: int, emb_dim: int):\n        super().__init__()\n        self.emb = nn.Embedding(vocab_size, emb_dim, sparse=True)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.emb(x)\nbatch = 256; seq = 64; vocab = 50000; dim = 256\ndef get_inputs(): return [torch.randint(0, vocab, (batch, seq))]\ndef get_init_inputs(): return [50000, 256]"
+    },
+    {
+      "id": "133",
+      "name": "133_Triplet_loss",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算三元组损失（Triplet Margin Loss），用于衡量并优化锚点与正、负样本之间的相对距离。输入包括形状均为 `[batch, dim]` 的张量 `anchor`、`positive` 和 `negative`，以及一个用于设定类间间距阈值的浮点数 `margin`；输出为计算得到的损失结果。",
+        "workload": "",
+        "source": "custom",
+        "category": "loss",
+        "difficulty": "medium",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, margin: float = 1.0):\n        super().__init__()\n        self.loss = nn.TripletMarginLoss(margin=margin)\n    def forward(self, anchor: torch.Tensor, positive: torch.Tensor, negative: torch.Tensor) -> torch.Tensor:\n        return self.loss(anchor, positive, negative)\nbatch = 128; dim = 256\ndef get_inputs():\n    return [torch.randn(batch, dim), torch.randn(batch, dim), torch.randn(batch, dim)]\ndef get_init_inputs(): return [1.0]"
+    },
+    {
+      "id": "134",
+      "name": "134_Depthwise_conv_2D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行二维深度卷积（Depthwise Convolution）计算。输入包括形状为 `[batch, C, H, W]` 的张量 `x`、形状为 `[C, 1, kh, kw]` 的权重 `weight` 以及形状为 `[C]` 的偏置 `bias`；算子通过步长 `stride` 和填充 `padding` 等参数控制卷积逻辑，输出特征提取后的张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "conv",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, kernel_size: int, stride: int = 1, padding: int = 0):\n        super().__init__()\n        self.conv = nn.Conv2d(in_channels, in_channels, kernel_size,\n                              stride=stride, padding=padding, groups=in_channels)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\nbatch = 16; C = 64; H = 128; W = 128\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 3, 1, 1]"
+    },
+    {
+      "id": "135",
+      "name": "135_Dilated_conv_2D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，对四维输入张量执行带有填充和空洞特性的二维卷积运算。输入为形状为 `[batch, in_channels, H, W]` 的张量 `x`，其运算受卷积核大小 `kernel_size`、膨胀系数 `dilation` 以及填充宽度 `padding` 等参数控制；输出为卷积计算后的特征图张量。",
+        "workload": "",
+        "source": "custom",
+        "category": "conv",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int,\n                 dilation: int = 2, padding: int = 2):\n        super().__init__()\n        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size,\n                              dilation=dilation, padding=padding)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\nbatch = 16; C = 64; H = 128; W = 128; out_C = 128\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 128, 3, 2, 2]"
+    },
+    {
+      "id": "136",
+      "name": "136_Grouped_conv_2D",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行带分组的二维卷积运算。输入包括形状为 `[batch, in_channels, H, W]` 的数据张量 `x`、形状为 `[out_channels, in_channels // groups, k, k]` 的卷积核 `weight` 和形状为 `[out_channels]` 的偏置 `bias`；算子需根据 `groups` 参数实现分组计算逻辑，并根据卷积核尺寸应用相应的填充。输出张量的形状为 `[batch, out_channels, out_H, out_W]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "conv",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, groups: int):\n        super().__init__()\n        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size,\n                              padding=kernel_size//2, groups=groups)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\nbatch = 16; C = 64; H = 128; W = 128; out_C = 128; G = 8\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 128, 3, 8]"
+    },
+    {
+      "id": "137",
+      "name": "137_LSTM_forward",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，计算多层长短期记忆网络（LSTM）的前向传播并输出所有时间步的隐藏状态序列。输入包括形状为 `[batch, seq, input_size]` 的张量 `x`，以及定义网络结构的标量参数输入维度 `input_size`、隐藏层维度 `hidden_size` 和循环层数 `num_layers`；输出张量的形状为 `[batch, seq, hidden_size]`。",
+        "workload": "",
+        "source": "custom",
+        "category": "fused",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, input_size: int, hidden_size: int, num_layers: int):\n        super().__init__()\n        self.lstm = nn.LSTM(input_size, hidden_size, num_layers, batch_first=True)\n    def forward(self, x: torch.Tensor):\n        output, (h_n, c_n) = self.lstm(x)\n        return output\nbatch = 32; seq = 128; input_size = 256; hidden_size = 512; num_layers = 2\ndef get_inputs(): return [torch.randn(batch, seq, input_size)]\ndef get_init_inputs(): return [input_size, hidden_size, num_layers]"
+    },
+    {
+      "id": "138",
+      "name": "138_GRU_forward",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，实现多层门控循环单元（GRU）的前向计算过程。输入为形状为 `[batch, seq_len, input_size]` 的张量 `x`，并根据给定的隐藏层维度 `hidden_size` 和层数 `num_layers` 对序列数据进行处理；算子最终输出形状为 `[batch, seq_len, hidden_size]` 的隐藏状态序列。",
+        "workload": "",
+        "source": "custom",
+        "category": "fused",
+        "difficulty": "hard",
+        "dtype": [
+          "float16"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, input_size: int, hidden_size: int, num_layers: int):\n        super().__init__()\n        self.gru = nn.GRU(input_size, hidden_size, num_layers, batch_first=True)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        output, _ = self.gru(x)\n        return output\nbatch = 32; seq = 128; input_size = 256; hidden_size = 512; num_layers = 2\ndef get_inputs(): return [torch.randn(batch, seq, input_size)]\ndef get_init_inputs(): return [input_size, hidden_size, num_layers]"
+    },
+    {
+      "id": "139",
+      "name": "139_Sparse_attention_mask",
+      "description": {
+        "input": "",
+        "output": "",
+        "desc": "实现一个 BangC 算子，执行带滑动窗口掩码的局部缩放点积注意力计算。输入包括形状均为 `[batch, heads, seq, dim]` 的张量 `q`、`k`、`v` 以及定义窗口半径的整数参数 `window_size`；该算子仅计算距离在 `window_size` 以内的 token 间的注意力权重，输出张量形状与 `q` 保持一致。",
+        "workload": "",
+        "source": "custom",
+        "category": "attention",
+        "difficulty": "medium",
+        "dtype": [
+          "float32"
+        ]
+      },
+      "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def __init__(self, window_size: int):\n        super().__init__(); self.w = window_size\n    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor) -> torch.Tensor:\n        seq = q.shape[2]\n        d = q.shape[-1]\n        # Local window mask\n        pos = torch.arange(seq, device=q.device)\n        mask = (pos.unsqueeze(0) - pos.unsqueeze(1)).abs() <= self.w\n        scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(d)\n        scores = scores.masked_fill(~mask.unsqueeze(0).unsqueeze(0), float('-inf'))\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 2; heads = 4; seq = 256; dim = 64; window = 32\ndef get_inputs():\n    q = torch.randn(batch, heads, seq, dim)\n    k = torch.randn(batch, heads, seq, dim)\n    v = torch.randn(batch, heads, seq, dim)\n    return [q, k, v]\ndef get_init_inputs(): return [32]"
+    }
+  ]
+}

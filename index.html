@@ -1,479 +1,803 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>算子生成比赛 2026</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    /* 基础平滑 & 导航点样式 (保持不变) */
-    html { scroll-behavior: smooth; }
-    .page-section {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 80px 20px 40px;
-    }
-    .leaderboard-container {
-      max-height: 400px;
-      overflow-y: auto;
-    }
-    .leaderboard-container::-webkit-scrollbar { width: 8px; }
-    .leaderboard-container::-webkit-scrollbar-track { background: #1f2937; border-radius: 4px; }
-    .leaderboard-container::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 4px; }
-    .leaderboard-container::-webkit-scrollbar-thumb:hover { background: #6b7280; }
-    .nav-dot {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      background: #4b5563;
-      transition: all 0.3s;
-    }
-    .nav-dot.active {
-      background: #fbbf24;
-      transform: scale(1.2);
-    }
-    .nav-dot:hover { background: #9ca3af; }
-    .faq-content {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease-out;
-    }
-    .faq-content.open { max-height: 200px; }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenOperator | High Performance Leaderboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* ===== 基础深色模式 (默认) ===== */
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #0b0d17;
+            color: #e2e8f0;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(17, 24, 39, 0.8);
+            border: 1px solid rgba(75, 85, 99, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        .task-card { transition: all 0.3s ease; }
+        .task-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(96, 165, 250, 0.15);
+        }
+        .modal-overlay { background: rgba(0,0,0,0.7); backdrop-filter: blur(4px); }
+        .badge-basic   { background: rgba(34,197,94,0.15);  color: #4ade80; border: 1px solid rgba(34,197,94,0.3);  }
+        .badge-medium  { background: rgba(234,179,8,0.15);  color: #facc15; border: 1px solid rgba(234,179,8,0.3);  }
+        .badge-hard    { background: rgba(239,68,68,0.15);  color: #f87171; border: 1px solid rgba(239,68,68,0.3);  }
+        .badge-category{ background: rgba(96,165,250,0.15); color: #93c5fd; border: 1px solid rgba(96,165,250,0.3); }
+        .badge-source  { background: rgba(167,139,250,0.15);color: #c4b5fd; border: 1px solid rgba(167,139,250,0.3);}
+        .badge-dtype   { background: rgba(244,114,182,0.15);color: #f9a8d4; border: 1px solid rgba(244,114,182,0.3);}
+        .live-dot { animation: pulse 2s infinite; }
+        @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
+        .nav-link { position: relative; transition: color .3s; }
+        .nav-link:hover { color: #60a5fa; }
+        .nav-link.active { color: #60a5fa; }
+        .nav-link.active::after {
+            content:''; position:absolute; bottom:-4px; left:0; right:0;
+            height:2px; background:linear-gradient(90deg,#60a5fa,#a78bfa); border-radius:1px;
+        }
+        .stat-card {
+            background: rgba(17,24,39,0.6); border:1px solid rgba(75,85,99,0.3);
+            border-radius:16px; padding:24px; text-align:center; transition:all .3s;
+        }
+        .stat-card:hover { border-color: rgba(96,165,250,0.3); }
+        .detail-section {
+            background: rgba(17,24,39,0.5); border:1px solid rgba(75,85,99,0.2);
+            border-radius:12px; padding:20px; margin-bottom:16px;
+        }
+        .detail-section-title {
+            font-size:.75rem; text-transform:uppercase; letter-spacing:.05em;
+            color:#64748b; margin-bottom:12px; font-weight:600;
+        }
+        .code-block {
+            font-family:'JetBrains Mono',monospace; background:#0d1117;
+            border:1px solid rgba(75,85,99,0.3);
+        }
+        .leaderboard-table { width:100%; border-collapse:separate; border-spacing:0; }
+        .leaderboard-table thead th {
+            background:rgba(17,24,39,0.8); padding:12px 16px; text-align:left;
+            font-weight:600; font-size:.85rem; color:#94a3b8; text-transform:uppercase;
+            letter-spacing:.05em; border-bottom:1px solid rgba(75,85,99,0.3);
+        }
+        .leaderboard-table tbody td {
+            padding:12px 16px; border-bottom:1px solid rgba(75,85,99,0.15);
+        }
+        .leaderboard-table tbody tr:hover { background:rgba(96,165,250,0.05); }
+        .result-table { width:100%; border-collapse:separate; border-spacing:0; }
+        .result-table thead th {
+            background:rgba(17,24,39,0.6); padding:10px 12px; text-align:left;
+            font-weight:600; font-size:.75rem; color:#94a3b8; text-transform:uppercase;
+            letter-spacing:.05em; border-bottom:1px solid rgba(75,85,99,0.3);
+        }
+        .result-table tbody td {
+            padding:10px 12px; border-bottom:1px solid rgba(75,85,99,0.15); font-size:.85rem;
+        }
+        .result-table tbody tr:hover { background:rgba(96,165,250,0.05); }
+        .rank-1 { color:#fbbf24; font-weight:700; }
+        .rank-2 { color:#d1d5db; font-weight:600; }
+        .rank-3 { color:#d97706; font-weight:600; }
+        .scrollbar-thin::-webkit-scrollbar { width:6px; }
+        .scrollbar-thin::-webkit-scrollbar-track { background:rgba(17,24,39,0.5); }
+        .scrollbar-thin::-webkit-scrollbar-thumb { background:rgba(75,85,99,0.5); border-radius:3px; }
+        .line-clamp-2 {
+            display:-webkit-box; -webkit-line-clamp:2;
+            -webkit-box-orient:vertical; overflow:hidden;
+        }
+        .timeline-item { position: relative; padding-left: 28px; }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 8px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 2px solid #3b82f6;
+            background: #0b0d17;
+            z-index: 1;
+        }
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 9px;
+            top: 22px;
+            width: 2px;
+            bottom: -8px;
+            background: rgba(59, 130, 246, 0.2);
+        }
+        .timeline-item:last-child::after { display: none; }
+        .timeline-item.past::before { background: #3b82f6; }
+        .notice-card {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid rgba(75, 85, 99, 0.2);
+            border-radius: 12px;
+            padding: 16px 20px;
+            transition: all 0.3s;
+        }
+        .notice-card:hover { border-color: rgba(96, 165, 250, 0.3); }
 
-    /* ----- 白色主题 (追加class = white-theme) ----- */
-    body.white-theme {
-      background-color: #f9fafb !important;
-      color: #111827 !important;
-    }
-    /* 导航背景 & 边框 */
-    body.white-theme nav {
-      background-color: rgba(255, 255, 255, 0.95) !important;
-      border-bottom-color: #e5e7eb !important;
-    }
-    body.white-theme nav .text-yellow-400 { color: #b45309 !important; }  /* 加深 amber 更可见 */
-    body.white-theme nav a { color: #374151 !important; }
-    body.white-theme nav a:hover { color: #b45309 !important; }
-
-    /* 右侧导航点 —— 白底时变灰 */
-    body.white-theme .nav-dot { background: #9ca3af; }
-    body.white-theme .nav-dot.active { background: #f59e0b; }
-
-    /* 区块背景 (原本深色带灰/黑) 改为浅灰/白 */
-    body.white-theme .page-section { background: #ffffff !important; }
-    body.white-theme .bg-gray-900 { background-color: #ffffff !important; }
-    body.white-theme .bg-gray-800 { background-color: #f3f4f6 !important; }
-    body.white-theme .bg-gray-800\/50 { background-color: rgba(243, 244, 246, 0.7) !important; }
-    body.white-theme .bg-gray-700 { background-color: #e5e7eb !important; }
-    body.white-theme .bg-gray-700\/50 { background-color: rgba(229, 231, 235, 0.5) !important; }
-    body.white-theme .border-gray-700 { border-color: #d1d5db !important; }
-    body.white-theme .border-gray-800 { border-color: #d1d5db !important; }
-    body.white-theme .border-yellow-500\/50 { border-color: #fbbf24 !important; }
-    body.white-theme .border-gray-400\/50 { border-color: #9ca3af !important; }
-    body.white-theme .border-orange-500\/50 { border-color: #fb923c !important; }
-
-    /* 文本颜色修正 */
-    body.white-theme .text-gray-300,
-    body.white-theme .text-gray-400 { color: #4b5563 !important; }
-    body.white-theme .text-gray-500 { color: #6b7280 !important; }
-    body.white-theme .text-yellow-400 { color: #b45309 !important; }  /* 提高对比度 */
-    body.white-theme .text-blue-400 { color: #2563eb !important; }
-    body.white-theme .text-blue-400:hover { color: #1d4ed8 !important; }
-
-    /* 卡片内部微调 */
-    body.white-theme .bg-gradient-to-b.from-gray-900 { background: #f9fafb !important; }
-    body.white-theme .from-yellow-500\/20 { background: #fef3c7 !important; } /* 简单处理梯度 */
-    body.white-theme .from-gray-400\/20 { background: #f3f4f6 !important; }
-    body.white-theme .from-orange-500\/20 { background: #ffedd5 !important; }
-
-    /* 输入框、按钮 */
-    body.white-theme input.bg-gray-800 {
-      background-color: #ffffff !important;
-      border-color: #d1d5db !important;
-      color: #111827 !important;
-    }
-    body.white-theme .bg-gray-700 { background-color: #e5e7eb !important; }
-    body.white-theme .bg-gray-700:hover { background-color: #d1d5db !important; }
-    body.white-theme button.bg-yellow-500 {
-      background-color: #f59e0b !important;
-      color: #ffffff;
-    }
-    body.white-theme button.bg-yellow-500:hover { background-color: #d97706 !important; }
-
-    /* 排行榜表头 */
-    body.white-theme .bg-gray-700\/50 { background-color: #e5e7eb !important; }
-    body.white-theme .leaderboard-container .border-gray-700 { border-color: #d1d5db !important; }
-
-    /* FAQ */
-    body.white-theme .faq-content .text-gray-400 { color: #4b5563 !important; }
-
-    /* 页脚 */
-    body.white-theme .border-gray-700 { border-color: #d1d5db !important; }
-
-    /* 切换按钮固定样式 (始终可见) */
-    .theme-toggle-btn {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      z-index: 100;
-      background: #1f2937;
-      color: #fbbf24;
-      border: 1px solid #4b5563;
-      border-radius: 40px;
-      padding: 10px 20px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      cursor: pointer;
-      box-shadow: 0 10px 20px -5px rgba(0,0,0,0.5);
-      transition: all 0.2s;
-      backdrop-filter: blur(4px);
-    }
-    .theme-toggle-btn:hover {
-      background: #374151;
-      color: #fcd34d;
-    }
-    body.white-theme .theme-toggle-btn {
-      background: white;
-      color: #b45309;
-      border-color: #d1d5db;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
-    body.white-theme .theme-toggle-btn:hover {
-      background: #f3f4f6;
-    }
-  </style>
+        /* ===== 浅色模式覆盖 (通过 .light-mode 类) ===== */
+        body.light-mode {
+            background: #f4f6fb;
+            color: #1e293b;
+        }
+        body.light-mode .glass-card {
+            background: rgba(255, 255, 255, 0.85) !important;
+            border: 1px solid rgba(203, 213, 225, 0.6) !important;
+            backdrop-filter: blur(8px);
+        }
+        body.light-mode .stat-card {
+            background: rgba(255, 255, 255, 0.7) !important;
+            border: 1px solid rgba(148, 163, 184, 0.3) !important;
+        }
+        body.light-mode .stat-card:hover { border-color: rgba(37, 99, 235, 0.3) !important; }
+        body.light-mode .detail-section {
+            background: rgba(255, 255, 255, 0.6) !important;
+            border: 1px solid rgba(203, 213, 225, 0.5) !important;
+        }
+        body.light-mode .code-block {
+            background: #f1f5f9 !important;
+            border-color: #cbd5e1 !important;
+        }
+        body.light-mode .leaderboard-table thead th {
+            background: rgba(241, 245, 249, 0.9) !important;
+            color: #334155 !important;
+            border-bottom-color: #cbd5e1 !important;
+        }
+        body.light-mode .leaderboard-table tbody td {
+            border-bottom-color: #e2e8f0 !important;
+        }
+        body.light-mode .leaderboard-table tbody tr:hover {
+            background: rgba(37, 99, 235, 0.05) !important;
+        }
+        body.light-mode .result-table thead th {
+            background: rgba(241, 245, 249, 0.8) !important;
+            color: #475569 !important;
+        }
+        body.light-mode .result-table tbody tr:hover {
+            background: rgba(37, 99, 235, 0.04) !important;
+        }
+        body.light-mode .notice-card {
+            background: rgba(255, 255, 255, 0.7) !important;
+            border-color: rgba(148, 163, 184, 0.3) !important;
+        }
+        body.light-mode .notice-card:hover {
+            border-color: rgba(37, 99, 235, 0.4) !important;
+        }
+        body.light-mode .badge-category,
+        body.light-mode .badge-source,
+        body.light-mode .badge-dtype,
+        body.light-mode .badge-basic,
+        body.light-mode .badge-medium,
+        body.light-mode .badge-hard {
+            background: rgba(255,255,255,0.5) !important;
+            backdrop-filter: blur(4px);
+        }
+        body.light-mode .badge-basic { color: #166534 !important; border-color: #86efac !important; }
+        body.light-mode .badge-medium { color: #854d0e !important; border-color: #fde047 !important; }
+        body.light-mode .badge-hard { color: #991b1b !important; border-color: #fca5a5 !important; }
+        body.light-mode .badge-category { color: #1e3a8a !important; border-color: #93c5fd !important; }
+        body.light-mode .badge-source { color: #4c1d95 !important; border-color: #c4b5fd !important; }
+        body.light-mode .badge-dtype { color: #9d174d !important; border-color: #f9a8d4 !important; }
+        body.light-mode .detail-section-title {
+            color: #475569 !important;
+        }
+        body.light-mode .text-gray-400 { color: #334155 !important; }
+        body.light-mode .text-gray-300 { color: #1e293b !important;  /* 深灰黑色，清晰可见 */}
+        body.light-mode .text-gray-500 { color: #475569 !important; }
+        body.light-mode .text-gray-600 { color: #1e293b !important; }
+        body.light-mode .text-white { color: #0f172a !important; }
+        body.light-mode .bg-gray-800 { background: #e2e8f0 !important; }
+        body.light-mode .border-gray-700 { border-color: #cbd5e1 !important; }
+        body.light-mode header {
+            background: rgba(255, 255, 255, 0.85) !important;
+            backdrop-filter: blur(12px);
+            border-bottom-color: #cbd5e1 !important;
+        }
+        body.light-mode .nav-link { color: #1e293b !important; }
+        body.light-mode .nav-link:hover { color: #2563eb !important; }
+        body.light-mode .nav-link.active { color: #2563eb !important; }
+        body.light-mode .nav-link.active::after { background: linear-gradient(90deg, #2563eb, #7c3aed); }
+        body.light-mode #detailPanel {
+            background: #f8fafc !important;
+            border-left-color: #cbd5e1 !important;
+        }
+        body.light-mode .modal-overlay { background: rgba(15, 23, 42, 0.3) !important; }
+        body.light-mode input, body.light-mode select {
+            background: rgba(255,255,255,0.9) !important;
+            border-color: #cbd5e1 !important;
+            color: #0f172a !important;
+        }
+        body.light-mode .timeline-item::before {
+            background: #f4f6fb !important;
+            border-color: #2563eb !important;
+        }
+        body.light-mode .timeline-item.past::before { background: #2563eb !important; }
+        body.light-mode .timeline-item::after { background: rgba(37, 99, 235, 0.15) !important; }
+        body.light-mode footer { border-top-color: #cbd5e1 !important; }
+        body.light-mode .rank-1 { color: #b45309 !important; }
+        body.light-mode .rank-2 { color: #334155 !important; }
+        body.light-mode .rank-3 { color: #92400e !important; }
+        body.light-mode .gradient-text {
+            background: linear-gradient(135deg, #2563eb, #7c3aed, #db2777);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* 加载覆盖层 */
+        body.light-mode #loadingOverlay { background: #f4f6fb !important; }
+    </style>
 </head>
-<body class="bg-gray-900 text-white">
+<body class="min-h-screen">
 
-  <!-- 固定切换按钮 (置于右下角, 不干扰布局) -->
-  <button class="theme-toggle-btn" id="themeSwitchBtn">🌓 切换白色风格</button>
-
-  <!-- 顶部导航 (深色默认) -->
-  <nav class="fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur z-50 border-b border-gray-800">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="text-xl font-bold text-yellow-400">⚡ Algorithm Contest</div>
-      <div class="hidden md:flex gap-6 text-sm">
-        <a href="#home" class="hover:text-yellow-400 transition">首页</a>
-        <a href="#leaderboard" class="hover:text-yellow-400 transition">排行榜</a>
-        <a href="#schedule" class="hover:text-yellow-400 transition">赛程安排</a>
-        <a href="#prizes" class="hover:text-yellow-400 transition">奖项设置</a>
-        <a href="#rules" class="hover:text-yellow-400 transition">比赛规则</a>
-        <a href="#faq" class="hover:text-yellow-400 transition">FAQ</a>
-        <a href="#contact" class="hover:text-yellow-400 transition">联系我们</a>
-      </div>
-    </div>
-  </nav>
-  
-  <!-- 右侧导航点 -->
-  <div class="fixed right-4 top-1/2 -translate-y-1/2 z-50 flex flex-col gap-3" id="navDots">
-    <a href="#home" class="nav-dot active" title="首页"></a>
-    <a href="#leaderboard" class="nav-dot" title="排行榜"></a>
-    <a href="#schedule" class="nav-dot" title="赛程安排"></a>
-    <a href="#prizes" class="nav-dot" title="奖项设置"></a>
-    <a href="#rules" class="nav-dot" title="比赛规则"></a>
-    <a href="#faq" class="nav-dot" title="FAQ"></a>
-    <a href="#contact" class="nav-dot" title="联系我们"></a>
-  </div>
-
-  <!-- 第1页：首页 (深色结构完全保留) -->
-  <section id="home" class="page-section bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
-    <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-5xl md:text-6xl font-bold mb-6">
-        ⚡ 算子生成比赛 <span class="text-yellow-400">2026</span>
-      </h1>
-      <p class="text-xl text-gray-300 mb-12">
-        挑战极限，突破自我。在这里，用代码证明你的实力，与顶尖选手同台竞技。
-      </p>
-      
-      <div class="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
-        <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700">
-          <div class="text-4xl font-bold text-yellow-400 mb-2" id="participantCount">--</div>
-          <div class="text-gray-400">参赛选手</div>
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="fixed inset-0 z-50 flex items-center justify-center" style="background:#0b0d17;">
+        <div class="text-center">
+            <div class="inline-block w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+            <p class="text-gray-400">Loading...</p>
         </div>
-        <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700">
-          <div class="text-4xl font-bold text-yellow-400 mb-2" id="submissionCount">--</div>
-          <div class="text-gray-400">提交次数</div>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40" style="background:rgba(11,13,23,0.95); backdrop-filter:blur(10px); border-bottom:1px solid rgba(75,85,99,0.2);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3 cursor-pointer" onclick="showMainView()">
+                    <div class="w-8 h-8 rounded-lg flex items-center justify-center" style="background:linear-gradient(135deg,#3b82f6,#8b5cf6);">
+                        <span class="text-white font-bold text-sm">O</span>
+                    </div>
+                    <div><span class="font-bold text-white">Open</span><span class="font-light text-blue-400">Operator</span></div>
+                </div>
+                <nav class="flex items-center space-x-8">
+                    <a href="#problems" class="nav-link active text-sm font-medium" data-nav="problems" onclick="switchNav('problems')">Problems</a>
+                    <a href="#leaderboard" class="nav-link text-sm font-medium text-gray-400" data-nav="leaderboard" onclick="switchNav('leaderboard')">Leaderboard</a>
+                    <a href="#announcements" class="nav-link text-sm font-medium text-gray-400" data-nav="notice" onclick="switchNav('notice')">Notice</a>
+                    <!-- 深浅切换按钮 (新增) -->
+                    <button id="themeToggle" class="p-2 rounded-full transition-colors hover:bg-gray-700/30 focus:outline-none" title="切换浅色/深色模式" style="color: inherit;">
+                        <!-- 太阳图标 (默认深色模式显示太阳，表示可切到浅色) -->
+                        <svg id="themeIconLight" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                        <!-- 月亮图标 (浅色模式显示月亮，表示可切到深色) -->
+                        <svg id="themeIconDark" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                        </svg>
+                    </button>
+                </nav>
+            </div>
         </div>
-        <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700">
-          <div class="text-4xl font-bold text-yellow-400 mb-2">¥50,000</div>
-          <div class="text-gray-400">奖金池</div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="mainContent" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+        <!-- Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
+            <div class="stat-card">
+                <div class="text-3xl font-bold gradient-text mb-1" id="statTasks">0</div>
+                <div class="text-xs text-gray-500 uppercase tracking-wider">Active Tasks</div>
+                <div class="text-xs text-gray-600 mt-1">挑战题目总数</div>
+            </div>
+            <div class="stat-card">
+                <div class="text-3xl font-bold gradient-text mb-1" id="statParticipants">0</div>
+                <div class="text-xs text-gray-500 uppercase tracking-wider">Participants</div>
+                <div class="text-xs text-gray-600 mt-1">参赛选手记录</div>
+            </div>
+            <div class="stat-card">
+                <div class="flex items-center justify-center space-x-2 mb-1">
+                    <span class="w-2.5 h-2.5 rounded-full bg-green-500 live-dot"></span>
+                    <span class="text-xl font-bold text-green-400">LIVE</span>
+                </div>
+                <div class="text-xs text-gray-500 uppercase tracking-wider">Platform Status</div>
+                <div class="text-xs text-gray-600 mt-1">竞赛火热进行中</div>
+            </div>
         </div>
-      </div>
-      
-      <div class="mt-12">
-        <a href="#leaderboard" class="inline-block bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-lg transition">
-          查看排行榜 ↓
-        </a>
-      </div>
-    </div>
-  </section>
 
-  <!-- 第2页：排行榜 (数据区域) -->
-  <section id="leaderboard" class="page-section bg-gray-900">
-    <div class="max-w-4xl mx-auto w-full">
-      <div class="text-center mb-8">
-        <h2 class="text-4xl font-bold mb-4">🏆 实时排行榜</h2>
-        <!-- 搜索框 -->
-        <div class="flex justify-center items-center gap-4 mt-4 mb-4">
-          <div class="relative">
-            <input 
-              type="text" 
-              id="searchInput" 
-              placeholder="搜索 GitHub 用户名..." 
-              class="bg-gray-800 border border-gray-600 rounded-lg px-4 py-2 pl-10 w-64 focus:outline-none focus:border-yellow-400 transition"
-              onkeyup="handleSearch(event)"
-            >
-            <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">🔍</span>
-          </div>
-          <button onclick="searchLeaderboard()" class="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg font-semibold transition">
-            搜索
-          </button>
-          <button onclick="clearSearch()" class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition">
-            清除
-          </button>
+        <!-- Timeline & Contact 动态区域 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+            <div class="glass-card rounded-2xl p-6">
+                <h3 class="text-lg font-semibold text-white mb-4">Timeline</h3>
+                <div id="timelineContainer" class="text-sm text-gray-400">
+                    <p class="text-gray-500">加载中...</p>
+                </div>
+            </div>
+            <div class="glass-card rounded-2xl p-6">
+                <h3 class="text-lg font-semibold text-white mb-4">Contact Us</h3>
+                <div id="contactContainer" class="text-sm text-gray-400">
+                    <p class="text-gray-500">加载中...</p>
+                </div>
+            </div>
         </div>
-        <button onclick="loadLeaderboard()" class="text-yellow-400 hover:text-yellow-300 transition">
-          🔄 刷新数据
-        </button>
-      </div>
-      
-      <div class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
-        <!-- 表头 -->
-        <div class="grid grid-cols-12 gap-4 p-4 bg-gray-700/50 font-semibold text-sm">
-          <div class="col-span-2 text-center">排名</div>
-          <div class="col-span-4">选手</div>
-          <div class="col-span-2 text-center">分数</div>
-          <div class="col-span-2 text-center">提交时间</div>
-          <div class="col-span-2 text-center">Commit</div>
+
+        <!-- Available Problems -->
+        <section id="problems" class="mb-10">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 gap-4">
+                <h2 class="text-2xl font-bold text-white">Available Problems</h2>
+                <div class="flex items-center space-x-2 flex-wrap gap-2">
+                    <input type="text" id="searchInput" placeholder="搜索题目..."
+                        class="px-4 py-2 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        style="background:rgba(17,24,39,0.8); border:1px solid rgba(75,85,99,0.3); color:#e2e8f0;"
+                        oninput="filterProblems()">
+                    <select id="categoryFilter" onchange="filterProblems()"
+                        class="px-3 py-2 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        style="background:rgba(17,24,39,0.8); border:1px solid rgba(75,85,99,0.3); color:#e2e8f0;">
+                        <option value="">All Categories</option>
+                    </select>
+                    <select id="difficultyFilter" onchange="filterProblems()"
+                        class="px-3 py-2 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        style="background:rgba(17,24,39,0.8); border:1px solid rgba(75,85,99,0.3); color:#e2e8f0;">
+                        <option value="">All Difficulties</option>
+                    </select>
+                </div>
+            </div>
+            <div id="problemsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+        </section>
+
+        <!-- Global Leaderboard -->
+        <section id="leaderboard" class="mb-10">
+            <div class="mb-6">
+                <h2 class="text-2xl font-bold text-white">Global Leaderboard</h2>
+                <p class="text-sm text-gray-500 mt-1">实时追踪全球选手的任务完成进度与排名</p>
+            </div>
+            <div class="glass-card rounded-2xl overflow-hidden">
+                <div class="px-6 py-4 border-b" style="border-color:rgba(75,85,99,0.2);">
+                    <span class="text-sm font-semibold text-blue-400">Team Domination</span>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="leaderboard-table">
+                        <thead><tr><th>Task Name</th><th>Top Performer</th><th>Best Score</th></tr></thead>
+                        <tbody id="leaderboardBody">
+                            <tr><td colspan="3" class="text-center text-gray-500 py-8">加载中...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Announcements 动态区域 -->
+        <section id="announcements" class="mb-10">
+            <h2 class="text-2xl font-bold text-white mb-6">Announcements</h2>
+            <div id="noticesContainer">
+                <div class="glass-card rounded-2xl p-6"><p class="text-gray-500 text-sm">加载中...</p></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Task Detail Side Panel -->
+    <div id="taskDetailModal" class="fixed inset-0 z-50 hidden">
+        <div class="modal-overlay absolute inset-0" onclick="closeTaskDetail()"></div>
+        <div class="relative z-10 h-full flex justify-end">
+            <div id="detailPanel" class="w-full max-w-3xl h-full overflow-y-auto scrollbar-thin"
+                 style="background:#0f1220; border-left:1px solid rgba(75,85,99,0.3); transform:translateX(100%);">
+                <div id="taskDetailContent" class="p-6 md:p-8"></div>
+            </div>
         </div>
-        
-        <div class="leaderboard-container" id="leaderboardBody">
-          <div class="p-8 text-center text-gray-400">数据加载中...</div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t" style="border-color:rgba(75,85,99,0.2);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center">
+            <p class="text-sm text-gray-500">© 2026 OpenOperator Project. Hosted on GitHub Pages.</p>
         </div>
-      </div>
-      
-      <!-- 分页 -->
-      <div class="flex justify-center items-center gap-4 mt-6" id="pagination">
-        <button onclick="changePage(-1)" class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition" id="prevBtn">← 上一页</button>
-        <span class="text-gray-400" id="pageInfo">第 1 页</span>
-        <button onclick="changePage(1)" class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition" id="nextBtn">下一页 →</button>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- 第3页：赛程安排 -->
-  <section id="schedule" class="page-section bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
-    <div class="max-w-3xl mx-auto w-full">  <!-- 内容与原来完全相同，省略内部细节以节省篇幅，但保证完整结构 -->
-      <h2 class="text-4xl font-bold text-center mb-12">📅 赛程安排</h2>
-      <div class="space-y-6">
-        <div class="flex gap-4 items-start"><div class="w-4 h-4 rounded-full bg-green-500 mt-2 flex-shrink-0"></div><div class="flex-1 bg-gray-800/50 rounded-xl p-6 border border-gray-700"><div class="text-yellow-400 text-sm mb-1">2026.03.02 - 2026.03.08</div><h3 class="text-xl font-bold mb-2">报名阶段</h3><p class="text-gray-400">开放报名通道，完成实名认证和团队组建</p><span class="inline-block mt-2 text-green-400 text-sm">✓ 已结束</span></div></div>
-        <div class="flex gap-4 items-start"><div class="w-4 h-4 rounded-full bg-yellow-500 mt-2 flex-shrink-0 animate-pulse"></div><div class="flex-1 bg-gray-800/50 rounded-xl p-6 border border-yellow-500/50"><div class="text-yellow-400 text-sm mb-1">2026.02.20 - 2026.03.20</div><h3 class="text-xl font-bold mb-2">初赛阶段</h3><p class="text-gray-400">线上提交代码，系统自动评测，实时更新排行榜</p><span class="inline-block mt-2 text-yellow-400 text-sm">● 进行中</span></div></div>
-        <div class="flex gap-4 items-start"><div class="w-4 h-4 rounded-full bg-gray-500 mt-2 flex-shrink-0"></div><div class="flex-1 bg-gray-800/50 rounded-xl p-6 border border-gray-700"><div class="text-yellow-400 text-sm mb-1">2026.03.25</div><h3 class="text-xl font-bold mb-2">初赛结果公布</h3><p class="text-gray-400">公布晋级名单，前50名进入复赛</p><span class="inline-block mt-2 text-gray-400 text-sm">○ 即将开始</span></div></div>
-        <div class="flex gap-4 items-start"><div class="w-4 h-4 rounded-full bg-gray-500 mt-2 flex-shrink-0"></div><div class="flex-1 bg-gray-800/50 rounded-xl p-6 border border-gray-700"><div class="text-yellow-400 text-sm mb-1">2026.04.01 - 2026.04.15</div><h3 class="text-xl font-bold mb-2">复赛阶段</h3><p class="text-gray-400">更高难度题目，限时完成，代码审核</p><span class="inline-block mt-2 text-gray-400 text-sm">○ 即将开始</span></div></div>
-        <div class="flex gap-4 items-start"><div class="w-4 h-4 rounded-full bg-gray-500 mt-2 flex-shrink-0"></div><div class="flex-1 bg-gray-800/50 rounded-xl p-6 border border-gray-700"><div class="text-yellow-400 text-sm mb-1">2026.04.25</div><h3 class="text-xl font-bold mb-2">总决赛 & 颁奖典礼</h3><p class="text-gray-400">线下答辩，专家评审，现场颁奖</p><span class="inline-block mt-2 text-gray-400 text-sm">○ 即将开始</span></div></div>
-      </div>
-    </div>
-  </section>
+<script>
+// ===================================================================
+//  Data Store (原有逻辑完全保留)
+// ===================================================================
+let tasksData = [];
+let resultsMap = {};
+let filteredTasks = [];
+let currentTaskId = null;
 
-  <!-- 第4页：奖项设置 -->
-  <section id="prizes" class="page-section bg-gray-900">
-    <div class="max-w-4xl mx-auto w-full">
-      <h2 class="text-4xl font-bold text-center mb-12">🏆 奖项设置</h2>
-      <div class="grid md:grid-cols-3 gap-6 mb-8">
-        <div class="bg-gradient-to-b from-yellow-500/20 to-gray-800 rounded-xl p-8 border border-yellow-500/50 text-center"><div class="text-5xl mb-4">🥇</div><h3 class="text-2xl font-bold mb-2">冠军</h3><div class="text-3xl font-bold text-yellow-400 mb-4">¥20,000</div><ul class="text-gray-400 text-sm space-y-1"><li>冠军证书</li><li>冠军专属纪念礼品</li></ul></div>
-        <div class="bg-gradient-to-b from-gray-400/20 to-gray-800 rounded-xl p-8 border border-gray-400/50 text-center"><div class="text-5xl mb-4">🥈</div><h3 class="text-2xl font-bold mb-2">亚军</h3><div class="text-3xl font-bold text-gray-300 mb-4">¥15,000</div><ul class="text-gray-400 text-sm space-y-1"><li>亚军证书</li><li>亚军纪念礼品</li></ul></div>
-        <div class="bg-gradient-to-b from-orange-500/20 to-gray-800 rounded-xl p-8 border border-orange-500/50 text-center"><div class="text-5xl mb-4">🥉</div><h3 class="text-2xl font-bold mb-2">季军</h3><div class="text-3xl font-bold text-orange-400 mb-4">¥10,000</div><ul class="text-gray-400 text-sm space-y-1"><li>季军证书</li><li>季军纪念礼品</li></ul></div>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700 text-center"><div class="text-3xl mb-2">⭐</div><h3 class="text-xl font-bold mb-2">优秀奖 (4-10名)</h3><div class="text-xl font-bold text-yellow-400 mb-2">¥1,000</div><p class="text-gray-400 text-sm">优秀奖证书 + 精美周边礼包</p></div>
-        <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700 text-center"><div class="text-3xl mb-2">🎯</div><h3 class="text-xl font-bold mb-2">参与奖</h3><div class="text-xl font-bold text-gray-400 mb-2">参与证书</div><p class="text-gray-400 text-sm">电子参赛证书</p></div>
-      </div>
-    </div>
-  </section>
+let competitionInfo = {};
+let timelineData = [];
+let noticesData = [];
 
-  <!-- 第5页：比赛规则 -->
-  <section id="rules" class="page-section bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
-    <div class="max-w-4xl mx-auto w-full">
-      <h2 class="text-4xl font-bold text-center mb-12">📋 比赛规则</h2>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700"><h3 class="text-xl font-bold mb-4 text-yellow-400">📝 参赛要求</h3><ul class="space-y-2 text-gray-300"><li>• 参赛者需完成实名认证</li><li>• 支持个人或团队参赛（团队最多3人）</li><li>• 每位选手只能参加一支队伍</li><li>• 参赛者需同意并遵守比赛规则</li></ul></div>
-        <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700"><h3 class="text-xl font-bold mb-4 text-yellow-400">💻 提交规范</h3><ul class="space-y-2 text-gray-300"><li>• 代码需通过 Git 提交到指定仓库</li><li>• 每天最多提交 10 次</li><li>• 提交后系统自动评测，实时更新分数</li><li>• 以最高分数作为最终成绩</li></ul></div>
-        <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700"><h3 class="text-xl font-bold mb-4 text-yellow-400">⚖️ 评分标准</h3><ul class="space-y-2 text-gray-300"><li>• 正确性 (60%): 测试用例通过率</li><li>• 性能 (30%): 运行时间和内存占用</li><li>• 代码质量 (10%): 可读性和规范性</li><li>• 同分情况按提交时间排序</li></ul></div>
-        <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700"><h3 class="text-xl font-bold mb-4 text-red-400">🚫 禁止行为</h3><ul class="space-y-2 text-gray-300"><li>• 禁止抄袭他人代码或使用非法手段</li><li>• 禁止恶意攻击评测系统</li><li>• 禁止多账号参赛</li><li>• 违规者将取消参赛资格</li></ul></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 第6页：FAQ -->
-  <section id="faq" class="page-section bg-gray-900">
-    <div class="max-w-3xl mx-auto w-full">
-      <h2 class="text-4xl font-bold text-center mb-12">❓ 常见问题</h2>
-      <div class="space-y-4">
-        <div class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden"><button class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-700/50 transition" onclick="toggleFaq(this)"><span class="font-semibold">如何提交代码？</span><span class="text-yellow-400">▼</span></button><div class="faq-content px-6 pb-6"><p class="text-gray-400">参赛选手需要创建私有github仓库，将机器人帐号@kernerl-competition-bot作为合作者加入仓库并按照指南配置仓库的webhook。配置完成后，选手每次 push 会自动触发评测。评测结果由自动更新至排行榜和提交记录评论区</p></div></div>
-        <div class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden"><button class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-700/50 transition" onclick="toggleFaq(this)"><span class="font-semibold">评测系统的运行环境是什么？</span><span class="text-yellow-400">▼</span></button><div class="faq-content px-6 pb-6"><p class="text-gray-400">评测系统运行在 Linux 环境下，配置为 MLU370（具体型号待备注，设备详细信息查询寒武纪官网），每道题目的时间限制为1分钟。</p></div></div>
-        <div class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden"><button class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-700/50 transition" onclick="toggleFaq(this)"><span class="font-semibold">如何联系组委会？</span><span class="text-yellow-400">▼</span></button><div class="faq-content px-6 pb-6"><p class="text-gray-400">可以通过邮件联系我们，详见联系我们页面。工作日 24 小时内会回复。</p></div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 第7页：联系我们 -->
-  <section id="contact" class="page-section bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
-    <div class="max-w-2xl mx-auto w-full text-center">
-      <h2 class="text-4xl font-bold mb-12">📬 联系我们</h2>
-      <div class="bg-gray-800/50 rounded-xl p-8 border border-gray-700 mb-8">
-        <h3 class="text-xl font-bold mb-6 text-yellow-400">联系邮箱</h3>
-        <div class="space-y-4">
-          <div class="flex items-center justify-center gap-3"><span class="text-2xl">📧</span><a href="mailto:doubh25@mail.ustc.edu.cn" class="text-lg text-blue-400 hover:text-blue-300 transition">doubh25@mail.ustc.edu.cn</a></div>
-          <div class="flex items-center justify-center gap-3"><span class="text-2xl">📧</span><a href="mailto:huangdi@ict.ac.cn" class="text-lg text-blue-400 hover:text-blue-300 transition">huangdi@ict.ac.cn</a></div>
-        </div>
-      </div>
-      <p class="text-gray-400">如有任何问题，欢迎通过邮件联系我们。<br>工作日 24 小时内会回复。</p>
-      <div class="mt-12 pt-8 border-t border-gray-700 text-gray-500 text-sm">Powered by Express | © 2026 Algorithm Contest. All rights reserved.</div>
-    </div>
-  </section>
-
-  <script>
-
-    let currentPage = 1;
-    const pageSize = 10;
-    let allEntries = [];
-    let filteredEntries = [];
-    let searchKeyword = '';
-    let cachedData = null;  // 缓存数据，避免重复请求
-
-    async function loadData() {
-  if (cachedData) return cachedData;
-  try {
-    const res = await fetch('./data.json');
-    cachedData = await res.json();
-    return cachedData;
-  } catch (e) {
-    console.error('加载 data.json 失败:', e);
-    return null;
-  }
-}
-
-async function loadStats() {
-  try {
-    const data = await loadData();
-    if (data && data.stats) {
-      document.getElementById('participantCount').textContent = data.stats.participantCount || 0;
-      document.getElementById('submissionCount').textContent = data.stats.submissionCount || 0;
-    }
-  } catch (e) {
-    console.error('加载统计数据失败:', e);
-  }
-}
-
-    
-async function loadLeaderboard() {
-  const container = document.getElementById('leaderboardBody');
-  container.innerHTML = '<div class="p-8 text-center text-gray-400">加载中...</div>';
-  try {
-    const data = await loadData();
-    if (data && data.entries && data.entries.length > 0) {
-      // 按 rank 排序（如果有的话），或按 score 降序
-      allEntries = data.entries.sort((a, b) => (a.rank || 0) - (b.rank || 0) || b.score - a.score);
-      filteredEntries = allEntries;
-      currentPage = 1;
-      renderLeaderboard();
+// ===================================================================
+//  Theme Toggle (新增)
+// ===================================================================
+(function initTheme() {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedTheme = localStorage.getItem('openoperator-theme');
+    const theme = savedTheme ? savedTheme : (prefersDark ? 'dark' : 'light');
+    if (theme === 'light') {
+        document.body.classList.add('light-mode');
+        document.getElementById('themeIconLight').classList.remove('hidden');
+        document.getElementById('themeIconDark').classList.add('hidden');
     } else {
-      container.innerHTML = '<div class="p-8 text-center text-gray-400">暂无数据</div>';
-      document.getElementById('pagination').style.display = 'none';
+        document.body.classList.remove('light-mode');
+        document.getElementById('themeIconLight').classList.add('hidden');
+        document.getElementById('themeIconDark').classList.remove('hidden');
     }
-  } catch (e) {
-    container.innerHTML = '<div class="p-8 text-center text-red-400">加载失败，请稍后重试</div>';
-    console.error('加载排行榜失败:', e);
-  }
+})();
+
+document.getElementById('themeToggle').addEventListener('click', function() {
+    const isLight = document.body.classList.toggle('light-mode');
+    const iconLight = document.getElementById('themeIconLight');
+    const iconDark = document.getElementById('themeIconDark');
+    if (isLight) {
+        iconLight.classList.remove('hidden');
+        iconDark.classList.add('hidden');
+        localStorage.setItem('openoperator-theme', 'light');
+    } else {
+        iconLight.classList.add('hidden');
+        iconDark.classList.remove('hidden');
+        localStorage.setItem('openoperator-theme', 'dark');
+    }
+});
+
+// ===================================================================
+//  Init
+// ===================================================================
+async function init() {
+    try {
+        const r = await fetch('problems.json');
+        if (r.ok) {
+            const d = await r.json();
+            tasksData = d.tasks || [];
+            competitionInfo = d.competition_info || {};
+            timelineData    = d.timeline || [];
+            noticesData     = d.notices || [];
+        } else {
+            throw new Error('Failed to fetch problems.json');
+        }
+    } catch(e) {
+        console.warn('problems.json 加载失败', e);
+        tasksData = [];
+    }
+
+    filteredTasks = [...tasksData];
+    populateFilters();
+    renderProblems();
+
+    renderTimeline();
+    renderContact();
+    renderNotices();
+
+    await loadAllResults();
+    updateStats();
+    renderGlobalLeaderboard();
+    hideLoading();
 }
 
-
-
-    function renderLeaderboard() {
-      const container = document.getElementById('leaderboardBody');
-      const dataToShow = searchKeyword ? filteredEntries : allEntries;
-      const totalPages = Math.ceil(dataToShow.length / pageSize);
-      const start = (currentPage - 1) * pageSize;
-      const end = start + pageSize;
-      const pageEntries = dataToShow.slice(start, end);
-      let html = '';
-      pageEntries.forEach((entry, index) => {
-        const rank = searchKeyword ? allEntries.findIndex(e => e.github === entry.github) + 1 : start + index + 1;
-        let rankClass = '', rankIcon = rank;
-        if (rank === 1) { rankClass = 'text-yellow-400'; rankIcon = '🥇'; }
-        else if (rank === 2) { rankClass = 'text-gray-300'; rankIcon = '🥈'; }
-        else if (rank === 3) { rankClass = 'text-orange-400'; rankIcon = '🥉'; }
-        const submitTime = entry.submitTime ? new Date(entry.submitTime).toLocaleDateString('zh-CN') : '-';
-        const githubUrl = `https://github.com/${entry.github}`;
-        html += `<div class="grid grid-cols-12 gap-4 p-4 border-b border-gray-700 hover:bg-gray-700/30 transition"><div class="col-span-2 text-center ${rankClass} font-bold">${rankIcon}</div><div class="col-span-4"><a href="${githubUrl}" target="_blank" class="text-blue-400 hover:text-blue-300 hover:underline transition">${entry.github}</a></div><div class="col-span-2 text-center font-mono text-yellow-400">${entry.score}</div><div class="col-span-2 text-center text-gray-400 text-sm">${submitTime}</div><div class="col-span-2 text-center font-mono text-gray-500 text-sm">${entry.commitHash || '-'}</div></div>`;
-      });
-      container.innerHTML = html;
-      document.getElementById('pageInfo').textContent = `第 ${currentPage} / ${totalPages} 页`;
-      document.getElementById('prevBtn').disabled = currentPage === 1;
-      document.getElementById('nextBtn').disabled = currentPage === totalPages;
-      document.getElementById('prevBtn').classList.toggle('opacity-50', currentPage === 1);
-      document.getElementById('nextBtn').classList.toggle('opacity-50', currentPage === totalPages);
-      if (totalPages <= 1) document.getElementById('pagination').style.display = 'none';
-      else document.getElementById('pagination').style.display = 'flex';
+function renderTimeline() {
+    const container = document.getElementById('timelineContainer');
+    if (!timelineData.length) {
+        container.innerHTML = '<p class="text-gray-500">暂无时间线信息</p>';
+        return;
     }
+    const today = new Date().toISOString().slice(0, 10);
+    container.innerHTML = timelineData.map(item => {
+        const isPast = item.date <= today;
+        return `
+        <div class="timeline-item ${isPast ? 'past' : ''} mb-4">
+            <div class="text-white font-medium text-sm">${esc(item.event)}</div>
+            <div class="text-gray-500 text-xs mt-0.5">${esc(item.date)}</div>
+        </div>`;
+    }).join('');
+}
 
-    function changePage(delta) {
-      const totalPages = Math.ceil((searchKeyword ? filteredEntries : allEntries).length / pageSize);
-      const newPage = currentPage + delta;
-      if (newPage >= 1 && newPage <= totalPages) { currentPage = newPage; renderLeaderboard(); document.getElementById('leaderboardBody').scrollTop = 0; }
+function renderContact() {
+    const container = document.getElementById('contactContainer');
+    if (!competitionInfo.name && !competitionInfo.description && !competitionInfo.contact) {
+        container.innerHTML = '<p class="text-gray-500">暂无联系信息</p>';
+        return;
     }
+    let html = '';
+    if (competitionInfo.name) html += `<div class="text-white font-semibold text-base mb-2">${esc(competitionInfo.name)}</div>`;
+    if (competitionInfo.description) html += `<p class="text-gray-400 text-sm mb-3 leading-relaxed">${esc(competitionInfo.description)}</p>`;
+    if (competitionInfo.contact) {
+        const parts = competitionInfo.contact.split('|').map(s => s.trim());
+        html += `<div class="space-y-1.5 mt-3 pt-3" style="border-top:1px solid rgba(75,85,99,0.2);">`;
+        parts.forEach(part => {
+            let icon = '📎';
+            if (part.toLowerCase().startsWith('email')) icon = '📧';
+            else if (part.toLowerCase().startsWith('github')) icon = '🔗';
+            html += `<div class="flex items-center space-x-2 text-sm"><span>${icon}</span><span class="text-gray-300">${esc(part)}</span></div>`;
+        });
+        html += '</div>';
+    }
+    container.innerHTML = html;
+}
 
-    function searchLeaderboard() {
-      const input = document.getElementById('searchInput');
-      searchKeyword = input.value.trim().toLowerCase();
-      filteredEntries = searchKeyword ? allEntries.filter(entry => entry.github.toLowerCase().includes(searchKeyword)) : allEntries;
-      currentPage = 1;
-      renderLeaderboard();
-      if (filteredEntries.length === 0) document.getElementById('leaderboardBody').innerHTML = `<div class="p-8 text-center text-gray-400">未找到用户 "${searchKeyword}"</div>`;
+function renderNotices() {
+    const container = document.getElementById('noticesContainer');
+    if (!noticesData.length) {
+        container.innerHTML = '<div class="glass-card rounded-2xl p-6"><p class="text-gray-500 text-sm">暂无公告</p></div>';
+        return;
     }
-    function handleSearch(event) { if (event.key === 'Enter') searchLeaderboard(); }
-    function clearSearch() {
-      document.getElementById('searchInput').value = '';
-      searchKeyword = '';
-      filteredEntries = allEntries;
-      currentPage = 1;
-      renderLeaderboard();
-    }
+    const sorted = [...noticesData].sort((a, b) => b.date.localeCompare(a.date));
+    container.innerHTML = `<div class="space-y-4">` + sorted.map(n => `
+        <div class="notice-card">
+            <div class="flex items-start justify-between mb-2">
+                <h4 class="text-white font-semibold text-sm">${esc(n.title)}</h4>
+                <span class="text-xs text-gray-500 flex-shrink-0 ml-4">${esc(n.date)}</span>
+            </div>
+            <p class="text-gray-400 text-sm leading-relaxed">${esc(n.content)}</p>
+        </div>
+    `).join('') + `</div>`;
+}
 
-    function toggleFaq(btn) {
-      const content = btn.nextElementSibling;
-      const arrow = btn.querySelector('span:last-child');
-      content.classList.toggle('open');
-      arrow.textContent = content.classList.contains('open') ? '▲' : '▼';
-    }
-
-    function updateNavDots() {
-      const sections = document.querySelectorAll('.page-section');
-      const dots = document.querySelectorAll('.nav-dot');
-      let currentSection = 0;
-      sections.forEach((section, index) => { if (section.getBoundingClientRect().top <= window.innerHeight / 2) currentSection = index; });
-      dots.forEach((dot, index) => dot.classList.toggle('active', index === currentSection));
-    }
-    window.addEventListener('scroll', updateNavDots);
-    
-    document.addEventListener('DOMContentLoaded', () => {
-      loadStats();
-      loadLeaderboard();
-      updateNavDots();
+async function loadAllResults() {
+    const fetches = tasksData.map(task => {
+        const url = `result/${task.id}.json`;
+        return fetch(url)
+            .then(r => { if (!r.ok) throw new Error(`${r.status}`); return r.json(); })
+            .then(data => { resultsMap[task.id] = data; })
+            .catch(err => { console.warn(`result/${task.id}.json 加载失败:`, err.message); });
     });
+    await Promise.all(fetches);
+}
 
-    // ------- 主题切换按钮 -------
-    const themeBtn = document.getElementById('themeSwitchBtn');
-    themeBtn.addEventListener('click', () => {
-      document.body.classList.toggle('white-theme');
-      // 改变按钮文字
-      if (document.body.classList.contains('white-theme')) {
-        themeBtn.textContent = '🌙 切换深色风格';
-      } else {
-        themeBtn.textContent = '🌓 切换白色风格';
-      }
+function hideLoading() {
+    const o = document.getElementById('loadingOverlay');
+    o.style.transition = 'opacity .5s'; o.style.opacity = '0';
+    setTimeout(() => o.style.display = 'none', 500);
+}
+
+function updateStats() {
+    const uniqueUsers = new Set();
+    Object.values(resultsMap).forEach(rd => {
+        if (rd.results && rd.results.length) {
+            rd.results.forEach(r => { uniqueUsers.add(r.user); });
+        }
     });
-  </script>
+    animateNum('statTasks', tasksData.length);
+    animateNum('statParticipants', uniqueUsers.size);
+}
+
+function animateNum(id, target) {
+    const el = document.getElementById(id);
+    if (target === 0) { el.textContent = '0'; return; }
+    let cur = 0;
+    const step = Math.max(1, Math.floor(target / 30));
+    const iv = setInterval(() => {
+        cur += step; if (cur >= target) { cur = target; clearInterval(iv); }
+        el.textContent = cur;
+    }, 30);
+}
+
+function renderGlobalLeaderboard() {
+    const tbody = document.getElementById('leaderboardBody');
+    const rows = [];
+    tasksData.forEach(task => {
+        const rd = resultsMap[task.id];
+        if (rd && rd.results && rd.results.length) {
+            const sorted = [...rd.results].sort((a, b) => b.score - a.score);
+            const top = sorted[0];
+            rows.push({ taskId: task.id, taskName: task.name, topUser: top.user, topGithub: top.github || '', bestScore: top.score, latency: top.latency || '' });
+        } else {
+            rows.push({ taskId: task.id, taskName: task.name, topUser: '—', topGithub: '', bestScore: null, latency: '' });
+        }
+    });
+    if (!rows.length) {
+        tbody.innerHTML = '<tr><td colspan="3" class="text-center text-gray-500 py-8">暂无排名数据</td></tr>';
+        return;
+    }
+    tbody.innerHTML = rows.map(r => {
+        const scoreStr = r.bestScore !== null
+            ? `<span class="text-green-400 font-mono font-semibold">${r.bestScore.toFixed(6)}</span>${r.latency ? `<span class="text-gray-500 text-xs ml-2">${r.latency}</span>` : ''}`
+            : '<span class="text-gray-600">暂无提交</span>';
+        const userStr = r.topUser !== '—'
+            ? `<div class="flex items-center space-x-2">
+                   <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold" style="background:linear-gradient(135deg,#3b82f6,#8b5cf6);color:#fff;">${r.topUser.charAt(0).toUpperCase()}</div>
+                   <div><div class="text-white text-sm font-medium">${esc(r.topUser)}</div>${r.topGithub ? `<div class="text-gray-500 text-xs">@${esc(r.topGithub)}</div>` : ''}</div>
+               </div>` : '<span class="text-gray-600">—</span>';
+        return `<tr class="cursor-pointer" onclick="openTaskDetail('${r.taskId}')">
+            <td><div class="flex items-center space-x-2"><span class="text-gray-500 text-xs">#${r.taskId}</span><span class="text-white text-sm font-medium">${esc(r.taskName)}</span></div></td>
+            <td>${userStr}</td><td>${scoreStr}</td></tr>`;
+    }).join('');
+}
+
+function populateFilters() {
+    const cats  = [...new Set(tasksData.map(t => t.description.category).filter(Boolean))];
+    const diffs = [...new Set(tasksData.map(t => t.description.difficulty).filter(Boolean))];
+    const cs = document.getElementById('categoryFilter');
+    cats.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; cs.appendChild(o); });
+    const ds = document.getElementById('difficultyFilter');
+    diffs.forEach(d => { const o = document.createElement('option'); o.value = d; o.textContent = d; ds.appendChild(o); });
+}
+
+function filterProblems() {
+    const s = document.getElementById('searchInput').value.toLowerCase();
+    const c = document.getElementById('categoryFilter').value;
+    const d = document.getElementById('difficultyFilter').value;
+    filteredTasks = tasksData.filter(t => {
+        const ms = !s || t.name.toLowerCase().includes(s) || t.id.includes(s) || (t.description.desc || '').toLowerCase().includes(s);
+        const mc = !c || t.description.category === c;
+        const md = !d || t.description.difficulty === d;
+        return ms && mc && md;
+    });
+    renderProblems();
+}
+
+function renderProblems() {
+    const grid = document.getElementById('problemsGrid');
+    if (!filteredTasks.length) {
+        grid.innerHTML = '<div class="col-span-full text-center py-12 text-gray-500"><p class="text-lg mb-2">没有找到匹配的题目</p><p class="text-sm">请尝试调整搜索条件</p></div>';
+        return;
+    }
+    grid.innerHTML = filteredTasks.map(task => {
+        const desc = task.description;
+        const dc = 'badge-' + (desc.difficulty || 'basic');
+        const dtH = (desc.dtype && desc.dtype.length) ? desc.dtype.map(d => `<span class="badge-dtype text-xs px-2 py-0.5 rounded-full">${d}</span>`).join(' ') : '';
+        const rd = resultsMap[task.id];
+        let resultSummary = '';
+        if (rd && rd.results && rd.results.length) {
+            const sorted = [...rd.results].sort((a, b) => b.score - a.score);
+            const top = sorted[0];
+            resultSummary = `
+                <div class="flex items-center justify-between mt-3 pt-3" style="border-top:1px solid rgba(75,85,99,0.2);">
+                    <div class="text-xs text-gray-500"><span class="text-blue-400 font-medium">${rd.results.length}</span> 提交</div>
+                    <div class="text-xs"><span class="text-gray-500">Top:</span><span class="text-green-400 font-mono font-medium ml-1">${top.score.toFixed(4)}</span><span class="text-gray-500 ml-1">by</span><span class="text-white ml-1">${esc(top.user)}</span></div>
+                </div>`;
+        } else {
+            resultSummary = `<div class="mt-3 pt-3 text-xs text-gray-600" style="border-top:1px solid rgba(75,85,99,0.2);">暂无提交</div>`;
+        }
+        return `
+        <div class="task-card glass-card rounded-xl p-5 cursor-pointer" onclick="openTaskDetail('${task.id}')">
+            <div class="flex items-start justify-between mb-3">
+                <div class="flex-1 min-w-0">
+                    <div class="text-xs text-gray-500 mb-1">#${task.id}</div>
+                    <h3 class="text-sm font-semibold text-white truncate" title="${task.name}">${task.name}</h3>
+                </div>
+                <span class="${dc} text-xs px-2.5 py-1 rounded-full font-medium ml-2 flex-shrink-0">${desc.difficulty || 'N/A'}</span>
+            </div>
+            <p class="text-xs text-gray-400 mb-3 line-clamp-2">${esc(desc.desc || '暂无描述')}</p>
+            <div class="flex items-center flex-wrap gap-2">
+                ${desc.category ? `<span class="badge-category text-xs px-2 py-0.5 rounded-full">${desc.category}</span>` : ''}
+                ${desc.source ? `<span class="badge-source text-xs px-2 py-0.5 rounded-full">${desc.source}</span>` : ''}
+                ${dtH}
+            </div>
+            ${resultSummary}
+        </div>`;
+    }).join('');
+}
+
+function openTaskDetail(taskId) {
+    const task = tasksData.find(t => t.id === taskId);
+    if (!task) return;
+    currentTaskId = taskId;
+    const desc = task.description;
+    const modal   = document.getElementById('taskDetailModal');
+    const panel   = document.getElementById('detailPanel');
+    const content = document.getElementById('taskDetailContent');
+
+    const metas = [];
+    if (desc.category)   metas.push({ l:'Category',   v:desc.category,   c:'badge-category' });
+    if (desc.difficulty)  metas.push({ l:'Difficulty', v:desc.difficulty, c:'badge-'+(desc.difficulty||'basic') });
+    if (desc.source)     metas.push({ l:'Source',     v:desc.source,     c:'badge-source' });
+    const metaHtml = metas.map(m => `
+        <div class="flex flex-col items-center p-3 rounded-lg" style="background:rgba(17,24,39,0.5);">
+            <span class="text-xs text-gray-500 mb-1.5">${m.l}</span>
+            <span class="${m.c} text-xs px-3 py-1 rounded-full font-medium">${m.v}</span>
+        </div>`).join('');
+
+    const dtypeHtml = (desc.dtype && desc.dtype.length) ? `
+        <div class="detail-section">
+            <div class="detail-section-title">Data Types (dtype)</div>
+            <div class="flex flex-wrap gap-2">${desc.dtype.map(d => `<span class="badge-dtype text-sm px-3 py-1 rounded-full font-medium">${d}</span>`).join('')}</div>
+        </div>` : '';
+
+    const inputHtml = desc.input ? `<div class="detail-section"><div class="detail-section-title">Input Specification</div><p class="text-sm text-gray-300 leading-relaxed">${fmtDesc(desc.input)}</p></div>` : '';
+    const outputHtml = desc.output ? `<div class="detail-section"><div class="detail-section-title">Output Specification</div><p class="text-sm text-gray-300 leading-relaxed">${fmtDesc(desc.output)}</p></div>` : '';
+    const workloadHtml = desc.workload ? `<div class="detail-section"><div class="detail-section-title">Workload</div><p class="text-sm text-gray-300 leading-relaxed">${fmtDesc(desc.workload)}</p></div>` : '';
+
+    const refHtml = task.reference_implementation ? `
+        <div class="detail-section" style="padding-bottom:0; overflow:hidden;">
+            <div class="flex items-center justify-between mb-3">
+                <div class="detail-section-title" style="margin-bottom:0;">Reference Implementation</div>
+                <button onclick="copyRef()" class="text-xs text-gray-500 hover:text-blue-400 transition-colors px-3 py-1 rounded-md" style="background:rgba(75,85,99,0.2);" id="copyBtn">📋 Copy</button>
+            </div>
+            <div class="code-block overflow-x-auto" style="margin:0 -20px -1px; border-radius:0 0 12px 12px; border-top:1px solid rgba(75,85,99,0.3); border-left:none; border-right:none; border-bottom:none;">
+                <pre class="p-4 text-sm leading-relaxed" style="font-family:'JetBrains Mono',monospace; color:#c9d1d9; margin:0; overflow-x:auto;"><code>${hlPy(task.reference_implementation)}</code></pre>
+            </div>
+        </div>` : '';
+
+    const rd = resultsMap[taskId];
+    let leaderboardHtml = '';
+    if (rd && rd.results && rd.results.length) {
+        const sorted = [...rd.results].sort((a, b) => b.score - a.score);
+        const rowsHtml = sorted.map((r, i) => {
+            const rank = r.rank || (i + 1);
+            const rankCls = rank === 1 ? 'rank-1' : rank === 2 ? 'rank-2' : rank === 3 ? 'rank-3' : '';
+            const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : `<span class="text-gray-500">${rank}</span>`;
+            return `<tr>
+                <td class="${rankCls} text-center">${medal}</td>
+                <td><div class="flex items-center space-x-2">
+                    <div class="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0" style="background:linear-gradient(135deg,#3b82f6,#8b5cf6);color:#fff;">${r.user.charAt(0).toUpperCase()}</div>
+                    <div><div class="text-white text-sm font-medium">${esc(r.user)}</div>${r.github ? `<div class="text-gray-500 text-xs">@${esc(r.github)}</div>` : ''}</div>
+                </div></td>
+                <td><span class="text-green-400 font-mono font-semibold">${r.score.toFixed(6)}</span></td>
+                <td class="text-gray-400 font-mono text-sm">${r.latency || '—'}</td>
+                <td class="text-gray-500 text-xs">${r.date || '—'}</td>
+            </tr>`;
+        }).join('');
+        leaderboardHtml = `
+        <div class="detail-section" style="padding-bottom:0; overflow:hidden;">
+            <div class="flex items-center justify-between mb-3">
+                <div class="detail-section-title" style="margin-bottom:0;">🏆 Leaderboard</div>
+                <span class="text-xs text-gray-500">${rd.last_updated ? '更新: '+rd.last_updated : ''} · ${sorted.length} 条记录</span>
+            </div>
+            <div class="overflow-x-auto" style="margin:0 -20px -1px;">
+                <table class="result-table">
+                    <thead><tr><th class="text-center" style="width:50px;">Rank</th><th>User</th><th>Score</th><th>Latency</th><th>Date</th></tr></thead>
+                    <tbody>${rowsHtml}</tbody>
+                </table>
+            </div>
+        </div>`;
+    } else {
+        leaderboardHtml = `<div class="detail-section"><div class="detail-section-title">🏆 Leaderboard</div><p class="text-gray-500 text-sm text-center py-6">暂无提交记录</p></div>`;
+    }
+
+    content.innerHTML = `
+        <div class="flex items-center mb-6">
+            <button onclick="closeTaskDetail()" class="mr-4 p-2 rounded-lg hover:bg-gray-800 transition-colors">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </button>
+            <div class="flex-1 min-w-0">
+                <div class="text-xs text-gray-500 mb-0.5">Task #${task.id}</div>
+                <h2 class="text-xl font-bold text-white truncate">${task.name}</h2>
+            </div>
+        </div>
+        ${metas.length ? `<div class="grid grid-cols-3 gap-3 mb-6">${metaHtml}</div>` : ''}
+        <div class="detail-section"><div class="detail-section-title">Description</div><p class="text-sm text-gray-300 leading-relaxed">${fmtDesc(desc.desc || '暂无描述')}</p></div>
+        ${dtypeHtml}${inputHtml}${outputHtml}${workloadHtml}
+        ${leaderboardHtml}
+        ${refHtml}
+    `;
+
+    modal.classList.remove('hidden');
+    panel.style.transform = 'translateX(100%)';
+    requestAnimationFrame(() => { panel.style.transition = 'transform .3s ease'; panel.style.transform = 'translateX(0)'; });
+}
+
+function closeTaskDetail() {
+    const modal = document.getElementById('taskDetailModal');
+    const panel = document.getElementById('detailPanel');
+    panel.style.transform = 'translateX(100%)';
+    setTimeout(() => { modal.classList.add('hidden'); panel.style.transition = ''; }, 300);
+}
+
+function esc(t) { const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
+function fmtDesc(d) {
+    return esc(d).replace(/`([^`]+)`/g,
+        '<code style="background:rgba(96,165,250,0.1);color:#93c5fd;padding:2px 6px;border-radius:4px;font-family:\'JetBrains Mono\',monospace;font-size:.85em;">$1</code>');
+}
+function hlPy(code) {
+    let s = esc(code);
+    s = s.replace(/("""[\s\S]*?"""|'''[\s\S]*?'''|"[^"\n]*"|'[^'\n]*')/g, '<span style="color:#a5d6ff;">$1</span>');
+    s = s.replace(/(#.*?)(\n|$)/g, '<span style="color:#8b949e;">$1</span>$2');
+    const kw = ['import','from','class','def','return','self','super','if','else','elif','for','while','in','not','and','or','True','False','None','as','with','try','except','finally','raise','pass','break','continue','lambda','yield','assert'];
+    kw.forEach(k => { s = s.replace(new RegExp('\\b('+k+')\\b','g'), '<span style="color:#ff7b72;">$1</span>'); });
+    s = s.replace(/\b(\d+\.?\d*)\b/g, '<span style="color:#79c0ff;">$1</span>');
+    return s;
+}
+function copyRef() {
+    const task = tasksData.find(t => t.id === currentTaskId);
+    if (!task) return;
+    const btn = document.getElementById('copyBtn');
+    navigator.clipboard.writeText(task.reference_implementation).then(() => {
+        btn.textContent = '✅ Copied!'; setTimeout(() => btn.textContent = '📋 Copy', 2000);
+    }).catch(() => { btn.textContent = '❌ Failed'; setTimeout(() => btn.textContent = '📋 Copy', 2000); });
+}
+function switchNav(sec) {
+    document.querySelectorAll('.nav-link').forEach(el => { el.classList.remove('active'); el.classList.add('text-gray-400'); });
+    const t = document.querySelector(`.nav-link[data-nav="${sec}"]`);
+    if (t) { t.classList.add('active'); t.classList.remove('text-gray-400'); }
+}
+function showMainView() { closeTaskDetail(); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeTaskDetail(); });
+document.addEventListener('DOMContentLoaded', init);
+</script>
 </body>
 </html>
