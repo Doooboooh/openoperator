@@ -221,6 +221,42 @@
             background: #f4f6fb !important;
             border-color: #2563eb !important;
         }
+        /* 1. 修复 Reference Implementation 代码块颜色 */
+        body.light-mode .code-block pre code,
+        body.light-mode .code-block pre {
+            color: #1e293b !important;
+        }
+
+        /* 让代码语法高亮在浅色模式下更清晰 */
+        body.light-mode .code-block pre code span[style*="color:#ff7b72"] {
+            color: #b91c1c !important; /* 关键字改为深红色 */
+        }
+        body.light-mode .code-block pre code span[style*="color:#a5d6ff"] {
+            color: #2563eb !important; /* 字符串改为深蓝色 */
+        }
+        body.light-mode .code-block pre code span[style*="color:#79c0ff"] {
+            color: #059669 !important; /* 数字改为深绿色 */
+        }
+        body.light-mode .code-block pre code span[style*="color:#8b949e"] {
+            color: #6b7280 !important; /* 注释改为灰色 */
+        }
+
+        /* 2. 修复顶部三个块 (Category/Difficulty/Source) 的背景色 */
+        body.light-mode .detail-section .flex.flex-col.items-center.p-3.rounded-lg,
+        body.light-mode div[style*="background:rgba(17,24,39,0.5)"] {
+            background: rgba(241, 245, 249, 0.8) !important;
+            border: 1px solid rgba(203, 213, 225, 0.5) !important;
+        }
+
+        /* 内部标签文字颜色调整 */
+        body.light-mode .badge-category,
+        body.light-mode .badge-source,
+        body.light-mode .badge-basic,
+        body.light-mode .badge-medium,
+        body.light-mode .badge-hard {
+            background: rgba(255, 255, 255, 0.9) !important;
+            font-weight: 500;
+        }
         body.light-mode .timeline-item.past::before { background: #2563eb !important; }
         body.light-mode .timeline-item::after { background: rgba(37, 99, 235, 0.15) !important; }
         body.light-mode footer { border-top-color: #cbd5e1 !important; }
@@ -406,9 +442,9 @@ let noticesData = [];
 //  Theme Toggle (新增)
 // ===================================================================
 (function initTheme() {
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const savedTheme = localStorage.getItem('openoperator-theme');
-    const theme = savedTheme ? savedTheme : (prefersDark ? 'dark' : 'light');
+    // 修改这里：默认使用 'light' 而不是跟随系统
+    const theme = savedTheme ? savedTheme : 'light';
     if (theme === 'light') {
         document.body.classList.add('light-mode');
         document.getElementById('themeIconLight').classList.remove('hidden');
