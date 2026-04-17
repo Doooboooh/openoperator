@@ -152,7 +152,7 @@
         "workload": "",
         "source": "operaters",
         "category": "conv",
-        "difficulty": "hard",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -203,7 +203,7 @@
         "workload": "",
         "source": "operaters",
         "category": "conv",
-        "difficulty": "hard",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -390,7 +390,7 @@
         "workload": "",
         "source": "operaters",
         "category": "matrix",
-        "difficulty": "medium",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -577,7 +577,7 @@
         "workload": "",
         "source": "operaters",
         "category": "reduce",
-        "difficulty": "easy",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -662,7 +662,7 @@
         "workload": "",
         "source": "operaters",
         "category": "fused",
-        "difficulty": "medium",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -866,7 +866,7 @@
         "workload": "",
         "source": "operaters",
         "category": "cum",
-        "difficulty": "medium",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -951,7 +951,7 @@
         "workload": "",
         "source": "operaters",
         "category": "io",
-        "difficulty": "medium",
+        "difficulty": "basic",
         "dtype": [
           ""
         ]
@@ -1194,7 +1194,7 @@
         "workload": "",
         "source": "custom",
         "category": "pointwise",
-        "difficulty": "easy",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -1279,7 +1279,7 @@
         "workload": "",
         "source": "custom",
         "category": "reduce",
-        "difficulty": "easy",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -1755,7 +1755,7 @@
         "workload": "",
         "source": "custom",
         "category": "loss",
-        "difficulty": "easy",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -1772,7 +1772,7 @@
         "workload": "",
         "source": "custom",
         "category": "loss",
-        "difficulty": "medium",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -1857,7 +1857,7 @@
         "workload": "",
         "source": "custom",
         "category": "io",
-        "difficulty": "medium",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -1891,7 +1891,7 @@
         "workload": "",
         "source": "custom",
         "category": "io",
-        "difficulty": "easy",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -2299,7 +2299,7 @@
         "workload": "",
         "source": "custom",
         "category": "conv",
-        "difficulty": "hard",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
@@ -2350,7 +2350,7 @@
         "workload": "",
         "source": "custom",
         "category": "fused",
-        "difficulty": "hard",
+        "difficulty": "basic",
         "dtype": [
           "float16"
         ]
