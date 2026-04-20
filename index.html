@@ -854,6 +854,17 @@ function openTaskDetail(taskId) {
     const outputHtml = desc.output ? `<div class="detail-section"><div class="detail-section-title">Output Specification</div><p class="text-sm text-gray-300 leading-relaxed">${fmtDesc(desc.output)}</p></div>` : '';
     const workloadHtml = desc.workload ? `<div class="detail-section"><div class="detail-section-title">Workload</div><p class="text-sm text-gray-300 leading-relaxed">${fmtDesc(desc.workload)}</p></div>` : '';
 
+    const cppWrapperHtml = desc.cpp_wrapper ? `
+    <div class="detail-section" style="padding-bottom:0; overflow:hidden;">
+        <div class="flex items-center justify-between mb-3">
+            <div class="detail-section-title" style="margin-bottom:0;">C++ Wrapper</div>
+            <button onclick="copyCppWrapper()" class="text-xs text-gray-500 hover:text-blue-400 transition-colors px-3 py-1 rounded-md" style="background:rgba(75,85,99,0.2);" id="copyCppBtn">📋 Copy</button>
+        </div>
+        <div class="code-block overflow-x-auto" style="margin:0 -20px -1px; border-radius:0 0 12px 12px; border-top:1px solid rgba(75,85,99,0.3); border-left:none; border-right:none; border-bottom:none;">
+            <pre class="p-4 text-sm leading-relaxed" style="font-family:'JetBrains Mono',monospace; color:#c9d1d9; margin:0; overflow-x:auto;"><code>${esc(desc.cpp_wrapper)}</code></pre>
+        </div>
+    </div>` : '';
+
     const refHtml = task.reference_implementation ? `
         <div class="detail-section" style="padding-bottom:0; overflow:hidden;">
             <div class="flex items-center justify-between mb-3">
@@ -915,6 +926,7 @@ function openTaskDetail(taskId) {
         <div class="detail-section"><div class="detail-section-title">Description</div><p class="text-sm text-gray-300 leading-relaxed">${fmtDesc(desc.desc || '暂无描述')}</p></div>
         ${dtypeHtml}${inputHtml}${outputHtml}${workloadHtml}
         ${leaderboardHtml}
+        ${cppWrapperHtml}
         ${refHtml}
     `;
 
@@ -943,6 +955,25 @@ function hlPy(code) {
     kw.forEach(k => { s = s.replace(new RegExp('\\b('+k+')\\b','g'), '<span style="color:#ff7b72;">$1</span>'); });
     s = s.replace(/\b(\d+\.?\d*)\b/g, '<span style="color:#79c0ff;">$1</span>');
     return s;
+}
+function copyCppWrapper() {
+    const task = tasksData.find(t => t.id === currentTaskId);
+    if (!task) return;
+    const wrapper = task.description.cpp_wrapper || '';
+    const btn = document.getElementById('copyCppBtn');
+    navigator.clipboard.writeText(wrapper).then(() => {
+        btn.textContent = '✅ Copied!';
+        setTimeout(() => btn.textContent = '📋 Copy', 2000);
+    }).catch(() => {
+        btn.textContent = '❌ Failed';
+        setTimeout(() => btn.textContent = '📋 Copy', 2000);
+    });
+}
+
+// 如果希望保留 C++ 关键字高亮，可以添加一个简单的高亮函数（可选）
+function hlCppWrapper(code) {
+    // 这里只做转义，不增加语法高亮以保持简洁
+    return esc(code);
 }
 function copyRef() {
     const task = tasksData.find(t => t.id === currentTaskId);

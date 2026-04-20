@@ -40,7 +40,8 @@
         "difficulty": "basic",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, double negative_slope);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a LeakyReLU activation.\n    \"\"\"\n    def __init__(self, negative_slope: float = 0.01):\n        \"\"\"\n        Initializes the LeakyReLU module.\n\n        Args:\n            negative_slope (float, optional): The negative slope of the activation function. Defaults to 0.01.\n        \"\"\"\n        super(Model, self).__init__()\n        self.negative_slope = negative_slope\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies LeakyReLU activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with LeakyReLU applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.leaky_relu(x, negative_slope=self.negative_slope)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return [0.01]  # No special initialization inputs needed"
     },
@@ -57,7 +58,8 @@
         "difficulty": "basic",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, double s);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a matrix-scalar multiplication (C = A * s)\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, s: float) -> torch.Tensor:\n        \"\"\"\n        Performs matrix-scalar multiplication.\n\n        Args:\n            A: Input matrix of shape (M, N)\n            s: Scalar value\n\n        Returns:\n            C: Resulting matrix of shape (M, N)\n        \"\"\"\n        return A * s\n\nM = 4096 * 4\nN = 4096 * 4\n\ndef get_inputs():\n    A = torch.rand(M, N)\n    s = 3.14\n    return [A, s]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -74,7 +76,8 @@
         "difficulty": "basic",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a LogSoftmax activation.\n    \"\"\"\n    def __init__(self, dim: int = 1):\n        super(Model, self).__init__()\n        self.dim = dim\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies LogSoftmax activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, dim).\n\n        Returns:\n            torch.Tensor: Output tensor with LogSoftmax applied, same shape as input.\n        \"\"\"\n        return torch.log_softmax(x, dim=self.dim)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -91,7 +94,8 @@
         "difficulty": "basic",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs batched matrix multiplication (C = A * B) where A, B, and C have the same batch dimension.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs batched matrix multiplication.\n\n        Args:\n            A: Input tensor of shape (batch_size, m, k).\n            B: Input tensor of shape (batch_size, k, n).\n\n        Returns:\n            C: Output tensor of shape (batch_size, m, n).\n        \"\"\"\n        return torch.bmm(A, B)\n\nbatch_size = 128\nm = 128 * 4\nk = 256 * 4\nn = 512 * 4\n\ndef get_inputs():\n    A = torch.rand(batch_size, m, k)\n    B = torch.rand(batch_size, k, n)\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -108,7 +112,8 @@
         "difficulty": "basic",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x,int kernel_size);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs 2D Average Pooling.\n    \"\"\"\n    def __init__(self, kernel_size: int, stride: int = None, padding: int = 0):\n        \"\"\"\n        Initializes the Average Pooling layer.\n\n        Args:\n            kernel_size (int): Size of the pooling window.\n            stride (int, optional): Stride of the pooling operation. Defaults to None (same as kernel_size).\n            padding (int, optional): Padding applied to the input tensor. Defaults to 0.\n        \"\"\"\n        super(Model, self).__init__()\n        self.avg_pool = nn.AvgPool2d(kernel_size=kernel_size, stride=stride, padding=padding)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies 2D Average Pooling to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor with Average Pooling applied.\n        \"\"\"\n        return self.avg_pool(x)\n\nbatch_size = 16\nchannels = 64\nheight = 2048\nwidth = 2048\nkernel_size = 11\n\ndef get_inputs():\n    x = torch.rand(batch_size, channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [kernel_size]"
     },
@@ -125,7 +130,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x,int in_channels,int kernel_size,int stride,int padding);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a depthwise 2D convolution operation with square input and square kernel.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        kernel_size (int): Size of the convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv2d = nn.Conv2d(in_channels, in_channels, kernel_size, stride=stride, padding=padding, groups=in_channels, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the depthwise 2D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, in_channels, height_out, width_out).\n        \"\"\"\n        return self.conv2d(x)\n\n# Test code\nbatch_size = 16\nin_channels = 3\nkernel_size = 3\nwidth = 256\nheight = 256\nstride = 1\npadding = 0\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, kernel_size, stride, padding]"
     },
@@ -142,7 +148,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x,int in_channels,int out_channels,int kernel_size,int stride,int padding,int dilation);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a depthwise-separable 2D convolution operation.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        kernel_size (int): Size of the convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        dilation (int, optional): Spacing between kernel elements. Defaults to 1.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, dilation: int = 1, bias: bool = False):\n        super(Model, self).__init__()\n        self.depthwise = nn.Conv2d(in_channels, in_channels, kernel_size, stride=stride, padding=padding, dilation=dilation, groups=in_channels, bias=bias)\n        self.pointwise = nn.Conv2d(in_channels, out_channels, kernel_size=1, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the depthwise-separable 2D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, height_out, width_out).\n        \"\"\"\n        x = self.depthwise(x)\n        x = self.pointwise(x)\n        return x\n\n# Test code\nbatch_size = 16\nin_channels = 3\nout_channels = 64\nkernel_size = 3\nwidth = 256\nheight = 256\nstride = 1\npadding = 0\ndilation = 1\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels, kernel_size, stride, padding, dilation]"
     },
@@ -159,7 +166,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x,int in_channels,int out_channels,bool bias);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a pointwise 2D convolution operation.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv1d = nn.Conv2d(in_channels, out_channels, kernel_size=1, stride=1, padding=0, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the pointwise 2D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, height, width).\n        \"\"\"\n        return self.conv1d(x)\n\n# Test code\nbatch_size = 16\nin_channels = 3\nout_channels = 64\nwidth = 256\nheight = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels]"
     },
@@ -176,7 +184,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x,int in_channels,int out_channels,int kernel_size,int stride,int padding,int dilation, int groups,int bias);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a standard 1D convolution operation.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        kernel_size (int): Size of the convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        dilation (int, optional): Spacing between kernel elements. Defaults to 1.\n        groups (int, optional): Number of blocked connections from input channels to output channels. Defaults to 1.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, dilation: int = 1, groups: int = 1, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv1d = nn.Conv1d(in_channels, out_channels, kernel_size, stride=stride, padding=padding, dilation=dilation, groups=groups, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the 1D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, length).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, length_out).\n        \"\"\"\n        return self.conv1d(x)\n\n# Test code\nbatch_size = 16\nin_channels = 3\nout_channels = 64\nkernel_size = 3\nlength = 512\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, length)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels, kernel_size]  # Provide in_channels, out_channels, kernel_size for initialization"
     },
@@ -193,7 +202,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int in_channels, int out_channels, int kernel_size, int stride, int padding, int dilation, int groups, bool bias);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a standard 2D convolution operation with a square input and square kernel.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        kernel_size (int): Size of the square convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        dilation (int, optional): Spacing between kernel elements. Defaults to 1.\n        groups (int, optional): Number of blocked connections from input channels to output channels. Defaults to 1.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, dilation: int = 1, groups: int = 1, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv2d = nn.Conv2d(in_channels, out_channels, (kernel_size, kernel_size), stride=stride, padding=padding, dilation=dilation, groups=groups, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the 2D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, height_out, width_out).\n        \"\"\"\n        return self.conv2d(x)\n\n# Test code\nbatch_size = 16\nin_channels = 3\nout_channels = 64\nkernel_size = 3\nwidth = 256\nheight = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels, kernel_size]  # Provide in_channels, out_channels, kernel_size for initialization"
     },
@@ -210,7 +220,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int in_channels, int out_channels, int kernel_size, int stride, int padding, int output_padding, int groups, bool bias);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a transposed 1D convolution operation.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        kernel_size (int): Size of the convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        output_padding (int, optional): Additional size added to one side of the output shape. Defaults to 0.\n        groups (int, optional): Number of blocked connections from input channels to output channels. Defaults to 1.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, output_padding: int = 0, groups: int = 1, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv1d_transpose = nn.ConvTranspose1d(in_channels, out_channels, kernel_size, stride=stride, padding=padding, output_padding=output_padding, groups=groups, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the transposed 1D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, length).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, length_out).\n        \"\"\"\n        return self.conv1d_transpose(x)\n\n# Test code\nbatch_size = 16\nin_channels = 64\nout_channels = 3\nkernel_size = 3\nlength = 128\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, length)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels, kernel_size]  # Provide in_channels, out_channels, kernel_size for initialization"
     },
@@ -227,7 +238,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int in_channels, int out_channels, int kernel_size, int stride, int padding, int output_padding, int groups, bool bias);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs a transposed 2D convolution with asymmetric input and a square kernel.\n\n    Args:\n        in_channels (int): Number of channels in the input tensor.\n        out_channels (int): Number of channels produced by the convolution.\n        kernel_size (int): Size of the square convolution kernel.\n        stride (int, optional): Stride of the convolution. Defaults to 1.\n        padding (int, optional): Padding applied to the input. Defaults to 0.\n        output_padding (int, optional): Additional size added to one side of the output shape. Defaults to 0.\n        groups (int, optional): Number of blocked connections from input channels to output channels. Defaults to 1.\n        bias (bool, optional): If `True`, adds a learnable bias to the output. Defaults to `False`.\n    \"\"\"\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, stride: int = 1, padding: int = 0, output_padding: int = 0, groups: int = 1, bias: bool = False):\n        super(Model, self).__init__()\n        self.conv_transpose2d = nn.ConvTranspose2d(in_channels, out_channels, kernel_size, stride=stride, padding=padding, output_padding=output_padding, groups=groups, bias=bias)\n        \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the transposed 2D convolution.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, in_channels, height_in, width_in).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (batch_size, out_channels, height_out, width_out).\n        \"\"\"\n        return self.conv_transpose2d(x)\n\n# Test code\nbatch_size = 16\nin_channels = 32\nout_channels = 64\nkernel_size = 3\nheight_in = 128\nwidth_in = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, in_channels, height_in, width_in)\n    return [x]\n\ndef get_init_inputs():\n    return [in_channels, out_channels, kernel_size]  # Provide in_channels, out_channels, kernel_size for initialization"
     },
@@ -244,7 +256,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs 3D tensor-matrix multiplication.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A, B):\n        \"\"\"\n        Performs 3D tensor-matrix multiplication.\n\n        Args:\n            A (torch.Tensor): Input 3D tensor of shape (N, M, K).\n            B (torch.Tensor): Input matrix of shape (K, L).\n\n        Returns:\n            torch.Tensor: Output tensor of shape (N, M, L), resulting from the multiplication of A and B along the last dimension of A.\n        \"\"\"\n        return torch.matmul(A, B)\n\nN = 16\nM = 1024\nK = 2048\nL = 768\n\ndef get_inputs():\n    A = torch.randn(N, M, K).bfloat16().float()\n    B = torch.randn(K, L).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -261,7 +274,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs 4D tensor-matrix multiplication: \n        C[b, i, j, k] = sum_l A[b, i, j, l] * B[l, k]\n\n    Args:\n        A (torch.Tensor): Input 4D tensor of shape (b, i, j, l)\n        B (torch.Tensor): Input matrix of shape (l, k)\n\n    Returns:\n        torch.Tensor: Output 4D tensor of shape (b, i, j, k)\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, A, B):\n        \"\"\"\n        Performs the 4D tensor-matrix multiplication.\n\n        Args:\n            A (torch.Tensor): Input 4D tensor of shape (b, i, j, l)\n            B (torch.Tensor): Input matrix of shape (l, k)\n\n        Returns:\n            torch.Tensor: Output 4D tensor of shape (b, i, j, k)\n        \"\"\"\n        return torch.einsum(\"bijl,lk->bijk\", A, B)\n\n# Test code\nb = 16\ni = 256\nj = 512\nl = 256\nk = 768\n\ndef get_inputs():\n    A = torch.randn(b, i, j, l).bfloat16().float()\n    B = torch.randn(l, k).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -278,7 +292,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a matrix multiplication (C = A * B) where A and B are lower triangular matrices. \n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A, B):\n        \"\"\"\n        Performs matrix multiplication of lower triangular matrices A and B.\n\n        Args:\n            A (torch.Tensor): Lower triangular matrix of shape (N, N).\n            B (torch.Tensor): Lower triangular matrix of shape (N, N).\n\n        Returns:\n            torch.Tensor: The result of matrix multiplication C of shape (N, N).\n        \"\"\"\n        return torch.tril(torch.matmul(A, B))\n\nM = 4096\n\ndef get_inputs():\n    A = torch.randn(M, M).bfloat16().float()\n    B = torch.randn(M, M).bfloat16().float()\n    A = torch.tril(A)\n    B = torch.tril(B)\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -295,7 +310,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single matrix multiplication (C = A * B) with A and B being symmetric matrices.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A, B):\n        \"\"\"\n        Performs matrix multiplication of two symmetric matrices.\n\n        Args:\n            A (torch.Tensor): Input matrix A, shape (N, N), symmetric.\n            B (torch.Tensor): Input matrix B, shape (N, N), symmetric.\n\n        Returns:\n            torch.Tensor: Output matrix C, shape (N, N).\n        \"\"\"\n        return torch.matmul(A, B)\n\nN = 4096\n\ndef get_inputs():\n    \"\"\"\n    Generates a pair of random symmetric matrices for testing.\n\n    Returns:\n        list: List containing two symmetric tensors A and B.\n    \"\"\"\n    A = torch.randn(N, N).bfloat16().float()\n    A = (A + A.T) / 2  # Ensure symmetry\n    B = torch.randn(N, N).bfloat16().float()\n    B = (B + B.T) / 2  # Ensure symmetry\n    return [A, B]\n\ndef get_init_inputs():\n    \"\"\"\n    No specific initialization inputs needed for this model.\n\n    Returns:\n        list: Empty list.\n    \"\"\"\n    return []"
     },
@@ -312,7 +328,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs matrix multiplication (C = A * B) for upper triangular matrices.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A, B):\n        \"\"\"\n        Performs matrix multiplication for upper triangular matrices.\n\n        Args:\n            A (torch.Tensor): Upper triangular matrix of shape (N, N).\n            B (torch.Tensor): Upper triangular matrix of shape (N, N).\n\n        Returns:\n            torch.Tensor: The product of A and B, also an upper triangular matrix of shape (N, N).\n        \"\"\"\n        return torch.triu(torch.matmul(A, B))\n\nN = 4096\n\ndef get_inputs():\n    \"\"\"\n    Generates upper triangular matrices for testing.\n\n    Returns:\n        list: A list containing two upper triangular matrices of shape (N, N).\n    \"\"\"\n    A = torch.triu(torch.randn(N, N)).bfloat16().float()\n    B = torch.triu(torch.randn(N, N)).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    \"\"\"\n    No specific initialization inputs are needed for this model.\n\n    Returns:\n        list: An empty list.\n    \"\"\"\n    return []"
     },
@@ -329,7 +346,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a matrix multiplication of a diagonal matrix with another matrix.\n    C = diag(A) * B\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A, B):\n        \"\"\"\n        Performs the matrix multiplication.\n\n        Args:\n            A (torch.Tensor): A 1D tensor representing the diagonal of the diagonal matrix. Shape: (N,).\n            B (torch.Tensor): A 2D tensor representing the second matrix. Shape: (N, M).\n\n        Returns:\n            torch.Tensor: The result of the matrix multiplication. Shape: (N, M).\n        \"\"\"\n        return torch.diag(A) @ B\n\nM = 4096\nN = 4096\n\ndef get_inputs():\n    A = torch.randn(N).bfloat16().float()\n    B = torch.randn(N, M).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -346,7 +364,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single matrix multiplication (C = A * B) with irregular shapes\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs matrix multiplication of A and B.\n\n        Args:\n            A: Input tensor with shape (M, K).\n            B: Input tensor with shape (K, N).\n\n        Returns:\n            C: Output tensor with shape (M, N).\n        \"\"\"\n        return torch.matmul(A, B)\n\nM = 8205\nK = 2949\nN = 5921\n\ndef get_inputs():\n    A = torch.randn(M, K).bfloat16().float()\n    B = torch.randn(K, N).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -363,7 +382,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single matrix multiplication (C = A * B) with a large K dimension\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs matrix multiplication of A and B.\n\n        Args:\n            A: Input tensor of shape (M, K)\n            B: Input tensor of shape (K, N)\n\n        Returns:\n            Output tensor of shape (M, N)\n        \"\"\"\n        return torch.matmul(A, B)\n\nM = 256\nN = 256\nK = 131072\n\ndef get_inputs():\n    A = torch.randn(M, K).bfloat16().float()\n    B = torch.randn(K, N).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -380,7 +400,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single matrix multiplication (C = A * B) with a small K dimension\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs matrix multiplication.\n\n        Args:\n            A: Input tensor of shape (M, K).\n            B: Input tensor of shape (K, N).\n\n        Returns:\n            Output tensor of shape (M, N).\n        \"\"\"\n        return torch.matmul(A, B)\n\nM = 16384\nN = 16384\nK = 32\n\ndef get_inputs():\n    A = torch.randn(M, K).bfloat16().float()\n    B = torch.randn(K, N).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -397,7 +418,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single matrix multiplication (C = A * B)\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs matrix multiplication.\n\n        Args:\n            A: Input tensor of shape (M, K).\n            B: Input tensor of shape (K, N).\n\n        Returns:\n            Output tensor of shape (M, N).\n        \"\"\"\n        return torch.matmul(A.T, B.T)\n\nM = 1024\nK = 4096\nN = 2048\n\ndef get_inputs():\n    A = torch.randn(K, M)#.bfloat16().float()\n    B = torch.randn(N, K)#.bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -414,7 +436,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs matrix-vector multiplication (C = A * B).\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs matrix-vector multiplication.\n\n        Args:\n            A: Input matrix of shape (M, K).\n            B: Input vector of shape (K, 1).\n\n        Returns:\n            Output vector of shape (M, 1).\n        \"\"\"\n        return torch.matmul(A, B)\n\nM = 256\nK = 131072\n\ndef get_inputs():\n    A = torch.randn(M, K).bfloat16().float()\n    B = torch.randn(K, 1).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -431,7 +454,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nlevel = 1\ntest_id = \"matmul_fp32_2048x2048\"\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a single square matrix multiplication (C = A * B)\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs the matrix multiplication.\n\n        Args:\n            A (torch.Tensor): Input matrix A of shape (N, N).\n            B (torch.Tensor): Input matrix B of shape (N, N).\n\n        Returns:\n            torch.Tensor: Output matrix C of shape (N, N).\n        \"\"\"\n        return torch.matmul(A, B)\n\nN = 2048\n\ndef get_inputs():\n    A = torch.randn(N, N).bfloat16().float()\n    B = torch.randn(N, N).bfloat16().float()\n    return [A, B]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -448,7 +472,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor w, torch::Tensor b);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\n\nM = 256\nK = 512\nN = 1024\nDTYPE = torch.float16\nSEED = 2026\nRAND_LOW = -5\nRAND_HIGH = 6\n\n\nclass Model(nn.Module):\n    \"\"\"\n    Reference implementation of the fused matmul forward path with optional bias.\n    \"\"\"\n\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(\n        self,\n        x: torch.Tensor,\n        w: torch.Tensor,\n        b: torch.Tensor | None = None,\n    ) -> torch.Tensor:\n        \"\"\"\n        Computes ``x @ w`` and optionally adds ``b`` row-wise.\n\n        Args:\n            x: Input matrix of shape (M, K).\n            w: Weight matrix of shape (K, N).\n            b: Optional bias vector of shape (N,).\n\n        Returns:\n            Output tensor of shape (M, N).\n        \"\"\"\n        out = torch.matmul(x.float(), w.float())\n        if b is not None:\n            out = out + b.float()\n        return out.to(x.dtype)\n\n\ndef get_inputs():\n    torch.manual_seed(SEED)\n    x = torch.randint(RAND_LOW, RAND_HIGH, (M, K), dtype=torch.int32).to(DTYPE)\n    w = torch.randint(RAND_LOW, RAND_HIGH, (K, N), dtype=torch.int32).to(DTYPE)\n    b = torch.randint(RAND_LOW, RAND_HIGH, (N,), dtype=torch.int32).to(DTYPE)\n    return [x, w, b]\n\n\ndef get_init_inputs():\n    return []\n"
     },
@@ -465,7 +490,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, float alpha);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs an ELU activation.\n    \"\"\"\n    def __init__(self, alpha: float = 1.0):\n        \"\"\"\n        Initializes the ELU model.\n\n        Args:\n            alpha (float, optional): The alpha parameter for the ELU function. Defaults to 1.0.\n        \"\"\"\n        super(Model, self).__init__()\n        self.alpha = alpha\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies ELU activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with ELU applied, same shape as input.\n        \"\"\"\n        return F.elu(x, alpha=self.alpha)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return [1.0]  # Provide alpha value for initialization"
     },
@@ -482,7 +508,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a GELU activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies GELU activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with GELU applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.gelu(x)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -499,7 +526,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a HardSigmoid activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies HardSigmoid activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with HardSigmoid applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.hardsigmoid(x)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -516,7 +544,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a HardTanh activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies HardTanh activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with HardTanh applied, same shape as input.\n        \"\"\"\n        return F.hardtanh(x, min_val=-1., max_val=1.)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -533,7 +562,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\nimport math\n\n# From https://github.com/karpathy/minGPT/blob/master/mingpt/model.py\n\nclass Model(nn.Module):\n    \"\"\"\n    Implementation of the GELU activation function currently in Google BERT repo (identical to OpenAI GPT).\n    Reference: Gaussian Error Linear Units (GELU) paper: https://arxiv.org/abs/1606.08415\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x):\n        return 0.5 * x * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (x + 0.044715 * torch.pow(x, 3.0))))\n\nbatch_size = 2000\ndim = 2000\n\ndef get_inputs():\n    return [torch.randn(batch_size, dim)]\n\ndef get_init_inputs():\n    return []"
     },
@@ -550,7 +580,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a Softplus activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Softplus activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with Softplus applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.softplus(x)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -567,7 +598,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a Softsign activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Softsign activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with Softsign applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.softsign(x)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -584,7 +616,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a Swish activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Swish activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of any shape.\n\n        Returns:\n            torch.Tensor: Output tensor with Swish applied, same shape as input.\n        \"\"\"\n        return torch.nn.functional.silu(x)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -601,7 +634,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Argmax over a specified dimension.\n    \"\"\"\n    def __init__(self, dim: int):\n        \"\"\"\n        Initializes the model with the dimension to perform argmax.\n\n        Args:\n            dim (int): The dimension to perform argmax over.\n        \"\"\"\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies argmax over the specified dimension to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor.\n\n        Returns:\n            torch.Tensor: Output tensor with argmax applied, with the specified dimension removed.\n        \"\"\"\n        return torch.argmax(x, dim=self.dim)\n\nbatch_size = 16\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [1]"
     },
@@ -618,7 +652,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs L1 normalization.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes the L1 normalization layer.\n        \"\"\"\n        super(Model, self).__init__()\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies L1 normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (..., dim, ...).\n\n        Returns:\n            torch.Tensor: Output tensor with L1 normalization applied, same shape as input.\n        \"\"\"\n        return x / torch.sum(torch.abs(x), dim=1, keepdim=True)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []"
     },
@@ -635,7 +670,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs L2 normalization.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes the L2Norm layer.\n\n        Args:\n            dim (int): Dimension along which to normalize.\n        \"\"\"\n        super(Model, self).__init__()\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies L2 normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (*, dim, *).\n\n        Returns:\n            torch.Tensor: Output tensor with L2 normalization applied, same shape as input.\n        \"\"\"\n        return x / torch.norm(x, p=2, dim=1, keepdim=True)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []"
     },
@@ -652,7 +688,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Max reduction over a specific dimension.\n    \"\"\"\n    def __init__(self, dim: int):\n        \"\"\"\n        Initializes the model with the dimension to reduce over.\n\n        Args:\n            dim (int): The dimension to reduce over.\n        \"\"\"\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Max reduction over the specified dimension to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor.\n\n        Returns:\n            torch.Tensor: Output tensor after Max reduction over the specified dimension.\n        \"\"\"\n        return torch.max(x, dim=self.dim)[0]\n\nbatch_size = 16\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [1] # Example, change to desired dimension"
     },
@@ -669,7 +706,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs product reduction over a dimension.\n    \"\"\"\n    def __init__(self, dim: int):\n        \"\"\"\n        Initializes the model with the dimension to reduce over.\n\n        Args:\n            dim (int): Dimension to reduce over.\n        \"\"\"\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Performs product reduction over the specified dimension.\n\n        Args:\n            x (torch.Tensor): Input tensor.\n\n        Returns:\n            torch.Tensor: Output tensor with product reduction applied.\n        \"\"\"\n        return torch.prod(x, dim=self.dim)\n\nbatch_size = 16\ndim1 = 256\ndim2 = 256\nreduction_dim = 1\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [reduction_dim]"
     },
@@ -686,7 +724,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int num_features);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Batch Normalization.\n    \"\"\"\n    def __init__(self, num_features: int):\n        \"\"\"\n        Initializes the BatchNorm layer.\n\n        Args:\n            num_features (int): Number of features in the input tensor.\n        \"\"\"\n        super(Model, self).__init__()\n        self.bn = nn.BatchNorm2d(num_features=num_features)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Batch Normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, num_features, *).\n\n        Returns:\n            torch.Tensor: Output tensor with Batch Normalization applied, same shape as input.\n        \"\"\"\n        return self.bn(x)\n\nbatch_size = 16\nfeatures = 64\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, features, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [features]"
     },
@@ -703,7 +742,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor predictions, torch::Tensor targets);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that computes Cosine Similarity Loss for comparing vectors.\n\n    Parameters:\n        None\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, predictions, targets):\n        cosine_sim = torch.nn.functional.cosine_similarity(predictions, targets, dim=1)\n        return torch.mean(1 - cosine_sim)\n\nbatch_size = 128\ninput_shape = (4096, )\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape), torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    return []\n"
     },
@@ -720,7 +760,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor predictions, torch::Tensor targets);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that computes Cross Entropy Loss for multi-class classification tasks.\n\n    Parameters:\n        None\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, predictions, targets):\n        return torch.nn.functional.cross_entropy(predictions, targets)\n\nbatch_size = 4096\nnum_classes = 10\ninput_shape = (num_classes, )  # Output for each class\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape), torch.randint(0, num_classes, (batch_size,))]\n\ndef get_init_inputs():\n    return []\n"
     },
@@ -737,7 +778,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Frobenius norm normalization.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes the Frobenius norm normalization layer.\n        \"\"\"\n        super(Model, self).__init__()\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Frobenius norm normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of arbitrary shape.\n\n        Returns:\n            torch.Tensor: Output tensor with Frobenius norm normalization applied, same shape as input.\n        \"\"\"\n        norm = torch.norm(x, p='fro')\n        return x / norm\n\nbatch_size = 16\nfeatures = 64\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, features, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return []"
     },
@@ -754,7 +796,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int num_groups, int num_features);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Group Normalization.\n    \"\"\"\n    def __init__(self, num_groups: int, num_features: int):\n        \"\"\"\n        Initializes the GroupNorm layer.\n\n        Args:\n            num_features (int): Number of features in the input tensor.\n            num_groups (int): Number of groups to divide the channels into.\n        \"\"\"\n        super(Model, self).__init__()\n        self.gn = nn.GroupNorm(num_groups=num_groups, num_channels=num_features)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Group Normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, num_features, *).\n\n        Returns:\n            torch.Tensor: Output tensor with Group Normalization applied, same shape as input.\n        \"\"\"\n        return self.gn(x)\n\nbatch_size = 16\nfeatures = 64\nnum_groups = 8\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, features, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [num_groups, features] # num_features"
     },
@@ -771,7 +814,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor predictions, torch::Tensor targets);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that computes Hinge Loss for binary classification tasks.\n\n    Parameters:\n        None\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, predictions, targets):\n        return torch.mean(torch.clamp(1 - predictions * targets, min=0))\n\nbatch_size = 128\ninput_shape = (1,)\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape), torch.randint(0, 2, (batch_size, 1)).float() * 2 - 1]\n\ndef get_init_inputs():\n    return []"
     },
@@ -788,7 +832,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor predictions, torch::Tensor targets);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that computes Smooth L1 (Huber) Loss for regression tasks.\n\n    Parameters:\n        None\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, predictions, targets):\n        return torch.nn.functional.smooth_l1_loss(predictions, targets)\n\nbatch_size = 128\ninput_shape = (4096, )\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape), torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    return []\n"
     },
@@ -805,7 +850,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int num_features);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Instance Normalization.\n    \"\"\"\n    def __init__(self, num_features: int):\n        \"\"\"\n        Initializes the InstanceNorm layer.\n\n        Args:\n            num_features (int): Number of features in the input tensor.\n        \"\"\"\n        super(Model, self).__init__()\n        self.inorm = nn.InstanceNorm2d(num_features=num_features)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Instance Normalization to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, num_features, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor with Instance Normalization applied, same shape as input.\n        \"\"\"\n        return self.inorm(x)\n\nbatch_size = 16\nfeatures = 64\ndim1 = 256\ndim2 = 256\n\ndef get_inputs():\n    x = torch.randn(batch_size, features, dim1, dim2)\n    return [x]\n\ndef get_init_inputs():\n    return [features]"
     },
@@ -822,7 +868,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int kernel_size, int stride, int padding, int dilation, bool return_indices);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Max Pooling 1D.\n    \"\"\"\n    def __init__(self, kernel_size: int, stride: int = None, padding: int = 0, dilation: int = 1, return_indices: bool = False):\n        \"\"\"\n        Initializes the Max Pooling 1D layer.\n\n        Args:\n            kernel_size (int): Size of the window to take a max over.\n            stride (int, optional): Stride of the window. Defaults to None (same as kernel_size).\n            padding (int, optional): Implicit zero padding to be added on both sides. Defaults to 0.\n            dilation (int, optional): Spacing between kernel elements. Defaults to 1.\n            return_indices (bool, optional): Whether to return the indices of the maximum values. Defaults to False.\n        \"\"\"\n        super(Model, self).__init__()\n        self.maxpool = nn.MaxPool1d(kernel_size=kernel_size, stride=stride, padding=padding, dilation=dilation, return_indices=return_indices)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Max Pooling 1D to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, num_features, sequence_length).\n\n        Returns:\n            torch.Tensor: Output tensor with Max Pooling 1D applied, shape (batch_size, num_features, output_sequence_length).\n        \"\"\"\n        return self.maxpool(x)\n\nbatch_size = 16\nfeatures = 64\nsequence_length = 128\nkernel_size = 4\nstride = 2\npadding = 2\ndilation = 3\nreturn_indices = False\n\ndef get_inputs():\n    x = torch.randn(batch_size, features, sequence_length)\n    return [x]\n\ndef get_init_inputs():\n    return [kernel_size, stride, padding, dilation, return_indices]"
     },
@@ -839,7 +886,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int kernel_size, int stride, int padding, int dilation);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Max Pooling 2D.\n    \"\"\"\n    def __init__(self, kernel_size: int, stride: int, padding: int, dilation: int):\n        \"\"\"\n        Initializes the Max Pooling 2D layer.\n\n        Args:\n            kernel_size (int): Size of the pooling window.\n            stride (int): Stride of the pooling window.\n            padding (int): Padding to be applied before pooling.\n            dilation (int): Spacing between kernel elements.\n        \"\"\"\n        super(Model, self).__init__()\n        self.maxpool = nn.MaxPool2d(kernel_size=kernel_size, stride=stride, padding=padding, dilation=dilation)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Max Pooling 2D to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, channels, height, width).\n\n        Returns:\n            torch.Tensor: Output tensor after Max Pooling 2D, shape (batch_size, channels, pooled_height, pooled_width).\n        \"\"\"\n        return self.maxpool(x)\n\nbatch_size = 16\nchannels = 32\nheight = 128\nwidth = 128\nkernel_size = 2\nstride = 2\npadding = 1\ndilation = 3\n\ndef get_inputs():\n    x = torch.randn(batch_size, channels, height, width)\n    return [x]\n\ndef get_init_inputs():\n    return [kernel_size, stride, padding, dilation]\n"
     },
@@ -856,7 +904,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int kernel_size, int stride, int padding, int dilation, bool return_indices, bool ceil_mode);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs Max Pooling 3D.\n    \"\"\"\n    def __init__(self, kernel_size: int, stride: int = None, padding: int = 0, dilation: int = 1, return_indices: bool = False, ceil_mode: bool = False):\n        \"\"\"\n        Initializes the Max Pooling 3D layer.\n\n        Args:\n            kernel_size (int): Size of the kernel for the max pooling operation.\n            stride (int, optional): Stride of the pooling operation. Defaults to None, which means stride is equal to kernel_size.\n            padding (int, optional): Padding applied to the input tensor. Defaults to 0.\n            dilation (int, optional): Spacing between kernel elements. Defaults to 1.\n            return_indices (bool, optional): Whether to return indices of the maximum values. Defaults to False.\n            ceil_mode (bool, optional): When True, the output size is ceil(input_size / stride) instead of floor. Defaults to False.\n        \"\"\"\n        super(Model, self).__init__()\n        self.maxpool = nn.MaxPool3d(kernel_size=kernel_size, stride=stride, padding=padding, dilation=dilation, return_indices=return_indices, ceil_mode=ceil_mode)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Max Pooling 3D to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, channels, dim1, dim2, dim3).\n\n        Returns:\n            torch.Tensor: Output tensor with Max Pooling 3D applied.\n        \"\"\"\n        return self.maxpool(x)\n\nbatch_size = 16\nchannels = 32\ndim1 = 64\ndim2 = 64\ndim3 = 64\nkernel_size = 3\nstride = 2\npadding = 1\ndilation = 3\n\ndef get_inputs():\n    x = torch.randn(batch_size, channels, dim1, dim2, dim3)\n    return [x]\n\ndef get_init_inputs():\n    return [kernel_size, stride, padding, dilation]"
     },
@@ -873,7 +922,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that performs a cumulative product operation along a specified dimension.\n\n    Parameters:\n        dim (int): The dimension along which to perform the cumulative product operation.\n    \"\"\"\n\n    def __init__(self, dim):\n        \"\"\"\n        Initialize the CumulativeProductModel.\n\n        Args:\n            dim (int): The dimension along which to perform the cumulative product.\n        \"\"\"\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x):\n        \"\"\"\n        Forward pass, computing the cumulative product along the specified dimension.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, *input_shape).\n\n        Returns:\n            torch.Tensor: Tensor of the same shape as `x` after applying cumulative product along `dim`.\n        \"\"\"\n        return torch.cumprod(x, dim=self.dim)\n\n# Define input dimensions and parameters\nbatch_size = 128\ninput_shape = (4000,)\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    return [dim]\n"
     },
@@ -890,7 +940,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A simple model that performs a cumulative sum (prefix sum) operation along a specified dimension.\n\n    Parameters:\n        dim (int): The dimension along which to perform the scan operation.\n    \"\"\"\n\n    def __init__(self, dim):\n        \"\"\"\n        Initialize the Scan model.\n\n        Args:\n            dim (int): The dimension along which to perform the cumulative sum.\n        \"\"\"\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x):\n        \"\"\"\n        Forward pass for the Scan model, computing the cumulative sum along the specified dimension.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, *input_shape), where `*input_shape` \n                              can vary depending on the use case.\n\n        Returns:\n            torch.Tensor: Tensor of the same shape as `x` after applying cumulative sum along `dim`.\n        \"\"\"\n        return torch.cumsum(x, dim=self.dim)\n\n# Define input dimensions and parameters\nbatch_size = 128\ninput_shape = (4000,)  # Example shape (arbitrary)\ndim = 1\n\ndef get_inputs():\n    \"\"\"\n    Generates random inputs for testing the Scan model.\n\n    Returns:\n        list: A list containing a single randomly generated tensor with shape \n              (batch_size, *input_shape).\n    \"\"\"\n    return [torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    \"\"\"\n    Returns the initialization parameters for the Scan model.\n\n    Returns:\n        list: A list containing the `dim` parameter for model initialization.\n    \"\"\"\n    return [dim]"
     },
@@ -907,7 +958,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that performs an exclusive cumulative sum (does not include the current element).\n\n    Parameters:\n        dim (int): The dimension along which to perform the exclusive cumulative sum.\n    \"\"\"\n\n    def __init__(self, dim):\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x):\n        exclusive_cumsum = torch.cat((torch.zeros_like(x.select(self.dim, 0).unsqueeze(self.dim)), x), dim=self.dim)[ :,:-1]\n        return torch.cumsum(exclusive_cumsum, dim=self.dim)\n\nbatch_size = 128\ninput_shape = (4000,)\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    return [dim]\n"
     },
@@ -924,7 +976,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    A model that performs a reverse cumulative sum operation along a specified dimension.\n\n    Parameters:\n        dim (int): The dimension along which to perform the reverse cumulative sum.\n    \"\"\"\n\n    def __init__(self, dim):\n        super(Model, self).__init__()\n        self.dim = dim\n\n    def forward(self, x):\n        return torch.cumsum(x.flip(self.dim), dim=self.dim).flip(self.dim)\n\nbatch_size = 128\ninput_shape = (4000,)\ndim = 1\n\ndef get_inputs():\n    return [torch.randn(batch_size, *input_shape)]\n\ndef get_init_inputs():\n    return [dim]\n"
     },
@@ -941,7 +994,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor indices, torch::Tensor weights, torch::Tensor bins, int expert_capacity, int top_k);"
       },
       "reference_implementation": "from typing import Optional, Union\n\nimport torch\nimport torch.nn as nn\n\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs an expert-binned gather operation.\n\n    Args:\n        No initialization arguments are required.\n    \"\"\"\n\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(\n        self,\n        x: torch.Tensor,\n        indices: torch.Tensor,\n        weights: Optional[torch.Tensor],\n        bins: torch.Tensor,\n        expert_capacity: Union[int, torch.Tensor],\n        top_k: Union[int, torch.Tensor],\n    ) -> torch.Tensor:\n        \"\"\"\n        Gathers routed token rows into per-expert capacity slots.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (tokens, hidden_size).\n            indices (torch.Tensor): Routed indices of shape (tokens * top_k,).\n            weights (Optional[torch.Tensor]): Optional per-route scaling factors of shape (tokens * top_k,).\n            bins (torch.Tensor): Cumulative routed counts for each expert, shape (num_experts,).\n            expert_capacity (Union[int, torch.Tensor]): Capacity allocated for each expert in the output.\n            top_k (Union[int, torch.Tensor]): Replication factor used to map routed indices back to source rows.\n\n        Returns:\n            torch.Tensor: Output tensor of shape (num_experts, expert_capacity, hidden_size).\n        \"\"\"\n        expert_capacity = (\n            int(expert_capacity.item()) if torch.is_tensor(expert_capacity) else int(expert_capacity)\n        )\n        top_k = int(top_k.item()) if torch.is_tensor(top_k) else int(top_k)\n\n        num_experts = bins.shape[0]\n        hidden_size = x.shape[1]\n        out = x.new_zeros((num_experts, expert_capacity, hidden_size))\n\n        start = 0\n        for expert_idx in range(num_experts):\n            end = int(bins[expert_idx].item())\n            num_tokens = end - start\n            for entry_idx in range(min(expert_capacity, num_tokens)):\n                index_a = int(indices[start + entry_idx].item())\n                src_row = index_a // top_k\n                values = x[src_row]\n                if weights is not None:\n                    values = values * weights[index_a]\n                out[expert_idx, entry_idx] = values\n            start = end\n\n        return out\n\n\ntokens = 4\nhidden_size = 4\ntop_k = 2\nexpert_capacity = 5\nindices_data = [0, 2, 4, 6, 1, 3, 5, 7]\nweights_data = [1.0, 0.5, 1.25, 0.75, 1.5, 0.8, 1.1, 0.9]\nbins_data = [4, 8]\n\n\ndef get_inputs():\n    x = torch.arange(tokens * hidden_size, dtype=torch.float16).view(tokens, hidden_size)\n    indices = torch.tensor(indices_data, dtype=torch.int32)\n    weights = torch.tensor(weights_data, dtype=torch.float16)\n    bins = torch.tensor(bins_data, dtype=torch.int32)\n    return [x, indices, weights, bins, expert_capacity, top_k]\n\n\ndef get_init_inputs():\n    return []\n"
     },
@@ -958,7 +1012,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor indices, torch::Tensor weights, torch::Tensor bins, int top_k);"
       },
       "reference_implementation": "from typing import Optional, Union\n\nimport torch\nimport torch.nn as nn\n\n\nclass Model(nn.Module):\n    \"\"\"\n    Performs an expert-binned scatter-reduce operation.\n\n    Args:\n        No initialization arguments are required.\n    \"\"\"\n\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(\n        self,\n        x: torch.Tensor,\n        indices: torch.Tensor,\n        weights: Optional[torch.Tensor],\n        bins: torch.Tensor,\n        top_k: Union[int, torch.Tensor],\n    ) -> torch.Tensor:\n        \"\"\"\n        Scatters expert-binned rows back to token rows and reduces across top-k routes.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (num_experts, expert_capacity, hidden_size).\n            indices (torch.Tensor): Routed indices of shape (tokens * top_k,).\n            weights (Optional[torch.Tensor]): Optional per-route scaling factors of shape (tokens * top_k,).\n            bins (torch.Tensor): Cumulative routed counts for each expert, shape (num_experts,).\n            top_k (Union[int, torch.Tensor]): Number of routed entries per source token.\n\n        Returns:\n            torch.Tensor: Output tensor of shape (tokens, hidden_size).\n        \"\"\"\n        top_k = int(top_k.item()) if torch.is_tensor(top_k) else int(top_k)\n\n        num_experts = x.shape[0]\n        tokens = indices.shape[0] // top_k\n        hidden_size = x.shape[2]\n        out = x.new_zeros((tokens, hidden_size))\n\n        start = 0\n        for expert_idx in range(num_experts):\n            end = int(bins[expert_idx].item())\n            num_tokens = end - start\n            expert_capacity = x.shape[1]\n            for entry_idx in range(min(expert_capacity, num_tokens)):\n                index_a = int(indices[start + entry_idx].item())\n                values = x[expert_idx, entry_idx]\n                if weights is not None:\n                    values = values * weights[index_a]\n                out[index_a // top_k] += values\n            start = end\n\n        return out\n\n\nnum_experts = 2\nexpert_capacity = 5\nhidden_size = 4\ntop_k = 2\nindices_data = [0, 2, 4, 6, 1, 3, 5, 7]\nweights_data = [1.0, 0.5, 1.25, 0.75, 1.5, 0.8, 1.1, 0.9]\nbins_data = [4, 8]\n\n\ndef get_inputs():\n    x = torch.arange(\n        num_experts * expert_capacity * hidden_size,\n        dtype=torch.float16,\n    ).view(num_experts, expert_capacity, hidden_size)\n    indices = torch.tensor(indices_data, dtype=torch.int32)\n    weights = torch.tensor(weights_data, dtype=torch.float16)\n    bins = torch.tensor(bins_data, dtype=torch.int32)\n    return [x, indices, weights, bins, top_k]\n\n\ndef get_init_inputs():\n    return []\n"
     },
@@ -975,7 +1030,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor indices, torch::Tensor bin_ids, torch::Tensor weights, torch::Tensor bins, int top_k);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\nfrom typing import Optional, Union\n\n\nclass Model(nn.Module):\n    \"\"\"PyTorch reference for megablocks `gather` launch.\"\"\"\n\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(\n        self,\n        x: torch.Tensor,\n        indices: torch.Tensor,\n        bin_ids: torch.Tensor,\n        weights: Optional[torch.Tensor],\n        bins: torch.Tensor,\n        top_k: Union[int, torch.Tensor],\n    ) -> torch.Tensor:\n        device = x.device\n        hidden_size = x.shape[1]\n\n        indices_long = indices.to(torch.long)\n        bin_ids_long = bin_ids.to(torch.long)\n        pid = torch.arange(indices.numel(), device=device, dtype=torch.int32)\n        bin_starts = torch.cat([bins.new_zeros(1), bins[:-1]], dim=0)\n\n        # gather launch is equivalent to padded_gather with padded_bins == bins\n        offset_in_bin = pid - bin_starts[bin_ids_long]\n        index_b = offset_in_bin + bin_starts[bin_ids_long]\n\n        # A_TO_B=True path:\n        # source row = index_a // top_k\n        src_rows = torch.div(indices, top_k, rounding_mode=\"floor\").to(torch.long)\n        values = torch.index_select(x, dim=0, index=src_rows)\n\n        if weights is not None:\n            scales = torch.index_select(weights, dim=0, index=indices_long).unsqueeze(1)\n            values = values * scales\n\n        out = x.new_zeros((int(x.shape[0] * top_k), hidden_size))\n        out[index_b.to(torch.long)] = values\n        return out\n\n\ntokens = 4\nhidden_size = 8\ntop_k = 2\nindices_data = [0, 3, 5, 1, 6, 2, 4, 7]\nbin_ids_data = [0, 0, 0, 1, 1, 2, 2, 2]\nweights_data = [1.00, 0.50, 0.80, 0.75, 1.10, 1.60, 1.25, 0.90]\nbins_data = [3, 5, 8]\n\n\ndef get_inputs():\n    \"\"\"\n    Returns a valid routed test case for `gather`.\n\n    case0 shapes:\n        x       : (4, 8)\n        indices : (8,)\n        bin_ids : (8,)\n        weights : (8,)\n        bins    : (3,)\n        top_k   : scalar\n\n    gather output shape:\n        (tokens * top_k, hidden_size) = (8, 8)\n    \"\"\"\n    x = torch.arange(tokens * hidden_size, dtype=torch.float16).view(tokens, hidden_size)\n    indices = torch.tensor(indices_data, dtype=torch.int32)\n    bin_ids = torch.tensor(bin_ids_data, dtype=torch.int32)\n    weights = torch.tensor(weights_data, dtype=torch.float16)\n    bins = torch.tensor(bins_data, dtype=torch.int32)\n\n    return [x, indices, bin_ids, weights, bins, top_k]\n\n\ndef get_init_inputs():\n    return []\n"
     },
@@ -992,7 +1048,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "std::vector<torch::Tensor> bang_func(torch::Tensor q, torch::Tensor k, torch::Tensor cos, torch::Tensor sin, int unsqueeze_dim);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\n\nBATCH_SIZE = 2\nSEQ_LEN = 64\nNUM_HEADS = 4\nHEAD_DIM = 64\nUNSQUEEZE_DIM = 1\nSEED = 0\n\n\ndef rotate_half(x: torch.Tensor) -> torch.Tensor:\n    half_dim = x.shape[-1] // 2\n    return torch.cat((-x[..., half_dim:], x[..., :half_dim]), dim=-1)\n\n\nclass Model(nn.Module):\n    \"\"\"\n    Apply rotary positional embeddings to Q and K tensors.\n\n    Args:\n        unsqueeze_dim: Broadcast dimension used when expanding cos/sin.\n    \"\"\"\n\n    def __init__(self, unsqueeze_dim: int = 1):\n        super().__init__()\n        self.unsqueeze_dim = unsqueeze_dim\n\n    def forward(\n        self,\n        q: torch.Tensor,\n        k: torch.Tensor,\n        cos: torch.Tensor,\n        sin: torch.Tensor,\n    ):\n        \"\"\"\n        Apply RoPE to Q and K tensors with shape [batch, seq_len, num_heads, head_dim].\n\n        Args:\n            q: Query tensor.\n            k: Key tensor.\n            cos: Cosine cache with shape [seq_len, head_dim].\n            sin: Sine cache with shape [seq_len, head_dim].\n\n        Returns:\n            A tuple `(q_embed, k_embed)` with the same shapes as `q` and `k`.\n        \"\"\"\n        cos = cos.unsqueeze(self.unsqueeze_dim)\n        sin = sin.unsqueeze(self.unsqueeze_dim)\n        q_embed = (q * cos) + (rotate_half(q) * sin)\n        k_embed = (k * cos) + (rotate_half(k) * sin)\n        return q_embed, k_embed\n\n\ndef get_inputs():\n    torch.manual_seed(SEED)\n    q = torch.randn(BATCH_SIZE, SEQ_LEN, NUM_HEADS, HEAD_DIM, dtype=torch.float16)\n    k = torch.randn(BATCH_SIZE, SEQ_LEN, NUM_HEADS, HEAD_DIM, dtype=torch.float16)\n    cos = torch.randn(SEQ_LEN, HEAD_DIM, dtype=torch.float16)\n    sin = torch.randn(SEQ_LEN, HEAD_DIM, dtype=torch.float16)\n    return [q, k, cos, sin]\n\n\ndef get_init_inputs():\n    return [UNSQUEEZE_DIM]\n"
     },
@@ -1009,7 +1066,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    \"\"\"\n    Simple model that performs a Softmax activation.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n    \n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Applies Softmax activation to the input tensor.\n\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, num_features).\n\n        Returns:\n            torch.Tensor: Output tensor with Softmax applied, same shape as input.\n        \"\"\"\n        return torch.softmax(x, dim=1)\n\nbatch_size = 16\ndim = 16384\n\ndef get_inputs():\n    x = torch.randn(batch_size, dim)\n    return [x]\n\ndef get_init_inputs():\n    return []  # No special initialization inputs needed"
     },
@@ -1026,7 +1084,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor q, torch::Tensor k, torch::Tensor v, double alpha, torch::Tensor seq_offsets, int max_seq_len, torch::Tensor context_size, torch::Tensor history_size, torch::Tensor realtime_size, torch::Tensor history_causal, torch::Tensor context_expand, torch::Tensor label_lens, int preference);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\n\nSEQ_OFFSETS = [0, 10, 22]\nQ_HEAD = 4\nKV_HEAD = 2\nQK_DIM = 32\nV_DIM = 40\nALPHA = 0.7\nMAX_SEQ_LEN = 12\nCONTEXT_SIZE = [3, 2]\nHISTORY_SIZE = [2, 3]\nREALTIME_SIZE = [1, 1]\nHISTORY_CAUSAL = [1, 0]\nCONTEXT_EXPAND = [1, 0]\nLABEL_LENS = [2, 2]\nPREFERENCE = 2\nSEED = 2026\n\n\ndef _normalize_preference(preference: int | str) -> str:\n    if isinstance(preference, str):\n        return preference\n    return {\n        0: \"FAST\",\n        1: \"HIGH_PRECISION\",\n        2: \"BALANCE\",\n    }[int(preference)]\n\n\ndef _repeat_kv(x: torch.Tensor, n_rep: int) -> torch.Tensor:\n    x = x.unsqueeze(2)\n    x = torch.tile(x, [1, 1, n_rep, 1, 1])\n    return x.reshape(x.shape[0], x.shape[1] * n_rep, x.shape[3], x.shape[4])\n\n\ndef _build_mask(\n    q_len: int,\n    k_len: int,\n    ctx_size: int,\n    htr_size: int,\n    rlt_size: int,\n    htr_causal: bool,\n    ctx_expand: bool,\n    lab_lens: int,\n    device: torch.device,\n) -> torch.Tensor:\n    mask_row = torch.arange(0, q_len, device=device)\n    if ctx_expand:\n        mask_row[0:ctx_size] = ctx_size + htr_size - 1\n    else:\n        mask_row[0:ctx_size] = ctx_size - 1\n    if not htr_causal:\n        mask_row[ctx_size: ctx_size + htr_size] = ctx_size + htr_size - 1\n\n    mask_col1 = torch.arange(0, k_len, device=device)\n    mask_col2 = torch.ones(k_len, device=device, dtype=mask_row.dtype) * k_len\n    lab_begin = ctx_size + htr_size + rlt_size\n    lab_size = q_len - lab_begin\n    lab_groups = lab_size // lab_lens\n    for group_i in range(lab_groups):\n        start = lab_begin + group_i * lab_lens\n        end = lab_begin + (group_i + 1) * lab_lens\n        mask_col2[start:end] = end\n\n    mask1 = mask_row[:, None] >= mask_col1[None, :]\n    mask2 = mask_row[:, None] < mask_col2[None, :]\n    return mask1 & mask2\n\n\ndef _hstu_reference(\n    q: torch.Tensor,\n    k: torch.Tensor,\n    v: torch.Tensor,\n    alpha: float,\n    max_seq_len: int,\n    ctx_size: int,\n    htr_size: int,\n    rlt_size: int,\n    htr_causal: bool,\n    ctx_expand: bool,\n    lab_lens: int,\n) -> torch.Tensor:\n    q = torch.transpose(q, 1, 2)\n    k = torch.transpose(k, 1, 2)\n    v = torch.transpose(v, 1, 2)\n    q_head, q_len = q.shape[1], q.shape[2]\n    kv_head, k_len = k.shape[1], k.shape[2]\n\n    if q_head > kv_head:\n        head_group = q_head // kv_head\n        k = _repeat_kv(k, head_group)\n        v = _repeat_kv(v, head_group)\n\n    mask = _build_mask(\n        q_len=q_len,\n        k_len=k_len,\n        ctx_size=ctx_size,\n        htr_size=htr_size,\n        rlt_size=rlt_size,\n        htr_causal=htr_causal,\n        ctx_expand=ctx_expand,\n        lab_lens=lab_lens,\n        device=q.device,\n    )\n\n    logits = torch.matmul(q.float(), k.transpose(2, 3).float()) * alpha\n    logits = torch.where(\n        mask.unsqueeze(0).unsqueeze(0),\n        logits,\n        torch.full_like(logits, -1e6),\n    )\n    probs = F.silu(logits) * (1.0 / max_seq_len)\n    probs = probs.to(q.dtype).float()\n    out = torch.matmul(probs, v.float()).to(q.dtype)\n    return torch.transpose(out, 1, 2)\n\n\ndef _hstu_varlen_reference(\n    q: torch.Tensor,\n    k: torch.Tensor,\n    v: torch.Tensor,\n    alpha: float,\n    seq_offsets: torch.Tensor,\n    max_seq_len: int,\n    context_size: torch.Tensor,\n    history_size: torch.Tensor,\n    realtime_size: torch.Tensor,\n    history_causal: torch.Tensor,\n    context_expand: torch.Tensor,\n    label_lens: torch.Tensor,\n) -> torch.Tensor:\n    batch_size = seq_offsets.shape[0] - 1\n    seq_lens = (seq_offsets[1:] - seq_offsets[:-1]).tolist()\n    q_list = torch.split(q, seq_lens)\n    k_list = torch.split(k, seq_lens)\n    v_list = torch.split(v, seq_lens)\n\n    out_list = []\n    for i in range(batch_size):\n        out_list.append(\n            _hstu_reference(\n                q_list[i].unsqueeze(0),\n                k_list[i].unsqueeze(0),\n                v_list[i].unsqueeze(0),\n                alpha=alpha,\n                max_seq_len=max_seq_len,\n                ctx_size=int(context_size[i].item()),\n                htr_size=int(history_size[i].item()),\n                rlt_size=int(realtime_size[i].item()),\n                htr_causal=bool(int(history_causal[i].item())),\n                ctx_expand=bool(int(context_expand[i].item())),\n                lab_lens=int(label_lens[i].item()),\n            ).squeeze(0)\n        )\n    return torch.cat(out_list, dim=0)\n\n\nclass Model(nn.Module):\n    \"\"\"\n    Reference implementation of the masked variable-length HSTU forward pass.\n    \"\"\"\n\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(\n        self,\n        q: torch.Tensor,\n        k: torch.Tensor,\n        v: torch.Tensor,\n        alpha: float,\n        seq_offsets: torch.Tensor,\n        max_seq_len: int,\n        context_size: torch.Tensor,\n        history_size: torch.Tensor,\n        realtime_size: torch.Tensor,\n        history_causal: torch.Tensor,\n        context_expand: torch.Tensor,\n        label_lens: torch.Tensor,\n        preference: int | str,\n    ) -> torch.Tensor:\n        \"\"\"\n        Computes flattened HSTU attention with context/history/realtime/label masks.\n        \"\"\"\n        _normalize_preference(preference)\n        return _hstu_varlen_reference(\n            q,\n            k,\n            v,\n            alpha,\n            seq_offsets,\n            max_seq_len,\n            context_size,\n            history_size,\n            realtime_size,\n            history_causal,\n            context_expand,\n            label_lens,\n        )\n\n\ndef get_inputs():\n    torch.manual_seed(SEED)\n    total_seq_len = SEQ_OFFSETS[-1]\n\n    q = torch.randn((total_seq_len, Q_HEAD, QK_DIM), dtype=torch.float16)\n    k = torch.randn((total_seq_len, KV_HEAD, QK_DIM), dtype=torch.float16)\n    v = torch.randn((total_seq_len, KV_HEAD, V_DIM), dtype=torch.float16)\n\n    seq_offsets = torch.tensor(SEQ_OFFSETS, dtype=torch.int32)\n    context_size = torch.tensor(CONTEXT_SIZE, dtype=torch.int32)\n    history_size = torch.tensor(HISTORY_SIZE, dtype=torch.int32)\n    realtime_size = torch.tensor(REALTIME_SIZE, dtype=torch.int32)\n    history_causal = torch.tensor(HISTORY_CAUSAL, dtype=torch.int32)\n    context_expand = torch.tensor(CONTEXT_EXPAND, dtype=torch.int32)\n    label_lens = torch.tensor(LABEL_LENS, dtype=torch.int32)\n\n    return [\n        q,\n        k,\n        v,\n        ALPHA,\n        seq_offsets,\n        MAX_SEQ_LEN,\n        context_size,\n        history_size,\n        realtime_size,\n        history_causal,\n        context_expand,\n        label_lens,\n        PREFERENCE,\n    ]\n\n\ndef get_init_inputs():\n    return []\n"
     },
@@ -1043,7 +1102,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor _input, torch::Tensor target, torch::Tensor label_smoothing, torch::Tensor reduce_loss, torch::Tensor dist_process_group, torch::Tensor ignore_idx);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    \"\"\"\n    Reference model for the Distributed Cross Entropy kernel with Label Smoothing.\n    This model simulates the behavior of the Triton kernel, including handling \n    of the ignore_index and the normalization by non-ignored elements.\n    \"\"\"\n    def __init__(self):\n        super(Model, self).__init__()\n\n    def forward(self, _input, target, label_smoothing, reduce_loss, dist_process_group, ignore_idx):\n        label_smoothing = float(label_smoothing.item()) if isinstance(label_smoothing, torch.Tensor) else label_smoothing\n        reduce_loss = bool(reduce_loss.item())\n        ignore_idx = int(ignore_idx.item())\n        # 1. 硬件兼容性处理：强制转为 float16\n        # 解决 \"nll_loss_forward... not implemented for BFloat16\" \n        orig_dtype = _input.dtype\n        logits = _input.to(torch.float16).view(-1, _input.size(-1))\n        target = target.to(torch.long).view(-1)\n\n        # 2. 调用 PyTorch 参考实现\n        loss = F.cross_entropy(\n            logits, \n            target, \n            ignore_index=ignore_idx, \n            label_smoothing=label_smoothing, \n            reduction='none'\n        )\n\n        # 3. 按照 Triton 算子的逻辑进行归约\n        if reduce_loss:\n            n_non_ignore = (target != ignore_idx).sum().to(torch.float16)\n            # 强制转为 1 维\n            loss = (loss.sum() / n_non_ignore.clamp(min=1.0)).view(1)\n        else:\n            loss = loss.view(_input.shape[0], _input.shape[1])\n\n        return loss.to(orig_dtype)\n        \n# 测试参数设置\nbatch_size = 4\nseq_len = 128\nvocab_size = 32768\n\n# 定义控制参数\nlabel_smoothing = 0.1\nreduce_loss = True\ndist_process_group = None  # 测试环境通常不涉及分布式组\nignore_idx = -100\n\ndef get_inputs():\n    \"\"\"\n    Generates representative inputs for the cross entropy kernel.\n    \"\"\"\n    ls = torch.tensor(label_smoothing)\n    rl = torch.tensor(1) # 1 为 True, 0 为 False\n    idx = torch.tensor(-100)\n    dist_process_group = torch.tensor([])\n\n    # 模拟 Logits (B, SQ, V)\n    _input = torch.randn(batch_size, seq_len, vocab_size, dtype=torch.float16)\n    \n    # 模拟标签 (B * SQ)，随机包含一些 ignore_idx\n    target = torch.randint(0, vocab_size, (batch_size * seq_len,))\n    \n    # # 随机插入 ignore_idx 以测试过滤逻辑\n    # mask = torch.rand(target.shape) < 0.1\n    # target[mask] = idx\n    # 将所有参数打包返回\n    # 注意：顺序必须与 Model.forward 的参数顺序完全一致\n    return [_input, target, ls, rl, dist_process_group, idx]\n\ndef get_init_inputs():\n    return []"
     },
@@ -1060,7 +1120,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input, int osizeT, int osizeH, int osizeW);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, input: torch.Tensor, osizeT: int, osizeH: int, osizeW: int) -> torch.Tensor:\n        \"\"\"\n        Perform 3D adaptive average pooling on a 5D input tensor.\n\n        Args:\n            input (torch.Tensor): Input tensor of shape (N, C, T, H, W).\n            osizeT (int): Target size for the temporal dimension.\n            osizeH (int): Target size for the height dimension.\n            osizeW (int): Target size for the width dimension.\n\n        Returns:\n            torch.Tensor: Output tensor of shape (N, C, osizeT, osizeH, osizeW).\n        \"\"\"\n        # Use PyTorch's built-in adaptive_avg_pool3d for efficient computation\n        return F.adaptive_avg_pool3d(input, (osizeT, osizeH, osizeW))"
     },
@@ -1077,7 +1138,8 @@
         "difficulty": "medium",
         "dtype": [
           "int32"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor agg);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, agg: torch.Tensor) -> torch.Tensor:\n        \"\"\"\n        Perform an inclusive prefix sum (scan) on the input tensor `agg`.\n\n        Args:\n            agg (torch.Tensor): A 1D tensor of dtype torch.int32.\n\n        Returns:\n            torch.Tensor: A 1D tensor of dtype torch.int64 containing the inclusive prefix sum.\n        \"\"\"\n        # Ensure the input tensor is of dtype int32\n        assert agg.dtype == torch.int32, \"Input tensor must be of dtype torch.int32\"\n        # Perform inclusive prefix sum using torch.cumsum and cast to int64\n        return torch.cumsum(agg, dim=0, dtype=torch.int64)"
     },
@@ -1094,7 +1156,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input, int iters_per_cta);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n    \n    def forward(self, input: torch.Tensor, iters_per_cta: int):\n        \"\"\"\n        Compute block-wise sums of the input tensor.\n\n        Args:\n            input (torch.Tensor): Input tensor of shape (N,).\n            iters_per_cta (int): Number of iterations per block.\n\n        Returns:\n            torch.Tensor: Tensor of block-wise sums.\n        \"\"\"\n        BLOCK_THREADS = 128\n        ITEMS_PER_THREAD = 4\n\n        # Calculate the number of elements per block\n        elems_per_block = BLOCK_THREADS * ITEMS_PER_THREAD * iters_per_cta\n\n        # Calculate the number of blocks\n        num_blocks = (input.numel() + elems_per_block - 1) // elems_per_block\n\n        # Pad the input tensor to make it divisible by elems_per_block\n        pad_size = elems_per_block * num_blocks - input.numel()\n        if pad_size > 0:\n            input = torch.nn.functional.pad(input, (0, pad_size), mode='constant', value=0)\n\n        # Reshape the input tensor into blocks\n        input_blocks = input.view(num_blocks, elems_per_block)\n\n        # Compute the sum of each block using efficient vectorized operations\n        block_sums = torch.sum(input_blocks, dim=1)\n\n        return block_sums"
     },
@@ -1111,7 +1174,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input, int osizeH, int osizeW);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, input: torch.Tensor, osizeH: int, osizeW: int) -> torch.Tensor:\n        \"\"\"\n        Perform adaptive average pooling on an NHWC tensor using PyTorch's built-in operators.\n\n        Args:\n            input (torch.Tensor): Input tensor of shape (B, H, W, C) in NHWC format.\n            osizeH (int): Target output height.\n            osizeW (int): Target output width.\n\n        Returns:\n            torch.Tensor: Output tensor of shape (B, osizeH, osizeW, C) in NHWC format.\n        \"\"\"\n        # Convert NHWC to NCHW for PyTorch's adaptive_avg_pool2d\n        input_nchw = input.permute(0, 3, 1, 2)  # (B, C, H, W)\n\n        # Apply adaptive average pooling\n        output_nchw = F.adaptive_avg_pool2d(input_nchw, (osizeH, osizeW))  # (B, C, osizeH, osizeW)\n\n        # Convert back to NHWC format\n        output_nhwc = output_nchw.permute(0, 2, 3, 1)  # (B, osizeH, osizeW, C)\n\n        return output_nhwc"
     },
@@ -1128,7 +1192,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor output_per_tensor, int max_chunks_per_tensor);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, output_per_tensor: torch.Tensor, max_chunks_per_tensor: int):\n        \"\"\"\n        Computes the maximum value for each row in the 2D tensor `output_per_tensor`.\n        If a row contains NaN values, the result for that row will also be NaN.\n\n        Args:\n            output_per_tensor (torch.Tensor): A 2D tensor of shape [num_tensors, max_chunks_per_tensor].\n            max_chunks_per_tensor (int): The number of chunks per tensor (must match output_per_tensor.size(1)).\n\n        Returns:\n            torch.Tensor: A 1D tensor of shape [num_tensors] containing the maximum value for each row.\n        \"\"\"\n        # Ensure the input tensor is 2D and the second dimension matches max_chunks_per_tensor\n        assert output_per_tensor.dim() == 2, \"output_per_tensor must be a 2D tensor\"\n        assert output_per_tensor.size(1) == max_chunks_per_tensor, (\n            \"max_chunks_per_tensor must match output_per_tensor.size(1)\"\n        )\n\n        # Replace NaN values with -inf to ensure they don't affect the max computation\n        nan_mask = torch.isnan(output_per_tensor)\n        output_no_nan = output_per_tensor.clone()\n        output_no_nan[nan_mask] = float('-inf')\n\n        # Compute the maximum value for each row\n        row_max, _ = torch.max(output_no_nan, dim=1)\n\n        # If a row contains all NaNs, the result should be NaN\n        all_nan_mask = nan_mask.all(dim=1)\n        row_max[all_nan_mask] = float('nan')\n\n        return row_max"
     },
@@ -1145,7 +1210,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor a, torch::Tensor b);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:\n        # Ensure the inputs are of the same shape and type\n        assert a.shape == b.shape, \"Input tensors must have the same shape\"\n        assert a.dtype == torch.float16 and b.dtype == torch.float16, \"Input tensors must be of type float16\"\n        \n        # Perform elementwise addition\n        return a + b"
     },
@@ -1162,7 +1228,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input_tensor);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, input_tensor: torch.Tensor) -> torch.Tensor:\n        # Compute the row-wise sum\n        row_sums = input_tensor.sum(dim=1, keepdim=True)\n        \n        # Avoid division by zero: only normalize rows where the sum is positive\n        normalized_tensor = torch.where(\n            row_sums > 0, \n            input_tensor / row_sums, \n            input_tensor\n        )\n        \n        return normalized_tensor"
     },
@@ -1179,7 +1246,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input, int out_h, int out_w, bool align_corners);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(self, input: torch.Tensor, out_h: int, out_w: int, align_corners: bool = False) -> torch.Tensor:\n        \"\"\"\n        Perform 2D bilinear upsampling on a 4D tensor (N, C, H, W).\n\n        Args:\n            input (torch.Tensor): Input tensor of shape (N, C, H, W).\n            out_h (int): Desired output height.\n            out_w (int): Desired output width.\n            align_corners (bool): Whether to align corners during interpolation.\n\n        Returns:\n            torch.Tensor: Upsampled tensor of shape (N, C, out_h, out_w).\n        \"\"\"\n        # Extract input dimensions\n        batchsize, channels, height1, width1 = input.shape\n\n        # Compute scaling factors\n        if align_corners and out_h > 1:\n            rheight = (height1 - 1) / (out_h - 1)\n        else:\n            rheight = height1 / out_h\n\n        if align_corners and out_w > 1:\n            rwidth = (width1 - 1) / (out_w - 1)\n        else:\n            rwidth = width1 / out_w\n\n        # Prepare output tensor\n        output = torch.empty((batchsize, channels, out_h, out_w), device=input.device, dtype=input.dtype)\n\n        # Iterate over output spatial dimensions\n        for h2 in range(out_h):\n            h1r = (h2 * rheight) if align_corners else ((h2 + 0.5) * rheight - 0.5)\n            h1r = max(0, min(h1r, height1 - 1))\n            h1 = int(h1r)\n            h1p = min(h1 + 1, height1 - 1)\n            h1lambda = h1r - h1\n            h0lambda = 1.0 - h1lambda\n\n            for w2 in range(out_w):\n                w1r = (w2 * rwidth) if align_corners else ((w2 + 0.5) * rwidth - 0.5)\n                w1r = max(0, min(w1r, width1 - 1))\n                w1 = int(w1r)\n                w1p = min(w1 + 1, width1 - 1)\n                w1lambda = w1r - w1\n                w0lambda = 1.0 - w1lambda\n\n                # Perform bilinear interpolation\n                for n in range(batchsize):\n                    for c in range(channels):\n                        v00 = input[n, c, h1, w1]\n                        v01 = input[n, c, h1, w1p]\n                        v10 = input[n, c, h1p, w1]\n                        v11 = input[n, c, h1p, w1p]\n\n                        output[n, c, h2, w2] = (\n                            h0lambda * (w0lambda * v00 + w1lambda * v01) +\n                            h1lambda * (w0lambda * v10 + w1lambda * v11)\n                        )\n\n        return output"
     },
@@ -1196,7 +1264,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input, torch::Tensor hidden, torch::Tensor bias1, torch::Tensor bias2, torch::Tensor cx, int hsz, int totalElements);"
       },
       "reference_implementation": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n\n    def forward(\n        self,\n        input: torch.Tensor,\n        hidden: torch.Tensor,\n        bias1: torch.Tensor,\n        bias2: torch.Tensor,\n        cx: torch.Tensor,\n        hsz: int,\n        totalElements: int,\n    ) -> torch.Tensor:\n        # Match original wrapper: return only hy of shape (totalElements,)\n\n        # Ensure contiguity like in C++ wrapper\n        input_c = input.contiguous()\n        hidden_c = hidden.contiguous()\n        bias1_c = bias1.contiguous()\n        bias2_c = bias2.contiguous()\n        cx_c = cx.contiguous()\n\n        batch = totalElements // hsz\n\n        # Reshape to (batch, 4, hsz) to mimic CUDA layout [batch, 4, hsz]\n        input_reshaped = input_c.view(batch, 4, hsz)\n        hidden_reshaped = hidden_c.view(batch, 4, hsz)\n\n        # Stack input and hidden, then sum to avoid per-gate indexing\n        # gates: (batch, 4, hsz)\n        gates = input_reshaped + hidden_reshaped\n\n        # Biases: (4, hsz) -> broadcast to (1, 4, hsz)\n        bias_sum = (bias1_c + bias2_c).unsqueeze(0)\n\n        gates = gates + bias_sum\n\n        # Split gates along gate dimension (dim=1)\n        ig, fg, cg, og = gates.unbind(dim=1)\n\n        ig = torch.sigmoid(ig)\n        fg = torch.sigmoid(fg)\n        cg = torch.tanh(cg)\n        og = torch.sigmoid(og)\n\n        cx_reshaped = cx_c.view(batch, hsz)\n\n        cy = fg * cx_reshaped + ig * cg\n        hy = og * torch.tanh(cy)\n\n        return hy.reshape(totalElements)"
     },
@@ -1213,7 +1282,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.sqrt(torch.abs(x))\nbatch_size = 16; dim = 16384\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return []"
     },
@@ -1230,7 +1300,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.cos(x)\nbatch_size = 16; dim = 16384\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return []"
     },
@@ -1247,7 +1318,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor a, torch::Tensor b);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:\n        return a + b\nM = 1024; N = 4096\ndef get_inputs(): return [torch.randn(M, N), torch.randn(M, N)]\ndef get_init_inputs(): return []"
     },
@@ -1264,7 +1336,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, double exponent);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, exponent: float = 2.0):\n        super().__init__(); self.exponent = exponent\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.pow(x.abs(), self.exponent)\nbatch_size = 16; dim = 16384\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return [2.0]"
     },
@@ -1281,7 +1354,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int):\n        super().__init__(); self.dim = dim\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.std(x, dim=self.dim)\nbatch_size = 16; dim1 = 256; dim2 = 256\ndef get_inputs(): return [torch.randn(batch_size, dim1, dim2)]\ndef get_init_inputs(): return [1]"
     },
@@ -1298,7 +1372,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "std::vector<torch::Tensor> bang_func(torch::Tensor x, int k, int dim);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, k: int, dim: int):\n        super().__init__(); self.k = k; self.dim = dim\n    def forward(self, x: torch.Tensor):\n        return torch.topk(x, self.k, dim=self.dim)\nbatch_size = 16; dim = 1024\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return [10, 1]"
     },
@@ -1315,7 +1390,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim, bool descending);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int, descending: bool = False):\n        super().__init__(); self.dim = dim; self.descending = descending\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.sort(x, dim=self.dim, descending=self.descending).values\nbatch_size = 16; dim = 1024\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return [1, False]"
     },
@@ -1332,7 +1408,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int):\n        super().__init__(); self.dim = dim\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.logsumexp(x, dim=self.dim)\nbatch_size = 16; dim = 1024\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return [1]"
     },
@@ -1349,7 +1426,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int):\n        super().__init__(); self.dim = dim\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.cummin(x, dim=self.dim).values\nbatch_size = 128; length = 4000\ndef get_inputs(): return [torch.randn(batch_size, length)]\ndef get_init_inputs(): return [1]"
     },
@@ -1366,7 +1444,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.sum(x)\nbatch_size = 64; dim = 8192\ndef get_inputs(): return [torch.randn(batch_size, dim)]\ndef get_init_inputs(): return []"
     },
@@ -1383,7 +1462,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int dim);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int):\n        super().__init__(); self.dim = dim\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.all(x > 0, dim=self.dim)\nbatch_size = 16; dim1 = 256; dim2 = 256\ndef get_inputs(): return [torch.randn(batch_size, dim1, dim2)]\ndef get_init_inputs(): return [1]"
     },
@@ -1400,7 +1480,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return x.sum(dim=(1, 2))\nbatch_size = 16; H = 256; W = 256\ndef get_inputs(): return [torch.randn(batch_size, H, W)]\ndef get_init_inputs(): return []"
     },
@@ -1417,7 +1498,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor q, torch::Tensor k, torch::Tensor v, double scale);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def __init__(self, scale: float = None):\n        super().__init__(); self.scale = scale\n    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor) -> torch.Tensor:\n        d = q.shape[-1]\n        scale = self.scale if self.scale else math.sqrt(d)\n        scores = torch.matmul(q, k.transpose(-2, -1)) / scale\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 2; heads = 8; seq = 128; dim = 64\ndef get_inputs():\n    q = torch.randn(batch, heads, seq, dim)\n    k = torch.randn(batch, heads, seq, dim)\n    v = torch.randn(batch, heads, seq, dim)\n    return [q, k, v]\ndef get_init_inputs(): return []"
     },
@@ -1434,7 +1516,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor q, torch::Tensor k, torch::Tensor v);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor) -> torch.Tensor:\n        seq = q.shape[2]\n        mask = torch.tril(torch.ones(seq, seq, device=q.device)).bool()\n        d = q.shape[-1]\n        scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(d)\n        scores = scores.masked_fill(~mask.unsqueeze(0).unsqueeze(0), float('-inf'))\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 2; heads = 8; seq = 128; dim = 64\ndef get_inputs():\n    q = torch.randn(batch, heads, seq, dim)\n    k = torch.randn(batch, heads, seq, dim)\n    v = torch.randn(batch, heads, seq, dim)\n    return [q, k, v]\ndef get_init_inputs(): return []"
     },
@@ -1451,7 +1534,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor query, torch::Tensor key_value, int d_model, int num_heads);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, d_model: int, num_heads: int):\n        super().__init__()\n        self.mha = nn.MultiheadAttention(d_model, num_heads, batch_first=True)\n    def forward(self, query: torch.Tensor, key_value: torch.Tensor) -> torch.Tensor:\n        out, _ = self.mha(query, key_value, key_value)\n        return out\nbatch = 4; q_seq = 64; kv_seq = 128; d_model = 512; num_heads = 8\ndef get_inputs():\n    return [torch.randn(batch, q_seq, d_model), torch.randn(batch, kv_seq, d_model)]\ndef get_init_inputs(): return [d_model, num_heads]"
     },
@@ -1468,7 +1552,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int in_features, int out_features, bool bias);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_features: int, out_features: int, bias: bool = True):\n        super().__init__()\n        self.linear = nn.Linear(in_features, out_features, bias=bias)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.linear(x)\nbatch = 64; seq = 128; in_features = 512; out_features = 2048\ndef get_inputs(): return [torch.randn(batch, seq, in_features)]\ndef get_init_inputs(): return [in_features, out_features]"
     },
@@ -1485,7 +1570,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor a, torch::Tensor b);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:\n        return torch.einsum('bi,bj->bij', a, b)\nbatch = 64; M = 256; N = 256\ndef get_inputs(): return [torch.randn(batch, M), torch.randn(batch, N)]\ndef get_init_inputs(): return []"
     },
@@ -1502,7 +1588,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        return A * B\nM = 2048; N = 2048\ndef get_inputs(): return [torch.randn(M, N), torch.randn(M, N)]\ndef get_init_inputs(): return []"
     },
@@ -1519,7 +1606,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor) -> torch.Tensor:\n        return torch.diagonal(A, dim1=-2, dim2=-1).sum(dim=-1)\nbatch = 32; N = 512\ndef get_inputs(): return [torch.randn(batch, N, N)]\ndef get_init_inputs(): return []"
     },
@@ -1536,7 +1624,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, int offset);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, offset: int = 0):\n        super().__init__(); self.offset = offset\n    def forward(self, A: torch.Tensor) -> torch.Tensor:\n        return torch.diagonal(A, offset=self.offset, dim1=-2, dim2=-1)\nbatch = 32; N = 512\ndef get_inputs(): return [torch.randn(batch, N, N)]\ndef get_init_inputs(): return [0]"
     },
@@ -1553,7 +1642,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor B);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:\n        return torch.einsum('bhid,bhjd->bhij', A, B)\nbatch = 4; heads = 8; seq = 128; dim = 64\ndef get_inputs():\n    A = torch.randn(batch, heads, seq, dim)\n    B = torch.randn(batch, heads, seq, dim)\n    return [A, B]\ndef get_init_inputs(): return []"
     },
@@ -1570,7 +1660,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor) -> torch.Tensor:\n        return torch.linalg.inv(A)\nbatch = 8; N = 64\ndef get_inputs():\n    A = torch.randn(batch, N, N)\n    A = A @ A.transpose(-1, -2) + N * torch.eye(N)\n    return [A]\ndef get_init_inputs(): return []"
     },
@@ -1587,7 +1678,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "std::vector<torch::Tensor> bang_func(torch::Tensor A);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor):\n        U, S, Vh = torch.linalg.svd(A, full_matrices=False)\n        return U, S, Vh\nbatch = 8; M = 128; N = 64\ndef get_inputs(): return [torch.randn(batch, M, N)]\ndef get_init_inputs(): return []"
     },
@@ -1604,7 +1696,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A, torch::Tensor b);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor, b: torch.Tensor) -> torch.Tensor:\n        return torch.linalg.solve_triangular(A, b, upper=True)\nbatch = 8; N = 64\ndef get_inputs():\n    A = torch.triu(torch.randn(batch, N, N)) + N * torch.eye(N)\n    b = torch.randn(batch, N, 1)\n    return [A, b]\ndef get_init_inputs(): return []"
     },
@@ -1621,7 +1714,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor weight, torch::Tensor bias, int normalized_shape);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, normalized_shape):\n        super().__init__()\n        self.ln = nn.LayerNorm(normalized_shape)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.ln(x)\nbatch = 32; seq = 128; d_model = 512\ndef get_inputs(): return [torch.randn(batch, seq, d_model)]\ndef get_init_inputs(): return [d_model]"
     },
@@ -1638,7 +1732,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor residual, torch::Tensor weight, int dim, double eps);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int, eps: float = 1e-6):\n        super().__init__()\n        self.eps = eps\n        self.weight = nn.Parameter(torch.ones(dim))\n    def forward(self, x: torch.Tensor, residual: torch.Tensor) -> torch.Tensor:\n        h = x + residual\n        rms = h.pow(2).mean(-1, keepdim=True).add(self.eps).rsqrt()\n        return h * rms * self.weight\nbatch = 32; seq = 128; d_model = 512\ndef get_inputs(): return [torch.randn(batch, seq, d_model), torch.randn(batch, seq, d_model)]\ndef get_init_inputs(): return [d_model]"
     },
@@ -1655,7 +1750,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int size, double alpha, double beta, double k);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, size: int = 5, alpha: float = 1e-4, beta: float = 0.75, k: float = 1.0):\n        super().__init__()\n        self.lrn = nn.LocalResponseNorm(size, alpha=alpha, beta=beta, k=k)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.lrn(x)\nbatch = 16; channels = 64; H = 56; W = 56\ndef get_inputs(): return [torch.randn(batch, channels, H, W)]\ndef get_init_inputs(): return [5]"
     },
@@ -1672,7 +1768,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int upscale_factor);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, upscale_factor: int):\n        super().__init__()\n        self.ps = nn.PixelShuffle(upscale_factor)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.ps(x)\nbatch = 4; C = 64; H = 32; W = 32; r = 2\ndef get_inputs(): return [torch.randn(batch, C * r * r, H, W)]\ndef get_init_inputs(): return [2]"
     },
@@ -1689,7 +1786,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor q, torch::Tensor k, torch::Tensor v, double temperature);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, temperature: float = 1.0):\n        super().__init__(); self.temperature = temperature\n    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor) -> torch.Tensor:\n        import math\n        d = q.shape[-1]\n        scores = torch.matmul(q, k.transpose(-2, -1)) / (math.sqrt(d) * self.temperature)\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 2; heads = 8; seq = 128; dim = 64\ndef get_inputs():\n    return [torch.randn(batch, heads, seq, dim)] * 3\ndef get_init_inputs(): return [0.5]"
     },
@@ -1706,7 +1804,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, double drop_prob);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, drop_prob: float = 0.1):\n        super().__init__(); self.drop_prob = drop_prob\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        if not self.training or self.drop_prob == 0.0:\n            return x\n        keep_prob = 1 - self.drop_prob\n        shape = (x.shape[0],) + (1,) * (x.ndim - 1)\n        random_tensor = torch.rand(shape, device=x.device)\n        output = x / keep_prob * (random_tensor >= self.drop_prob).float()\n        return output\nbatch = 32; seq = 128; d_model = 512\ndef get_inputs(): return [torch.randn(batch, seq, d_model)]\ndef get_init_inputs(): return [0.1]"
     },
@@ -1723,7 +1822,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, std::vector<int64_t> output_size);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, output_size):\n        super().__init__()\n        self.pool = nn.AdaptiveMaxPool2d(output_size)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.pool(x)\nbatch = 16; channels = 64; H = 256; W = 256; out_h = 8; out_w = 8\ndef get_inputs(): return [torch.randn(batch, channels, H, W)]\ndef get_init_inputs(): return [(out_h, out_w)]"
     },
@@ -1740,7 +1840,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int kernel_size, int stride);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, kernel_size: int, stride: int):\n        super().__init__()\n        self.pool = nn.MaxPool2d(kernel_size, stride=stride, return_indices=True)\n    def forward(self, x: torch.Tensor):\n        return self.pool(x)\nbatch = 16; channels = 32; H = 128; W = 128\ndef get_inputs(): return [torch.randn(batch, channels, H, W)]\ndef get_init_inputs(): return [2, 2]"
     },
@@ -1757,7 +1858,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, std::vector<int64_t> output_size);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, output_size):\n        super().__init__(); self.output_size = output_size\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return F.adaptive_avg_pool3d(x, self.output_size)\nbatch = 4; C = 16; D = 32; H = 32; W = 32\ndef get_inputs(): return [torch.randn(batch, C, D, H, W)]\ndef get_init_inputs(): return [(4, 8, 8)]"
     },
@@ -1774,7 +1876,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor predictions, torch::Tensor targets);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, predictions: torch.Tensor, targets: torch.Tensor) -> torch.Tensor:\n        return torch.nn.functional.mse_loss(predictions, targets)\nbatch = 128; dim = 4096\ndef get_inputs(): return [torch.randn(batch, dim), torch.randn(batch, dim)]\ndef get_init_inputs(): return []"
     },
@@ -1791,7 +1894,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input_log_prob, torch::Tensor target_prob);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def forward(self, input_log_prob: torch.Tensor, target_prob: torch.Tensor) -> torch.Tensor:\n        return F.kl_div(input_log_prob, target_prob, reduction='batchmean')\nbatch = 128; num_classes = 1024\ndef get_inputs():\n    p = F.softmax(torch.randn(batch, num_classes), dim=-1)\n    q = F.softmax(torch.randn(batch, num_classes), dim=-1)\n    return [torch.log(p), q]\ndef get_init_inputs(): return []"
     },
@@ -1808,7 +1912,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor indices, int num_embeddings, int embedding_dim);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, num_embeddings: int, embedding_dim: int):\n        super().__init__()\n        self.emb = nn.Embedding(num_embeddings, embedding_dim)\n    def forward(self, indices: torch.Tensor) -> torch.Tensor:\n        return self.emb(indices)\nbatch = 64; seq = 128; vocab_size = 32768; emb_dim = 512\ndef get_inputs(): return [torch.randint(0, vocab_size, (batch, seq))]\ndef get_init_inputs(): return [vocab_size, emb_dim]"
     },
@@ -1825,7 +1930,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor indices, torch::Tensor offsets, int num_embeddings, int embedding_dim);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, num_embeddings: int, embedding_dim: int):\n        super().__init__()\n        self.emb_bag = nn.EmbeddingBag(num_embeddings, embedding_dim, mode='mean')\n    def forward(self, indices: torch.Tensor, offsets: torch.Tensor) -> torch.Tensor:\n        return self.emb_bag(indices, offsets)\nnum_bags = 64; avg_len = 32; vocab_size = 32768; emb_dim = 256\ndef get_inputs():\n    indices = torch.randint(0, vocab_size, (num_bags * avg_len,))\n    offsets = torch.arange(0, num_bags * avg_len, avg_len)\n    return [indices, offsets]\ndef get_init_inputs(): return [vocab_size, emb_dim]"
     },
@@ -1842,7 +1948,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int d_model, int max_len);"
       },
       "reference_implementation": "import torch, torch.nn as nn, math\nclass Model(nn.Module):\n    def __init__(self, d_model: int, max_len: int = 5000):\n        super().__init__()\n        pe = torch.zeros(max_len, d_model)\n        position = torch.arange(0, max_len).unsqueeze(1).float()\n        div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))\n        pe[:, 0::2] = torch.sin(position * div_term)\n        pe[:, 1::2] = torch.cos(position * div_term)\n        self.register_buffer('pe', pe)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        seq = x.shape[1]\n        return x + self.pe[:seq].unsqueeze(0)\nbatch = 32; seq = 128; d_model = 512\ndef get_inputs(): return [torch.randn(batch, seq, d_model)]\ndef get_init_inputs(): return [d_model]"
     },
@@ -1859,7 +1966,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(int seq_len, int num_heads);"
       },
       "reference_implementation": "import torch, torch.nn as nn, math\nclass Model(nn.Module):\n    def __init__(self, num_heads: int):\n        super().__init__()\n        slopes = torch.Tensor([2 ** (-8 * i / num_heads) for i in range(1, num_heads + 1)])\n        self.register_buffer('slopes', slopes)\n    def forward(self, seq_len: int) -> torch.Tensor:\n        pos = torch.arange(seq_len, device=self.slopes.device)\n        rel_pos = (pos.unsqueeze(0) - pos.unsqueeze(1)).abs()\n        bias = -self.slopes.view(-1, 1, 1) * rel_pos.unsqueeze(0)\n        return bias\nnum_heads = 8; seq = 128\ndef get_inputs(): return [torch.tensor(seq)]\ndef get_init_inputs(): return [num_heads]"
     },
@@ -1876,7 +1984,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor src, torch::Tensor index, int dim_size);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, src: torch.Tensor, index: torch.Tensor, dim_size: int) -> torch.Tensor:\n        out = torch.zeros(dim_size, src.shape[1], device=src.device, dtype=src.dtype)\n        out.scatter_add_(0, index.unsqueeze(1).expand_as(src), src)\n        return out\nN = 4096; D = 256; dim_size = 512\ndef get_inputs():\n    src = torch.randn(N, D)\n    index = torch.randint(0, dim_size, (N,))\n    return [src, index, dim_size]\ndef get_init_inputs(): return []"
     },
@@ -1893,7 +2002,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input, torch::Tensor index);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, input: torch.Tensor, index: torch.Tensor) -> torch.Tensor:\n        return torch.gather(input, 1, index)\nbatch = 64; N = 1024; K = 32\ndef get_inputs():\n    inp = torch.randn(batch, N)\n    idx = torch.randint(0, N, (batch, K))\n    return [inp, idx]\ndef get_init_inputs(): return []"
     },
@@ -1910,7 +2020,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input, double threshold);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, input: torch.Tensor, threshold: float) -> torch.Tensor:\n        mask = input > threshold\n        return torch.masked_select(input, mask)\nM = 1024; N = 1024\ndef get_inputs(): return [torch.randn(M, N), 0.0]\ndef get_init_inputs(): return []"
     },
@@ -1927,7 +2038,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input, torch::Tensor values, torch::Tensor index);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, input: torch.Tensor, values: torch.Tensor, index: torch.Tensor) -> torch.Tensor:\n        out = input.clone()\n        out[index] = values\n        return out\nM = 4096; N = 512; K = 256\ndef get_inputs():\n    inp = torch.randn(M, N)\n    vals = torch.randn(K, N)\n    idx = torch.randint(0, M, (K,)).unique()\n    idx = idx[:K] if len(idx) >= K else idx\n    vals = vals[:len(idx)]\n    return [inp, vals, idx]\ndef get_init_inputs(): return []"
     },
@@ -1944,7 +2056,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int scale_factor);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, scale_factor: int):\n        super().__init__()\n        self.up = nn.Upsample(scale_factor=scale_factor, mode='nearest')\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.up(x)\nbatch = 4; C = 64; H = 64; W = 64\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [2]"
     },
@@ -1961,7 +2074,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, std::vector<int64_t> pad, double value);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, pad, value: float = 0.0):\n        super().__init__(); self.pad = pad; self.value = value\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return F.pad(x, self.pad, mode='constant', value=self.value)\nbatch = 16; C = 64; H = 128; W = 128\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [(2, 2, 2, 2), 0.0]"
     },
@@ -1978,7 +2092,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int kernel_size, int stride, int padding);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, kernel_size: int, stride: int, padding: int):\n        super().__init__()\n        self.unfold = nn.Unfold(kernel_size=kernel_size, stride=stride, padding=padding)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.unfold(x)\nbatch = 16; C = 3; H = 256; W = 256; K = 3\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [3, 1, 0]"
     },
@@ -1995,7 +2110,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor input, torch::Tensor grid);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def forward(self, input: torch.Tensor, grid: torch.Tensor) -> torch.Tensor:\n        return F.grid_sample(input, grid, mode='bilinear', padding_mode='zeros', align_corners=True)\nbatch = 4; C = 64; H = 128; W = 128; out_H = 64; out_W = 64\ndef get_inputs():\n    inp = torch.randn(batch, C, H, W)\n    grid = torch.rand(batch, out_H, out_W, 2) * 2 - 1\n    return [inp, grid]\ndef get_init_inputs(): return []"
     },
@@ -2012,7 +2128,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor mask, double fill_value);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, fill_value: float = 0.0):\n        super().__init__(); self.fill_value = fill_value\n    def forward(self, x: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:\n        return x.masked_fill(mask, self.fill_value)\nbatch = 32; seq = 512; d = 256\ndef get_inputs():\n    x = torch.randn(batch, seq, d)\n    mask = torch.rand(batch, seq, d) > 0.8\n    return [x, mask]\ndef get_init_inputs(): return [float('-inf')]"
     },
@@ -2029,7 +2146,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor condition, torch::Tensor x, torch::Tensor y);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, condition: torch.Tensor, x: torch.Tensor, y: torch.Tensor) -> torch.Tensor:\n        return torch.where(condition, x, y)\nM = 1024; N = 1024\ndef get_inputs():\n    cond = torch.rand(M, N) > 0.5\n    x = torch.randn(M, N)\n    y = torch.randn(M, N)\n    return [cond, x, y]\ndef get_init_inputs(): return []"
     },
@@ -2046,7 +2164,8 @@
         "difficulty": "easy",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int num_classes);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, num_classes: int):\n        super().__init__(); self.num_classes = num_classes\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return F.one_hot(x, self.num_classes).float()\nbatch = 1024; num_classes = 512\ndef get_inputs(): return [torch.randint(0, num_classes, (batch,))]\ndef get_init_inputs(): return [512]"
     },
@@ -2063,7 +2182,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor mask);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:\n        x = x.masked_fill(mask == 0, float('-inf'))\n        return F.softmax(x, dim=-1)\nbatch = 32; heads = 8; seq = 128\ndef get_inputs():\n    x = torch.randn(batch, heads, seq, seq)\n    mask = torch.ones(batch, 1, seq, seq).bool()\n    mask[:, :, :, seq//2:] = False\n    return [x, mask]\ndef get_init_inputs(): return []"
     },
@@ -2080,7 +2200,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor attn_weight, torch::Tensor mask, double scale);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def __init__(self, scale: float = None):\n        super().__init__(); self.scale = scale\n    def forward(self, attn_weight: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:\n        if self.scale:\n            attn_weight = attn_weight * self.scale\n        attn_weight = attn_weight.masked_fill(mask == 0, float('-inf'))\n        return F.softmax(attn_weight, dim=-1)\nbatch = 4; heads = 8; seq = 128\ndef get_inputs():\n    w = torch.randn(batch, heads, seq, seq)\n    mask = torch.tril(torch.ones(seq, seq)).bool().unsqueeze(0).unsqueeze(0)\n    return [w, mask]\ndef get_init_inputs(): return [1.0]"
     },
@@ -2097,7 +2218,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return torch.cumsum(torch.cumsum(x, dim=1), dim=2)\nbatch = 16; H = 256; W = 256\ndef get_inputs(): return [torch.randn(batch, H, W)]\ndef get_init_inputs(): return []"
     },
@@ -2114,7 +2236,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor mask, int dim);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, x: torch.Tensor, mask: torch.Tensor, dim: int) -> torch.Tensor:\n        return torch.cumsum(x * mask.float(), dim=dim)\nbatch = 128; length = 4000\ndef get_inputs():\n    x = torch.randn(batch, length)\n    mask = torch.rand(batch, length) > 0.3\n    return [x, mask, 1]\ndef get_init_inputs(): return []"
     },
@@ -2131,7 +2254,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor weight, int in_channels, int out_channels, int kernel_size);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int):\n        super().__init__()\n        self.weight = nn.Parameter(torch.randn(out_channels, in_channels, kernel_size, kernel_size))\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        w = self.weight\n        mean = w.mean(dim=[1, 2, 3], keepdim=True)\n        std  = w.std(dim=[1, 2, 3], keepdim=True) + 1e-5\n        w_std = (w - mean) / std\n        return F.conv2d(x, w_std, padding=1)\nbatch = 8; C = 64; H = 128; W = 128\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 64, 3]"
     },
@@ -2148,7 +2272,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor cond, torch::Tensor gamma_weight, torch::Tensor gamma_bias, torch::Tensor beta_weight, torch::Tensor beta_bias, int dim, int cond_dim);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, dim: int, cond_dim: int):\n        super().__init__()\n        self.ln = nn.LayerNorm(dim, elementwise_affine=False)\n        self.gamma_proj = nn.Linear(cond_dim, dim)\n        self.beta_proj  = nn.Linear(cond_dim, dim)\n    def forward(self, x: torch.Tensor, cond: torch.Tensor) -> torch.Tensor:\n        x = self.ln(x)\n        gamma = self.gamma_proj(cond).unsqueeze(1)\n        beta  = self.beta_proj(cond).unsqueeze(1)\n        return gamma * x + beta\nbatch = 32; seq = 128; dim = 512; cond_dim = 256\ndef get_inputs(): return [torch.randn(batch, seq, dim), torch.randn(batch, cond_dim)]\ndef get_init_inputs(): return [dim, cond_dim]"
     },
@@ -2165,7 +2290,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "std::vector<torch::Tensor> bang_func(torch::Tensor A);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor):\n        return torch.linalg.qr(A)\nbatch = 8; M = 128; N = 64\ndef get_inputs(): return [torch.randn(batch, M, N)]\ndef get_init_inputs(): return []"
     },
@@ -2182,7 +2308,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor A);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def forward(self, A: torch.Tensor) -> torch.Tensor:\n        return torch.linalg.cholesky(A)\nbatch = 8; N = 64\ndef get_inputs():\n    A = torch.randn(batch, N, N)\n    A = A @ A.transpose(-1, -2) + N * torch.eye(N)\n    return [A]\ndef get_init_inputs(): return []"
     },
@@ -2199,7 +2326,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor weight, torch::Tensor bias, torch::Tensor running_mean, torch::Tensor running_var, int num_features);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, num_features: int):\n        super().__init__()\n        self.bn = nn.BatchNorm1d(num_features=num_features)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.bn(x)\nbatch = 256; features = 512\ndef get_inputs(): return [torch.randn(batch, features)]\ndef get_init_inputs(): return [512]"
     },
@@ -2216,7 +2344,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor q, torch::Tensor k, torch::Tensor v, torch::Tensor bias);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, bias: torch.Tensor) -> torch.Tensor:\n        d = q.shape[-1]\n        scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(d) + bias\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 2; heads = 8; seq = 128; dim = 64\ndef get_inputs():\n    q = torch.randn(batch, heads, seq, dim)\n    k = torch.randn(batch, heads, seq, dim)\n    v = torch.randn(batch, heads, seq, dim)\n    bias = torch.randn(1, heads, seq, seq)\n    return [q, k, v, bias]\ndef get_init_inputs(): return []"
     },
@@ -2233,7 +2362,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor q, torch::Tensor k_cache, torch::Tensor v_cache, torch::Tensor k_new, torch::Tensor v_new);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def forward(self, q: torch.Tensor, k_cache: torch.Tensor, v_cache: torch.Tensor,\n                k_new: torch.Tensor, v_new: torch.Tensor) -> torch.Tensor:\n        k = torch.cat([k_cache, k_new], dim=2)\n        v = torch.cat([v_cache, v_new], dim=2)\n        d = q.shape[-1]\n        scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(d)\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 1; heads = 8; cache_len = 512; new_len = 1; dim = 64\ndef get_inputs():\n    q  = torch.randn(batch, heads, new_len, dim)\n    kc = torch.randn(batch, heads, cache_len, dim)\n    vc = torch.randn(batch, heads, cache_len, dim)\n    kn = torch.randn(batch, heads, new_len, dim)\n    vn = torch.randn(batch, heads, new_len, dim)\n    return [q, kc, vc, kn, vn]\ndef get_init_inputs(): return []"
     },
@@ -2250,7 +2380,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(int seq_len, int max_seq, int d_model);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, max_seq: int, d_model: int):\n        super().__init__()\n        self.rel_emb = nn.Embedding(2 * max_seq - 1, d_model)\n        self.max_seq = max_seq\n    def forward(self, seq_len: int) -> torch.Tensor:\n        pos = torch.arange(seq_len)\n        rel = pos.unsqueeze(0) - pos.unsqueeze(1) + self.max_seq - 1\n        return self.rel_emb(rel)\nmax_seq = 256; d_model = 64; seq = 128\ndef get_inputs(): return [torch.tensor(seq)]\ndef get_init_inputs(): return [max_seq, d_model]"
     },
@@ -2267,7 +2398,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int vocab_size, int emb_dim);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F\nclass Model(nn.Module):\n    def __init__(self, vocab_size: int, emb_dim: int):\n        super().__init__()\n        self.emb = nn.Embedding(vocab_size, emb_dim, sparse=True)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.emb(x)\nbatch = 256; seq = 64; vocab = 50000; dim = 256\ndef get_inputs(): return [torch.randint(0, vocab, (batch, seq))]\ndef get_init_inputs(): return [50000, 256]"
     },
@@ -2284,7 +2416,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor anchor, torch::Tensor positive, torch::Tensor negative, double margin);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, margin: float = 1.0):\n        super().__init__()\n        self.loss = nn.TripletMarginLoss(margin=margin)\n    def forward(self, anchor: torch.Tensor, positive: torch.Tensor, negative: torch.Tensor) -> torch.Tensor:\n        return self.loss(anchor, positive, negative)\nbatch = 128; dim = 256\ndef get_inputs():\n    return [torch.randn(batch, dim), torch.randn(batch, dim), torch.randn(batch, dim)]\ndef get_init_inputs(): return [1.0]"
     },
@@ -2301,7 +2434,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int in_channels, int kernel_size, int stride, int padding);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, kernel_size: int, stride: int = 1, padding: int = 0):\n        super().__init__()\n        self.conv = nn.Conv2d(in_channels, in_channels, kernel_size,\n                              stride=stride, padding=padding, groups=in_channels)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\nbatch = 16; C = 64; H = 128; W = 128\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 3, 1, 1]"
     },
@@ -2318,7 +2452,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int in_channels, int out_channels, int kernel_size, int dilation, int padding);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int,\n                 dilation: int = 2, padding: int = 2):\n        super().__init__()\n        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size,\n                              dilation=dilation, padding=padding)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\nbatch = 16; C = 64; H = 128; W = 128; out_C = 128\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 128, 3, 2, 2]"
     },
@@ -2335,7 +2470,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int in_channels, int out_channels, int kernel_size, int groups);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, groups: int):\n        super().__init__()\n        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size,\n                              padding=kernel_size//2, groups=groups)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\nbatch = 16; C = 64; H = 128; W = 128; out_C = 128; G = 8\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 128, 3, 8]"
     },
@@ -2352,7 +2488,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int input_size, int hidden_size, int num_layers);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, input_size: int, hidden_size: int, num_layers: int):\n        super().__init__()\n        self.lstm = nn.LSTM(input_size, hidden_size, num_layers, batch_first=True)\n    def forward(self, x: torch.Tensor):\n        output, (h_n, c_n) = self.lstm(x)\n        return output\nbatch = 32; seq = 128; input_size = 256; hidden_size = 512; num_layers = 2\ndef get_inputs(): return [torch.randn(batch, seq, input_size)]\ndef get_init_inputs(): return [input_size, hidden_size, num_layers]"
     },
@@ -2369,7 +2506,8 @@
         "difficulty": "hard",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int input_size, int hidden_size, int num_layers);"
       },
       "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, input_size: int, hidden_size: int, num_layers: int):\n        super().__init__()\n        self.gru = nn.GRU(input_size, hidden_size, num_layers, batch_first=True)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        output, _ = self.gru(x)\n        return output\nbatch = 32; seq = 128; input_size = 256; hidden_size = 512; num_layers = 2\ndef get_inputs(): return [torch.randn(batch, seq, input_size)]\ndef get_init_inputs(): return [input_size, hidden_size, num_layers]"
     },
@@ -2386,7 +2524,8 @@
         "difficulty": "medium",
         "dtype": [
           "float16"
-        ]
+        ],
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor q, torch::Tensor k, torch::Tensor v, int window_size);"
       },
       "reference_implementation": "import torch, torch.nn as nn, torch.nn.functional as F, math\nclass Model(nn.Module):\n    def __init__(self, window_size: int):\n        super().__init__(); self.w = window_size\n    def forward(self, q: torch.Tensor, k: torch.Tensor, v: torch.Tensor) -> torch.Tensor:\n        seq = q.shape[2]\n        d = q.shape[-1]\n        # Local window mask\n        pos = torch.arange(seq, device=q.device)\n        mask = (pos.unsqueeze(0) - pos.unsqueeze(1)).abs() <= self.w\n        scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(d)\n        scores = scores.masked_fill(~mask.unsqueeze(0).unsqueeze(0), float('-inf'))\n        probs = F.softmax(scores, dim=-1)\n        return torch.matmul(probs, v)\nbatch = 2; heads = 4; seq = 256; dim = 64; window = 32\ndef get_inputs():\n    q = torch.randn(batch, heads, seq, dim)\n    k = torch.randn(batch, heads, seq, dim)\n    v = torch.randn(batch, heads, seq, dim)\n    return [q, k, v]\ndef get_init_inputs(): return [32]"
     }
