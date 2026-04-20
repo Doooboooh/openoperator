@@ -441,7 +441,7 @@
                         </svg>
                     </button>
                 </div>
-                <p class="text-sm text-gray-500 mt-1">按队伍占领题目榜首数量排序（仅显示至少拥有一个榜首的队伍）</p>
+                <p class="text-sm text-gray-500 mt-1">按队伍占领题目榜首数量排序（只统计非basic题目）</p>
             </div>
             <div id="dominanceWrapper" class="transition-all">
                 <div class="glass-card rounded-2xl overflow-hidden">
@@ -695,13 +695,15 @@ function renderGlobalLeaderboard() {
     }).join('');
 }
 
-// 计算每个用户的榜首次数并渲染榜单
 function renderDominanceLeaderboard() {
     const userFirstCount = new Map(); // user -> count
     const userInfoMap = new Map();    // user -> { github, avatar }
 
     // 遍历所有任务的结果，找出每个任务的第一名
     tasksData.forEach(task => {
+        // 只统计非 basic 难度的题目
+        if (task.description.difficulty === 'basic') return;
+
         const rd = resultsMap[task.id];
         if (rd && rd.results && rd.results.length) {
             const sorted = [...rd.results].sort((a, b) => b.score - a.score);
