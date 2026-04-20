@@ -355,16 +355,32 @@
 
         <!-- Announcements 动态区域 -->
         <section id="announcements" class="mb-10">
-            <h2 class="text-2xl font-bold text-white mb-6">Notice</h2>
-            <div id="noticesContainer">
+            <div class="flex items-center space-x-2 mb-6">
+                <h2 class="text-2xl font-bold text-white">Notice</h2>
+                <button id="toggleNoticesBtn" class="p-1 rounded hover:bg-gray-700/30 transition-colors focus:outline-none" title="折叠/展开">
+                    <svg id="toggleNoticesIcon" class="w-5 h-5 text-gray-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+            </div>
+            <div id="noticesWrapper" class="transition-all">
+                <div id="noticesContainer">
                 <div class="glass-card rounded-2xl p-6"><p class="text-gray-500 text-sm">加载中...</p></div>
+            </div>
             </div>
         </section>
 
         <!-- Available Problems -->
         <section id="problems" class="mb-10">
             <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 gap-4">
-                <h2 class="text-2xl font-bold text-white">Available Problems</h2>
+                <div class="flex items-center space-x-2">
+                    <h2 class="text-2xl font-bold text-white">Available Problems</h2>
+                    <button id="toggleProblemsBtn" class="p-1 rounded hover:bg-gray-700/30 transition-colors focus:outline-none" title="折叠/展开">
+                        <svg id="toggleProblemsIcon" class="w-5 h-5 text-gray-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                </div>
                 <div class="flex items-center space-x-2 flex-wrap gap-2">
                     <input type="text" id="searchInput" placeholder="搜索题目..."
                         class="px-4 py-2 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -380,21 +396,28 @@
                         style="background:rgba(17,24,39,0.8); border:1px solid rgba(75,85,99,0.3); color:#e2e8f0;">
                         <option value="">All Difficulties</option>
                     </select>
-                </div>
+                    </div>
             </div>
-            <div id="problemsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+            <div id="problemsGridWrapper" class="transition-all">
+                <div id="problemsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+            </div>
         </section>
 
         <!-- Global Leaderboard -->
         <section id="leaderboard" class="mb-10">
             <div class="mb-6">
-                <h2 class="text-2xl font-bold text-white">Global Leaderboard</h2>
+                <div class="flex items-center space-x-2">
+                    <h2 class="text-2xl font-bold text-white">Problems Leaderboard</h2>
+                    <button id="toggleLeaderboardBtn" class="p-1 rounded hover:bg-gray-700/30 transition-colors focus:outline-none" title="折叠/展开">
+                        <svg id="toggleLeaderboardIcon" class="w-5 h-5 text-gray-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                </div>
                 <p class="text-sm text-gray-500 mt-1">实时追踪全球选手的任务完成进度与排名</p>
             </div>
-            <div class="glass-card rounded-2xl overflow-hidden">
-                <div class="px-6 py-4 border-b" style="border-color:rgba(75,85,99,0.2);">
-                    <span class="text-sm font-semibold text-blue-400">Team Domination</span>
-                </div>
+            <div id="leaderboardWrapper" class="transition-all">
+                <div class="glass-card rounded-2xl overflow-hidden">
                 <div class="overflow-x-auto">
                     <table class="leaderboard-table">
                         <thead><tr><th>Task Name</th><th>Top Performer</th><th>Best Score</th></tr></thead>
@@ -403,9 +426,43 @@
                         </tbody>
                     </table>
                 </div>
+                </div>
             </div>
         </section>
 
+        <!-- Team Leaderboard -->
+        <section id="dominanceLeaderboard" class="mb-10">
+            <div class="mb-6">
+                <div class="flex items-center space-x-2">
+                    <h2 class="text-2xl font-bold text-white">Dominance Leaderboard</h2>
+                    <button id="toggleDominanceBtn" class="p-1 rounded hover:bg-gray-700/30 transition-colors focus:outline-none" title="折叠/展开">
+                        <svg id="toggleDominanceIcon" class="w-5 h-5 text-gray-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                </div>
+                <p class="text-sm text-gray-500 mt-1">按队伍占领题目榜首数量排序（仅显示至少拥有一个榜首的队伍）</p>
+            </div>
+            <div id="dominanceWrapper" class="transition-all">
+                <div class="glass-card rounded-2xl overflow-hidden">
+                    <div class="overflow-x-auto">
+                        <table class="leaderboard-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Team / User</th>
+                                    <th>Github</th>
+                                    <th class="text-right">Top-1 Count</th>
+                                </tr>
+                            </thead>
+                            <tbody id="dominanceBody">
+                                <tr><td colspan="4" class="text-center text-gray-500 py-8">加载中...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
         
     </main>
 
@@ -503,7 +560,9 @@ async function init() {
 
     await loadAllResults();
     updateStats();
+    renderProblems();
     renderGlobalLeaderboard();
+    renderDominanceLeaderboard();
     hideLoading();
 }
 
@@ -633,6 +692,71 @@ function renderGlobalLeaderboard() {
         return `<tr class="cursor-pointer" onclick="openTaskDetail('${r.taskId}')">
             <td><div class="flex items-center space-x-2"><span class="text-gray-500 text-xs">#${r.taskId}</span><span class="text-white text-sm font-medium">${esc(r.taskName)}</span></div></td>
             <td>${userStr}</td><td>${scoreStr}</td></tr>`;
+    }).join('');
+}
+
+// 计算每个用户的榜首次数并渲染榜单
+function renderDominanceLeaderboard() {
+    const userFirstCount = new Map(); // user -> count
+    const userInfoMap = new Map();    // user -> { github, avatar }
+
+    // 遍历所有任务的结果，找出每个任务的第一名
+    tasksData.forEach(task => {
+        const rd = resultsMap[task.id];
+        if (rd && rd.results && rd.results.length) {
+            const sorted = [...rd.results].sort((a, b) => b.score - a.score);
+            const top = sorted[0];
+            const user = top.user;
+            userFirstCount.set(user, (userFirstCount.get(user) || 0) + 1);
+            // 保存用户附加信息（如果还没存过）
+            if (!userInfoMap.has(user)) {
+                userInfoMap.set(user, {
+                    github: top.github || '',
+                });
+            }
+        }
+    });
+
+    // 过滤掉 count 为 0 的用户，并按 count 降序排序
+    const sortedUsers = Array.from(userFirstCount.entries())
+        .filter(([_, count]) => count > 0)
+        .sort((a, b) => b[1] - a[1]);
+
+    const tbody = document.getElementById('dominanceBody');
+    if (sortedUsers.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="4" class="text-center text-gray-500 py-8">暂无榜首数据</td></tr>';
+        return;
+    }
+
+    tbody.innerHTML = sortedUsers.map(([user, count], index) => {
+        const rank = index + 1;
+        const rankClass = rank === 1 ? 'rank-1' : rank === 2 ? 'rank-2' : rank === 3 ? 'rank-3' : '';
+        const info = userInfoMap.get(user);
+        const githubDisplay = info.github ? `@${esc(info.github)}` : '—';
+        // 排名图标
+        let medal = '';
+        if (rank === 1) medal = '🥇';
+        else if (rank === 2) medal = '🥈';
+        else if (rank === 3) medal = '🥉';
+        else medal = `<span class="text-gray-500">${rank}</span>`;
+
+        return `
+        <tr>
+            <td class="${rankClass} text-center" style="width:60px;">${medal}</td>
+            <td>
+                <div class="flex items-center space-x-2">
+                    <div class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold" style="background:linear-gradient(135deg,#3b82f6,#8b5cf6);color:#fff;">
+                        ${user.charAt(0).toUpperCase()}
+                    </div>
+                    <span class="text-white text-sm font-medium">${esc(user)}</span>
+                </div>
+            </td>
+            <td class="text-gray-400 text-sm">${githubDisplay}</td>
+            <td class="text-right">
+                <span class="text-green-400 font-mono font-bold text-lg">${count}</span>
+                <span class="text-gray-500 text-xs ml-1">题</span>
+            </td>
+        </tr>`;
     }).join('');
 }
 
@@ -834,8 +958,58 @@ function switchNav(sec) {
     if (t) { t.classList.add('active'); t.classList.remove('text-gray-400'); }
 }
 function showMainView() { closeTaskDetail(); }
+// ========== 折叠功能 ==========
+function initCollapsibleSections() {
+    // 1. Problems
+    const problemsWrapper = document.getElementById('problemsGridWrapper');
+    const problemsBtn = document.getElementById('toggleProblemsBtn');
+    const problemsIcon = document.getElementById('toggleProblemsIcon');
+    if (problemsBtn && problemsWrapper) {
+        problemsBtn.addEventListener('click', () => {
+            problemsWrapper.classList.toggle('hidden');
+            problemsIcon.style.transform = problemsWrapper.classList.contains('hidden') ? 'rotate(-90deg)' : 'rotate(0deg)';
+        });
+    }
+
+    // 2. Global Leaderboard
+    const leaderboardWrapper = document.getElementById('leaderboardWrapper');
+    const leaderboardBtn = document.getElementById('toggleLeaderboardBtn');
+    const leaderboardIcon = document.getElementById('toggleLeaderboardIcon');
+    if (leaderboardBtn && leaderboardWrapper) {
+        leaderboardBtn.addEventListener('click', () => {
+            leaderboardWrapper.classList.toggle('hidden');
+            leaderboardIcon.style.transform = leaderboardWrapper.classList.contains('hidden') ? 'rotate(-90deg)' : 'rotate(0deg)';
+        });
+    }
+
+    // 3. Notices
+    const noticesWrapper = document.getElementById('noticesWrapper');
+    const noticesBtn = document.getElementById('toggleNoticesBtn');
+    const noticesIcon = document.getElementById('toggleNoticesIcon');
+    if (noticesBtn && noticesWrapper) {
+        noticesBtn.addEventListener('click', () => {
+            noticesWrapper.classList.toggle('hidden');
+            noticesIcon.style.transform = noticesWrapper.classList.contains('hidden') ? 'rotate(-90deg)' : 'rotate(0deg)';
+        });
+    }
+
+    // 4. Dominance Leaderboard
+    const dominanceWrapper = document.getElementById('dominanceWrapper');
+    const dominanceBtn = document.getElementById('toggleDominanceBtn');
+    const dominanceIcon = document.getElementById('toggleDominanceIcon');
+    if (dominanceBtn && dominanceWrapper) {
+        dominanceBtn.addEventListener('click', () => {
+            dominanceWrapper.classList.toggle('hidden');
+            dominanceIcon.style.transform = dominanceWrapper.classList.contains('hidden') ? 'rotate(-90deg)' : 'rotate(0deg)';
+        });
+    }
+}
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeTaskDetail(); });
 document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', () => {
+    // 原有的 init() 已经监听，这里确保折叠初始化也执行
+    setTimeout(initCollapsibleSections, 0); // 略微延迟以确保元素存在
+});
 </script>
 </body>
 </html>
