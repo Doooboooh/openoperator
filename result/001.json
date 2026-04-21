@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "智算第五组",
+      "github": "oops-debug/BangC05",
+      "score": 0.035,
+      "latency": 372.0,
+      "timestamp": "2026-04-21T10:46:58.405821+00:00"
+    },
+    {
+      "rank": 3,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.032,
@@ -19,21 +27,13 @@
       "timestamp": "2026-04-21T09:14:36.380460+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.029,
       "latency": 441.8,
       "timestamp": "2026-04-20T16:11:25.523428+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "智算第五组",
-      "github": "oops-debug/BangC05",
-      "score": 0.029,
-      "latency": 440.0,
-      "timestamp": "2026-04-21T10:34:21.884665+00:00"
     }
   ],
-  "last_updated": "2026-04-21T10:34:36.953495+00:00"
+  "last_updated": "2026-04-21T10:49:42.994672+00:00"
 }
