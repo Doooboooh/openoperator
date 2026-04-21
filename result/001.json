@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.035,
+      "latency": 369.8,
+      "timestamp": "2026-04-21T11:46:23.659267+00:00"
+    },
+    {
+      "rank": 4,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.032,
@@ -27,7 +35,7 @@
       "timestamp": "2026-04-21T09:14:36.380460+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.029,
@@ -35,5 +43,5 @@
       "timestamp": "2026-04-20T16:11:25.523428+00:00"
     }
   ],
-  "last_updated": "2026-04-21T10:54:47.806511+00:00"
+  "last_updated": "2026-04-21T11:49:59.592235+00:00"
 }
