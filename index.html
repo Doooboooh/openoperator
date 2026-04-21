@@ -894,7 +894,7 @@ function openTaskDetail(taskId) {
                 </div></td>
                 <td><span class="text-green-400 font-mono font-semibold">${r.score.toFixed(6)}</span></td>
                 <td class="text-gray-400 font-mono text-sm">${r.latency || '—'}</td>
-                <td class="text-gray-500 text-xs">${r.date || '—'}</td>
+                <td class="text-gray-500 text-xs">${formatTimestamp(r.timestamp)}</td>
             </tr>`;
         }).join('');
         leaderboardHtml = `
@@ -942,6 +942,25 @@ function closeTaskDetail() {
     const panel = document.getElementById('detailPanel');
     panel.style.transform = 'translateX(100%)';
     setTimeout(() => { modal.classList.add('hidden'); panel.style.transition = ''; }, 300);
+}
+
+function formatTimestamp(isoString) {
+    if (!isoString) return '—';
+    try {
+        const d = new Date(isoString);
+        return d.toLocaleString('zh-CN', {
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: false,
+            timeZone: 'Asia/Shanghai'
+        }).replace(/\//g, '-');
+    } catch {
+        // 降级处理：截取字符串
+        return isoString.slice(0, 10).replace(/-/g, '/') + ' ' + isoString.slice(11, 16);
+    }
 }
 
 function esc(t) { const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
