@@ -4,19 +4,19 @@
   "results": [
     {
       "rank": 1,
+      "user": "智算第五组",
+      "github": "oops-debug/BangC05",
+      "score": 0.106,
+      "latency": 122.2,
+      "timestamp": "2026-04-21T10:52:08.331925+00:00"
+    },
+    {
+      "rank": 2,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.097,
       "latency": 132.7,
       "timestamp": "2026-04-21T03:05:19.228870+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "智算第五组",
-      "github": "oops-debug/BangC05",
-      "score": 0.035,
-      "latency": 372.0,
-      "timestamp": "2026-04-21T10:46:58.405821+00:00"
     },
     {
       "rank": 3,
@@ -35,5 +35,5 @@
       "timestamp": "2026-04-20T16:11:25.523428+00:00"
     }
   ],
-  "last_updated": "2026-04-21T10:49:42.994672+00:00"
+  "last_updated": "2026-04-21T10:54:47.806511+00:00"
 }
