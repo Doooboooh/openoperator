@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.038,
+      "latency": 234.4,
+      "timestamp": "2026-04-22T14:29:44.118706+00:00"
+    },
+    {
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.036,
@@ -35,7 +43,7 @@
       "timestamp": "2026-04-21T12:16:34.750079+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.032,
@@ -43,7 +51,7 @@
       "timestamp": "2026-04-21T09:14:36.380460+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.029,
@@ -51,7 +59,7 @@
       "timestamp": "2026-04-20T16:11:25.523428+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.026,
@@ -59,7 +67,7 @@
       "timestamp": "2026-04-21T15:05:28.615509+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.02,
@@ -67,5 +75,5 @@
       "timestamp": "2026-04-22T14:06:02.615640+00:00"
     }
   ],
-  "last_updated": "2026-04-22T14:06:35.244804+00:00"
+  "last_updated": "2026-04-22T14:31:41.458448+00:00"
 }
