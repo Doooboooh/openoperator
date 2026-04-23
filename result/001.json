@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 1.011,
+      "latency": 8.9,
+      "timestamp": "2026-04-23T15:10:32.390442+00:00"
+    },
+    {
+      "rank": 2,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.891,
@@ -11,7 +19,7 @@
       "timestamp": "2026-04-23T06:38:34.532975+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.221,
@@ -19,7 +27,7 @@
       "timestamp": "2026-04-21T12:29:01.799296+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.106,
@@ -27,7 +35,7 @@
       "timestamp": "2026-04-21T10:52:08.331925+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.071,
@@ -35,7 +43,7 @@
       "timestamp": "2026-04-21T16:33:13.722943+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS0_18Team",
       "score": 0.055,
@@ -43,7 +51,7 @@
       "timestamp": "2026-04-23T13:11:08.115680+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.038,
@@ -51,7 +59,7 @@
       "timestamp": "2026-04-22T14:29:44.118706+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第八组",
       "github": "Nothinghhhhh/openoperator",
       "score": 0.037,
@@ -59,7 +67,7 @@
       "timestamp": "2026-04-23T05:58:58.713048+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.036,
@@ -67,7 +75,7 @@
       "timestamp": "2026-04-21T12:16:34.750079+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.029,
@@ -75,20 +83,12 @@
       "timestamp": "2026-04-20T16:11:25.523428+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.026,
       "latency": 344.5,
       "timestamp": "2026-04-21T15:05:28.615509+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.026,
-      "latency": 339.2,
-      "timestamp": "2026-04-23T05:44:37.589269+00:00"
     },
     {
       "rank": 12,
@@ -107,5 +107,5 @@
       "timestamp": "2026-04-22T15:37:34.553934+00:00"
     }
   ],
-  "last_updated": "2026-04-23T13:13:28.352065+00:00"
+  "last_updated": "2026-04-23T15:14:09.995472+00:00"
 }
