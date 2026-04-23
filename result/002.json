@@ -4,19 +4,19 @@
   "results": [
     {
       "rank": 1,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 0.638,
+      "latency": 6471.8,
+      "timestamp": "2026-04-23T06:38:34.532975+00:00"
+    },
+    {
+      "rank": 2,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.252,
       "latency": 32580.5,
       "timestamp": "2026-04-21T12:31:52.496646+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 0.032,
-      "latency": 257619.4,
-      "timestamp": "2026-04-21T08:50:18.174561+00:00"
     },
     {
       "rank": 3,
@@ -27,5 +27,5 @@
       "timestamp": "2026-04-23T05:28:45.965092+00:00"
     }
   ],
-  "last_updated": "2026-04-23T05:32:21.313393+00:00"
+  "last_updated": "2026-04-23T06:42:37.549561+00:00"
 }

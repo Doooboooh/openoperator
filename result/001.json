@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 0.891,
+      "latency": 10.1,
+      "timestamp": "2026-04-23T06:38:34.532975+00:00"
+    },
+    {
+      "rank": 2,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.221,
@@ -11,7 +19,7 @@
       "timestamp": "2026-04-21T12:29:01.799296+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.106,
@@ -19,7 +27,7 @@
       "timestamp": "2026-04-21T10:52:08.331925+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.071,
@@ -27,7 +35,7 @@
       "timestamp": "2026-04-21T16:33:13.722943+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.038,
@@ -35,7 +43,7 @@
       "timestamp": "2026-04-22T14:29:44.118706+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "智算第八组",
       "github": "Nothinghhhhh/openoperator",
       "score": 0.037,
@@ -43,20 +51,12 @@
       "timestamp": "2026-04-23T05:58:58.713048+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.036,
       "latency": 369.4,
       "timestamp": "2026-04-21T12:16:34.750079+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 0.032,
-      "latency": 411.8,
-      "timestamp": "2026-04-21T09:14:36.380460+00:00"
     },
     {
       "rank": 8,
@@ -99,5 +99,5 @@
       "timestamp": "2026-04-22T15:37:34.553934+00:00"
     }
   ],
-  "last_updated": "2026-04-23T06:02:31.618776+00:00"
+  "last_updated": "2026-04-23T06:42:37.549174+00:00"
 }
