@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 3.267,
+      "latency": 10.5,
+      "timestamp": "2026-04-24T05:02:52.465545+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 1.0,
@@ -11,5 +19,5 @@
       "timestamp": "2026-04-23T15:37:26.782343+00:00"
     }
   ],
-  "last_updated": "2026-04-23T15:39:28.455205+00:00"
+  "last_updated": "2026-04-24T05:05:04.170370+00:00"
 }
