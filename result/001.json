@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "team_38",
+      "github": "Godel-June/ICS_Team9",
+      "score": 0.109,
+      "latency": 82.3,
+      "timestamp": "2026-04-24T11:33:44.120897+00:00"
+    },
+    {
+      "rank": 5,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.106,
@@ -35,20 +43,12 @@
       "timestamp": "2026-04-21T10:52:08.331925+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.071,
       "latency": 128.2,
       "timestamp": "2026-04-21T16:33:13.722943+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_38",
-      "github": "Godel-June/ICS_Team9",
-      "score": 0.069,
-      "latency": 128.7,
-      "timestamp": "2026-04-24T11:27:35.886870+00:00"
     },
     {
       "rank": 7,
@@ -123,5 +123,5 @@
       "timestamp": "2026-04-22T15:37:34.553934+00:00"
     }
   ],
-  "last_updated": "2026-04-24T11:30:53.612534+00:00"
+  "last_updated": "2026-04-24T11:35:58.512642+00:00"
 }
