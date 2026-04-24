@@ -12,19 +12,19 @@
     },
     {
       "rank": 2,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.642,
+      "latency": 6437.6,
+      "timestamp": "2026-04-24T02:40:17.555501+00:00"
+    },
+    {
+      "rank": 3,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.638,
       "latency": 6471.8,
       "timestamp": "2026-04-23T06:38:34.532975+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS0_18Team",
-      "score": 0.408,
-      "latency": 10083.1,
-      "timestamp": "2026-04-23T15:06:33.570286+00:00"
     },
     {
       "rank": 4,
@@ -35,5 +35,5 @@
       "timestamp": "2026-04-21T12:31:52.496646+00:00"
     }
   ],
-  "last_updated": "2026-04-23T15:19:16.306955+00:00"
+  "last_updated": "2026-04-24T02:44:51.452985+00:00"
 }
