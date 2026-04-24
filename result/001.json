@@ -44,6 +44,14 @@
     },
     {
       "rank": 6,
+      "user": "team_38",
+      "github": "Godel-June/ICS_Team9",
+      "score": 0.069,
+      "latency": 128.7,
+      "timestamp": "2026-04-24T11:27:35.886870+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.068,
@@ -51,7 +59,7 @@
       "timestamp": "2026-04-24T02:49:51.621505+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.038,
@@ -59,7 +67,7 @@
       "timestamp": "2026-04-22T14:29:44.118706+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第八组",
       "github": "Nothinghhhhh/openoperator",
       "score": 0.037,
@@ -67,7 +75,7 @@
       "timestamp": "2026-04-23T05:58:58.713048+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.036,
@@ -75,7 +83,7 @@
       "timestamp": "2026-04-21T12:16:34.750079+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.029,
@@ -83,7 +91,7 @@
       "timestamp": "2026-04-20T16:11:25.523428+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.026,
@@ -91,7 +99,7 @@
       "timestamp": "2026-04-21T15:05:28.615509+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.026,
@@ -99,20 +107,12 @@
       "timestamp": "2026-04-24T10:39:21.561726+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.025,
       "latency": 355.4,
       "timestamp": "2026-04-24T10:39:21.733371+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "team_38",
-      "github": "Godel-June/ICS_Team9",
-      "score": 0.02,
-      "latency": 454.2,
-      "timestamp": "2026-04-22T14:06:02.615640+00:00"
     },
     {
       "rank": 15,
@@ -123,5 +123,5 @@
       "timestamp": "2026-04-22T15:37:34.553934+00:00"
     }
   ],
-  "last_updated": "2026-04-24T10:40:47.873778+00:00"
+  "last_updated": "2026-04-24T11:30:53.612534+00:00"
 }
