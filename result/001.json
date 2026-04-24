@@ -92,6 +92,22 @@
     },
     {
       "rank": 12,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.026,
+      "latency": 360.5,
+      "timestamp": "2026-04-24T10:39:21.561726+00:00"
+    },
+    {
+      "rank": 13,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.025,
+      "latency": 355.4,
+      "timestamp": "2026-04-24T10:39:21.733371+00:00"
+    },
+    {
+      "rank": 14,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.02,
@@ -99,7 +115,7 @@
       "timestamp": "2026-04-22T14:06:02.615640+00:00"
     },
     {
-      "rank": 13,
+      "rank": 15,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.019,
@@ -107,5 +123,5 @@
       "timestamp": "2026-04-22T15:37:34.553934+00:00"
     }
   ],
-  "last_updated": "2026-04-24T02:54:56.325944+00:00"
+  "last_updated": "2026-04-24T10:40:47.873778+00:00"
 }
