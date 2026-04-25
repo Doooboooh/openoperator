@@ -6,7 +6,7 @@
       "rank": 1,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
-      "score": 1.0,
+      "score": 1.987,
       "latency": 4135.7,
       "timestamp": "2026-04-23T15:14:50.848273+00:00"
     },
@@ -14,7 +14,7 @@
       "rank": 2,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
-      "score": 0.642,
+      "score": 1.277,
       "latency": 6437.6,
       "timestamp": "2026-04-24T02:40:17.555501+00:00"
     },
@@ -22,12 +22,36 @@
       "rank": 3,
       "user": "随缘组",
       "github": "xufeng102403/operator",
-      "score": 0.638,
+      "score": 1.27,
       "latency": 6471.8,
       "timestamp": "2026-04-23T06:38:34.532975+00:00"
     },
     {
       "rank": 4,
+      "user": "team_38",
+      "github": "Godel-June/ICS_Team9",
+      "score": 0.445,
+      "latency": 18448.0,
+      "timestamp": "2026-04-24T11:40:48.990646+00:00"
+    },
+    {
+      "rank": 5,
+      "user": "十玖",
+      "github": "enevel/ICS_19team",
+      "score": 0.392,
+      "latency": 20955.4,
+      "timestamp": "2026-04-25T05:46:07.872705+00:00"
+    },
+    {
+      "rank": 6,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.351,
+      "latency": 23391.8,
+      "timestamp": "2026-04-24T13:08:18.303892+00:00"
+    },
+    {
+      "rank": 7,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.252,
@@ -35,34 +59,10 @@
       "timestamp": "2026-04-21T12:31:52.496646+00:00"
     },
     {
-      "rank": 5,
-      "user": "team_38",
-      "github": "Godel-June/ICS_Team9",
-      "score": 0.224,
-      "latency": 18448.0,
-      "timestamp": "2026-04-24T11:40:48.990646+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "十玖",
-      "github": "enevel/ICS_19team",
-      "score": 0.197,
-      "latency": 20955.4,
-      "timestamp": "2026-04-25T05:46:07.872705+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.175,
-      "latency": 23391.8,
-      "timestamp": "2026-04-24T13:08:18.303892+00:00"
-    },
-    {
       "rank": 8,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.029,
+      "score": 0.057,
       "latency": 143805.3,
       "timestamp": "2026-04-24T16:21:37.095841+00:00"
     },
@@ -70,7 +70,7 @@
       "rank": 9,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.027,
+      "score": 0.054,
       "latency": 151973.5,
       "timestamp": "2026-04-24T16:17:14.866117+00:00"
     }

@@ -6,7 +6,7 @@
       "rank": 1,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
-      "score": 1.034,
+      "score": 1.449,
       "latency": 8.9,
       "timestamp": "2026-04-23T15:25:07.775364+00:00"
     },
@@ -14,7 +14,7 @@
       "rank": 2,
       "user": "随缘组",
       "github": "xufeng102403/operator",
-      "score": 0.891,
+      "score": 1.277,
       "latency": 10.1,
       "timestamp": "2026-04-23T06:38:34.532975+00:00"
     },
@@ -22,7 +22,7 @@
       "rank": 3,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
-      "score": 0.221,
+      "score": 0.225,
       "latency": 57.4,
       "timestamp": "2026-04-21T12:29:01.799296+00:00"
     },
@@ -30,7 +30,7 @@
       "rank": 4,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
-      "score": 0.109,
+      "score": 0.157,
       "latency": 82.3,
       "timestamp": "2026-04-24T11:33:44.120897+00:00"
     },
@@ -46,7 +46,7 @@
       "rank": 6,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
-      "score": 0.071,
+      "score": 0.101,
       "latency": 128.2,
       "timestamp": "2026-04-21T16:33:13.722943+00:00"
     },
@@ -54,7 +54,7 @@
       "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
-      "score": 0.068,
+      "score": 0.096,
       "latency": 135.0,
       "timestamp": "2026-04-24T02:49:51.621505+00:00"
     },
@@ -62,7 +62,7 @@
       "rank": 8,
       "user": "十玖",
       "github": "enevel/ICS_19team",
-      "score": 0.062,
+      "score": 0.085,
       "latency": 152.3,
       "timestamp": "2026-04-25T05:50:34.523935+00:00"
     },
@@ -70,7 +70,7 @@
       "rank": 9,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
-      "score": 0.038,
+      "score": 0.055,
       "latency": 234.4,
       "timestamp": "2026-04-22T14:29:44.118706+00:00"
     },
@@ -78,20 +78,44 @@
       "rank": 10,
       "user": "智算第八组",
       "github": "Nothinghhhhh/openoperator",
-      "score": 0.037,
+      "score": 0.055,
       "latency": 235.9,
       "timestamp": "2026-04-23T05:58:58.713048+00:00"
     },
     {
       "rank": 11,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.039,
+      "latency": 334.3,
+      "timestamp": "2026-04-24T14:46:33.292907+00:00"
+    },
+    {
+      "rank": 12,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.037,
+      "latency": 344.5,
+      "timestamp": "2026-04-21T15:05:28.615509+00:00"
+    },
+    {
+      "rank": 13,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.036,
+      "latency": 360.5,
+      "timestamp": "2026-04-24T10:39:21.561726+00:00"
+    },
+    {
+      "rank": 14,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
-      "score": 0.036,
+      "score": 0.035,
       "latency": 369.4,
       "timestamp": "2026-04-21T12:16:34.750079+00:00"
     },
     {
-      "rank": 12,
+      "rank": 15,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.031,
@@ -99,34 +123,10 @@
       "timestamp": "2026-04-25T07:06:32.075090+00:00"
     },
     {
-      "rank": 13,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.027,
-      "latency": 334.3,
-      "timestamp": "2026-04-24T14:46:33.292907+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.026,
-      "latency": 344.5,
-      "timestamp": "2026-04-21T15:05:28.615509+00:00"
-    },
-    {
-      "rank": 15,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.026,
-      "latency": 360.5,
-      "timestamp": "2026-04-24T10:39:21.561726+00:00"
-    },
-    {
       "rank": 16,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
-      "score": 0.019,
+      "score": 0.028,
       "latency": 461.9,
       "timestamp": "2026-04-22T15:37:34.553934+00:00"
     }
