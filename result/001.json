@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "智算第十一组",
+      "github": "liuyitongnetizen/BangC11",
+      "score": 0.22631578947368422,
+      "latency": 57.0,
+      "timestamp": "2026-04-25T15:45:13.383986+00:00"
+    },
+    {
+      "rank": 5,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.225,
@@ -35,7 +43,7 @@
       "timestamp": "2026-04-21T12:29:01.799296+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.157,
@@ -43,7 +51,7 @@
       "timestamp": "2026-04-24T11:33:44.120897+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.106,
@@ -51,7 +59,7 @@
       "timestamp": "2026-04-21T10:52:08.331925+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.101,
@@ -59,7 +67,7 @@
       "timestamp": "2026-04-21T16:33:13.722943+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.096,
@@ -67,20 +75,12 @@
       "timestamp": "2026-04-24T02:49:51.621505+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "十玖",
       "github": "enevel/ICS_19team",
       "score": 0.085,
       "latency": 152.3,
       "timestamp": "2026-04-25T05:50:34.523935+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "智算第十一组",
-      "github": "liuyitongnetizen/BangC11",
-      "score": 0.05718085106382979,
-      "latency": 225.6,
-      "timestamp": "2026-04-25T14:27:53.608842+00:00"
     },
     {
       "rank": 11,
@@ -155,5 +155,5 @@
       "timestamp": "2026-04-22T15:37:34.553934+00:00"
     }
   ],
-  "last_updated": "2026-04-25T15:34:21.720551+00:00"
+  "last_updated": "2026-04-25T15:49:37.157141+00:00"
 }

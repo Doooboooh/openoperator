@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "智算第十一组",
+      "github": "liuyitongnetizen/BangC11",
+      "score": 0.9992704634988571,
+      "latency": 8224.4,
+      "timestamp": "2026-04-25T15:45:13.383986+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.445,
@@ -43,7 +51,7 @@
       "timestamp": "2026-04-24T11:40:48.990646+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "十玖",
       "github": "enevel/ICS_19team",
       "score": 0.392,
@@ -51,7 +59,7 @@
       "timestamp": "2026-04-25T05:46:07.872705+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.351,
@@ -59,7 +67,7 @@
       "timestamp": "2026-04-24T13:08:18.303892+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.252,
@@ -67,20 +75,12 @@
       "timestamp": "2026-04-21T12:31:52.496646+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.20310298980333233,
       "latency": 40464.2,
       "timestamp": "2026-04-25T14:52:23.240216+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "智算第十一组",
-      "github": "liuyitongnetizen/BangC11",
-      "score": 0.06714642404277292,
-      "latency": 122395.2,
-      "timestamp": "2026-04-25T14:27:53.608842+00:00"
     },
     {
       "rank": 11,
@@ -99,5 +99,5 @@
       "timestamp": "2026-04-24T16:17:14.866117+00:00"
     }
   ],
-  "last_updated": "2026-04-25T14:53:54.844996+00:00"
+  "last_updated": "2026-04-25T15:49:37.156770+00:00"
 }
