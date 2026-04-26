@@ -1,0 +1,15 @@
+{
+  "problem_id": "025",
+  "problem_name": "025_fused_matmul_fwd",
+  "results": [
+    {
+      "rank": 1,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 1.5178621182368845e-05,
+      "latency": 5771275.2,
+      "timestamp": "2026-04-26T02:13:50.198595+00:00"
+    }
+  ],
+  "last_updated": "2026-04-26T02:15:12.504430+00:00"
+}
