@@ -1,0 +1,15 @@
+{
+  "problem_id": "006",
+  "problem_name": "006_conv_depthwise_2D_square_input_square_kernel",
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.10112009956440572,
+      "latency": 2892.6,
+      "timestamp": "2026-04-26T08:15:42.655281+00:00"
+    }
+  ],
+  "last_updated": "2026-04-26T08:17:16.481356+00:00"
+}
