@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "team_40",
+      "github": "CCyyyydr/openoperator-32",
+      "score": 0.6142857142857143,
+      "latency": 21.0,
+      "timestamp": "2026-04-26T06:35:40.563967+00:00"
+    },
+    {
+      "rank": 6,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.225,
@@ -43,7 +51,7 @@
       "timestamp": "2026-04-21T12:29:01.799296+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.157,
@@ -51,7 +59,7 @@
       "timestamp": "2026-04-24T11:33:44.120897+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.106,
@@ -59,7 +67,7 @@
       "timestamp": "2026-04-21T10:52:08.331925+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.101,
@@ -67,7 +75,7 @@
       "timestamp": "2026-04-21T16:33:13.722943+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.096,
@@ -75,7 +83,7 @@
       "timestamp": "2026-04-24T02:49:51.621505+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "十玖",
       "github": "enevel/ICS_19team",
       "score": 0.085,
@@ -83,7 +91,7 @@
       "timestamp": "2026-04-25T05:50:34.523935+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.06920600858369098,
@@ -91,7 +99,7 @@
       "timestamp": "2026-04-26T03:05:58.981848+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.055,
@@ -99,7 +107,7 @@
       "timestamp": "2026-04-22T14:29:44.118706+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智算第八组",
       "github": "Nothinghhhhh/openoperator",
       "score": 0.055,
@@ -107,7 +115,7 @@
       "timestamp": "2026-04-23T05:58:58.713048+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.04408749145591251,
@@ -115,7 +123,7 @@
       "timestamp": "2026-04-26T04:16:17.609768+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.039,
@@ -123,7 +131,7 @@
       "timestamp": "2026-04-24T14:46:33.292907+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.036,
@@ -131,7 +139,7 @@
       "timestamp": "2026-04-24T10:39:21.561726+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.035,
@@ -139,7 +147,7 @@
       "timestamp": "2026-04-21T12:16:34.750079+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.031,
@@ -147,7 +155,7 @@
       "timestamp": "2026-04-25T07:06:32.075090+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "二十五组",
       "github": "Iterable-gadgets/openoperator-start-kit-team25",
       "score": 0.03065589353612167,
@@ -155,7 +163,7 @@
       "timestamp": "2026-04-26T02:40:22.869369+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.03056872037914692,
@@ -163,7 +171,7 @@
       "timestamp": "2026-04-25T15:31:57.120593+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.03052531945101751,
@@ -171,7 +179,7 @@
       "timestamp": "2026-04-25T16:00:57.833731+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.028,
@@ -179,5 +187,5 @@
       "timestamp": "2026-04-22T15:37:34.553934+00:00"
     }
   ],
-  "last_updated": "2026-04-26T04:21:00.324960+00:00"
+  "last_updated": "2026-04-26T06:36:42.544122+00:00"
 }
