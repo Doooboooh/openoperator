@@ -1,0 +1,23 @@
+{
+  "problem_id": "094",
+  "problem_name": "094_LayerNorm",
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 1.002724795640327,
+      "latency": 73.4,
+      "timestamp": "2026-04-26T07:30:46.922217+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 2.920333848121531e-05,
+      "latency": 2520259.8,
+      "timestamp": "2026-04-26T07:30:03.618561+00:00"
+    }
+  ],
+  "last_updated": "2026-04-26T07:32:02.779632+00:00"
+}

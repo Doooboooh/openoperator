@@ -1,0 +1,15 @@
+{
+  "problem_id": "113",
+  "problem_name": "113_Upsample_nearest",
+  "results": [
+    {
+      "rank": 1,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 1.0621007220668318e-05,
+      "latency": 12371708.0,
+      "timestamp": "2026-04-26T07:30:03.618561+00:00"
+    }
+  ],
+  "last_updated": "2026-04-26T07:32:02.780178+00:00"
+}
