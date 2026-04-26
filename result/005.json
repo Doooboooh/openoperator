@@ -1,0 +1,23 @@
+{
+  "problem_id": "005",
+  "problem_name": "005_average_pooling_2d",
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.708735566912739,
+      "latency": 4226.4,
+      "timestamp": "2026-04-26T13:21:55.743546+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.7001271246292198,
+      "latency": 4247.8,
+      "timestamp": "2026-04-26T13:21:54.383417+00:00"
+    }
+  ],
+  "last_updated": "2026-04-26T13:26:13.152655+00:00"
+}
