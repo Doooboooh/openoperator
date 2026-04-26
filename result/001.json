@@ -60,6 +60,14 @@
     },
     {
       "rank": 8,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.10969387755102042,
+      "latency": 117.6,
+      "timestamp": "2026-04-26T10:39:45.462033+00:00"
+    },
+    {
+      "rank": 9,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.106,
@@ -67,7 +75,7 @@
       "timestamp": "2026-04-21T10:52:08.331925+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.101,
@@ -75,7 +83,7 @@
       "timestamp": "2026-04-21T16:33:13.722943+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.096,
@@ -83,20 +91,12 @@
       "timestamp": "2026-04-24T02:49:51.621505+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "十玖",
       "github": "enevel/ICS_19team",
       "score": 0.085,
       "latency": 152.3,
       "timestamp": "2026-04-25T05:50:34.523935+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.06920600858369098,
-      "latency": 186.4,
-      "timestamp": "2026-04-26T03:05:58.981848+00:00"
     },
     {
       "rank": 13,
@@ -187,5 +187,5 @@
       "timestamp": "2026-04-22T15:37:34.553934+00:00"
     }
   ],
-  "last_updated": "2026-04-26T07:47:13.834135+00:00"
+  "last_updated": "2026-04-26T10:42:46.338973+00:00"
 }
