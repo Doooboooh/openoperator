@@ -84,6 +84,14 @@
     },
     {
       "rank": 11,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.05638111888111888,
+      "latency": 228.8,
+      "timestamp": "2026-04-26T02:50:36.353593+00:00"
+    },
+    {
+      "rank": 12,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.055,
@@ -91,7 +99,7 @@
       "timestamp": "2026-04-22T14:29:44.118706+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第八组",
       "github": "Nothinghhhhh/openoperator",
       "score": 0.055,
@@ -99,20 +107,12 @@
       "timestamp": "2026-04-23T05:58:58.713048+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.039,
       "latency": 334.3,
       "timestamp": "2026-04-24T14:46:33.292907+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.037,
-      "latency": 344.5,
-      "timestamp": "2026-04-21T15:05:28.615509+00:00"
     },
     {
       "rank": 15,
@@ -171,5 +171,5 @@
       "timestamp": "2026-04-22T15:37:34.553934+00:00"
     }
   ],
-  "last_updated": "2026-04-26T02:45:27.220668+00:00"
+  "last_updated": "2026-04-26T02:55:31.749218+00:00"
 }
