@@ -1,15 +1,15 @@
 {
-  "problem_id": "097",
-  "problem_name": "097_PixelShuffle",
+  "problem_id": "090",
+  "problem_name": "090_Einsum_4D_contract",
   "results": [
     {
       "rank": 1,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
-      "score": 1.2651782339361413e-05,
-      "latency": 3201130.0,
+      "score": 9.320891224197168e-05,
+      "latency": 299327.6,
       "timestamp": "2026-04-26T10:50:53.320219+00:00"
     }
   ],
-  "last_updated": "2026-04-26T10:52:51.093035+00:00"
+  "last_updated": "2026-04-26T10:52:51.096291+00:00"
 }
