@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 1.7014890208274434,
+      "latency": 4244.4,
+      "timestamp": "2026-04-27T07:36:47.244572+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 1.7001271246292198,
@@ -27,7 +35,7 @@
       "timestamp": "2026-04-26T13:21:54.383417+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.0046585994502416584,
@@ -35,5 +43,5 @@
       "timestamp": "2026-04-27T07:18:57.262799+00:00"
     }
   ],
-  "last_updated": "2026-04-27T07:28:38.818737+00:00"
+  "last_updated": "2026-04-27T07:38:49.108217+00:00"
 }

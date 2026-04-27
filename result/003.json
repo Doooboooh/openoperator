@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 1.059322033898305,
+      "latency": 23.6,
+      "timestamp": "2026-04-27T07:36:47.244572+00:00"
+    },
+    {
+      "rank": 3,
       "user": "十玖",
       "github": "enevel/ICS_19team",
       "score": 1.0416666666666667,
@@ -19,7 +27,15 @@
       "timestamp": "2026-04-27T04:39:08.158419+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.031025070135140234,
+      "latency": 805.799951171875,
+      "timestamp": "2026-04-27T07:37:17.130234+00:00"
+    },
+    {
+      "rank": 5,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.006322391381316069,
@@ -27,5 +43,5 @@
       "timestamp": "2026-04-27T04:45:52.272989+00:00"
     }
   ],
-  "last_updated": "2026-04-27T04:47:41.436755+00:00"
+  "last_updated": "2026-04-27T07:38:49.107235+00:00"
 }
