@@ -2445,9 +2445,9 @@
         "dtype": [
           "float16"
         ],
-        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int in_channels, int kernel_size, int stride, int padding);"
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor kernel, int in_channels, int kernel_size, int stride, int padding);"
       },
-      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, kernel_size: int, stride: int = 1, padding: int = 0):\n        super().__init__()\n        self.conv = nn.Conv2d(in_channels, in_channels, kernel_size,\n                              stride=stride, padding=padding, groups=in_channels)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\nbatch = 16; C = 64; H = 128; W = 128\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 3, 1, 1]"
+      "reference_implementation": "import torch, torch.nn as nn\n\n\nclass Model(nn.Module):\n    def __init__(self, kernel: torch.Tensor, in_channels: int, kernel_size: int, stride: int = 1, padding: int = 0):\n        super().__init__()\n        self.conv = nn.Conv2d(\n            in_channels,\n            in_channels,\n            kernel_size,\n            stride=stride,\n            padding=padding,\n            groups=in_channels,\n        )\n        self.conv.weight.data = kernel\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\n\n\nbatch = 16\nC = 64\nH = 128\nW = 128\nkernel_size = 3\nstride = 1\npadding = 1\n\n\ndef get_inputs():\n    return [torch.randn(batch, C, H, W)]\n\n\ndef get_init_inputs():\n    kernel = torch.randn(C, 1, kernel_size, kernel_size)\n    return [kernel, C, kernel_size, stride, padding]\n"
     },
     {
       "id": "135",
@@ -2463,9 +2463,9 @@
         "dtype": [
           "float16"
         ],
-        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int in_channels, int out_channels, int kernel_size, int dilation, int padding);"
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor kernel, int in_channels, int out_channels, int kernel_size, int dilation, int padding);"
       },
-      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int,\n                 dilation: int = 2, padding: int = 2):\n        super().__init__()\n        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size,\n                              dilation=dilation, padding=padding)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\nbatch = 16; C = 64; H = 128; W = 128; out_C = 128\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 128, 3, 2, 2]"
+      "reference_implementation": "import torch, torch.nn as nn\n\n\nclass Model(nn.Module):\n    def __init__(self, kernel: torch.Tensor, in_channels: int, out_channels: int, kernel_size: int,\n                 dilation: int = 2, padding: int = 2):\n        super().__init__()\n        self.conv = nn.Conv2d(\n            in_channels,\n            out_channels,\n            kernel_size,\n            dilation=dilation,\n            padding=padding,\n        )\n        self.conv.weight.data = kernel\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\n\n\nbatch = 16\nC = 64\nH = 128\nW = 128\nout_C = 128\nkernel_size = 3\ndilation = 2\npadding = 2\n\n\ndef get_inputs():\n    return [torch.randn(batch, C, H, W)]\n\n\ndef get_init_inputs():\n    kernel = torch.randn(out_C, C, kernel_size, kernel_size)\n    return [kernel, C, out_C, kernel_size, dilation, padding]\n"
     },
     {
       "id": "136",
@@ -2481,9 +2481,9 @@
         "dtype": [
           "float16"
         ],
-        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, int in_channels, int out_channels, int kernel_size, int groups);"
+        "cpp_wrapper": "torch::Tensor bang_func(torch::Tensor x, torch::Tensor kernel, int in_channels, int out_channels, int kernel_size, int groups);"
       },
-      "reference_implementation": "import torch, torch.nn as nn\nclass Model(nn.Module):\n    def __init__(self, in_channels: int, out_channels: int, kernel_size: int, groups: int):\n        super().__init__()\n        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size,\n                              padding=kernel_size//2, groups=groups)\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\nbatch = 16; C = 64; H = 128; W = 128; out_C = 128; G = 8\ndef get_inputs(): return [torch.randn(batch, C, H, W)]\ndef get_init_inputs(): return [64, 128, 3, 8]"
+      "reference_implementation": "import torch, torch.nn as nn\n\n\nclass Model(nn.Module):\n    def __init__(self, kernel: torch.Tensor, in_channels: int, out_channels: int, kernel_size: int, groups: int):\n        super().__init__()\n        self.conv = nn.Conv2d(\n            in_channels,\n            out_channels,\n            kernel_size,\n            padding=kernel_size // 2,\n            groups=groups,\n        )\n        self.conv.weight.data = kernel\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.conv(x)\n\n\nbatch = 16\nC = 64\nH = 128\nW = 128\nout_C = 128\nG = 8\nkernel_size = 3\n\n\ndef get_inputs():\n    return [torch.randn(batch, C, H, W)]\n\n\ndef get_init_inputs():\n    kernel = torch.randn(out_C, C // G, kernel_size, kernel_size)\n    return [kernel, C, out_C, kernel_size, G]\n"
     },
     {
       "id": "137",
