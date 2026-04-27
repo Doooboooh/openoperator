@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 3.5061822660098523,
+      "latency": 4060.0,
+      "timestamp": "2026-04-27T14:04:38.946514+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 3.5044559330379124,
@@ -11,7 +19,7 @@
       "timestamp": "2026-04-27T10:58:39.206754+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 3.436106015255383,
@@ -19,5 +27,5 @@
       "timestamp": "2026-04-27T11:10:31.613904+00:00"
     }
   ],
-  "last_updated": "2026-04-27T11:15:05.326873+00:00"
+  "last_updated": "2026-04-27T14:05:37.073976+00:00"
 }

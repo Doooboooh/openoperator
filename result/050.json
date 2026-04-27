@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 1.2666666666666666,
+      "latency": 30.0,
+      "timestamp": "2026-04-27T14:04:38.946514+00:00"
+    },
+    {
+      "rank": 2,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.003267299490989132,
@@ -11,5 +19,5 @@
       "timestamp": "2026-04-27T04:45:52.272989+00:00"
     }
   ],
-  "last_updated": "2026-04-27T04:47:41.438875+00:00"
+  "last_updated": "2026-04-27T14:05:37.079464+00:00"
 }
