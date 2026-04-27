@@ -1,0 +1,15 @@
+{
+  "problem_id": "010",
+  "problem_name": "010_conv_standard_2D__square_input__square_kernel",
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 1.9554973821989532,
+      "latency": 649.4,
+      "timestamp": "2026-04-27T07:31:49.240961+00:00"
+    }
+  ],
+  "last_updated": "2026-04-27T07:33:43.643977+00:00"
+}
