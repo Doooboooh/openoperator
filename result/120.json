@@ -1,0 +1,15 @@
+{
+  "problem_id": "120",
+  "problem_name": "120_Masked_softmax",
+  "results": [
+    {
+      "rank": 1,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.011862934362934363,
+      "latency": 41440.0,
+      "timestamp": "2026-04-27T04:45:52.272989+00:00"
+    }
+  ],
+  "last_updated": "2026-04-27T04:47:41.435044+00:00"
+}

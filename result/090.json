@@ -1,0 +1,15 @@
+{
+  "problem_id": "090",
+  "problem_name": "090_Einsum_4D_contract",
+  "results": [
+    {
+      "rank": 1,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.003030961434003259,
+      "latency": 9205.0,
+      "timestamp": "2026-04-27T04:45:52.272989+00:00"
+    }
+  ],
+  "last_updated": "2026-04-27T04:47:41.438625+00:00"
+}

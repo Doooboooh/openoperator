@@ -1,0 +1,15 @@
+{
+  "problem_id": "094",
+  "problem_name": "094_LayerNorm",
+  "results": [
+    {
+      "rank": 1,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.007634696375593866,
+      "latency": 9640.2,
+      "timestamp": "2026-04-27T04:45:52.272989+00:00"
+    }
+  ],
+  "last_updated": "2026-04-27T04:47:41.436477+00:00"
+}
