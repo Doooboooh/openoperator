@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "智算第十一组",
+      "github": "liuyitongnetizen/BangC11",
+      "score": 1.6480769230769232,
+      "latency": 208.0,
+      "timestamp": "2026-04-27T09:45:01.288509+00:00"
+    },
+    {
+      "rank": 2,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.04087180465471194,
@@ -11,5 +19,5 @@
       "timestamp": "2026-04-27T04:45:52.272989+00:00"
     }
   ],
-  "last_updated": "2026-04-27T04:47:41.440103+00:00"
+  "last_updated": "2026-04-27T09:49:28.642889+00:00"
 }
