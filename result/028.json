@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_40",
+      "github": "CCyyyydr/openoperator-32",
+      "score": 1.2551020408163265,
+      "latency": 9.8,
+      "timestamp": "2026-04-27T05:52:49.277091+00:00"
+    },
+    {
+      "rank": 2,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.2016393442622951,
@@ -11,5 +19,5 @@
       "timestamp": "2026-04-27T04:45:52.272989+00:00"
     }
   ],
-  "last_updated": "2026-04-27T04:47:41.433794+00:00"
+  "last_updated": "2026-04-27T05:57:52.409859+00:00"
 }
