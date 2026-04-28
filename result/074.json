@@ -1,6 +1,15 @@
 {
   "problem_id": "074",
   "problem_name": "074_Std_reduction_over_dim",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.524212+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.005168133604152561,
+      "latency": 17724.0,
+      "timestamp": "2026-04-28T18:07:33.617827+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:12:33.635332+00:00"
 }

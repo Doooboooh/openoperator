@@ -1,6 +1,15 @@
 {
   "problem_id": "114",
   "problem_name": "114_Pad_constant",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.528806+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.001865743619974722,
+      "latency": 388799.4,
+      "timestamp": "2026-04-28T18:07:33.617827+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:12:33.634506+00:00"
 }
