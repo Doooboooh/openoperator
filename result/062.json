@@ -1,6 +1,15 @@
 {
   "problem_id": "062",
   "problem_name": "062_compute_agg",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.523264+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.023364485981308414,
+      "latency": 898.8,
+      "timestamp": "2026-04-28T18:48:51.080881+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:53:03.493069+00:00"
 }
