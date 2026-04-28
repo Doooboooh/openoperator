@@ -1,23 +1,6 @@
 {
   "problem_id": "113",
   "problem_name": "113_Upsample_nearest",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 1.77088948787062,
-      "latency": 74.2,
-      "timestamp": "2026-04-27T14:04:38.946514+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.001372541646297898,
-      "latency": 95734.8,
-      "timestamp": "2026-04-27T04:45:52.272989+00:00"
-    }
-  ],
-  "last_updated": "2026-04-27T14:05:37.071562+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T15:31:22.528637+00:00"
 }

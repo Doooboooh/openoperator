@@ -1,23 +1,6 @@
 {
   "problem_id": "039",
   "problem_name": "039_BatchNorm",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 2.0266798418972334,
-      "latency": 2631.2,
-      "timestamp": "2026-04-26T16:42:50.752991+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 2.020536526220067,
-      "latency": 2639.2,
-      "timestamp": "2026-04-27T14:04:38.946514+00:00"
-    }
-  ],
-  "last_updated": "2026-04-27T14:05:37.072374+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T15:30:17.485228+00:00"
 }

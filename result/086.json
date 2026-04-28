@@ -1,23 +1,6 @@
 {
   "problem_id": "086",
   "problem_name": "086_Batch_outer_product",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 4.70045045045045,
-      "latency": 44.4,
-      "timestamp": "2026-04-27T14:04:38.946514+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 1.149229074889868,
-      "latency": 181.6,
-      "timestamp": "2026-04-27T04:45:52.272989+00:00"
-    }
-  ],
-  "last_updated": "2026-04-27T14:05:37.078082+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T15:31:22.525203+00:00"
 }

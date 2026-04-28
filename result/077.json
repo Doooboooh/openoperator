@@ -1,23 +1,6 @@
 {
   "problem_id": "077",
   "problem_name": "077_LogSumExp_over_dim",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.8051470588235293,
-      "latency": 54.4,
-      "timestamp": "2026-04-27T14:04:38.946514+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.04253253058846378,
-      "latency": 1029.8,
-      "timestamp": "2026-04-27T04:45:52.272989+00:00"
-    }
-  ],
-  "last_updated": "2026-04-27T14:05:37.068659+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T15:31:22.524560+00:00"
 }

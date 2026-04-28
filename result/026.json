@@ -1,31 +1,6 @@
 {
   "problem_id": "026",
   "problem_name": "026_ELU",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 1.9489795918367347,
-      "latency": 9.8,
-      "timestamp": "2026-04-27T14:04:38.946514+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_40",
-      "github": "CCyyyydr/openoperator-32",
-      "score": 0.28338278931750743,
-      "latency": 67.4,
-      "timestamp": "2026-04-27T06:10:16.075205+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.1696269982238011,
-      "latency": 112.6,
-      "timestamp": "2026-04-27T04:45:52.272989+00:00"
-    }
-  ],
-  "last_updated": "2026-04-28T01:02:36.298077+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T15:31:22.519178+00:00"
 }

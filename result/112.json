@@ -1,23 +1,6 @@
 {
   "problem_id": "112",
   "problem_name": "112_Index_put",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 1.5553571428571427,
-      "latency": 56.0,
-      "timestamp": "2026-04-27T14:04:38.946514+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.0015230574460197664,
-      "latency": 57187.6,
-      "timestamp": "2026-04-27T04:45:52.272989+00:00"
-    }
-  ],
-  "last_updated": "2026-04-27T14:05:37.076676+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T15:31:22.528468+00:00"
 }

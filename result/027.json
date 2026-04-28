@@ -1,31 +1,6 @@
 {
   "problem_id": "027",
   "problem_name": "027_GELU",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 1.8837209302325582,
-      "latency": 8.6,
-      "timestamp": "2026-04-27T14:04:38.946514+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.3347107438016529,
-      "latency": 48.4,
-      "timestamp": "2026-04-27T04:45:52.272989+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_40",
-      "github": "CCyyyydr/openoperator-32",
-      "score": 0.11654676258992805,
-      "latency": 139.0,
-      "timestamp": "2026-04-27T05:55:30.821660+00:00"
-    }
-  ],
-  "last_updated": "2026-04-28T01:02:36.298293+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T15:31:22.519352+00:00"
 }

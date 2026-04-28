@@ -1,23 +1,6 @@
 {
   "problem_id": "097",
   "problem_name": "097_PixelShuffle",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 1.6598360655737705,
-      "latency": 24.4,
-      "timestamp": "2026-04-27T14:04:38.946514+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.0016610886898316764,
-      "latency": 24381.6,
-      "timestamp": "2026-04-27T04:45:52.272989+00:00"
-    }
-  ],
-  "last_updated": "2026-04-27T14:05:37.066953+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T15:31:22.526833+00:00"
 }

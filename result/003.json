@@ -1,63 +1,6 @@
 {
   "problem_id": "003",
   "problem_name": "003_LogSoftmax",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 1.0683760683760684,
-      "latency": 23.4,
-      "timestamp": "2026-04-27T03:35:22.504691+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "智算第十一组",
-      "github": "liuyitongnetizen/BangC11",
-      "score": 1.0683760683760684,
-      "latency": 23.4,
-      "timestamp": "2026-04-27T09:45:01.288509+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 1.0683760683760684,
-      "latency": 23.4,
-      "timestamp": "2026-04-27T14:04:38.946514+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "十玖",
-      "github": "enevel/ICS_19team",
-      "score": 1.0416666666666667,
-      "latency": 24.0,
-      "timestamp": "2026-04-27T04:39:08.158419+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.4844961240310077,
-      "latency": 51.6,
-      "timestamp": "2026-04-27T07:50:15.562854+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "智算第九组",
-      "github": "silent-Ning9/BangC09",
-      "score": 0.02953686200378072,
-      "latency": 846.4,
-      "timestamp": "2026-04-27T08:17:17.920636+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.006509399572983388,
-      "latency": 3840.6,
-      "timestamp": "2026-04-27T12:32:53.253186+00:00"
-    }
-  ],
-  "last_updated": "2026-04-28T01:03:24.549718+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T15:31:22.891295+00:00"
 }

@@ -1,23 +1,6 @@
 {
   "problem_id": "090",
   "problem_name": "090_Einsum_4D_contract",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 1.701219512195122,
-      "latency": 16.4,
-      "timestamp": "2026-04-27T14:04:38.946514+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.003030961434003259,
-      "latency": 9205.0,
-      "timestamp": "2026-04-27T04:45:52.272989+00:00"
-    }
-  ],
-  "last_updated": "2026-04-27T14:05:37.068208+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T15:31:22.525583+00:00"
 }
