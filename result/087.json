@@ -1,6 +1,15 @@
 {
   "problem_id": "087",
   "problem_name": "087_Hadamard_product",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.525353+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 2.0360934182590236,
+      "latency": 94.2,
+      "timestamp": "2026-04-28T15:50:43.143964+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T15:51:40.513356+00:00"
 }

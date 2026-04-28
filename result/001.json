@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 1.2647058823529413,
+      "latency": 10.2,
+      "timestamp": "2026-04-28T15:50:43.143964+00:00"
+    },
+    {
+      "rank": 2,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 1.2169811320754718,
@@ -11,7 +19,7 @@
       "timestamp": "2026-04-27T02:35:22.263384+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.6515151515151515,
@@ -19,7 +27,7 @@
       "timestamp": "2026-04-27T02:45:31.307359+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.19969040247678022,
@@ -27,7 +35,7 @@
       "timestamp": "2026-04-27T09:45:41.839890+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.1990740740740741,
@@ -35,7 +43,7 @@
       "timestamp": "2026-04-28T02:35:58.229794+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.19785276073619631,
@@ -43,7 +51,7 @@
       "timestamp": "2026-04-27T04:50:09.173036+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.19785276073619631,
@@ -51,7 +59,7 @@
       "timestamp": "2026-04-28T02:37:13.272650+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.19427710843373494,
@@ -59,5 +67,5 @@
       "timestamp": "2026-04-27T08:34:02.735546+00:00"
     }
   ],
-  "last_updated": "2026-04-28T15:31:22.890716+00:00"
+  "last_updated": "2026-04-28T15:51:40.513875+00:00"
 }

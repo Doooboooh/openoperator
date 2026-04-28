@@ -1,6 +1,15 @@
 {
   "problem_id": "030",
   "problem_name": "030_MinGPTNewGelu",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.519962+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 14.648101265822785,
+      "latency": 79.0,
+      "timestamp": "2026-04-28T15:49:03.715228+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T15:51:40.513701+00:00"
 }

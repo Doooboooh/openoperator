@@ -1,6 +1,15 @@
 {
   "problem_id": "088",
   "problem_name": "088_Matrix_trace",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.131534+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.24726911618669312,
+      "latency": 201.4,
+      "timestamp": "2026-04-28T15:49:03.715228+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T15:51:40.511625+00:00"
 }

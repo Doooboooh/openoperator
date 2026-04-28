@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 1.5106382978723403,
+      "latency": 9.4,
+      "timestamp": "2026-04-28T15:49:03.715228+00:00"
+    },
+    {
+      "rank": 2,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 1.4791666666666667,
@@ -11,7 +19,7 @@
       "timestamp": "2026-04-28T15:44:23.334581+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.5,
@@ -19,5 +27,5 @@
       "timestamp": "2026-04-28T15:45:48.747149+00:00"
     }
   ],
-  "last_updated": "2026-04-28T15:46:33.537229+00:00"
+  "last_updated": "2026-04-28T15:51:40.513163+00:00"
 }

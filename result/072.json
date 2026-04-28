@@ -1,6 +1,15 @@
 {
   "problem_id": "072",
   "problem_name": "072_ElementwiseAdd",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.523881+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 2.010615711252654,
+      "latency": 94.2,
+      "timestamp": "2026-04-28T15:50:43.472964+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T15:51:40.514123+00:00"
 }
