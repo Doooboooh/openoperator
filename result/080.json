@@ -1,6 +1,15 @@
 {
   "problem_id": "080",
   "problem_name": "080_All_over_dim",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.524947+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.15415746872700514,
+      "latency": 271.8,
+      "timestamp": "2026-04-28T16:25:08.433285+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T16:27:06.050040+00:00"
 }

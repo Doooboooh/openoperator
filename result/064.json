@@ -1,0 +1,15 @@
+{
+  "problem_id": "064",
+  "problem_name": "064_adaptive_average_pool_nhwc",
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.01105832241153342,
+      "latency": 1220.8,
+      "timestamp": "2026-04-28T16:25:08.433285+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T16:27:06.050552+00:00"
+}

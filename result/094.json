@@ -1,6 +1,15 @@
 {
   "problem_id": "094",
   "problem_name": "094_LayerNorm",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.525744+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.0008104923520796396,
+      "latency": 90809.0,
+      "timestamp": "2026-04-28T16:25:08.433285+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T16:27:06.050394+00:00"
 }
