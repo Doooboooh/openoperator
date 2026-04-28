@@ -1,6 +1,15 @@
 {
   "problem_id": "049",
   "problem_name": "049_Max_Pooling_3D",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.126089+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.002614372425815555,
+      "latency": 7243459.2,
+      "timestamp": "2026-04-28T18:30:16.638226+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:32:48.690931+00:00"
 }

@@ -1,6 +1,15 @@
 {
   "problem_id": "025",
   "problem_name": "025_fused_matmul_fwd",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.519024+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 5.0810273048375085e-05,
+      "latency": 1724060.8,
+      "timestamp": "2026-04-28T18:30:16.638226+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:32:48.691430+00:00"
 }

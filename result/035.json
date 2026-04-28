@@ -1,6 +1,15 @@
 {
   "problem_id": "035",
   "problem_name": "035_L1Norm_",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.520722+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 3.1149216222406004e-05,
+      "latency": 23438792.0,
+      "timestamp": "2026-04-28T18:31:07.599586+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:32:48.691587+00:00"
 }
