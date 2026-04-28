@@ -1,15 +1,15 @@
 {
-  "problem_id": "097",
-  "problem_name": "097_PixelShuffle",
+  "problem_id": "052",
+  "problem_name": "052_cumsum_exclusive",
   "results": [
     {
       "rank": 1,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
-      "score": 0.0017599819221609972,
-      "latency": 23011.6,
+      "score": 0.0071957671957671955,
+      "latency": 11340.0,
       "timestamp": "2026-04-28T18:21:44.890297+00:00"
     }
   ],
-  "last_updated": "2026-04-28T18:22:38.588036+00:00"
+  "last_updated": "2026-04-28T18:22:38.588495+00:00"
 }

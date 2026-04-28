@@ -1,15 +1,15 @@
 {
-  "problem_id": "108",
-  "problem_name": "108_ALiBi_attention_bias",
+  "problem_id": "096",
+  "problem_name": "096_LocalResponseNorm",
   "results": [
     {
       "rank": 1,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
-      "score": 0.3252336448598131,
-      "latency": 321.0,
+      "score": 0.10395017643716371,
+      "latency": 289678.2,
       "timestamp": "2026-04-28T18:20:57.706271+00:00"
     }
   ],
-  "last_updated": "2026-04-28T18:22:38.589316+00:00"
+  "last_updated": "2026-04-28T18:22:38.589614+00:00"
 }

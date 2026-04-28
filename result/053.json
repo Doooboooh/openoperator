@@ -1,6 +1,15 @@
 {
   "problem_id": "053",
   "problem_name": "053_cumsum_reverse",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.127502+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.005920665751911186,
+      "latency": 22446.8,
+      "timestamp": "2026-04-28T18:21:44.890297+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:22:38.590066+00:00"
 }

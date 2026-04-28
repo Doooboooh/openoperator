@@ -1,6 +1,15 @@
 {
   "problem_id": "120",
   "problem_name": "120_Masked_softmax",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.529714+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.001820992981990839,
+      "latency": 269962.6,
+      "timestamp": "2026-04-28T18:20:57.706271+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:22:38.588999+00:00"
 }

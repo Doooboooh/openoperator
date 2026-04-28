@@ -1,6 +1,15 @@
 {
   "problem_id": "086",
   "problem_name": "086_Batch_outer_product",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.525203+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.00217672458749661,
+      "latency": 95878.0,
+      "timestamp": "2026-04-28T18:21:44.890297+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:22:38.590839+00:00"
 }
