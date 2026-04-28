@@ -1,6 +1,15 @@
 {
   "problem_id": "130",
   "problem_name": "130_Attention_kv_cache",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.136503+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.00020138109804959968,
+      "latency": 430527.0,
+      "timestamp": "2026-04-28T18:41:34.064999+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:42:58.422836+00:00"
 }
