@@ -1,6 +1,15 @@
 {
   "problem_id": "018",
   "problem_name": "018_Matmul_with_diagonal_matrices_",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.120492+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.015051117994468934,
+      "latency": 419304.4,
+      "timestamp": "2026-04-28T18:34:23.914399+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:37:53.507764+00:00"
 }

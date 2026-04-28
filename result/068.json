@@ -1,15 +1,15 @@
 {
-  "problem_id": "133",
-  "problem_name": "133_Triplet_loss",
+  "problem_id": "068",
+  "problem_name": "068_upsample_bilinear2d_out_frame",
   "results": [
     {
       "rank": 1,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
-      "score": 0.005157930932848651,
-      "latency": 12214.2,
+      "score": 69.1981981981982,
+      "latency": 22.2,
       "timestamp": "2026-04-28T18:33:19.082495+00:00"
     }
   ],
-  "last_updated": "2026-04-28T18:37:53.507465+00:00"
+  "last_updated": "2026-04-28T18:37:53.506943+00:00"
 }
