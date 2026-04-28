@@ -1,23 +1,6 @@
 {
   "problem_id": "006",
   "problem_name": "006_conv_depthwise_2D_square_input_square_kernel",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_2",
-      "github": "HT1108/BangcOperator",
-      "score": 0.10248773651016117,
-      "latency": 2854.0,
-      "timestamp": "2026-04-27T10:58:39.206754+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "不知道叫什么名字组",
-      "github": "luoluoluoluoli/Luoluoli_ice1",
-      "score": 0.10178161319507271,
-      "latency": 2873.8,
-      "timestamp": "2026-04-27T11:37:45.347027+00:00"
-    }
-  ],
-  "last_updated": "2026-04-27T11:40:21.602281+00:00"
+  "results": [],
+  "last_updated": "2026-04-28T01:03:24.550534+00:00"
 }
