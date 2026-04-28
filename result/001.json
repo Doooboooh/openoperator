@@ -100,6 +100,14 @@
     },
     {
       "rank": 13,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.19785276073619631,
+      "latency": 65.2,
+      "timestamp": "2026-04-28T02:37:13.272650+00:00"
+    },
+    {
+      "rank": 14,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.19486404833836857,
@@ -107,7 +115,7 @@
       "timestamp": "2026-04-27T07:18:57.262799+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.19427710843373494,
@@ -115,5 +123,5 @@
       "timestamp": "2026-04-27T08:34:02.735546+00:00"
     }
   ],
-  "last_updated": "2026-04-28T02:36:07.909195+00:00"
+  "last_updated": "2026-04-28T02:41:13.599039+00:00"
 }
