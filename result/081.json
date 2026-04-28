@@ -1,6 +1,15 @@
 {
   "problem_id": "081",
   "problem_name": "081_Sum_2D_reduction",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.130560+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.002517858292039385,
+      "latency": 12431.2,
+      "timestamp": "2026-04-28T16:02:17.033785+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T16:06:53.419991+00:00"
 }

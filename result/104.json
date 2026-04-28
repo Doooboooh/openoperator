@@ -1,6 +1,15 @@
 {
   "problem_id": "104",
   "problem_name": "104_KL_Divergence_Loss",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.527595+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.0023182104400378514,
+      "latency": 56854.2,
+      "timestamp": "2026-04-28T16:02:17.033785+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T16:06:53.421026+00:00"
 }

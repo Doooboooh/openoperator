@@ -1,6 +1,15 @@
 {
   "problem_id": "037",
   "problem_name": "037_Max_reduction_over_a_dimension",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.521121+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.002392030932564388,
+      "latency": 12207.2,
+      "timestamp": "2026-04-28T16:02:17.033785+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T16:06:53.421431+00:00"
 }

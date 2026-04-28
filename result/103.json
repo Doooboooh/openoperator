@@ -1,6 +1,15 @@
 {
   "problem_id": "103",
   "problem_name": "103_MSE_Loss",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.527414+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.0001346053179783563,
+      "latency": 187214.0,
+      "timestamp": "2026-04-28T16:02:17.033785+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T16:06:53.420659+00:00"
 }

@@ -1,6 +1,15 @@
 {
   "problem_id": "077",
   "problem_name": "077_LogSumExp_over_dim",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.524560+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.04383506805444355,
+      "latency": 999.2,
+      "timestamp": "2026-04-28T16:02:17.033785+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T16:06:53.421558+00:00"
 }
