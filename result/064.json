@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.01146788990825688,
+      "latency": 1177.2,
+      "timestamp": "2026-04-28T18:23:04.397604+00:00"
+    },
+    {
+      "rank": 2,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.01105832241153342,
@@ -11,5 +19,5 @@
       "timestamp": "2026-04-28T16:25:08.433285+00:00"
     }
   ],
-  "last_updated": "2026-04-28T16:27:06.050552+00:00"
+  "last_updated": "2026-04-28T18:27:43.475703+00:00"
 }

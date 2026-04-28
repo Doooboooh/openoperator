@@ -1,6 +1,15 @@
 {
   "problem_id": "046",
   "problem_name": "046_InstanceNorm",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.125595+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.002166316611215405,
+      "latency": 2690050.0,
+      "timestamp": "2026-04-28T18:23:04.397604+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:27:43.475342+00:00"
 }

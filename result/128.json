@@ -1,6 +1,15 @@
 {
   "problem_id": "128",
   "problem_name": "128_Batch_norm_1D",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.136122+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.005504758350438514,
+      "latency": 5359.0,
+      "timestamp": "2026-04-28T18:23:04.397604+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T18:27:43.475517+00:00"
 }
