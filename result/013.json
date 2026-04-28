@@ -1,6 +1,15 @@
 {
   "problem_id": "013",
   "problem_name": "013_3D_tensor_matrix_multiplication",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.119617+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.0001413826173259031,
+      "latency": 15782704.0,
+      "timestamp": "2026-04-28T15:45:05.538309+00:00"
+    }
+  ],
+  "last_updated": "2026-04-28T15:46:33.536921+00:00"
 }
