@@ -1,6 +1,15 @@
 {
   "problem_id": "083",
   "problem_name": "083_Causal_Self_Attention",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.130918+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.0006662357088480656,
+      "latency": 202030.6,
+      "timestamp": "2026-04-29T06:22:34.585170+00:00"
+    }
+  ],
+  "last_updated": "2026-04-29T06:24:58.187952+00:00"
 }
