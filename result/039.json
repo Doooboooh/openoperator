@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.9043516602788048,
+      "latency": 5896.6,
+      "timestamp": "2026-04-29T11:17:33.499032+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.0019991869188407943,
@@ -11,5 +19,5 @@
       "timestamp": "2026-04-28T18:23:04.397604+00:00"
     }
   ],
-  "last_updated": "2026-04-28T18:27:43.474960+00:00"
+  "last_updated": "2026-04-29T11:22:03.602511+00:00"
 }
