@@ -1,6 +1,15 @@
 {
   "problem_id": "129",
   "problem_name": "129_Attention_score_with_bias",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.136310+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 3.0580534733349428e-06,
+      "latency": 27370352.0,
+      "timestamp": "2026-04-29T09:17:08.188802+00:00"
+    }
+  ],
+  "last_updated": "2026-04-29T09:20:47.298020+00:00"
 }

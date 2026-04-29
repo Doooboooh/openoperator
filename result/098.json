@@ -1,6 +1,15 @@
 {
   "problem_id": "098",
   "problem_name": "098_Attention_with_temperature",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.132636+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 2.462217603604793e-06,
+      "latency": 27048787.2,
+      "timestamp": "2026-04-29T09:17:08.188802+00:00"
+    }
+  ],
+  "last_updated": "2026-04-29T09:20:47.297803+00:00"
 }
