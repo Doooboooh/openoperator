@@ -1,6 +1,15 @@
 {
   "problem_id": "004",
   "problem_name": "004_batched_matrix_multiplication",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.119083+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 3.472144982682082,
+      "latency": 4099.8,
+      "timestamp": "2026-04-29T12:59:39.776230+00:00"
+    }
+  ],
+  "last_updated": "2026-04-29T13:02:29.265086+00:00"
 }
