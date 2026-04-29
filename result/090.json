@@ -1,6 +1,15 @@
 {
   "problem_id": "090",
   "problem_name": "090_Einsum_4D_contract",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.525583+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 5.58856615420116e-05,
+      "latency": 499233.6,
+      "timestamp": "2026-04-29T08:52:18.181175+00:00"
+    }
+  ],
+  "last_updated": "2026-04-29T08:55:39.507296+00:00"
 }
