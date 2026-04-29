@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 1.2647058823529413,
+      "latency": 10.2,
+      "timestamp": "2026-04-29T05:40:18.259881+00:00"
+    },
+    {
+      "rank": 4,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 1.2169811320754718,
@@ -27,7 +35,7 @@
       "timestamp": "2026-04-27T02:35:22.263384+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.6515151515151515,
@@ -35,7 +43,7 @@
       "timestamp": "2026-04-27T02:45:31.307359+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "智能哈基系统组",
       "github": "Glucose-180/AIHS-Operator",
       "score": 0.33419689119170987,
@@ -43,7 +51,7 @@
       "timestamp": "2026-04-28T17:56:40.138757+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.19969040247678022,
@@ -51,7 +59,7 @@
       "timestamp": "2026-04-27T09:45:41.839890+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.19969040247678022,
@@ -59,7 +67,7 @@
       "timestamp": "2026-04-28T17:59:45.793860+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.1990740740740741,
@@ -67,7 +75,7 @@
       "timestamp": "2026-04-28T02:35:58.229794+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.19846153846153847,
@@ -75,7 +83,7 @@
       "timestamp": "2026-04-28T16:25:08.433285+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.19785276073619631,
@@ -83,7 +91,7 @@
       "timestamp": "2026-04-27T04:50:09.173036+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.19427710843373494,
@@ -91,5 +99,5 @@
       "timestamp": "2026-04-27T08:34:02.735546+00:00"
     }
   ],
-  "last_updated": "2026-04-29T02:58:47.307899+00:00"
+  "last_updated": "2026-04-29T05:44:31.226985+00:00"
 }
