@@ -1,6 +1,15 @@
 {
   "problem_id": "116",
   "problem_name": "116_Grid_sample",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.529176+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.004767669217728526,
+      "latency": 73851.6,
+      "timestamp": "2026-04-29T05:51:15.348373+00:00"
+    }
+  ],
+  "last_updated": "2026-04-29T05:54:40.826977+00:00"
 }
