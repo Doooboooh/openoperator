@@ -1,6 +1,15 @@
 {
   "problem_id": "100",
   "problem_name": "100_Adaptive_Max_Pool_2D",
-  "results": [],
-  "last_updated": "2026-04-28T15:31:22.527037+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.004113833352780903,
+      "latency": 743880.4,
+      "timestamp": "2026-04-29T01:12:35.708561+00:00"
+    }
+  ],
+  "last_updated": "2026-04-29T01:13:20.098730+00:00"
 }

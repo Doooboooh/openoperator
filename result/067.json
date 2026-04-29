@@ -1,6 +1,15 @@
 {
   "problem_id": "067",
   "problem_name": "067_renormRowsL1",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.128148+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.875,
+      "latency": 44.0,
+      "timestamp": "2026-04-29T01:12:35.708561+00:00"
+    }
+  ],
+  "last_updated": "2026-04-29T01:13:20.098488+00:00"
 }
