@@ -4,20 +4,20 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 1.5375,
+      "latency": 8.0,
+      "timestamp": "2026-04-29T02:57:14.699401+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 1.1388888888888888,
       "latency": 10.8,
       "timestamp": "2026-04-28T15:50:43.472964+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.023518164435946464,
-      "latency": 523.0,
-      "timestamp": "2026-04-29T02:44:47.270948+00:00"
     }
   ],
-  "last_updated": "2026-04-29T02:48:42.329167+00:00"
+  "last_updated": "2026-04-29T02:58:47.308208+00:00"
 }
