@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "算不懂",
+      "github": "caozhining/suanbudong_openoperator",
+      "score": 1.4464285714285714,
+      "latency": 11.2,
+      "timestamp": "2026-04-29T03:36:54.690798+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 1.3728813559322033,
@@ -19,7 +27,7 @@
       "timestamp": "2026-04-28T15:49:03.715228+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.12461538461538461,
@@ -27,5 +35,5 @@
       "timestamp": "2026-04-28T16:26:17.616509+00:00"
     }
   ],
-  "last_updated": "2026-04-29T02:48:42.339635+00:00"
+  "last_updated": "2026-04-29T03:39:07.900163+00:00"
 }
