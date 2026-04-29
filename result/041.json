@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.22300082440230834,
+      "latency": 242.6,
+      "timestamp": "2026-04-29T10:00:55.379461+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.0014691744923065225,
@@ -11,5 +19,5 @@
       "timestamp": "2026-04-28T18:20:57.706271+00:00"
     }
   ],
-  "last_updated": "2026-04-28T18:22:38.589897+00:00"
+  "last_updated": "2026-04-29T10:01:06.385927+00:00"
 }
