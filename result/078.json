@@ -4,19 +4,19 @@
   "results": [
     {
       "rank": 1,
+      "user": "智算第九组",
+      "github": "WattskiTian/BangC09",
+      "score": 0.017800099079246318,
+      "latency": 11707.8,
+      "timestamp": "2026-04-29T14:46:31.584588+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.01772108843537415,
       "latency": 11760.0,
       "timestamp": "2026-04-28T16:02:17.033785+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "智算第九组",
-      "github": "WattskiTian/BangC09",
-      "score": 0.017681095481309285,
-      "latency": 11786.6,
-      "timestamp": "2026-04-29T14:39:34.150383+00:00"
     },
     {
       "rank": 3,
@@ -27,5 +27,5 @@
       "timestamp": "2026-04-29T14:17:14.243566+00:00"
     }
   ],
-  "last_updated": "2026-04-29T14:43:27.492767+00:00"
+  "last_updated": "2026-04-29T14:48:32.817084+00:00"
 }
