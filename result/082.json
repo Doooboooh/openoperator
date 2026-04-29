@@ -1,6 +1,15 @@
 {
   "problem_id": "082",
   "problem_name": "082_Scaled_Dot_Product_Attention",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.130726+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.00016476063211477853,
+      "latency": 395725.6,
+      "timestamp": "2026-04-29T06:28:00.056563+00:00"
+    }
+  ],
+  "last_updated": "2026-04-29T06:30:03.035024+00:00"
 }
