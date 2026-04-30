@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 1.1637931034482758,
+      "latency": 11.6,
+      "timestamp": "2026-04-30T04:35:06.378269+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.01146788990825688,
@@ -11,21 +19,13 @@
       "timestamp": "2026-04-28T18:23:04.397604+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.01105832241153342,
       "latency": 1220.8,
       "timestamp": "2026-04-28T16:25:08.433285+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.00720076808192874,
-      "latency": 1874.8,
-      "timestamp": "2026-04-30T03:16:35.458181+00:00"
     }
   ],
-  "last_updated": "2026-04-30T03:21:18.262160+00:00"
+  "last_updated": "2026-04-30T04:36:30.706208+00:00"
 }
