@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "算不懂",
+      "github": "caozhining/suanbudong_openoperator",
+      "score": 0.013257575757575758,
+      "latency": 1900.8,
+      "timestamp": "2026-04-30T09:50:41.113198+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.00013460675597718095,
@@ -11,5 +19,5 @@
       "timestamp": "2026-04-28T16:21:02.509041+00:00"
     }
   ],
-  "last_updated": "2026-04-28T16:21:59.561094+00:00"
+  "last_updated": "2026-04-30T09:53:05.443291+00:00"
 }
