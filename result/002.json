@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 1.8360216254859032,
+      "latency": 4476.2,
+      "timestamp": "2026-04-30T05:33:02.917886+00:00"
+    },
+    {
+      "rank": 4,
       "user": "智能哈基系统组",
       "github": "Glucose-180/AIHS-Operator",
       "score": 1.8187934315938563,
@@ -27,7 +35,7 @@
       "timestamp": "2026-04-28T17:56:40.138757+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 1.8134957412065844,
@@ -35,7 +43,7 @@
       "timestamp": "2026-04-29T05:44:43.177872+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 1.7938621382110274,
@@ -43,7 +51,7 @@
       "timestamp": "2026-04-29T05:43:11.060597+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 1.7419245442984315,
@@ -51,7 +59,7 @@
       "timestamp": "2026-04-29T14:17:14.243566+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 1.7336933592101933,
@@ -59,20 +67,12 @@
       "timestamp": "2026-04-29T08:05:34.380428+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 1.659344209336133,
       "latency": 4952.8,
       "timestamp": "2026-04-29T08:05:30.620253+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_8",
-      "github": "ykkkx/ICS_28",
-      "score": 1.436732981364288,
-      "latency": 5720.2,
-      "timestamp": "2026-04-30T05:26:06.481329+00:00"
     },
     {
       "rank": 10,
@@ -83,5 +83,5 @@
       "timestamp": "2026-04-27T08:51:35.493919+00:00"
     }
   ],
-  "last_updated": "2026-04-30T05:26:36.561720+00:00"
+  "last_updated": "2026-04-30T05:36:48.201713+00:00"
 }
