@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.24467739093902888,
+      "latency": 29515.6,
+      "timestamp": "2026-04-30T11:11:12.309483+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.009341050929668554,
@@ -35,7 +43,7 @@
       "timestamp": "2026-04-28T18:33:19.082495+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.008839895054246535,
@@ -43,5 +51,5 @@
       "timestamp": "2026-04-30T02:15:07.028975+00:00"
     }
   ],
-  "last_updated": "2026-04-30T02:15:47.191183+00:00"
+  "last_updated": "2026-04-30T11:13:29.603978+00:00"
 }
