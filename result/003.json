@@ -12,19 +12,19 @@
     },
     {
       "rank": 2,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.5681818181818182,
+      "latency": 44.0,
+      "timestamp": "2026-04-30T07:20:09.576758+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.48262548262548266,
       "latency": 51.8,
       "timestamp": "2026-04-29T05:42:45.571894+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "888",
-      "github": "RuixiZhang0906/888-op-gen",
-      "score": 0.26260504201680673,
-      "latency": 95.2,
-      "timestamp": "2026-04-30T07:06:15.821641+00:00"
     },
     {
       "rank": 4,
@@ -51,5 +51,5 @@
       "timestamp": "2026-04-28T16:02:17.033785+00:00"
     }
   ],
-  "last_updated": "2026-04-30T07:07:21.648745+00:00"
+  "last_updated": "2026-04-30T07:22:30.452371+00:00"
 }
