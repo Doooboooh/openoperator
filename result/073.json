@@ -12,19 +12,19 @@
     },
     {
       "rank": 2,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 2.44,
+      "latency": 10.0,
+      "timestamp": "2026-05-01T08:58:20.797542+00:00"
+    },
+    {
+      "rank": 3,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.14896214896214893,
       "latency": 163.8,
       "timestamp": "2026-04-30T10:48:24.205811+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 0.12273641851106638,
-      "latency": 198.8,
-      "timestamp": "2026-05-01T08:43:57.769356+00:00"
     },
     {
       "rank": 4,
@@ -43,5 +43,5 @@
       "timestamp": "2026-04-29T02:44:47.270948+00:00"
     }
   ],
-  "last_updated": "2026-05-01T08:47:27.850662+00:00"
+  "last_updated": "2026-05-01T09:02:40.737300+00:00"
 }
