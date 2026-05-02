@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.013852075150383168,
+      "latency": 58251.2,
+      "timestamp": "2026-05-02T02:17:34.274268+00:00"
+    },
+    {
+      "rank": 2,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.001388050278762607,
@@ -11,5 +19,5 @@
       "timestamp": "2026-04-30T16:19:16.324628+00:00"
     }
   ],
-  "last_updated": "2026-04-30T16:20:31.804042+00:00"
+  "last_updated": "2026-05-02T02:19:52.190964+00:00"
 }
