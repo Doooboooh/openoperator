@@ -4,14 +4,6 @@
   "results": [
     {
       "rank": 1,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 100.00000000000001,
-      "latency": 9.382,
-      "timestamp": "2026-05-02T01:42:29.232581+00:00"
-    },
-    {
-      "rank": 2,
       "user": "十玖",
       "github": "enevel/ICS_19team",
       "score": 0.9656237134623302,
@@ -19,7 +11,7 @@
       "timestamp": "2026-04-29T13:31:03.393342+00:00"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.007758476685703133,
@@ -27,7 +19,7 @@
       "timestamp": "2026-04-30T09:59:33.993598+00:00"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.007710970914960698,
@@ -35,5 +27,5 @@
       "timestamp": "2026-04-29T01:12:35.708561+00:00"
     }
   ],
-  "last_updated": "2026-05-02T01:44:42.121442+00:00"
+  "last_updated": "2026-05-02T10:34:55.550444+00:00"
 }

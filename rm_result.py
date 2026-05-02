@@ -10,6 +10,7 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_RESULT_DIR = SCRIPT_DIR / "result"
+SCORE_TOLERANCE = Decimal("1e-5")
 
 
 def parse_args():
@@ -59,7 +60,7 @@ def score_matches(entry_score: object, score: Decimal | None) -> bool:
     if not isinstance(entry_score, (int, float, str)):
         return False
     try:
-        return Decimal(str(entry_score)) == score
+        return abs(Decimal(str(entry_score)) - score) <= SCORE_TOLERANCE
     except InvalidOperation:
         return False
 
