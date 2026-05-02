@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from decimal import Decimal, InvalidOperation
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -13,7 +14,7 @@ DEFAULT_RESULT_DIR = SCRIPT_DIR / "result"
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="删除 leaderboard/result 下某个队伍的全部成绩"
+        description="删除 leaderboard/result 下符合条件的全部成绩"
     )
     parser.add_argument(
         "--result-dir",
@@ -31,6 +32,11 @@ def parse_args():
         help="按榜单 user 名精确删除",
     )
     parser.add_argument(
+        "--score",
+        default=None,
+        help="按 score 数值精确删除，例如 100.0",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="只预览，不写回文件",
@@ -38,10 +44,32 @@ def parse_args():
     return parser.parse_args()
 
 
-def matches(entry: dict, github: str | None, user: str | None) -> bool:
+def parse_score(score: str | None) -> Decimal | None:
+    if score is None:
+        return None
+    try:
+        return Decimal(score)
+    except InvalidOperation as exc:
+        raise SystemExit(f"无效的 --score 参数: {score}") from exc
+
+
+def score_matches(entry_score: object, score: Decimal | None) -> bool:
+    if score is None:
+        return True
+    if not isinstance(entry_score, (int, float, str)):
+        return False
+    try:
+        return Decimal(str(entry_score)) == score
+    except InvalidOperation:
+        return False
+
+
+def matches(entry: dict, github: str | None, user: str | None, score: Decimal | None) -> bool:
     if github is not None and entry.get("github") != github:
         return False
     if user is not None and entry.get("user") != user:
+        return False
+    if not score_matches(entry.get("score"), score):
         return False
     return True
 
@@ -51,7 +79,13 @@ def rewrite_ranks(results: list[dict]):
         entry["rank"] = idx
 
 
-def process_file(path: Path, github: str | None, user: str | None, dry_run: bool) -> tuple[int, int]:
+def process_file(
+    path: Path,
+    github: str | None,
+    user: str | None,
+    score: Decimal | None,
+    dry_run: bool,
+) -> tuple[int, int]:
     data = json.loads(path.read_text(encoding="utf-8"))
     results = data.get("results", [])
     if not isinstance(results, list):
@@ -60,7 +94,7 @@ def process_file(path: Path, github: str | None, user: str | None, dry_run: bool
     kept = []
     removed = []
     for entry in results:
-        if isinstance(entry, dict) and matches(entry, github, user):
+        if isinstance(entry, dict) and matches(entry, github, user, score):
             removed.append(entry)
         else:
             kept.append(entry)
@@ -80,8 +114,9 @@ def process_file(path: Path, github: str | None, user: str | None, dry_run: bool
 
 def main():
     args = parse_args()
-    if args.github is None and args.user is None:
-        raise SystemExit("至少提供 --github 或 --user 之一")
+    score = parse_score(args.score)
+    if args.github is None and args.user is None and score is None:
+        raise SystemExit("至少提供 --github、--user 或 --score 之一")
 
     result_dir = Path(args.result_dir)
     if not result_dir.is_dir():
@@ -91,7 +126,7 @@ def main():
     touched_files = 0
 
     for path in sorted(result_dir.glob("*.json")):
-        removed, total_before = process_file(path, args.github, args.user, args.dry_run)
+        removed, total_before = process_file(path, args.github, args.user, score, args.dry_run)
         if removed:
             touched_files += 1
             total_removed += removed
@@ -103,4 +138,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
