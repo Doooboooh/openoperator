@@ -541,7 +541,10 @@ async function init() {
             tasksData = d.tasks || [];
             competitionInfo = d.competition_info || {};
             timelineData    = d.timeline || [];
-            noticesData     = d.notices || [];
+            noticesData     = (d.notices || []).map(notice => ({
+                ...notice,
+                date: notice.date || notice.data || ''
+            }));
         } else {
             throw new Error('Failed to fetch problems.json');
         }
@@ -1065,3 +1068,4 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 </body>
 </html>
+
