@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 116.37878787878789,
+      "latency": 13.2,
+      "timestamp": "2026-05-04T16:51:09.518940+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 69.1981981981982,
@@ -11,5 +19,5 @@
       "timestamp": "2026-04-28T18:33:19.082495+00:00"
     }
   ],
-  "last_updated": "2026-04-28T18:37:53.506943+00:00"
+  "last_updated": "2026-05-04T16:53:50.994834+00:00"
 }
