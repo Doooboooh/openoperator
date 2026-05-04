@@ -44,6 +44,14 @@
     },
     {
       "rank": 6,
+      "user": "team_12",
+      "github": "yinuo222/kernel-competition-group40",
+      "score": 0.36337209302325585,
+      "latency": 68.8,
+      "timestamp": "2026-05-04T09:53:23.139587+00:00"
+    },
+    {
+      "rank": 7,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.008834546611067919,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-02T14:30:49.387307+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.007518344761217371,
@@ -59,7 +67,7 @@
       "timestamp": "2026-04-30T16:17:35.624887+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.007212925562608194,
@@ -67,7 +75,7 @@
       "timestamp": "2026-04-29T02:44:47.270948+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.007144898542440698,
@@ -75,20 +83,12 @@
       "timestamp": "2026-05-04T07:35:23.015909+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.004261412061500699,
       "latency": 5866.6,
       "timestamp": "2026-04-30T06:33:46.413059+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "team_12",
-      "github": "yinuo222/kernel-competition-group40",
-      "score": 0.0010007766026436514,
-      "latency": 24980.6,
-      "timestamp": "2026-05-04T07:29:50.733903+00:00"
     },
     {
       "rank": 12,
@@ -99,5 +99,5 @@
       "timestamp": "2026-04-28T16:02:17.033785+00:00"
     }
   ],
-  "last_updated": "2026-05-04T07:38:05.013405+00:00"
+  "last_updated": "2026-05-04T09:54:47.639559+00:00"
 }
