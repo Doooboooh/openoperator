@@ -4,27 +4,27 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 20.5,
+      "latency": 1.8,
+      "timestamp": "2026-05-04T07:37:38.786288+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 18.45,
+      "latency": 2.0,
+      "timestamp": "2026-05-04T07:37:36.840935+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 1.5374999999999999,
       "latency": 24.0,
       "timestamp": "2026-05-04T01:56:40.490590+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.1826923076923077,
-      "latency": 31.2,
-      "timestamp": "2026-05-04T07:13:32.119759+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.160377358490566,
-      "latency": 31.8,
-      "timestamp": "2026-05-04T07:13:29.456598+00:00"
     },
     {
       "rank": 4,
@@ -43,5 +43,5 @@
       "timestamp": "2026-04-28T18:21:44.890297+00:00"
     }
   ],
-  "last_updated": "2026-05-04T07:17:39.096707+00:00"
+  "last_updated": "2026-05-04T07:38:05.014173+00:00"
 }
