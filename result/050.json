@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.045002368545712934,
+      "latency": 844.4,
+      "timestamp": "2026-05-04T16:29:52.272805+00:00"
+    },
+    {
+      "rank": 2,
       "user": "智算第九组",
       "github": "WattskiTian/BangC09",
       "score": 0.03659476117103235,
@@ -11,7 +19,7 @@
       "timestamp": "2026-04-29T14:39:34.150383+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.011222018782115647,
@@ -19,7 +27,7 @@
       "timestamp": "2026-04-30T11:21:32.837235+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.0032710119478015355,
@@ -27,5 +35,5 @@
       "timestamp": "2026-04-28T18:21:44.890297+00:00"
     }
   ],
-  "last_updated": "2026-04-30T11:23:35.061600+00:00"
+  "last_updated": "2026-05-04T16:33:35.529680+00:00"
 }
