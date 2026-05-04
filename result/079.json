@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.6156462585034015,
+      "latency": 29.4,
+      "timestamp": "2026-05-04T17:14:56.772555+00:00"
+    },
+    {
+      "rank": 5,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.009729090518168136,
@@ -35,5 +43,5 @@
       "timestamp": "2026-04-30T11:13:16.241494+00:00"
     }
   ],
-  "last_updated": "2026-05-03T10:15:41.025871+00:00"
+  "last_updated": "2026-05-04T17:19:11.978639+00:00"
 }
