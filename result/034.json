@@ -20,19 +20,19 @@
     },
     {
       "rank": 3,
+      "user": "team_12",
+      "github": "yinuo222/kernel-competition-group40",
+      "score": 0.019806094182825487,
+      "latency": 1444.0,
+      "timestamp": "2026-05-04T08:44:35.950749+00:00"
+    },
+    {
+      "rank": 4,
       "user": "十玖",
       "github": "enevel/ICS_19team",
       "score": 0.017610837438423645,
       "latency": 1624.0,
       "timestamp": "2026-04-29T13:31:38.970722+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_12",
-      "github": "yinuo222/kernel-competition-group40",
-      "score": 0.010869565217391306,
-      "latency": 2631.2,
-      "timestamp": "2026-05-04T08:42:28.735239+00:00"
     },
     {
       "rank": 5,
@@ -75,5 +75,5 @@
       "timestamp": "2026-05-03T06:53:41.760191+00:00"
     }
   ],
-  "last_updated": "2026-05-04T08:44:03.567249+00:00"
+  "last_updated": "2026-05-04T08:49:08.606602+00:00"
 }
