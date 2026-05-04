@@ -4,6 +4,22 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 4.375,
+      "latency": 4.8,
+      "timestamp": "2026-05-04T12:44:39.534729+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 4.375,
+      "latency": 4.8,
+      "timestamp": "2026-05-04T12:44:33.445811+00:00"
+    },
+    {
+      "rank": 3,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 1.8421052631578947,
@@ -11,28 +27,12 @@
       "timestamp": "2026-04-30T02:43:11.603871+00:00"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 1.0096153846153846,
       "latency": 20.8,
       "timestamp": "2026-05-03T03:12:00.220189+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.6730769230769231,
-      "latency": 31.2,
-      "timestamp": "2026-05-04T09:53:42.485200+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.6730769230769231,
-      "latency": 31.2,
-      "timestamp": "2026-05-04T09:53:38.069370+00:00"
     },
     {
       "rank": 5,
@@ -43,5 +43,5 @@
       "timestamp": "2026-04-28T18:48:51.080881+00:00"
     }
   ],
-  "last_updated": "2026-05-04T09:54:47.640341+00:00"
+  "last_updated": "2026-05-04T12:45:31.541882+00:00"
 }
