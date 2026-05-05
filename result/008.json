@@ -1,6 +1,15 @@
 {
   "problem_id": "008",
   "problem_name": "008_conv_pointwise_2D",
-  "results": [],
-  "last_updated": "2026-04-28T01:03:24.550906+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 1.3804500703234879,
+      "latency": 853.2,
+      "timestamp": "2026-05-05T10:07:21.106920+00:00"
+    }
+  ],
+  "last_updated": "2026-05-05T10:09:00.038455+00:00"
 }
