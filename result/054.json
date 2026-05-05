@@ -4,27 +4,27 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 27.18421052631579,
+      "latency": 3.8,
+      "timestamp": "2026-05-05T11:00:15.689890+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 25.825,
+      "latency": 4.0,
+      "timestamp": "2026-05-05T11:03:58.658151+00:00"
+    },
+    {
+      "rank": 3,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 14.347222222222221,
       "latency": 7.2,
       "timestamp": "2026-05-04T23:06:21.585783+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 7.946153846153846,
-      "latency": 13.0,
-      "timestamp": "2026-05-03T19:31:40.289835+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 7.708955223880596,
-      "latency": 13.4,
-      "timestamp": "2026-05-03T19:31:35.565372+00:00"
     },
     {
       "rank": 4,
@@ -51,5 +51,5 @@
       "timestamp": "2026-05-05T03:53:38.267194+00:00"
     }
   ],
-  "last_updated": "2026-05-05T03:54:03.445437+00:00"
+  "last_updated": "2026-05-05T11:04:46.861339+00:00"
 }
