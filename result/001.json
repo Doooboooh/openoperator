@@ -100,6 +100,14 @@
     },
     {
       "rank": 13,
+      "user": "team_29",
+      "github": "duroey/openoperator-basic",
+      "score": 0.8958333333333334,
+      "latency": 14.4,
+      "timestamp": "2026-05-06T03:48:53.275779+00:00"
+    },
+    {
+      "rank": 14,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.6935483870967741,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-04T06:23:26.006196+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.3685714285714286,
@@ -115,20 +123,12 @@
       "timestamp": "2026-04-29T05:44:43.177872+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "智能哈基系统组",
       "github": "Glucose-180/AIHS-Operator",
       "score": 0.33419689119170987,
       "latency": 38.6,
       "timestamp": "2026-04-28T17:56:40.138757+00:00"
-    },
-    {
-      "rank": 16,
-      "user": "team_29",
-      "github": "duroey/openoperator-basic",
-      "score": 0.26326530612244897,
-      "latency": 49.0,
-      "timestamp": "2026-05-06T03:43:02.950583+00:00"
     },
     {
       "rank": 17,
@@ -187,5 +187,5 @@
       "timestamp": "2026-05-03T04:07:59.705316+00:00"
     }
   ],
-  "last_updated": "2026-05-06T03:45:27.356559+00:00"
+  "last_updated": "2026-05-06T03:50:32.301064+00:00"
 }
