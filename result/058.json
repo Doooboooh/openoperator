@@ -44,6 +44,14 @@
     },
     {
       "rank": 6,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.43796992481203006,
+      "latency": 53.2,
+      "timestamp": "2026-05-06T08:11:56.612231+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.01929127338963405,
@@ -51,20 +59,12 @@
       "timestamp": "2026-04-29T02:44:47.270948+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.007007940327237728,
       "latency": 3324.8,
       "timestamp": "2026-04-30T11:21:32.837235+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.006963122347737733,
-      "latency": 3346.2,
-      "timestamp": "2026-05-06T07:00:37.926697+00:00"
     },
     {
       "rank": 9,
@@ -83,5 +83,5 @@
       "timestamp": "2026-04-28T18:20:57.706271+00:00"
     }
   ],
-  "last_updated": "2026-05-06T07:02:11.453584+00:00"
+  "last_updated": "2026-05-06T08:13:18.234670+00:00"
 }
