@@ -60,19 +60,19 @@
     },
     {
       "rank": 8,
+      "user": "team_29",
+      "github": "duroey/openoperator-basic",
+      "score": 0.4340277777777778,
+      "latency": 57.6,
+      "timestamp": "2026-05-06T07:41:18.730147+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.36337209302325585,
       "latency": 68.8,
       "timestamp": "2026-05-04T09:53:23.139587+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_29",
-      "github": "duroey/openoperator-basic",
-      "score": 0.07344300822561693,
-      "latency": 340.4,
-      "timestamp": "2026-05-06T07:36:33.189342+00:00"
     },
     {
       "rank": 10,
@@ -131,5 +131,5 @@
       "timestamp": "2026-05-05T12:19:33.880056+00:00"
     }
   ],
-  "last_updated": "2026-05-06T07:37:44.062060+00:00"
+  "last_updated": "2026-05-06T07:42:49.396249+00:00"
 }
