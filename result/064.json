@@ -44,6 +44,14 @@
     },
     {
       "rank": 6,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.011894273127753305,
+      "latency": 1135.0,
+      "timestamp": "2026-05-07T05:48:15.310496+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.01146788990825688,
@@ -51,7 +59,7 @@
       "timestamp": "2026-04-28T18:23:04.397604+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.01105832241153342,
@@ -59,21 +67,13 @@
       "timestamp": "2026-04-28T16:25:08.433285+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.007083639416517998,
       "latency": 1905.8,
       "timestamp": "2026-05-04T16:44:55.112468+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.0028247405423501844,
-      "latency": 4779.2,
-      "timestamp": "2026-05-06T10:04:52.537046+00:00"
     }
   ],
-  "last_updated": "2026-05-06T13:42:07.459117+00:00"
+  "last_updated": "2026-05-07T05:52:56.520580+00:00"
 }
