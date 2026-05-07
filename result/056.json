@@ -52,19 +52,19 @@
     },
     {
       "rank": 7,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 8.649122807017543,
+      "latency": 11.4,
+      "timestamp": "2026-05-07T06:56:23.320511+00:00"
+    },
+    {
+      "rank": 8,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 4.564814814814814,
       "latency": 21.6,
       "timestamp": "2026-05-05T05:34:21.914470+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 4.25,
-      "latency": 23.2,
-      "timestamp": "2026-05-07T06:41:06.155635+00:00"
     },
     {
       "rank": 9,
@@ -99,5 +99,5 @@
       "timestamp": "2026-05-05T02:48:12.503174+00:00"
     }
   ],
-  "last_updated": "2026-05-07T06:43:40.861211+00:00"
+  "last_updated": "2026-05-07T06:58:58.750588+00:00"
 }
