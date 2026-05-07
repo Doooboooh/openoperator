@@ -12,6 +12,22 @@
     },
     {
       "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 2.0047811874908525,
+      "latency": 4099.4,
+      "timestamp": "2026-05-07T12:32:22.240054+00:00"
+    },
+    {
+      "rank": 3,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 2.0042922641693495,
+      "latency": 4100.4,
+      "timestamp": "2026-05-07T12:33:24.324930+00:00"
+    },
+    {
+      "rank": 4,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 1.9942732346517835,
@@ -19,7 +35,7 @@
       "timestamp": "2026-05-04T14:57:21.429603+00:00"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 1.9646203863071332,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-06T05:57:14.322084+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 1.958813995614453,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-04T07:23:42.905414+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 1.95397051830718,
@@ -43,28 +59,12 @@
       "timestamp": "2026-04-28T15:50:43.143964+00:00"
     },
     {
-      "rank": 6,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.953041825095057,
-      "latency": 4208.0,
-      "timestamp": "2026-05-05T12:13:56.911059+00:00"
-    },
-    {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 1.9522067556653522,
       "latency": 4209.8,
       "timestamp": "2026-05-07T04:51:27.455296+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.940407045379421,
-      "latency": 4235.4,
-      "timestamp": "2026-05-05T12:37:59.876852+00:00"
     },
     {
       "rank": 9,
@@ -163,5 +163,5 @@
       "timestamp": "2026-05-06T05:02:44.293172+00:00"
     }
   ],
-  "last_updated": "2026-05-07T08:05:04.217067+00:00"
+  "last_updated": "2026-05-07T12:37:16.444629+00:00"
 }
