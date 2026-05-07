@@ -4,6 +4,22 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.0009555700751388436,
+      "latency": 73464.0,
+      "timestamp": "2026-05-07T11:56:33.891543+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_12",
+      "github": "yinuo222/kernel-competition-group40",
+      "score": 8.503467282727932e-05,
+      "latency": 825545.6,
+      "timestamp": "2026-05-07T11:59:36.907113+00:00"
+    },
+    {
+      "rank": 3,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 8.482184392055745e-05,
@@ -11,15 +27,7 @@
       "timestamp": "2026-05-07T08:17:34.736664+00:00"
     },
     {
-      "rank": 2,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 7.616111525910728e-05,
-      "latency": 921730.2,
-      "timestamp": "2026-05-07T11:53:24.272267+00:00"
-    },
-    {
-      "rank": 3,
+      "rank": 4,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 1.3963854542624884e-05,
@@ -27,5 +35,5 @@
       "timestamp": "2026-05-07T09:02:17.011965+00:00"
     }
   ],
-  "last_updated": "2026-05-07T11:56:44.346557+00:00"
+  "last_updated": "2026-05-07T12:01:49.717834+00:00"
 }
