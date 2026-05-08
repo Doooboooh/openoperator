@@ -164,19 +164,19 @@
     },
     {
       "rank": 21,
+      "user": "team_80",
+      "github": "MariyaSuwako/openoperator-start-kit",
+      "score": 0.2853982300884956,
+      "latency": 45.2,
+      "timestamp": "2026-05-08T09:05:48.566676+00:00"
+    },
+    {
+      "rank": 22,
       "user": "team_13",
       "github": "Shiyu-Quan/openoperator-start-kit",
       "score": 0.25903614457831325,
       "latency": 49.8,
       "timestamp": "2026-05-08T08:40:42.731896+00:00"
-    },
-    {
-      "rank": 22,
-      "user": "team_80",
-      "github": "MariyaSuwako/openoperator-start-kit",
-      "score": 0.21428571428571427,
-      "latency": 60.2,
-      "timestamp": "2026-05-08T08:52:39.055744+00:00"
     },
     {
       "rank": 23,
@@ -251,5 +251,5 @@
       "timestamp": "2026-05-03T04:07:59.705316+00:00"
     }
   ],
-  "last_updated": "2026-05-08T08:56:31.597859+00:00"
+  "last_updated": "2026-05-08T09:06:42.997155+00:00"
 }
