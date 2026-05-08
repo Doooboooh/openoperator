@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 23.476190476190474,
+      "latency": 4.2,
+      "timestamp": "2026-05-08T08:49:03.774980+00:00"
+    },
+    {
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 22.409090909090907,
@@ -27,20 +35,12 @@
       "timestamp": "2026-05-04T23:06:21.585783+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 15.903225806451612,
       "latency": 6.2,
       "timestamp": "2026-05-04T16:38:15.136548+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 15.903225806451612,
-      "latency": 6.2,
-      "timestamp": "2026-05-05T13:11:40.872625+00:00"
     },
     {
       "rank": 6,
@@ -107,5 +107,5 @@
       "timestamp": "2026-05-05T02:48:12.503174+00:00"
     }
   ],
-  "last_updated": "2026-05-08T07:35:08.103580+00:00"
+  "last_updated": "2026-05-08T08:51:25.539613+00:00"
 }
