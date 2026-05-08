@@ -76,6 +76,14 @@
     },
     {
       "rank": 10,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 0.006849386257574341,
+      "latency": 19242.6,
+      "timestamp": "2026-05-08T08:43:50.052563+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.006723597890075808,
@@ -83,7 +91,7 @@
       "timestamp": "2026-05-06T13:06:43.958543+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0060238761220497644,
@@ -91,21 +99,13 @@
       "timestamp": "2026-05-08T02:35:47.115449+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.002326730925396321,
       "latency": 56646.0,
       "timestamp": "2026-04-28T16:24:17.346586+00:00"
-    },
-    {
-      "rank": 13,
-      "user": "二十四组",
-      "github": "Hengyu-Yu/OpenOperator-Group24",
-      "score": 0.0021451683257270463,
-      "latency": 61440.4,
-      "timestamp": "2026-05-07T23:05:13.778311+00:00"
     }
   ],
-  "last_updated": "2026-05-08T02:37:52.368495+00:00"
+  "last_updated": "2026-05-08T08:46:19.502446+00:00"
 }
