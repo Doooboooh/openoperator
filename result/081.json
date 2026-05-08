@@ -52,6 +52,14 @@
     },
     {
       "rank": 7,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.03339022829101771,
+      "latency": 937.4,
+      "timestamp": "2026-05-08T08:14:39.337278+00:00"
+    },
+    {
+      "rank": 8,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.008430749340085116,
@@ -59,15 +67,15 @@
       "timestamp": "2026-04-30T11:13:16.241494+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
-      "score": 0.0083900713022034,
-      "latency": 3730.6,
-      "timestamp": "2026-05-08T06:38:43.168439+00:00"
+      "score": 0.00839142091152815,
+      "latency": 3730.0,
+      "timestamp": "2026-05-08T08:14:43.703006+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.002506205460805509,
@@ -75,5 +83,5 @@
       "timestamp": "2026-04-29T03:13:42.005322+00:00"
     }
   ],
-  "last_updated": "2026-05-08T06:39:51.076120+00:00"
+  "last_updated": "2026-05-08T08:15:44.220140+00:00"
 }
