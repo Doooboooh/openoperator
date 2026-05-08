@@ -1,0 +1,15 @@
+{
+  "problem_id": "012",
+  "problem_name": "012_conv_transposed_2D__asymmetric_input__square_kernel",
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_29",
+      "github": "duroey/openoperator-basic",
+      "score": 0.00022747988027644356,
+      "latency": 9525677.6,
+      "timestamp": "2026-05-08T04:09:13.044790+00:00"
+    }
+  ],
+  "last_updated": "2026-05-08T04:13:49.806481+00:00"
+}
