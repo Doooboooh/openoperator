@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.15844155844155844,
+      "latency": 308.0,
+      "timestamp": "2026-05-08T02:28:23.926466+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.014674926324652672,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-06T13:40:37.944073+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0007025383516837887,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-07T11:56:27.643496+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0006797414753733006,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-07T08:38:41.551172+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0006787487655952265,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-07T07:01:36.092860+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 1.9433307239074197e-05,
@@ -59,5 +67,5 @@
       "timestamp": "2026-05-06T14:00:41.424207+00:00"
     }
   ],
-  "last_updated": "2026-05-07T13:53:12.445869+00:00"
+  "last_updated": "2026-05-08T02:32:47.489452+00:00"
 }
