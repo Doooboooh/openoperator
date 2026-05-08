@@ -156,19 +156,19 @@
     },
     {
       "rank": 20,
+      "user": "team_80",
+      "github": "MariyaSuwako/openoperator-start-kit",
+      "score": 0.356353591160221,
+      "latency": 36.2,
+      "timestamp": "2026-05-08T13:38:42.052289+00:00"
+    },
+    {
+      "rank": 21,
       "user": "智能哈基系统组",
       "github": "Glucose-180/AIHS-Operator",
       "score": 0.33419689119170987,
       "latency": 38.6,
       "timestamp": "2026-04-28T17:56:40.138757+00:00"
-    },
-    {
-      "rank": 21,
-      "user": "team_80",
-      "github": "MariyaSuwako/openoperator-start-kit",
-      "score": 0.2853982300884956,
-      "latency": 45.2,
-      "timestamp": "2026-05-08T09:05:48.566676+00:00"
     },
     {
       "rank": 22,
@@ -259,5 +259,5 @@
       "timestamp": "2026-05-03T04:07:59.705316+00:00"
     }
   ],
-  "last_updated": "2026-05-08T13:35:08.906241+00:00"
+  "last_updated": "2026-05-08T13:40:15.495700+00:00"
 }
