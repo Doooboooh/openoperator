@@ -1,6 +1,15 @@
 {
   "problem_id": "138",
   "problem_name": "138_GRU_forward",
-  "results": [],
-  "last_updated": "2026-04-28T01:02:36.302599+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.05435275852925086,
+      "latency": 394460.2,
+      "timestamp": "2026-05-08T10:16:08.508391+00:00"
+    }
+  ],
+  "last_updated": "2026-05-08T10:17:28.893794+00:00"
 }
