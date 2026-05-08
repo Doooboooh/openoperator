@@ -1,0 +1,23 @@
+{
+  "problem_id": "126",
+  "problem_name": "126_QR_decomposition",
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.9991840321365805,
+      "latency": 1593.2,
+      "timestamp": "2026-05-08T14:21:06.597224+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.998933232931727,
+      "latency": 1593.6,
+      "timestamp": "2026-05-08T14:21:11.577405+00:00"
+    }
+  ],
+  "last_updated": "2026-05-08T14:25:51.563866+00:00"
+}
