@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "智算第十一组",
+      "github": "liuyitongnetizen/BangC11",
+      "score": 0.021229216152019004,
+      "latency": 1347.2,
+      "timestamp": "2026-05-08T10:37:53.625028+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.019806094182825487,
@@ -43,20 +51,12 @@
       "timestamp": "2026-05-04T08:44:35.950749+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "十玖",
       "github": "enevel/ICS_19team",
       "score": 0.017610837438423645,
       "latency": 1624.0,
       "timestamp": "2026-04-29T13:31:38.970722+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "智算第十一组",
-      "github": "liuyitongnetizen/BangC11",
-      "score": 0.009693600867678958,
-      "latency": 2950.4,
-      "timestamp": "2026-05-08T09:58:18.736476+00:00"
     },
     {
       "rank": 8,
@@ -123,5 +123,5 @@
       "timestamp": "2026-05-03T06:53:41.760191+00:00"
     }
   ],
-  "last_updated": "2026-05-08T10:02:18.427508+00:00"
+  "last_updated": "2026-05-08T10:42:49.214284+00:00"
 }
