@@ -60,6 +60,14 @@
     },
     {
       "rank": 8,
+      "user": "team_49",
+      "github": "drafter0364/AICS-30",
+      "score": 0.011440677966101695,
+      "latency": 1180.0,
+      "timestamp": "2026-05-09T15:29:01.222270+00:00"
+    },
+    {
+      "rank": 9,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.01105832241153342,
@@ -67,7 +75,7 @@
       "timestamp": "2026-04-28T16:25:08.433285+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.007083639416517998,
@@ -75,5 +83,5 @@
       "timestamp": "2026-05-04T16:44:55.112468+00:00"
     }
   ],
-  "last_updated": "2026-05-07T05:52:56.520580+00:00"
+  "last_updated": "2026-05-09T15:30:57.795295+00:00"
 }
