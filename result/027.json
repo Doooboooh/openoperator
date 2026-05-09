@@ -60,6 +60,14 @@
     },
     {
       "rank": 8,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 1.4727272727272727,
+      "latency": 11.0,
+      "timestamp": "2026-05-09T05:26:27.582147+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.11722141823444283,
@@ -67,7 +75,7 @@
       "timestamp": "2026-04-29T05:44:43.177872+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 8.796583884658324e-05,
@@ -75,5 +83,5 @@
       "timestamp": "2026-05-08T12:34:33.189256+00:00"
     }
   ],
-  "last_updated": "2026-05-08T12:39:24.901614+00:00"
+  "last_updated": "2026-05-09T05:28:39.256611+00:00"
 }
