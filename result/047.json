@@ -52,6 +52,14 @@
     },
     {
       "rank": 7,
+      "user": "team_49",
+      "github": "drafter0364/AICS-30",
+      "score": 0.008408689898544331,
+      "latency": 3627.2,
+      "timestamp": "2026-05-09T13:29:32.753633+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.008105665993409164,
@@ -59,7 +67,7 @@
       "timestamp": "2026-04-29T14:17:14.243566+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0010516878728319713,
@@ -67,5 +75,5 @@
       "timestamp": "2026-04-30T13:50:58.753390+00:00"
     }
   ],
-  "last_updated": "2026-05-07T08:05:04.218029+00:00"
+  "last_updated": "2026-05-09T13:30:20.047663+00:00"
 }
