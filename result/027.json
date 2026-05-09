@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 1.8409090909090906,
+      "latency": 8.8,
+      "timestamp": "2026-05-09T05:33:07.803310+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 1.7234042553191489,
@@ -43,7 +51,7 @@
       "timestamp": "2026-04-29T12:58:16.483376+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 1.7234042553191489,
@@ -51,20 +59,12 @@
       "timestamp": "2026-05-04T15:24:04.064947+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 1.4999999999999998,
       "latency": 10.8,
       "timestamp": "2026-04-29T03:39:41.069385+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 1.4727272727272727,
-      "latency": 11.0,
-      "timestamp": "2026-05-09T05:26:27.582147+00:00"
     },
     {
       "rank": 9,
@@ -83,5 +83,5 @@
       "timestamp": "2026-05-08T12:34:33.189256+00:00"
     }
   ],
-  "last_updated": "2026-05-09T05:28:39.256611+00:00"
+  "last_updated": "2026-05-09T05:33:44.447094+00:00"
 }
