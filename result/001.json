@@ -196,6 +196,14 @@
     },
     {
       "rank": 25,
+      "user": "team_24",
+      "github": "wysqwysq/bangc_55",
+      "score": 0.2231833910034602,
+      "latency": 57.8,
+      "timestamp": "2026-05-09T07:53:55.803401+00:00"
+    },
+    {
+      "rank": 26,
       "user": "二十九组",
       "github": "ZhangSean42/openoperator-start-kit",
       "score": 0.20347003154574134,
@@ -203,7 +211,7 @@
       "timestamp": "2026-05-02T10:00:37.505658+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "加油组",
       "github": "lao7tomato/BangCompetition",
       "score": 0.2028301886792453,
@@ -211,7 +219,7 @@
       "timestamp": "2026-05-06T04:50:07.917634+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.20031055900621117,
@@ -219,7 +227,7 @@
       "timestamp": "2026-05-07T06:33:28.707804+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.20031055900621117,
@@ -227,7 +235,7 @@
       "timestamp": "2026-05-08T07:32:57.264011+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.19969040247678022,
@@ -235,7 +243,7 @@
       "timestamp": "2026-04-27T09:45:41.839890+00:00"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.19969040247678022,
@@ -243,7 +251,7 @@
       "timestamp": "2026-04-28T17:59:45.793860+00:00"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "team_46",
       "github": "1LLLei/openoperator-start-kit_BangC_competition",
       "score": 0.19969040247678022,
@@ -251,20 +259,12 @@
       "timestamp": "2026-05-04T01:30:01.193645+00:00"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.19846153846153847,
       "latency": 65.0,
       "timestamp": "2026-04-28T16:25:08.433285+00:00"
-    },
-    {
-      "rank": 33,
-      "user": "team_24",
-      "github": "wysqwysq/bangc_55",
-      "score": 0.19846153846153847,
-      "latency": 65.0,
-      "timestamp": "2026-05-09T07:26:28.393416+00:00"
     },
     {
       "rank": 34,
@@ -275,5 +275,5 @@
       "timestamp": "2026-05-03T04:07:59.705316+00:00"
     }
   ],
-  "last_updated": "2026-05-09T07:49:18.331596+00:00"
+  "last_updated": "2026-05-09T07:54:24.694369+00:00"
 }
