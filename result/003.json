@@ -76,19 +76,19 @@
     },
     {
       "rank": 10,
+      "user": "team_80",
+      "github": "MariyaSuwako/openoperator-start-kit",
+      "score": 0.4208754208754209,
+      "latency": 59.4,
+      "timestamp": "2026-05-10T07:42:49.906260+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.36337209302325585,
       "latency": 68.8,
       "timestamp": "2026-05-04T09:53:23.139587+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "team_80",
-      "github": "MariyaSuwako/openoperator-start-kit",
-      "score": 0.3333333333333333,
-      "latency": 75.0,
-      "timestamp": "2026-05-10T07:35:50.996763+00:00"
     },
     {
       "rank": 12,
@@ -203,5 +203,5 @@
       "timestamp": "2026-05-09T15:54:03.423190+00:00"
     }
   ],
-  "last_updated": "2026-05-10T07:37:09.305274+00:00"
+  "last_updated": "2026-05-10T07:47:14.827293+00:00"
 }
