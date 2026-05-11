@@ -4,22 +4,6 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.81598334401025,
-      "latency": 1248.8,
-      "timestamp": "2026-05-07T12:30:32.096845+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.8044239338001276,
-      "latency": 1256.8,
-      "timestamp": "2026-05-07T12:30:29.385589+00:00"
-    },
-    {
-      "rank": 3,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.42365028955725764,
@@ -27,5 +11,5 @@
       "timestamp": "2026-05-07T10:23:21.438302+00:00"
     }
   ],
-  "last_updated": "2026-05-07T12:32:11.283368+00:00"
+  "last_updated": "2026-05-11T15:37:27.933722+00:00"
 }

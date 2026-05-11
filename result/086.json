@@ -4,22 +4,6 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 5.378865979381444,
-      "latency": 38.8,
-      "timestamp": "2026-05-06T16:12:57.187051+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 5.351282051282051,
-      "latency": 39.0,
-      "timestamp": "2026-05-06T16:05:51.845024+00:00"
-    },
-    {
-      "rank": 3,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 4.517316017316017,
@@ -27,7 +11,7 @@
       "timestamp": "2026-05-04T22:24:48.316562+00:00"
     },
     {
-      "rank": 4,
+      "rank": 2,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 1.0140913508260445,
@@ -35,7 +19,7 @@
       "timestamp": "2026-05-04T17:26:12.916166+00:00"
     },
     {
-      "rank": 5,
+      "rank": 3,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.13867109634551494,
@@ -43,7 +27,7 @@
       "timestamp": "2026-04-30T14:19:41.208749+00:00"
     },
     {
-      "rank": 6,
+      "rank": 4,
       "user": "智算第九组",
       "github": "WattskiTian/BangC09",
       "score": 0.030352831670496523,
@@ -51,7 +35,7 @@
       "timestamp": "2026-04-29T14:39:34.150383+00:00"
     },
     {
-      "rank": 7,
+      "rank": 5,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.0024191828331911417,
@@ -59,7 +43,7 @@
       "timestamp": "2026-05-09T14:55:47.714717+00:00"
     },
     {
-      "rank": 8,
+      "rank": 6,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.00217672458749661,
@@ -67,7 +51,7 @@
       "timestamp": "2026-04-28T18:21:44.890297+00:00"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0018778725961971056,
@@ -75,5 +59,5 @@
       "timestamp": "2026-04-29T14:17:14.243566+00:00"
     }
   ],
-  "last_updated": "2026-05-09T15:00:45.790629+00:00"
+  "last_updated": "2026-05-11T15:37:27.921728+00:00"
 }

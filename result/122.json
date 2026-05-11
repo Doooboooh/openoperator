@@ -4,14 +4,6 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.6625766871165644,
-      "latency": 65.2,
-      "timestamp": "2026-05-03T16:48:14.649325+00:00"
-    },
-    {
-      "rank": 2,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 1.657492354740061,
@@ -19,15 +11,7 @@
       "timestamp": "2026-04-30T03:16:35.458181+00:00"
     },
     {
-      "rank": 3,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.652439024390244,
-      "latency": 65.6,
-      "timestamp": "2026-05-03T16:29:25.174194+00:00"
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 1.6424242424242426,
@@ -35,5 +19,5 @@
       "timestamp": "2026-04-30T08:54:42.806703+00:00"
     }
   ],
-  "last_updated": "2026-05-03T16:53:25.626435+00:00"
+  "last_updated": "2026-05-11T15:37:27.931247+00:00"
 }

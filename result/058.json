@@ -4,22 +4,6 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 2.9125,
-      "latency": 8.0,
-      "timestamp": "2026-05-06T16:32:02.477591+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 2.7738095238095237,
-      "latency": 8.4,
-      "timestamp": "2026-05-06T16:31:54.515874+00:00"
-    },
-    {
-      "rank": 3,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.6884057971014492,
@@ -27,7 +11,7 @@
       "timestamp": "2026-05-04T19:42:22.653737+00:00"
     },
     {
-      "rank": 4,
+      "rank": 2,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 1.4036144578313252,
@@ -35,7 +19,7 @@
       "timestamp": "2026-05-04T16:38:15.136548+00:00"
     },
     {
-      "rank": 5,
+      "rank": 3,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 1.1534653465346536,
@@ -43,7 +27,7 @@
       "timestamp": "2026-05-06T08:15:04.362945+00:00"
     },
     {
-      "rank": 6,
+      "rank": 4,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 1.0401785714285716,
@@ -51,7 +35,7 @@
       "timestamp": "2026-05-04T00:56:18.793936+00:00"
     },
     {
-      "rank": 7,
+      "rank": 5,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.01929127338963405,
@@ -59,7 +43,7 @@
       "timestamp": "2026-04-29T02:44:47.270948+00:00"
     },
     {
-      "rank": 8,
+      "rank": 6,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.007007940327237728,
@@ -67,7 +51,7 @@
       "timestamp": "2026-04-30T11:21:32.837235+00:00"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0041957790103003675,
@@ -75,7 +59,7 @@
       "timestamp": "2026-04-30T02:34:41.218167+00:00"
     },
     {
-      "rank": 10,
+      "rank": 8,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.000868793532894835,
@@ -83,5 +67,5 @@
       "timestamp": "2026-04-28T18:20:57.706271+00:00"
     }
   ],
-  "last_updated": "2026-05-06T16:34:13.908477+00:00"
+  "last_updated": "2026-05-11T15:37:27.911081+00:00"
 }

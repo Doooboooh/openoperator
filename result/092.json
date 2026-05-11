@@ -1,23 +1,6 @@
 {
   "problem_id": "092",
   "problem_name": "092_SVD_decomposition",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 5.098958392356148,
-      "latency": 123539.8,
-      "timestamp": "2026-05-08T15:49:23.992520+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 2.6924053078387478,
-      "latency": 233963.4,
-      "timestamp": "2026-05-08T15:52:35.830954+00:00"
-    }
-  ],
-  "last_updated": "2026-05-08T15:56:36.093676+00:00"
+  "results": [],
+  "last_updated": "2026-05-11T15:37:27.923061+00:00"
 }
