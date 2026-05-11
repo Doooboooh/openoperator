@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 5.032967032967033,
+      "latency": 18.2,
+      "timestamp": "2026-05-11T16:53:01.350840+00:00"
+    },
+    {
+      "rank": 2,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 3.2027972027972025,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-04T19:22:54.660133+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 3.033112582781457,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-02T04:18:25.815100+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 1.3470588235294116,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-04T16:56:45.537810+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.1613812544045102,
@@ -35,7 +43,7 @@
       "timestamp": "2026-04-30T11:21:32.837235+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.005168133604152561,
@@ -43,7 +51,7 @@
       "timestamp": "2026-04-28T18:07:33.617827+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.004839340243657611,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-08T05:44:13.032720+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.003792144134596277,
@@ -59,5 +67,5 @@
       "timestamp": "2026-05-06T13:37:46.485978+00:00"
     }
   ],
-  "last_updated": "2026-05-11T15:37:27.915848+00:00"
+  "last_updated": "2026-05-11T16:53:50.003243+00:00"
 }
