@@ -28,19 +28,19 @@
     },
     {
       "rank": 4,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 1.653846153846154,
+      "latency": 7.8,
+      "timestamp": "2026-05-12T03:37:05.323652+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 1.6125,
       "latency": 8.0,
       "timestamp": "2026-05-08T15:35:38.002531+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 1.6125,
-      "latency": 8.0,
-      "timestamp": "2026-05-12T03:27:54.919070+00:00"
     },
     {
       "rank": 6,
@@ -307,5 +307,5 @@
       "timestamp": "2026-05-11T10:14:40.327369+00:00"
     }
   ],
-  "last_updated": "2026-05-12T03:32:49.197904+00:00"
+  "last_updated": "2026-05-12T03:37:54.243118+00:00"
 }
