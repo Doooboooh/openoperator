@@ -1,6 +1,23 @@
 {
   "problem_id": "024",
   "problem_name": "024_Square_matrix_multiplication_",
-  "results": [],
-  "last_updated": "2026-05-12T15:15:24.923158+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 2.900431344356578,
+      "latency": 278.2,
+      "timestamp": "2026-05-12T17:41:45.485473+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 2.892114695340502,
+      "latency": 279.0,
+      "timestamp": "2026-05-12T17:41:44.979022+00:00"
+    }
+  ],
+  "last_updated": "2026-05-12T17:46:58.674826+00:00"
 }
