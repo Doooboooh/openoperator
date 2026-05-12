@@ -1,6 +1,15 @@
 {
   "problem_id": "127",
   "problem_name": "127_Cholesky_decomposition",
-  "results": [],
-  "last_updated": "2026-05-12T15:15:24.948062+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.13090593844820114,
+      "latency": 461.4,
+      "timestamp": "2026-05-12T16:50:35.638621+00:00"
+    }
+  ],
+  "last_updated": "2026-05-12T16:51:11.391326+00:00"
 }
