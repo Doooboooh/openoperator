@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_24",
+      "github": "wysqwysq/bangc_55",
+      "score": 5.780701754385965,
+      "latency": 22.8,
+      "timestamp": "2026-05-12T08:37:15.685905+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 4.707142857142857,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-11T16:54:38.242689+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 4.673758865248227,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-11T16:53:01.350840+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 4.576388888888889,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-04T18:54:46.648612+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 2.2568493150684934,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-07T11:22:31.477912+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 2.1189710610932475,
@@ -43,20 +51,12 @@
       "timestamp": "2026-05-04T17:37:16.516783+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.9762962962962963,
       "latency": 135.0,
       "timestamp": "2026-05-09T05:15:04.823440+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_24",
-      "github": "wysqwysq/bangc_55",
-      "score": 0.7566016073478761,
-      "latency": 174.2,
-      "timestamp": "2026-05-12T08:28:34.919718+00:00"
     },
     {
       "rank": 8,
@@ -155,5 +155,5 @@
       "timestamp": "2026-05-08T10:26:12.261540+00:00"
     }
   ],
-  "last_updated": "2026-05-12T08:31:34.153037+00:00"
+  "last_updated": "2026-05-12T08:41:45.090460+00:00"
 }
