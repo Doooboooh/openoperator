@@ -1,6 +1,23 @@
 {
   "problem_id": "124",
   "problem_name": "124_Weight_standardization",
-  "results": [],
-  "last_updated": "2026-05-11T15:37:27.931722+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.035171102661597,
+      "latency": 1052.0,
+      "timestamp": "2026-05-12T18:41:25.848002+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.0308595229079893,
+      "latency": 1056.4,
+      "timestamp": "2026-05-12T18:41:26.653992+00:00"
+    }
+  ],
+  "last_updated": "2026-05-12T18:42:34.276678+00:00"
 }
