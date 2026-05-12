@@ -1,6 +1,23 @@
 {
   "problem_id": "136",
   "problem_name": "136_Grouped_conv_2D",
-  "results": [],
-  "last_updated": "2026-05-11T15:37:27.934223+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.6954610768320514,
+      "latency": 4732.4,
+      "timestamp": "2026-05-12T18:35:17.148575+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.6916319926028663,
+      "latency": 4758.6,
+      "timestamp": "2026-05-12T18:35:23.978519+00:00"
+    }
+  ],
+  "last_updated": "2026-05-12T18:37:29.328565+00:00"
 }
