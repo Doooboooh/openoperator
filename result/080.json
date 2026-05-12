@@ -12,6 +12,22 @@
     },
     {
       "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 23.277777777777775,
+      "latency": 1.8,
+      "timestamp": "2026-05-12T07:14:29.243406+00:00"
+    },
+    {
+      "rank": 3,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 20.95,
+      "latency": 2.0,
+      "timestamp": "2026-05-12T07:12:55.143500+00:00"
+    },
+    {
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 11.638888888888888,
@@ -19,7 +35,7 @@
       "timestamp": "2026-05-05T09:12:04.344618+00:00"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.5835654596100278,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-04T17:14:56.772555+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.19820245979186377,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-08T06:57:12.502268+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.1554154302670623,
@@ -43,7 +59,7 @@
       "timestamp": "2026-04-28T16:41:48.928828+00:00"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.1093994778067885,
@@ -51,7 +67,7 @@
       "timestamp": "2026-04-28T18:07:33.617827+00:00"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.08516260162601626,
@@ -59,7 +75,7 @@
       "timestamp": "2026-04-29T03:13:42.005322+00:00"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.004089720064029984,
@@ -67,5 +83,5 @@
       "timestamp": "2026-04-30T12:35:19.039450+00:00"
     }
   ],
-  "last_updated": "2026-05-11T15:37:27.917706+00:00"
+  "last_updated": "2026-05-12T07:15:38.549867+00:00"
 }
