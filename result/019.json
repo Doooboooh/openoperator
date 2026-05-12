@@ -1,31 +1,6 @@
 {
   "problem_id": "019",
   "problem_name": "019_Matmul_with_irregular_shapes_",
-  "results": [
-    {
-      "rank": 1,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.9994590037237405,
-      "latency": 14233.0,
-      "timestamp": "2026-04-30T04:35:06.378269+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.026532185053285202,
-      "latency": 536152.6,
-      "timestamp": "2026-05-04T01:43:41.098578+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.0004939357291119557,
-      "latency": 28799900.8,
-      "timestamp": "2026-04-28T16:41:48.928828+00:00"
-    }
-  ],
-  "last_updated": "2026-05-11T15:37:27.899168+00:00"
+  "results": [],
+  "last_updated": "2026-05-12T15:15:24.921716+00:00"
 }

@@ -28,30 +28,6 @@
     },
     {
       "rank": 4,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 5.277566539923955,
-      "latency": 105.2,
-      "timestamp": "2026-05-05T01:59:13.616600+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 4.974910394265233,
-      "latency": 111.6,
-      "timestamp": "2026-05-04T17:37:16.516783+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "算不懂",
-      "github": "caozhining/suanbudong_openoperator",
-      "score": 0.3188239347651315,
-      "latency": 1741.4,
-      "timestamp": "2026-04-30T19:29:44.623191+00:00"
-    },
-    {
-      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.11332462442847813,
@@ -59,45 +35,13 @@
       "timestamp": "2026-05-12T11:59:06.711756+00:00"
     },
     {
-      "rank": 8,
-      "user": "智算第九组",
-      "github": "WattskiTian/BangC09",
-      "score": 0.08003228968459898,
-      "latency": 6937.2,
-      "timestamp": "2026-04-29T14:39:34.150383+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_49",
-      "github": "drafter0364/AICS-30",
-      "score": 0.04816768461965575,
-      "latency": 11526.4,
-      "timestamp": "2026-05-09T15:29:01.222270+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "team_25",
-      "github": "zion-zion-zion/openoperator-start-kit",
-      "score": 0.04765910690679349,
-      "latency": 11649.4,
-      "timestamp": "2026-04-29T01:12:35.708561+00:00"
-    },
-    {
-      "rank": 11,
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.04670020019178037,
       "latency": 11888.6,
       "timestamp": "2026-05-11T17:59:57.972452+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.04495328162194549,
-      "latency": 12350.6,
-      "timestamp": "2026-04-29T14:17:14.243566+00:00"
     }
   ],
-  "last_updated": "2026-05-12T12:03:20.492811+00:00"
+  "last_updated": "2026-05-12T15:15:24.942575+00:00"
 }

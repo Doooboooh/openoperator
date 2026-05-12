@@ -20,38 +20,6 @@
     },
     {
       "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 1.6884057971014492,
-      "latency": 13.8,
-      "timestamp": "2026-05-04T19:42:22.653737+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 1.4036144578313252,
-      "latency": 16.6,
-      "timestamp": "2026-05-04T16:38:15.136548+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 1.1534653465346536,
-      "latency": 20.2,
-      "timestamp": "2026-05-06T08:15:04.362945+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 1.0401785714285716,
-      "latency": 22.4,
-      "timestamp": "2026-05-04T00:56:18.793936+00:00"
-    },
-    {
-      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.7925170068027212,
@@ -59,45 +27,13 @@
       "timestamp": "2026-05-12T11:58:47.135611+00:00"
     },
     {
-      "rank": 8,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.01929127338963405,
-      "latency": 1207.8,
-      "timestamp": "2026-04-29T02:44:47.270948+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "算不懂",
-      "github": "caozhining/suanbudong_openoperator",
-      "score": 0.007007940327237728,
-      "latency": 3324.8,
-      "timestamp": "2026-04-30T11:21:32.837235+00:00"
-    },
-    {
-      "rank": 10,
+      "rank": 4,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.006949000894721146,
       "latency": 3353.0,
       "timestamp": "2026-05-11T17:27:19.462341+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.0041957790103003675,
-      "latency": 5553.2,
-      "timestamp": "2026-04-30T02:34:41.218167+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "team_25",
-      "github": "zion-zion-zion/openoperator-start-kit",
-      "score": 0.000868793532894835,
-      "latency": 26818.8,
-      "timestamp": "2026-04-28T18:20:57.706271+00:00"
     }
   ],
-  "last_updated": "2026-05-12T12:03:20.492508+00:00"
+  "last_updated": "2026-05-12T15:15:24.932343+00:00"
 }

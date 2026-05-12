@@ -1,15 +1,6 @@
 {
   "problem_id": "135",
   "problem_name": "135_Dilated_conv_2D",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.42365028955725764,
-      "latency": 5353.0,
-      "timestamp": "2026-05-07T10:23:21.438302+00:00"
-    }
-  ],
-  "last_updated": "2026-05-11T15:37:27.933722+00:00"
+  "results": [],
+  "last_updated": "2026-05-12T15:15:24.949559+00:00"
 }

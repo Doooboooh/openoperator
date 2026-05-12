@@ -4,13 +4,14 @@ from __future__ import annotations
 import argparse
 import json
 from decimal import Decimal, InvalidOperation
-from datetime import datetime, timezone
+from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_RESULT_DIR = SCRIPT_DIR / "result"
 SCORE_TOLERANCE = Decimal("1e-5")
+DATE_PARSE_TZ = timezone(timedelta(hours=8), name="Asia/Shanghai")
 
 
 def parse_args():
@@ -36,6 +37,11 @@ def parse_args():
         "--score",
         default=None,
         help="按 score 数值精确删除，例如 100.0",
+    )
+    parser.add_argument(
+        "--on-or-before",
+        default=None,
+        help="按日期删除该日及之前的成绩，支持 5.18、5-18、2026-05-18、2026/05/18，按 Asia/Shanghai 解释",
     )
     parser.add_argument(
         "--dry-run",
@@ -65,12 +71,63 @@ def score_matches(entry_score: object, score: Decimal | None) -> bool:
         return False
 
 
-def matches(entry: dict, github: str | None, user: str | None, score: Decimal | None) -> bool:
+def parse_on_or_before(raw: str | None) -> datetime | None:
+    if raw is None:
+        return None
+
+    value = raw.strip()
+    if not value:
+        raise SystemExit("--on-or-before 不能为空")
+
+    normalized = value.replace("/", "-").replace(".", "-")
+    parts = normalized.split("-")
+    try:
+        if len(parts) == 2:
+            year = datetime.now(DATE_PARSE_TZ).year
+            month, day = (int(part) for part in parts)
+        elif len(parts) == 3:
+            year, month, day = (int(part) for part in parts)
+        else:
+            raise ValueError
+        cutoff_date = datetime(year, month, day, tzinfo=DATE_PARSE_TZ).date()
+    except ValueError as exc:
+        raise SystemExit(
+            f"无效的 --on-or-before 参数: {raw}，支持 5.18、5-18、2026-05-18、2026/05/18"
+        ) from exc
+
+    return datetime.combine(cutoff_date, time.max, tzinfo=DATE_PARSE_TZ).astimezone(timezone.utc)
+
+
+def timestamp_matches(entry_timestamp: object, on_or_before: datetime | None) -> bool:
+    if on_or_before is None:
+        return True
+    if not isinstance(entry_timestamp, str):
+        return False
+
+    try:
+        timestamp = datetime.fromisoformat(entry_timestamp)
+    except ValueError:
+        return False
+
+    if timestamp.tzinfo is None:
+        timestamp = timestamp.replace(tzinfo=timezone.utc)
+    return timestamp.astimezone(timezone.utc) <= on_or_before
+
+
+def matches(
+    entry: dict,
+    github: str | None,
+    user: str | None,
+    score: Decimal | None,
+    on_or_before: datetime | None,
+) -> bool:
     if github is not None and entry.get("github") != github:
         return False
     if user is not None and entry.get("user") != user:
         return False
     if not score_matches(entry.get("score"), score):
+        return False
+    if not timestamp_matches(entry.get("timestamp"), on_or_before):
         return False
     return True
 
@@ -85,6 +142,7 @@ def process_file(
     github: str | None,
     user: str | None,
     score: Decimal | None,
+    on_or_before: datetime | None,
     dry_run: bool,
 ) -> tuple[int, int]:
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -95,7 +153,7 @@ def process_file(
     kept = []
     removed = []
     for entry in results:
-        if isinstance(entry, dict) and matches(entry, github, user, score):
+        if isinstance(entry, dict) and matches(entry, github, user, score, on_or_before):
             removed.append(entry)
         else:
             kept.append(entry)
@@ -116,8 +174,9 @@ def process_file(
 def main():
     args = parse_args()
     score = parse_score(args.score)
-    if args.github is None and args.user is None and score is None:
-        raise SystemExit("至少提供 --github、--user 或 --score 之一")
+    on_or_before = parse_on_or_before(args.on_or_before)
+    if args.github is None and args.user is None and score is None and on_or_before is None:
+        raise SystemExit("至少提供 --github、--user、--score 或 --on-or-before 之一")
 
     result_dir = Path(args.result_dir)
     if not result_dir.is_dir():
@@ -127,7 +186,14 @@ def main():
     touched_files = 0
 
     for path in sorted(result_dir.glob("*.json")):
-        removed, total_before = process_file(path, args.github, args.user, score, args.dry_run)
+        removed, total_before = process_file(
+            path,
+            args.github,
+            args.user,
+            score,
+            on_or_before,
+            args.dry_run,
+        )
         if removed:
             touched_files += 1
             total_removed += removed

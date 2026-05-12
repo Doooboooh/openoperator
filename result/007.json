@@ -1,15 +1,6 @@
 {
   "problem_id": "007",
   "problem_name": "007_conv_depthwise_separable_2D",
-  "results": [
-    {
-      "rank": 1,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.272308996246519,
-      "latency": 4955.4,
-      "timestamp": "2026-05-07T05:48:15.310496+00:00"
-    }
-  ],
-  "last_updated": "2026-05-11T15:37:27.895855+00:00"
+  "results": [],
+  "last_updated": "2026-05-12T15:15:24.919814+00:00"
 }

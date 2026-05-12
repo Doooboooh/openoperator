@@ -1,15 +1,6 @@
 {
   "problem_id": "011",
   "problem_name": "011_conv_transposed_1D",
-  "results": [
-    {
-      "rank": 1,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.19580777096114518,
-      "latency": 195.6,
-      "timestamp": "2026-05-08T02:28:23.926466+00:00"
-    }
-  ],
-  "last_updated": "2026-05-11T15:37:27.897255+00:00"
+  "results": [],
+  "last_updated": "2026-05-12T15:15:24.920627+00:00"
 }
