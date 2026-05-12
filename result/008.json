@@ -20,19 +20,19 @@
     },
     {
       "rank": 3,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 2.0979693623085143,
+      "latency": 561.4,
+      "timestamp": "2026-05-12T06:04:05.221048+00:00"
+    },
+    {
+      "rank": 4,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 1.9814939434724093,
       "latency": 594.4,
       "timestamp": "2026-05-07T04:23:23.181030+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 1.3804500703234879,
-      "latency": 853.2,
-      "timestamp": "2026-05-05T10:07:21.106920+00:00"
     },
     {
       "rank": 5,
@@ -51,5 +51,5 @@
       "timestamp": "2026-05-09T11:17:05.184725+00:00"
     }
   ],
-  "last_updated": "2026-05-11T16:58:55.413199+00:00"
+  "last_updated": "2026-05-12T06:04:54.529197+00:00"
 }
