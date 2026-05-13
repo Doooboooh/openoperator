@@ -4,6 +4,22 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.8484848484848484,
+      "latency": 26.4,
+      "timestamp": "2026-05-13T10:43:34.446211+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.8484848484848484,
+      "latency": 26.4,
+      "timestamp": "2026-05-13T10:43:34.479970+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.8079470198675497,
@@ -11,7 +27,7 @@
       "timestamp": "2026-05-13T04:53:00.010300+00:00"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.47470817120622566,
@@ -19,7 +35,7 @@
       "timestamp": "2026-05-13T04:01:55.946323+00:00"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.006217669393267588,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-13T06:06:15.895966+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0007264196442925446,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-12T05:19:04.913369+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0007163597182709895,
@@ -43,7 +59,7 @@
       "timestamp": "2026-05-12T05:10:50.503406+00:00"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.000686164229471316,
@@ -51,7 +67,15 @@
       "timestamp": "2026-05-13T01:42:11.778550+00:00"
     },
     {
-      "rank": 7,
+      "rank": 9,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.0006601678016682764,
+      "latency": 73920.6,
+      "timestamp": "2026-05-13T10:43:34.448466+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0006518626172818398,
@@ -59,7 +83,7 @@
       "timestamp": "2026-05-13T03:32:02.005125+00:00"
     },
     {
-      "rank": 8,
+      "rank": 11,
       "user": "team_46",
       "github": "1LLLei/openoperator-start-kit_BangC_competition",
       "score": 0.00010590355918424746,
@@ -67,5 +91,5 @@
       "timestamp": "2026-05-12T09:53:55.128830+00:00"
     }
   ],
-  "last_updated": "2026-05-13T06:06:47.541087+00:00"
+  "last_updated": "2026-05-13T10:45:21.547789+00:00"
 }
