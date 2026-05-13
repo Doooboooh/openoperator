@@ -4,19 +4,19 @@
   "results": [
     {
       "rank": 1,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 1.4961879506090991,
+      "latency": 4826.8,
+      "timestamp": "2026-05-13T06:46:27.610214+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 1.4686216293163055,
       "latency": 4917.4,
       "timestamp": "2026-05-13T04:31:16.501615+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 1.4273460352597043,
-      "latency": 5059.6,
-      "timestamp": "2026-05-13T06:19:56.003803+00:00"
     },
     {
       "rank": 3,
@@ -67,5 +67,5 @@
       "timestamp": "2026-05-12T05:01:28.075182+00:00"
     }
   ],
-  "last_updated": "2026-05-13T06:22:04.372151+00:00"
+  "last_updated": "2026-05-13T06:47:34.370223+00:00"
 }
