@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 1.4273460352597043,
+      "latency": 5059.6,
+      "timestamp": "2026-05-13T06:19:56.003803+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.832964244521338,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-13T04:53:48.938812+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.7062332531440083,
@@ -27,20 +35,12 @@
       "timestamp": "2026-05-13T04:28:12.607717+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.49356880219795246,
       "latency": 14631.8,
       "timestamp": "2026-05-13T03:56:45.587167+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 0.13014597224725177,
-      "latency": 55490.0,
-      "timestamp": "2026-05-13T01:24:21.019951+00:00"
     },
     {
       "rank": 6,
@@ -67,5 +67,5 @@
       "timestamp": "2026-05-12T05:01:28.075182+00:00"
     }
   ],
-  "last_updated": "2026-05-13T04:55:54.496841+00:00"
+  "last_updated": "2026-05-13T06:22:04.372151+00:00"
 }
