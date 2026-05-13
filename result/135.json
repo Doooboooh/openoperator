@@ -1,6 +1,15 @@
 {
   "problem_id": "135",
   "problem_name": "135_Dilated_conv_2D",
-  "results": [],
-  "last_updated": "2026-05-13T15:53:28.059610+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 0.0012053515525425487,
+      "latency": 1881442.8,
+      "timestamp": "2026-05-13T23:46:18.269358+00:00"
+    }
+  ],
+  "last_updated": "2026-05-13T23:49:25.806083+00:00"
 }
