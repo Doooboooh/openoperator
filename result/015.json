@@ -1,6 +1,15 @@
 {
   "problem_id": "015",
   "problem_name": "015_Matmul_for_lower_triangular_matrices",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.119900+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.008098999936537222,
+      "latency": 800469.2,
+      "timestamp": "2026-05-13T03:59:55.058154+00:00"
+    }
+  ],
+  "last_updated": "2026-05-13T04:05:05.515883+00:00"
 }

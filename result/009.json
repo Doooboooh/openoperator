@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.47470817120622566,
+      "latency": 102.8,
+      "timestamp": "2026-05-13T04:01:55.946323+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0007264196442925446,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-12T05:19:04.913369+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0007163597182709895,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-12T05:10:50.503406+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.000686164229471316,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-13T01:42:11.778550+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0006518626172818398,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-13T03:32:02.005125+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_46",
       "github": "1LLLei/openoperator-start-kit_BangC_competition",
       "score": 0.00010590355918424746,
@@ -43,5 +51,5 @@
       "timestamp": "2026-05-12T09:53:55.128830+00:00"
     }
   ],
-  "last_updated": "2026-05-13T03:34:34.357842+00:00"
+  "last_updated": "2026-05-13T04:05:05.516691+00:00"
 }

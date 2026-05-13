@@ -1,6 +1,15 @@
 {
   "problem_id": "017",
   "problem_name": "017_Matmul_for_upper_triangular_matrices",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.120291+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.008097351251209927,
+      "latency": 799841.8,
+      "timestamp": "2026-05-13T04:02:17.655041+00:00"
+    }
+  ],
+  "last_updated": "2026-05-13T04:05:05.518887+00:00"
 }

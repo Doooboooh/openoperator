@@ -1,6 +1,15 @@
 {
   "problem_id": "016",
   "problem_name": "016_Matmul_for_symmetric_matrices",
-  "results": [],
-  "last_updated": "2026-04-28T15:30:09.120108+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.007900709056084322,
+      "latency": 779487.0,
+      "timestamp": "2026-05-13T04:01:04.447311+00:00"
+    }
+  ],
+  "last_updated": "2026-05-13T04:05:05.516916+00:00"
 }
