@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.12706280348471866,
+      "latency": 112032.0,
+      "timestamp": "2026-05-13T05:17:01.590685+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.02791022049997667,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-13T01:57:38.813934+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.005610945045997995,
@@ -27,7 +35,15 @@
       "timestamp": "2026-05-12T07:00:40.486728+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.005000857886137642,
+      "latency": 2846531.6,
+      "timestamp": "2026-05-13T05:18:45.882490+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0018145698315499559,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-12T05:55:01.871918+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0006143216669397542,
@@ -43,7 +59,7 @@
       "timestamp": "2026-05-12T06:18:04.237826+00:00"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0006128452143389015,
@@ -51,5 +67,5 @@
       "timestamp": "2026-05-12T00:49:26.066520+00:00"
     }
   ],
-  "last_updated": "2026-05-13T01:58:31.933021+00:00"
+  "last_updated": "2026-05-13T05:21:20.487356+00:00"
 }
