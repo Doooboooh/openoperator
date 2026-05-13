@@ -12,6 +12,22 @@
     },
     {
       "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 2.390927624872579,
+      "latency": 392.4,
+      "timestamp": "2026-05-13T12:41:20.607087+00:00"
+    },
+    {
+      "rank": 3,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 2.386063072227874,
+      "latency": 393.2,
+      "timestamp": "2026-05-13T12:41:12.143322+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 1.7233651726671566,
@@ -19,7 +35,7 @@
       "timestamp": "2026-05-12T08:25:42.195145+00:00"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.5963640986524282,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-13T06:37:27.332327+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.5166868597863201,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-12T01:54:19.395997+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.0582588176850472,
@@ -43,7 +59,7 @@
       "timestamp": "2026-05-13T06:06:15.895966+00:00"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.007273127568890054,
@@ -51,7 +67,7 @@
       "timestamp": "2026-05-13T05:40:40.368215+00:00"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0019347441444191025,
@@ -59,5 +75,5 @@
       "timestamp": "2026-05-12T05:37:05.040556+00:00"
     }
   ],
-  "last_updated": "2026-05-13T06:42:25.941709+00:00"
+  "last_updated": "2026-05-13T12:41:55.823994+00:00"
 }
