@@ -29,6 +29,11 @@ def parse_args():
         help="按 github 仓库名精确删除，例如 foo/bar",
     )
     parser.add_argument(
+        "--problem-id",
+        default=None,
+        help="仅处理指定题目号码，例如 1、001、138",
+    )
+    parser.add_argument(
         "--user",
         default=None,
         help="按榜单 user 名精确删除",
@@ -58,6 +63,18 @@ def parse_score(score: str | None) -> Decimal | None:
         return Decimal(score)
     except InvalidOperation as exc:
         raise SystemExit(f"无效的 --score 参数: {score}") from exc
+
+
+def normalize_problem_id(problem_id: str | None) -> str | None:
+    if problem_id is None:
+        return None
+
+    value = problem_id.strip()
+    if not value:
+        raise SystemExit("--problem-id 不能为空")
+    if not value.isdigit():
+        raise SystemExit(f"无效的 --problem-id 参数: {problem_id}，只能包含数字")
+    return f"{int(value):03d}"
 
 
 def score_matches(entry_score: object, score: Decimal | None) -> bool:
@@ -174,6 +191,7 @@ def process_file(
 def main():
     args = parse_args()
     score = parse_score(args.score)
+    problem_id = normalize_problem_id(args.problem_id)
     on_or_before = parse_on_or_before(args.on_or_before)
     if args.github is None and args.user is None and score is None and on_or_before is None:
         raise SystemExit("至少提供 --github、--user、--score 或 --on-or-before 之一")
@@ -185,7 +203,13 @@ def main():
     total_removed = 0
     touched_files = 0
 
-    for path in sorted(result_dir.glob("*.json")):
+    paths = sorted(result_dir.glob("*.json"))
+    if problem_id is not None:
+        paths = [path for path in paths if path.stem == problem_id]
+        if not paths:
+            raise SystemExit(f"未找到题目 {problem_id} 对应的结果文件")
+
+    for path in paths:
         removed, total_before = process_file(
             path,
             args.github,
