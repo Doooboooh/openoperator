@@ -12,6 +12,22 @@
     },
     {
       "rank": 2,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.8325609278089046,
+      "latency": 8674.2,
+      "timestamp": "2026-05-13T03:32:02.005125+00:00"
+    },
+    {
+      "rank": 3,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.4931441370080031,
+      "latency": 14644.4,
+      "timestamp": "2026-05-13T03:30:40.525191+00:00"
+    },
+    {
+      "rank": 4,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.13014597224725177,
@@ -19,7 +35,7 @@
       "timestamp": "2026-05-13T01:24:21.019951+00:00"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.009382007145177005,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-12T16:34:57.417730+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.004841573846035029,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-12T05:10:50.503406+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0005997225156051754,
@@ -43,5 +59,5 @@
       "timestamp": "2026-05-12T05:01:28.075182+00:00"
     }
   ],
-  "last_updated": "2026-05-13T01:28:06.266863+00:00"
+  "last_updated": "2026-05-13T03:34:34.361382+00:00"
 }
