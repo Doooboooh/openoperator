@@ -20,19 +20,19 @@
     },
     {
       "rank": 3,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.15786406025824964,
+      "latency": 2230.4,
+      "timestamp": "2026-05-13T09:37:03.186974+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.11414770148479544,
       "latency": 3084.6,
       "timestamp": "2026-05-13T01:50:19.991160+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.005506621708694864,
-      "latency": 63941.2,
-      "timestamp": "2026-05-13T04:11:04.119885+00:00"
     },
     {
       "rank": 5,
@@ -43,5 +43,5 @@
       "timestamp": "2026-05-13T04:53:48.938812+00:00"
     }
   ],
-  "last_updated": "2026-05-13T04:55:54.494236+00:00"
+  "last_updated": "2026-05-13T09:39:26.682260+00:00"
 }
