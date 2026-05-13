@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.10347322720694647,
+      "latency": 276.4,
+      "timestamp": "2026-05-13T03:43:53.109382+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0828505214368482,
@@ -27,15 +35,15 @@
       "timestamp": "2026-05-12T17:33:35.154232+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
-      "score": 0.029853862212943633,
-      "latency": 958.0,
-      "timestamp": "2026-05-13T03:36:00.815024+00:00"
+      "score": 0.035143772076682844,
+      "latency": 813.799951171875,
+      "timestamp": "2026-05-13T03:43:49.475007+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0023620746613809054,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-12T04:52:14.840323+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.002280701754385965,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-13T03:32:02.005125+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 7.068783215248404e-05,
@@ -59,5 +67,5 @@
       "timestamp": "2026-05-13T01:42:11.778550+00:00"
     }
   ],
-  "last_updated": "2026-05-13T03:39:39.321360+00:00"
+  "last_updated": "2026-05-13T03:44:44.072393+00:00"
 }
