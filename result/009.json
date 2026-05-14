@@ -60,6 +60,14 @@
     },
     {
       "rank": 8,
+      "user": "team_12",
+      "github": "yinuo222/kernel-competition-group40",
+      "score": 0.0007252407561526572,
+      "latency": 67288.0,
+      "timestamp": "2026-05-14T10:02:57.369115+00:00"
+    },
+    {
+      "rank": 9,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0007163597182709895,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-12T05:10:50.503406+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.000686164229471316,
@@ -75,7 +83,7 @@
       "timestamp": "2026-05-13T01:42:11.778550+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0006843993414058797,
@@ -83,7 +91,7 @@
       "timestamp": "2026-05-13T13:43:48.496609+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0006601678016682764,
@@ -91,7 +99,7 @@
       "timestamp": "2026-05-13T10:43:34.448466+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0006518626172818398,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-13T03:32:02.005125+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_46",
       "github": "1LLLei/openoperator-start-kit_BangC_competition",
       "score": 0.00010590355918424746,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-12T09:53:55.128830+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 2.178317032260875e-05,
@@ -115,5 +123,5 @@
       "timestamp": "2026-05-14T08:47:17.060034+00:00"
     }
   ],
-  "last_updated": "2026-05-14T08:51:55.666177+00:00"
+  "last_updated": "2026-05-14T10:07:36.999489+00:00"
 }
