@@ -76,6 +76,14 @@
     },
     {
       "rank": 10,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.021024528616719506,
+      "latency": 1198.6,
+      "timestamp": "2026-05-14T13:34:50.965788+00:00"
+    },
+    {
+      "rank": 11,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.013258970851310113,
@@ -83,7 +91,7 @@
       "timestamp": "2026-05-13T01:45:29.423278+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.013251998317206562,
@@ -91,7 +99,7 @@
       "timestamp": "2026-05-14T04:33:51.386489+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.004298287507675513,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-13T02:37:24.514790+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.004053401962361268,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-13T05:09:47.260208+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0032501031778786626,
@@ -115,7 +123,7 @@
       "timestamp": "2026-05-13T03:32:02.005125+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.0017644093429675684,
@@ -123,7 +131,7 @@
       "timestamp": "2026-05-14T08:47:17.060034+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0001332952489764829,
@@ -131,5 +139,5 @@
       "timestamp": "2026-05-12T04:44:04.800280+00:00"
     }
   ],
-  "last_updated": "2026-05-14T10:02:32.017463+00:00"
+  "last_updated": "2026-05-14T13:40:18.724415+00:00"
 }
