@@ -44,19 +44,19 @@
     },
     {
       "rank": 6,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.03677758318739054,
+      "latency": 456.8,
+      "timestamp": "2026-05-14T06:22:48.011959+00:00"
+    },
+    {
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.03429971416904859,
       "latency": 489.8,
       "timestamp": "2026-05-13T09:59:01.556338+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.03296703296703297,
-      "latency": 509.6,
-      "timestamp": "2026-05-13T13:57:05.339960+00:00"
     },
     {
       "rank": 8,
@@ -99,5 +99,5 @@
       "timestamp": "2026-05-13T04:53:48.938812+00:00"
     }
   ],
-  "last_updated": "2026-05-14T04:34:49.706199+00:00"
+  "last_updated": "2026-05-14T06:25:35.615347+00:00"
 }
