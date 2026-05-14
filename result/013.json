@@ -1,31 +1,6 @@
 {
   "problem_id": "013",
   "problem_name": "013_3D_tensor_matrix_multiplication",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 2.935280189423836,
-      "latency": 760.2,
-      "timestamp": "2026-05-13T05:41:37.814624+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 2.934508153603367,
-      "latency": 760.4,
-      "timestamp": "2026-05-13T05:41:39.158802+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_86",
-      "github": "RachelGu2003/ICS_86Team",
-      "score": 0.05698714379842784,
-      "latency": 39156.2,
-      "timestamp": "2026-05-12T08:00:38.590298+00:00"
-    }
-  ],
-  "last_updated": "2026-05-13T05:46:36.766188+00:00"
+  "results": [],
+  "last_updated": "2026-05-14T17:32:30.585862+00:00"
 }

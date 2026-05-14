@@ -1,31 +1,6 @@
 {
   "problem_id": "016",
   "problem_name": "016_Matmul_for_symmetric_matrices",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 2.569253233208177,
-      "latency": 2397.0,
-      "timestamp": "2026-05-13T05:37:54.526752+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 2.5617720465890184,
-      "latency": 2404.0,
-      "timestamp": "2026-05-13T05:46:43.817984+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_86",
-      "github": "RachelGu2003/ICS_86Team",
-      "score": 0.007905148994440916,
-      "latency": 779049.2,
-      "timestamp": "2026-05-14T10:14:47.014552+00:00"
-    }
-  ],
-  "last_updated": "2026-05-14T10:17:43.361661+00:00"
+  "results": [],
+  "last_updated": "2026-05-14T17:32:30.586416+00:00"
 }

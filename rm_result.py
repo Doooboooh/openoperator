@@ -53,6 +53,11 @@ def parse_args():
         action="store_true",
         help="只预览，不写回文件",
     )
+    parser.add_argument(
+        "--audit-report",
+        default=None,
+        help="按作弊审计脚本输出的 JSON 报告批量删除 findings 对应成绩",
+    )
     return parser.parse_args()
 
 
@@ -149,6 +154,22 @@ def matches(
     return True
 
 
+def exact_entry_matches(
+    entry: dict,
+    *,
+    github: str | None,
+    user: str | None,
+    timestamp: str | None,
+) -> bool:
+    if github is not None and entry.get("github") != github:
+        return False
+    if user is not None and entry.get("user") != user:
+        return False
+    if timestamp is not None and entry.get("timestamp") != timestamp:
+        return False
+    return True
+
+
 def rewrite_ranks(results: list[dict]):
     for idx, entry in enumerate(results, start=1):
         entry["rank"] = idx
@@ -188,17 +209,160 @@ def process_file(
     return len(removed), len(results)
 
 
+def load_audit_findings(report_path: Path) -> list[dict]:
+    try:
+        payload = json.loads(report_path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        raise SystemExit(f"无法解析审计报告 {report_path}: {exc}") from exc
+
+    findings = payload.get("findings", [])
+    if not isinstance(findings, list):
+        raise SystemExit(f"审计报告 {report_path} 的 findings 不是列表")
+
+    normalized = []
+    for idx, item in enumerate(findings, start=1):
+        if not isinstance(item, dict):
+            raise SystemExit(f"审计报告第 {idx} 条 finding 不是对象")
+
+        problem_id = normalize_problem_id(str(item.get("problem_id", "") or ""))
+        github = item.get("repo_full_name")
+        user = item.get("user")
+        timestamp = item.get("timestamp")
+
+        if not github or not user or not timestamp:
+            raise SystemExit(
+                f"审计报告第 {idx} 条 finding 缺少必要字段，需要至少包含 "
+                f"problem_id/repo_full_name/user/timestamp"
+            )
+
+        normalized.append(
+            {
+                "problem_id": problem_id,
+                "github": str(github),
+                "user": str(user),
+                "timestamp": str(timestamp),
+                "source": item,
+            }
+        )
+
+    return normalized
+
+
+def process_audit_report(result_dir: Path, report_path: Path, dry_run: bool):
+    findings = load_audit_findings(report_path)
+    grouped: dict[str, list[dict]] = {}
+    for finding in findings:
+        grouped.setdefault(finding["problem_id"], []).append(finding)
+
+    total_removed = 0
+    touched_files = 0
+    unmatched = []
+
+    for problem_id, problem_findings in sorted(grouped.items()):
+        path = result_dir / f"{problem_id}.json"
+        if not path.exists():
+            for finding in problem_findings:
+                unmatched.append(
+                    {
+                        "problem_id": problem_id,
+                        "github": finding["github"],
+                        "user": finding["user"],
+                        "timestamp": finding["timestamp"],
+                        "reason": f"result file not found: {path}",
+                    }
+                )
+            continue
+
+        data = json.loads(path.read_text(encoding="utf-8"))
+        results = data.get("results", [])
+        if not isinstance(results, list):
+            raise ValueError(f"{path} 的 results 不是列表")
+
+        kept = []
+        removed_count = 0
+        remaining_targets = list(problem_findings)
+
+        for entry in results:
+            if not isinstance(entry, dict):
+                kept.append(entry)
+                continue
+
+            matched_idx = next(
+                (
+                    idx
+                    for idx, target in enumerate(remaining_targets)
+                    if exact_entry_matches(
+                        entry,
+                        github=target["github"],
+                        user=target["user"],
+                        timestamp=target["timestamp"],
+                    )
+                ),
+                None,
+            )
+
+            if matched_idx is None:
+                kept.append(entry)
+                continue
+
+            removed_count += 1
+            total_removed += 1
+            remaining_targets.pop(matched_idx)
+
+        if removed_count:
+            rewrite_ranks(kept)
+            data["results"] = kept
+            data["last_updated"] = datetime.now(timezone.utc).isoformat()
+            if not dry_run:
+                path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            touched_files += 1
+            print(f"{path.name}: removed {removed_count} / {len(results)} via audit report")
+
+        for target in remaining_targets:
+            unmatched.append(
+                {
+                    "problem_id": problem_id,
+                    "github": target["github"],
+                    "user": target["user"],
+                    "timestamp": target["timestamp"],
+                    "reason": "matching leaderboard entry not found",
+                }
+            )
+
+    mode = "dry-run" if dry_run else "updated"
+    print(
+        f"{mode}: touched_files={touched_files}, removed_entries={total_removed}, "
+        f"unmatched_findings={len(unmatched)}"
+    )
+    if unmatched:
+        print("unmatched findings:")
+        for item in unmatched:
+            print(
+                f"  problem={item['problem_id']} user={item['user']} "
+                f"github={item['github']} timestamp={item['timestamp']} reason={item['reason']}"
+            )
+
+
 def main():
     args = parse_args()
     score = parse_score(args.score)
     problem_id = normalize_problem_id(args.problem_id)
     on_or_before = parse_on_or_before(args.on_or_before)
-    if args.github is None and args.user is None and score is None and on_or_before is None:
+    if args.audit_report is None and args.github is None and args.user is None and score is None and on_or_before is None:
         raise SystemExit("至少提供 --github、--user、--score 或 --on-or-before 之一")
 
     result_dir = Path(args.result_dir)
     if not result_dir.is_dir():
         raise SystemExit(f"result 目录不存在: {result_dir}")
+
+    if args.audit_report is not None:
+        if any(value is not None for value in (args.github, args.user, args.score, args.on_or_before, args.problem_id)):
+            raise SystemExit("--audit-report 模式下不要同时传 --github/--user/--score/--on-or-before/--problem-id")
+        report_path = Path(args.audit_report)
+        if not report_path.is_file():
+            raise SystemExit(f"审计报告不存在: {report_path}")
+        process_audit_report(result_dir, report_path, args.dry_run)
+        return
 
     total_removed = 0
     touched_files = 0
@@ -229,3 +393,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
