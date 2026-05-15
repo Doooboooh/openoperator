@@ -1,6 +1,23 @@
 {
   "problem_id": "021",
   "problem_name": "021_Matmul_with_small_K_dimension_",
-  "results": [],
-  "last_updated": "2026-05-14T17:32:30.587559+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.5660342578413023,
+      "latency": 7052.4,
+      "timestamp": "2026-05-15T01:16:47.727630+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.5639551311030742,
+      "latency": 7078.4,
+      "timestamp": "2026-05-15T01:16:46.456613+00:00"
+    }
+  ],
+  "last_updated": "2026-05-15T01:19:47.628711+00:00"
 }

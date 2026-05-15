@@ -1,6 +1,23 @@
 {
   "problem_id": "020",
   "problem_name": "020_Matmul_with_large_K_dimension_",
-  "results": [],
-  "last_updated": "2026-05-14T17:32:30.587292+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.1426899501549239,
+      "latency": 11876.8,
+      "timestamp": "2026-05-15T01:18:36.716148+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.1419774806474314,
+      "latency": 11936.4,
+      "timestamp": "2026-05-15T01:18:39.200414+00:00"
+    }
+  ],
+  "last_updated": "2026-05-15T01:19:47.628403+00:00"
 }
