@@ -4,19 +4,19 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.022981475008738202,
+      "latency": 1144.4,
+      "timestamp": "2026-05-15T05:24:58.069320+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.022375361579036922,
       "latency": 1175.4,
       "timestamp": "2026-05-15T05:03:52.478777+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.021949591053246537,
-      "latency": 1198.2,
-      "timestamp": "2026-05-15T05:21:06.946613+00:00"
     },
     {
       "rank": 3,
@@ -67,5 +67,5 @@
       "timestamp": "2026-05-13T04:53:48.938812+00:00"
     }
   ],
-  "last_updated": "2026-05-15T05:21:49.888788+00:00"
+  "last_updated": "2026-05-15T05:26:54.518081+00:00"
 }
