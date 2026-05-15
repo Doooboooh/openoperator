@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 2.076923076923077,
+      "latency": 7.8,
+      "timestamp": "2026-05-15T16:33:59.974616+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 1.975609756097561,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-13T01:54:23.091982+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.5625,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-14T13:51:34.253878+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.2131578947368421,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-15T09:30:03.499938+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.11756168359941943,
@@ -59,5 +67,5 @@
       "timestamp": "2026-05-15T06:03:42.180159+00:00"
     }
   ],
-  "last_updated": "2026-05-15T09:30:50.590305+00:00"
+  "last_updated": "2026-05-15T16:34:34.849178+00:00"
 }
