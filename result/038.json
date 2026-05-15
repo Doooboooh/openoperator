@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 11.409090909090908,
+      "latency": 2.2,
+      "timestamp": "2026-05-15T18:40:55.798128+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 10.458333333333334,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-11T16:54:38.242689+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 10.458333333333334,
@@ -27,20 +35,12 @@
       "timestamp": "2026-05-12T17:46:03.355344+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 10.458333333333334,
       "latency": 2.4,
       "timestamp": "2026-05-13T03:16:24.797625+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 10.458333333333334,
-      "latency": 2.4,
-      "timestamp": "2026-05-15T14:39:21.231333+00:00"
     },
     {
       "rank": 6,
@@ -67,5 +67,5 @@
       "timestamp": "2026-05-13T03:32:02.005125+00:00"
     }
   ],
-  "last_updated": "2026-05-15T14:44:31.681963+00:00"
+  "last_updated": "2026-05-15T18:45:46.315581+00:00"
 }
