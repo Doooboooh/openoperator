@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.5856643356643356,
+      "latency": 57.2,
+      "timestamp": "2026-05-15T09:09:11.604704+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.039310021121802395,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-12T19:02:48.807260+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.03410016286644951,
@@ -35,5 +43,5 @@
       "timestamp": "2026-05-13T04:53:48.938812+00:00"
     }
   ],
-  "last_updated": "2026-05-14T19:38:55.921885+00:00"
+  "last_updated": "2026-05-15T09:10:31.808515+00:00"
 }
