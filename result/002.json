@@ -76,6 +76,14 @@
     },
     {
       "rank": 10,
+      "user": "team_40",
+      "github": "CCyyyydr/openoperator-32",
+      "score": 1.845587244554233,
+      "latency": 4453.0,
+      "timestamp": "2026-05-15T06:03:42.180159+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 1.801253671152413,
@@ -83,7 +91,7 @@
       "timestamp": "2026-05-13T01:23:07.832435+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 1.7871526116644194,
@@ -91,20 +99,12 @@
       "timestamp": "2026-05-14T10:00:00.900500+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 1.6584735843726037,
       "latency": 4955.4,
       "timestamp": "2026-05-13T03:32:02.005125+00:00"
-    },
-    {
-      "rank": 13,
-      "user": "team_40",
-      "github": "CCyyyydr/openoperator-32",
-      "score": 1.652072528444498,
-      "latency": 4974.6,
-      "timestamp": "2026-05-13T04:00:47.294096+00:00"
     },
     {
       "rank": 14,
@@ -179,5 +179,5 @@
       "timestamp": "2026-05-15T04:31:22.549159+00:00"
     }
   ],
-  "last_updated": "2026-05-15T05:06:39.609684+00:00"
+  "last_updated": "2026-05-15T06:07:59.832859+00:00"
 }
