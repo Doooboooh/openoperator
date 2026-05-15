@@ -1,6 +1,15 @@
 {
   "problem_id": "126",
   "problem_name": "126_QR_decomposition",
-  "results": [],
-  "last_updated": "2026-05-14T17:32:30.595644+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.044461015964518326,
+      "latency": 35804.4,
+      "timestamp": "2026-05-15T08:02:49.529235+00:00"
+    }
+  ],
+  "last_updated": "2026-05-15T08:04:38.169669+00:00"
 }
