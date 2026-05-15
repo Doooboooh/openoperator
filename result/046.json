@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 2.7289969092441697,
+      "latency": 2135.4,
+      "timestamp": "2026-05-15T07:46:30.800541+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.011509806098034514,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-13T04:08:22.031435+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.002085728207441964,
@@ -35,5 +43,5 @@
       "timestamp": "2026-05-13T04:53:48.938812+00:00"
     }
   ],
-  "last_updated": "2026-05-14T19:38:55.921057+00:00"
+  "last_updated": "2026-05-15T07:49:22.937502+00:00"
 }
