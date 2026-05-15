@@ -1,0 +1,36 @@
+{
+  "figures": [
+    {
+      "basename": "best_score_distribution",
+      "description": "每题最好成绩的分布，以及最高/最低题目对比",
+      "formats": [
+        "png",
+        "pdf"
+      ]
+    },
+    {
+      "basename": "problem_activity",
+      "description": "各题提交量与唯一仓库数的变化趋势",
+      "formats": [
+        "png",
+        "pdf"
+      ]
+    },
+    {
+      "basename": "difficulty_comparison",
+      "description": "不同难度题目的最好成绩分布箱线图",
+      "formats": [
+        "png",
+        "pdf"
+      ]
+    },
+    {
+      "basename": "category_summary",
+      "description": "各类别题目的平均最好成绩比较",
+      "formats": [
+        "png",
+        "pdf"
+      ]
+    }
+  ]
+}

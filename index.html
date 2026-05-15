@@ -105,6 +105,37 @@
         .basic-check-item.pending {
             border-color: rgba(148,163,184,0.2);
         }
+        .challenge-check-grid {
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+        }
+        .challenge-check-item {
+            border:1px solid rgba(75,85,99,0.2);
+            border-radius: 14px;
+            padding: 14px 12px;
+            background: rgba(17,24,39,0.45);
+            transition: all 0.25s ease;
+            text-align: center;
+        }
+        .challenge-check-item:hover {
+            border-color: rgba(96,165,250,0.3);
+            transform: translateY(-1px);
+        }
+        .challenge-check-item.has-rank {
+            border-color: rgba(96,165,250,0.28);
+            background: rgba(96,165,250,0.08);
+        }
+        .challenge-check-rank {
+            font-family:'JetBrains Mono',monospace;
+            font-size: 1.5rem;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #4ade80;
+        }
+        .challenge-check-rank.empty {
+            color: #94a3b8;
+        }
         .rank-1 { color:#fbbf24; font-weight:700; }
         .rank-2 { color:#d1d5db; font-weight:600; }
         .rank-3 { color:#d97706; font-weight:600; }
@@ -196,6 +227,20 @@
         body.light-mode .basic-check-item.done {
             background: rgba(34,197,94,0.09) !important;
             border-color: rgba(34,197,94,0.3) !important;
+        }
+        body.light-mode .challenge-check-item {
+            background: rgba(255,255,255,0.72) !important;
+            border-color: rgba(148,163,184,0.25) !important;
+        }
+        body.light-mode .challenge-check-item.has-rank {
+            background: rgba(37,99,235,0.08) !important;
+            border-color: rgba(37,99,235,0.22) !important;
+        }
+        body.light-mode .challenge-check-rank {
+            color: #166534 !important;
+        }
+        body.light-mode .challenge-check-rank.empty {
+            color: #64748b !important;
         }
         body.light-mode .notice-card {
             background: rgba(255, 255, 255, 0.7) !important;
@@ -489,6 +534,34 @@
             </div>
         </section>
 
+        <!-- Challenge Check -->
+        <section id="challengeCheck" class="mb-10">
+            <div class="mb-6">
+                <div class="flex items-center space-x-2">
+                    <h2 class="text-2xl font-bold text-white">Challenge Check</h2>
+                </div>
+                <p class="text-sm text-gray-500 mt-1">输入仓库名，查看该队伍非 basic 题目在排行榜中的名次</p>
+            </div>
+            <div class="glass-card rounded-2xl p-5 md:p-6">
+                <div class="flex flex-col gap-4">
+                    <div class="flex flex-col lg:flex-row lg:items-center gap-3">
+                        <input
+                            type="text"
+                            id="challengeCheckInput"
+                            placeholder="例如：sleepy3dog/AICS-38 或 AICS-38"
+                            class="w-full px-4 py-3 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            style="background:rgba(17,24,39,0.8); border:1px solid rgba(75,85,99,0.3); color:#e2e8f0;"
+                            oninput="renderChallengeCheck()">
+                        <div id="challengeCheckMeta" class="text-sm text-gray-500 whitespace-nowrap"></div>
+                    </div>
+                    <div id="challengeCheckSummary" class="hidden grid grid-cols-1 md:grid-cols-3 gap-3"></div>
+                    <div id="challengeCheckResults" class="challenge-check-grid">
+                        <div class="text-sm text-gray-500">输入仓库名后即可查看非 basic 题目的排行榜名次。</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Team Leaderboard -->
         <section id="dominanceLeaderboard" class="mb-10">
             <div class="mb-6">
@@ -625,6 +698,7 @@ async function init() {
     renderProblems();
     renderGlobalLeaderboard();
     renderBasicCheck();
+    renderChallengeCheck();
     renderDominanceLeaderboard();
     hideLoading();
 }
@@ -970,6 +1044,99 @@ function renderBasicCheck() {
     ].join('');
 }
 
+function getRepoRankForTask(taskId, matchedRepos) {
+    const rd = resultsMap[taskId];
+    if (!rd || !rd.results || !rd.results.length) return null;
+
+    const sorted = [...rd.results].sort((a, b) => b.score - a.score);
+    const bestRankByRepo = new Map();
+
+    sorted.forEach((result, index) => {
+        const repo = (result.github || '').trim();
+        if (!repo || bestRankByRepo.has(repo)) return;
+        bestRankByRepo.set(repo, result.rank || (index + 1));
+    });
+
+    let bestRank = null;
+    matchedRepos.forEach(repo => {
+        const rank = bestRankByRepo.get(repo);
+        if (rank && (bestRank === null || rank < bestRank)) {
+            bestRank = rank;
+        }
+    });
+
+    return bestRank;
+}
+
+function renderChallengeCheck() {
+    const input = document.getElementById('challengeCheckInput');
+    const summary = document.getElementById('challengeCheckSummary');
+    const results = document.getElementById('challengeCheckResults');
+    const meta = document.getElementById('challengeCheckMeta');
+    if (!input || !summary || !results || !meta) return;
+
+    const query = input.value.trim();
+    const challengeTasks = tasksData.filter(task => task.description.difficulty !== 'basic');
+
+    if (!query) {
+        summary.classList.add('hidden');
+        summary.innerHTML = '';
+        meta.textContent = '';
+        results.innerHTML = '<div class="text-sm text-gray-500">输入仓库名后即可查看非 basic 题目的排行榜名次。</div>';
+        return;
+    }
+
+    const matchedRepos = findMatchedRepos(query);
+    if (!matchedRepos.length) {
+        summary.classList.add('hidden');
+        summary.innerHTML = '';
+        meta.textContent = '未匹配到仓库';
+        results.innerHTML = '<div class="text-sm text-gray-500">没有找到匹配的仓库名，请检查输入是否与提交记录中的 Github 仓库一致。</div>';
+        return;
+    }
+
+    const taskRanks = challengeTasks.map(task => {
+        const rank = getRepoRankForTask(task.id, matchedRepos);
+        return { task, rank };
+    });
+
+    const rankedTasks = taskRanks.filter(item => item.rank !== null);
+    const top10Count = rankedTasks.filter(item => item.rank <= 10).length;
+    const bestRank = rankedTasks.length ? Math.min(...rankedTasks.map(item => item.rank)) : '—';
+
+    summary.classList.remove('hidden');
+    summary.innerHTML = `
+        <div class="stat-card">
+            <div class="text-2xl font-bold text-white">${rankedTasks.length}/${challengeTasks.length}</div>
+            <div class="text-sm text-gray-500 mt-1">有记录的 Challenge 题目</div>
+        </div>
+        <div class="stat-card">
+            <div class="text-2xl font-bold text-white">${bestRank}</div>
+            <div class="text-sm text-gray-500 mt-1">最佳单题排名</div>
+        </div>
+        <div class="stat-card">
+            <div class="text-2xl font-bold text-white">${top10Count}</div>
+            <div class="text-sm text-gray-500 mt-1">进入前 10 的题目数</div>
+        </div>
+    `;
+
+    meta.textContent = matchedRepos.length === 1 ? `匹配仓库：${matchedRepos[0]}` : `匹配到 ${matchedRepos.length} 个仓库`;
+
+    const matchedReposHtml = matchedRepos.length > 1
+        ? `<div class="md:col-span-full text-xs text-gray-500 mb-1">已合并统计仓库：${matchedRepos.map(esc).join('，')}</div>`
+        : '';
+
+    results.innerHTML = matchedReposHtml + taskRanks
+        .sort((a, b) => Number(a.task.id) - Number(b.task.id))
+        .map(({ task, rank }) => `
+            <div class="challenge-check-item ${rank !== null ? 'has-rank' : ''}" title="${esc(task.name)}">
+                <div class="text-xs text-gray-500 mb-2">#${task.id}</div>
+                <div class="challenge-check-rank ${rank === null ? 'empty' : ''}">${rank === null ? '-' : `#${rank}`}</div>
+                <div class="mt-2 text-xs text-gray-400 truncate">${esc(task.name)}</div>
+            </div>
+        `).join('');
+}
+
 function populateFilters() {
     const cats  = [...new Set(tasksData.map(t => t.description.category).filter(Boolean))];
     const diffs = [...new Set(tasksData.map(t => t.description.difficulty).filter(Boolean))];
@@ -1273,3 +1440,4 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 </body>
 </html>
+
