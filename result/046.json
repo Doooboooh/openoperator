@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 5.023706896551724,
+      "latency": 1160.0,
+      "timestamp": "2026-05-15T09:13:49.612944+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 3.0908560517662034,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-15T07:49:52.546936+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.011509806098034514,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-13T04:08:22.031435+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.002085728207441964,
@@ -43,5 +51,5 @@
       "timestamp": "2026-05-13T04:53:48.938812+00:00"
     }
   ],
-  "last_updated": "2026-05-15T07:54:27.785735+00:00"
+  "last_updated": "2026-05-15T09:15:36.617410+00:00"
 }
