@@ -76,6 +76,14 @@
     },
     {
       "rank": 10,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.0008971877269985561,
+      "latency": 2415213.6,
+      "timestamp": "2026-05-15T01:23:18.142413+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.00025485246431006996,
@@ -83,7 +91,7 @@
       "timestamp": "2026-05-14T10:22:28.435475+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.00018283586295793513,
@@ -91,5 +99,5 @@
       "timestamp": "2026-05-14T15:17:28.133977+00:00"
     }
   ],
-  "last_updated": "2026-05-14T17:32:30.585380+00:00"
+  "last_updated": "2026-05-15T01:24:52.277034+00:00"
 }
