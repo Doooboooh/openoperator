@@ -1,6 +1,23 @@
 {
   "problem_id": "019",
   "problem_name": "019_Matmul_with_irregular_shapes_",
-  "results": [],
-  "last_updated": "2026-05-14T17:32:30.586997+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.1716638187364844,
+      "latency": 82867.2,
+      "timestamp": "2026-05-15T01:33:21.050423+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.16332897033158814,
+      "latency": 87096.0,
+      "timestamp": "2026-05-15T01:33:21.084613+00:00"
+    }
+  ],
+  "last_updated": "2026-05-15T01:35:03.353123+00:00"
 }

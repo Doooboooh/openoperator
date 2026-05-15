@@ -1,6 +1,23 @@
 {
   "problem_id": "022",
   "problem_name": "022_Matmul_with_transposed_both",
-  "results": [],
-  "last_updated": "2026-05-14T17:32:30.587804+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.23825120192307692,
+      "latency": 3328.0,
+      "timestamp": "2026-05-15T01:31:17.382275+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.238236884802596,
+      "latency": 3328.2,
+      "timestamp": "2026-05-15T01:31:16.250773+00:00"
+    }
+  ],
+  "last_updated": "2026-05-15T01:35:03.353861+00:00"
 }
