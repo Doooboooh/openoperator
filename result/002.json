@@ -44,6 +44,14 @@
     },
     {
       "rank": 6,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 1.9546211292394042,
+      "latency": 4204.6,
+      "timestamp": "2026-05-16T12:12:50.874071+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 1.9537847090148346,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-12T06:36:35.191577+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 1.9529490043248896,
@@ -59,20 +67,12 @@
       "timestamp": "2026-05-15T08:53:37.439925+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 1.9472112969719944,
       "latency": 4220.6,
       "timestamp": "2026-05-14T08:47:17.060034+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 1.93939966018501,
-      "latency": 4237.6,
-      "timestamp": "2026-05-14T09:56:31.742553+00:00"
     },
     {
       "rank": 10,
@@ -187,5 +187,5 @@
       "timestamp": "2026-05-15T04:31:22.549159+00:00"
     }
   ],
-  "last_updated": "2026-05-15T18:55:55.307675+00:00"
+  "last_updated": "2026-05-16T12:13:27.068467+00:00"
 }
