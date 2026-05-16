@@ -4,27 +4,27 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 73.22222222222223,
-      "latency": 1.8,
-      "timestamp": "2026-05-15T17:05:10.866531+00:00"
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 94.14285714285715,
+      "latency": 1.4,
+      "timestamp": "2026-05-16T04:38:07.158127+00:00"
     },
     {
       "rank": 2,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 73.22222222222223,
-      "latency": 1.8,
-      "timestamp": "2026-05-15T18:08:31.375043+00:00"
+      "score": 82.375,
+      "latency": 1.6,
+      "timestamp": "2026-05-16T04:37:56.390102+00:00"
     },
     {
       "rank": 3,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
       "score": 73.22222222222223,
       "latency": 1.8,
-      "timestamp": "2026-05-15T19:33:30.013249+00:00"
+      "timestamp": "2026-05-15T17:05:10.866531+00:00"
     },
     {
       "rank": 4,
@@ -163,5 +163,5 @@
       "timestamp": "2026-05-14T10:03:18.979886+00:00"
     }
   ],
-  "last_updated": "2026-05-16T03:08:25.805099+00:00"
+  "last_updated": "2026-05-16T04:39:13.135712+00:00"
 }
