@@ -92,6 +92,14 @@
     },
     {
       "rank": 12,
+      "user": "二十五组",
+      "github": "cotangents/openoperator-start-kit-team25",
+      "score": 3.49645390070922,
+      "latency": 28.2,
+      "timestamp": "2026-05-16T03:05:24.457260+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 3.3310810810810807,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-14T15:17:28.133977+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 2.8011363636363633,
@@ -107,20 +115,12 @@
       "timestamp": "2026-05-14T08:47:17.060034+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 1.8259259259259257,
       "latency": 54.0,
       "timestamp": "2026-05-12T05:02:04.705273+00:00"
-    },
-    {
-      "rank": 15,
-      "user": "二十五组",
-      "github": "cotangents/openoperator-start-kit-team25",
-      "score": 1.7927272727272727,
-      "latency": 55.0,
-      "timestamp": "2026-05-16T02:15:24.003806+00:00"
     },
     {
       "rank": 16,
@@ -131,5 +131,5 @@
       "timestamp": "2026-05-15T01:23:57.214821+00:00"
     }
   ],
-  "last_updated": "2026-05-16T02:17:58.676170+00:00"
+  "last_updated": "2026-05-16T03:08:25.809174+00:00"
 }
