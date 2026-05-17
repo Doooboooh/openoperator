@@ -38,9 +38,9 @@
       "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
-      "score": 0.4967270394909019,
-      "latency": 48.70481789112091,
-      "timestamp": "2026-05-17T15:24:03.530945+00:00"
+      "score": 0.5413991690102603,
+      "latency": 44.68606784939766,
+      "timestamp": "2026-05-17T15:35:48.739604+00:00"
     },
     {
       "rank": 6,
@@ -60,6 +60,14 @@
     },
     {
       "rank": 8,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.33002637397133855,
+      "latency": 73.30626249313354,
+      "timestamp": "2026-05-17T15:35:47.218924+00:00"
+    },
+    {
+      "rank": 9,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.18774594560551364,
@@ -67,13 +75,21 @@
       "timestamp": "2026-05-17T14:46:20.606704+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.1365851598803508,
       "latency": 177.12758854031563,
       "timestamp": "2026-05-17T14:40:32.832082+00:00"
+    },
+    {
+      "rank": 11,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 0.00012976307346660636,
+      "latency": 186439.78871405125,
+      "timestamp": "2026-05-17T15:36:45.743558+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:29:19.214998+00:00"
+  "last_updated": "2026-05-17T15:39:30.052904+00:00"
 }

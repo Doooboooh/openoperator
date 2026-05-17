@@ -44,6 +44,14 @@
     },
     {
       "rank": 6,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.4086667594353346,
+      "latency": 70.79606875777245,
+      "timestamp": "2026-05-17T15:35:19.622726+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.2752523079264836,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-17T14:40:32.832082+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.01272481412073621,
@@ -59,7 +67,15 @@
       "timestamp": "2026-05-17T14:35:15.763349+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 0.004458341503762046,
+      "latency": 6489.408668130636,
+      "timestamp": "2026-05-17T15:36:47.886119+00:00"
+    },
+    {
+      "rank": 10,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0006040509186700556,
@@ -67,5 +83,5 @@
       "timestamp": "2026-05-17T14:46:20.606704+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:34:24.523721+00:00"
+  "last_updated": "2026-05-17T15:39:30.043803+00:00"
 }
