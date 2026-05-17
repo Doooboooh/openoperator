@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.7555970149253731,
+      "latency": 53.6,
+      "timestamp": "2026-05-17T08:27:45.886047+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.27588555858310626,
@@ -43,20 +51,12 @@
       "timestamp": "2026-05-15T19:37:09.600905+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.24877149877149876,
       "latency": 162.8,
       "timestamp": "2026-05-14T09:56:31.742553+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_43",
-      "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 0.05474452554744526,
-      "latency": 739.8,
-      "timestamp": "2026-05-17T07:24:08.731340+00:00"
     },
     {
       "rank": 8,
@@ -67,5 +67,5 @@
       "timestamp": "2026-05-13T03:32:02.005125+00:00"
     }
   ],
-  "last_updated": "2026-05-17T07:27:58.455589+00:00"
+  "last_updated": "2026-05-17T08:29:04.767146+00:00"
 }
