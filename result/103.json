@@ -28,19 +28,19 @@
     },
     {
       "rank": 4,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.5576979203636552,
+      "latency": 75.7237896323204,
+      "timestamp": "2026-05-17T15:07:32.213874+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.4377003859058463,
       "latency": 96.48380801081657,
       "timestamp": "2026-05-17T13:28:38.158244+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.40151903605150263,
-      "latency": 105.17807677388191,
-      "timestamp": "2026-05-17T14:01:26.269204+00:00"
     },
     {
       "rank": 6,
@@ -124,6 +124,14 @@
     },
     {
       "rank": 16,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.005400986829728417,
+      "latency": 7819.1266395151615,
+      "timestamp": "2026-05-17T15:05:35.494190+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.002940209836231294,
@@ -131,7 +139,7 @@
       "timestamp": "2026-05-17T14:30:31.808698+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 8.217100249293015e-05,
@@ -139,7 +147,7 @@
       "timestamp": "2026-05-17T14:20:50.653909+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 3.875054155221372e-05,
@@ -147,7 +155,7 @@
       "timestamp": "2026-05-17T14:17:37.675383+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 5.713017044088828e-06,
@@ -155,5 +163,5 @@
       "timestamp": "2026-05-17T13:27:38.546027+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:03:49.748894+00:00"
+  "last_updated": "2026-05-17T15:08:55.688165+00:00"
 }

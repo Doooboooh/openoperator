@@ -1,6 +1,15 @@
 {
   "problem_id": "016",
   "problem_name": "016_Matmul_for_symmetric_matrices",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.13647534710999348,
+      "latency": 44793.240167200565,
+      "timestamp": "2026-05-17T15:07:36.681301+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T15:08:55.720086+00:00"
 }
