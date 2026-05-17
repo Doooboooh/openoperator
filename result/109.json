@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.017087249772770374,
+      "latency": 5216.755252331495,
+      "timestamp": "2026-05-17T13:51:54.569445+00:00"
+    },
+    {
+      "rank": 2,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0001081062869557164,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-17T13:34:31.571868+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00010794551287208661,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-17T13:27:19.437127+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 1.5361101551850412e-05,
@@ -27,5 +35,5 @@
       "timestamp": "2026-05-17T13:24:47.838691+00:00"
     }
   ],
-  "last_updated": "2026-05-17T13:37:12.245667+00:00"
+  "last_updated": "2026-05-17T13:52:28.404911+00:00"
 }

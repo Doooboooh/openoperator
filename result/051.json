@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.034387590438730485,
+      "latency": 1384.801883250475,
+      "timestamp": "2026-05-17T13:48:15.751200+00:00"
+    },
+    {
+      "rank": 3,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0039962774933786395,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-17T13:27:03.767799+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0039846205476075066,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-17T13:23:20.467298+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.003956652288068102,
@@ -35,5 +43,5 @@
       "timestamp": "2026-05-17T13:29:48.573981+00:00"
     }
   ],
-  "last_updated": "2026-05-17T13:32:01.317180+00:00"
+  "last_updated": "2026-05-17T13:52:28.405819+00:00"
 }

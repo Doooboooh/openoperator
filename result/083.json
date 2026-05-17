@@ -1,6 +1,15 @@
 {
   "problem_id": "083",
   "problem_name": "083_Causal_Self_Attention",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.0010904963358454815,
+      "latency": 160169.26812008023,
+      "timestamp": "2026-05-17T13:51:54.569445+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:52:28.403485+00:00"
 }
