@@ -1,6 +1,15 @@
 {
   "problem_id": "025",
   "problem_name": "025_fused_matmul_fwd",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 2.1041490429902185e-05,
+      "latency": 4999265.634268522,
+      "timestamp": "2026-05-17T14:05:00.133588+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:07:44.435345+00:00"
 }

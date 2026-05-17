@@ -1,6 +1,23 @@
 {
   "problem_id": "011",
   "problem_name": "011_conv_transposed_1D",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 1.043378197019987,
+      "latency": 70.83145901560783,
+      "timestamp": "2026-05-17T14:03:24.037938+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.0040070856289533005,
+      "latency": 18443.329352885485,
+      "timestamp": "2026-05-17T14:03:33.558845+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:07:44.434560+00:00"
 }

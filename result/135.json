@@ -1,6 +1,15 @@
 {
   "problem_id": "135",
   "problem_name": "135_Dilated_conv_2D",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.00031373722799299354,
+      "latency": 7183954.592887312,
+      "timestamp": "2026-05-17T14:03:03.941935+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:07:44.419307+00:00"
 }

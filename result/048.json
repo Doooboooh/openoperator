@@ -1,6 +1,15 @@
 {
   "problem_id": "048",
   "problem_name": "048_Max_Pooling_2D",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.036563825634705914,
+      "latency": 14346.255920827389,
+      "timestamp": "2026-05-17T14:05:00.133588+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:07:44.435657+00:00"
 }
