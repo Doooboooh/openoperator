@@ -1,6 +1,15 @@
 {
   "problem_id": "020",
   "problem_name": "020_Matmul_with_large_K_dimension_",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.0018409217007175364,
+      "latency": 932053.7637919188,
+      "timestamp": "2026-05-17T14:48:10.547962+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:53:36.727130+00:00"
 }

@@ -1,6 +1,23 @@
 {
   "problem_id": "110",
   "problem_name": "110_Gather_rows",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.3202949500227997,
+      "latency": 71.97428494691849,
+      "timestamp": "2026-05-17T14:49:22.093774+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.2492174029394258,
+      "latency": 92.50156581401825,
+      "timestamp": "2026-05-17T14:49:22.146861+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:53:36.705931+00:00"
 }
