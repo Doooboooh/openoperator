@@ -1,6 +1,15 @@
 {
   "problem_id": "131",
   "problem_name": "131_Relative_position_encoding",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.006324195396628834,
+      "latency": 22630.704939365387,
+      "timestamp": "2026-05-17T15:33:41.144844+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T15:34:24.534183+00:00"
 }

@@ -1,6 +1,15 @@
 {
   "problem_id": "105",
   "problem_name": "105_Embedding_lookup",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.010945097631916449,
+      "latency": 13576.580584049225,
+      "timestamp": "2026-05-17T15:33:41.144844+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T15:34:24.525465+00:00"
 }
