@@ -60,6 +60,14 @@
     },
     {
       "rank": 8,
+      "user": "team_65",
+      "github": "imczxx/ICS_45Team",
+      "score": 0.030030274873181023,
+      "latency": 420403.7110321224,
+      "timestamp": "2026-05-17T12:33:22.873205+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.02791022049997667,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-13T01:57:38.813934+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.009074420691395241,
@@ -75,7 +83,7 @@
       "timestamp": "2026-05-16T13:30:37.231574+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.005659050768186395,
@@ -83,7 +91,7 @@
       "timestamp": "2026-05-16T02:15:24.003806+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.005610945045997995,
@@ -91,20 +99,12 @@
       "timestamp": "2026-05-12T07:00:40.486728+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0050336116304006365,
       "latency": 2828009.2,
       "timestamp": "2026-05-13T07:32:17.166862+00:00"
-    },
-    {
-      "rank": 13,
-      "user": "team_65",
-      "github": "imczxx/ICS_45Team",
-      "score": 0.004047708197178504,
-      "latency": 3516829.6,
-      "timestamp": "2026-05-17T11:52:52.236007+00:00"
     },
     {
       "rank": 14,
@@ -131,5 +131,5 @@
       "timestamp": "2026-05-12T00:49:26.066520+00:00"
     }
   ],
-  "last_updated": "2026-05-17T11:57:19.037665+00:00"
+  "last_updated": "2026-05-17T12:37:29.362469+00:00"
 }
