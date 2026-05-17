@@ -1,6 +1,15 @@
 {
   "problem_id": "107",
   "problem_name": "107_Sinusoidal_positional_encoding",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.0019874801902826453,
+      "latency": 46494.551468640566,
+      "timestamp": "2026-05-17T13:56:28.758698+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:57:32.931077+00:00"
 }
