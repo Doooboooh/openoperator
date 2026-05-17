@@ -124,6 +124,14 @@
     },
     {
       "rank": 16,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.010542782237667157,
+      "latency": 3409.63127091527,
+      "timestamp": "2026-05-17T17:15:47.803387+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.010257111386715168,
@@ -131,20 +139,12 @@
       "timestamp": "2026-05-17T15:06:29.383355+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.010161435821033741,
       "latency": 3537.590615451336,
       "timestamp": "2026-05-17T14:38:25.312672+00:00"
-    },
-    {
-      "rank": 18,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.006910150712959322,
-      "latency": 5202.057305723429,
-      "timestamp": "2026-05-17T14:35:15.763349+00:00"
     },
     {
       "rank": 19,
@@ -203,5 +203,5 @@
       "timestamp": "2026-05-17T14:10:45.774893+00:00"
     }
   ],
-  "last_updated": "2026-05-17T16:50:36.309748+00:00"
+  "last_updated": "2026-05-17T17:20:55.828993+00:00"
 }

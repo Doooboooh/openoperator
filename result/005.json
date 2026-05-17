@@ -132,6 +132,14 @@
     },
     {
       "rank": 17,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.009454859374441649,
+      "latency": 771141.6649632156,
+      "timestamp": "2026-05-17T17:15:47.803387+00:00"
+    },
+    {
+      "rank": 18,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.00945423207093822,
@@ -139,20 +147,12 @@
       "timestamp": "2026-05-17T14:27:01.538924+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.007941485740859558,
       "latency": 918094.7039276361,
       "timestamp": "2026-05-17T14:07:33.143344+00:00"
-    },
-    {
-      "rank": 19,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.0066550527286453835,
-      "latency": 1095563.9718100429,
-      "timestamp": "2026-05-17T14:35:15.763349+00:00"
     },
     {
       "rank": 20,
@@ -187,5 +187,5 @@
       "timestamp": "2026-05-17T13:27:27.018978+00:00"
     }
   ],
-  "last_updated": "2026-05-17T16:50:36.308873+00:00"
+  "last_updated": "2026-05-17T17:20:55.848406+00:00"
 }
