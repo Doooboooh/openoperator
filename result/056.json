@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 7.95454096655526,
+      "latency": 33.86782482266426,
+      "timestamp": "2026-05-17T14:21:53.088036+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 7.7595561215552955,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-17T13:03:07.738975+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 6.13703762832443,
@@ -19,7 +27,15 @@
       "timestamp": "2026-05-17T13:46:32.106393+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "user": "team_12",
+      "github": "yinuo222/kernel-competition-group40",
+      "score": 5.560592845835687,
+      "latency": 48.44861105084419,
+      "timestamp": "2026-05-17T14:20:50.653909+00:00"
+    },
+    {
+      "rank": 5,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 4.538774614227064,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-17T13:38:05.021386+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 3.3144953664444397,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-17T13:32:25.640138+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 3.256601635916173,
@@ -43,7 +59,7 @@
       "timestamp": "2026-05-17T13:27:19.437127+00:00"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 2.746713123724153,
@@ -51,7 +67,7 @@
       "timestamp": "2026-05-17T14:09:37.996679+00:00"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.7888418925574064,
@@ -59,5 +75,5 @@
       "timestamp": "2026-05-17T13:59:31.995181+00:00"
     }
   ],
-  "last_updated": "2026-05-17T14:12:50.419324+00:00"
+  "last_updated": "2026-05-17T14:23:02.526160+00:00"
 }

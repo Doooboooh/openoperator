@@ -1,6 +1,15 @@
 {
   "problem_id": "037",
   "problem_name": "037_Max_reduction_over_a_dimension",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.07328572659905877,
+      "latency": 575.8556537330151,
+      "timestamp": "2026-05-17T14:22:09.098785+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:23:02.531765+00:00"
 }
