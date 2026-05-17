@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.8258342296800064,
+      "latency": 48.30751568078995,
+      "timestamp": "2026-05-17T13:57:16.334971+00:00"
+    },
+    {
+      "rank": 2,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.7914830902358788,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-17T13:24:52.081230+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.7412894618495958,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-17T13:40:14.901677+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.39946822248033703,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-17T13:29:48.573981+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.000258725237890464,
@@ -35,5 +43,5 @@
       "timestamp": "2026-05-17T13:55:03.917362+00:00"
     }
   ],
-  "last_updated": "2026-05-17T13:57:32.930284+00:00"
+  "last_updated": "2026-05-17T14:02:39.485490+00:00"
 }

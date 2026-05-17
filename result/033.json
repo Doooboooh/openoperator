@@ -12,12 +12,28 @@
     },
     {
       "rank": 2,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.5440839375928835,
+      "latency": 52.703265100717545,
+      "timestamp": "2026-05-17T14:01:26.269204+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.5119781504529552,
       "latency": 56.00824952125549,
       "timestamp": "2026-05-17T13:40:14.901677+00:00"
+    },
+    {
+      "rank": 4,
+      "user": "team_40",
+      "github": "CCyyyydr/openoperator-32",
+      "score": 0.0013654295633546093,
+      "latency": 21000.717114657164,
+      "timestamp": "2026-05-17T13:57:15.353404+00:00"
     }
   ],
-  "last_updated": "2026-05-17T13:42:16.921821+00:00"
+  "last_updated": "2026-05-17T14:02:39.485062+00:00"
 }

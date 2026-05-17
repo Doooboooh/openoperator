@@ -1,6 +1,15 @@
 {
   "problem_id": "094",
   "problem_name": "094_LayerNorm",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.7304088558917523,
+      "latency": 127.6778057217598,
+      "timestamp": "2026-05-17T14:01:26.269204+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:02:39.494124+00:00"
 }

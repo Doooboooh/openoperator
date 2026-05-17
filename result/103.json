@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.40151903605150263,
+      "latency": 105.17807677388191,
+      "timestamp": "2026-05-17T14:01:26.269204+00:00"
+    },
+    {
+      "rank": 3,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.02142229097000925,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-17T13:37:41.270964+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.007110249384748298,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-17T13:55:30.935297+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.006546837777239473,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-17T13:52:14.692782+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 5.713017044088828e-06,
@@ -43,5 +51,5 @@
       "timestamp": "2026-05-17T13:27:38.546027+00:00"
     }
   ],
-  "last_updated": "2026-05-17T13:57:32.929219+00:00"
+  "last_updated": "2026-05-17T14:02:39.480619+00:00"
 }

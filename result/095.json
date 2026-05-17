@@ -1,6 +1,15 @@
 {
   "problem_id": "095",
   "problem_name": "095_Add_RMSNorm",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 1.346381086851685,
+      "latency": 267.4361690878868,
+      "timestamp": "2026-05-17T14:01:26.269204+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:02:39.504195+00:00"
 }

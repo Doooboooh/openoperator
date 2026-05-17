@@ -1,6 +1,31 @@
 {
   "problem_id": "093",
   "problem_name": "093_Batch_triangular_solve",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.8101488405340325,
+      "latency": 43.76601427793503,
+      "timestamp": "2026-05-17T14:01:29.935569+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.6520243870384568,
+      "latency": 47.95510321855545,
+      "timestamp": "2026-05-17T14:01:29.950959+00:00"
+    },
+    {
+      "rank": 3,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.4372591376274574,
+      "latency": 181.1808906495571,
+      "timestamp": "2026-05-17T13:58:44.947604+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:02:39.490578+00:00"
 }

@@ -20,6 +20,22 @@
     },
     {
       "rank": 3,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.5069520801188623,
+      "latency": 44.69258710741997,
+      "timestamp": "2026-05-17T14:01:26.269204+00:00"
+    },
+    {
+      "rank": 4,
+      "user": "team_40",
+      "github": "CCyyyydr/openoperator-32",
+      "score": 0.2436573031419752,
+      "latency": 92.98715740442276,
+      "timestamp": "2026-05-17T13:57:15.353404+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0007236071228629632,
@@ -27,5 +43,5 @@
       "timestamp": "2026-05-17T13:47:55.236746+00:00"
     }
   ],
-  "last_updated": "2026-05-17T13:52:28.405304+00:00"
+  "last_updated": "2026-05-17T14:02:39.492762+00:00"
 }
