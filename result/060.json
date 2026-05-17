@@ -1,6 +1,15 @@
 {
   "problem_id": "060",
   "problem_name": "060_cross_entropy",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 1.7388791069690446,
+      "latency": 391.7425870895386,
+      "timestamp": "2026-05-17T14:39:08.506339+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:43:24.434226+00:00"
 }
