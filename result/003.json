@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "智算第九组",
+      "github": "silent-Ning9/BangC09",
+      "score": 0.6345177664974619,
+      "latency": 39.4,
+      "timestamp": "2026-05-17T06:47:26.626778+00:00"
+    },
+    {
+      "rank": 6,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.5787037037037037,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-13T03:56:45.587167+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.5630630630630631,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-13T23:46:18.269358+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.48638132295719844,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-13T01:23:07.832435+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.36231884057971014,
@@ -67,20 +75,12 @@
       "timestamp": "2026-05-14T10:00:00.900500+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.058383932741709485,
       "latency": 428.2,
       "timestamp": "2026-05-15T02:09:49.003198+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "智算第九组",
-      "github": "silent-Ning9/BangC09",
-      "score": 0.03911138923654568,
-      "latency": 639.2,
-      "timestamp": "2026-05-17T06:32:52.325195+00:00"
     },
     {
       "rank": 11,
@@ -195,5 +195,5 @@
       "timestamp": "2026-05-12T05:52:23.497242+00:00"
     }
   ],
-  "last_updated": "2026-05-17T06:37:01.454246+00:00"
+  "last_updated": "2026-05-17T06:52:22.818724+00:00"
 }
