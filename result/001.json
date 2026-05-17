@@ -44,6 +44,14 @@
     },
     {
       "rank": 6,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.6233716075769473,
+      "latency": 44.5464625954628,
+      "timestamp": "2026-05-17T15:49:26.524460+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.6224138756007932,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-17T14:30:31.808698+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.6177176483276292,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-17T13:37:20.508356+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.6053090461310591,
@@ -67,20 +75,12 @@
       "timestamp": "2026-05-17T14:28:49.658531+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 0.5989569678182282,
       "latency": 46.3622622191906,
       "timestamp": "2026-05-17T14:40:21.098958+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.583010609738164,
-      "latency": 47.63035103678703,
-      "timestamp": "2026-05-17T15:26:14.111665+00:00"
     },
     {
       "rank": 11,
@@ -267,5 +267,5 @@
       "timestamp": "2026-05-17T15:23:39.217659+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:34:24.532236+00:00"
+  "last_updated": "2026-05-17T15:54:49.181398+00:00"
 }

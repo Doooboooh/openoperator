@@ -12,19 +12,19 @@
     },
     {
       "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.9439055692659076,
+      "latency": 94.43741291761398,
+      "timestamp": "2026-05-17T15:49:26.524460+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.9002748059915892,
       "latency": 99.01421144604683,
       "timestamp": "2026-05-17T15:33:14.639060+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.810257309214905,
-      "latency": 110.01443490386009,
-      "timestamp": "2026-05-17T15:26:14.111665+00:00"
     },
     {
       "rank": 4,
@@ -163,5 +163,5 @@
       "timestamp": "2026-05-17T14:29:22.614166+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:39:30.052171+00:00"
+  "last_updated": "2026-05-17T15:54:49.184231+00:00"
 }
