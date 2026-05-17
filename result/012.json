@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.002733234646877666,
+      "latency": 804000.1258254051,
+      "timestamp": "2026-05-17T14:27:57.451849+00:00"
+    },
+    {
+      "rank": 5,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0010319734405855139,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-17T13:27:14.035112+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0002452545863715382,
@@ -43,21 +51,13 @@
       "timestamp": "2026-05-17T13:24:22.409705+00:00"
     },
     {
-      "rank": 6,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.00018816142847357173,
-      "latency": 11678913.249261677,
-      "timestamp": "2026-05-17T14:27:01.538924+00:00"
-    },
-    {
       "rank": 7,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
-      "score": 0.00017648286405312286,
-      "latency": 12451752.819120884,
-      "timestamp": "2026-05-17T13:58:45.515717+00:00"
+      "score": 0.0001837172255229474,
+      "latency": 11961431.453935802,
+      "timestamp": "2026-05-17T14:28:49.658531+00:00"
     }
   ],
-  "last_updated": "2026-05-17T14:28:07.784101+00:00"
+  "last_updated": "2026-05-17T14:33:13.518970+00:00"
 }

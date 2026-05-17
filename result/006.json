@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.4477979623288807,
+      "latency": 750.6532594561577,
+      "timestamp": "2026-05-17T14:28:49.658531+00:00"
+    },
+    {
+      "rank": 4,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.009371628747550863,
@@ -27,21 +35,13 @@
       "timestamp": "2026-05-17T14:02:54.597066+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0007566141231383607,
       "latency": 444270.0575105846,
       "timestamp": "2026-05-17T14:03:33.558845+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.00028673660605406094,
-      "latency": 1172298.872563988,
-      "timestamp": "2026-05-17T14:23:27.377646+00:00"
     }
   ],
-  "last_updated": "2026-05-17T14:28:07.779027+00:00"
+  "last_updated": "2026-05-17T14:33:13.507283+00:00"
 }
