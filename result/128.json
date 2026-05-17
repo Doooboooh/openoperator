@@ -1,6 +1,15 @@
 {
   "problem_id": "128",
   "problem_name": "128_Batch_norm_1D",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.03857003639706643,
+      "latency": 1545.344665646553,
+      "timestamp": "2026-05-17T13:31:04.614659+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:32:01.315021+00:00"
 }

@@ -1,6 +1,15 @@
 {
   "problem_id": "086",
   "problem_name": "086_Batch_outer_product",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 1.7895369548746456,
+      "latency": 127.21950188279152,
+      "timestamp": "2026-05-17T13:28:50.187212+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:32:01.312851+00:00"
 }

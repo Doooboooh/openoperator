@@ -1,6 +1,23 @@
 {
   "problem_id": "005",
   "problem_name": "005_average_pooling_2d",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "养老组",
+      "github": "Ace-Eternal/op_retirement",
+      "score": 0.0012242672156743467,
+      "latency": 5955428.607948124,
+      "timestamp": "2026-05-17T13:28:08.933744+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.0005995859046678638,
+      "latency": 12160119.080916047,
+      "timestamp": "2026-05-17T13:27:27.018978+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:32:01.318920+00:00"
 }

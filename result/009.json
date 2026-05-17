@@ -1,6 +1,31 @@
 {
   "problem_id": "009",
   "problem_name": "009_conv_standard_1D",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "养老组",
+      "github": "Ace-Eternal/op_retirement",
+      "score": 0.00105261144851339,
+      "latency": 68243.60508471727,
+      "timestamp": "2026-05-17T13:28:08.933744+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_46",
+      "github": "1LLLei/openoperator-start-kit_BangC_competition",
+      "score": 0.00015427248733474147,
+      "latency": 465630.65936788917,
+      "timestamp": "2026-05-17T13:28:50.175123+00:00"
+    },
+    {
+      "rank": 3,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 2.5807269874114896e-05,
+      "latency": 2783479.242492467,
+      "timestamp": "2026-05-17T13:27:20.852428+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:32:01.318333+00:00"
 }

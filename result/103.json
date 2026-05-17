@@ -4,12 +4,28 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_24",
+      "github": "wysqwysq/bangc_55",
+      "score": 0.4377003859058463,
+      "latency": 96.48380801081657,
+      "timestamp": "2026-05-17T13:28:38.158244+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0041654282858739995,
       "latency": 10138.453263789415,
       "timestamp": "2026-05-17T13:25:56.544663+00:00"
+    },
+    {
+      "rank": 3,
+      "user": "养老组",
+      "github": "Ace-Eternal/op_retirement",
+      "score": 5.713017044088828e-06,
+      "latency": 7392066.166456789,
+      "timestamp": "2026-05-17T13:27:38.546027+00:00"
     }
   ],
-  "last_updated": "2026-05-17T13:26:55.807945+00:00"
+  "last_updated": "2026-05-17T13:32:01.311774+00:00"
 }

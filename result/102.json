@@ -1,6 +1,15 @@
 {
   "problem_id": "102",
   "problem_name": "102_Adaptive_Average_Pool_3D",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 4.491990339804385,
+      "latency": 128.832645714283,
+      "timestamp": "2026-05-17T13:31:17.680841+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:32:01.314874+00:00"
 }

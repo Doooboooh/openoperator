@@ -4,6 +4,22 @@
   "results": [
     {
       "rank": 1,
+      "user": "养老组",
+      "github": "Ace-Eternal/op_retirement",
+      "score": 0.004970978897705316,
+      "latency": 2539708.8299505413,
+      "timestamp": "2026-05-17T13:30:09.392718+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "算不懂",
+      "github": "caozhining/suanbudong_openoperator",
+      "score": 0.0005455741618753401,
+      "latency": 23140463.537722826,
+      "timestamp": "2026-05-17T13:30:06.765796+00:00"
+    },
+    {
+      "rank": 3,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0005451515198473154,
@@ -11,5 +27,5 @@
       "timestamp": "2026-05-17T13:25:53.557141+00:00"
     }
   ],
-  "last_updated": "2026-05-17T13:26:55.815690+00:00"
+  "last_updated": "2026-05-17T13:32:01.317008+00:00"
 }

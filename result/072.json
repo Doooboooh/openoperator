@@ -1,6 +1,15 @@
 {
   "problem_id": "072",
   "problem_name": "072_ElementwiseAdd",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.00020186124231214874,
+      "latency": 1025471.7430099845,
+      "timestamp": "2026-05-17T13:31:04.614659+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:32:01.316537+00:00"
 }

@@ -1,6 +1,23 @@
 {
   "problem_id": "080",
   "problem_name": "080_All_over_dim",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.756453262589743,
+      "latency": 71.35933265089989,
+      "timestamp": "2026-05-17T13:28:18.959982+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.5693361511016288,
+      "latency": 94.81217712163925,
+      "timestamp": "2026-05-17T13:29:48.731998+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:32:01.311963+00:00"
 }

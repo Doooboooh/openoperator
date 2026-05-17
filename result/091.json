@@ -1,6 +1,15 @@
 {
   "problem_id": "091",
   "problem_name": "091_Matrix_inverse",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 7.883655458014323,
+      "latency": 41.429512202739716,
+      "timestamp": "2026-05-17T13:30:38.515070+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:32:01.315733+00:00"
 }

@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.3726765468782454,
+      "latency": 76.97828114032745,
+      "timestamp": "2026-05-17T13:27:04.300722+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.21323118862106344,
@@ -11,13 +19,21 @@
       "timestamp": "2026-05-17T13:23:02.885143+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.00967368636142583,
       "latency": 2965.5706137418747,
       "timestamp": "2026-05-17T13:25:56.544663+00:00"
+    },
+    {
+      "rank": 4,
+      "user": "养老组",
+      "github": "Ace-Eternal/op_retirement",
+      "score": 5.847575237127516e-06,
+      "latency": 4905965.094361454,
+      "timestamp": "2026-05-17T13:27:20.921272+00:00"
     }
   ],
-  "last_updated": "2026-05-17T13:26:55.813273+00:00"
+  "last_updated": "2026-05-17T13:32:01.315192+00:00"
 }
