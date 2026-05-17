@@ -1,6 +1,15 @@
 {
   "problem_id": "015",
   "problem_name": "015_Matmul_for_lower_triangular_matrices",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.8558719486994275,
+      "latency": 7596.014812588692,
+      "timestamp": "2026-05-17T14:47:36.694975+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:48:31.246577+00:00"
 }

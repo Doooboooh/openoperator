@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.6456481175241747,
+      "latency": 3998.750913888216,
+      "timestamp": "2026-05-17T14:46:21.614761+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.034540203333484766,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-17T14:12:04.103000+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0007036851587837369,
@@ -19,5 +27,5 @@
       "timestamp": "2026-05-17T14:30:01.575380+00:00"
     }
   ],
-  "last_updated": "2026-05-17T14:33:13.518760+00:00"
+  "last_updated": "2026-05-17T14:48:31.244589+00:00"
 }

@@ -1,6 +1,15 @@
 {
   "problem_id": "129",
   "problem_name": "129_Attention_score_with_bias",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.001524733602335694,
+      "latency": 66986.78368702531,
+      "timestamp": "2026-05-17T14:46:49.065640+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:48:31.242004+00:00"
 }
