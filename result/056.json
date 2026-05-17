@@ -60,6 +60,14 @@
     },
     {
       "rank": 8,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 6.240506329113924,
+      "latency": 15.8,
+      "timestamp": "2026-05-17T11:52:41.606496+00:00"
+    },
+    {
+      "rank": 9,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 6.01219512195122,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-14T00:44:07.385348+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 5.666666666666667,
@@ -75,20 +83,12 @@
       "timestamp": "2026-05-13T01:42:11.778550+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 5.602272727272727,
       "latency": 17.6,
       "timestamp": "2026-05-14T10:00:48.803156+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "team_43",
-      "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 4.740384615384615,
-      "latency": 20.8,
-      "timestamp": "2026-05-17T06:50:03.857491+00:00"
     },
     {
       "rank": 12,
@@ -147,5 +147,5 @@
       "timestamp": "2026-05-15T01:23:57.214821+00:00"
     }
   ],
-  "last_updated": "2026-05-17T06:52:22.819397+00:00"
+  "last_updated": "2026-05-17T11:57:19.037141+00:00"
 }
