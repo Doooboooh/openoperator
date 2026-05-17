@@ -4,6 +4,22 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.2288323597231194,
+      "latency": 60.14164537191391,
+      "timestamp": "2026-05-17T15:27:55.901810+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.0848362059612677,
+      "latency": 68.12456995248795,
+      "timestamp": "2026-05-17T15:26:14.111665+00:00"
+    },
+    {
+      "rank": 3,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 1.043378197019987,
@@ -11,7 +27,7 @@
       "timestamp": "2026-05-17T14:03:24.037938+00:00"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.8370443761011958,
@@ -19,7 +35,7 @@
       "timestamp": "2026-05-17T14:48:59.676028+00:00"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.004371112400501644,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-17T15:07:02.573200+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0040070856289533005,
@@ -35,5 +51,5 @@
       "timestamp": "2026-05-17T14:03:33.558845+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:08:55.728834+00:00"
+  "last_updated": "2026-05-17T15:29:19.234300+00:00"
 }

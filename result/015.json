@@ -4,12 +4,36 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 3.015243591448235,
+      "latency": 2156.116347759962,
+      "timestamp": "2026-05-17T15:27:05.340442+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 2.992248982655211,
+      "latency": 2172.685507684946,
+      "timestamp": "2026-05-17T15:27:00.285714+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.8558719486994275,
       "latency": 7596.014812588692,
       "timestamp": "2026-05-17T14:47:36.694975+00:00"
+    },
+    {
+      "rank": 4,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.03470794616289844,
+      "latency": 187312.03423812985,
+      "timestamp": "2026-05-17T15:26:43.189897+00:00"
     }
   ],
-  "last_updated": "2026-05-17T14:48:31.246577+00:00"
+  "last_updated": "2026-05-17T15:29:19.222429+00:00"
 }

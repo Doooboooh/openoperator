@@ -14,12 +14,20 @@
       "rank": 2,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 8.42651710874569,
-      "latency": 306.3882701098919,
-      "timestamp": "2026-05-17T15:17:45.290611+00:00"
+      "score": 8.448891209026906,
+      "latency": 305.5769018828869,
+      "timestamp": "2026-05-17T15:27:55.901810+00:00"
     },
     {
       "rank": 3,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 2.8640228256523117,
+      "latency": 901.4544077217579,
+      "timestamp": "2026-05-17T15:27:34.699649+00:00"
+    },
+    {
+      "rank": 4,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.6456481175241747,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-17T14:46:21.614761+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.034540203333484766,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-17T14:12:04.103000+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.004257886676133284,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-17T15:18:06.374846+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.004110926007242676,
@@ -51,7 +59,15 @@
       "timestamp": "2026-05-17T15:06:29.383355+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.0028380094526351584,
+      "latency": 909717.1954810619,
+      "timestamp": "2026-05-17T15:26:01.662777+00:00"
+    },
+    {
+      "rank": 9,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0007036851587837369,
@@ -59,5 +75,5 @@
       "timestamp": "2026-05-17T14:30:01.575380+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:19:07.570390+00:00"
+  "last_updated": "2026-05-17T15:29:19.227311+00:00"
 }
