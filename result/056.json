@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 8.790241540387505,
+      "latency": 30.647963285446167,
+      "timestamp": "2026-05-17T15:21:01.843353+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 7.95454096655526,
@@ -11,20 +19,12 @@
       "timestamp": "2026-05-17T14:21:53.088036+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 7.7595561215552955,
       "latency": 34.718867391347885,
       "timestamp": "2026-05-17T13:03:07.738975+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 7.6512092631277815,
-      "latency": 35.210512578487396,
-      "timestamp": "2026-05-17T15:13:43.139786+00:00"
     },
     {
       "rank": 4,
@@ -68,19 +68,19 @@
     },
     {
       "rank": 9,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 4.585650740330304,
+      "latency": 58.749131858348846,
+      "timestamp": "2026-05-17T15:21:50.391108+00:00"
+    },
+    {
+      "rank": 10,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 4.538774614227064,
       "latency": 59.35588851571083,
       "timestamp": "2026-05-17T13:38:05.021386+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 3.5790907006888224,
-      "latency": 75.2713531255722,
-      "timestamp": "2026-05-17T14:48:59.676028+00:00"
     },
     {
       "rank": 11,
@@ -139,5 +139,5 @@
       "timestamp": "2026-05-17T14:30:31.808698+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:19:07.562140+00:00"
+  "last_updated": "2026-05-17T15:24:12.860147+00:00"
 }

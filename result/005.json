@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 1.5156591935955268,
+      "latency": 4810.471925884485,
+      "timestamp": "2026-05-17T15:21:35.718111+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 1.4624734517576443,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-17T14:28:49.658531+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.8799971679684707,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-17T14:38:21.059749+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.8365822440848457,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-17T15:05:35.494190+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.7036041644705389,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-17T13:37:54.501766+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.553089156828581,
@@ -43,20 +51,12 @@
       "timestamp": "2026-05-17T14:58:31.097930+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.49425477863114775,
       "latency": 14751.574117690325,
       "timestamp": "2026-05-17T13:38:16.868357+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 0.13049567211525565,
-      "latency": 55871.86058983207,
-      "timestamp": "2026-05-17T13:37:06.081135+00:00"
     },
     {
       "rank": 8,
@@ -139,5 +139,5 @@
       "timestamp": "2026-05-17T13:27:27.018978+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:08:55.700235+00:00"
+  "last_updated": "2026-05-17T15:24:12.878060+00:00"
 }

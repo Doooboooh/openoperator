@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.2057131628265625,
+      "latency": 996.866449713707,
+      "timestamp": "2026-05-17T15:21:50.374628+00:00"
+    },
+    {
+      "rank": 5,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 1.0307520781715762,
@@ -35,20 +43,12 @@
       "timestamp": "2026-05-17T13:57:11.708743+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.4385169790006572,
       "latency": 2740.908693522215,
       "timestamp": "2026-05-17T14:48:59.676028+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.09877661809322859,
-      "latency": 12168.213725090027,
-      "timestamp": "2026-05-17T14:49:22.146861+00:00"
     },
     {
       "rank": 7,
@@ -83,5 +83,5 @@
       "timestamp": "2026-05-17T14:31:27.420782+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:14:02.434601+00:00"
+  "last_updated": "2026-05-17T15:24:12.858154+00:00"
 }
