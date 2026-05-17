@@ -172,19 +172,19 @@
     },
     {
       "rank": 22,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 0.45744680851063835,
+      "latency": 28.2,
+      "timestamp": "2026-05-17T09:32:47.857445+00:00"
+    },
+    {
+      "rank": 23,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.4542253521126761,
       "latency": 28.4,
       "timestamp": "2026-05-12T03:59:57.357603+00:00"
-    },
-    {
-      "rank": 23,
-      "user": "team_73",
-      "github": "dingyue772/TensorCraft",
-      "score": 0.4479166666666667,
-      "latency": 28.8,
-      "timestamp": "2026-05-14T12:58:11.032243+00:00"
     },
     {
       "rank": 24,
@@ -267,5 +267,5 @@
       "timestamp": "2026-05-13T13:14:46.722437+00:00"
     }
   ],
-  "last_updated": "2026-05-17T09:09:41.116050+00:00"
+  "last_updated": "2026-05-17T09:35:01.267692+00:00"
 }

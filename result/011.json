@@ -28,19 +28,19 @@
     },
     {
       "rank": 4,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.95273631840796,
+      "latency": 40.2,
+      "timestamp": "2026-05-17T09:30:25.831866+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.8906976744186046,
       "latency": 43.0,
       "timestamp": "2026-05-15T07:57:31.504992+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.6839285714285713,
-      "latency": 56.0,
-      "timestamp": "2026-05-17T09:22:50.556278+00:00"
     },
     {
       "rank": 6,
@@ -67,5 +67,5 @@
       "timestamp": "2026-05-13T04:37:33.936493+00:00"
     }
   ],
-  "last_updated": "2026-05-17T09:24:51.620135+00:00"
+  "last_updated": "2026-05-17T09:35:01.267257+00:00"
 }
