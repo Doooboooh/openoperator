@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.815768796046757,
+      "latency": 48.903562128543854,
+      "timestamp": "2026-05-17T16:49:21.975863+00:00"
+    },
+    {
+      "rank": 6,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.7914830902358788,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-17T13:24:52.081230+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.7909744907591799,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-17T14:15:47.250316+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.7381038395219436,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-17T15:39:02.434052+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.7356093462104211,
@@ -67,20 +75,12 @@
       "timestamp": "2026-05-17T14:27:57.451849+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.7073397115653304,
       "latency": 56.400056928396225,
       "timestamp": "2026-05-17T14:51:16.565893+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.6961048536503701,
-      "latency": 57.310331612825394,
-      "timestamp": "2026-05-17T15:16:46.450534+00:00"
     },
     {
       "rank": 11,
@@ -195,5 +195,5 @@
       "timestamp": "2026-05-17T15:36:56.565652+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:54:49.180106+00:00"
+  "last_updated": "2026-05-17T16:50:36.300439+00:00"
 }
