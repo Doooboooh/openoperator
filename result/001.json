@@ -44,6 +44,14 @@
     },
     {
       "rank": 6,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.5797797045299712,
+      "latency": 47.895777970552444,
+      "timestamp": "2026-05-17T14:27:01.538924+00:00"
+    },
+    {
+      "rank": 7,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.5693520040377623,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-17T14:01:26.269204+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.445715116368833,
@@ -59,20 +67,12 @@
       "timestamp": "2026-05-17T13:57:16.334971+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.44019884506251594,
       "latency": 63.08285519480705,
       "timestamp": "2026-05-17T13:46:32.106393+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.4326979056501555,
-      "latency": 64.17641416192055,
-      "timestamp": "2026-05-17T14:21:53.088036+00:00"
     },
     {
       "rank": 10,
@@ -155,5 +155,5 @@
       "timestamp": "2026-05-17T13:29:49.233866+00:00"
     }
   ],
-  "last_updated": "2026-05-17T14:23:02.528433+00:00"
+  "last_updated": "2026-05-17T14:28:07.780365+00:00"
 }
