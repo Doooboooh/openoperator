@@ -68,6 +68,14 @@
     },
     {
       "rank": 9,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.09869076515266487,
+      "latency": 1570.7042068243027,
+      "timestamp": "2026-05-17T15:13:43.139786+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.09626756667084986,
@@ -75,20 +83,12 @@
       "timestamp": "2026-05-17T14:29:22.614166+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0961527717209008,
       "latency": 1612.1636144816875,
       "timestamp": "2026-05-17T14:54:19.768244+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.08315316612753425,
-      "latency": 1864.1984090209007,
-      "timestamp": "2026-05-17T15:07:32.213874+00:00"
     },
     {
       "rank": 12,
@@ -163,5 +163,5 @@
       "timestamp": "2026-05-17T13:29:49.375455+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:14:02.439135+00:00"
+  "last_updated": "2026-05-17T15:19:07.566527+00:00"
 }

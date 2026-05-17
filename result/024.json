@@ -4,20 +4,20 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.09203199909672148,
+      "latency": 9005.378652364016,
+      "timestamp": "2026-05-17T15:15:52.190247+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.014224551022286243,
       "latency": 58264.26427811384,
       "timestamp": "2026-05-17T14:10:45.774893+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.0031245522225420617,
-      "latency": 265248.5671453178,
-      "timestamp": "2026-05-17T15:03:39.290740+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:08:55.724886+00:00"
+  "last_updated": "2026-05-17T15:19:07.563912+00:00"
 }

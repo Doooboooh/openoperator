@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 1.4611254287694952,
+      "latency": 145.3879289329052,
+      "timestamp": "2026-05-17T15:13:38.709591+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 1.446382636382556,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-17T14:49:22.146861+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 1.4169273162539617,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-17T14:54:23.196808+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 1.403477425250229,
@@ -27,7 +35,15 @@
       "timestamp": "2026-05-17T14:49:22.093774+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 1.339568202450859,
+      "latency": 158.5809513926506,
+      "timestamp": "2026-05-17T15:15:00.324667+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 1.322640117830173,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-17T15:06:55.361646+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 1.2870992999646196,
@@ -43,15 +59,7 @@
       "timestamp": "2026-05-17T15:06:29.383355+00:00"
     },
     {
-      "rank": 6,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 1.1932037450595254,
-      "latency": 178.03329974412918,
-      "timestamp": "2026-05-17T14:25:40.310171+00:00"
-    },
-    {
-      "rank": 7,
+      "rank": 8,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 6.212901938827381e-05,
@@ -59,5 +67,5 @@
       "timestamp": "2026-05-17T14:31:22.220934+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:08:55.695656+00:00"
+  "last_updated": "2026-05-17T15:19:07.569354+00:00"
 }
