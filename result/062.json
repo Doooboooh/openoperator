@@ -4,84 +4,20 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 4.7727272727272725,
-      "latency": 4.4,
-      "timestamp": "2026-05-17T03:13:42.279885+00:00"
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.0846356265939372,
+      "latency": 31.825434416532516,
+      "timestamp": "2026-05-17T13:03:07.738975+00:00"
     },
     {
       "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 4.565217391304349,
-      "latency": 4.6,
-      "timestamp": "2026-05-11T16:53:01.350840+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 4.565217391304349,
-      "latency": 4.6,
-      "timestamp": "2026-05-14T19:03:23.830068+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 2.9166666666666665,
-      "latency": 7.2,
-      "timestamp": "2026-05-16T06:59:03.781072+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 2.441860465116279,
-      "latency": 8.6,
-      "timestamp": "2026-05-12T13:03:05.680644+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 1.7796610169491525,
-      "latency": 11.8,
-      "timestamp": "2026-05-14T13:44:28.197843+00:00"
-    },
-    {
-      "rank": 7,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
-      "score": 0.6521739130434782,
-      "latency": 32.2,
-      "timestamp": "2026-05-11T18:44:24.186924+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.02358490566037736,
-      "latency": 890.4,
-      "timestamp": "2026-05-13T11:38:54.186012+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.023260965883916705,
-      "latency": 902.8,
-      "timestamp": "2026-05-13T04:37:33.936493+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.007414730598121602,
-      "latency": 2832.2,
-      "timestamp": "2026-05-17T03:43:10.278594+00:00"
+      "score": 0.550110112912603,
+      "latency": 62.74925544857979,
+      "timestamp": "2026-05-17T13:23:13.162596+00:00"
     }
   ],
-  "last_updated": "2026-05-17T03:44:12.639964+00:00"
+  "last_updated": "2026-05-17T13:26:55.812169+00:00"
 }

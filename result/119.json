@@ -1,63 +1,6 @@
 {
   "problem_id": "119",
   "problem_name": "119_One_hot_encoding",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 13.258064516129032,
-      "latency": 6.2,
-      "timestamp": "2026-05-13T10:01:45.456250+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 13.258064516129032,
-      "latency": 6.2,
-      "timestamp": "2026-05-13T10:13:11.908573+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 6.966101694915254,
-      "latency": 11.8,
-      "timestamp": "2026-05-12T13:02:13.397429+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 4.566666666666666,
-      "latency": 18.0,
-      "timestamp": "2026-05-16T18:53:07.603581+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 2.795918367346939,
-      "latency": 29.4,
-      "timestamp": "2026-05-14T17:36:28.262894+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 1.2685185185185186,
-      "latency": 64.8,
-      "timestamp": "2026-05-13T03:00:47.955165+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.006287672866034669,
-      "latency": 13073.19921875,
-      "timestamp": "2026-05-13T04:53:48.938812+00:00"
-    }
-  ],
-  "last_updated": "2026-05-16T18:58:26.852000+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

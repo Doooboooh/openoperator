@@ -1,47 +1,6 @@
 {
   "problem_id": "017",
   "problem_name": "017_Matmul_for_upper_triangular_matrices",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 3.377803275268593,
-      "latency": 1917.4,
-      "timestamp": "2026-05-17T04:18:29.049731+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 3.3662162162162166,
-      "latency": 1924.0,
-      "timestamp": "2026-05-17T04:18:38.391603+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 1.5361954459203038,
-      "latency": 4216.0,
-      "timestamp": "2026-05-17T11:50:54.871053+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.20696509145756906,
-      "latency": 31293.2,
-      "timestamp": "2026-05-16T07:21:15.293946+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.012562233154861149,
-      "latency": 515561.2,
-      "timestamp": "2026-05-16T10:35:09.829952+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T11:52:13.884364+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

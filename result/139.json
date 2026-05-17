@@ -1,55 +1,6 @@
 {
   "problem_id": "139",
   "problem_name": "139_Sparse_attention_mask",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 16.425925925925927,
-      "latency": 16.2,
-      "timestamp": "2026-05-13T19:37:33.911158+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 16.425925925925927,
-      "latency": 16.2,
-      "timestamp": "2026-05-14T19:03:23.830068+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 13.305000000000001,
-      "latency": 20.0,
-      "timestamp": "2026-05-17T06:01:35.544676+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_86",
-      "github": "RachelGu2003/ICS_86Team",
-      "score": 0.061239988953327815,
-      "latency": 4345.2,
-      "timestamp": "2026-05-14T14:45:36.396486+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.005981280681879485,
-      "latency": 44488.8,
-      "timestamp": "2026-05-13T03:32:02.005125+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.0015157850125831233,
-      "latency": 175552.6,
-      "timestamp": "2026-05-17T04:44:54.473859+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T06:06:30.277189+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

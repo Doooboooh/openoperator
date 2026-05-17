@@ -1,63 +1,6 @@
 {
   "problem_id": "088",
   "problem_name": "088_Matrix_trace",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.900763358778626,
-      "latency": 26.2,
-      "timestamp": "2026-05-14T19:36:44.354370+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 1.8043478260869563,
-      "latency": 27.6,
-      "timestamp": "2026-05-17T00:08:34.584937+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.741258741258741,
-      "latency": 28.6,
-      "timestamp": "2026-05-15T07:32:43.898118+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 1.741258741258741,
-      "latency": 28.6,
-      "timestamp": "2026-05-15T16:02:52.355609+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_8",
-      "github": "ykkkx/ICS_28",
-      "score": 0.11266968325791854,
-      "latency": 442.0,
-      "timestamp": "2026-05-13T02:11:52.760890+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.039386270167668457,
-      "latency": 1264.4,
-      "timestamp": "2026-05-13T10:17:42.119521+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_43",
-      "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 0.027996402068810433,
-      "latency": 1778.8,
-      "timestamp": "2026-05-16T14:18:27.643201+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T00:11:25.438304+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

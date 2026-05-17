@@ -1,47 +1,6 @@
 {
   "problem_id": "122",
   "problem_name": "122_Prefix_sum_2D",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 77.42857142857143,
-      "latency": 1.4,
-      "timestamp": "2026-05-16T03:04:59.539863+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 67.75,
-      "latency": 1.6,
-      "timestamp": "2026-05-16T03:04:59.224233+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.989051094890511,
-      "latency": 109.6,
-      "timestamp": "2026-05-17T11:32:03.576360+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.5910577971646674,
-      "latency": 183.4,
-      "timestamp": "2026-05-13T05:23:55.254091+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.0022251416372444373,
-      "latency": 48716.0,
-      "timestamp": "2026-05-17T11:23:03.574047+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T11:36:58.625366+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

@@ -1,55 +1,6 @@
 {
   "problem_id": "095",
   "problem_name": "095_Add_RMSNorm",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 6.617760617760618,
-      "latency": 51.8,
-      "timestamp": "2026-05-16T21:22:38.286704+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 6.592307692307693,
-      "latency": 52.0,
-      "timestamp": "2026-05-16T21:22:06.678259+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 5.011695906432748,
-      "latency": 68.4,
-      "timestamp": "2026-05-16T03:11:03.107053+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 1.761562178828366,
-      "latency": 194.6,
-      "timestamp": "2026-05-15T16:38:48.411777+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.6436349981224183,
-      "latency": 532.6,
-      "timestamp": "2026-05-14T09:56:31.742553+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.003513468638090182,
-      "latency": 97567.4,
-      "timestamp": "2026-05-13T03:32:02.005125+00:00"
-    }
-  ],
-  "last_updated": "2026-05-16T21:24:30.397524+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

@@ -1,63 +1,6 @@
 {
   "problem_id": "116",
   "problem_name": "116_Grid_sample",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.45479204339963836,
-      "latency": 774.2,
-      "timestamp": "2026-05-16T23:30:26.180801+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.45432258064516134,
-      "latency": 775.0,
-      "timestamp": "2026-05-16T23:31:38.663874+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.15786406025824964,
-      "latency": 2230.4,
-      "timestamp": "2026-05-13T09:37:03.186974+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.11414770148479544,
-      "latency": 3084.6,
-      "timestamp": "2026-05-13T01:50:19.991160+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.05406276870163371,
-      "latency": 6512.8,
-      "timestamp": "2026-05-17T07:25:26.986013+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_8",
-      "github": "ykkkx/ICS_28",
-      "score": 0.004970903063860787,
-      "latency": 70832.2,
-      "timestamp": "2026-05-17T03:30:41.475635+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.004638790884202816,
-      "latency": 75903.4,
-      "timestamp": "2026-05-13T04:53:48.938812+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T07:27:58.456477+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

@@ -1,47 +1,6 @@
 {
   "problem_id": "091",
   "problem_name": "091_Matrix_inverse",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 236.33333333333337,
-      "latency": 1.2,
-      "timestamp": "2026-05-16T16:19:36.217885+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 236.33333333333337,
-      "latency": 1.2,
-      "timestamp": "2026-05-16T16:19:36.530374+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 109.07692307692308,
-      "latency": 2.6,
-      "timestamp": "2026-05-16T16:11:49.664275+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 48.896551724137936,
-      "latency": 5.8,
-      "timestamp": "2026-05-12T17:53:07.599493+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 11.253968253968255,
-      "latency": 25.2,
-      "timestamp": "2026-05-16T18:03:11.825307+00:00"
-    }
-  ],
-  "last_updated": "2026-05-16T18:07:49.400090+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

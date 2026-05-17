@@ -1,47 +1,6 @@
 {
   "problem_id": "015",
   "problem_name": "015_Matmul_for_lower_triangular_matrices",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 3.1174264281592614,
-      "latency": 2079.6,
-      "timestamp": "2026-05-17T04:18:38.391603+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 3.116227648529129,
-      "latency": 2080.4,
-      "timestamp": "2026-05-17T04:18:29.049731+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 1.5318274183639715,
-      "latency": 4232.2,
-      "timestamp": "2026-05-17T11:50:42.544562+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.8705051427343772,
-      "latency": 7447.4,
-      "timestamp": "2026-05-16T07:58:14.037124+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.12048618209526642,
-      "latency": 53807.0,
-      "timestamp": "2026-05-17T03:23:11.454641+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T11:52:13.884109+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

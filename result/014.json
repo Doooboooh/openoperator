@@ -1,23 +1,6 @@
 {
   "problem_id": "014",
   "problem_name": "014_4D_tensor_matrix_multiplication",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.9934899260365359,
-      "latency": 37234.6,
-      "timestamp": "2026-05-17T03:54:50.067954+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.9872115800317041,
-      "latency": 37471.4,
-      "timestamp": "2026-05-17T03:57:31.438501+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T03:59:27.331592+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

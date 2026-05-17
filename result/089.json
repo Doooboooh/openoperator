@@ -1,31 +1,6 @@
 {
   "problem_id": "089",
   "problem_name": "089_Diagonal_extraction",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.08914728682170542,
-      "latency": 25.8,
-      "timestamp": "2026-05-17T08:29:39.664041+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.08778625954198473,
-      "latency": 26.2,
-      "timestamp": "2026-05-17T10:18:13.829798+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_8",
-      "github": "ykkkx/ICS_28",
-      "score": 0.018370607028753993,
-      "latency": 125.2,
-      "timestamp": "2026-05-17T03:17:55.906557+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T10:20:41.997762+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

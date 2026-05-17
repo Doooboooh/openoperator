@@ -1,23 +1,6 @@
 {
   "problem_id": "105",
   "problem_name": "105_Embedding_lookup",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.9436717663421417,
-      "latency": 143.8,
-      "timestamp": "2026-05-17T09:19:37.122694+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.9371546961325965,
-      "latency": 144.8,
-      "timestamp": "2026-05-17T09:19:35.579704+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T09:24:51.619949+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }

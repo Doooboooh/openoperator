@@ -4,76 +4,12 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 9.954545454545453,
-      "latency": 4.4,
-      "timestamp": "2026-05-12T05:02:57.896445+00:00"
-    },
-    {
-      "rank": 2,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 9.954545454545453,
-      "latency": 4.4,
-      "timestamp": "2026-05-12T04:59:13.089583+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 6.083333333333333,
-      "latency": 7.2,
-      "timestamp": "2026-05-16T18:18:47.395159+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 5.093023255813954,
-      "latency": 8.6,
-      "timestamp": "2026-05-13T02:04:31.033218+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 3.3181818181818183,
-      "latency": 13.2,
-      "timestamp": "2026-05-13T03:52:14.064397+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_55",
-      "github": "Ianthe1128/AICS-BangC_Game-17-7",
-      "score": 0.5264423076923076,
-      "latency": 83.2,
-      "timestamp": "2026-05-13T15:56:51.957896+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.24773755656108595,
-      "latency": 176.8,
-      "timestamp": "2026-05-17T03:01:01.805427+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.04596977329974811,
-      "latency": 952.8,
-      "timestamp": "2026-05-15T13:40:51.724075+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.04385262314777733,
-      "latency": 998.8,
-      "timestamp": "2026-05-13T03:32:02.005125+00:00"
+      "score": 3.084893308947162,
+      "latency": 35.405438393354416,
+      "timestamp": "2026-05-17T13:25:18.557000+00:00"
     }
   ],
-  "last_updated": "2026-05-17T03:03:37.488452+00:00"
+  "last_updated": "2026-05-17T13:26:55.818089+00:00"
 }

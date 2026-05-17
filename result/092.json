@@ -1,47 +1,6 @@
 {
   "problem_id": "092",
   "problem_name": "092_SVD_decomposition",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 11.842507679755151,
-      "latency": 53191.8,
-      "timestamp": "2026-05-16T11:23:00.001603+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 11.390830183902644,
-      "latency": 55301.0,
-      "timestamp": "2026-05-16T11:37:37.059449+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 6.3979635780086745,
-      "latency": 98457.0,
-      "timestamp": "2026-05-15T08:08:09.117633+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 1.8242593128556095,
-      "latency": 96763.14806565642,
-      "timestamp": "2026-05-17T12:33:08.434994+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.6626131258607116,
-      "latency": 950666.8,
-      "timestamp": "2026-05-17T03:24:29.068420+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T12:37:29.363344+00:00"
+  "results": [],
+  "last_updated": "2026-05-17T13:20:31.333183+00:00"
 }
