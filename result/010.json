@@ -1,6 +1,15 @@
 {
   "problem_id": "010",
   "problem_name": "010_conv_standard_2D__square_input__square_kernel",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.009237318817733056,
+      "latency": 136050.84167793393,
+      "timestamp": "2026-05-17T13:37:36.543424+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:42:16.924313+00:00"
 }

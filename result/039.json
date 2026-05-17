@@ -4,6 +4,22 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.36041106094691605,
+      "latency": 14842.887967824936,
+      "timestamp": "2026-05-17T13:39:09.665832+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 0.007350836357921322,
+      "latency": 727745.8971366286,
+      "timestamp": "2026-05-17T13:38:05.021386+00:00"
+    },
+    {
+      "rank": 3,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0019119378877743346,
@@ -11,5 +27,5 @@
       "timestamp": "2026-05-17T13:27:19.437127+00:00"
     }
   ],
-  "last_updated": "2026-05-17T13:32:01.315390+00:00"
+  "last_updated": "2026-05-17T13:42:16.923618+00:00"
 }

@@ -1,6 +1,15 @@
 {
   "problem_id": "088",
   "problem_name": "088_Matrix_trace",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.00019246319964080397,
+      "latency": 410348.57649356127,
+      "timestamp": "2026-05-17T13:37:01.276167+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:42:16.919783+00:00"
 }

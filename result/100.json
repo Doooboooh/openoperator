@@ -1,6 +1,15 @@
 {
   "problem_id": "100",
   "problem_name": "100_Adaptive_Max_Pool_2D",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 1.0938433799821745,
+      "latency": 2821.5328231453896,
+      "timestamp": "2026-05-17T13:40:14.901677+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:42:16.923179+00:00"
 }

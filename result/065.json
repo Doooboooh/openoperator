@@ -1,6 +1,15 @@
 {
   "problem_id": "065",
   "problem_name": "065_lpmax_cleanup",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 1.0017392086909642,
+      "latency": 105.3767278790474,
+      "timestamp": "2026-05-17T13:37:58.264331+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:42:16.924985+00:00"
 }
