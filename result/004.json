@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.04177023129932201,
+      "latency": 302244.8908537626,
+      "timestamp": "2026-05-17T15:39:51.702024+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.02474154797707509,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-17T13:32:38.107033+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.008046786310551625,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-17T15:08:17.469403+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.00503866634617753,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-17T15:09:13.747441+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.004970978897705316,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-17T13:30:09.392718+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.004469298079709482,
@@ -75,20 +83,12 @@
       "timestamp": "2026-05-17T14:04:50.650284+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0017320561279267847,
       "latency": 7288931.805640459,
       "timestamp": "2026-05-17T14:31:57.929736+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.0009671354063797613,
-      "latency": 13053848.423622549,
-      "timestamp": "2026-05-17T15:13:16.185414+00:00"
     },
     {
       "rank": 12,
@@ -107,5 +107,5 @@
       "timestamp": "2026-05-17T13:25:53.557141+00:00"
     }
   ],
-  "last_updated": "2026-05-17T15:29:19.226653+00:00"
+  "last_updated": "2026-05-17T15:44:35.479206+00:00"
 }
