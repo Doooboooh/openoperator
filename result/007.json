@@ -1,6 +1,15 @@
 {
   "problem_id": "007",
   "problem_name": "007_conv_depthwise_separable_2D",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.0384721811610118,
+      "latency": 1346.4780524373055,
+      "timestamp": "2026-05-17T13:31:57.338626+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:37:12.245159+00:00"
 }

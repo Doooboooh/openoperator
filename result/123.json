@@ -1,6 +1,15 @@
 {
   "problem_id": "123",
   "problem_name": "123_Masked_cumsum",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.09977783123716572,
+      "latency": 927.3202158510685,
+      "timestamp": "2026-05-17T13:35:58.129504+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:37:12.242791+00:00"
 }

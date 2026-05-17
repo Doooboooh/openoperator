@@ -1,6 +1,23 @@
 {
   "problem_id": "138",
   "problem_name": "138_GRU_forward",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.14244866621890456,
+      "latency": 150078.74462753534,
+      "timestamp": "2026-05-17T13:33:31.508809+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 0.025731072048883183,
+      "latency": 830844.3954214454,
+      "timestamp": "2026-05-17T13:35:56.624441+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:37:12.242301+00:00"
 }

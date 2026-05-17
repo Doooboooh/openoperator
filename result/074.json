@@ -1,6 +1,23 @@
 {
   "problem_id": "074",
   "problem_name": "074_Std_reduction_over_dim",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 1.0075532532401028,
+      "latency": 104.07688096165657,
+      "timestamp": "2026-05-17T13:34:23.336977+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 6.695602119265134e-05,
+      "latency": 1566147.422324866,
+      "timestamp": "2026-05-17T13:31:59.200215+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T13:37:12.249237+00:00"
 }
