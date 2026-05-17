@@ -38,9 +38,9 @@
       "rank": 5,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 0.033915941087634946,
-      "latency": 13163.249660283327,
-      "timestamp": "2026-05-17T13:51:54.569445+00:00"
+      "score": 0.03393161635057678,
+      "latency": 13157.168682664633,
+      "timestamp": "2026-05-17T14:13:18.285678+00:00"
     },
     {
       "rank": 6,
@@ -52,6 +52,14 @@
     },
     {
       "rank": 7,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 0.0031065964040338625,
+      "latency": 143708.40042829514,
+      "timestamp": "2026-05-17T14:16:15.323591+00:00"
+    },
+    {
+      "rank": 8,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0004749360291951429,
@@ -59,15 +67,15 @@
       "timestamp": "2026-05-17T13:28:08.933744+00:00"
     },
     {
-      "rank": 8,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 0.00047270061588247306,
-      "latency": 944454.0265016258,
-      "timestamp": "2026-05-17T13:37:41.270964+00:00"
+      "rank": 9,
+      "user": "算不懂",
+      "github": "caozhining/suanbudong_openoperator",
+      "score": 0.0004662098036452437,
+      "latency": 957603.2003387809,
+      "timestamp": "2026-05-17T14:17:37.675383+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.00038906923529746074,
@@ -75,5 +83,5 @@
       "timestamp": "2026-05-17T13:55:30.935297+00:00"
     }
   ],
-  "last_updated": "2026-05-17T14:07:44.437439+00:00"
+  "last_updated": "2026-05-17T14:17:57.684551+00:00"
 }

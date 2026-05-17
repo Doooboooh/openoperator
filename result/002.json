@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 1.9035751218748485,
+      "latency": 4347.015731036663,
+      "timestamp": "2026-05-17T14:15:47.250316+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 1.7555987826393047,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-17T14:10:45.774893+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 1.5796141715038488,
@@ -43,20 +51,12 @@
       "timestamp": "2026-05-17T13:57:15.353404+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.6562787795593352,
       "latency": 12608.774285763502,
       "timestamp": "2026-05-17T14:10:52.599845+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.6543665270675453,
-      "latency": 12645.620852708817,
-      "timestamp": "2026-05-17T13:40:14.901677+00:00"
     },
     {
       "rank": 8,
@@ -99,5 +99,5 @@
       "timestamp": "2026-05-17T13:32:03.915377+00:00"
     }
   ],
-  "last_updated": "2026-05-17T14:12:50.420881+00:00"
+  "last_updated": "2026-05-17T14:17:57.680522+00:00"
 }
