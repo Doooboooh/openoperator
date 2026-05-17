@@ -1,6 +1,15 @@
 {
   "problem_id": "112",
   "problem_name": "112_Index_put",
-  "results": [],
-  "last_updated": "2026-05-17T13:20:31.333183+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.8208685520081712,
+      "latency": 120.72212994098663,
+      "timestamp": "2026-05-17T14:37:44.262191+00:00"
+    }
+  ],
+  "last_updated": "2026-05-17T14:38:19.513295+00:00"
 }
