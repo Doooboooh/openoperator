@@ -1,6 +1,15 @@
 {
   "problem_id": "113",
   "problem_name": "113_Upsample_nearest",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.04170938933292527,
+      "latency": 3545.172978192568,
+      "timestamp": "2026-05-18T05:53:00.012627+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:53:41.750866+00:00"
 }

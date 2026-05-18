@@ -1,6 +1,31 @@
 {
   "problem_id": "034",
   "problem_name": "034_Argmax_over_a_dimension",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.008220397947312646,
+      "latency": 5348.889467616876,
+      "timestamp": "2026-05-18T05:48:20.268104+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.0076355238618248805,
+      "latency": 5758.609467496474,
+      "timestamp": "2026-05-18T05:48:20.527122+00:00"
+    },
+    {
+      "rank": 3,
+      "user": "养老组",
+      "github": "Ace-Eternal/op_retirement",
+      "score": 0.002071414056391015,
+      "latency": 21227.045295139153,
+      "timestamp": "2026-05-18T05:48:19.691784+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:53:41.751068+00:00"
 }

@@ -1,6 +1,15 @@
 {
   "problem_id": "053",
   "problem_name": "053_cumsum_reverse",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 1.755458269965196e-05,
+      "latency": 8114747.15390553,
+      "timestamp": "2026-05-18T05:49:57.825729+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:53:41.754895+00:00"
 }

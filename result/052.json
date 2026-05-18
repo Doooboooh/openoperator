@@ -1,6 +1,15 @@
 {
   "problem_id": "052",
   "problem_name": "052_cumsum_exclusive",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.015656337718923462,
+      "latency": 6510.015421857436,
+      "timestamp": "2026-05-18T05:50:43.602269+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:53:41.751321+00:00"
 }

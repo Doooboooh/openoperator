@@ -1,6 +1,15 @@
 {
   "problem_id": "063",
   "problem_name": "063_calc_block_sums",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 3.8143152247028627e-06,
+      "latency": 7549454.699891309,
+      "timestamp": "2026-05-18T05:49:21.968823+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:53:41.755305+00:00"
 }

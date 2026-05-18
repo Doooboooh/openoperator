@@ -1,6 +1,15 @@
 {
   "problem_id": "077",
   "problem_name": "077_LogSumExp_over_dim",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.04553583477027006,
+      "latency": 2398.59443778793,
+      "timestamp": "2026-05-18T05:48:19.830977+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:53:41.755497+00:00"
 }

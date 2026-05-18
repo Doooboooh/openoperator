@@ -1,6 +1,15 @@
 {
   "problem_id": "007",
   "problem_name": "007_conv_depthwise_separable_2D",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.02249317480161031,
+      "latency": 62164.63493183255,
+      "timestamp": "2026-05-18T05:52:27.210509+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:53:41.752826+00:00"
 }
