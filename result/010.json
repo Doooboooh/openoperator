@@ -58,6 +58,14 @@
     },
     {
       "rank": 7,
+      "user": "team_80",
+      "github": "MariyaSuwako/openoperator-start-kit",
+      "score": 7.926512723499604e-05,
+      "latency": 15854954.679807028,
+      "timestamp": "2026-05-18T14:41:55.032808+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 5.2196265108642104e-05,
@@ -66,7 +74,7 @@
       "commit_sha": "fcea15240699c6c961c56f58b83ea1c76794d620"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 5.055520646121737e-05,
@@ -75,5 +83,5 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     }
   ],
-  "last_updated": "2026-05-18T08:46:33.723079+00:00"
+  "last_updated": "2026-05-18T14:46:21.968138+00:00"
 }
