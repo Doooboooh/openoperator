@@ -4,6 +4,22 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.6303714241466831,
+      "latency": 19.66729760169983,
+      "timestamp": "2026-05-18T01:48:51.114815+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.3712902007599352,
+      "latency": 23.383088409900665,
+      "timestamp": "2026-05-18T01:46:20.275397+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.769380165376751,
@@ -11,7 +27,7 @@
       "timestamp": "2026-05-17T16:03:55.594114+00:00"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.7239969800432343,
@@ -19,7 +35,7 @@
       "timestamp": "2026-05-17T16:49:14.130668+00:00"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.6834822851321225,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-17T13:31:04.739868+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.6021370048489915,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-17T15:13:18.075379+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.5613019445563731,
@@ -43,7 +59,7 @@
       "timestamp": "2026-05-17T14:18:28.300954+00:00"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.5429788953952618,
@@ -51,7 +67,7 @@
       "timestamp": "2026-05-17T14:10:45.774893+00:00"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.02559286540783934,
@@ -59,7 +75,7 @@
       "timestamp": "2026-05-17T15:05:35.494190+00:00"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.005708041932539509,
@@ -67,5 +83,5 @@
       "timestamp": "2026-05-17T14:32:55.085360+00:00"
     }
   ],
-  "last_updated": "2026-05-18T01:40:11.160960+00:00"
+  "last_updated": "2026-05-18T01:50:12.825912+00:00"
 }
