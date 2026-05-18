@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.6601842589429571,
+      "latency": 43.824128806591034,
+      "timestamp": "2026-05-18T02:37:26.209937+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.6529547689623514,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-17T15:24:03.530945+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.6127667746669533,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-17T16:49:21.975863+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.5689120329780185,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-17T15:06:29.383355+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.4086667594353346,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-17T15:35:19.622726+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.2752523079264836,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-17T14:40:32.832082+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.018223287299207847,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-17T17:15:47.803387+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.004458341503762046,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-17T15:36:47.886119+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0006040509186700556,
@@ -75,5 +83,5 @@
       "timestamp": "2026-05-17T14:46:20.606704+00:00"
     }
   ],
-  "last_updated": "2026-05-18T02:35:49.590261+00:00"
+  "last_updated": "2026-05-18T02:40:55.059966+00:00"
 }

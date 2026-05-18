@@ -12,14 +12,22 @@
     },
     {
       "rank": 2,
-      "user": "team_91",
+      "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 1.9458244943154737,
-      "latency": 172.74990677833557,
-      "timestamp": "2026-05-18T02:35:19.747883+00:00"
+      "score": 1.9925551509241213,
+      "latency": 168.69846731424332,
+      "timestamp": "2026-05-18T02:40:09.593571+00:00"
     },
     {
       "rank": 3,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.989292352393625,
+      "latency": 168.97516325116158,
+      "timestamp": "2026-05-18T02:39:36.521080+00:00"
+    },
+    {
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.2053684245965943,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-17T15:32:10.341615+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 1.0758067625919132,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-17T14:48:59.676028+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 1.0411321289423987,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-18T02:14:16.945877+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.16830787649634601,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-17T16:38:15.786949+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.009371628747550863,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-17T14:02:54.597066+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0007566141231383607,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-17T14:03:33.558845+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.00035208432726314135,
@@ -75,5 +83,5 @@
       "timestamp": "2026-05-17T16:17:52.170258+00:00"
     }
   ],
-  "last_updated": "2026-05-18T02:35:49.591074+00:00"
+  "last_updated": "2026-05-18T02:40:55.051531+00:00"
 }
