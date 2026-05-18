@@ -138,21 +138,21 @@
     },
     {
       "rank": 16,
+      "user": "智能人工",
+      "github": "asfdf-sudo/goodluck",
+      "score": 0.0010108828812272312,
+      "latency": 71060.6553281347,
+      "timestamp": "2026-05-18T15:55:47.285944+00:00",
+      "commit_sha": "978afd5178348f16f33a534672b656bf81395e67"
+    },
+    {
+      "rank": 17,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0010096678916119309,
       "latency": 71146.16657296817,
       "timestamp": "2026-05-18T05:46:39.573503+00:00",
       "commit_sha": "5ea39637d48b08d86f91c772961a1cd02f4894ae"
-    },
-    {
-      "rank": 17,
-      "user": "智能人工",
-      "github": "asfdf-sudo/goodluck",
-      "score": 0.0010068865774236471,
-      "latency": 71342.69302090009,
-      "timestamp": "2026-05-18T06:30:44.352834+00:00",
-      "commit_sha": "978afd5178348f16f33a534672b656bf81395e67"
     },
     {
       "rank": 18,
@@ -235,5 +235,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-05-18T14:41:15.735089+00:00"
+  "last_updated": "2026-05-18T15:57:29.281192+00:00"
 }
