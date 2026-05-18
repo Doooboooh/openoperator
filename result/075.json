@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "算不懂",
+      "github": "caozhining/suanbudong_openoperator",
+      "score": 0.003458567237514926,
+      "latency": 8294.764285286268,
+      "timestamp": "2026-05-18T06:17:25.514640+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.002650858381378336,
@@ -43,7 +51,15 @@
       "timestamp": "2026-05-18T06:07:08.389208+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "user": "team_12",
+      "github": "yinuo222/kernel-competition-group40",
+      "score": 0.002094792001038844,
+      "latency": 13694.915765275558,
+      "timestamp": "2026-05-18T06:17:28.701402+00:00"
+    },
+    {
+      "rank": 8,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 1.469403601592024e-06,
@@ -51,5 +67,5 @@
       "timestamp": "2026-05-18T05:59:48.014631+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:14:01.499262+00:00"
+  "last_updated": "2026-05-18T06:19:06.018167+00:00"
 }

@@ -1,6 +1,15 @@
 {
   "problem_id": "100",
   "problem_name": "100_Adaptive_Max_Pool_2D",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.9939201377707051,
+      "latency": 3105.1941526432834,
+      "timestamp": "2026-05-18T06:17:38.749658+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:19:06.017504+00:00"
 }

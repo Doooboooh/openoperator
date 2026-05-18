@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.2094399426667343,
+      "latency": 2285.8581505715847,
+      "timestamp": "2026-05-18T06:15:28.677444+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.003793204805390656,
@@ -11,5 +19,5 @@
       "timestamp": "2026-05-18T06:08:58.092640+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:14:01.491634+00:00"
+  "last_updated": "2026-05-18T06:19:06.012755+00:00"
 }

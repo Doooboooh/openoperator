@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.1381011232715652,
+      "latency": 38736.40469585856,
+      "timestamp": "2026-05-18T06:15:42.811653+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.07817030317050098,
@@ -11,7 +19,15 @@
       "timestamp": "2026-05-18T06:02:28.107864+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "user": "算不懂",
+      "github": "caozhining/suanbudong_openoperator",
+      "score": 0.011371426535693578,
+      "latency": 470437.10683162016,
+      "timestamp": "2026-05-18T06:17:47.902564+00:00"
+    },
+    {
+      "rank": 4,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0019439349502813638,
@@ -19,7 +35,7 @@
       "timestamp": "2026-05-18T05:48:26.245374+00:00"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.00020855307137194033,
@@ -27,5 +43,5 @@
       "timestamp": "2026-05-18T06:01:42.693057+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:03:51.641470+00:00"
+  "last_updated": "2026-05-18T06:19:06.018561+00:00"
 }

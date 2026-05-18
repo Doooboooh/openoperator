@@ -1,6 +1,15 @@
 {
   "problem_id": "055",
   "problem_name": "055_binned_scatter",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.21485148795780049,
+      "latency": 2610.7941133280597,
+      "timestamp": "2026-05-18T06:15:28.677444+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:19:06.014449+00:00"
 }
