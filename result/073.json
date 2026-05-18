@@ -4,30 +4,30 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.09937159257921246,
+      "latency": 389.8800350725651,
+      "timestamp": "2026-05-18T15:00:25.680976+00:00",
+      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.09374407364148658,
+      "latency": 413.2847922543685,
+      "timestamp": "2026-05-18T15:00:25.959015+00:00",
+      "commit_sha": "24a2f11606e9bddeacea1a87b0f4156aa986fb8f"
+    },
+    {
+      "rank": 3,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.017422413815435963,
       "latency": 2223.744678000609,
       "timestamp": "2026-05-18T09:16:37.878376+00:00",
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.016825095891526073,
-      "latency": 2302.691185226043,
-      "timestamp": "2026-05-18T08:24:31.012076+00:00",
-      "commit_sha": "24a2f11606e9bddeacea1a87b0f4156aa986fb8f"
-    },
-    {
-      "rank": 3,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.016278338127166624,
-      "latency": 2380.034110198418,
-      "timestamp": "2026-05-18T09:57:06.551327+00:00",
-      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 4,
@@ -111,5 +111,5 @@
       "commit_sha": "f82ca719f6f612388a0c79c3679eb25feca8f2db"
     }
   ],
-  "last_updated": "2026-05-18T09:57:44.017842+00:00"
+  "last_updated": "2026-05-18T15:01:32.184534+00:00"
 }
