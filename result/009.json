@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.005810386906677899,
+      "latency": 12363.032127420107,
+      "timestamp": "2026-05-18T06:48:49.160343+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.001106501700404154,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-18T06:24:51.941861+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0010096678916119309,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-18T05:46:39.573503+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.0010068865774236471,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-18T06:30:44.352834+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.0009761930160165704,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-18T06:31:59.958895+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0009585255233556244,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-18T05:48:27.440769+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0009490839448820243,
@@ -67,20 +75,12 @@
       "timestamp": "2026-05-18T06:16:18.903500+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0005464028530010142,
       "latency": 131467.10271636644,
       "timestamp": "2026-05-18T06:01:42.693057+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.00047543508095006595,
-      "latency": 151091.08031416932,
-      "timestamp": "2026-05-18T06:02:28.107864+00:00"
     },
     {
       "rank": 11,
@@ -99,5 +99,5 @@
       "timestamp": "2026-05-18T05:46:46.130578+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:44:32.722797+00:00"
+  "last_updated": "2026-05-18T06:49:37.406772+00:00"
 }

@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.05054691506969498,
+      "latency": 8832.269969085852,
+      "timestamp": "2026-05-18T06:48:49.160343+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.024170797184986933,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T06:25:19.093070+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.006108291533591546,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-18T05:46:27.289972+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0008032829328134514,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-18T06:27:54.990333+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0005021948642612806,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-18T06:28:52.168804+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00047268859649486026,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-18T05:48:27.440769+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.0004687495104149421,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-18T06:31:59.958895+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.00046548914499207035,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-18T06:17:25.514640+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0002638351005714643,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-18T05:47:16.995561+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 1.8458499143140315e-05,
@@ -75,5 +83,5 @@
       "timestamp": "2026-05-18T06:14:26.960051+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:34:22.057966+00:00"
+  "last_updated": "2026-05-18T06:49:37.407273+00:00"
 }
