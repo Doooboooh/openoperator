@@ -22,6 +22,15 @@
     },
     {
       "rank": 3,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.011933823398984326,
+      "latency": 2402.834283808867,
+      "timestamp": "2026-05-18T14:36:40.112566+00:00",
+      "commit_sha": "ae33eaf5718367316c02cdcec207923131b0cc44"
+    },
+    {
+      "rank": 4,
       "user": "智算第九组",
       "github": "silent-Ning9/BangC09",
       "score": 0.011877979758220338,
@@ -30,7 +39,7 @@
       "commit_sha": "049a30c15308425464accbb92372293b0435f5db"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.011805125829847255,
@@ -39,7 +48,7 @@
       "commit_sha": "901dae5eab19b8c9a9061b33bf45321d99a123c4"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.011770539831840766,
@@ -48,7 +57,7 @@
       "commit_sha": "5b9c70d078ced299977d8a7cca88ac9a8f6f330f"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.011529058836959585,
@@ -57,22 +66,13 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.011445979948930375,
       "latency": 2505.246394624313,
       "timestamp": "2026-05-18T09:33:33.784660+00:00",
       "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
-    },
-    {
-      "rank": 8,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.010985372234071911,
-      "latency": 2610.289336492618,
-      "timestamp": "2026-05-18T06:27:51.390361+00:00",
-      "commit_sha": "ae33eaf5718367316c02cdcec207923131b0cc44"
     },
     {
       "rank": 9,
@@ -110,5 +110,5 @@
       "timestamp": "2026-05-18T13:58:49.350724+00:00"
     }
   ],
-  "last_updated": "2026-05-18T14:00:29.048311+00:00"
+  "last_updated": "2026-05-18T14:41:15.732879+00:00"
 }
