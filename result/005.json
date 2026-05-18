@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.2828831214803064,
+      "latency": 25774.022719512384,
+      "timestamp": "2026-05-18T06:02:02.423432+00:00"
+    },
+    {
+      "rank": 2,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.12747342568504752,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T05:56:45.576660+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00484106386170915,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-18T05:48:27.440769+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0006046712996282452,
@@ -27,5 +35,5 @@
       "timestamp": "2026-05-18T05:48:08.685642+00:00"
     }
   ],
-  "last_updated": "2026-05-18T05:58:46.565263+00:00"
+  "last_updated": "2026-05-18T06:03:51.647562+00:00"
 }

@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.0084576101570102,
+      "latency": 112790.25425513585,
+      "timestamp": "2026-05-18T06:02:28.107864+00:00"
+    },
+    {
+      "rank": 2,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.002212519235213821,
@@ -11,5 +19,5 @@
       "timestamp": "2026-05-18T05:46:37.233005+00:00"
     }
   ],
-  "last_updated": "2026-05-18T05:48:35.987857+00:00"
+  "last_updated": "2026-05-18T06:03:51.642851+00:00"
 }

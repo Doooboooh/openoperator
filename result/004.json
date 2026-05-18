@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.13310862054106168,
+      "latency": 94846.14105895162,
+      "timestamp": "2026-05-18T06:01:07.270969+00:00"
+    },
+    {
+      "rank": 2,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0049854995016796405,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T05:47:25.654042+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.000545711368974425,
@@ -19,5 +27,5 @@
       "timestamp": "2026-05-18T05:48:12.481192+00:00"
     }
   ],
-  "last_updated": "2026-05-18T05:53:41.754215+00:00"
+  "last_updated": "2026-05-18T06:03:51.647235+00:00"
 }
