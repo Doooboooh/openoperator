@@ -1,6 +1,15 @@
 {
   "problem_id": "097",
   "problem_name": "097_PixelShuffle",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.005163703862835181,
+      "latency": 10895.086452364922,
+      "timestamp": "2026-05-18T05:55:18.030721+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:58:46.563194+00:00"
 }

@@ -1,6 +1,15 @@
 {
   "problem_id": "044",
   "problem_name": "044_HingeLoss",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 1.629455068315619e-05,
+      "latency": 4255901.334652056,
+      "timestamp": "2026-05-18T05:57:14.663002+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:58:46.561784+00:00"
 }

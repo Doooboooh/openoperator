@@ -1,6 +1,15 @@
 {
   "problem_id": "067",
   "problem_name": "067_renormRowsL1",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.0002495782318739797,
+      "latency": 322279.70923607546,
+      "timestamp": "2026-05-18T05:56:15.793374+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:58:46.562139+00:00"
 }

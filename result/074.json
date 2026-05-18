@@ -1,6 +1,23 @@
 {
   "problem_id": "074",
   "problem_name": "074_Std_reduction_over_dim",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.000318643168033518,
+      "latency": 329092.2590531409,
+      "timestamp": "2026-05-18T05:56:16.035262+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 2.5408314726142752e-05,
+      "latency": 4127113.5504357517,
+      "timestamp": "2026-05-18T05:57:31.432914+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:58:46.565589+00:00"
 }

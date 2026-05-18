@@ -1,6 +1,15 @@
 {
   "problem_id": "006",
   "problem_name": "006_conv_depthwise_2D_square_input_square_kernel",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.017241539691119766,
+      "latency": 19495.99664658308,
+      "timestamp": "2026-05-18T05:57:14.950661+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:58:46.564959+00:00"
 }

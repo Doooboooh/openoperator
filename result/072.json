@@ -1,6 +1,15 @@
 {
   "problem_id": "072",
   "problem_name": "072_ElementwiseAdd",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.07090838809498104,
+      "latency": 2919.3020115296044,
+      "timestamp": "2026-05-18T05:56:16.035262+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:58:46.563505+00:00"
 }

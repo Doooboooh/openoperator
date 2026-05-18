@@ -1,6 +1,23 @@
 {
   "problem_id": "008",
   "problem_name": "008_conv_pointwise_2D",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.31579414483184326,
+      "latency": 3806.0712007184825,
+      "timestamp": "2026-05-18T05:56:44.026931+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.12334063800338273,
+      "latency": 9744.84176064531,
+      "timestamp": "2026-05-18T05:55:18.127960+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T05:58:46.563980+00:00"
 }
