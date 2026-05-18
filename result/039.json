@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.7574941883818864,
+      "latency": 7062.154511610667,
+      "timestamp": "2026-05-18T07:29:54.846671+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.6816957807331121,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T07:10:34.284403+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.5564957991153641,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-18T06:31:59.958895+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.1381011232715652,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-18T06:15:42.811653+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.08906221094880955,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-18T06:31:07.242097+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.08229607876431023,
@@ -43,20 +51,12 @@
       "timestamp": "2026-05-18T06:58:02.917280+00:00"
     },
     {
-      "rank": 6,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.05533869514777372,
-      "latency": 96669.08454770844,
-      "timestamp": "2026-05-18T07:22:44.624391+00:00"
-    },
-    {
       "rank": 7,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
-      "score": 0.011371426535693578,
-      "latency": 470437.10683162016,
-      "timestamp": "2026-05-18T06:17:47.902564+00:00"
+      "score": 0.01138388030853849,
+      "latency": 469922.4565799038,
+      "timestamp": "2026-05-18T07:27:31.433369+00:00"
     },
     {
       "rank": 8,
@@ -123,5 +123,5 @@
       "timestamp": "2026-05-18T06:01:42.693057+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:25:14.564201+00:00"
+  "last_updated": "2026-05-18T07:30:19.328148+00:00"
 }
