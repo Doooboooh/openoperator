@@ -12,19 +12,19 @@
     },
     {
       "rank": 2,
-      "user": "team_42",
+      "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.1241318711050413,
-      "latency": 2590.1244953274727,
-      "timestamp": "2026-05-18T08:41:01.586371+00:00"
+      "score": 0.12540976669708723,
+      "latency": 2563.7317448854446,
+      "timestamp": "2026-05-18T09:18:18.609486+00:00"
     },
     {
       "rank": 3,
-      "user": "team_91",
+      "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.12381785121121783,
-      "latency": 2596.693423887094,
-      "timestamp": "2026-05-18T08:41:03.296118+00:00"
+      "score": 0.12485833045676567,
+      "latency": 2575.0544543067613,
+      "timestamp": "2026-05-18T09:18:22.475240+00:00"
     },
     {
       "rank": 4,
@@ -44,12 +44,28 @@
     },
     {
       "rank": 6,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.054217190085354645,
+      "latency": 5930.167157202959,
+      "timestamp": "2026-05-18T09:19:32.058156+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01425467362085249,
       "latency": 22555.19898608327,
       "timestamp": "2026-05-18T08:47:07.072280+00:00"
+    },
+    {
+      "rank": 8,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.01380682553739524,
+      "latency": 23286.815577497084,
+      "timestamp": "2026-05-18T09:20:52.999242+00:00"
     }
   ],
-  "last_updated": "2026-05-18T09:01:53.307301+00:00"
+  "last_updated": "2026-05-18T09:22:12.543518+00:00"
 }
