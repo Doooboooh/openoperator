@@ -31,6 +31,15 @@
     },
     {
       "rank": 4,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.022988927681154982,
+      "latency": 2447.221583376328,
+      "timestamp": "2026-05-18T17:18:24.230900+00:00",
+      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
+    },
+    {
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.022969319536236613,
@@ -39,22 +48,13 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.022566320817530666,
       "latency": 2493.0515016118684,
       "timestamp": "2026-05-18T16:07:28.064982+00:00",
       "commit_sha": "49516f907efecfd0c079ed4463ca28dc9a8b3ce1"
-    },
-    {
-      "rank": 6,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.02239315941279366,
-      "latency": 2512.32972368598,
-      "timestamp": "2026-05-18T09:57:06.551327+00:00",
-      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 7,
@@ -75,5 +75,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-05-18T16:12:46.387709+00:00"
+  "last_updated": "2026-05-18T17:23:15.427220+00:00"
 }
