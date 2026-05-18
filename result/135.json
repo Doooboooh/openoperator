@@ -12,14 +12,30 @@
     },
     {
       "rank": 2,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.010784624888559016,
-      "latency": 208989.55905189118,
-      "timestamp": "2026-05-18T06:39:54.032879+00:00"
+      "user": "team_29",
+      "github": "duroey/openoperator-basic",
+      "score": 0.05929034801197668,
+      "latency": 38014.180647830166,
+      "timestamp": "2026-05-18T07:49:22.593982+00:00"
     },
     {
       "rank": 3,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.011832747128180884,
+      "latency": 190477.6613228023,
+      "timestamp": "2026-05-18T07:47:26.153520+00:00"
+    },
+    {
+      "rank": 4,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.006577823992031154,
+      "latency": 342647.3561363916,
+      "timestamp": "2026-05-18T07:49:33.567047+00:00"
+    },
+    {
+      "rank": 5,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0011972537536526933,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-18T06:14:26.960051+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0011823802622595455,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-18T07:27:31.433369+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0006231031921214363,
@@ -43,7 +59,7 @@
       "timestamp": "2026-05-18T06:24:49.196761+00:00"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0005606605387382861,
@@ -51,7 +67,7 @@
       "timestamp": "2026-05-18T06:04:57.141482+00:00"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.0003330929674082737,
@@ -59,7 +75,7 @@
       "timestamp": "2026-05-18T07:23:02.258845+00:00"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.00031656504600225207,
@@ -67,7 +83,7 @@
       "timestamp": "2026-05-18T06:27:59.193680+00:00"
     },
     {
-      "rank": 9,
+      "rank": 11,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.0003161656072017193,
@@ -75,7 +91,7 @@
       "timestamp": "2026-05-18T07:28:29.291604+00:00"
     },
     {
-      "rank": 10,
+      "rank": 12,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.00013882444067069285,
@@ -83,5 +99,5 @@
       "timestamp": "2026-05-18T06:29:48.989054+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:30:19.326054+00:00"
+  "last_updated": "2026-05-18T07:50:38.759129+00:00"
 }
