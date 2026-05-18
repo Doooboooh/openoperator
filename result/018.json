@@ -1,6 +1,23 @@
 {
   "problem_id": "018",
   "problem_name": "018_Matmul_with_diagonal_matrices_",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 2.3770470248015374,
+      "latency": 2664.869030316671,
+      "timestamp": "2026-05-18T06:21:36.958199+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 1.957739226756231,
+      "latency": 3235.6296045084796,
+      "timestamp": "2026-05-18T06:20:41.922799+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:24:12.455000+00:00"
 }

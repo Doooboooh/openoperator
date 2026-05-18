@@ -4,12 +4,20 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.06854846897224036,
+      "latency": 2581.5747988720736,
+      "timestamp": "2026-05-18T06:20:41.922799+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 0.003713260634074916,
-      "latency": 47657.037153840065,
-      "timestamp": "2026-05-18T06:07:08.389208+00:00"
+      "score": 0.03129990776755668,
+      "latency": 5653.786628196637,
+      "timestamp": "2026-05-18T06:21:55.705643+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:08:56.579830+00:00"
+  "last_updated": "2026-05-18T06:24:12.455249+00:00"
 }

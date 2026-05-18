@@ -1,6 +1,15 @@
 {
   "problem_id": "024",
   "problem_name": "024_Square_matrix_multiplication_",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.013324002363659774,
+      "latency": 62202.25555201372,
+      "timestamp": "2026-05-18T06:20:41.922799+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:24:12.458013+00:00"
 }
