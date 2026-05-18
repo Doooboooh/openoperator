@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.9158577231476568,
+      "latency": 43.55916753411293,
+      "timestamp": "2026-05-18T01:58:05.773289+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.841183826002164,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-17T17:15:47.803387+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.8258342296800064,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-17T13:57:16.334971+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.823435510086446,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-17T14:20:18.232499+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.815768796046757,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-17T16:49:21.975863+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.7914830902358788,
@@ -43,20 +51,12 @@
       "timestamp": "2026-05-17T13:24:52.081230+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.7909744907591799,
       "latency": 50.43651908636093,
       "timestamp": "2026-05-17T14:15:47.250316+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.7356093462104211,
-      "latency": 54.23258990049362,
-      "timestamp": "2026-05-17T14:27:57.451849+00:00"
     },
     {
       "rank": 8,
@@ -187,5 +187,5 @@
       "timestamp": "2026-05-17T15:36:56.565652+00:00"
     }
   ],
-  "last_updated": "2026-05-18T01:40:11.160960+00:00"
+  "last_updated": "2026-05-18T02:00:21.903418+00:00"
 }
