@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_19",
+      "github": "JerryLiu369/openoperator-start-kit-experiment",
+      "score": 0.012435893105230066,
+      "latency": 2232.971911629041,
+      "timestamp": "2026-05-18T08:49:30.669103+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.012392180508409031,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T07:22:44.624391+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.012330848095263122,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-18T08:46:03.641010+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.012320487867029396,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-18T07:53:19.607749+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.012315032824334004,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-18T07:40:00.725823+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.012252222346147545,
@@ -43,20 +51,12 @@
       "timestamp": "2026-05-18T07:01:45.726361+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.01198367706872418,
       "latency": 2317.235339432955,
       "timestamp": "2026-05-18T06:42:23.637274+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_19",
-      "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.011877237865789252,
-      "latency": 2338.0015045404434,
-      "timestamp": "2026-05-18T08:07:15.252044+00:00"
     },
     {
       "rank": 8,
@@ -259,5 +259,5 @@
       "timestamp": "2026-05-18T08:43:30.078519+00:00"
     }
   ],
-  "last_updated": "2026-05-18T08:46:33.709262+00:00"
+  "last_updated": "2026-05-18T08:51:43.125495+00:00"
 }
