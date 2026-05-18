@@ -68,6 +68,14 @@
     },
     {
       "rank": 9,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 0.4830876930661711,
+      "latency": 1974.664255976677,
+      "timestamp": "2026-05-18T03:34:54.601976+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.4231445401997727,
@@ -75,7 +83,7 @@
       "timestamp": "2026-05-17T14:54:19.768244+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.058792919663839,
@@ -83,20 +91,12 @@
       "timestamp": "2026-05-17T13:58:45.515717+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.029829441290779624,
       "latency": 31979.680433869362,
       "timestamp": "2026-05-17T17:09:07.948981+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 0.019942547664279997,
-      "latency": 47834.209352731705,
-      "timestamp": "2026-05-17T13:24:13.282205+00:00"
     },
     {
       "rank": 13,
@@ -139,5 +139,5 @@
       "timestamp": "2026-05-17T13:26:34.738469+00:00"
     }
   ],
-  "last_updated": "2026-05-18T02:40:55.065193+00:00"
+  "last_updated": "2026-05-18T03:36:43.733256+00:00"
 }
