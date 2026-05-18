@@ -6,13 +6,22 @@
       "rank": 1,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.01276038686607808,
-      "latency": 2249.383212377628,
-      "timestamp": "2026-05-18T09:57:06.551327+00:00",
+      "score": 0.05195231560323461,
+      "latency": 552.4874043961366,
+      "timestamp": "2026-05-18T15:40:30.354718+00:00",
       "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.05181338468942595,
+      "latency": 553.9688281714916,
+      "timestamp": "2026-05-18T15:40:38.277322+00:00",
+      "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
+    },
+    {
+      "rank": 3,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.012566853618682523,
@@ -21,7 +30,7 @@
       "commit_sha": "901dae5eab19b8c9a9061b33bf45321d99a123c4"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.012471487901629663,
@@ -30,22 +39,13 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.012392627503068675,
       "latency": 2316.1351370314756,
       "timestamp": "2026-05-18T10:00:51.001717+00:00",
       "commit_sha": "c32f9c42a85e5c86aa02204f7663936d2d6b12b3"
-    },
-    {
-      "rank": 5,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.011681401331352379,
-      "latency": 2457.153828193744,
-      "timestamp": "2026-05-18T09:33:33.784660+00:00",
-      "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
     },
     {
       "rank": 6,
@@ -111,5 +111,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-05-18T10:02:49.618213+00:00"
+  "last_updated": "2026-05-18T15:42:13.577322+00:00"
 }

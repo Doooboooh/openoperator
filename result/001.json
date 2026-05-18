@@ -4,6 +4,24 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.0842948627674075,
+      "latency": 329.42695543169975,
+      "timestamp": "2026-05-18T15:40:30.354718+00:00",
+      "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.08344812060904203,
+      "latency": 332.7696273724238,
+      "timestamp": "2026-05-18T15:40:38.277322+00:00",
+      "commit_sha": "140d0c1f0c84e8ff06464717a6dca6943c26f033"
+    },
+    {
+      "rank": 3,
       "user": "team_19",
       "github": "JerryLiu369/openoperator-start-kit-experiment",
       "score": 0.012435893105230066,
@@ -12,7 +30,7 @@
       "commit_sha": "d758ffbe0b88593d53444b111473989b717a70b8"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.012392180508409031,
@@ -21,31 +39,13 @@
       "commit_sha": "1fa5fc3b827a224bf1015c82150766259f2d397b"
     },
     {
-      "rank": 3,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.012330848095263122,
-      "latency": 2251.9943304359913,
-      "timestamp": "2026-05-18T08:46:03.641010+00:00",
-      "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
-    },
-    {
-      "rank": 4,
+      "rank": 5,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.012320487867029396,
       "latency": 2253.888019671043,
       "timestamp": "2026-05-18T07:53:19.607749+00:00",
       "commit_sha": "00a117a01f8faf6ee88d3a9260f2218ea5e384d3"
-    },
-    {
-      "rank": 5,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.012315032824334004,
-      "latency": 2254.8863974710307,
-      "timestamp": "2026-05-18T07:40:00.725823+00:00",
-      "commit_sha": "140d0c1f0c84e8ff06464717a6dca6943c26f033"
     },
     {
       "rank": 6,
@@ -325,5 +325,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-05-18T14:20:52.539388+00:00"
+  "last_updated": "2026-05-18T15:42:13.578397+00:00"
 }
