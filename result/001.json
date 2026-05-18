@@ -68,6 +68,14 @@
     },
     {
       "rank": 9,
+      "user": "team_19",
+      "github": "JerryLiu369/openoperator-start-kit-experiment",
+      "score": 0.6276917008192462,
+      "latency": 44.23987120389938,
+      "timestamp": "2026-05-18T03:45:22.049161+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.626152097075873,
@@ -75,7 +83,15 @@
       "timestamp": "2026-05-18T02:07:43.609394+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.6077259494088393,
+      "latency": 45.6932932138443,
+      "timestamp": "2026-05-18T03:45:23.806095+00:00"
+    },
+    {
+      "rank": 12,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.6053090461310591,
@@ -83,7 +99,7 @@
       "timestamp": "2026-05-17T14:28:49.658531+00:00"
     },
     {
-      "rank": 11,
+      "rank": 13,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 0.5989569678182282,
@@ -91,7 +107,7 @@
       "timestamp": "2026-05-17T14:40:21.098958+00:00"
     },
     {
-      "rank": 12,
+      "rank": 14,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.5797797045299712,
@@ -99,28 +115,12 @@
       "timestamp": "2026-05-17T14:27:01.538924+00:00"
     },
     {
-      "rank": 13,
+      "rank": 15,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.5760786564934957,
       "latency": 48.2034869492054,
       "timestamp": "2026-05-17T17:15:47.803387+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "team_19",
-      "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.5283180161747503,
-      "latency": 52.56114527583122,
-      "timestamp": "2026-05-17T19:03:47.582700+00:00"
-    },
-    {
-      "rank": 15,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.5216364015160252,
-      "latency": 53.23439836502075,
-      "timestamp": "2026-05-17T15:22:27.928920+00:00"
     },
     {
       "rank": 16,
@@ -267,5 +267,5 @@
       "timestamp": "2026-05-17T13:24:19.050586+00:00"
     }
   ],
-  "last_updated": "2026-05-18T03:16:29.715896+00:00"
+  "last_updated": "2026-05-18T03:46:52.935516+00:00"
 }
