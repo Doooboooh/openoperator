@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.29059382017846397,
+      "latency": 3282.712617268165,
+      "timestamp": "2026-05-18T07:04:58.591977+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.2684601509252819,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T06:39:54.032879+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.07252775672332898,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-18T06:09:36.315546+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.0473745943745073,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-18T06:58:02.917280+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0022943267396863492,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-18T06:04:57.141482+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.002212519235213821,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-18T05:46:37.233005+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.002199904473058991,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-18T06:52:40.885207+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.0021450008295970696,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-18T06:56:20.702270+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0020806247584234995,
@@ -67,5 +75,5 @@
       "timestamp": "2026-05-18T06:29:48.989054+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:59:48.785059+00:00"
+  "last_updated": "2026-05-18T07:09:59.450114+00:00"
 }

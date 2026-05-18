@@ -140,6 +140,14 @@
     },
     {
       "rank": 18,
+      "user": "team_24",
+      "github": "wysqwysq/bangc_55",
+      "score": 0.0031081127330850784,
+      "latency": 8934.360618392626,
+      "timestamp": "2026-05-18T07:04:56.360733+00:00"
+    },
+    {
+      "rank": 19,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0025956456204834343,
@@ -147,7 +155,7 @@
       "timestamp": "2026-05-18T06:27:54.990333+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.0005476299150704401,
@@ -155,7 +163,7 @@
       "timestamp": "2026-05-18T05:48:00.097297+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.00027748770718607975,
@@ -163,7 +171,15 @@
       "timestamp": "2026-05-18T06:02:02.423432+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
+      "user": "team_29",
+      "github": "duroey/openoperator-basic",
+      "score": 4.976948229672056e-05,
+      "latency": 557952.3579217494,
+      "timestamp": "2026-05-18T07:06:12.273662+00:00"
+    },
+    {
+      "rank": 23,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 2.2224067636434884e-05,
@@ -171,5 +187,5 @@
       "timestamp": "2026-05-18T06:33:44.819600+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:04:53.739615+00:00"
+  "last_updated": "2026-05-18T07:09:59.444853+00:00"
 }

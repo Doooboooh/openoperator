@@ -1,6 +1,15 @@
 {
   "problem_id": "022",
   "problem_name": "022_Matmul_with_transposed_both",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.21833532506681233,
+      "latency": 3741.2086191276708,
+      "timestamp": "2026-05-18T07:04:58.591977+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T07:09:59.445668+00:00"
 }

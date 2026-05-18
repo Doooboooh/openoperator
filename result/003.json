@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "二十五组",
+      "github": "cotangents/openoperator-start-kit-team25",
+      "score": 0.013313211994759953,
+      "latency": 2700.0997215509415,
+      "timestamp": "2026-05-18T07:05:05.272429+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.011836944254622908,
@@ -19,7 +27,15 @@
       "timestamp": "2026-05-18T07:03:35.533822+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "user": "team_29",
+      "github": "duroey/openoperator-basic",
+      "score": 0.007939903707195847,
+      "latency": 4527.384880930185,
+      "timestamp": "2026-05-18T07:06:12.273662+00:00"
+    },
+    {
+      "rank": 5,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.007530895476000827,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-18T06:14:26.960051+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.006111297729068601,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-18T06:53:30.117808+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0060635761945695855,
@@ -43,7 +59,7 @@
       "timestamp": "2026-05-18T06:57:54.218792+00:00"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.00604445454334197,
@@ -51,7 +67,7 @@
       "timestamp": "2026-05-18T06:16:18.903500+00:00"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.005793898858571014,
@@ -59,7 +75,7 @@
       "timestamp": "2026-05-18T06:52:15.751532+00:00"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.0052550605952360165,
@@ -67,15 +83,7 @@
       "timestamp": "2026-05-18T06:27:51.390361+00:00"
     },
     {
-      "rank": 9,
-      "user": "二十五组",
-      "github": "cotangents/openoperator-start-kit-team25",
-      "score": 0.0013277386789841677,
-      "latency": 27073.85163133343,
-      "timestamp": "2026-05-18T06:56:20.702270+00:00"
-    },
-    {
-      "rank": 10,
+      "rank": 11,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.0013237719160358553,
@@ -83,7 +91,7 @@
       "timestamp": "2026-05-18T06:39:54.032879+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.001320930246938491,
@@ -91,7 +99,7 @@
       "timestamp": "2026-05-18T05:48:00.089373+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0012975598240673376,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-18T05:55:30.401526+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智算第九组",
       "github": "silent-Ning9/BangC09",
       "score": 0.0009132898316132967,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-18T07:03:10.696871+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.00033285432788012815,
@@ -115,7 +123,7 @@
       "timestamp": "2026-05-18T06:48:49.160343+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 6.468939591517444e-05,
@@ -123,7 +131,7 @@
       "timestamp": "2026-05-18T05:48:25.354235+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 2.169422037416922e-06,
@@ -131,7 +139,7 @@
       "timestamp": "2026-05-18T06:02:02.423432+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 4.803681316964457e-07,
@@ -139,5 +147,5 @@
       "timestamp": "2026-05-18T06:50:52.773010+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:04:53.733522+00:00"
+  "last_updated": "2026-05-18T07:09:59.426042+00:00"
 }

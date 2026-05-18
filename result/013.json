@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.03371485077316114,
+      "latency": 66936.55609463651,
+      "timestamp": "2026-05-18T07:05:14.244001+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.02859215657322088,
@@ -11,5 +19,5 @@
       "timestamp": "2026-05-18T06:42:11.669062+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:44:32.716772+00:00"
+  "last_updated": "2026-05-18T07:09:59.442343+00:00"
 }
