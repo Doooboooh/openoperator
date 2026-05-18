@@ -4,15 +4,24 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_91",
+      "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.4631114700285822,
-      "latency": 27260.90761522452,
-      "timestamp": "2026-05-18T09:21:40.498367+00:00",
+      "score": 0.6950398013688545,
+      "latency": 18164.195741216343,
+      "timestamp": "2026-05-18T17:15:58.620627+00:00",
       "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.6753298962202532,
+      "latency": 18694.328609853983,
+      "timestamp": "2026-05-18T17:16:02.258962+00:00",
+      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
+    },
+    {
+      "rank": 3,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.3362934548555771,
@@ -21,7 +30,7 @@
       "commit_sha": "93e29ce207eb483096633258a8e0cdfc2d3b60b5"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.3323254408128237,
@@ -30,7 +39,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.13310862054106168,
@@ -39,22 +48,13 @@
       "commit_sha": "4624a06ffbae9dcd6495dba801ebba6ecba9b806"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.10682146010509293,
       "latency": 118186.35494758685,
       "timestamp": "2026-05-18T06:58:02.917280+00:00",
       "commit_sha": "60b693d9e83360244f58bba0571219210d07c63b"
-    },
-    {
-      "rank": 6,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.07917245666934718,
-      "latency": 159459.9881209433,
-      "timestamp": "2026-05-18T09:57:06.551327+00:00",
-      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 7,
@@ -164,5 +164,5 @@
       "timestamp": "2026-05-18T12:27:31.110796+00:00"
     }
   ],
-  "last_updated": "2026-05-18T14:41:15.735867+00:00"
+  "last_updated": "2026-05-18T17:18:10.931146+00:00"
 }
