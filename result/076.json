@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.008686131982974089,
+      "latency": 4378.358523050944,
+      "timestamp": "2026-05-18T09:41:01.761793+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.008551398919818261,
@@ -27,15 +35,15 @@
       "timestamp": "2026-05-18T09:00:34.120470+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
-      "score": 0.008369484256092784,
-      "latency": 4544.00759190321,
-      "timestamp": "2026-05-18T08:43:30.078519+00:00"
+      "score": 0.008517826209417956,
+      "latency": 4464.871560533841,
+      "timestamp": "2026-05-18T09:41:07.584422+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.006543811104004923,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-18T07:50:24.030974+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0030354738816409646,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-18T07:04:58.095639+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0008345717649815086,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-18T05:50:26.601608+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.00020961896055961342,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-18T06:27:34.310400+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.00019686580087689665,
@@ -75,5 +83,5 @@
       "timestamp": "2026-05-18T09:20:52.999242+00:00"
     }
   ],
-  "last_updated": "2026-05-18T09:22:12.535922+00:00"
+  "last_updated": "2026-05-18T09:42:33.101338+00:00"
 }
