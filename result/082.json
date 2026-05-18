@@ -1,6 +1,15 @@
 {
   "problem_id": "082",
   "problem_name": "082_Scaled_Dot_Product_Attention",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.017033872896642165,
+      "latency": 5094.613569478194,
+      "timestamp": "2026-05-18T07:22:44.624391+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T07:25:14.558116+00:00"
 }

@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.01800126568389609,
+      "latency": 2845.910998682181,
+      "timestamp": "2026-05-18T07:22:44.624391+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.007911393296229202,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T06:34:21.639206+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0038259835631573955,
@@ -19,5 +27,5 @@
       "timestamp": "2026-05-18T05:56:08.926019+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:39:27.610581+00:00"
+  "last_updated": "2026-05-18T07:25:14.564950+00:00"
 }
