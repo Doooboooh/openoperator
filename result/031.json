@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 0.011573199024247846,
+      "latency": 2652.5077410042286,
+      "timestamp": "2026-05-18T07:52:01.261751+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.011298723497303752,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-18T06:42:23.637274+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.010013309829020753,
@@ -27,7 +35,15 @@
       "timestamp": "2026-05-18T07:13:17.068967+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.006527538378516202,
+      "latency": 4702.844812224309,
+      "timestamp": "2026-05-18T07:52:08.493038+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0014996043619042766,
@@ -35,5 +51,5 @@
       "timestamp": "2026-05-18T07:37:27.435116+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:40:29.246739+00:00"
+  "last_updated": "2026-05-18T07:55:43.732383+00:00"
 }

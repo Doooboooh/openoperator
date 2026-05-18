@@ -4,20 +4,20 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.03093121973739371,
+      "latency": 3302.0682943363986,
+      "timestamp": "2026-05-18T07:53:56.120844+00:00"
+    },
+    {
+      "rank": 2,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0014404496202163799,
       "latency": 70906.33269399405,
       "timestamp": "2026-05-18T06:41:01.304250+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_43",
-      "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 0.00035329088862014006,
-      "latency": 289101.7099221547,
-      "timestamp": "2026-05-18T07:37:27.435116+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:40:29.228708+00:00"
+  "last_updated": "2026-05-18T07:55:43.728160+00:00"
 }

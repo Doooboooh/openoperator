@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.1386644208813747,
+      "latency": 2424.1330102086067,
+      "timestamp": "2026-05-18T07:52:37.270250+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.12364774385714962,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T06:19:20.174287+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.11949803237707572,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-18T07:15:15.988206+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.11350655377120952,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-18T07:22:44.624391+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.06869214164731463,
@@ -35,7 +43,15 @@
       "timestamp": "2026-05-18T07:13:06.548439+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.06319841974956117,
+      "latency": 5318.819700429837,
+      "timestamp": "2026-05-18T07:52:08.493038+00:00"
+    },
+    {
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.017241539691119766,
@@ -43,7 +59,15 @@
       "timestamp": "2026-05-18T05:57:14.950661+00:00"
     },
     {
-      "rank": 6,
+      "rank": 8,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.001816514250132391,
+      "latency": 185047.2684018314,
+      "timestamp": "2026-05-18T07:53:52.328839+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0004620643667673512,
@@ -51,5 +75,5 @@
       "timestamp": "2026-05-18T06:15:28.677444+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:25:14.559274+00:00"
+  "last_updated": "2026-05-18T07:55:43.725870+00:00"
 }
