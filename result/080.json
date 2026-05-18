@@ -12,12 +12,28 @@
     },
     {
       "rank": 2,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.01736575070397196,
+      "latency": 3108.417304853598,
+      "timestamp": "2026-05-18T06:50:01.423446+00:00"
+    },
+    {
+      "rank": 3,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.002325229852213393,
       "latency": 23214.909248054028,
       "timestamp": "2026-05-18T05:48:03.488333+00:00"
+    },
+    {
+      "rank": 4,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 6.356903688674781e-05,
+      "latency": 849155.5424407125,
+      "timestamp": "2026-05-18T06:52:15.751532+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:29:16.916903+00:00"
+  "last_updated": "2026-05-18T06:54:43.660433+00:00"
 }
