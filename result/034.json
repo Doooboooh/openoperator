@@ -6,9 +6,9 @@
       "rank": 1,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
-      "score": 0.009953882225819013,
-      "latency": 4417.371936142445,
-      "timestamp": "2026-05-18T07:05:05.272429+00:00"
+      "score": 0.010751916332320748,
+      "latency": 4089.503549039364,
+      "timestamp": "2026-05-18T07:14:59.976445+00:00"
     },
     {
       "rank": 2,
@@ -100,6 +100,14 @@
     },
     {
       "rank": 13,
+      "user": "team_21",
+      "github": "zhiyuanSo/ICS_13Team",
+      "score": 0.0012732039636023703,
+      "latency": 34534.92233529687,
+      "timestamp": "2026-05-18T07:16:28.929427+00:00"
+    },
+    {
+      "rank": 14,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 7.880395958100901e-05,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-18T06:24:51.941861+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 2.6331056431057348e-06,
@@ -115,5 +123,5 @@
       "timestamp": "2026-05-18T06:01:42.693057+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:15:04.883683+00:00"
+  "last_updated": "2026-05-18T07:20:09.614757+00:00"
 }

@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "二十五组",
+      "github": "cotangents/openoperator-start-kit-team25",
+      "score": 0.015165746712365155,
+      "latency": 2630.5331848561764,
+      "timestamp": "2026-05-18T07:14:59.976445+00:00"
+    },
+    {
+      "rank": 6,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.015118638021531319,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-18T07:06:54.931916+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.013298348730048141,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-18T05:46:16.775109+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.012939292714466262,
@@ -59,20 +67,12 @@
       "timestamp": "2026-05-18T07:13:17.068967+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.012790896780155351,
       "latency": 3118.9369037747383,
       "timestamp": "2026-05-18T06:17:28.701402+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "二十五组",
-      "github": "cotangents/openoperator-start-kit-team25",
-      "score": 0.011546368290739299,
-      "latency": 3455.112377802531,
-      "timestamp": "2026-05-18T06:56:20.702270+00:00"
     },
     {
       "rank": 10,
@@ -131,5 +131,5 @@
       "timestamp": "2026-05-18T07:06:12.273662+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:15:04.885395+00:00"
+  "last_updated": "2026-05-18T07:20:09.610021+00:00"
 }
