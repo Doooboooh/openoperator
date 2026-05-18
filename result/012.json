@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.04684101585049182,
+      "latency": 46914.46075836817,
+      "timestamp": "2026-05-18T06:30:06.969130+00:00"
+    },
+    {
+      "rank": 2,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0010342994734549834,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T05:46:19.890484+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0009875423940399097,
@@ -19,7 +27,15 @@
       "timestamp": "2026-05-18T05:46:44.566432+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "user": "team_12",
+      "github": "yinuo222/kernel-competition-group40",
+      "score": 0.0002579122855831061,
+      "latency": 8520420.014237365,
+      "timestamp": "2026-05-18T06:29:48.989054+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.00018285417955963402,
@@ -27,5 +43,5 @@
       "timestamp": "2026-05-18T06:02:28.107864+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:03:51.642640+00:00"
+  "last_updated": "2026-05-18T06:34:22.056492+00:00"
 }

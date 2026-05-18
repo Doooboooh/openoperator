@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.002121196224700271,
+      "latency": 55773.717972139515,
+      "timestamp": "2026-05-18T06:33:52.200451+00:00"
+    },
+    {
+      "rank": 2,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 9.637297740420454e-06,
@@ -11,5 +19,5 @@
       "timestamp": "2026-05-18T05:49:57.840124+00:00"
     }
   ],
-  "last_updated": "2026-05-18T05:53:41.750656+00:00"
+  "last_updated": "2026-05-18T06:34:22.047193+00:00"
 }

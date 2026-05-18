@@ -1,6 +1,15 @@
 {
   "problem_id": "093",
   "problem_name": "093_Batch_triangular_solve",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.03332371979288444,
+      "latency": 2377.3756499091783,
+      "timestamp": "2026-05-18T06:33:52.200451+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:34:22.053088+00:00"
 }
