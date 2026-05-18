@@ -12,19 +12,19 @@
     },
     {
       "rank": 2,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.010850888416005462,
+      "latency": 2559.1452916463218,
+      "timestamp": "2026-05-18T06:37:53.112274+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.01016902310613394,
       "latency": 2730.744114766518,
       "timestamp": "2026-05-18T06:28:04.922424+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.00998700187022421,
-      "latency": 2780.5141483743987,
-      "timestamp": "2026-05-18T06:31:59.958895+00:00"
     },
     {
       "rank": 4,
@@ -131,5 +131,5 @@
       "timestamp": "2026-05-18T06:33:44.819600+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:34:22.051135+00:00"
+  "last_updated": "2026-05-18T06:39:27.608708+00:00"
 }

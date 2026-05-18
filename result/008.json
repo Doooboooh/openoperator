@@ -20,6 +20,14 @@
     },
     {
       "rank": 3,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.16124420578769075,
+      "latency": 7454.128315051396,
+      "timestamp": "2026-05-18T06:37:34.382447+00:00"
+    },
+    {
+      "rank": 4,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.12334063800338273,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-18T05:55:18.127960+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0003235424148784447,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-18T06:15:28.677444+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 4.185227268371528e-05,
@@ -43,5 +51,5 @@
       "timestamp": "2026-05-18T06:21:55.705643+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:24:12.455684+00:00"
+  "last_updated": "2026-05-18T06:39:27.605912+00:00"
 }

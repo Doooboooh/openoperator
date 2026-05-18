@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.0027993264530886274,
+      "latency": 15707.349870353937,
+      "timestamp": "2026-05-18T06:37:53.112274+00:00"
+    },
+    {
+      "rank": 6,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.002071414056391015,
@@ -43,20 +51,12 @@
       "timestamp": "2026-05-18T05:48:19.691784+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 7.880395958100901e-05,
       "latency": 557966.8868643543,
       "timestamp": "2026-05-18T06:24:51.941861+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 6.249057027276597e-05,
-      "latency": 703626.1600442231,
-      "timestamp": "2026-05-18T06:31:59.958895+00:00"
     },
     {
       "rank": 8,
@@ -67,5 +67,5 @@
       "timestamp": "2026-05-18T06:01:42.693057+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:34:22.048246+00:00"
+  "last_updated": "2026-05-18T06:39:27.606503+00:00"
 }

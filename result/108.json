@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.08099356362443655,
+      "latency": 2297.9603769878545,
+      "timestamp": "2026-05-18T06:38:02.254096+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.023816406953603105,
@@ -11,5 +19,5 @@
       "timestamp": "2026-05-18T06:20:41.922799+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:24:12.456387+00:00"
+  "last_updated": "2026-05-18T06:39:27.607124+00:00"
 }

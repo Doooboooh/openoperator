@@ -1,6 +1,15 @@
 {
   "problem_id": "095",
   "problem_name": "095_Add_RMSNorm",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.12787333176764773,
+      "latency": 2815.841231495142,
+      "timestamp": "2026-05-18T06:38:11.954118+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:39:27.613286+00:00"
 }

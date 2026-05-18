@@ -1,6 +1,15 @@
 {
   "problem_id": "030",
   "problem_name": "030_MinGPTNewGelu",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.47210613474683955,
+      "latency": 2490.939882894357,
+      "timestamp": "2026-05-18T06:37:26.241429+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:39:27.613010+00:00"
 }

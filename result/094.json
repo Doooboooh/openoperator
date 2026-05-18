@@ -1,6 +1,15 @@
 {
   "problem_id": "094",
   "problem_name": "094_LayerNorm",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.018720558771778268,
+      "latency": 4981.528657178084,
+      "timestamp": "2026-05-18T06:34:58.123832+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:39:27.610333+00:00"
 }
