@@ -1,6 +1,15 @@
 {
   "problem_id": "127",
   "problem_name": "127_Cholesky_decomposition",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.09458273292090238,
+      "latency": 3399.320257206758,
+      "timestamp": "2026-05-18T06:08:58.092640+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:14:01.502323+00:00"
 }

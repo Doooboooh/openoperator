@@ -1,6 +1,15 @@
 {
   "problem_id": "028",
   "problem_name": "028_HardSigmoid",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_55",
+      "github": "Ianthe1128/AICS-BangC_Game-17-7",
+      "score": 0.0004941017867158715,
+      "latency": 45854.924246668816,
+      "timestamp": "2026-05-18T06:08:28.178553+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:14:01.501915+00:00"
 }

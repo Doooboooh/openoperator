@@ -1,6 +1,15 @@
 {
   "problem_id": "068",
   "problem_name": "068_upsample_bilinear2d_out_frame",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 3.4488952391531402,
+      "latency": 2299.8793671528497,
+      "timestamp": "2026-05-18T06:09:38.921362+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:14:01.493811+00:00"
 }

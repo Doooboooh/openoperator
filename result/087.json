@@ -1,6 +1,15 @@
 {
   "problem_id": "087",
   "problem_name": "087_Hadamard_product",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.07641397465351478,
+      "latency": 2779.9888824423156,
+      "timestamp": "2026-05-18T06:08:58.092640+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:14:01.502814+00:00"
 }

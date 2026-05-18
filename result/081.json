@@ -1,6 +1,15 @@
 {
   "problem_id": "081",
   "problem_name": "081_Sum_2D_reduction",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.016898733171774382,
+      "latency": 2801.2158970038095,
+      "timestamp": "2026-05-18T06:08:58.092640+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:14:01.503020+00:00"
 }

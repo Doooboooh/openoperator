@@ -1,6 +1,15 @@
 {
   "problem_id": "121",
   "problem_name": "121_Scaled_masked_softmax",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.046411727148298665,
+      "latency": 3020.572786529859,
+      "timestamp": "2026-05-18T06:08:58.092640+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:14:01.498668+00:00"
 }

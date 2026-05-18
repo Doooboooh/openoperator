@@ -1,6 +1,15 @@
 {
   "problem_id": "059",
   "problem_name": "059_hstu_mask_var_len_fwd",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.09967569021467179,
+      "latency": 12704.050478835901,
+      "timestamp": "2026-05-18T06:09:38.921362+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:14:01.505543+00:00"
 }
