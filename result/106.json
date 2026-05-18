@@ -1,6 +1,15 @@
 {
   "problem_id": "106",
   "problem_name": "106_Embedding_bag_mean",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.0031464923999896793,
+      "latency": 24435.78125288089,
+      "timestamp": "2026-05-18T07:32:20.807041+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T07:35:24.631340+00:00"
 }

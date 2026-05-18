@@ -1,6 +1,15 @@
 {
   "problem_id": "132",
   "problem_name": "132_Sparse_embedding",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.005995904222469303,
+      "latency": 25006.236663709085,
+      "timestamp": "2026-05-18T07:32:20.807041+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T07:35:24.631909+00:00"
 }

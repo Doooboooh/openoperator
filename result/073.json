@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.01626162921560742,
+      "latency": 2382.4796080589294,
+      "timestamp": "2026-05-18T07:34:35.875325+00:00"
+    },
+    {
+      "rank": 2,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.01598673439362447,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T07:07:14.408663+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.015599702738229923,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-18T06:52:15.751532+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.01558888035893115,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-18T07:22:44.624391+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.013683332816556579,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-18T06:38:30.784519+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.011488529182323416,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-18T06:42:23.637274+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.003549342251146292,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-18T05:56:16.035262+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.003390354481885012,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-18T06:07:08.389208+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0004121471232459936,
@@ -67,5 +75,5 @@
       "timestamp": "2026-05-18T06:58:47.646364+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:25:14.559524+00:00"
+  "last_updated": "2026-05-18T07:35:24.629690+00:00"
 }
