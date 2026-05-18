@@ -36,6 +36,14 @@
     },
     {
       "rank": 5,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.5053231517487986,
+      "latency": 14428.462212284407,
+      "timestamp": "2026-05-18T09:02:18.133797+00:00"
+    },
+    {
+      "rank": 6,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.4646525416189603,
@@ -43,20 +51,12 @@
       "timestamp": "2026-05-18T07:05:05.272429+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.2828831214803064,
       "latency": 25774.022719512384,
       "timestamp": "2026-05-18T06:02:02.423432+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.20736880319948975,
-      "latency": 35159.75348030528,
-      "timestamp": "2026-05-18T07:49:33.567047+00:00"
     },
     {
       "rank": 8,
@@ -171,5 +171,5 @@
       "timestamp": "2026-05-18T05:48:08.685642+00:00"
     }
   ],
-  "last_updated": "2026-05-18T08:56:47.847614+00:00"
+  "last_updated": "2026-05-18T09:06:58.338283+00:00"
 }
