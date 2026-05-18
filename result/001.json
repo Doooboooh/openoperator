@@ -100,6 +100,14 @@
     },
     {
       "rank": 13,
+      "user": "二十五组",
+      "github": "cotangents/openoperator-start-kit-team25",
+      "score": 0.004660051239707106,
+      "latency": 5958.947353065014,
+      "timestamp": "2026-05-18T06:56:20.702270+00:00"
+    },
+    {
+      "rank": 14,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.004528118862712744,
@@ -107,20 +115,12 @@
       "timestamp": "2026-05-18T06:40:53.631200+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.004398966603387987,
       "latency": 6312.618963420391,
       "timestamp": "2026-05-18T06:30:24.706481+00:00"
-    },
-    {
-      "rank": 15,
-      "user": "二十五组",
-      "github": "cotangents/openoperator-start-kit-team25",
-      "score": 0.0030558888345059696,
-      "latency": 9087.045211344957,
-      "timestamp": "2026-05-18T05:46:59.342546+00:00"
     },
     {
       "rank": 16,
@@ -155,5 +155,5 @@
       "timestamp": "2026-05-18T06:33:44.819600+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:54:43.664836+00:00"
+  "last_updated": "2026-05-18T06:59:48.780943+00:00"
 }

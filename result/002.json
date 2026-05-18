@@ -92,6 +92,14 @@
     },
     {
       "rank": 12,
+      "user": "二十五组",
+      "github": "cotangents/openoperator-start-kit-team25",
+      "score": 0.33522716627204424,
+      "latency": 24684.368787954252,
+      "timestamp": "2026-05-18T06:56:20.702270+00:00"
+    },
+    {
+      "rank": 13,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.33269333822528546,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-18T05:48:00.089373+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.20715547466152928,
@@ -107,7 +115,15 @@
       "timestamp": "2026-05-18T06:28:04.922424+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.025283664938236257,
+      "latency": 327281.31068870425,
+      "timestamp": "2026-05-18T06:58:02.917280+00:00"
+    },
+    {
+      "rank": 16,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.015820816234331344,
@@ -115,15 +131,7 @@
       "timestamp": "2026-05-18T05:53:19.881076+00:00"
     },
     {
-      "rank": 15,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.006037923112753952,
-      "latency": 1370483.003091067,
-      "timestamp": "2026-05-18T06:48:49.160343+00:00"
-    },
-    {
-      "rank": 16,
+      "rank": 17,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.0033386609648728854,
@@ -131,5 +139,5 @@
       "timestamp": "2026-05-18T06:26:34.671604+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:54:43.663915+00:00"
+  "last_updated": "2026-05-18T06:59:48.780066+00:00"
 }

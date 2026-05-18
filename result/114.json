@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.08702007001221947,
+      "latency": 8513.829049964746,
+      "timestamp": "2026-05-18T06:59:21.305085+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.08569095695181765,
@@ -11,21 +19,13 @@
       "timestamp": "2026-05-18T06:52:15.751532+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_55",
       "github": "Ianthe1128/AICS-BangC_Game-17-7",
       "score": 0.0019819625515430173,
       "latency": 373808.27373514575,
       "timestamp": "2026-05-18T06:04:56.732330+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.0019680665712084188,
-      "latency": 376447.6318222781,
-      "timestamp": "2026-05-18T06:53:30.171327+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:54:43.670236+00:00"
+  "last_updated": "2026-05-18T06:59:48.787369+00:00"
 }
