@@ -1,63 +1,6 @@
 {
   "problem_id": "114",
   "problem_name": "114_Pad_constant",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 2.300085670857408,
-      "latency": 322.10713252425194,
-      "timestamp": "2026-05-18T02:57:34.567251+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 2.2529761385401077,
-      "latency": 328.8423642516136,
-      "timestamp": "2026-05-18T02:56:28.948070+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 1.9632690707769218,
-      "latency": 377.3675300180912,
-      "timestamp": "2026-05-17T16:49:21.975863+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.2768389855106767,
-      "latency": 2676.190994679928,
-      "timestamp": "2026-05-17T17:15:47.803387+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.19819787366284353,
-      "latency": 3738.05221170187,
-      "timestamp": "2026-05-17T15:19:39.112032+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_55",
-      "github": "Ianthe1128/AICS-BangC_Game-17-7",
-      "score": 0.0019965266234039294,
-      "latency": 371081.4528167248,
-      "timestamp": "2026-05-17T14:07:38.334893+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.0019169200065083203,
-      "latency": 386491.87106639147,
-      "timestamp": "2026-05-17T15:06:29.383355+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T03:01:15.576842+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }

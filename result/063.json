@@ -1,47 +1,6 @@
 {
   "problem_id": "063",
   "problem_name": "063_calc_block_sums",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.9476418748399831,
-      "latency": 30.38700670003891,
-      "timestamp": "2026-05-18T02:39:36.521080+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.8782542994269094,
-      "latency": 32.78777003288269,
-      "timestamp": "2026-05-17T15:19:53.870320+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.8514921903140826,
-      "latency": 33.81827846169472,
-      "timestamp": "2026-05-17T16:49:21.975863+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.35784517912129676,
-      "latency": 80.47055453062057,
-      "timestamp": "2026-05-17T13:37:58.256203+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.13292716293617582,
-      "latency": 216.62991493940353,
-      "timestamp": "2026-05-17T14:03:33.558845+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T02:40:55.047009+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }

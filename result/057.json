@@ -1,63 +1,6 @@
 {
   "problem_id": "057",
   "problem_name": "057_rotary_pos_emb_fusion",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 11.570685143861139,
-      "latency": 18.51627603173256,
-      "timestamp": "2026-05-18T01:50:51.423159+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 11.481405789726846,
-      "latency": 18.660258501768112,
-      "timestamp": "2026-05-18T01:47:03.722224+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 5.048198492083643,
-      "latency": 42.44009032845497,
-      "timestamp": "2026-05-17T16:49:21.975863+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 4.17790195514361,
-      "latency": 51.28076300024986,
-      "timestamp": "2026-05-17T14:55:17.606815+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 2.059853857932776,
-      "latency": 104.01029139757156,
-      "timestamp": "2026-05-17T17:15:47.803387+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.21855300241748837,
-      "latency": 980.2930988371372,
-      "timestamp": "2026-05-17T15:06:29.383355+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.13180366874662156,
-      "latency": 1625.493448227644,
-      "timestamp": "2026-05-17T14:21:29.520600+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T01:55:17.500807+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }

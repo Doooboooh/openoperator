@@ -1,39 +1,6 @@
 {
   "problem_id": "016",
   "problem_name": "016_Matmul_for_symmetric_matrices",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.7815034476257927,
-      "latency": 7822.323776781559,
-      "timestamp": "2026-05-18T02:56:28.948070+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.7772874702996181,
-      "latency": 7864.751759916544,
-      "timestamp": "2026-05-18T02:57:34.567251+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.6928718688975997,
-      "latency": 8822.948765009642,
-      "timestamp": "2026-05-17T16:49:21.975863+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.1944010573336471,
-      "latency": 31446.192134171724,
-      "timestamp": "2026-05-17T15:21:50.391108+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T03:01:15.577807+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }

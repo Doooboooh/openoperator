@@ -4,76 +4,12 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 3.9766377808401216,
-      "latency": 31.839963048696518,
-      "timestamp": "2026-05-18T02:56:28.948070+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 3.847422176968709,
-      "latency": 32.90930762887001,
-      "timestamp": "2026-05-18T02:57:34.567251+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 3.258026743949809,
-      "latency": 38.86278718709946,
-      "timestamp": "2026-05-17T16:49:14.130668+00:00"
-    },
-    {
-      "rank": 4,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
-      "score": 2.516732719005398,
-      "latency": 50.3096729516983,
-      "timestamp": "2026-05-17T13:30:46.569905+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.8082076647462151,
-      "latency": 156.6627062857151,
-      "timestamp": "2026-05-17T14:32:55.085360+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_43",
-      "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 0.3360492591194436,
-      "latency": 376.77809596061707,
-      "timestamp": "2026-05-17T14:13:18.285678+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.2711057564877726,
-      "latency": 467.0354537665844,
-      "timestamp": "2026-05-17T17:15:47.803387+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.23884559446442366,
-      "latency": 530.1165394484997,
-      "timestamp": "2026-05-17T16:17:52.170258+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.09379217654518648,
-      "latency": 1349.963340908289,
-      "timestamp": "2026-05-17T15:05:35.494190+00:00"
+      "score": 0.0514205511233707,
+      "latency": 2462.361784030994,
+      "timestamp": "2026-05-18T05:47:13.082892+00:00"
     }
   ],
-  "last_updated": "2026-05-18T03:01:15.565117+00:00"
+  "last_updated": "2026-05-18T05:48:35.988461+00:00"
 }

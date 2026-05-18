@@ -4,100 +4,12 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.8097595801985276,
-      "latency": 35.446323454380035,
-      "timestamp": "2026-05-18T02:39:36.521080+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.721809642539809,
-      "latency": 39.76533189415932,
-      "timestamp": "2026-05-17T16:49:21.975863+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.7028273438919611,
-      "latency": 40.83933308720589,
-      "timestamp": "2026-05-18T02:40:09.593571+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.6488639805269296,
-      "latency": 44.235773384571075,
-      "timestamp": "2026-05-17T15:06:29.383355+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.6191001756537495,
-      "latency": 46.36244848370552,
-      "timestamp": "2026-05-17T15:24:03.530945+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.6115281366862376,
-      "latency": 46.9365157186985,
-      "timestamp": "2026-05-17T17:15:47.803387+00:00"
-    },
-    {
-      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
-      "score": 0.5284180277220987,
-      "latency": 54.318737238645554,
-      "timestamp": "2026-05-17T13:30:48.252330+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.4186065140758146,
-      "latency": 68.56797263026237,
-      "timestamp": "2026-05-18T02:09:52.855476+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_40",
-      "github": "CCyyyydr/openoperator-32",
-      "score": 0.31589219734667706,
-      "latency": 90.86327627301216,
-      "timestamp": "2026-05-17T14:40:32.832082+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.044843736921777684,
-      "latency": 640.0670856237411,
-      "timestamp": "2026-05-17T14:32:55.085360+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.004765776981012021,
-      "latency": 6022.7325186133385,
-      "timestamp": "2026-05-17T14:21:29.520600+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "team_86",
-      "github": "RachelGu2003/ICS_86Team",
-      "score": 1.6714569786670867e-06,
-      "latency": 17172443.183604628,
-      "timestamp": "2026-05-17T14:31:22.220934+00:00"
+      "score": 0.011574312154447285,
+      "latency": 2479.888188342253,
+      "timestamp": "2026-05-18T05:47:15.975007+00:00"
     }
   ],
-  "last_updated": "2026-05-18T02:40:55.044221+00:00"
+  "last_updated": "2026-05-18T05:48:35.986910+00:00"
 }

@@ -1,63 +1,6 @@
 {
   "problem_id": "113",
   "problem_name": "113_Upsample_nearest",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.5741032741919645,
-      "latency": 93.93729269504547,
-      "timestamp": "2026-05-18T02:57:34.567251+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.5311875651154097,
-      "latency": 96.57014161348343,
-      "timestamp": "2026-05-18T02:56:28.948070+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.7850210693536038,
-      "latency": 188.3605495095253,
-      "timestamp": "2026-05-17T16:49:14.130668+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.4216233028470032,
-      "latency": 350.708793848753,
-      "timestamp": "2026-05-17T14:57:02.071436+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.38444286587564147,
-      "latency": 384.62672382593155,
-      "timestamp": "2026-05-17T13:35:28.927387+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.003959673122050486,
-      "latency": 37343.23401004076,
-      "timestamp": "2026-05-17T17:15:47.803387+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.001512549523359725,
-      "latency": 97760.10485365987,
-      "timestamp": "2026-05-17T15:06:29.383355+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T03:01:15.567861+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }

@@ -1,31 +1,6 @@
 {
   "problem_id": "060",
   "problem_name": "060_cross_entropy",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 8.698767352522507,
-      "latency": 78.30914109945297,
-      "timestamp": "2026-05-18T01:41:43.980524+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 8.570320283980502,
-      "latency": 79.4827938079834,
-      "timestamp": "2026-05-18T01:45:53.612089+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 1.7388791069690446,
-      "latency": 391.7425870895386,
-      "timestamp": "2026-05-17T14:39:08.506339+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T01:50:12.831114+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }

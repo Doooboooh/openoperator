@@ -1,63 +1,6 @@
 {
   "problem_id": "018",
   "problem_name": "018_Matmul_with_diagonal_matrices_",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 19.475134053212884,
-      "latency": 325.2618946135044,
-      "timestamp": "2026-05-18T02:14:16.945877+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 19.444462507876416,
-      "latency": 325.7749602198601,
-      "timestamp": "2026-05-18T04:51:57.018098+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 19.370926812967355,
-      "latency": 327.01166346669197,
-      "timestamp": "2026-05-18T02:40:09.593571+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 18.267792332390144,
-      "latency": 346.7588685452938,
-      "timestamp": "2026-05-17T16:49:14.130668+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_43",
-      "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 17.945346323046767,
-      "latency": 352.9895097017288,
-      "timestamp": "2026-05-18T03:13:14.000664+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 7.708080503323713,
-      "latency": 821.8023926019669,
-      "timestamp": "2026-05-17T14:25:40.310171+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.012106188366947405,
-      "latency": 523246.36029079556,
-      "timestamp": "2026-05-17T15:06:29.383355+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T04:52:51.611395+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }

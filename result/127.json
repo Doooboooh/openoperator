@@ -1,63 +1,6 @@
 {
   "problem_id": "127",
   "problem_name": "127_Cholesky_decomposition",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 18.503548210459606,
-      "latency": 17.375964671373367,
-      "timestamp": "2026-05-18T02:56:24.327979+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.9221261940773335,
-      "latency": 348.6691974103451,
-      "timestamp": "2026-05-17T16:49:21.975863+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.6280026595800561,
-      "latency": 511.96757704019547,
-      "timestamp": "2026-05-18T04:30:22.903047+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.6276399279305401,
-      "latency": 512.2634582221508,
-      "timestamp": "2026-05-18T02:40:09.593571+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.2172267128439736,
-      "latency": 1480.0988137722015,
-      "timestamp": "2026-05-17T16:17:52.170258+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.19819055791796786,
-      "latency": 1622.2619451582432,
-      "timestamp": "2026-05-17T17:15:47.803387+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.01635233206653959,
-      "latency": 19661.84386983514,
-      "timestamp": "2026-05-17T15:06:29.383355+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T04:32:31.165859+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }

@@ -1,47 +1,6 @@
 {
   "problem_id": "082",
   "problem_name": "082_Scaled_Dot_Product_Attention",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.7514221877563358,
-      "latency": 49.54887554049492,
-      "timestamp": "2026-05-18T02:40:09.593571+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.742986169684064,
-      "latency": 49.788691103458405,
-      "timestamp": "2026-05-18T02:39:36.521080+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 1.524730362568566,
-      "latency": 56.915637105703354,
-      "timestamp": "2026-05-17T16:49:21.975863+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.34811667063378043,
-      "latency": 249.28711354732513,
-      "timestamp": "2026-05-18T04:17:22.684856+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.00021983899399673107,
-      "latency": 394747.9854337871,
-      "timestamp": "2026-05-17T15:05:35.494190+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T04:22:20.938996+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }

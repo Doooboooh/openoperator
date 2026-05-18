@@ -1,39 +1,6 @@
 {
   "problem_id": "126",
   "problem_name": "126_QR_decomposition",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.35521885681904314,
-      "latency": 4511.3736763596535,
-      "timestamp": "2026-05-18T02:56:28.948070+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.35452329143632777,
-      "latency": 4520.2248729765415,
-      "timestamp": "2026-05-18T02:57:34.567251+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.04470638131550881,
-      "latency": 35845.55387496948,
-      "timestamp": "2026-05-17T16:17:52.170258+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.03915570371956359,
-      "latency": 40926.98758468032,
-      "timestamp": "2026-05-17T15:37:19.262657+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T03:01:15.572971+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }

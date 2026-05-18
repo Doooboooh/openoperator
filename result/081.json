@@ -1,63 +1,6 @@
 {
   "problem_id": "081",
   "problem_name": "081_Sum_2D_reduction",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 1.0982961215999585,
-      "latency": 43.100398033857346,
-      "timestamp": "2026-05-18T04:42:12.108704+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.0294825766513478,
-      "latency": 45.98135128617287,
-      "timestamp": "2026-05-18T02:40:09.593571+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.9773226486900443,
-      "latency": 48.43538627028465,
-      "timestamp": "2026-05-18T02:56:28.948070+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.8713850677130387,
-      "latency": 54.32385951280594,
-      "timestamp": "2026-05-17T16:49:21.975863+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.5977790355447878,
-      "latency": 79.18812334537506,
-      "timestamp": "2026-05-17T14:55:17.898552+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.08684447327509612,
-      "latency": 545.0778640806675,
-      "timestamp": "2026-05-17T16:03:55.594114+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.04607879467279459,
-      "latency": 1027.3055173456669,
-      "timestamp": "2026-05-17T15:06:29.383355+00:00"
-    }
-  ],
-  "last_updated": "2026-05-18T04:42:42.653150+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T05:45:54.601374+00:00"
 }
