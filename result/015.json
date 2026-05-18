@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 1.0129883802767683,
       "latency": 6417.85841435194,
-      "timestamp": "2026-05-18T09:57:06.551327+00:00"
+      "timestamp": "2026-05-18T09:57:06.551327+00:00",
+      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 1.0106424781357914,
       "latency": 6432.755539814631,
-      "timestamp": "2026-05-18T09:21:40.498367+00:00"
+      "timestamp": "2026-05-18T09:21:40.498367+00:00",
+      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.9273556586835542,
       "latency": 7010.4883052408695,
-      "timestamp": "2026-05-18T09:41:07.584422+00:00"
+      "timestamp": "2026-05-18T09:41:07.584422+00:00",
+      "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "mygitljf/openoperator-mvp",
       "score": 0.551892075905218,
       "latency": 11779.8683544,
-      "timestamp": "2026-05-18T07:28:29.291604+00:00"
+      "timestamp": "2026-05-18T07:28:29.291604+00:00",
+      "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.11463008130118665,
       "latency": 56714.74648018678,
-      "timestamp": "2026-05-18T07:48:46.961584+00:00"
+      "timestamp": "2026-05-18T07:48:46.961584+00:00",
+      "commit_sha": "61edb14b1de7dd10b11cafa5306512367205303b"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "dingyue772/TensorCraft",
       "score": 0.0003406782051566232,
       "latency": 19083157.95256446,
-      "timestamp": "2026-05-18T09:25:28.157943+00:00"
+      "timestamp": "2026-05-18T09:25:28.157943+00:00",
+      "commit_sha": "18e0a10b4a7642075505b69a6a349b9aa5007fcc"
     }
   ],
   "last_updated": "2026-05-18T09:57:44.034695+00:00"

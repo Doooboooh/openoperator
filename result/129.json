@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.03508576877403652,
       "latency": 2911.0663260022798,
-      "timestamp": "2026-05-18T09:41:01.761793+00:00"
+      "timestamp": "2026-05-18T09:41:01.761793+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.034305626096557434,
       "latency": 2977.2667524715266,
-      "timestamp": "2026-05-18T08:53:00.393344+00:00"
+      "timestamp": "2026-05-18T08:53:00.393344+00:00",
+      "commit_sha": "438092ed9530e144106eebca4eb8ec1064845ef8"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.031386919511949815,
       "latency": 3254.1262917220592,
-      "timestamp": "2026-05-18T07:59:10.002902+00:00"
+      "timestamp": "2026-05-18T07:59:10.002902+00:00",
+      "commit_sha": "5b5c0bf64367f0e22bf496bf632790e5d95d9286"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "laomaer/BANGC07",
       "score": 0.0014404496202163799,
       "latency": 70906.33269399405,
-      "timestamp": "2026-05-18T06:41:01.304250+00:00"
+      "timestamp": "2026-05-18T06:41:01.304250+00:00",
+      "commit_sha": "501f30a08ec97063f771e42c96d865d6cefecfef"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "sleepy3dog/AICS-38",
       "score": 0.0002574669838229199,
       "latency": 396699.4077588121,
-      "timestamp": "2026-05-18T09:21:07.230079+00:00"
+      "timestamp": "2026-05-18T09:21:07.230079+00:00",
+      "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
   "last_updated": "2026-05-18T09:42:33.076481+00:00"

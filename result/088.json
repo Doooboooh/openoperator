@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.03439984894816814,
       "latency": 2295.853104442358,
-      "timestamp": "2026-05-18T09:41:01.761793+00:00"
+      "timestamp": "2026-05-18T09:41:01.761793+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.032898653846779265,
       "latency": 2400.6149421135583,
-      "timestamp": "2026-05-18T08:52:17.036007+00:00"
+      "timestamp": "2026-05-18T08:52:17.036007+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0320182285604001,
       "latency": 2466.626154879729,
-      "timestamp": "2026-05-18T06:56:57.054864+00:00"
+      "timestamp": "2026-05-18T06:56:57.054864+00:00",
+      "commit_sha": "1d93d30c7928472181c2e0e6a8358968cf2edf35"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.029907707859388018,
       "latency": 2640.690499295791,
-      "timestamp": "2026-05-18T09:41:07.584422+00:00"
+      "timestamp": "2026-05-18T09:41:07.584422+00:00",
+      "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "sleepy3dog/AICS-38",
       "score": 0.029873361214698923,
       "latency": 2643.7266108890376,
-      "timestamp": "2026-05-18T08:40:55.865930+00:00"
+      "timestamp": "2026-05-18T08:40:55.865930+00:00",
+      "commit_sha": "5589a11fd4078ee814385f6bbde2f5cdfb06c780"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.012966753813403939,
       "latency": 6090.730273475249,
-      "timestamp": "2026-05-18T07:37:27.435116+00:00"
+      "timestamp": "2026-05-18T07:37:27.435116+00:00",
+      "commit_sha": "f82ca719f6f612388a0c79c3679eb25feca8f2db"
     },
     {
       "rank": 7,
@@ -56,7 +62,8 @@
       "github": "ykkkx/ICS_28",
       "score": 3.1241485132717205e-06,
       "latency": 25279528.05844446,
-      "timestamp": "2026-05-18T07:59:36.858582+00:00"
+      "timestamp": "2026-05-18T07:59:36.858582+00:00",
+      "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
   "last_updated": "2026-05-18T09:42:33.074596+00:00"

@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.04919452202359072,
       "latency": 2145.7673671344915,
-      "timestamp": "2026-05-18T08:41:01.586371+00:00"
+      "timestamp": "2026-05-18T08:41:01.586371+00:00",
+      "commit_sha": "7f775e55cf431380e1cb7f0f93dc84c3eab8210c"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.04861803053267677,
       "latency": 2171.2109446525574,
-      "timestamp": "2026-05-18T08:40:46.586250+00:00"
+      "timestamp": "2026-05-18T08:40:46.586250+00:00",
+      "commit_sha": "ae12d4f5a6548035c3776750db68c2c5d5fb163f"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "laomaer/BANGC07",
       "score": 0.04850758740434507,
       "latency": 2176.1544048786163,
-      "timestamp": "2026-05-18T06:23:32.936798+00:00"
+      "timestamp": "2026-05-18T06:23:32.936798+00:00",
+      "commit_sha": "90d79845e0359926a7d9de20d2e2bccaaff30190"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "sleepy3dog/AICS-38",
       "score": 0.0472095261956292,
       "latency": 2235.9893967707953,
-      "timestamp": "2026-05-18T06:58:39.263239+00:00"
+      "timestamp": "2026-05-18T06:58:39.263239+00:00",
+      "commit_sha": "be1bf3d864a6c4c3ed194e5124dd4be8757efed6"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0433071773466463,
       "latency": 2437.4712569018207,
-      "timestamp": "2026-05-18T06:53:30.171327+00:00"
+      "timestamp": "2026-05-18T06:53:30.171327+00:00",
+      "commit_sha": "8c32fc00c648d61ae4442b87f14e9db034d01f99"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "beiwenziyao/BANGC08",
       "score": 0.04132581682521844,
       "latency": 2554.33547620972,
-      "timestamp": "2026-05-18T05:52:27.022335+00:00"
+      "timestamp": "2026-05-18T05:52:27.022335+00:00",
+      "commit_sha": "e8501aa8f912656f8d86578ba1c068607746437a"
     },
     {
       "rank": 7,
@@ -56,7 +62,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.04085688151435228,
       "latency": 2583.6528899768987,
-      "timestamp": "2026-05-18T09:41:07.584422+00:00"
+      "timestamp": "2026-05-18T09:41:07.584422+00:00",
+      "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     }
   ],
   "last_updated": "2026-05-18T09:42:33.109104+00:00"

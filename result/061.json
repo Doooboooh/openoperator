@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.04793925204110892,
       "latency": 2163.446353127559,
-      "timestamp": "2026-05-18T09:41:01.761793+00:00"
+      "timestamp": "2026-05-18T09:41:01.761793+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.04642626039664452,
       "latency": 2233.9511973162494,
-      "timestamp": "2026-05-18T09:33:33.784660+00:00"
+      "timestamp": "2026-05-18T09:33:33.784660+00:00",
+      "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.045550090006803205,
       "latency": 2276.9219552477202,
-      "timestamp": "2026-05-18T09:41:07.584422+00:00"
+      "timestamp": "2026-05-18T09:41:07.584422+00:00",
+      "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.04474309837989507,
       "latency": 2317.9887793958187,
-      "timestamp": "2026-05-18T08:19:20.829301+00:00"
+      "timestamp": "2026-05-18T08:19:20.829301+00:00",
+      "commit_sha": "e15f90e3a4ad07da4379ab4c0ed79932d7f3b2e9"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "wbr258/openoperator-start-kit",
       "score": 0.04199086124959315,
       "latency": 2469.9183801809945,
-      "timestamp": "2026-05-18T06:53:30.171327+00:00"
+      "timestamp": "2026-05-18T06:53:30.171327+00:00",
+      "commit_sha": "8c32fc00c648d61ae4442b87f14e9db034d01f99"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "sleepy3dog/AICS-38",
       "score": 0.040976356805013034,
       "latency": 2531.069330871105,
-      "timestamp": "2026-05-18T06:15:28.677444+00:00"
+      "timestamp": "2026-05-18T06:15:28.677444+00:00",
+      "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
       "rank": 7,
@@ -56,7 +62,8 @@
       "github": "laomaer/BANGC07",
       "score": 0.04039138814211731,
       "latency": 2567.725566526254,
-      "timestamp": "2026-05-18T06:41:01.304250+00:00"
+      "timestamp": "2026-05-18T06:41:01.304250+00:00",
+      "commit_sha": "501f30a08ec97063f771e42c96d865d6cefecfef"
     }
   ],
   "last_updated": "2026-05-18T09:42:33.094331+00:00"

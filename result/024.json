@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.24303496376211095,
       "latency": 3410.1389658947787,
-      "timestamp": "2026-05-18T07:35:25.751894+00:00"
+      "timestamp": "2026-05-18T07:35:25.751894+00:00",
+      "commit_sha": "8893dc17b77a0765eda26917c2a521d7b1708e7b"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.23981831299389944,
       "latency": 3455.8787010610104,
-      "timestamp": "2026-05-18T09:57:06.551327+00:00"
+      "timestamp": "2026-05-18T09:57:06.551327+00:00",
+      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.1272968683685143,
       "latency": 6510.631491740544,
-      "timestamp": "2026-05-18T09:41:07.584422+00:00"
+      "timestamp": "2026-05-18T09:41:07.584422+00:00",
+      "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.08622482634699967,
       "latency": 9611.883666366339,
-      "timestamp": "2026-05-18T07:48:46.961584+00:00"
+      "timestamp": "2026-05-18T07:48:46.961584+00:00",
+      "commit_sha": "61edb14b1de7dd10b11cafa5306512367205303b"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.013406521113573116,
       "latency": 61819.39318776131,
-      "timestamp": "2026-05-18T06:27:51.390361+00:00"
+      "timestamp": "2026-05-18T06:27:51.390361+00:00",
+      "commit_sha": "ae33eaf5718367316c02cdcec207923131b0cc44"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "wbr258/openoperator-start-kit",
       "score": 0.007141571904731433,
       "latency": 116050.50135403872,
-      "timestamp": "2026-05-18T07:03:10.696216+00:00"
+      "timestamp": "2026-05-18T07:03:10.696216+00:00",
+      "commit_sha": "dd7afa32a9370b2c00385de6634eb9500e579b0d"
     }
   ],
   "last_updated": "2026-05-18T09:57:44.021174+00:00"

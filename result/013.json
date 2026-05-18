@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.4523448245916381,
       "latency": 4989.01695633928,
-      "timestamp": "2026-05-18T07:50:02.416765+00:00"
+      "timestamp": "2026-05-18T07:50:02.416765+00:00",
+      "commit_sha": "33e183b4eb48b36fa549c59eb4287aa5fa73d32d"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.4355261673576881,
       "latency": 5181.677173823118,
-      "timestamp": "2026-05-18T08:03:20.057623+00:00"
+      "timestamp": "2026-05-18T08:03:20.057623+00:00",
+      "commit_sha": "11385da6c4ed5817a36b74de55d0375b1d8d5278"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.40094642352792237,
       "latency": 5628.572466472785,
-      "timestamp": "2026-05-18T07:15:15.988206+00:00"
+      "timestamp": "2026-05-18T07:15:15.988206+00:00",
+      "commit_sha": "1b9b9b02523afd886f173fc2eb51a72d9ebe224c"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "mygitljf/openoperator-mvp",
       "score": 0.21141002660347266,
       "latency": 10674.782252560059,
-      "timestamp": "2026-05-18T07:28:29.291604+00:00"
+      "timestamp": "2026-05-18T07:28:29.291604+00:00",
+      "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.033911306431677314,
       "latency": 66548.77789939444,
-      "timestamp": "2026-05-18T09:11:58.720814+00:00"
+      "timestamp": "2026-05-18T09:11:58.720814+00:00",
+      "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "ykkkx/ICS_28",
       "score": 0.001285879689432006,
       "latency": 1755028.8868757586,
-      "timestamp": "2026-05-18T11:14:59.047536+00:00"
+      "timestamp": "2026-05-18T11:14:59.047536+00:00",
+      "commit_sha": "8f4e017b5da6c96e3e54c3e1e57391e8b1643d1c"
     }
   ],
   "last_updated": "2026-05-18T11:18:42.614993+00:00"

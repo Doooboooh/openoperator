@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.02377821872226322,
       "latency": 2365.988834450642,
-      "timestamp": "2026-05-18T09:21:40.498367+00:00"
+      "timestamp": "2026-05-18T09:21:40.498367+00:00",
+      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "wbr258/openoperator-start-kit",
       "score": 0.023300132979004563,
       "latency": 2414.5355758567653,
-      "timestamp": "2026-05-18T06:39:10.274921+00:00"
+      "timestamp": "2026-05-18T06:39:10.274921+00:00",
+      "commit_sha": "e59efe014b9910c95394a45c9b6f45930fbbe3d3"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.023101917666518066,
       "latency": 2435.2523808677993,
-      "timestamp": "2026-05-18T09:41:07.584422+00:00"
+      "timestamp": "2026-05-18T09:41:07.584422+00:00",
+      "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "SilWhite/ICS-Competition",
       "score": 0.022969319536236613,
       "latency": 2449.31069513162,
-      "timestamp": "2026-05-18T09:00:34.120470+00:00"
+      "timestamp": "2026-05-18T09:00:34.120470+00:00",
+      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.02239315941279366,
       "latency": 2512.32972368598,
-      "timestamp": "2026-05-18T09:57:06.551327+00:00"
+      "timestamp": "2026-05-18T09:57:06.551327+00:00",
+      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.02183261153423823,
       "latency": 2576.833280424277,
-      "timestamp": "2026-05-18T07:50:09.200456+00:00"
+      "timestamp": "2026-05-18T07:50:09.200456+00:00",
+      "commit_sha": "49516f907efecfd0c079ed4463ca28dc9a8b3ce1"
     },
     {
       "rank": 7,
@@ -56,7 +62,8 @@
       "github": "beiwenziyao/BANGC08",
       "score": 0.005163703862835181,
       "latency": 10895.086452364922,
-      "timestamp": "2026-05-18T05:55:18.030721+00:00"
+      "timestamp": "2026-05-18T05:55:18.030721+00:00",
+      "commit_sha": "dffa1166cc766175730831ca43b5036269616139"
     },
     {
       "rank": 8,
@@ -64,7 +71,8 @@
       "github": "sleepy3dog/AICS-38",
       "score": 0.0020386941418390407,
       "latency": 27595.605856428545,
-      "timestamp": "2026-05-18T09:20:52.999242+00:00"
+      "timestamp": "2026-05-18T09:20:52.999242+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
   "last_updated": "2026-05-18T09:57:44.021567+00:00"

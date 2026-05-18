@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.9023202625704088,
       "latency": 3809.186319510142,
-      "timestamp": "2026-05-18T08:02:28.471922+00:00"
+      "timestamp": "2026-05-18T08:02:28.471922+00:00",
+      "commit_sha": "98eaea5c0ebefe1a6514fe1ecaea9ffd99f586fa"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.848817447113443,
       "latency": 4049.2876432836056,
-      "timestamp": "2026-05-18T10:15:58.327233+00:00"
+      "timestamp": "2026-05-18T10:15:58.327233+00:00",
+      "commit_sha": "c333634cdb16589ffacebf49b1e6d4a3af855e76"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.8390869369647306,
       "latency": 4096.245393157005,
-      "timestamp": "2026-05-18T08:02:02.667593+00:00"
+      "timestamp": "2026-05-18T08:02:02.667593+00:00",
+      "commit_sha": "287d360b9909fad095688e3ee6ba62c6d51ed3aa"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.8171340301992992,
       "latency": 4206.294038643439,
-      "timestamp": "2026-05-18T07:48:33.023979+00:00"
+      "timestamp": "2026-05-18T07:48:33.023979+00:00",
+      "commit_sha": "9f75d9cc7d8225692134bcd64fa5df347c14d22e"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.8057365634350473,
       "latency": 4265.793754408757,
-      "timestamp": "2026-05-18T08:43:30.078519+00:00"
+      "timestamp": "2026-05-18T08:43:30.078519+00:00",
+      "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "SilWhite/ICS-Competition",
       "score": 0.5996828935698062,
       "latency": 5731.5391798814135,
-      "timestamp": "2026-05-18T09:00:34.120470+00:00"
+      "timestamp": "2026-05-18T09:00:34.120470+00:00",
+      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
       "rank": 7,
@@ -56,7 +62,8 @@
       "github": "wbr258/openoperator-start-kit",
       "score": 0.002063995991007025,
       "latency": 1665267.769402514,
-      "timestamp": "2026-05-18T06:56:07.904857+00:00"
+      "timestamp": "2026-05-18T06:56:07.904857+00:00",
+      "commit_sha": "ab7698ebaa529d54df1b08db68b428fe98436d27"
     },
     {
       "rank": 8,
@@ -64,7 +71,8 @@
       "github": "sleepy3dog/AICS-38",
       "score": 0.0012451777014653724,
       "latency": 2760333.72261251,
-      "timestamp": "2026-05-18T09:20:52.999242+00:00"
+      "timestamp": "2026-05-18T09:20:52.999242+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
   "last_updated": "2026-05-18T10:17:59.091285+00:00"

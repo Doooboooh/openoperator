@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 12.858220988190448,
       "latency": 2348.533986757199,
-      "timestamp": "2026-05-18T08:46:24.443091+00:00"
+      "timestamp": "2026-05-18T08:46:24.443091+00:00",
+      "commit_sha": "f11e2d579e512ce3a8f5b68c214359bca3560edd"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 12.80107506530576,
       "latency": 2359.0181954205036,
-      "timestamp": "2026-05-18T08:46:24.483195+00:00"
+      "timestamp": "2026-05-18T08:46:24.483195+00:00",
+      "commit_sha": "f11e2d579e512ce3a8f5b68c214359bca3560edd"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 7.005357440498524,
       "latency": 4310.6963858008385,
-      "timestamp": "2026-05-18T08:43:30.078519+00:00"
+      "timestamp": "2026-05-18T08:43:30.078519+00:00",
+      "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "SilWhite/ICS-Competition",
       "score": 0.12423742699935633,
       "latency": 243066.6002134482,
-      "timestamp": "2026-05-18T09:11:36.899976+00:00"
+      "timestamp": "2026-05-18T09:11:36.899976+00:00",
+      "commit_sha": "8d2e21be068311cfa76e0594b0705c14d6fe43af"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "wbr258/openoperator-start-kit",
       "score": 0.11642461246151808,
       "latency": 259377.87862494588,
-      "timestamp": "2026-05-18T07:04:21.440830+00:00"
+      "timestamp": "2026-05-18T07:04:21.440830+00:00",
+      "commit_sha": "209267b3065e0fa56e77d8c9eda5810242c10271"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "sleepy3dog/AICS-38",
       "score": 0.10497439537492935,
       "latency": 287669.8540834089,
-      "timestamp": "2026-05-18T06:15:28.677444+00:00"
+      "timestamp": "2026-05-18T06:15:28.677444+00:00",
+      "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     }
   ],
   "last_updated": "2026-05-18T09:17:07.562240+00:00"

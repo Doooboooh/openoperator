@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.04164286543494388,
       "latency": 2379.6873477598033,
-      "timestamp": "2026-05-18T08:52:17.036007+00:00"
+      "timestamp": "2026-05-18T08:52:17.036007+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.04142959422279178,
       "latency": 2391.937499245008,
-      "timestamp": "2026-05-18T09:41:01.761793+00:00"
+      "timestamp": "2026-05-18T09:41:01.761793+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "wbr258/openoperator-start-kit",
       "score": 0.03987137796425608,
       "latency": 2485.416984806458,
-      "timestamp": "2026-05-18T06:56:57.054864+00:00"
+      "timestamp": "2026-05-18T06:56:57.054864+00:00",
+      "commit_sha": "1d93d30c7928472181c2e0e6a8358968cf2edf35"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.037708127664236375,
       "latency": 2628.001073996226,
-      "timestamp": "2026-05-18T07:59:10.002902+00:00"
+      "timestamp": "2026-05-18T07:59:10.002902+00:00",
+      "commit_sha": "5b5c0bf64367f0e22bf496bf632790e5d95d9286"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.036815291872145044,
       "latency": 2691.734737406174,
-      "timestamp": "2026-05-18T09:41:07.584422+00:00"
+      "timestamp": "2026-05-18T09:41:07.584422+00:00",
+      "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0367155663771454,
       "latency": 2699.045930057764,
-      "timestamp": "2026-05-18T07:48:46.961584+00:00"
+      "timestamp": "2026-05-18T07:48:46.961584+00:00",
+      "commit_sha": "61edb14b1de7dd10b11cafa5306512367205303b"
     },
     {
       "rank": 7,
@@ -56,7 +62,8 @@
       "github": "sleepy3dog/AICS-38",
       "score": 0.0016506804269078457,
       "latency": 60034.03104841709,
-      "timestamp": "2026-05-18T09:21:07.230079+00:00"
+      "timestamp": "2026-05-18T09:21:07.230079+00:00",
+      "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
   "last_updated": "2026-05-18T09:42:33.092298+00:00"

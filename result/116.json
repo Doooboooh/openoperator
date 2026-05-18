@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.09714547082895997,
       "latency": 3683.0950217942395,
-      "timestamp": "2026-05-18T07:35:25.751894+00:00"
+      "timestamp": "2026-05-18T07:35:25.751894+00:00",
+      "commit_sha": "8893dc17b77a0765eda26917c2a521d7b1708e7b"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.08687573520731756,
       "latency": 4118.480253964663,
-      "timestamp": "2026-05-18T08:13:18.509365+00:00"
+      "timestamp": "2026-05-18T08:13:18.509365+00:00",
+      "commit_sha": "8893dc17b77a0765eda26917c2a521d7b1708e7b"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.06633408478437405,
       "latency": 5393.848444024722,
-      "timestamp": "2026-05-18T09:11:58.720814+00:00"
+      "timestamp": "2026-05-18T09:11:58.720814+00:00",
+      "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.04084713905814404,
       "latency": 8759.389476229748,
-      "timestamp": "2026-05-18T09:41:07.584422+00:00"
+      "timestamp": "2026-05-18T09:41:07.584422+00:00",
+      "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "beiwenziyao/BANGC08",
       "score": 0.029956714927156524,
       "latency": 11943.76622637113,
-      "timestamp": "2026-05-18T05:55:37.661924+00:00"
+      "timestamp": "2026-05-18T05:55:37.661924+00:00",
+      "commit_sha": "3bf86ca4da646a963e8de18f8646974753dd5d0b"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "sleepy3dog/AICS-38",
       "score": 0.00470432543351325,
       "latency": 76056.81304509442,
-      "timestamp": "2026-05-18T09:21:07.230079+00:00"
+      "timestamp": "2026-05-18T09:21:07.230079+00:00",
+      "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
       "rank": 7,
@@ -56,7 +62,8 @@
       "github": "ykkkx/ICS_28",
       "score": 0.004621975086286552,
       "latency": 77411.92743803065,
-      "timestamp": "2026-05-18T07:05:34.732230+00:00"
+      "timestamp": "2026-05-18T07:05:34.732230+00:00",
+      "commit_sha": "15abd1031bc938b1c91abfe3ef8a11711196baca"
     },
     {
       "rank": 8,
@@ -64,7 +71,8 @@
       "github": "dingyue772/TensorCraft",
       "score": 0.0035963376761016575,
       "latency": 99488.98913959663,
-      "timestamp": "2026-05-18T11:03:09.843599+00:00"
+      "timestamp": "2026-05-18T11:03:09.843599+00:00",
+      "commit_sha": "ab2b51f4fc8f07580e8f84852517b4f29dfca3c6"
     }
   ],
   "last_updated": "2026-05-18T11:08:33.190356+00:00"

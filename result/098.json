@@ -8,7 +8,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.029448449188046115,
       "latency": 2904.091806461414,
-      "timestamp": "2026-05-18T07:29:53.880871+00:00"
+      "timestamp": "2026-05-18T07:29:53.880871+00:00",
+      "commit_sha": "f74f9875005282ea5a6cb452c17095d775e2dc90"
     },
     {
       "rank": 2,
@@ -16,7 +17,8 @@
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.028701630287945937,
       "latency": 2979.65652619799,
-      "timestamp": "2026-05-18T09:20:33.074413+00:00"
+      "timestamp": "2026-05-18T09:20:33.074413+00:00",
+      "commit_sha": "39254bd15e0e6e3634f6b8ad917e8e71cf504103"
     },
     {
       "rank": 3,
@@ -24,7 +26,8 @@
       "github": "AICS-2025-63H/openoperator",
       "score": 0.02095961551685027,
       "latency": 4080.275228867928,
-      "timestamp": "2026-05-18T08:43:30.078519+00:00"
+      "timestamp": "2026-05-18T08:43:30.078519+00:00",
+      "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
       "rank": 4,
@@ -32,7 +35,8 @@
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0003198160141067759,
       "latency": 267406.8721632163,
-      "timestamp": "2026-05-18T07:38:38.710071+00:00"
+      "timestamp": "2026-05-18T07:38:38.710071+00:00",
+      "commit_sha": "6fe6af9e730b4765109f623c5ba0056cf21ce301"
     },
     {
       "rank": 5,
@@ -40,7 +44,8 @@
       "github": "SilWhite/ICS-Competition",
       "score": 0.00022059430766739062,
       "latency": 387684.52778458595,
-      "timestamp": "2026-05-18T09:16:37.878376+00:00"
+      "timestamp": "2026-05-18T09:16:37.878376+00:00",
+      "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
       "rank": 6,
@@ -48,7 +53,8 @@
       "github": "sleepy3dog/AICS-38",
       "score": 0.0002175370972374334,
       "latency": 393132.94645398855,
-      "timestamp": "2026-05-18T09:20:52.999242+00:00"
+      "timestamp": "2026-05-18T09:20:52.999242+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
   "last_updated": "2026-05-18T09:22:12.525055+00:00"
