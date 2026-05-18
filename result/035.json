@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.1253617350397065,
+      "latency": 5943.599933137496,
+      "timestamp": "2026-05-18T06:25:19.093070+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.11776360557669566,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T06:08:58.092640+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0026635287556871826,
@@ -19,5 +27,5 @@
       "timestamp": "2026-05-18T05:48:24.602028+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:14:01.492884+00:00"
+  "last_updated": "2026-05-18T06:29:16.918796+00:00"
 }

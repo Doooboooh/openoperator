@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.0052550605952360165,
+      "latency": 6840.453948825598,
+      "timestamp": "2026-05-18T06:27:51.390361+00:00"
+    },
+    {
+      "rank": 5,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.001320930246938491,
@@ -35,20 +43,12 @@
       "timestamp": "2026-05-18T05:48:00.089373+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0012975598240673376,
       "latency": 27703.539623568457,
       "timestamp": "2026-05-18T05:55:30.401526+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.0001283938364950927,
-      "latency": 279974.49863081175,
-      "timestamp": "2026-05-18T06:20:41.922799+00:00"
     },
     {
       "rank": 7,
@@ -67,5 +67,5 @@
       "timestamp": "2026-05-18T06:02:02.423432+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:24:12.454621+00:00"
+  "last_updated": "2026-05-18T06:29:16.915254+00:00"
 }

@@ -20,12 +20,28 @@
     },
     {
       "rank": 3,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.0006231031921214363,
+      "latency": 3617176.1411242187,
+      "timestamp": "2026-05-18T06:24:49.196761+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0005606605387382861,
       "latency": 4020033.236282567,
       "timestamp": "2026-05-18T06:04:57.141482+00:00"
+    },
+    {
+      "rank": 5,
+      "user": "team_67",
+      "github": "Auro-sol/BangC68",
+      "score": 0.00031656504600225207,
+      "latency": 7119781.632442027,
+      "timestamp": "2026-05-18T06:27:59.193680+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:19:06.016365+00:00"
+  "last_updated": "2026-05-18T06:29:16.920743+00:00"
 }

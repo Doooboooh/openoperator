@@ -1,6 +1,15 @@
 {
   "problem_id": "128",
   "problem_name": "128_Batch_norm_1D",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.013063333292039691,
+      "latency": 4562.694579362869,
+      "timestamp": "2026-05-18T06:25:54.636112+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:29:16.924110+00:00"
 }
