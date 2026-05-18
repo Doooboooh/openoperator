@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.7561589895426121,
+      "latency": 40.597282350063324,
+      "timestamp": "2026-05-18T02:17:07.394886+00:00"
+    },
+    {
+      "rank": 2,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.7239053374933455,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-17T16:49:14.130668+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.6736754369290512,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-17T15:06:55.361646+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.6528419023551781,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-17T13:26:22.720521+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.42707213737569105,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-18T02:14:16.945877+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.37688031833230046,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-17T13:57:16.334971+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.27607870270872964,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-17T14:40:32.832082+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.09791023834117377,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-17T17:15:47.803387+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.023336811143049495,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-17T16:17:52.170258+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.015016642959814816,
@@ -75,5 +83,5 @@
       "timestamp": "2026-05-17T15:05:35.494190+00:00"
     }
   ],
-  "last_updated": "2026-05-18T02:15:31.211370+00:00"
+  "last_updated": "2026-05-18T02:20:35.723450+00:00"
 }
