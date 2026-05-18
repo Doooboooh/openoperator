@@ -4,6 +4,22 @@
   "results": [
     {
       "rank": 1,
+      "user": "智算第九组",
+      "github": "silent-Ning9/BangC09",
+      "score": 0.011877979758220338,
+      "latency": 2414.131071418524,
+      "timestamp": "2026-05-18T07:01:10.226087+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.011805125829847255,
+      "latency": 2429.0295938650765,
+      "timestamp": "2026-05-18T07:00:52.686734+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.010985372234071911,
@@ -11,7 +27,7 @@
       "timestamp": "2026-05-18T06:27:51.390361+00:00"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.005901460414740707,
@@ -19,7 +35,7 @@
       "timestamp": "2026-05-18T06:52:15.751532+00:00"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.00487393438351975,
@@ -27,7 +43,7 @@
       "timestamp": "2026-05-18T06:42:23.637274+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0026716059684330227,
@@ -35,5 +51,5 @@
       "timestamp": "2026-05-18T06:08:58.092640+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:54:43.663192+00:00"
+  "last_updated": "2026-05-18T07:04:53.735675+00:00"
 }
