@@ -78,12 +78,20 @@
       "rank": 10,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
-      "score": 0.004461166807813606,
-      "latency": 9466.35752916336,
-      "timestamp": "2026-05-18T06:33:00.577162+00:00"
+      "score": 0.005202226816288151,
+      "latency": 8117.869806786378,
+      "timestamp": "2026-05-18T07:12:29.740562+00:00"
     },
     {
       "rank": 11,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.004326714155141319,
+      "latency": 9760.524611920118,
+      "timestamp": "2026-05-18T07:13:17.068967+00:00"
+    },
+    {
+      "rank": 12,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0041283773805698325,
@@ -91,7 +99,7 @@
       "timestamp": "2026-05-18T06:37:57.873297+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.001641312203860216,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-18T07:06:12.273662+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.0009549160129547516,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-18T07:09:39.211907+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00022225142106754622,
@@ -115,7 +123,7 @@
       "timestamp": "2026-05-18T05:48:17.300259+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.00021997901744882277,
@@ -123,5 +131,5 @@
       "timestamp": "2026-05-18T06:56:20.702270+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:09:59.437631+00:00"
+  "last_updated": "2026-05-18T07:15:04.882768+00:00"
 }

@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.016647522363685614,
+      "latency": 2396.39263600111,
+      "timestamp": "2026-05-18T07:10:34.284403+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.016341176675986904,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T06:39:54.032879+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.01627859316649303,
@@ -19,20 +27,12 @@
       "timestamp": "2026-05-18T06:42:23.637274+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.0159797193840508,
       "latency": 2496.5394598742328,
       "timestamp": "2026-05-18T06:53:30.117808+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.01531537249618455,
-      "latency": 2604.8338040709496,
-      "timestamp": "2026-05-18T06:37:22.653680+00:00"
     },
     {
       "rank": 5,
@@ -52,6 +52,14 @@
     },
     {
       "rank": 7,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.012939292714466262,
+      "latency": 3083.1669767697654,
+      "timestamp": "2026-05-18T07:13:17.068967+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.012790896780155351,
@@ -59,20 +67,12 @@
       "timestamp": "2026-05-18T06:17:28.701402+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.011546368290739299,
       "latency": 3455.112377802531,
       "timestamp": "2026-05-18T06:56:20.702270+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.00856564315459242,
-      "latency": 4657.44361281395,
-      "timestamp": "2026-05-18T06:27:54.990333+00:00"
     },
     {
       "rank": 10,
@@ -131,5 +131,5 @@
       "timestamp": "2026-05-18T07:06:12.273662+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:09:59.442634+00:00"
+  "last_updated": "2026-05-18T07:15:04.885395+00:00"
 }

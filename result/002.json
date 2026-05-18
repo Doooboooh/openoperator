@@ -54,25 +54,25 @@
       "rank": 7,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
-      "score": 0.9796469361957763,
-      "latency": 8446.789036194483,
-      "timestamp": "2026-05-18T06:53:30.117808+00:00"
+      "score": 1.0601152341175053,
+      "latency": 7805.6335138777895,
+      "timestamp": "2026-05-18T07:10:25.035723+00:00"
     },
     {
       "rank": 8,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.9843983593172151,
+      "latency": 8406.018683065971,
+      "timestamp": "2026-05-18T07:10:34.284403+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.9563678136464483,
       "latency": 8652.39386136333,
       "timestamp": "2026-05-18T06:37:53.112274+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.6902558474337482,
-      "latency": 11988.121550530195,
-      "timestamp": "2026-05-18T06:33:44.819600+00:00"
     },
     {
       "rank": 10,
@@ -163,5 +163,5 @@
       "timestamp": "2026-05-18T06:26:34.671604+00:00"
     }
   ],
-  "last_updated": "2026-05-18T07:09:59.443162+00:00"
+  "last_updated": "2026-05-18T07:15:04.886628+00:00"
 }
