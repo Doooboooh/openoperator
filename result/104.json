@@ -92,6 +92,14 @@
     },
     {
       "rank": 12,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.10933197907747978,
+      "latency": 1417.8285375237465,
+      "timestamp": "2026-05-18T02:07:46.582839+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.09626756667084986,
@@ -99,20 +107,12 @@
       "timestamp": "2026-05-17T14:29:22.614166+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0961527717209008,
       "latency": 1612.1636144816875,
       "timestamp": "2026-05-17T14:54:19.768244+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.05934138576340799,
-      "latency": 2612.2409850358963,
-      "timestamp": "2026-05-17T14:04:02.485182+00:00"
     },
     {
       "rank": 15,
@@ -140,6 +140,14 @@
     },
     {
       "rank": 18,
+      "user": "team_29",
+      "github": "duroey/openoperator-basic",
+      "score": 0.007871499826182715,
+      "latency": 19693.070370703936,
+      "timestamp": "2026-05-18T02:07:43.609394+00:00"
+    },
+    {
+      "rank": 19,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.00706541349371118,
@@ -147,7 +155,7 @@
       "timestamp": "2026-05-17T15:06:29.383355+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.002707670955577313,
@@ -155,20 +163,12 @@
       "timestamp": "2026-05-17T15:09:13.747441+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.002695014749483283,
       "latency": 57518.79466697574,
       "timestamp": "2026-05-17T13:27:38.546027+00:00"
-    },
-    {
-      "rank": 21,
-      "user": "team_29",
-      "github": "duroey/openoperator-basic",
-      "score": 0.00015717751391697125,
-      "latency": 986235.2198921144,
-      "timestamp": "2026-05-17T14:30:31.808698+00:00"
     },
     {
       "rank": 22,
@@ -179,5 +179,5 @@
       "timestamp": "2026-05-17T13:29:49.375455+00:00"
     }
   ],
-  "last_updated": "2026-05-18T02:00:21.902951+00:00"
+  "last_updated": "2026-05-18T02:10:26.529319+00:00"
 }

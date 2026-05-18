@@ -44,19 +44,19 @@
     },
     {
       "rank": 6,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.42434720775513834,
+      "latency": 99.51991960406303,
+      "timestamp": "2026-05-18T02:07:46.582839+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.3718751463411642,
       "latency": 113.56230825185776,
       "timestamp": "2026-05-18T01:58:05.773289+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.35098173826249096,
-      "latency": 120.32249942421913,
-      "timestamp": "2026-05-17T14:03:53.227441+00:00"
     },
     {
       "rank": 8,
@@ -142,9 +142,9 @@
       "rank": 18,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
-      "score": 0.002940209836231294,
-      "latency": 14363.260567188263,
-      "timestamp": "2026-05-17T14:30:31.808698+00:00"
+      "score": 0.002942328359927838,
+      "latency": 14352.918788790703,
+      "timestamp": "2026-05-18T02:07:43.609394+00:00"
     },
     {
       "rank": 19,
@@ -179,5 +179,5 @@
       "timestamp": "2026-05-17T13:27:38.546027+00:00"
     }
   ],
-  "last_updated": "2026-05-18T02:00:21.904220+00:00"
+  "last_updated": "2026-05-18T02:10:26.522137+00:00"
 }
