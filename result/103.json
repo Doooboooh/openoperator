@@ -12,19 +12,19 @@
     },
     {
       "rank": 2,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.015943088320075065,
+      "latency": 2648.8594400386014,
+      "timestamp": "2026-05-18T06:39:54.032879+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.015578417727729776,
       "latency": 2710.8658105134964,
       "timestamp": "2026-05-18T06:38:14.006461+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.01484429222078035,
-      "latency": 2844.931868215402,
-      "timestamp": "2026-05-18T06:37:53.112274+00:00"
     },
     {
       "rank": 4,
@@ -91,5 +91,5 @@
       "timestamp": "2026-05-18T06:11:21.837099+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:39:27.605200+00:00"
+  "last_updated": "2026-05-18T06:44:32.713874+00:00"
 }

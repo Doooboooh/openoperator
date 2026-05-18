@@ -1,6 +1,15 @@
 {
   "problem_id": "014",
   "problem_name": "014_4D_tensor_matrix_multiplication",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.271678009658381,
+      "latency": 127595.54975976546,
+      "timestamp": "2026-05-18T06:42:11.669062+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:44:32.718657+00:00"
 }

@@ -1,6 +1,15 @@
 {
   "problem_id": "019",
   "problem_name": "019_Matmul_with_irregular_shapes_",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.0037952346030782243,
+      "latency": 3745205.1023331783,
+      "timestamp": "2026-05-18T06:41:01.304250+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:44:32.721903+00:00"
 }
