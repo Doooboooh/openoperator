@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.08558481025651404,
+      "latency": 3455.7183583577475,
+      "timestamp": "2026-05-18T08:24:31.012076+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.04266581221239612,
@@ -11,5 +19,5 @@
       "timestamp": "2026-05-18T06:16:18.943385+00:00"
     }
   ],
-  "last_updated": "2026-05-18T06:19:06.020329+00:00"
+  "last_updated": "2026-05-18T08:26:16.892323+00:00"
 }
