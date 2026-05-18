@@ -132,6 +132,14 @@
     },
     {
       "rank": 17,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.0011831333595311584,
+      "latency": 30382.880941033363,
+      "timestamp": "2026-05-18T08:12:57.884338+00:00"
+    },
+    {
+      "rank": 18,
       "user": "智算第九组",
       "github": "silent-Ning9/BangC09",
       "score": 0.0009132898316132967,
@@ -139,7 +147,7 @@
       "timestamp": "2026-05-18T07:03:10.696871+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 6.468939591517444e-05,
@@ -147,7 +155,7 @@
       "timestamp": "2026-05-18T05:48:25.354235+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 2.169422037416922e-06,
@@ -155,21 +163,13 @@
       "timestamp": "2026-05-18T06:02:02.423432+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 4.803681316964457e-07,
       "latency": 74832191.45502274,
       "timestamp": "2026-05-18T06:50:52.773010+00:00"
-    },
-    {
-      "rank": 21,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 3.201549001825818e-07,
-      "latency": 112280024.38663195,
-      "timestamp": "2026-05-18T07:10:34.284403+00:00"
     }
   ],
-  "last_updated": "2026-05-18T08:00:50.146771+00:00"
+  "last_updated": "2026-05-18T08:16:06.170460+00:00"
 }
