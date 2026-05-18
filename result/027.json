@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.651983303207632,
+      "latency": 37.10677847266197,
+      "timestamp": "2026-05-18T01:50:35.077765+00:00"
+    },
+    {
+      "rank": 2,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.5937974674558659,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-17T16:49:14.130668+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.5566861596494063,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-17T15:06:29.383355+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.5413991690102603,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-17T15:35:48.739604+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.516032728472484,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-17T17:15:47.803387+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.34354387756952665,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-17T14:20:22.441936+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.33002637397133855,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-17T15:35:47.218924+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.18774594560551364,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-17T14:46:20.606704+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.1365851598803508,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-17T14:40:32.832082+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.00012976307346660636,
@@ -75,5 +83,5 @@
       "timestamp": "2026-05-17T15:36:45.743558+00:00"
     }
   ],
-  "last_updated": "2026-05-18T01:40:11.160960+00:00"
+  "last_updated": "2026-05-18T01:55:17.502690+00:00"
 }
