@@ -1,23 +1,6 @@
 {
   "problem_id": "134",
   "problem_name": "134_Depthwise_conv_2D",
-  "results": [
-    {
-      "rank": 1,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.6950842762751077,
-      "latency": 645.7979790866375,
-      "timestamp": "2026-05-17T15:26:14.111665+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.6697742355145149,
-      "latency": 655.5868312716484,
-      "timestamp": "2026-05-17T15:27:55.901810+00:00"
-    }
-  ],
-  "last_updated": "2026-05-17T15:29:19.229829+00:00"
+  "results": [],
+  "last_updated": "2026-05-18T01:40:11.160960+00:00"
 }

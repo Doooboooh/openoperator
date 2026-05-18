@@ -4,22 +4,6 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.948203134486333,
-      "latency": 616.945419460535,
-      "timestamp": "2026-05-17T15:33:14.639060+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.9138049768908747,
-      "latency": 628.0342116951942,
-      "timestamp": "2026-05-17T16:15:48.638754+00:00"
-    },
-    {
-      "rank": 3,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 1.9068699695809879,
@@ -27,7 +11,7 @@
       "timestamp": "2026-05-17T13:34:23.336977+00:00"
     },
     {
-      "rank": 4,
+      "rank": 2,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.8847370893237194,
@@ -35,7 +19,7 @@
       "timestamp": "2026-05-17T16:49:21.975863+00:00"
     },
     {
-      "rank": 5,
+      "rank": 3,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 1.0307520781715762,
@@ -43,7 +27,7 @@
       "timestamp": "2026-05-17T13:57:11.708743+00:00"
     },
     {
-      "rank": 6,
+      "rank": 4,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.9590713075518899,
@@ -51,7 +35,7 @@
       "timestamp": "2026-05-17T15:31:42.731046+00:00"
     },
     {
-      "rank": 7,
+      "rank": 5,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.4385169790006572,
@@ -59,7 +43,7 @@
       "timestamp": "2026-05-17T14:48:59.676028+00:00"
     },
     {
-      "rank": 8,
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.004296648836486677,
@@ -67,7 +51,7 @@
       "timestamp": "2026-05-17T15:28:24.557488+00:00"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0016066646461155862,
@@ -75,7 +59,7 @@
       "timestamp": "2026-05-17T14:41:09.678080+00:00"
     },
     {
-      "rank": 10,
+      "rank": 8,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.00036178627993270306,
@@ -83,7 +67,7 @@
       "timestamp": "2026-05-17T14:38:21.059749+00:00"
     },
     {
-      "rank": 11,
+      "rank": 9,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.00010037928740424841,
@@ -91,7 +75,7 @@
       "timestamp": "2026-05-17T14:04:51.091726+00:00"
     },
     {
-      "rank": 12,
+      "rank": 10,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 4.5836662728472015e-05,
@@ -99,5 +83,5 @@
       "timestamp": "2026-05-17T15:43:11.110785+00:00"
     }
   ],
-  "last_updated": "2026-05-17T16:50:36.323639+00:00"
+  "last_updated": "2026-05-18T01:40:11.160960+00:00"
 }
