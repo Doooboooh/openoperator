@@ -229,6 +229,14 @@
     },
     {
       "rank": 26,
+      "user": "team_98",
+      "github": "LSY839/bangc-competition",
+      "score": 0.15977072356278996,
+      "latency": 51792.16076309482,
+      "timestamp": "2026-05-18T15:05:34.714416+00:00"
+    },
+    {
+      "rank": 27,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.1593195068762185,
@@ -236,7 +244,7 @@
       "timestamp": "2026-05-18T14:13:54.546292+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.015820816234331344,
@@ -245,7 +253,7 @@
       "commit_sha": "4a8699dced123f1b992e911f39427066adbc861c"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.0033386609648728854,
@@ -254,7 +262,7 @@
       "commit_sha": "5e84cc4670f531393414d3fbbfdb392a1091a484"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0005104747112576844,
@@ -263,5 +271,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-05-18T14:15:46.169536+00:00"
+  "last_updated": "2026-05-18T15:06:37.367297+00:00"
 }
