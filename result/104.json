@@ -121,6 +121,14 @@
     },
     {
       "rank": 14,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.00709109043399381,
+      "latency": 21860.38965980212,
+      "timestamp": "2026-05-18T12:47:02.807733+00:00"
+    },
+    {
+      "rank": 15,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.006808777622161945,
@@ -129,7 +137,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0063209518945787834,
@@ -138,7 +146,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.002595675517268336,
@@ -147,7 +155,7 @@
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0004853574640695557,
@@ -156,7 +164,7 @@
       "commit_sha": "f9ccaec54ed3f58878c5033b4c4b87942d179fdd"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.00018291496741104507,
@@ -165,7 +173,7 @@
       "commit_sha": "c4c7df89d71292032360a1e89bd74d0467bb18e4"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0001225054379968139,
@@ -174,7 +182,7 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 2.6130470104390187e-06,
@@ -183,5 +191,5 @@
       "commit_sha": "3526208ecfb2702b879e368c1059b046494403f9"
     }
   ],
-  "last_updated": "2026-05-18T09:57:44.027524+00:00"
+  "last_updated": "2026-05-18T12:49:34.844592+00:00"
 }
