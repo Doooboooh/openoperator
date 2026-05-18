@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 1.0129883802767683,
+      "latency": 6417.85841435194,
+      "timestamp": "2026-05-18T09:57:06.551327+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 1.0106424781357914,
@@ -11,7 +19,7 @@
       "timestamp": "2026-05-18T09:21:40.498367+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.9273556586835542,
@@ -19,7 +27,7 @@
       "timestamp": "2026-05-18T09:41:07.584422+00:00"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.551892075905218,
@@ -27,7 +35,7 @@
       "timestamp": "2026-05-18T07:28:29.291604+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.11463008130118665,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-18T07:48:46.961584+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0003406782051566232,
@@ -43,5 +51,5 @@
       "timestamp": "2026-05-18T09:25:28.157943+00:00"
     }
   ],
-  "last_updated": "2026-05-18T09:42:33.094618+00:00"
+  "last_updated": "2026-05-18T09:57:44.034695+00:00"
 }
