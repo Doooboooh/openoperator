@@ -28,6 +28,14 @@
     },
     {
       "rank": 4,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.01688911402056643,
+      "latency": 2500.486404945453,
+      "timestamp": "2026-05-18T08:43:30.078519+00:00"
+    },
+    {
+      "rank": 5,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.01652350219860368,
@@ -35,7 +43,7 @@
       "timestamp": "2026-05-18T06:17:30.276794+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.01602004866560593,
@@ -43,7 +51,7 @@
       "timestamp": "2026-05-18T08:07:14.862684+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.015946939288180206,
@@ -51,7 +59,7 @@
       "timestamp": "2026-05-18T07:47:26.153520+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.015578417727729776,
@@ -59,7 +67,7 @@
       "timestamp": "2026-05-18T06:38:14.006461+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.01452961152563718,
@@ -67,7 +75,7 @@
       "timestamp": "2026-05-18T06:52:40.885207+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.013988317144516852,
@@ -75,7 +83,7 @@
       "timestamp": "2026-05-18T06:17:28.701402+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.010738668045911432,
@@ -83,7 +91,7 @@
       "timestamp": "2026-05-18T06:58:02.917280+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.008749002313926078,
@@ -91,7 +99,7 @@
       "timestamp": "2026-05-18T05:46:54.967530+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.007836891767529625,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-18T07:49:33.567047+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.007485459742528562,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-18T06:05:42.216189+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0068091955616671465,
@@ -115,7 +123,7 @@
       "timestamp": "2026-05-18T06:17:25.514640+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.005202226816288151,
@@ -123,7 +131,7 @@
       "timestamp": "2026-05-18T07:12:29.740562+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.004326714155141319,
@@ -131,7 +139,7 @@
       "timestamp": "2026-05-18T07:13:17.068967+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0041283773805698325,
@@ -139,20 +147,12 @@
       "timestamp": "2026-05-18T06:37:57.873297+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.0024375808156152454,
       "latency": 17324.96405020356,
       "timestamp": "2026-05-18T07:49:22.593982+00:00"
-    },
-    {
-      "rank": 19,
-      "user": "cuda组",
-      "github": "AICS-2025-63H/openoperator",
-      "score": 0.0009549160129547516,
-      "latency": 44224.831741303205,
-      "timestamp": "2026-05-18T07:09:39.211907+00:00"
     },
     {
       "rank": 20,
@@ -179,5 +179,5 @@
       "timestamp": "2026-05-18T07:22:21.723596+00:00"
     }
   ],
-  "last_updated": "2026-05-18T08:26:16.883917+00:00"
+  "last_updated": "2026-05-18T08:46:33.706760+00:00"
 }

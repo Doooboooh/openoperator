@@ -28,6 +28,22 @@
     },
     {
       "rank": 4,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.010849803887764103,
+      "latency": 2666.5919770797095,
+      "timestamp": "2026-05-18T08:46:03.641010+00:00"
+    },
+    {
+      "rank": 5,
+      "user": "cuda组",
+      "github": "AICS-2025-63H/openoperator",
+      "score": 0.010788799156393459,
+      "latency": 2681.670089562734,
+      "timestamp": "2026-05-18T08:43:30.078519+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.007182531192655908,
@@ -35,7 +51,7 @@
       "timestamp": "2026-05-18T06:52:15.751532+00:00"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.006696800914615057,
@@ -43,7 +59,7 @@
       "timestamp": "2026-05-18T07:48:33.023979+00:00"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.004425896130137446,
@@ -51,7 +67,7 @@
       "timestamp": "2026-05-18T06:37:01.292849+00:00"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.003256765949144351,
@@ -59,21 +75,13 @@
       "timestamp": "2026-05-18T07:06:52.954660+00:00"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0019031156288508066,
       "latency": 15202.43939012289,
       "timestamp": "2026-05-18T08:07:01.571805+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 7.26788357018808e-05,
-      "latency": 398080.12498542666,
-      "timestamp": "2026-05-18T08:18:24.251504+00:00"
     }
   ],
-  "last_updated": "2026-05-18T08:21:11.926789+00:00"
+  "last_updated": "2026-05-18T08:46:33.725056+00:00"
 }

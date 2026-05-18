@@ -1,6 +1,15 @@
 {
   "problem_id": "099",
   "problem_name": "099_DropPath",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.06751351266571212,
+      "latency": 2434.4163636366525,
+      "timestamp": "2026-05-18T08:46:03.641010+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T08:46:33.732617+00:00"
 }
