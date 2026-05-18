@@ -1,6 +1,15 @@
 {
   "problem_id": "032",
   "problem_name": "032_Softsign",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 1.5795386572675237e-06,
+      "latency": 39347565.008327365,
+      "timestamp": "2026-05-18T06:07:08.389208+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:08:56.579601+00:00"
 }

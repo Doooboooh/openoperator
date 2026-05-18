@@ -1,6 +1,15 @@
 {
   "problem_id": "098",
   "problem_name": "098_Attention_with_temperature",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.0003197338980255111,
+      "latency": 267475.5492868523,
+      "timestamp": "2026-05-18T06:07:08.389208+00:00"
+    }
+  ],
+  "last_updated": "2026-05-18T06:08:56.582366+00:00"
 }
