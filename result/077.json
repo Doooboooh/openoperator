@@ -4,15 +4,24 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_42",
+      "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.05193772800752519,
-      "latency": 2102.9414298633733,
-      "timestamp": "2026-05-18T09:41:01.761793+00:00",
-      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
+      "score": 0.2473695841800321,
+      "latency": 441.5336685876052,
+      "timestamp": "2026-05-19T08:02:53.065991+00:00",
+      "commit_sha": "dda3cf3b529c00a7f9ef5a650e1b746ab89d90d6"
     },
     {
       "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.21737048173031082,
+      "latency": 502.4693285425504,
+      "timestamp": "2026-05-19T08:04:07.654166+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
+    },
+    {
+      "rank": 3,
       "user": "team_55",
       "github": "Ianthe1128/AICS-BangC_Game-17-7",
       "score": 0.046026768637183545,
@@ -21,22 +30,13 @@
       "commit_sha": "5a67b2850178d7070be455a428b2f0261c53befd"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.04553583477027006,
       "latency": 2398.59443778793,
       "timestamp": "2026-05-18T05:48:19.830977+00:00",
       "commit_sha": "ef744a9bf35836b3052e8ee3edf0ce226bfc3f32"
-    },
-    {
-      "rank": 4,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.04531183585712867,
-      "latency": 2410.4518815875053,
-      "timestamp": "2026-05-18T08:48:36.852976+00:00",
-      "commit_sha": "dda3cf3b529c00a7f9ef5a650e1b746ab89d90d6"
     },
     {
       "rank": 5,
@@ -84,5 +84,5 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     }
   ],
-  "last_updated": "2026-05-18T09:42:33.088158+00:00"
+  "last_updated": "2026-05-19T08:07:55.433161+00:00"
 }
