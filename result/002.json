@@ -201,6 +201,14 @@
     },
     {
       "rank": 23,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.3382913730909859,
+      "latency": 24460.780434310436,
+      "timestamp": "2026-05-19T15:16:49.131289+00:00"
+    },
+    {
+      "rank": 24,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.33269333822528546,
@@ -209,21 +217,13 @@
       "commit_sha": "88b0b66d34a95fc59a2e94040240a2f4bc5ea946"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.2961247802589293,
       "latency": 27943.8653960824,
       "timestamp": "2026-05-18T07:49:22.593982+00:00",
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
-    },
-    {
-      "rank": 25,
-      "user": "智算第六组",
-      "github": "niuma-li/BangC06",
-      "score": 0.25394014135761817,
-      "latency": 32585.911607990663,
-      "timestamp": "2026-05-19T14:29:56.163999+00:00"
     },
     {
       "rank": 26,
@@ -303,5 +303,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-05-19T14:31:14.159668+00:00"
+  "last_updated": "2026-05-19T15:21:27.159090+00:00"
 }
