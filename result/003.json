@@ -191,6 +191,14 @@
     },
     {
       "rank": 22,
+      "user": "关东组",
+      "github": "Cahemgco/kernal_competition_ucas",
+      "score": 0.0011844116077282297,
+      "latency": 30350.0909358263,
+      "timestamp": "2026-05-19T03:08:56.335232+00:00"
+    },
+    {
+      "rank": 23,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0011831333595311584,
@@ -199,7 +207,7 @@
       "commit_sha": "dc3d018d16f5558273580942ec6d1f207348e760"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "智算第九组",
       "github": "silent-Ning9/BangC09",
       "score": 0.0009132898316132967,
@@ -208,7 +216,7 @@
       "commit_sha": "2752b0c591915bec55c03f3fe6616639b6eb1ce6"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 6.468939591517444e-05,
@@ -217,7 +225,7 @@
       "commit_sha": "cf7d693fbd18cd853bf0579877ef40eb70efe3ad"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.5963856908340227e-05,
@@ -226,7 +234,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 2.169422037416922e-06,
@@ -235,7 +243,7 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 4.803681316964457e-07,
@@ -244,5 +252,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-05-18T17:23:15.424405+00:00"
+  "last_updated": "2026-05-19T03:09:40.889712+00:00"
 }
