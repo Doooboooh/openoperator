@@ -316,6 +316,14 @@
     },
     {
       "rank": 36,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.0005555996926473695,
+      "latency": 49980.22923246026,
+      "timestamp": "2026-05-19T14:29:56.163999+00:00"
+    },
+    {
+      "rank": 37,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.0005476299150704401,
@@ -324,7 +332,7 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.00027748770718607975,
@@ -333,5 +341,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-05-19T09:19:09.478815+00:00"
+  "last_updated": "2026-05-19T14:31:14.161047+00:00"
 }

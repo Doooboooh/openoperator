@@ -130,6 +130,14 @@
     },
     {
       "rank": 15,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.0020276056167164466,
+      "latency": 2638353.8080068924,
+      "timestamp": "2026-05-19T14:29:56.163999+00:00"
+    },
+    {
+      "rank": 16,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0020224778183305634,
@@ -138,7 +146,7 @@
       "commit_sha": "baaa16475d04372fe3ee6008d93f8ba9fd9c35c6"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.0020181560318329743,
@@ -147,7 +155,7 @@
       "commit_sha": "e4e723290ef8e541347d068709b31ffc4fa78cb0"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0020170382238813727,
@@ -156,7 +164,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0019439349502813638,
@@ -165,7 +173,7 @@
       "commit_sha": "43a4d81194c7125f30cada68775c11e8d2f93fba"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0018750264639304536,
@@ -174,7 +182,7 @@
       "commit_sha": "55232e0b64bf5fd13ad3827aa170673725087891"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0002547945992450294,
@@ -182,7 +190,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.0002086185053398445,
@@ -191,7 +199,7 @@
       "commit_sha": "216bf40d6350418a5d084c749a6b031ba695ebea"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.00020855307137194033,
@@ -200,5 +208,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-19T08:28:16.186752+00:00"
+  "last_updated": "2026-05-19T14:31:14.155888+00:00"
 }

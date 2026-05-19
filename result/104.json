@@ -163,6 +163,14 @@
     },
     {
       "rank": 19,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.002609140178863617,
+      "latency": 59411.9094312191,
+      "timestamp": "2026-05-19T14:29:56.163999+00:00"
+    },
+    {
+      "rank": 20,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.002595675517268336,
@@ -171,7 +179,7 @@
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0004853574640695557,
@@ -180,7 +188,7 @@
       "commit_sha": "f9ccaec54ed3f58878c5033b4c4b87942d179fdd"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.00018291496741104507,
@@ -189,7 +197,7 @@
       "commit_sha": "c4c7df89d71292032360a1e89bd74d0467bb18e4"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0001225054379968139,
@@ -198,7 +206,7 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 2.6130470104390187e-06,
@@ -207,5 +215,5 @@
       "commit_sha": "3526208ecfb2702b879e368c1059b046494403f9"
     }
   ],
-  "last_updated": "2026-05-19T08:43:33.082251+00:00"
+  "last_updated": "2026-05-19T14:31:14.157935+00:00"
 }

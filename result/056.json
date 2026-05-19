@@ -57,6 +57,14 @@
     },
     {
       "rank": 7,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.11564906565820239,
+      "latency": 2329.4870431224504,
+      "timestamp": "2026-05-19T14:29:56.163999+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.11537462858335057,
@@ -65,7 +73,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.11482358877557464,
@@ -74,7 +82,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.11424273477549109,
@@ -83,7 +91,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.11243333394656965,
@@ -92,7 +100,7 @@
       "commit_sha": "a7558f4c9026636c874dfb5d112eff7a769b0b8d"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.09553411277296729,
@@ -101,7 +109,7 @@
       "commit_sha": "43fb0ddda831190a9477d284bca0054a8be8e993"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.09525467975931627,
@@ -110,7 +118,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.0924006874124698,
@@ -119,7 +127,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.06263059301813131,
@@ -128,7 +136,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.06150354370998088,
@@ -137,7 +145,7 @@
       "commit_sha": "c8c1fd120f90a8bb9064c034968d0c4e042d6372"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.05928166446724079,
@@ -146,7 +154,7 @@
       "commit_sha": "ff8c106af515a2c6a53b182f6ee27cada7365f3f"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.044917585968717914,
@@ -154,7 +162,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.04347552297386014,
@@ -163,7 +171,7 @@
       "commit_sha": "a92293d12609ec343193cf4e91fafa4931632814"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.04174182508563556,
@@ -172,7 +180,7 @@
       "commit_sha": "646976e0beae3891ae9c511b4a8e40ac4989e37b"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.025403157876651043,
@@ -181,7 +189,7 @@
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.009399264291966641,
@@ -190,7 +198,7 @@
       "commit_sha": "43a4d81194c7125f30cada68775c11e8d2f93fba"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0034364160742179363,
@@ -199,5 +207,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-19T08:43:33.079036+00:00"
+  "last_updated": "2026-05-19T14:31:14.157352+00:00"
 }

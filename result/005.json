@@ -191,6 +191,14 @@
     },
     {
       "rank": 22,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.008001191163593793,
+      "latency": 911243.819942077,
+      "timestamp": "2026-05-19T14:29:56.163999+00:00"
+    },
+    {
+      "rank": 23,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.007915231523524302,
@@ -199,7 +207,7 @@
       "commit_sha": "e934573bc4dffb730f3812ba97f75d0280a46c9b"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.005612061000810214,
@@ -208,7 +216,7 @@
       "commit_sha": "5f4ec716c313309ce46fb584975d28327fbe0424"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00484106386170915,
@@ -217,7 +225,7 @@
       "commit_sha": "75eb43a6060651bded303d3487e51c737b30a94e"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0006121458066234596,
@@ -225,7 +233,7 @@
       "timestamp": "2026-05-19T08:49:35.352332+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0006046712996282452,
@@ -234,5 +242,5 @@
       "commit_sha": "efecf8c702ba35f8135b28e4d6e428f782e3e7ce"
     }
   ],
-  "last_updated": "2026-05-19T12:55:22.052931+00:00"
+  "last_updated": "2026-05-19T14:31:14.163627+00:00"
 }
