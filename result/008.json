@@ -103,6 +103,14 @@
     },
     {
       "rank": 12,
+      "user": "智算第九组",
+      "github": "silent-Ning9/BangC09",
+      "score": 0.0003501420040646939,
+      "latency": 3432707.261759788,
+      "timestamp": "2026-05-19T07:00:33.046162+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0003235424148784447,
@@ -111,7 +119,7 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.00014702623925098165,
@@ -119,7 +127,7 @@
       "timestamp": "2026-05-18T14:29:10.286439+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 4.548882752853897e-05,
@@ -128,5 +136,5 @@
       "commit_sha": "6fe6af9e730b4765109f623c5ba0056cf21ce301"
     }
   ],
-  "last_updated": "2026-05-19T05:46:10.132875+00:00"
+  "last_updated": "2026-05-19T07:02:03.245672+00:00"
 }
