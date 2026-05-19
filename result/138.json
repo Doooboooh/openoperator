@@ -4,6 +4,22 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.8131414129832423,
+      "latency": 26291.26577327649,
+      "timestamp": "2026-05-19T06:50:30.967123+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.7591348257381885,
+      "latency": 28161.68653468291,
+      "timestamp": "2026-05-19T06:50:30.952873+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.4310131328025365,
@@ -12,7 +28,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.1390456353716861,
@@ -21,7 +37,7 @@
       "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.10466886855650057,
@@ -30,7 +46,7 @@
       "commit_sha": "1f1be09dc9264dab83e5e3f3e653016558b5d9e7"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.021008887417127493,
@@ -39,7 +55,7 @@
       "commit_sha": "0e91a919099946d1e9a1fac41edcac71d6f14aaa"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.018797890671183363,
@@ -48,7 +64,7 @@
       "commit_sha": "6ae7391c04a22a9a5e9525d81c87f0fc7f186771"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.0023035763493617473,
@@ -57,7 +73,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0018323663634313798,
@@ -66,7 +82,7 @@
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0017013465429574495,
@@ -75,7 +91,7 @@
       "commit_sha": "2d27e630d3ef067781ca42a781dac0f4567b95cc"
     },
     {
-      "rank": 9,
+      "rank": 11,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.001226129458012823,
@@ -84,7 +100,7 @@
       "commit_sha": "4bb3c9d1889b3b155ced76c46436bc1674771a90"
     },
     {
-      "rank": 10,
+      "rank": 12,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.0003111023591205342,
@@ -93,5 +109,5 @@
       "commit_sha": "a5ec80f477de93cc61becc2c713859cc5b25faa2"
     }
   ],
-  "last_updated": "2026-05-18T09:17:07.567131+00:00"
+  "last_updated": "2026-05-19T06:51:52.706798+00:00"
 }
