@@ -22,21 +22,21 @@
     },
     {
       "rank": 3,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.013431350439304808,
+      "latency": 3273.6842210094132,
+      "timestamp": "2026-05-19T22:50:34.965600+00:00",
+      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
+    },
+    {
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.01329260859483856,
       "latency": 3307.8533597290516,
       "timestamp": "2026-05-18T09:41:07.584422+00:00",
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
-    },
-    {
-      "rank": 4,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.013180749613565561,
-      "latency": 3335.9255952139697,
-      "timestamp": "2026-05-18T09:00:34.120470+00:00",
-      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
       "rank": 5,
@@ -216,5 +216,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-19T15:21:27.160991+00:00"
+  "last_updated": "2026-05-19T22:54:58.206231+00:00"
 }
