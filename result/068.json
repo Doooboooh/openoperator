@@ -22,6 +22,15 @@
     },
     {
       "rank": 3,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 3.7958356403946336,
+      "latency": 2089.669772734245,
+      "timestamp": "2026-05-19T08:24:28.367485+00:00",
+      "commit_sha": "ee32f3f936107e9dce60e1bba33e1a58a22f5ebe"
+    },
+    {
+      "rank": 4,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 3.7034152776230704,
@@ -30,22 +39,13 @@
       "commit_sha": "5b5c0bf64367f0e22bf496bf632790e5d95d9286"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 3.4676415562742524,
       "latency": 2287.446055561304,
       "timestamp": "2026-05-18T07:04:21.440830+00:00",
       "commit_sha": "209267b3065e0fa56e77d8c9eda5810242c10271"
-    },
-    {
-      "rank": 5,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 3.4488952391531402,
-      "latency": 2299.8793671528497,
-      "timestamp": "2026-05-18T06:09:38.921362+00:00",
-      "commit_sha": "ee32f3f936107e9dce60e1bba33e1a58a22f5ebe"
     },
     {
       "rank": 6,
@@ -75,5 +75,5 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     }
   ],
-  "last_updated": "2026-05-18T13:04:39.661841+00:00"
+  "last_updated": "2026-05-19T08:28:16.183488+00:00"
 }

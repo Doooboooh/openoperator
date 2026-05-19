@@ -263,20 +263,20 @@
     },
     {
       "rank": 30,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.004606363839267168,
+      "latency": 6028.399181862672,
+      "timestamp": "2026-05-19T08:24:28.367485+00:00",
+      "commit_sha": "27dbd8f98770a0d493c7c53ecb00991d5f00aa32"
+    },
+    {
+      "rank": 31,
       "user": "team_98",
       "github": "LSY839/bangc-competition",
       "score": 0.004586075729183968,
       "latency": 6055.067914227645,
       "timestamp": "2026-05-18T14:15:25.569866+00:00"
-    },
-    {
-      "rank": 31,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.004528118862712744,
-      "latency": 6132.568698376417,
-      "timestamp": "2026-05-18T06:40:53.631200+00:00",
-      "commit_sha": "27dbd8f98770a0d493c7c53ecb00991d5f00aa32"
     },
     {
       "rank": 32,
@@ -333,5 +333,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-05-19T07:27:34.036582+00:00"
+  "last_updated": "2026-05-19T08:28:16.185312+00:00"
 }

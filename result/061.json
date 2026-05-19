@@ -40,6 +40,15 @@
     },
     {
       "rank": 5,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.043060421981625414,
+      "latency": 2408.569057782491,
+      "timestamp": "2026-05-19T08:24:28.367485+00:00",
+      "commit_sha": "501f30a08ec97063f771e42c96d865d6cefecfef"
+    },
+    {
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.04199086124959315,
@@ -48,23 +57,14 @@
       "commit_sha": "8c32fc00c648d61ae4442b87f14e9db034d01f99"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.040976356805013034,
       "latency": 2531.069330871105,
       "timestamp": "2026-05-18T06:15:28.677444+00:00",
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
-    },
-    {
-      "rank": 7,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.04039138814211731,
-      "latency": 2567.725566526254,
-      "timestamp": "2026-05-18T06:41:01.304250+00:00",
-      "commit_sha": "501f30a08ec97063f771e42c96d865d6cefecfef"
     }
   ],
-  "last_updated": "2026-05-18T15:37:08.302011+00:00"
+  "last_updated": "2026-05-19T08:28:16.191458+00:00"
 }
