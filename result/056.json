@@ -4,21 +4,21 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_91",
+      "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.9527690832981631,
-      "latency": 282.7579155564308,
-      "timestamp": "2026-05-19T08:22:14.187573+00:00",
-      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
+      "score": 8.599904922585855,
+      "latency": 31.32627656062444,
+      "timestamp": "2026-05-19T08:40:09.046004+00:00",
+      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 2,
-      "user": "team_42",
+      "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.9231241758209339,
-      "latency": 291.83831065893173,
-      "timestamp": "2026-05-19T08:26:12.124968+00:00",
-      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
+      "score": 8.5085870051888,
+      "latency": 31.662484010060627,
+      "timestamp": "2026-05-19T08:40:06.471291+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
       "rank": 3,
@@ -51,9 +51,9 @@
       "rank": 6,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
-      "score": 0.11822228762063386,
-      "latency": 2278.783513853947,
-      "timestamp": "2026-05-19T07:22:21.979717+00:00"
+      "score": 0.11825557908168051,
+      "latency": 2278.1419878204665,
+      "timestamp": "2026-05-19T08:38:52.235866+00:00"
     },
     {
       "rank": 7,
@@ -93,21 +93,21 @@
     },
     {
       "rank": 11,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.09553411277296729,
+      "latency": 2819.9665248394012,
+      "timestamp": "2026-05-19T08:39:46.856896+00:00",
+      "commit_sha": "43fb0ddda831190a9477d284bca0054a8be8e993"
+    },
+    {
+      "rank": 12,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.09525467975931627,
       "latency": 2828.2389976084232,
       "timestamp": "2026-05-18T09:16:37.878376+00:00",
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
-    },
-    {
-      "rank": 12,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.0925549112783316,
-      "latency": 2910.7369482517242,
-      "timestamp": "2026-05-19T08:24:28.367485+00:00",
-      "commit_sha": "43fb0ddda831190a9477d284bca0054a8be8e993"
     },
     {
       "rank": 13,
@@ -199,5 +199,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-19T08:28:16.182529+00:00"
+  "last_updated": "2026-05-19T08:43:33.079036+00:00"
 }
