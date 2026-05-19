@@ -58,6 +58,14 @@
     },
     {
       "rank": 7,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.008233486204177624,
+      "latency": 2938.3664950728416,
+      "timestamp": "2026-05-19T12:58:11.191424+00:00"
+    },
+    {
+      "rank": 8,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.007979129425577502,
@@ -66,7 +74,7 @@
       "commit_sha": "03b3c879fb7d2085ed7e0fc6e137c564d3eade86"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.0057543009590337695,
@@ -75,7 +83,7 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.0056070956663980195,
@@ -84,7 +92,7 @@
       "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 1.7295223913802237e-05,
@@ -93,7 +101,7 @@
       "commit_sha": "ed8505a0f5f2124db6ca52682d56a6eabb3e4814"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 1.1628878586559547e-06,
@@ -102,5 +110,5 @@
       "commit_sha": "e295bc31f3b60ddd87e039785c0e6404c45e4c66"
     }
   ],
-  "last_updated": "2026-05-18T15:01:32.186606+00:00"
+  "last_updated": "2026-05-19T13:00:27.419228+00:00"
 }
