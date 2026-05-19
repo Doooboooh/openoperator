@@ -49,6 +49,14 @@
     },
     {
       "rank": 6,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.5623915754666513,
+      "latency": 9512.128618856272,
+      "timestamp": "2026-05-19T16:59:57.558887+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.5564957991153641,
@@ -57,7 +65,7 @@
       "commit_sha": "eaf4b0ca1e2b962e741d94941748b1e1cf442f8f"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.46864293922399564,
@@ -66,7 +74,7 @@
       "commit_sha": "9f75d9cc7d8225692134bcd64fa5df347c14d22e"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.1381011232715652,
@@ -75,7 +83,7 @@
       "commit_sha": "c8c1fd120f90a8bb9064c034968d0c4e042d6372"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.08906221094880955,
@@ -84,7 +92,7 @@
       "commit_sha": "9cbf54315eac9d68e9fe0dfd7b7380c9ab92eae9"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.08229607876431023,
@@ -93,7 +101,7 @@
       "commit_sha": "60b693d9e83360244f58bba0571219210d07c63b"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.0232232276914253,
@@ -102,7 +110,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.01138388030853849,
@@ -111,7 +119,7 @@
       "commit_sha": "34f34176ce8dfe63d8cdda3a075466e76be53a73"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0021957000808604512,
@@ -120,21 +128,13 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.002163163124585714,
       "latency": 2473017.8409566483,
       "timestamp": "2026-05-18T06:53:30.117808+00:00",
       "commit_sha": "cfb0d05df9f8299c507a5f7c3bcc806445cf3bb3"
-    },
-    {
-      "rank": 15,
-      "user": "智算第六组",
-      "github": "niuma-li/BangC06",
-      "score": 0.0020276056167164466,
-      "latency": 2638353.8080068924,
-      "timestamp": "2026-05-19T14:29:56.163999+00:00"
     },
     {
       "rank": 16,
@@ -208,5 +208,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-19T16:02:00.318223+00:00"
+  "last_updated": "2026-05-19T17:02:29.505035+00:00"
 }
