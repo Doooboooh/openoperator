@@ -175,6 +175,14 @@
     },
     {
       "rank": 20,
+      "user": "关东组",
+      "github": "Cahemgco/kernal_competition_ucas",
+      "score": 0.0002547945992450294,
+      "latency": 20995503.89156987,
+      "timestamp": "2026-05-19T03:35:10.402479+00:00"
+    },
+    {
+      "rank": 21,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.0002086185053398445,
@@ -183,7 +191,7 @@
       "commit_sha": "216bf40d6350418a5d084c749a6b031ba695ebea"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.00020855307137194033,
@@ -192,5 +200,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-18T17:23:15.429764+00:00"
+  "last_updated": "2026-05-19T03:39:50.792430+00:00"
 }
