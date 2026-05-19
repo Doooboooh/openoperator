@@ -58,6 +58,15 @@
     },
     {
       "rank": 7,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 0.012141050598400776,
+      "latency": 2287.199099858602,
+      "timestamp": "2026-05-19T09:16:33.933418+00:00",
+      "commit_sha": "83be01473be22e528d5e2b35ff7b651423fea2c4"
+    },
+    {
+      "rank": 8,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.01198367706872418,
@@ -66,7 +75,7 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.011819790978748143,
@@ -75,7 +84,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.011587096956761122,
@@ -84,22 +93,13 @@
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.011557210659478859,
       "latency": 2402.7423933148384,
       "timestamp": "2026-05-18T09:00:34.120470+00:00",
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
-    },
-    {
-      "rank": 11,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 0.011419219980634986,
-      "latency": 2431.7773059010506,
-      "timestamp": "2026-05-18T07:50:38.156239+00:00",
-      "commit_sha": "83be01473be22e528d5e2b35ff7b651423fea2c4"
     },
     {
       "rank": 12,
@@ -333,5 +333,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-05-19T09:08:58.702466+00:00"
+  "last_updated": "2026-05-19T09:19:09.478815+00:00"
 }
