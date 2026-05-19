@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.05022131030569516,
+      "latency": 3086.617992570003,
+      "timestamp": "2026-05-19T17:37:33.343221+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.04834430164151978,
@@ -39,7 +47,7 @@
       "commit_sha": "cfb0d05df9f8299c507a5f7c3bcc806445cf3bb3"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.04764781729452467,
@@ -48,7 +56,7 @@
       "commit_sha": "e29e47cbd5f4c1228ba92266c11c7b7cbd3be03d"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.032256433719593636,
@@ -57,7 +65,7 @@
       "commit_sha": "60b693d9e83360244f58bba0571219210d07c63b"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.02614321935870875,
@@ -66,7 +74,7 @@
       "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.026072935671079454,
@@ -75,7 +83,7 @@
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.023788073446422593,
@@ -84,7 +92,7 @@
       "commit_sha": "d3867cee647b90aeb63c3ee97618337d9bf15605"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.019733369837964088,
@@ -93,7 +101,7 @@
       "commit_sha": "0e91a919099946d1e9a1fac41edcac71d6f14aaa"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.019332297212864318,
@@ -102,7 +110,7 @@
       "commit_sha": "2f82587a0ffefc3dc95c993ca6aa86f5c2d90872"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.015456242104238025,
@@ -110,7 +118,7 @@
       "timestamp": "2026-05-18T16:17:29.651811+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0151919782405963,
@@ -119,7 +127,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.011106462323361741,
@@ -128,7 +136,7 @@
       "commit_sha": "afbe1fe5fb312d3d39ba3633d26acd46e045cb17"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.007356520574279968,
@@ -136,7 +144,7 @@
       "timestamp": "2026-05-19T08:39:46.856896+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.006808777622161945,
@@ -145,7 +153,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0063209518945787834,
@@ -154,20 +162,12 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0050948687443440385,
       "latency": 30425.513939311106,
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
-    },
-    {
-      "rank": 19,
-      "user": "智算第六组",
-      "github": "niuma-li/BangC06",
-      "score": 0.002609140178863617,
-      "latency": 59411.9094312191,
-      "timestamp": "2026-05-19T14:29:56.163999+00:00"
     },
     {
       "rank": 20,
@@ -215,5 +215,5 @@
       "commit_sha": "3526208ecfb2702b879e368c1059b046494403f9"
     }
   ],
-  "last_updated": "2026-05-19T14:31:14.157935+00:00"
+  "last_updated": "2026-05-19T17:42:54.211635+00:00"
 }

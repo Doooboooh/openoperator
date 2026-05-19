@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.1592162200762092,
+      "latency": 2804.0107960502305,
+      "timestamp": "2026-05-19T17:37:33.343221+00:00"
+    },
+    {
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.1565069887281271,
@@ -30,7 +38,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.13483140361029147,
@@ -39,7 +47,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.07139461405202491,
@@ -48,7 +56,7 @@
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.05054691506969498,
@@ -57,21 +65,13 @@
       "commit_sha": "c00d941c6a57fdc15418aff59d973279dfa61dae"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.024282320157350466,
       "latency": 18385.557768245537,
       "timestamp": "2026-05-18T06:57:15.915145+00:00",
       "commit_sha": "cb120d7dfa5238825bed2f0766c5aea1afae4c2a"
-    },
-    {
-      "rank": 8,
-      "user": "智算第六组",
-      "github": "niuma-li/BangC06",
-      "score": 0.014876229202743204,
-      "latency": 30010.562079648178,
-      "timestamp": "2026-05-19T15:57:19.849882+00:00"
     },
     {
       "rank": 9,
@@ -217,5 +217,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-05-19T16:02:00.319680+00:00"
+  "last_updated": "2026-05-19T17:42:54.214668+00:00"
 }

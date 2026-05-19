@@ -75,6 +75,14 @@
     },
     {
       "rank": 9,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.01575106542659833,
+      "latency": 2681.1519637703896,
+      "timestamp": "2026-05-19T17:37:33.343221+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.015578417727729776,
@@ -83,7 +91,7 @@
       "commit_sha": "260d14d06845fee46ad10bd9ec8014f31b1e97eb"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.01452961152563718,
@@ -92,7 +100,7 @@
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.014347431438058507,
@@ -101,21 +109,13 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.013988317144516852,
       "latency": 3019.0193404754004,
       "timestamp": "2026-05-18T06:17:28.701402+00:00",
       "commit_sha": "a7558f4c9026636c874dfb5d112eff7a769b0b8d"
-    },
-    {
-      "rank": 13,
-      "user": "智算第六组",
-      "github": "niuma-li/BangC06",
-      "score": 0.013919633897625046,
-      "latency": 3033.916000276804,
-      "timestamp": "2026-05-19T16:59:57.558887+00:00"
     },
     {
       "rank": 14,
@@ -251,5 +251,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-05-19T17:02:29.510321+00:00"
+  "last_updated": "2026-05-19T17:42:54.213210+00:00"
 }
