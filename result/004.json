@@ -172,6 +172,14 @@
     },
     {
       "rank": 20,
+      "user": "关东组",
+      "github": "Cahemgco/kernal_competition_ucas",
+      "score": 0.0016656968419327264,
+      "latency": 7579313.763572524,
+      "timestamp": "2026-05-20T12:00:04.852855+00:00"
+    },
+    {
+      "rank": 21,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.000545711368974425,
@@ -180,7 +188,7 @@
       "commit_sha": "b8bd9362e6b380d73047245e3eef50c0ea354fc0"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 9.104715657005091e-05,
@@ -188,5 +196,5 @@
       "timestamp": "2026-05-19T08:50:11.391853+00:00"
     }
   ],
-  "last_updated": "2026-05-20T08:26:38.506266+00:00"
+  "last_updated": "2026-05-20T12:03:40.557705+00:00"
 }
