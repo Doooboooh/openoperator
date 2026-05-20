@@ -187,20 +187,20 @@
     },
     {
       "rank": 22,
+      "user": "智算第五组",
+      "github": "oops-debug/BangC05",
+      "score": 0.006833493652894124,
+      "latency": 5838.009373595317,
+      "timestamp": "2026-05-20T17:01:34.243258+00:00"
+    },
+    {
+      "rank": 23,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.006705440736616226,
       "latency": 5949.497067679961,
       "timestamp": "2026-05-18T09:06:19.124121+00:00",
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
-    },
-    {
-      "rank": 23,
-      "user": "智算第五组",
-      "github": "oops-debug/BangC05",
-      "score": 0.00660758508557761,
-      "latency": 6037.606702496608,
-      "timestamp": "2026-05-20T11:36:02.545619+00:00"
     },
     {
       "rank": 24,
@@ -291,5 +291,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-05-20T13:49:43.050443+00:00"
+  "last_updated": "2026-05-20T17:02:03.612802+00:00"
 }

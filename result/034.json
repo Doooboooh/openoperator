@@ -215,6 +215,14 @@
     },
     {
       "rank": 25,
+      "user": "智算第五组",
+      "github": "oops-debug/BangC05",
+      "score": 0.0008224386493225445,
+      "latency": 53462.95439327756,
+      "timestamp": "2026-05-20T17:01:34.243258+00:00"
+    },
+    {
+      "rank": 26,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0004256156229790862,
@@ -222,7 +230,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 7.880395958100901e-05,
@@ -231,7 +239,7 @@
       "commit_sha": "55232e0b64bf5fd13ad3827aa170673725087891"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 2.6331056431057348e-06,
@@ -240,5 +248,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-20T13:44:37.382971+00:00"
+  "last_updated": "2026-05-20T17:02:03.618011+00:00"
 }
