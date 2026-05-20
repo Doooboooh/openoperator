@@ -48,20 +48,20 @@
     },
     {
       "rank": 6,
+      "user": "智算第十一组",
+      "github": "liuyitongnetizen/BangC11",
+      "score": 0.09233577543020925,
+      "latency": 4835.005694379409,
+      "timestamp": "2026-05-20T12:58:41.384085+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.07139461405202491,
       "latency": 6253.188786407311,
       "timestamp": "2026-05-18T09:06:19.124121+00:00",
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
-    },
-    {
-      "rank": 7,
-      "user": "智算第十一组",
-      "github": "liuyitongnetizen/BangC11",
-      "score": 0.06418893883527493,
-      "latency": 6955.1547057926655,
-      "timestamp": "2026-05-20T12:48:32.441805+00:00"
     },
     {
       "rank": 8,
@@ -241,5 +241,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-05-20T12:48:58.652641+00:00"
+  "last_updated": "2026-05-20T13:04:05.206295+00:00"
 }
