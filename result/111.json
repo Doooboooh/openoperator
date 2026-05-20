@@ -162,6 +162,14 @@
     },
     {
       "rank": 19,
+      "user": "智算第五组",
+      "github": "oops-debug/BangC05",
+      "score": 0.0035472809626013718,
+      "latency": 125855.26906574766,
+      "timestamp": "2026-05-20T13:30:19.086464+00:00"
+    },
+    {
+      "rank": 20,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.0018967161663496733,
@@ -170,7 +178,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0018492917836017263,
@@ -178,7 +186,7 @@
       "timestamp": "2026-05-20T08:06:25.269430+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0005021948642612806,
@@ -187,7 +195,7 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.0004762381948444197,
@@ -196,7 +204,7 @@
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.0004746406622605199,
@@ -205,7 +213,7 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00047268859649486026,
@@ -214,7 +222,7 @@
       "commit_sha": "75eb43a6060651bded303d3487e51c737b30a94e"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.00046548914499207035,
@@ -223,7 +231,7 @@
       "commit_sha": "0e91a919099946d1e9a1fac41edcac71d6f14aaa"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0002638351005714643,
@@ -232,7 +240,7 @@
       "commit_sha": "1cb317cabedc76e6059c5a8b65fbb2eb99fc9081"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 1.8458499143140315e-05,
@@ -241,5 +249,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-05-20T13:24:18.354707+00:00"
+  "last_updated": "2026-05-20T13:34:24.796330+00:00"
 }
