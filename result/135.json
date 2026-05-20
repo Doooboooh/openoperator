@@ -67,6 +67,14 @@
     },
     {
       "rank": 8,
+      "user": "关东组",
+      "github": "Cahemgco/kernal_competition_ucas",
+      "score": 0.003502711230950644,
+      "latency": 643465.5475119749,
+      "timestamp": "2026-05-20T09:20:01.649501+00:00"
+    },
+    {
+      "rank": 9,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0011972537536526933,
@@ -75,7 +83,7 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0011823802622595455,
@@ -84,7 +92,7 @@
       "commit_sha": "34f34176ce8dfe63d8cdda3a075466e76be53a73"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0006273720275257853,
@@ -93,7 +101,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0006231031921214363,
@@ -102,7 +110,7 @@
       "commit_sha": "c8f5a25243c792f85f0fd4277112600051aec9f5"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.0003330929674082737,
@@ -111,7 +119,7 @@
       "commit_sha": "06ea54e37ee9f915cc941be4e3a21650c3aa13b5"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.00031656504600225207,
@@ -120,7 +128,7 @@
       "commit_sha": "9008b0a149e03bbff85a56ecc57b39ffd122da59"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.0003161656072017193,
@@ -129,7 +137,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.00013882444067069285,
@@ -138,5 +146,5 @@
       "commit_sha": "de8b26ed66e58984eb2b25a9d875ba13efc4ba86"
     }
   ],
-  "last_updated": "2026-05-18T17:28:20.116580+00:00"
+  "last_updated": "2026-05-20T09:22:06.930363+00:00"
 }
