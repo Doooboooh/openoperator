@@ -233,6 +233,14 @@
     },
     {
       "rank": 27,
+      "user": "智算第五组",
+      "github": "oops-debug/BangC05",
+      "score": 0.0006575586046461142,
+      "latency": 54667.37070431312,
+      "timestamp": "2026-05-20T04:55:34.122989+00:00"
+    },
+    {
+      "rank": 28,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 6.468939591517444e-05,
@@ -241,7 +249,7 @@
       "commit_sha": "cf7d693fbd18cd853bf0579877ef40eb70efe3ad"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.5963856908340227e-05,
@@ -250,7 +258,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 2.169422037416922e-06,
@@ -259,7 +267,7 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 4.803681316964457e-07,
@@ -268,5 +276,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-05-19T22:54:58.202137+00:00"
+  "last_updated": "2026-05-20T05:00:28.748262+00:00"
 }
