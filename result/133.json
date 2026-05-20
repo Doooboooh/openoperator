@@ -58,6 +58,14 @@
     },
     {
       "rank": 7,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.021532276972661267,
+      "latency": 5880.288469294707,
+      "timestamp": "2026-05-20T09:46:10.439435+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0214635466571706,
@@ -66,7 +74,7 @@
       "commit_sha": "cb120d7dfa5238825bed2f0766c5aea1afae4c2a"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.02143113163622205,
@@ -75,7 +83,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0012902883013800256,
@@ -84,5 +92,5 @@
       "commit_sha": "0feb5a62f93324b05c34feb628bf3b52dee3d520"
     }
   ],
-  "last_updated": "2026-05-18T17:28:20.117579+00:00"
+  "last_updated": "2026-05-20T09:47:33.130133+00:00"
 }
