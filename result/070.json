@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.01739127308326715,
+      "latency": 2293.909123788277,
+      "timestamp": "2026-05-20T10:00:06.258766+00:00"
+    },
+    {
+      "rank": 5,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.01716189079777098,
@@ -38,7 +46,7 @@
       "timestamp": "2026-05-19T07:22:21.979717+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.017043435120189326,
@@ -47,7 +55,7 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.017027728516872558,
@@ -56,21 +64,13 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.016647522363685614,
       "latency": 2396.39263600111,
       "timestamp": "2026-05-18T07:10:34.284403+00:00",
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
-    },
-    {
-      "rank": 8,
-      "user": "智算第六组",
-      "github": "niuma-li/BangC06",
-      "score": 0.016563016727464137,
-      "latency": 2408.619193981091,
-      "timestamp": "2026-05-19T17:37:33.343221+00:00"
     },
     {
       "rank": 9,
@@ -251,5 +251,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-05-20T02:10:11.425967+00:00"
+  "last_updated": "2026-05-20T10:02:42.886091+00:00"
 }

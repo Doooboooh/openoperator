@@ -30,20 +30,20 @@
     },
     {
       "rank": 4,
+      "user": "智算第六组",
+      "github": "niuma-li/BangC06",
+      "score": 0.01381135334678256,
+      "latency": 2602.7138034502664,
+      "timestamp": "2026-05-20T10:00:06.258766+00:00"
+    },
+    {
+      "rank": 5,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.013313211994759953,
       "latency": 2700.0997215509415,
       "timestamp": "2026-05-18T07:05:05.272429+00:00",
       "commit_sha": "a1dde78e9c464797583835784b5b43629c11b964"
-    },
-    {
-      "rank": 5,
-      "user": "智算第六组",
-      "github": "niuma-li/BangC06",
-      "score": 0.01325136837535922,
-      "latency": 2712.700981646776,
-      "timestamp": "2026-05-19T17:37:33.343221+00:00"
     },
     {
       "rank": 6,
@@ -284,5 +284,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-05-20T07:06:06.469099+00:00"
+  "last_updated": "2026-05-20T10:02:42.883271+00:00"
 }
