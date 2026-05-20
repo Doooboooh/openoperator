@@ -182,6 +182,14 @@
     },
     {
       "rank": 21,
+      "user": "team_26",
+      "github": "Hanjinghui25/openoperator-start",
+      "score": 0.005155675773391959,
+      "latency": 8191.166756053765,
+      "timestamp": "2026-05-20T10:15:47.619878+00:00"
+    },
+    {
+      "rank": 22,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0041283773805698325,
@@ -190,7 +198,7 @@
       "commit_sha": "d3867cee647b90aeb63c3ee97618337d9bf15605"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0041077871720759706,
@@ -199,7 +207,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.0024375808156152454,
@@ -208,7 +216,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0019852129932308223,
@@ -216,7 +224,7 @@
       "timestamp": "2026-05-19T08:39:46.856896+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0008076710448744204,
@@ -224,7 +232,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00022225142106754622,
@@ -233,7 +241,7 @@
       "commit_sha": "f9ccaec54ed3f58878c5033b4c4b87942d179fdd"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.00021997901744882277,
@@ -242,7 +250,7 @@
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 2.1973774728125108e-06,
@@ -251,5 +259,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-05-20T10:02:42.886826+00:00"
+  "last_updated": "2026-05-20T10:17:57.560721+00:00"
 }
