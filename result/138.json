@@ -101,6 +101,14 @@
     },
     {
       "rank": 12,
+      "user": "关东组",
+      "github": "Cahemgco/kernal_competition_ucas",
+      "score": 0.0004123560317180469,
+      "latency": 51844802.441541106,
+      "timestamp": "2026-05-20T09:54:28.860053+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.0003111023591205342,
@@ -109,5 +117,5 @@
       "commit_sha": "a5ec80f477de93cc61becc2c713859cc5b25faa2"
     }
   ],
-  "last_updated": "2026-05-19T08:28:16.182061+00:00"
+  "last_updated": "2026-05-20T09:57:37.806923+00:00"
 }
