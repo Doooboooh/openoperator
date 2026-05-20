@@ -57,6 +57,14 @@
     },
     {
       "rank": 7,
+      "user": "智算第十一组",
+      "github": "liuyitongnetizen/BangC11",
+      "score": 0.06418893883527493,
+      "latency": 6955.1547057926655,
+      "timestamp": "2026-05-20T12:48:32.441805+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.05054691506969498,
@@ -65,7 +73,7 @@
       "commit_sha": "c00d941c6a57fdc15418aff59d973279dfa61dae"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.024282320157350466,
@@ -74,7 +82,7 @@
       "commit_sha": "cb120d7dfa5238825bed2f0766c5aea1afae4c2a"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.013932608763605008,
@@ -83,7 +91,7 @@
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.013828159845765508,
@@ -91,7 +99,7 @@
       "timestamp": "2026-05-20T10:27:25.165691+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0133339058239876,
@@ -100,21 +108,13 @@
       "commit_sha": "1554f638953bc3b0fe31d4fe036cc411246ed528"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.012490450536939389,
       "latency": 35742.82598371307,
       "timestamp": "2026-05-18T09:19:32.058156+00:00",
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
-    },
-    {
-      "rank": 13,
-      "user": "智算第十一组",
-      "github": "liuyitongnetizen/BangC11",
-      "score": 0.008706993312229325,
-      "latency": 51274.18662110964,
-      "timestamp": "2026-05-20T12:26:11.173822+00:00"
     },
     {
       "rank": 14,
@@ -241,5 +241,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-05-20T12:28:46.833319+00:00"
+  "last_updated": "2026-05-20T12:48:58.652641+00:00"
 }
