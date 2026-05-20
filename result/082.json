@@ -49,6 +49,14 @@
     },
     {
       "rank": 6,
+      "user": "智算第五组",
+      "github": "oops-debug/BangC05",
+      "score": 0.00011419366190802382,
+      "latency": 759945.85469986,
+      "timestamp": "2026-05-20T09:13:13.137075+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0001086353296130807,
@@ -57,5 +65,5 @@
       "commit_sha": "cb3517f528ba96333605ca481d0ae3b8cbab5411"
     }
   ],
-  "last_updated": "2026-05-19T19:54:36.814896+00:00"
+  "last_updated": "2026-05-20T09:17:01.449330+00:00"
 }
