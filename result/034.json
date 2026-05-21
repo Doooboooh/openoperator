@@ -4,20 +4,20 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_19",
+      "github": "JerryLiu369/openoperator-start-kit-experiment",
+      "score": 0.019521919371140666,
+      "latency": 2252.3400063316026,
+      "timestamp": "2026-05-21T16:49:46.688471+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.019017062448474946,
       "latency": 2312.1341752509275,
       "timestamp": "2026-05-18T09:57:06.551327+00:00",
       "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
-    },
-    {
-      "rank": 2,
-      "user": "team_19",
-      "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.018650540127950373,
-      "latency": 2357.572472343842,
-      "timestamp": "2026-05-21T16:33:05.026269+00:00"
     },
     {
       "rank": 3,
@@ -248,5 +248,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-21T16:35:12.071583+00:00"
+  "last_updated": "2026-05-21T16:50:24.878359+00:00"
 }

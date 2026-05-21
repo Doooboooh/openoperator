@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "team_19",
+      "github": "JerryLiu369/openoperator-start-kit-experiment",
+      "score": 0.017783788710584225,
+      "latency": 2243.2790137827396,
+      "timestamp": "2026-05-21T16:49:46.688471+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.01743162849567911,
@@ -38,7 +46,7 @@
       "timestamp": "2026-05-20T13:43:05.261368+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.01739127308326715,
@@ -46,20 +54,12 @@
       "timestamp": "2026-05-20T10:00:06.258766+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.01716189079777098,
       "latency": 2324.5690390467644,
       "timestamp": "2026-05-19T07:22:21.979717+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_19",
-      "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.017105099652296833,
-      "latency": 2332.286909222603,
-      "timestamp": "2026-05-21T16:33:05.026269+00:00"
     },
     {
       "rank": 8,
@@ -291,5 +291,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-05-21T16:35:12.070152+00:00"
+  "last_updated": "2026-05-21T16:50:24.876374+00:00"
 }
