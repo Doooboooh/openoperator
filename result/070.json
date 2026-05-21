@@ -55,6 +55,14 @@
     },
     {
       "rank": 7,
+      "user": "team_19",
+      "github": "JerryLiu369/openoperator-start-kit-experiment",
+      "score": 0.017105099652296833,
+      "latency": 2332.286909222603,
+      "timestamp": "2026-05-21T16:33:05.026269+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.017043435120189326,
@@ -63,7 +71,7 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.017027728516872558,
@@ -72,7 +80,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.016647522363685614,
@@ -81,21 +89,13 @@
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.01627859316649303,
       "latency": 2450.703177601099,
       "timestamp": "2026-05-18T06:42:23.637274+00:00",
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
-    },
-    {
-      "rank": 11,
-      "user": "team_19",
-      "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.016230213595971304,
-      "latency": 2458.008316655954,
-      "timestamp": "2026-05-20T13:43:06.998115+00:00"
     },
     {
       "rank": 12,
@@ -291,5 +291,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-05-21T08:13:43.561310+00:00"
+  "last_updated": "2026-05-21T16:35:12.070152+00:00"
 }
