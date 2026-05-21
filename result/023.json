@@ -31,14 +31,22 @@
     },
     {
       "rank": 4,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.3119103298610474,
-      "latency": 3058.366167048613,
-      "timestamp": "2026-05-21T16:50:03.061469+00:00"
+      "user": "team_19",
+      "github": "JerryLiu369/openoperator-start-kit-experiment",
+      "score": 0.3209230253316866,
+      "latency": 2972.4760291477046,
+      "timestamp": "2026-05-21T16:57:34.668723+00:00"
     },
     {
       "rank": 5,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.3153153768337344,
+      "latency": 3025.339295466741,
+      "timestamp": "2026-05-21T16:57:52.879562+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.30463819162144573,
@@ -47,20 +55,12 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.29841615680825345,
       "latency": 3196.663378427426,
       "timestamp": "2026-05-20T14:31:57.329128+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_19",
-      "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.2976999052754182,
-      "latency": 3204.35439546903,
-      "timestamp": "2026-05-21T16:49:46.688471+00:00"
     },
     {
       "rank": 8,
@@ -221,5 +221,5 @@
       "commit_sha": "de8b26ed66e58984eb2b25a9d875ba13efc4ba86"
     }
   ],
-  "last_updated": "2026-05-21T16:55:29.797377+00:00"
+  "last_updated": "2026-05-21T17:00:34.969314+00:00"
 }
