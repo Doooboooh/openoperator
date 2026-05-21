@@ -155,20 +155,20 @@
     },
     {
       "rank": 18,
+      "user": "智能人工",
+      "github": "asfdf-sudo/goodluck",
+      "score": 0.007683718115854855,
+      "latency": 5496.167267362277,
+      "timestamp": "2026-05-21T08:28:08.186538+00:00"
+    },
+    {
+      "rank": 19,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.007485459742528562,
       "latency": 5641.737642387549,
       "timestamp": "2026-05-18T06:05:42.216189+00:00",
       "commit_sha": "8782e2f1b49983fd10675c3a891271ff72ab6c31"
-    },
-    {
-      "rank": 19,
-      "user": "智能人工",
-      "github": "asfdf-sudo/goodluck",
-      "score": 0.007317031176011793,
-      "latency": 5771.603124837081,
-      "timestamp": "2026-05-21T08:22:25.169364+00:00"
     },
     {
       "rank": 20,
@@ -275,5 +275,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-05-21T08:23:54.713117+00:00"
+  "last_updated": "2026-05-21T08:28:59.266435+00:00"
 }
