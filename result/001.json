@@ -112,6 +112,15 @@
     },
     {
       "rank": 13,
+      "user": "养老组",
+      "github": "lesheng14/op_retirement",
+      "score": 0.011139045360771972,
+      "latency": 2492.9425368706384,
+      "timestamp": "2026-05-21T10:36:04.286968+00:00",
+      "commit_sha": "04c41ea5777b276d866f971964a872e92d681e81"
+    },
+    {
+      "rank": 14,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.01105399025953188,
@@ -120,7 +129,7 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.011048346019793969,
@@ -129,7 +138,7 @@
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.010987173427238702,
@@ -137,7 +146,7 @@
       "timestamp": "2026-05-20T10:00:06.258766+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.010955792364886184,
@@ -146,7 +155,7 @@
       "commit_sha": "137a933b31e0f88880a570a01c577992aa6fc5c7"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "我说删题大于一切组",
       "github": "Oreki2eru/openoperator-start-kit",
       "score": 0.010906756610959585,
@@ -155,7 +164,7 @@
       "commit_sha": "478955d161c295539d9785057e539095efb585bf"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.01084866501177529,
@@ -164,7 +173,7 @@
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.010691008659573325,
@@ -173,7 +182,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.01059513611928117,
@@ -181,7 +190,7 @@
       "timestamp": "2026-05-19T07:22:21.979717+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "智能哈基系统组",
       "github": "Glucose-180/AIHS-Operator",
       "score": 0.010557801779002297,
@@ -189,7 +198,7 @@
       "timestamp": "2026-05-20T14:12:27.116624+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.01016902310613394,
@@ -198,7 +207,7 @@
       "commit_sha": "36b12293e02f35cbe28028a710a4e18b5ba99833"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.009746934449973226,
@@ -207,7 +216,7 @@
       "commit_sha": "88a92381aeadd73082e68421c9143dc0f8f46d25"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 0.009565630000265524,
@@ -216,22 +225,13 @@
       "commit_sha": "7c856e3d832959a17095887bc3680631799b385c"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.009403884497647981,
       "latency": 2952.9286548495293,
       "timestamp": "2026-05-18T09:20:52.999242+00:00",
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
-    },
-    {
-      "rank": 26,
-      "user": "养老组",
-      "github": "Ace-Eternal/op_retirement",
-      "score": 0.008698596726803827,
-      "latency": 3192.353993654251,
-      "timestamp": "2026-05-18T05:46:17.760508+00:00",
-      "commit_sha": "04c41ea5777b276d866f971964a872e92d681e81"
     },
     {
       "rank": 27,
@@ -365,5 +365,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-05-21T08:44:04.360940+00:00"
+  "last_updated": "2026-05-21T10:39:11.462241+00:00"
 }
