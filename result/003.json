@@ -205,20 +205,20 @@
     },
     {
       "rank": 24,
+      "user": "team_19",
+      "github": "JerryLiu369/openoperator-start-kit-experiment",
+      "score": 0.0013225465781198692,
+      "latency": 27180.13913060228,
+      "timestamp": "2026-05-22T04:09:19.649458+00:00"
+    },
+    {
+      "rank": 25,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.001320930246938491,
       "latency": 27213.397591064375,
       "timestamp": "2026-05-18T05:48:00.089373+00:00",
       "commit_sha": "88b0b66d34a95fc59a2e94040240a2f4bc5ea946"
-    },
-    {
-      "rank": 25,
-      "user": "team_19",
-      "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.0013194735658893567,
-      "latency": 27243.440815558035,
-      "timestamp": "2026-05-22T01:19:28.280556+00:00"
     },
     {
       "rank": 26,
@@ -308,5 +308,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-05-22T01:26:36.641993+00:00"
+  "last_updated": "2026-05-22T04:12:09.048420+00:00"
 }
