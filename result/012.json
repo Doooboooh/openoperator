@@ -137,6 +137,14 @@
     },
     {
       "rank": 16,
+      "user": "team_38",
+      "github": "Godel-June/ICS_Team9",
+      "score": 0.0008512383029480172,
+      "latency": 2581557.940226048,
+      "timestamp": "2026-05-22T02:42:51.485860+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0002579122855831061,
@@ -145,7 +153,7 @@
       "commit_sha": "de8b26ed66e58984eb2b25a9d875ba13efc4ba86"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.0001853421069229273,
@@ -154,7 +162,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "养老组",
       "github": "lesheng14/op_retirement",
       "score": 0.000141682074731732,
@@ -162,7 +170,7 @@
       "timestamp": "2026-05-21T15:55:54.888873+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 2.437938121493216e-05,
@@ -171,7 +179,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 1.7712820895687264e-05,
@@ -179,7 +187,7 @@
       "timestamp": "2026-05-19T08:50:11.391853+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 1.5325856276793184e-05,
@@ -187,7 +195,7 @@
       "timestamp": "2026-05-18T14:13:54.546292+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 1.5202075683324297e-05,
@@ -195,5 +203,5 @@
       "timestamp": "2026-05-20T06:20:48.589048+00:00"
     }
   ],
-  "last_updated": "2026-05-21T16:00:04.862957+00:00"
+  "last_updated": "2026-05-22T02:46:48.006578+00:00"
 }
