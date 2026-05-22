@@ -49,6 +49,14 @@
     },
     {
       "rank": 6,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.007118290421917699,
+      "latency": 5342.715419828892,
+      "timestamp": "2026-05-22T16:26:45.800401+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.006543811104004923,
@@ -57,7 +65,7 @@
       "commit_sha": "3bdc7d39d10573d4e02ef0bc38096a5f60fbea80"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0030354738816409646,
@@ -66,7 +74,7 @@
       "commit_sha": "ce5c37463529422350f6ae3fe049467a6342cb4f"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0023811187677085957,
@@ -74,7 +82,7 @@
       "timestamp": "2026-05-19T11:03:48.704694+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0008345717649815086,
@@ -83,7 +91,7 @@
       "commit_sha": "d16cc97a153a44b987e0d9d32811536b4525f1f0"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.00020961896055961342,
@@ -92,7 +100,7 @@
       "commit_sha": "7f54df62e48d97943c23471fadbfc4ea5ff1d54a"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.00019686580087689665,
@@ -101,5 +109,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-05-19T11:04:56.498374+00:00"
+  "last_updated": "2026-05-22T16:32:04.007131+00:00"
 }
