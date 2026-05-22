@@ -74,6 +74,14 @@
     },
     {
       "rank": 9,
+      "user": "team_49",
+      "github": "drafter0364/AICS-30",
+      "score": 0.0050655284271526385,
+      "latency": 10340.480909993252,
+      "timestamp": "2026-05-22T09:37:19.732669+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0036392651030532895,
@@ -82,7 +90,7 @@
       "commit_sha": "11add0f23180092f5d1f3c1d42b87490183a46b4"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0016597237984271559,
@@ -91,5 +99,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-05-22T06:58:29.937021+00:00"
+  "last_updated": "2026-05-22T09:49:37.692634+00:00"
 }

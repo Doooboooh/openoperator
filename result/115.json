@@ -76,6 +76,14 @@
     },
     {
       "rank": 9,
+      "user": "team_49",
+      "github": "drafter0364/AICS-30",
+      "score": 0.003976113131876797,
+      "latency": 649324.0796650449,
+      "timestamp": "2026-05-22T09:37:19.732669+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.003972666884593314,
@@ -84,7 +92,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.002052722275573289,
@@ -93,5 +101,5 @@
       "commit_sha": "50371c7514dcf8d3abdbfa3d11f59cdaa28cbee4"
     }
   ],
-  "last_updated": "2026-05-19T22:54:58.212485+00:00"
+  "last_updated": "2026-05-22T09:49:37.695906+00:00"
 }

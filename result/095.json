@@ -57,6 +57,14 @@
     },
     {
       "rank": 7,
+      "user": "team_49",
+      "github": "drafter0364/AICS-30",
+      "score": 0.003920416615632058,
+      "latency": 91845.08568917711,
+      "timestamp": "2026-05-22T09:37:19.732669+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0035679888282366,
@@ -65,5 +73,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-05-20T11:08:16.917379+00:00"
+  "last_updated": "2026-05-22T09:49:37.697132+00:00"
 }
