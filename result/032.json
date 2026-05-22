@@ -49,6 +49,15 @@
     },
     {
       "rank": 6,
+      "user": "team_55",
+      "github": "Ianthe1128/AICS-BangC_Game-17-7",
+      "score": 0.0213479541594156,
+      "latency": 2911.332839479049,
+      "timestamp": "2026-05-22T06:06:48.397112+00:00",
+      "commit_sha": "7a97d59bf187777bfb6bfd6f30832e3a58d980f5"
+    },
+    {
+      "rank": 7,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.01972466919431765,
@@ -57,7 +66,7 @@
       "commit_sha": "901dae5eab19b8c9a9061b33bf45321d99a123c4"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.012977736628027592,
@@ -66,22 +75,13 @@
       "commit_sha": "51d32f3ebb48b76af3c561c633bc3a05d31b462f"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0083846278812977,
       "latency": 7412.493539353211,
       "timestamp": "2026-05-18T06:21:55.705643+00:00",
       "commit_sha": "08fec8aa754a092009a87a5292621a7b653d06dc"
-    },
-    {
-      "rank": 9,
-      "user": "team_55",
-      "github": "Ianthe1128/AICS-BangC_Game-17-7",
-      "score": 0.0004902180733253218,
-      "latency": 126782.35132868092,
-      "timestamp": "2026-05-18T06:08:28.178553+00:00",
-      "commit_sha": "7a97d59bf187777bfb6bfd6f30832e3a58d980f5"
     },
     {
       "rank": 10,
@@ -102,5 +102,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-05-19T22:54:58.204712+00:00"
+  "last_updated": "2026-05-22T06:07:59.436037+00:00"
 }
