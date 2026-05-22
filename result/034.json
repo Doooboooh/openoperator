@@ -12,20 +12,20 @@
     },
     {
       "rank": 2,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.019474005334670856,
+      "latency": 2257.881686091423,
+      "timestamp": "2026-05-22T06:35:28.590808+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.019017062448474946,
       "latency": 2312.1341752509275,
       "timestamp": "2026-05-18T09:57:06.551327+00:00",
       "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
-    },
-    {
-      "rank": 3,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.01884743088766994,
-      "latency": 2332.943957298994,
-      "timestamp": "2026-05-22T04:11:11.495970+00:00"
     },
     {
       "rank": 4,
@@ -248,5 +248,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-22T04:12:09.049273+00:00"
+  "last_updated": "2026-05-22T06:38:20.016656+00:00"
 }
