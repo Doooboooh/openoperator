@@ -39,21 +39,21 @@
     },
     {
       "rank": 5,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.04904809807483353,
+      "latency": 3160.448744893074,
+      "timestamp": "2026-05-22T13:20:05.267576+00:00",
+      "commit_sha": "e29e47cbd5f4c1228ba92266c11c7b7cbd3be03d"
+    },
+    {
+      "rank": 6,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.04834430164151978,
       "latency": 3206.458563605944,
       "timestamp": "2026-05-18T06:53:30.117808+00:00",
       "commit_sha": "cfb0d05df9f8299c507a5f7c3bcc806445cf3bb3"
-    },
-    {
-      "rank": 6,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.04764781729452467,
-      "latency": 3253.328458716472,
-      "timestamp": "2026-05-18T06:37:53.112274+00:00",
-      "commit_sha": "e29e47cbd5f4c1228ba92266c11c7b7cbd3be03d"
     },
     {
       "rank": 7,
@@ -255,5 +255,5 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     }
   ],
-  "last_updated": "2026-05-22T08:54:18.400950+00:00"
+  "last_updated": "2026-05-22T13:25:37.458318+00:00"
 }

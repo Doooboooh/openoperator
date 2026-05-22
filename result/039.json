@@ -65,20 +65,20 @@
     },
     {
       "rank": 8,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.62820908676752,
+      "latency": 8515.542217840752,
+      "timestamp": "2026-05-22T13:20:05.267576+00:00",
+      "commit_sha": "eaf4b0ca1e2b962e741d94941748b1e1cf442f8f"
+    },
+    {
+      "rank": 9,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.5707399057941713,
       "latency": 9372.992751499018,
       "timestamp": "2026-05-20T10:00:06.258766+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.5564957991153641,
-      "latency": 9612.904551128546,
-      "timestamp": "2026-05-18T06:31:59.958895+00:00",
-      "commit_sha": "eaf4b0ca1e2b962e741d94941748b1e1cf442f8f"
     },
     {
       "rank": 10,
@@ -240,5 +240,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-22T01:16:26.364950+00:00"
+  "last_updated": "2026-05-22T13:25:37.454756+00:00"
 }
