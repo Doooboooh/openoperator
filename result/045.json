@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.020599664065093497,
+      "latency": 2542.759912709395,
+      "timestamp": "2026-05-22T06:53:56.302347+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.020246334657871103,
@@ -39,7 +47,7 @@
       "commit_sha": "b13601e9b0822aac45d87ece70240235c88da6ae"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.019811394210443724,
@@ -48,7 +56,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.019009983016455012,
@@ -57,7 +65,7 @@
       "commit_sha": "9f75d9cc7d8225692134bcd64fa5df347c14d22e"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0059756292642917,
@@ -65,7 +73,7 @@
       "timestamp": "2026-05-22T06:13:48.165687+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0036392651030532895,
@@ -74,7 +82,7 @@
       "commit_sha": "11add0f23180092f5d1f3c1d42b87490183a46b4"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0016597237984271559,
@@ -83,5 +91,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-05-22T06:18:05.588755+00:00"
+  "last_updated": "2026-05-22T06:58:29.937021+00:00"
 }
