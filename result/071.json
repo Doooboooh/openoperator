@@ -58,6 +58,14 @@
     },
     {
       "rank": 7,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.00950271624010324,
+      "latency": 2564.8456066846848,
+      "timestamp": "2026-05-22T08:42:03.241947+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.009355960216493715,
@@ -66,7 +74,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.005828640545919564,
@@ -75,7 +83,7 @@
       "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.002990954324639128,
@@ -84,7 +92,7 @@
       "commit_sha": "d3867cee647b90aeb63c3ee97618337d9bf15605"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 2.8728786065807755e-05,
@@ -93,5 +101,5 @@
       "commit_sha": "c212d9b5ed4d8c7e86571885ca0baca0f28ac4d6"
     }
   ],
-  "last_updated": "2026-05-20T15:11:00.131344+00:00"
+  "last_updated": "2026-05-22T08:44:13.634677+00:00"
 }
