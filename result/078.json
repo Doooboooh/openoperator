@@ -22,20 +22,20 @@
     },
     {
       "rank": 3,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.09541427140903036,
+      "latency": 2282.373451938232,
+      "timestamp": "2026-05-23T01:59:58.029484+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.09434456607680528,
       "latency": 2308.251646657785,
       "timestamp": "2026-05-19T22:50:34.965600+00:00",
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
-    },
-    {
-      "rank": 4,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.09406675195552312,
-      "latency": 2315.068772683541,
-      "timestamp": "2026-05-22T06:53:56.302347+00:00"
     },
     {
       "rank": 5,
@@ -101,5 +101,5 @@
       "commit_sha": "5290023de287b78782fb701b3a51fa942feb31b1"
     }
   ],
-  "last_updated": "2026-05-22T06:58:29.933859+00:00"
+  "last_updated": "2026-05-23T02:04:31.054228+00:00"
 }
