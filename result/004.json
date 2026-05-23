@@ -22,6 +22,15 @@
     },
     {
       "rank": 3,
+      "user": "随缘组",
+      "github": "xufeng102403/operator",
+      "score": 0.42103739952899255,
+      "latency": 29985.0773687164,
+      "timestamp": "2026-05-23T08:26:59.601160+00:00",
+      "commit_sha": "d1c2543de701433446217a9dd053e78d97a1af57"
+    },
+    {
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.3362934548555771,
@@ -30,7 +39,7 @@
       "commit_sha": "93e29ce207eb483096633258a8e0cdfc2d3b60b5"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.3323254408128237,
@@ -39,7 +48,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.13310862054106168,
@@ -48,7 +57,7 @@
       "commit_sha": "4624a06ffbae9dcd6495dba801ebba6ecba9b806"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.10682146010509293,
@@ -57,7 +66,7 @@
       "commit_sha": "60b693d9e83360244f58bba0571219210d07c63b"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.029825785992143954,
@@ -66,7 +75,7 @@
       "commit_sha": "fac1c7c46422aca40bde52e5eb6045df53591faf"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.02453453278030184,
@@ -75,7 +84,7 @@
       "commit_sha": "5e5defc3845a0947e04ff4e1ba329a5618ee31b1"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0178707174171162,
@@ -84,7 +93,7 @@
       "commit_sha": "de8b26ed66e58984eb2b25a9d875ba13efc4ba86"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "我说删题大于一切组",
       "github": "Oreki2eru/openoperator-start-kit",
       "score": 0.012464921457597391,
@@ -92,7 +101,7 @@
       "timestamp": "2026-05-19T04:22:50.333070+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01141144346025521,
@@ -100,7 +109,7 @@
       "timestamp": "2026-05-22T17:38:16.724231+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.008025871455856065,
@@ -109,7 +118,7 @@
       "commit_sha": "3e16242ee037926fd06905da4a543a99744accf3"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.005013035663667638,
@@ -117,7 +126,7 @@
       "timestamp": "2026-05-19T15:53:48.531000+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0049854995016796405,
@@ -126,7 +135,7 @@
       "commit_sha": "8f0f52ccb338e497f41c5e94ee5e20d14f9cd85b"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.004981434558903342,
@@ -135,22 +144,13 @@
       "commit_sha": "e4e723290ef8e541347d068709b31ffc4fa78cb0"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0044398863005044266,
       "latency": 2843505.0236682096,
       "timestamp": "2026-05-18T06:04:57.141482+00:00",
       "commit_sha": "253b2f8afb50b8a909a2036e782e01dcbe38caba"
-    },
-    {
-      "rank": 17,
-      "user": "随缘组",
-      "github": "xufeng102403/operator",
-      "score": 0.0035888628131075183,
-      "latency": 3517782.556048284,
-      "timestamp": "2026-05-23T08:18:26.565327+00:00",
-      "commit_sha": "d1c2543de701433446217a9dd053e78d97a1af57"
     },
     {
       "rank": 18,
@@ -236,5 +236,5 @@
       "timestamp": "2026-05-19T08:50:11.391853+00:00"
     }
   ],
-  "last_updated": "2026-05-23T08:20:53.889012+00:00"
+  "last_updated": "2026-05-23T08:31:01.079772+00:00"
 }
