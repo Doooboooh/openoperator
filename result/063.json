@@ -40,6 +40,14 @@
     },
     {
       "rank": 5,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 0.01124093845168104,
+      "latency": 2561.7078257103763,
+      "timestamp": "2026-05-23T07:58:45.555212+00:00"
+    },
+    {
+      "rank": 6,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 3.8143152247028627e-06,
@@ -48,5 +56,5 @@
       "commit_sha": "487dd70d07257e17b1ede7c7a62d92c2747de48d"
     }
   ],
-  "last_updated": "2026-05-18T13:40:18.067007+00:00"
+  "last_updated": "2026-05-23T08:00:29.896359+00:00"
 }
