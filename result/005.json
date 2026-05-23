@@ -241,6 +241,14 @@
     },
     {
       "rank": 28,
+      "user": "二十七组",
+      "github": "zhangmuxiang/27_openoperator-start-kit",
+      "score": 0.0051401279154218915,
+      "latency": 1418454.194130997,
+      "timestamp": "2026-05-23T16:54:46.089252+00:00"
+    },
+    {
+      "rank": 29,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00484106386170915,
@@ -249,7 +257,7 @@
       "commit_sha": "75eb43a6060651bded303d3487e51c737b30a94e"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.004786913783481442,
@@ -257,20 +265,12 @@
       "timestamp": "2026-05-20T08:28:59.363536+00:00"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0006121458066234596,
       "latency": 11910619.85741059,
       "timestamp": "2026-05-19T08:49:35.352332+00:00"
-    },
-    {
-      "rank": 31,
-      "user": "二十七组",
-      "github": "zhangmuxiang/27_openoperator-start-kit",
-      "score": 0.0006058137973863632,
-      "latency": 12035110.509954393,
-      "timestamp": "2026-05-23T16:33:24.110928+00:00"
     },
     {
       "rank": 32,
@@ -282,5 +282,5 @@
       "commit_sha": "efecf8c702ba35f8135b28e4d6e428f782e3e7ce"
     }
   ],
-  "last_updated": "2026-05-23T16:38:11.024755+00:00"
+  "last_updated": "2026-05-23T16:58:20.607811+00:00"
 }
