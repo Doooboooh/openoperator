@@ -58,6 +58,14 @@
     },
     {
       "rank": 7,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 0.01636435093557139,
+      "latency": 2580.670639872551,
+      "timestamp": "2026-05-24T11:59:56.577626+00:00"
+    },
+    {
+      "rank": 8,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.016019475165888572,
@@ -65,7 +73,7 @@
       "timestamp": "2026-05-19T07:22:21.979717+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.015946939288180206,
@@ -74,7 +82,7 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.015891397258146183,
@@ -82,7 +90,7 @@
       "timestamp": "2026-05-20T10:00:06.258766+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.015578417727729776,
@@ -91,7 +99,7 @@
       "commit_sha": "260d14d06845fee46ad10bd9ec8014f31b1e97eb"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.014680258856224718,
@@ -100,7 +108,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.01452961152563718,
@@ -109,21 +117,13 @@
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.013988317144516852,
       "latency": 3019.0193404754004,
       "timestamp": "2026-05-18T06:17:28.701402+00:00",
       "commit_sha": "a7558f4c9026636c874dfb5d112eff7a769b0b8d"
-    },
-    {
-      "rank": 14,
-      "user": "team_73",
-      "github": "dingyue772/TensorCraft",
-      "score": 0.013101720769978632,
-      "latency": 3223.3170544107757,
-      "timestamp": "2026-05-24T11:53:07.187119+00:00"
     },
     {
       "rank": 15,
@@ -283,5 +283,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-05-24T11:55:01.906368+00:00"
+  "last_updated": "2026-05-24T12:05:06.609126+00:00"
 }
