@@ -40,6 +40,14 @@
     },
     {
       "rank": 5,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 0.016968336931991665,
+      "latency": 2488.81196603179,
+      "timestamp": "2026-05-24T12:31:45.517119+00:00"
+    },
+    {
+      "rank": 6,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.01688911402056643,
@@ -48,21 +56,13 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.01652350219860368,
       "latency": 2555.814106017351,
       "timestamp": "2026-05-18T06:17:30.276794+00:00",
       "commit_sha": "e5381a5a9ca091bc7be5762a67f35e70a5f40aba"
-    },
-    {
-      "rank": 7,
-      "user": "team_73",
-      "github": "dingyue772/TensorCraft",
-      "score": 0.01636435093557139,
-      "latency": 2580.670639872551,
-      "timestamp": "2026-05-24T11:59:56.577626+00:00"
     },
     {
       "rank": 8,
@@ -283,5 +283,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-05-24T12:05:06.609126+00:00"
+  "last_updated": "2026-05-24T12:35:13.036513+00:00"
 }
