@@ -83,6 +83,14 @@
     },
     {
       "rank": 10,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 0.0003776343418873421,
+      "latency": 3702735.278289765,
+      "timestamp": "2026-05-24T10:46:32.346886+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 8.445101674701688e-05,
@@ -90,7 +98,7 @@
       "timestamp": "2026-05-18T14:22:34.876040+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 4.726279850474798e-05,
@@ -99,5 +107,5 @@
       "commit_sha": "be1bf3d864a6c4c3ed194e5124dd4be8757efed6"
     }
   ],
-  "last_updated": "2026-05-23T14:57:44.317444+00:00"
+  "last_updated": "2026-05-24T10:49:45.980439+00:00"
 }
