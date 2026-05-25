@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 0.5520253999677691,
+      "latency": 11074.07920062542,
+      "timestamp": "2026-05-25T07:12:50.596267+00:00"
+    },
+    {
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.5318878778914236,
@@ -30,7 +38,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.1694044461693939,
@@ -39,7 +47,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.01767739716542891,
@@ -47,5 +55,5 @@
       "timestamp": "2026-05-21T02:00:55.145534+00:00"
     }
   ],
-  "last_updated": "2026-05-21T02:02:46.967807+00:00"
+  "last_updated": "2026-05-25T07:17:09.170061+00:00"
 }
