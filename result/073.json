@@ -102,6 +102,14 @@
     },
     {
       "rank": 12,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.0041356540415556885,
+      "latency": 9368.046652525663,
+      "timestamp": "2026-05-25T09:57:05.961029+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.003549342251146292,
@@ -110,7 +118,7 @@
       "commit_sha": "8228f2be1c965c2ec0731de89804b73f6846a63e"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.003450656785332711,
@@ -119,5 +127,5 @@
       "commit_sha": "f82ca719f6f612388a0c79c3679eb25feca8f2db"
     }
   ],
-  "last_updated": "2026-05-24T07:49:29.091185+00:00"
+  "last_updated": "2026-05-25T09:57:48.034167+00:00"
 }

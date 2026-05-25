@@ -94,6 +94,14 @@
     },
     {
       "rank": 11,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.06175944883398513,
+      "latency": 3351.7624251544476,
+      "timestamp": "2026-05-25T09:54:06.447276+00:00"
+    },
+    {
+      "rank": 12,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.006628222700631831,
@@ -102,7 +110,7 @@
       "commit_sha": "c4913398c0e23dba98fddedd6863f6fbed8b28cb"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.0013905984173549217,
@@ -111,5 +119,5 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     }
   ],
-  "last_updated": "2026-05-20T15:21:06.060647+00:00"
+  "last_updated": "2026-05-25T09:57:48.034880+00:00"
 }
