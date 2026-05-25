@@ -76,6 +76,14 @@
     },
     {
       "rank": 9,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.004103198010017097,
+      "latency": 25556.407403200865,
+      "timestamp": "2026-05-25T10:07:27.962951+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.003890212873780156,
@@ -84,7 +92,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.002385581230047278,
@@ -93,7 +101,7 @@
       "commit_sha": "14b60371e4d17652d07d516ff3c8beff70870f1d"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.000318643168033518,
@@ -102,5 +110,5 @@
       "commit_sha": "8228f2be1c965c2ec0731de89804b73f6846a63e"
     }
   ],
-  "last_updated": "2026-05-23T12:12:03.660766+00:00"
+  "last_updated": "2026-05-25T10:12:52.903604+00:00"
 }
