@@ -189,20 +189,20 @@
     },
     {
       "rank": 22,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 0.8732110624117086,
+      "latency": 9476.369867722193,
+      "timestamp": "2026-05-25T05:39:03.562557+00:00"
+    },
+    {
+      "rank": 23,
       "user": "team_19",
       "github": "JerryLiu369/openoperator-start-kit-experiment",
       "score": 0.8699521820068224,
       "latency": 9511.868779857954,
       "timestamp": "2026-05-21T16:49:46.688471+00:00",
       "commit_sha": "72a593bd7ae8f04ba24ba9cace9f745b654458d7"
-    },
-    {
-      "rank": 23,
-      "user": "team_73",
-      "github": "dingyue772/TensorCraft",
-      "score": 0.8637148329257855,
-      "latency": 9580.559097230434,
-      "timestamp": "2026-05-25T05:26:13.467960+00:00"
     },
     {
       "rank": 24,
@@ -367,5 +367,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-05-25T05:31:17.605749+00:00"
+  "last_updated": "2026-05-25T05:41:22.164614+00:00"
 }
