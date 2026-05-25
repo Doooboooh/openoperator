@@ -84,6 +84,14 @@
     },
     {
       "rank": 10,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.0057960487102305955,
+      "latency": 4205.106136699517,
+      "timestamp": "2026-05-25T09:42:23.804649+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.002990954324639128,
@@ -92,7 +100,7 @@
       "commit_sha": "d3867cee647b90aeb63c3ee97618337d9bf15605"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0027121154085612605,
@@ -100,7 +108,7 @@
       "timestamp": "2026-05-25T09:32:33.636487+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 2.8728786065807755e-05,
@@ -109,5 +117,5 @@
       "commit_sha": "c212d9b5ed4d8c7e86571885ca0baca0f28ac4d6"
     }
   ],
-  "last_updated": "2026-05-25T09:37:38.005293+00:00"
+  "last_updated": "2026-05-25T09:47:43.400720+00:00"
 }
