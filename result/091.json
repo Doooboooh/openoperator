@@ -57,6 +57,14 @@
     },
     {
       "rank": 7,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 0.01948886777240174,
+      "latency": 16759.10595804453,
+      "timestamp": "2026-05-25T11:30:41.116965+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.01688381267766377,
@@ -65,5 +73,5 @@
       "commit_sha": "8d2e21be068311cfa76e0594b0705c14d6fe43af"
     }
   ],
-  "last_updated": "2026-05-20T05:00:28.749545+00:00"
+  "last_updated": "2026-05-25T11:33:14.756079+00:00"
 }
