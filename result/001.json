@@ -121,6 +121,14 @@
     },
     {
       "rank": 14,
+      "user": "智算第四组",
+      "github": "rashxxxxxx-netizen/openoperator-work",
+      "score": 0.011139071716147479,
+      "latency": 2492.936638494333,
+      "timestamp": "2026-05-26T09:20:01.127313+00:00"
+    },
+    {
+      "rank": 15,
       "user": "养老组",
       "github": "lesheng14/op_retirement",
       "score": 0.011139045360771972,
@@ -129,21 +137,13 @@
       "commit_sha": "04c41ea5777b276d866f971964a872e92d681e81"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.01105399025953188,
       "latency": 2512.124522278706,
       "timestamp": "2026-05-18T07:47:26.153520+00:00",
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
-    },
-    {
-      "rank": 16,
-      "user": "智算第四组",
-      "github": "rashxxxxxx-netizen/openoperator-work",
-      "score": 0.011052143027364274,
-      "latency": 2512.5443935394287,
-      "timestamp": "2026-05-26T05:48:43.663869+00:00"
     },
     {
       "rank": 17,
@@ -421,5 +421,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-05-26T06:19:44.618132+00:00"
+  "last_updated": "2026-05-26T09:21:00.823097+00:00"
 }
