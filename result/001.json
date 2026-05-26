@@ -294,6 +294,14 @@
     },
     {
       "rank": 34,
+      "user": "研讨第九组",
+      "github": "JiaxiangE/BangC_Team09",
+      "score": 0.004723224206885287,
+      "latency": 5879.2466297745705,
+      "timestamp": "2026-05-26T03:34:41.171456+00:00"
+    },
+    {
+      "rank": 35,
       "user": "team_94",
       "github": "rishitash42-code/bangc-70",
       "score": 0.004715602279814008,
@@ -301,7 +309,7 @@
       "timestamp": "2026-05-23T15:09:47.004327+00:00"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0047099287108006566,
@@ -310,7 +318,7 @@
       "commit_sha": "27dbd8f98770a0d493c7c53ecb00991d5f00aa32"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.0047023804993326515,
@@ -318,21 +326,13 @@
       "timestamp": "2026-05-22T08:32:36.621716+00:00"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.004660051239707106,
       "latency": 5958.947353065014,
       "timestamp": "2026-05-18T06:56:20.702270+00:00",
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
-    },
-    {
-      "rank": 38,
-      "user": "研讨第九组",
-      "github": "JiaxiangE/BangC_Team09",
-      "score": 0.004650349884431304,
-      "latency": 5971.378646790981,
-      "timestamp": "2026-05-26T03:30:52.260852+00:00"
     },
     {
       "rank": 39,
@@ -413,5 +413,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-05-26T03:34:08.538797+00:00"
+  "last_updated": "2026-05-26T03:39:13.199814+00:00"
 }
