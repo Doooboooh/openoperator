@@ -274,6 +274,14 @@
     },
     {
       "rank": 32,
+      "user": "team_82",
+      "github": "Xdddyy/openoperator-25",
+      "score": 0.00015466861181579803,
+      "latency": 464438.1245598197,
+      "timestamp": "2026-05-26T07:13:11.610217+00:00"
+    },
+    {
+      "rank": 33,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 3.437691486652544e-05,
@@ -282,7 +290,7 @@
       "commit_sha": "4f2c118fee212a2159d652cc1bb22b42efb39597"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 4.417527535643685e-06,
@@ -291,5 +299,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-05-23T11:46:57.913353+00:00"
+  "last_updated": "2026-05-26T07:15:11.569793+00:00"
 }
