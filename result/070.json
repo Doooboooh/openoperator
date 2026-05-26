@@ -168,20 +168,20 @@
     },
     {
       "rank": 20,
+      "user": "研讨第九组",
+      "github": "JiaxiangE/BangC_Team09",
+      "score": 0.01335787527493441,
+      "latency": 2986.552814642588,
+      "timestamp": "2026-05-26T12:24:39.333060+00:00"
+    },
+    {
+      "rank": 21,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.013298348730048141,
       "latency": 2999.921329319477,
       "timestamp": "2026-05-18T05:46:16.775109+00:00",
       "commit_sha": "d92172fad4e3e3839c760d083b53ebc7fe001040"
-    },
-    {
-      "rank": 21,
-      "user": "研讨第九组",
-      "github": "JiaxiangE/BangC_Team09",
-      "score": 0.013066817376660754,
-      "latency": 3053.077030926943,
-      "timestamp": "2026-05-26T11:59:29.450929+00:00"
     },
     {
       "rank": 22,
@@ -323,5 +323,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-05-26T12:01:41.953376+00:00"
+  "last_updated": "2026-05-26T12:26:49.433883+00:00"
 }

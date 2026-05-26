@@ -248,6 +248,14 @@
     },
     {
       "rank": 29,
+      "user": "研讨第九组",
+      "github": "JiaxiangE/BangC_Team09",
+      "score": 0.0005658273142453056,
+      "latency": 126953.92780005932,
+      "timestamp": "2026-05-26T12:24:39.333060+00:00"
+    },
+    {
+      "rank": 30,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0005464028530010142,
@@ -256,7 +264,7 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.0004598503930489156,
@@ -264,7 +272,7 @@
       "timestamp": "2026-05-18T14:34:32.966408+00:00"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.00042675281919458106,
@@ -272,7 +280,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "team_46",
       "github": "1LLLei/openoperator-start-kit_BangC_competition",
       "score": 0.0001552838722181416,
@@ -281,7 +289,7 @@
       "commit_sha": "bf68a391f54eec4b9a0b8d14a63a440406411edf"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 3.437691486652544e-05,
@@ -290,7 +298,7 @@
       "commit_sha": "4f2c118fee212a2159d652cc1bb22b42efb39597"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 4.417527535643685e-06,
@@ -299,5 +307,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-05-26T09:26:05.469010+00:00"
+  "last_updated": "2026-05-26T12:26:49.437159+00:00"
 }
