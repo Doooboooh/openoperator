@@ -91,6 +91,14 @@
     },
     {
       "rank": 11,
+      "user": "team_38",
+      "github": "Godel-June/ICS_Team9",
+      "score": 0.10033386442660248,
+      "latency": 9507.617447525263,
+      "timestamp": "2026-05-26T03:31:38.099561+00:00"
+    },
+    {
+      "rank": 12,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.07252775672332898,
@@ -99,7 +107,7 @@
       "commit_sha": "4c83f6e09b53175b3f967e7729c83464e166b061"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.07086326492136934,
@@ -108,7 +116,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.05445216644990493,
@@ -116,7 +124,7 @@
       "timestamp": "2026-05-19T08:38:52.235866+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.0473745943745073,
@@ -125,21 +133,13 @@
       "commit_sha": "60b693d9e83360244f58bba0571219210d07c63b"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.03311589164370219,
       "latency": 28805.98868553837,
       "timestamp": "2026-05-18T07:51:25.659633+00:00",
       "commit_sha": "f5831bed009351427ce58c92fc2da39a3d71e35a"
-    },
-    {
-      "rank": 16,
-      "user": "team_38",
-      "github": "Godel-June/ICS_Team9",
-      "score": 0.02933488158899464,
-      "latency": 32518.829063822825,
-      "timestamp": "2026-05-26T03:16:42.450250+00:00"
     },
     {
       "rank": 17,
@@ -245,5 +245,5 @@
       "commit_sha": "de8b26ed66e58984eb2b25a9d875ba13efc4ba86"
     }
   ],
-  "last_updated": "2026-05-26T03:18:58.993908+00:00"
+  "last_updated": "2026-05-26T03:34:08.540072+00:00"
 }
