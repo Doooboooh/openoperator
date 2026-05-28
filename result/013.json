@@ -49,21 +49,21 @@
     },
     {
       "rank": 6,
+      "user": "team_75",
+      "github": "Jiaqi7zzz/operator-31",
+      "score": 0.02337201898937288,
+      "latency": 96558.02526200812,
+      "timestamp": "2026-05-28T16:22:08.875555+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.01608218127487935,
       "latency": 140326.4869004488,
       "timestamp": "2026-05-19T01:40:04.322750+00:00",
       "commit_sha": "8f4e017b5da6c96e3e54c3e1e57391e8b1643d1c"
-    },
-    {
-      "rank": 7,
-      "user": "team_75",
-      "github": "Jiaqi7zzz/operator-31",
-      "score": 0.014564514425420479,
-      "latency": 154948.935067902,
-      "timestamp": "2026-05-28T16:16:44.081461+00:00"
     }
   ],
-  "last_updated": "2026-05-28T16:18:43.080246+00:00"
+  "last_updated": "2026-05-28T16:23:48.631037+00:00"
 }
