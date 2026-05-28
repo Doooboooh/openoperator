@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "二十一组",
+      "github": "ouligei6666/y-team-21-openoperator-start-kit",
+      "score": 0.2915997307989585,
+      "latency": 2533.8569345573583,
+      "timestamp": "2026-05-28T13:59:34.504720+00:00"
+    },
+    {
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.2709781499795758,
@@ -39,7 +47,7 @@
       "commit_sha": "e16081205aa0f296d792fb3a2fc705cd02c1ac09"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.2634713637530344,
@@ -47,7 +55,7 @@
       "timestamp": "2026-05-22T06:53:56.302347+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.22272048690697316,
@@ -55,7 +63,7 @@
       "timestamp": "2026-05-20T01:57:14.871653+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第九组",
       "github": "adwsssss/BangC09",
       "score": 0.20013204162009332,
@@ -63,7 +71,7 @@
       "timestamp": "2026-05-19T06:12:44.789469+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.10573416743238653,
@@ -72,7 +80,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.03752311000730045,
@@ -80,7 +88,7 @@
       "timestamp": "2026-05-28T11:19:04.406693+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.03692744118530121,
@@ -89,7 +97,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.002642212068930692,
@@ -98,5 +106,5 @@
       "commit_sha": "4a905bac6e0d23432f4b512a57b31683d964e850"
     }
   ],
-  "last_updated": "2026-05-28T11:20:23.624277+00:00"
+  "last_updated": "2026-05-28T14:01:42.867085+00:00"
 }

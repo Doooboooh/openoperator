@@ -58,6 +58,14 @@
     },
     {
       "rank": 7,
+      "user": "二十一组",
+      "github": "ouligei6666/y-team-21-openoperator-start-kit",
+      "score": 0.009279260470083872,
+      "latency": 3997.8401424984136,
+      "timestamp": "2026-05-28T13:59:34.504720+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.007868592051185376,
@@ -66,7 +74,7 @@
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0045027186590945,
@@ -75,7 +83,7 @@
       "commit_sha": "7a97d59bf187777bfb6bfd6f30832e3a58d980f5"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.003287084478326629,
@@ -84,7 +92,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0018763600046268277,
@@ -92,5 +100,5 @@
       "timestamp": "2026-05-20T14:02:35.490366+00:00"
     }
   ],
-  "last_updated": "2026-05-22T08:23:58.405668+00:00"
+  "last_updated": "2026-05-28T14:01:42.868263+00:00"
 }

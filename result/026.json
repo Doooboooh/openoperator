@@ -92,6 +92,14 @@
     },
     {
       "rank": 11,
+      "user": "二十一组",
+      "github": "ouligei6666/y-team-21-openoperator-start-kit",
+      "score": 0.004514286539753966,
+      "latency": 6408.986169844866,
+      "timestamp": "2026-05-28T13:59:34.504720+00:00"
+    },
+    {
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.004425896130137446,
@@ -100,7 +108,7 @@
       "commit_sha": "ed8505a0f5f2124db6ca52682d56a6eabb3e4814"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.003256765949144351,
@@ -109,7 +117,7 @@
       "commit_sha": "8ff697432123322fd4675ae8779867409a8f1855"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0019031156288508066,
@@ -118,5 +126,5 @@
       "commit_sha": "96d56333f5e12d78de51499845680f7e8a98c6a1"
     }
   ],
-  "last_updated": "2026-05-22T10:54:50.704613+00:00"
+  "last_updated": "2026-05-28T14:01:42.867454+00:00"
 }
