@@ -73,6 +73,14 @@
     },
     {
       "rank": 9,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.03711961019601527,
+      "latency": 19905.165924380224,
+      "timestamp": "2026-05-28T09:07:20.673538+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.03692744118530121,
@@ -81,7 +89,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.002642212068930692,
@@ -90,5 +98,5 @@
       "commit_sha": "4a905bac6e0d23432f4b512a57b31683d964e850"
     }
   ],
-  "last_updated": "2026-05-22T06:58:29.933520+00:00"
+  "last_updated": "2026-05-28T09:09:26.992888+00:00"
 }

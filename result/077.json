@@ -76,6 +76,14 @@
     },
     {
       "rank": 9,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.032245201970003225,
+      "latency": 3387.2326215108237,
+      "timestamp": "2026-05-28T09:07:20.673538+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.018469841138079073,
@@ -84,5 +92,5 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     }
   ],
-  "last_updated": "2026-05-22T08:23:58.406138+00:00"
+  "last_updated": "2026-05-28T09:09:26.993459+00:00"
 }
