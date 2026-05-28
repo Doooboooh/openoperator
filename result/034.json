@@ -239,6 +239,14 @@
     },
     {
       "rank": 28,
+      "user": "team_60",
+      "github": "shadowcathh/openoperator-start-kit",
+      "score": 0.0004048039252301781,
+      "latency": 108620.48824007313,
+      "timestamp": "2026-05-28T17:17:26.613892+00:00"
+    },
+    {
+      "rank": 29,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 7.880395958100901e-05,
@@ -247,7 +255,7 @@
       "commit_sha": "55232e0b64bf5fd13ad3827aa170673725087891"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 2.6331056431057348e-06,
@@ -256,5 +264,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-28T12:56:13.266415+00:00"
+  "last_updated": "2026-05-28T17:19:16.466160+00:00"
 }

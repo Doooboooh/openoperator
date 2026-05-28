@@ -200,6 +200,14 @@
     },
     {
       "rank": 24,
+      "user": "team_60",
+      "github": "shadowcathh/openoperator-start-kit",
+      "score": 0.021111055314924115,
+      "latency": 45186.56153231859,
+      "timestamp": "2026-05-28T17:15:04.174327+00:00"
+    },
+    {
+      "rank": 25,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.019414928194013886,
@@ -207,7 +215,7 @@
       "timestamp": "2026-05-20T07:43:13.294776+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0024838182784612146,
@@ -216,7 +224,7 @@
       "commit_sha": "34f34176ce8dfe63d8cdda3a075466e76be53a73"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0022943267396863492,
@@ -225,7 +233,7 @@
       "commit_sha": "253b2f8afb50b8a909a2036e782e01dcbe38caba"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.002212519235213821,
@@ -234,7 +242,7 @@
       "commit_sha": "111bd772a17ee08c25e7245d05abb769e2a22b4e"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.002199904473058991,
@@ -243,7 +251,7 @@
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.00216078206164826,
@@ -252,7 +260,7 @@
       "commit_sha": "e4e723290ef8e541347d068709b31ffc4fa78cb0"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0020806247584234995,
@@ -261,5 +269,5 @@
       "commit_sha": "de8b26ed66e58984eb2b25a9d875ba13efc4ba86"
     }
   ],
-  "last_updated": "2026-05-28T15:33:03.987742+00:00"
+  "last_updated": "2026-05-28T17:19:16.466860+00:00"
 }
