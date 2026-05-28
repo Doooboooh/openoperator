@@ -57,6 +57,14 @@
     },
     {
       "rank": 7,
+      "user": "team_75",
+      "github": "Jiaqi7zzz/operator-31",
+      "score": 0.051934980000571784,
+      "latency": 2742.8719525535903,
+      "timestamp": "2026-05-28T15:46:31.847652+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0018763582092446002,
@@ -65,7 +73,7 @@
       "commit_sha": "cd5d8b0282210dfac24f61b5591ba5418016ae13"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 1.755458269965196e-05,
@@ -74,5 +82,5 @@
       "commit_sha": "4fbb62784297404af9d8f46ad482c62e64199590"
     }
   ],
-  "last_updated": "2026-05-28T15:02:36.046315+00:00"
+  "last_updated": "2026-05-28T15:48:14.209615+00:00"
 }
