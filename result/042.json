@@ -67,6 +67,14 @@
     },
     {
       "rank": 8,
+      "user": "二十一组",
+      "github": "ouligei6666/y-team-21-openoperator-start-kit",
+      "score": 0.2525481408882012,
+      "latency": 12639.732720951239,
+      "timestamp": "2026-05-28T14:26:03.534767+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.0013484634655788216,
@@ -74,7 +82,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0013109228831902613,
@@ -83,5 +91,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-05-22T09:49:37.690520+00:00"
+  "last_updated": "2026-05-28T14:27:01.999536+00:00"
 }
