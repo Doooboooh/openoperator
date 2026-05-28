@@ -39,6 +39,14 @@
     },
     {
       "rank": 5,
+      "user": "二十一组",
+      "github": "ouligei6666/y-team-21-openoperator-start-kit",
+      "score": 0.020289217452606267,
+      "latency": 2581.666844586531,
+      "timestamp": "2026-05-28T14:51:49.888454+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.020246334657871103,
@@ -47,7 +55,7 @@
       "commit_sha": "b13601e9b0822aac45d87ece70240235c88da6ae"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.019811394210443724,
@@ -56,7 +64,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.01938206553900004,
@@ -64,7 +72,7 @@
       "timestamp": "2026-05-22T12:25:10.308594+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.019009983016455012,
@@ -73,7 +81,7 @@
       "commit_sha": "9f75d9cc7d8225692134bcd64fa5df347c14d22e"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.0050655284271526385,
@@ -81,7 +89,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0036392651030532895,
@@ -90,7 +98,7 @@
       "commit_sha": "11add0f23180092f5d1f3c1d42b87490183a46b4"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0016597237984271559,
@@ -99,5 +107,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-05-22T12:30:17.862949+00:00"
+  "last_updated": "2026-05-28T14:57:27.945429+00:00"
 }
