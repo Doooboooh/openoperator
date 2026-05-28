@@ -274,6 +274,14 @@
     },
     {
       "rank": 32,
+      "user": "team_82",
+      "github": "Xdddyy/openoperator-25",
+      "score": 0.0040888096850348965,
+      "latency": 1783168.3452241123,
+      "timestamp": "2026-05-28T08:40:46.860997+00:00"
+    },
+    {
+      "rank": 33,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0006121458066234596,
@@ -281,7 +289,7 @@
       "timestamp": "2026-05-19T08:49:35.352332+00:00"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0006046712996282452,
@@ -290,5 +298,5 @@
       "commit_sha": "efecf8c702ba35f8135b28e4d6e428f782e3e7ce"
     }
   ],
-  "last_updated": "2026-05-25T05:51:31.804594+00:00"
+  "last_updated": "2026-05-28T08:44:21.388306+00:00"
 }
