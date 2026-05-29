@@ -58,6 +58,14 @@
     },
     {
       "rank": 7,
+      "user": "二十一组",
+      "github": "ouligei6666/y-team-21-openoperator-start-kit",
+      "score": 0.01903089535664877,
+      "latency": 27563.285393019516,
+      "timestamp": "2026-05-29T00:13:16.864339+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.004122953124104914,
@@ -65,7 +73,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.004078127111156384,
@@ -74,7 +82,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0021526652631674663,
@@ -83,7 +91,7 @@
       "commit_sha": "5290023de287b78782fb701b3a51fa942feb31b1"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0009401549541919332,
@@ -92,7 +100,7 @@
       "commit_sha": "0a97a25b3fdc7865944ab06c81679b1e1cfb7dd6"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.00038254932406565657,
@@ -101,5 +109,5 @@
       "commit_sha": "50371c7514dcf8d3abdbfa3d11f59cdaa28cbee4"
     }
   ],
-  "last_updated": "2026-05-22T17:17:15.412837+00:00"
+  "last_updated": "2026-05-29T00:15:05.688661+00:00"
 }
