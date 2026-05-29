@@ -66,19 +66,19 @@
     },
     {
       "rank": 8,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 2.182740016775021,
+      "latency": 2902.0950508614383,
+      "timestamp": "2026-05-29T07:25:10.846930+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 1.133090491424222,
       "latency": 5590.479355305433,
       "timestamp": "2026-05-22T05:43:44.108058+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_73",
-      "github": "dingyue772/TensorCraft",
-      "score": 0.01623833959749824,
-      "latency": 390096.472731481,
-      "timestamp": "2026-05-25T07:18:16.542027+00:00"
     },
     {
       "rank": 10,
@@ -98,5 +98,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-05-28T09:39:33.394326+00:00"
+  "last_updated": "2026-05-29T07:27:40.606182+00:00"
 }
