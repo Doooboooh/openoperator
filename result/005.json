@@ -227,6 +227,14 @@
     },
     {
       "rank": 27,
+      "user": "team_82",
+      "github": "Xdddyy/openoperator-25",
+      "score": 0.030864924204543374,
+      "latency": 236224.00468836227,
+      "timestamp": "2026-05-29T07:46:45.061961+00:00"
+    },
+    {
+      "rank": 28,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.019262771324298482,
@@ -235,7 +243,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.009954512254962794,
@@ -243,7 +251,7 @@
       "timestamp": "2026-05-28T16:39:53.718521+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.009510288410801605,
@@ -252,7 +260,7 @@
       "commit_sha": "dc3d018d16f5558273580942ec6d1f207348e760"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.00942262414720807,
@@ -261,7 +269,7 @@
       "commit_sha": "711bdc9e6e4d767fab59526bb311257adfbb73b5"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.009404025086436911,
@@ -270,7 +278,7 @@
       "commit_sha": "eaf4b0ca1e2b962e741d94941748b1e1cf442f8f"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.008036675124663634,
@@ -278,7 +286,7 @@
       "timestamp": "2026-05-19T16:59:57.558887+00:00"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.007915231523524302,
@@ -287,7 +295,7 @@
       "commit_sha": "e934573bc4dffb730f3812ba97f75d0280a46c9b"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.005612061000810214,
@@ -296,7 +304,7 @@
       "commit_sha": "5f4ec716c313309ce46fb584975d28327fbe0424"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00484106386170915,
@@ -305,20 +313,12 @@
       "commit_sha": "75eb43a6060651bded303d3487e51c737b30a94e"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.004786913783481442,
       "latency": 1523118.3033126097,
       "timestamp": "2026-05-20T08:28:59.363536+00:00"
-    },
-    {
-      "rank": 37,
-      "user": "team_82",
-      "github": "Xdddyy/openoperator-25",
-      "score": 0.0040888096850348965,
-      "latency": 1783168.3452241123,
-      "timestamp": "2026-05-28T08:40:46.860997+00:00"
     },
     {
       "rank": 38,
@@ -338,5 +338,5 @@
       "commit_sha": "efecf8c702ba35f8135b28e4d6e428f782e3e7ce"
     }
   ],
-  "last_updated": "2026-05-29T03:00:59.399567+00:00"
+  "last_updated": "2026-05-29T07:47:50.504284+00:00"
 }
