@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "不知道叫什么名字组",
+      "github": "luoluoluoluoli/Luoluoli_ice1",
+      "score": 0.015694225336157646,
+      "latency": 2363.7356547017894,
+      "timestamp": "2026-05-29T14:44:28.448223+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.015258563845819272,
@@ -39,7 +47,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.013832720476760025,
@@ -48,7 +56,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.013346124405120069,
@@ -57,7 +65,7 @@
       "commit_sha": "a11a2e77758cdae93592400676fd2b34c31037e1"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.009279260470083872,
@@ -65,7 +73,7 @@
       "timestamp": "2026-05-28T13:59:34.504720+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.007868592051185376,
@@ -74,7 +82,7 @@
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.007372931289234373,
@@ -82,7 +90,7 @@
       "timestamp": "2026-05-29T13:59:40.665492+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0045027186590945,
@@ -91,7 +99,7 @@
       "commit_sha": "7a97d59bf187777bfb6bfd6f30832e3a58d980f5"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.003287084478326629,
@@ -100,7 +108,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0018763600046268277,
@@ -108,5 +116,5 @@
       "timestamp": "2026-05-20T14:02:35.490366+00:00"
     }
   ],
-  "last_updated": "2026-05-29T14:02:13.767394+00:00"
+  "last_updated": "2026-05-29T14:47:38.896421+00:00"
 }

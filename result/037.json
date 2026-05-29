@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "不知道叫什么名字组",
+      "github": "luoluoluoluoli/Luoluoli_ice1",
+      "score": 0.017217655931915724,
+      "latency": 2451.088589926561,
+      "timestamp": "2026-05-29T14:45:41.890704+00:00"
+    },
+    {
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.017035144593343942,
@@ -39,7 +47,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.016434481103680357,
@@ -48,7 +56,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01522210067135005,
@@ -57,7 +65,7 @@
       "commit_sha": "4b336fcdbb9ca25a026fc2f00ddd2fb31e3a3102"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.011713638009121913,
@@ -65,7 +73,7 @@
       "timestamp": "2026-05-28T13:59:34.504720+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.007041010587522143,
@@ -73,7 +81,7 @@
       "timestamp": "2026-05-29T14:27:04.332701+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.0030303950300291462,
@@ -81,7 +89,7 @@
       "timestamp": "2026-05-20T02:09:11.222098+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.002905918851042289,
@@ -89,7 +97,7 @@
       "timestamp": "2026-05-26T22:41:57.703137+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0028035113488251375,
@@ -98,7 +106,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第九组",
       "github": "aoersh/BangC09",
       "score": 0.002712514417249131,
@@ -106,5 +114,5 @@
       "timestamp": "2026-05-19T15:42:49.754409+00:00"
     }
   ],
-  "last_updated": "2026-05-29T14:32:33.931025+00:00"
+  "last_updated": "2026-05-29T14:47:38.893506+00:00"
 }
