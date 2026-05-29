@@ -296,6 +296,14 @@
     },
     {
       "rank": 35,
+      "user": "team_38",
+      "github": "Godel-June/ICS_Team9",
+      "score": 0.0012956350065555153,
+      "latency": 27744.696475565434,
+      "timestamp": "2026-05-29T17:04:30.844306+00:00"
+    },
+    {
+      "rank": 36,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0011844116077282297,
@@ -303,7 +311,7 @@
       "timestamp": "2026-05-19T03:08:56.335232+00:00"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0011831333595311584,
@@ -312,7 +320,7 @@
       "commit_sha": "dc3d018d16f5558273580942ec6d1f207348e760"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "user": "智算第九组",
       "github": "silent-Ning9/BangC09",
       "score": 0.0009132898316132967,
@@ -321,7 +329,7 @@
       "commit_sha": "2752b0c591915bec55c03f3fe6616639b6eb1ce6"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0006588031597375883,
@@ -329,7 +337,7 @@
       "timestamp": "2026-05-21T08:09:23.396123+00:00"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.5963856908340227e-05,
@@ -338,7 +346,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 2.169422037416922e-06,
@@ -347,7 +355,7 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 4.803681316964457e-07,
@@ -356,5 +364,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-05-29T07:42:45.493153+00:00"
+  "last_updated": "2026-05-29T17:08:04.147496+00:00"
 }
