@@ -118,6 +118,14 @@
     },
     {
       "rank": 14,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.0048196193174980485,
+      "latency": 5949.640025695165,
+      "timestamp": "2026-05-29T11:16:34.451634+00:00"
+    },
+    {
+      "rank": 15,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.004280660708392346,
@@ -125,7 +133,7 @@
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0017410893659003206,
@@ -134,7 +142,7 @@
       "commit_sha": "14b60371e4d17652d07d516ff3c8beff70870f1d"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "智算第七组",
       "github": "ekko111/BANGC07",
       "score": 7.56332028427198e-07,
@@ -142,5 +150,5 @@
       "timestamp": "2026-05-18T13:58:49.350724+00:00"
     }
   ],
-  "last_updated": "2026-05-29T08:08:07.806354+00:00"
+  "last_updated": "2026-05-29T11:19:55.895398+00:00"
 }
