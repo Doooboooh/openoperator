@@ -30,6 +30,14 @@
     },
     {
       "rank": 4,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.012568437195568693,
+      "latency": 2283.7365977466106,
+      "timestamp": "2026-05-29T18:57:46.468729+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.012566853618682523,
@@ -38,7 +46,7 @@
       "commit_sha": "901dae5eab19b8c9a9061b33bf45321d99a123c4"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.012471487901629663,
@@ -47,7 +55,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.012392627503068675,
@@ -56,20 +64,12 @@
       "commit_sha": "c32f9c42a85e5c86aa02204f7663936d2d6b12b3"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.012226120050589219,
       "latency": 2347.6785669724145,
       "timestamp": "2026-05-29T03:05:27.321200+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.01217697836218973,
-      "latency": 2357.1529115239778,
-      "timestamp": "2026-05-26T22:41:57.703137+00:00"
     },
     {
       "rank": 9,
@@ -159,5 +159,5 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     }
   ],
-  "last_updated": "2026-05-29T11:14:50.671928+00:00"
+  "last_updated": "2026-05-29T18:58:32.023223+00:00"
 }

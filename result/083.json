@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.04556947604545202,
+      "latency": 3832.9165739317737,
+      "timestamp": "2026-05-29T18:57:46.468729+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.04541086869126085,
@@ -39,7 +47,7 @@
       "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.04236178268632966,
@@ -48,7 +56,7 @@
       "commit_sha": "61edb14b1de7dd10b11cafa5306512367205303b"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.011239989772740882,
@@ -56,7 +64,7 @@
       "timestamp": "2026-05-21T08:25:16.812230+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.008513207778073618,
@@ -65,7 +73,7 @@
       "commit_sha": "ce5c37463529422350f6ae3fe049467a6342cb4f"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.00733955472933631,
@@ -73,7 +81,7 @@
       "timestamp": "2026-05-29T13:39:01.954122+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.00445497936895715,
@@ -82,7 +90,7 @@
       "commit_sha": "f82d1d2ceed5bc3667e30cf9c155eee8180192b7"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0007848715698937736,
@@ -90,7 +98,7 @@
       "timestamp": "2026-05-20T09:26:27.342948+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0005772736851499614,
@@ -99,7 +107,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.00018716648263722823,
@@ -108,5 +116,5 @@
       "commit_sha": "50371c7514dcf8d3abdbfa3d11f59cdaa28cbee4"
     }
   ],
-  "last_updated": "2026-05-29T13:41:57.038192+00:00"
+  "last_updated": "2026-05-29T18:58:32.026249+00:00"
 }

@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.1953349549422459,
+      "latency": 177463.9106976489,
+      "timestamp": "2026-05-29T18:57:46.468729+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.01568943148526784,
@@ -38,7 +46,7 @@
       "timestamp": "2026-05-19T01:54:21.159630+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "养老组",
       "github": "sdrchxu/OpenOperator",
       "score": 0.0012062547838119888,
@@ -46,5 +54,5 @@
       "timestamp": "2026-05-22T08:05:15.306728+00:00"
     }
   ],
-  "last_updated": "2026-05-22T08:08:46.969150+00:00"
+  "last_updated": "2026-05-29T18:58:32.019475+00:00"
 }

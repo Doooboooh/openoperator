@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.26577711328342307,
+      "latency": 2787.576367457708,
+      "timestamp": "2026-05-29T18:57:46.468729+00:00"
+    },
+    {
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.2559159655861403,
@@ -30,7 +38,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.21343777991916885,
@@ -38,7 +46,7 @@
       "timestamp": "2026-05-29T14:46:52.968440+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.20729123303413508,
@@ -47,7 +55,7 @@
       "commit_sha": "4b336fcdbb9ca25a026fc2f00ddd2fb31e3a3102"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.1790064413848638,
@@ -55,7 +63,7 @@
       "timestamp": "2026-05-18T15:26:01.687911+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.1107245148356956,
@@ -63,7 +71,7 @@
       "timestamp": "2026-05-28T15:22:12.228284+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.08702007001221947,
@@ -72,7 +80,7 @@
       "commit_sha": "119bdf5b4827f3779e84c8061b61b445dd2ae8c8"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0857915690604483,
@@ -81,7 +89,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.018390977661732037,
@@ -89,7 +97,7 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0019952598595913947,
@@ -98,7 +106,7 @@
       "commit_sha": "7de4d03ece1877a671d580d08549190bd41d297c"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0019085884093535213,
@@ -107,7 +115,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智算第九组",
       "github": "adwsssss/BangC09",
       "score": 0.000994209324397393,
@@ -115,5 +123,5 @@
       "timestamp": "2026-05-19T07:17:19.496140+00:00"
     }
   ],
-  "last_updated": "2026-05-29T14:47:38.893996+00:00"
+  "last_updated": "2026-05-29T18:58:32.009881+00:00"
 }

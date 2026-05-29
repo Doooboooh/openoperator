@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.02365764715417639,
+      "latency": 2378.047133485476,
+      "timestamp": "2026-05-29T18:57:46.468729+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.023300132979004563,
@@ -30,7 +38,7 @@
       "commit_sha": "e59efe014b9910c95394a45c9b6f45930fbbe3d3"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.023101917666518066,
@@ -39,7 +47,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.022969319536236613,
@@ -48,7 +56,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.022566320817530666,
@@ -57,7 +65,7 @@
       "commit_sha": "49516f907efecfd0c079ed4463ca28dc9a8b3ce1"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.015866451827989667,
@@ -65,7 +73,7 @@
       "timestamp": "2026-05-20T12:59:31.562964+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.015732471035817704,
@@ -73,7 +81,7 @@
       "timestamp": "2026-05-29T10:26:52.708821+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.014155987752967546,
@@ -81,7 +89,7 @@
       "timestamp": "2026-05-29T02:19:46.388059+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.005163703862835181,
@@ -90,7 +98,7 @@
       "commit_sha": "dffa1166cc766175730831ca43b5036269616139"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0022445129075523303,
@@ -98,7 +106,7 @@
       "timestamp": "2026-05-25T13:05:22.765356+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0020386941418390407,
@@ -107,7 +115,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.002006417174446301,
@@ -115,5 +123,5 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     }
   ],
-  "last_updated": "2026-05-29T10:29:16.755930+00:00"
+  "last_updated": "2026-05-29T18:58:32.028999+00:00"
 }

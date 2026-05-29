@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.019457957009497557,
+      "latency": 2632.8560585776963,
+      "timestamp": "2026-05-29T18:57:46.468729+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.018502854718348245,
@@ -38,7 +46,7 @@
       "timestamp": "2026-05-20T08:24:50.528013+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.018453324086049414,
@@ -47,7 +55,7 @@
       "commit_sha": "2e0bcdcf80fe034ff9af8a4bdbcfedda957cbeb9"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.016193371797827805,
@@ -55,7 +63,7 @@
       "timestamp": "2026-05-29T00:13:16.864339+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第九组",
       "github": "adwsssss/BangC09",
       "score": 0.008451796308228371,
@@ -63,7 +71,7 @@
       "timestamp": "2026-05-19T08:45:27.377156+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.008243941377024227,
@@ -72,7 +80,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.007911393296229202,
@@ -81,7 +89,7 @@
       "commit_sha": "4e72a9ef836960dc2d0e2b545a865988b5abe86e"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.006352022104159095,
@@ -89,7 +97,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.004847703104171985,
@@ -97,7 +105,7 @@
       "timestamp": "2026-05-29T02:30:27.364279+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0038259835631573955,
@@ -106,5 +114,5 @@
       "commit_sha": "9c32320b18dfd81799a75400a4cc834a998876d4"
     }
   ],
-  "last_updated": "2026-05-29T02:35:54.681019+00:00"
+  "last_updated": "2026-05-29T18:58:32.033757+00:00"
 }

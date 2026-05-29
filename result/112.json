@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.0416019446504006,
+      "latency": 2382.02807183067,
+      "timestamp": "2026-05-29T18:57:46.468729+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.03987137796425608,
@@ -30,7 +38,7 @@
       "commit_sha": "1d93d30c7928472181c2e0e6a8358968cf2edf35"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.03927256382962127,
@@ -38,21 +46,13 @@
       "timestamp": "2026-05-29T10:44:02.317678+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.037708127664236375,
       "latency": 2628.001073996226,
       "timestamp": "2026-05-18T07:59:10.002902+00:00",
       "commit_sha": "5b5c0bf64367f0e22bf496bf632790e5d95d9286"
-    },
-    {
-      "rank": 6,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.03723896221858385,
-      "latency": 2661.11067806681,
-      "timestamp": "2026-05-26T22:41:57.703137+00:00"
     },
     {
       "rank": 7,
@@ -106,5 +106,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-05-29T10:44:27.161337+00:00"
+  "last_updated": "2026-05-29T18:58:32.007677+00:00"
 }

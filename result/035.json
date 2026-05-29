@@ -74,6 +74,14 @@
     },
     {
       "rank": 9,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.240724224118006,
+      "latency": 3095.243126153946,
+      "timestamp": "2026-05-29T18:57:46.468729+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.23490476583561226,
@@ -81,7 +89,7 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.17067147367959892,
@@ -90,7 +98,7 @@
       "commit_sha": "9f75d9cc7d8225692134bcd64fa5df347c14d22e"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.13243809297713427,
@@ -99,7 +107,7 @@
       "commit_sha": "3715ca11dc68037a191a9956ca40f3dc539f11df"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.11876737288553463,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-29T14:43:15.337072+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.10796956064900179,
@@ -116,7 +124,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.03663782184514324,
@@ -125,7 +133,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.010491817502787111,
@@ -133,5 +141,5 @@
       "timestamp": "2026-05-25T07:01:18.284338+00:00"
     }
   ],
-  "last_updated": "2026-05-29T14:47:38.895904+00:00"
+  "last_updated": "2026-05-29T18:58:32.039279+00:00"
 }
