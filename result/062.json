@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "二十一组",
+      "github": "ouligei6666/y-team-21-openoperator-start-kit",
+      "score": 0.015702531718179803,
+      "latency": 2198.3079301814237,
+      "timestamp": "2026-05-29T12:45:39.902320+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.015009402628279937,
@@ -39,7 +47,7 @@
       "commit_sha": "5b9c70d078ced299977d8a7cca88ac9a8f6f330f"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.014922977030349168,
@@ -48,7 +56,7 @@
       "commit_sha": "73a92ecf558f5bcab26a8754729a9d5febb67f5c"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.013064668916416408,
@@ -57,7 +65,7 @@
       "commit_sha": "7e5ae92f118f40abd6743daa9d9699c719d68160"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.012303245881445412,
@@ -66,7 +74,7 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.011970962477442025,
@@ -75,7 +83,7 @@
       "commit_sha": "ee32f3f936107e9dce60e1bba33e1a58a22f5ebe"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.010824197243617025,
@@ -83,7 +91,7 @@
       "timestamp": "2026-05-19T04:20:17.967101+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.006776105482843823,
@@ -92,7 +100,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 4.049381507325644e-05,
@@ -101,5 +109,5 @@
       "commit_sha": "61988a482ce9e4f976a0bdca2d1bae104b0610d9"
     }
   ],
-  "last_updated": "2026-05-23T15:02:49.389871+00:00"
+  "last_updated": "2026-05-29T12:46:19.418539+00:00"
 }
