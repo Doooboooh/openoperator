@@ -101,6 +101,15 @@
     },
     {
       "rank": 12,
+      "user": "不知道叫什么名字组",
+      "github": "luoluoluoluoli/Luoluoli_ice1",
+      "score": 0.004260275217306673,
+      "latency": 5678.7411061426,
+      "timestamp": "2026-05-29T02:23:54.917984+00:00",
+      "commit_sha": "ed8505a0f5f2124db6ca52682d56a6eabb3e4814"
+    },
+    {
+      "rank": 13,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.003623217171382803,
@@ -108,21 +117,12 @@
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0014330526917524494,
       "latency": 16882.142672936123,
       "timestamp": "2026-05-20T13:56:11.228731+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "不知道叫什么名字组",
-      "github": "luoluoluoluoli/Luoluoli_ice1",
-      "score": 1.7295223913802237e-05,
-      "latency": 1398825.486190617,
-      "timestamp": "2026-05-18T06:37:01.292849+00:00",
-      "commit_sha": "ed8505a0f5f2124db6ca52682d56a6eabb3e4814"
     },
     {
       "rank": 15,
@@ -134,5 +134,5 @@
       "commit_sha": "e295bc31f3b60ddd87e039785c0e6404c45e4c66"
     }
   ],
-  "last_updated": "2026-05-28T13:41:25.003509+00:00"
+  "last_updated": "2026-05-29T02:25:45.774817+00:00"
 }

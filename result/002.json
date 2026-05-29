@@ -214,21 +214,21 @@
     },
     {
       "rank": 25,
+      "user": "不知道叫什么名字组",
+      "github": "luoluoluoluoli/Luoluoli_ice1",
+      "score": 0.5490201600788397,
+      "latency": 15072.071303923925,
+      "timestamp": "2026-05-29T02:23:54.917984+00:00",
+      "commit_sha": "88a92381aeadd73082e68421c9143dc0f8f46d25"
+    },
+    {
+      "rank": 26,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.498757607127623,
       "latency": 16590.96699828903,
       "timestamp": "2026-05-18T06:16:18.903500+00:00",
       "commit_sha": "e934573bc4dffb730f3812ba97f75d0280a46c9b"
-    },
-    {
-      "rank": 26,
-      "user": "不知道叫什么名字组",
-      "github": "luoluoluoluoli/Luoluoli_ice1",
-      "score": 0.49740204549500744,
-      "latency": 16636.182088404894,
-      "timestamp": "2026-05-18T06:07:28.576529+00:00",
-      "commit_sha": "88a92381aeadd73082e68421c9143dc0f8f46d25"
     },
     {
       "rank": 27,
@@ -391,5 +391,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-05-28T14:06:49.143030+00:00"
+  "last_updated": "2026-05-29T02:25:45.775300+00:00"
 }
