@@ -67,6 +67,14 @@
     },
     {
       "rank": 8,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.03374416048332481,
+      "latency": 2383.6420538524785,
+      "timestamp": "2026-05-29T13:42:05.873217+00:00"
+    },
+    {
+      "rank": 9,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.03351123482438804,
@@ -74,7 +82,7 @@
       "timestamp": "2026-05-29T02:19:46.388059+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第九组",
       "github": "silent-Ning9/BangC09",
       "score": 0.027526990446612627,
@@ -82,7 +90,7 @@
       "timestamp": "2026-05-19T05:07:17.965279+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.018774079536346928,
@@ -90,7 +98,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0002495782318739797,
@@ -99,5 +107,5 @@
       "commit_sha": "1735b38130fa080911566f71b9d0c143d4064d0b"
     }
   ],
-  "last_updated": "2026-05-29T02:20:40.669116+00:00"
+  "last_updated": "2026-05-29T13:47:02.848928+00:00"
 }
