@@ -40,6 +40,14 @@
     },
     {
       "rank": 5,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 3.5058783081239313,
+      "latency": 2262.498096873363,
+      "timestamp": "2026-05-29T08:59:46.592381+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 3.4676415562742524,
@@ -48,7 +56,7 @@
       "commit_sha": "209267b3065e0fa56e77d8c9eda5810242c10271"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 3.33953300810946,
@@ -57,7 +65,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 3.1859810489550595,
@@ -66,7 +74,7 @@
       "commit_sha": "be1bf3d864a6c4c3ed194e5124dd4be8757efed6"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 2.9826751724899507,
@@ -75,5 +83,5 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     }
   ],
-  "last_updated": "2026-05-19T08:28:16.183488+00:00"
+  "last_updated": "2026-05-29T09:03:45.214266+00:00"
 }
