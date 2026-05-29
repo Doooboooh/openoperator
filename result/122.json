@@ -73,6 +73,14 @@
     },
     {
       "rank": 9,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.0011845058331435942,
+      "latency": 99878.78209600846,
+      "timestamp": "2026-05-29T05:51:56.088353+00:00"
+    },
+    {
+      "rank": 10,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 9.637297740420454e-06,
@@ -81,5 +89,5 @@
       "commit_sha": "5c79291d0dcfd506ab5ce2ba3bcd154bd69fe103"
     }
   ],
-  "last_updated": "2026-05-22T19:23:26.413998+00:00"
+  "last_updated": "2026-05-29T05:56:57.906349+00:00"
 }
