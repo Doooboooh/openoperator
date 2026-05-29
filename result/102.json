@@ -101,6 +101,14 @@
     },
     {
       "rank": 12,
+      "user": "二十一组",
+      "github": "ouligei6666/y-team-21-openoperator-start-kit",
+      "score": 0.019347538641956697,
+      "latency": 29911.556746810675,
+      "timestamp": "2026-05-29T00:22:25.509086+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.005661160864743123,
@@ -109,5 +117,5 @@
       "commit_sha": "119bdf5b4827f3779e84c8061b61b445dd2ae8c8"
     }
   ],
-  "last_updated": "2026-05-24T15:45:37.189102+00:00"
+  "last_updated": "2026-05-29T00:25:10.348000+00:00"
 }
