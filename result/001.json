@@ -409,6 +409,14 @@
     },
     {
       "rank": 48,
+      "user": "team_95",
+      "github": "GrassedgeT/ics-playground",
+      "score": 0.0046064574209696615,
+      "latency": 6028.27671294411,
+      "timestamp": "2026-05-31T10:41:06.902772+00:00"
+    },
+    {
+      "rank": 49,
       "user": "team_98",
       "github": "LSY839/bangc-competition",
       "score": 0.004586075729183968,
@@ -416,7 +424,7 @@
       "timestamp": "2026-05-18T14:15:25.569866+00:00"
     },
     {
-      "rank": 49,
+      "rank": 50,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.00457308931815337,
@@ -424,21 +432,13 @@
       "timestamp": "2026-05-24T11:03:57.112062+00:00"
     },
     {
-      "rank": 50,
+      "rank": 51,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.00449953358039888,
       "latency": 6171.528560419877,
       "timestamp": "2026-05-18T07:59:36.858582+00:00",
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
-    },
-    {
-      "rank": 51,
-      "user": "team_95",
-      "github": "GrassedgeT/ics-playground",
-      "score": 0.004481957801349975,
-      "latency": 6195.729908843835,
-      "timestamp": "2026-05-31T10:22:16.492383+00:00"
     },
     {
       "rank": 52,
@@ -477,5 +477,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-05-31T10:37:13.848105+00:00"
+  "last_updated": "2026-05-31T10:42:18.629756+00:00"
 }
