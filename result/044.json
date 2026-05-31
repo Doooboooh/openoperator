@@ -92,6 +92,14 @@
     },
     {
       "rank": 11,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 0.02789683398302229,
+      "latency": 2485.873488088449,
+      "timestamp": "2026-05-31T06:46:25.184688+00:00"
+    },
+    {
+      "rank": 12,
       "user": "智算第九组",
       "github": "silent-Ning9/BangC09",
       "score": 0.023408294746505087,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-19T04:36:39.828636+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.016106702781874347,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 3.47066173768032e-06,
@@ -116,5 +124,5 @@
       "commit_sha": "d15f03b46e5577176f5b85845274f8658b2db995"
     }
   ],
-  "last_updated": "2026-05-29T18:58:32.006169+00:00"
+  "last_updated": "2026-05-31T06:49:43.205590+00:00"
 }

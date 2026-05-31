@@ -254,6 +254,14 @@
     },
     {
       "rank": 30,
+      "user": "team_40",
+      "github": "CCyyyydr/openoperator-32",
+      "score": 0.001521981516562346,
+      "latency": 28889.969767381746,
+      "timestamp": "2026-05-31T06:47:29.213849+00:00"
+    },
+    {
+      "rank": 31,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0015177811731627569,
@@ -261,7 +269,7 @@
       "timestamp": "2026-05-29T11:06:32.357682+00:00"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.0012732039636023703,
@@ -270,7 +278,7 @@
       "commit_sha": "d94ec0eb311effc122f1e20cdb8bafef5f9de073"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0008224386493225445,
@@ -278,7 +286,7 @@
       "timestamp": "2026-05-20T17:01:34.243258+00:00"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0004256156229790862,
@@ -286,7 +294,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0004048039252301781,
@@ -294,7 +302,7 @@
       "timestamp": "2026-05-28T17:17:26.613892+00:00"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 7.880395958100901e-05,
@@ -303,7 +311,7 @@
       "commit_sha": "55232e0b64bf5fd13ad3827aa170673725087891"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 2.6331056431057348e-06,
@@ -312,5 +320,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-05-30T14:56:02.492064+00:00"
+  "last_updated": "2026-05-31T06:49:43.203581+00:00"
 }
