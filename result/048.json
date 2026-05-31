@@ -108,6 +108,15 @@
     },
     {
       "rank": 13,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.0020747000202839434,
+      "latency": 252833.66022631526,
+      "timestamp": "2026-05-31T12:20:34.058903+00:00",
+      "commit_sha": "50371c7514dcf8d3abdbfa3d11f59cdaa28cbee4"
+    },
+    {
+      "rank": 14,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0011977206619488167,
@@ -115,23 +124,14 @@
       "timestamp": "2026-05-29T13:25:30.923732+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0009401549541919332,
       "latency": 557944.1959659258,
       "timestamp": "2026-05-18T06:23:54.424609+00:00",
       "commit_sha": "0a97a25b3fdc7865944ab06c81679b1e1cfb7dd6"
-    },
-    {
-      "rank": 15,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.00038254932406565657,
-      "latency": 1371206.187022229,
-      "timestamp": "2026-05-18T06:30:47.752002+00:00",
-      "commit_sha": "50371c7514dcf8d3abdbfa3d11f59cdaa28cbee4"
     }
   ],
-  "last_updated": "2026-05-31T08:36:05.765878+00:00"
+  "last_updated": "2026-05-31T12:23:13.890565+00:00"
 }
