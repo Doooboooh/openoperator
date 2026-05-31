@@ -225,6 +225,15 @@
     },
     {
       "rank": 27,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.006959802049747195,
+      "latency": 64146.07726037502,
+      "timestamp": "2026-05-31T07:47:38.950295+00:00",
+      "commit_sha": "0feb5a62f93324b05c34feb628bf3b52dee3d520"
+    },
+    {
+      "rank": 28,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.006873802957634048,
@@ -232,22 +241,13 @@
       "timestamp": "2026-05-19T03:02:55.838572+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.006108291533591546,
       "latency": 73088.19455405076,
       "timestamp": "2026-05-18T05:46:27.289972+00:00",
       "commit_sha": "a8e0b51057140ee11733e5c47d5f4db8cd698bdb"
-    },
-    {
-      "rank": 29,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.0050289636471245215,
-      "latency": 88774.55303445458,
-      "timestamp": "2026-05-18T07:13:17.068967+00:00",
-      "commit_sha": "0feb5a62f93324b05c34feb628bf3b52dee3d520"
     },
     {
       "rank": 30,
@@ -329,5 +329,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-05-29T18:58:32.022506+00:00"
+  "last_updated": "2026-05-31T07:50:23.153986+00:00"
 }
