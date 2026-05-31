@@ -80,6 +80,15 @@
     },
     {
       "rank": 10,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.012460818099605392,
+      "latency": 2884.802563736836,
+      "timestamp": "2026-05-31T13:10:49.366349+00:00",
+      "commit_sha": "2752b0c591915bec55c03f3fe6616639b6eb1ce6"
+    },
+    {
+      "rank": 11,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.012417649773336434,
@@ -88,7 +97,7 @@
       "commit_sha": "61edb14b1de7dd10b11cafa5306512367205303b"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "我说删题大于一切组",
       "github": "Oreki2eru/openoperator-start-kit",
       "score": 0.012348478380903086,
@@ -97,21 +106,12 @@
       "commit_sha": "db9a54b65bf367c54157ff5542426173029589b3"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.012137742734455531,
       "latency": 2961.5885578095913,
       "timestamp": "2026-05-28T12:24:08.631449+00:00"
-    },
-    {
-      "rank": 13,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.012084118197976078,
-      "latency": 2974.7309163212776,
-      "timestamp": "2026-05-31T12:53:56.664185+00:00",
-      "commit_sha": "2752b0c591915bec55c03f3fe6616639b6eb1ce6"
     },
     {
       "rank": 14,
@@ -380,5 +380,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-05-31T12:58:39.069784+00:00"
+  "last_updated": "2026-05-31T13:13:53.837999+00:00"
 }

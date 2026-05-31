@@ -31,6 +31,15 @@
     },
     {
       "rank": 4,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.08511602666645937,
+      "latency": 2432.009670883417,
+      "timestamp": "2026-05-31T13:10:49.366349+00:00",
+      "commit_sha": "d4592876490aab4e8abe569ba37afad02d020b82"
+    },
+    {
+      "rank": 5,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.08421198991638655,
@@ -39,7 +48,7 @@
       "commit_sha": "5b5c0bf64367f0e22bf496bf632790e5d95d9286"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.08300362272408436,
@@ -48,7 +57,7 @@
       "commit_sha": "fd71adc41700f9542d9b0e4375970a1995a4067a"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.0822554378005164,
@@ -57,7 +66,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0810716845403729,
@@ -65,7 +74,7 @@
       "timestamp": "2026-05-29T09:06:27.582441+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.08024564773701799,
@@ -73,22 +82,13 @@
       "timestamp": "2026-05-26T22:41:57.703137+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0790835622982052,
       "latency": 2617.522453268369,
       "timestamp": "2026-05-18T09:20:52.999242+00:00",
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
-    },
-    {
-      "rank": 10,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.07821731758645839,
-      "latency": 2646.5111101667085,
-      "timestamp": "2026-05-31T12:53:56.664185+00:00",
-      "commit_sha": "d4592876490aab4e8abe569ba37afad02d020b82"
     },
     {
       "rank": 11,
@@ -159,5 +159,5 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     }
   ],
-  "last_updated": "2026-05-31T12:58:39.071947+00:00"
+  "last_updated": "2026-05-31T13:13:53.841098+00:00"
 }
