@@ -244,6 +244,14 @@
     },
     {
       "rank": 29,
+      "user": "team_39",
+      "github": "monikabbb/bangc-competition-27",
+      "score": 0.014022463551307818,
+      "latency": 519953.999047478,
+      "timestamp": "2026-05-31T06:39:01.851180+00:00"
+    },
+    {
+      "rank": 30,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.009954512254962794,
@@ -251,7 +259,7 @@
       "timestamp": "2026-05-28T16:39:53.718521+00:00"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.009510288410801605,
@@ -260,7 +268,7 @@
       "commit_sha": "dc3d018d16f5558273580942ec6d1f207348e760"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.00942262414720807,
@@ -269,7 +277,7 @@
       "commit_sha": "711bdc9e6e4d767fab59526bb311257adfbb73b5"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.009404025086436911,
@@ -278,7 +286,7 @@
       "commit_sha": "eaf4b0ca1e2b962e741d94941748b1e1cf442f8f"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.008036675124663634,
@@ -286,21 +294,13 @@
       "timestamp": "2026-05-19T16:59:57.558887+00:00"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.007915231523524302,
       "latency": 921139.9538132051,
       "timestamp": "2026-05-18T06:16:18.903500+00:00",
       "commit_sha": "e934573bc4dffb730f3812ba97f75d0280a46c9b"
-    },
-    {
-      "rank": 35,
-      "user": "team_39",
-      "github": "monikabbb/bangc-competition-27",
-      "score": 0.0056217825540784,
-      "latency": 1296926.0069852073,
-      "timestamp": "2026-05-31T06:11:03.519668+00:00"
     },
     {
       "rank": 36,
@@ -354,5 +354,5 @@
       "timestamp": "2026-05-30T12:10:09.312428+00:00"
     }
   ],
-  "last_updated": "2026-05-31T06:14:28.956524+00:00"
+  "last_updated": "2026-05-31T06:39:34.064940+00:00"
 }
