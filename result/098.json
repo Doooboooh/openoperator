@@ -47,6 +47,14 @@
     },
     {
       "rank": 6,
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 0.0088214872603004,
+      "latency": 9694.62376087904,
+      "timestamp": "2026-05-31T10:54:33.503357+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0003198160141067759,
@@ -55,7 +63,7 @@
       "commit_sha": "6fe6af9e730b4765109f623c5ba0056cf21ce301"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.00022059430766739062,
@@ -64,22 +72,14 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0002175370972374334,
       "latency": 393132.94645398855,
       "timestamp": "2026-05-18T09:20:52.999242+00:00",
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
-    },
-    {
-      "rank": 9,
-      "user": "team_73",
-      "github": "dingyue772/TensorCraft",
-      "score": 0.00010689606679134683,
-      "latency": 800038.7906407317,
-      "timestamp": "2026-05-31T10:50:00.971202+00:00"
     }
   ],
-  "last_updated": "2026-05-31T10:52:28.127882+00:00"
+  "last_updated": "2026-05-31T10:57:33.036656+00:00"
 }
