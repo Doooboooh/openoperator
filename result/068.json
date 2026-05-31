@@ -39,6 +39,14 @@
     },
     {
       "rank": 5,
+      "user": "不知道叫什么名字组",
+      "github": "luoluoluoluoli/Luoluoli_ice1",
+      "score": 3.708021497147616,
+      "latency": 2139.1577708224454,
+      "timestamp": "2026-05-31T13:16:19.101893+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 3.7034152776230704,
@@ -47,7 +55,7 @@
       "commit_sha": "5b5c0bf64367f0e22bf496bf632790e5d95d9286"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 3.5058783081239313,
@@ -55,21 +63,13 @@
       "timestamp": "2026-05-29T08:59:46.592381+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 3.4676415562742524,
       "latency": 2287.446055561304,
       "timestamp": "2026-05-18T07:04:21.440830+00:00",
       "commit_sha": "209267b3065e0fa56e77d8c9eda5810242c10271"
-    },
-    {
-      "rank": 8,
-      "user": "不知道叫什么名字组",
-      "github": "luoluoluoluoli/Luoluoli_ice1",
-      "score": 3.3688001615120404,
-      "latency": 2354.5602646966777,
-      "timestamp": "2026-05-31T13:12:48.559183+00:00"
     },
     {
       "rank": 9,
@@ -107,5 +107,5 @@
       "timestamp": "2026-05-29T12:11:39.984178+00:00"
     }
   ],
-  "last_updated": "2026-05-31T13:13:53.839292+00:00"
+  "last_updated": "2026-05-31T13:18:58.696331+00:00"
 }
