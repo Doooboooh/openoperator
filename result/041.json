@@ -40,6 +40,14 @@
     },
     {
       "rank": 5,
+      "user": "不知道叫什么名字组",
+      "github": "luoluoluoluoli/Luoluoli_ice1",
+      "score": 0.014643968287309761,
+      "latency": 5174.826830625534,
+      "timestamp": "2026-05-31T08:11:39.372858+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.014021083697828026,
@@ -48,7 +56,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.013214735262870975,
@@ -56,7 +64,7 @@
       "timestamp": "2026-05-28T16:06:16.789846+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.012511659182907245,
@@ -65,7 +73,7 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.011852859433906428,
@@ -73,7 +81,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.011473737010409654,
@@ -81,7 +89,7 @@
       "timestamp": "2026-05-24T12:45:54.364976+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.011118675236961462,
@@ -90,7 +98,7 @@
       "commit_sha": "ae33eaf5718367316c02cdcec207923131b0cc44"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.005129645181057822,
@@ -98,7 +106,7 @@
       "timestamp": "2026-05-26T22:41:57.703137+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0020750509699458295,
@@ -106,5 +114,5 @@
       "timestamp": "2026-05-21T05:39:39.116081+00:00"
     }
   ],
-  "last_updated": "2026-05-28T16:08:30.761919+00:00"
+  "last_updated": "2026-05-31T08:15:50.653440+00:00"
 }
