@@ -22,20 +22,20 @@
     },
     {
       "rank": 3,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.053547941239754766,
+      "latency": 2364.5353503525257,
+      "timestamp": "2026-05-31T09:14:23.729237+00:00",
+      "commit_sha": "0feb5a62f93324b05c34feb628bf3b52dee3d520"
+    },
+    {
+      "rank": 4,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.05342517845676396,
       "latency": 2369.9686862528324,
       "timestamp": "2026-05-29T01:40:13.524891+00:00"
-    },
-    {
-      "rank": 4,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 0.05153516941237094,
-      "latency": 2456.8852968513966,
-      "timestamp": "2026-05-31T07:47:38.950295+00:00",
-      "commit_sha": "0feb5a62f93324b05c34feb628bf3b52dee3d520"
     },
     {
       "rank": 5,
@@ -132,5 +132,5 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     }
   ],
-  "last_updated": "2026-05-31T07:50:23.153082+00:00"
+  "last_updated": "2026-05-31T09:16:46.796138+00:00"
 }
