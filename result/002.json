@@ -40,6 +40,14 @@
     },
     {
       "rank": 5,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 1.2515029584361614,
+      "latency": 6611.946815003951,
+      "timestamp": "2026-05-31T13:29:50.960880+00:00"
+    },
+    {
+      "rank": 6,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 1.2511469744367139,
@@ -48,7 +56,7 @@
       "commit_sha": "27dbd8f98770a0d493c7c53ecb00991d5f00aa32"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 1.2415459663413286,
@@ -56,21 +64,13 @@
       "timestamp": "2026-05-30T22:16:36.224930+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 1.2335887453374215,
       "latency": 6707.96570678552,
       "timestamp": "2026-05-19T22:50:34.965600+00:00",
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
-    },
-    {
-      "rank": 8,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 1.2321931390703975,
-      "latency": 6715.563281128804,
-      "timestamp": "2026-05-31T13:24:04.538116+00:00"
     },
     {
       "rank": 9,
@@ -423,5 +423,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-05-31T13:29:03.987907+00:00"
+  "last_updated": "2026-05-31T13:34:09.060993+00:00"
 }
