@@ -4,29 +4,29 @@
   "results": [
     {
       "rank": 1,
-      "user": "team_73",
-      "github": "dingyue772/TensorCraft",
-      "score": 4.785434847007536,
-      "latency": 117.21672490239143,
-      "timestamp": "2026-05-31T07:50:38.076641+00:00"
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 18.711759162895017,
+      "latency": 29.977566252152126,
+      "timestamp": "2026-05-31T12:36:46.743833+00:00",
+      "commit_sha": "db875c3ce0776576b2773e2668c42f8b94eaae80"
     },
     {
       "rank": 2,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 2.086422163456643,
-      "latency": 268.8492337862651,
-      "timestamp": "2026-05-18T13:30:01.786693+00:00",
+      "score": 17.60390940979405,
+      "latency": 31.864115347464878,
+      "timestamp": "2026-05-31T12:37:00.893093+00:00",
       "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
       "rank": 3,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.9385814437400835,
-      "latency": 289.35230026642483,
-      "timestamp": "2026-05-18T17:05:24.488943+00:00",
-      "commit_sha": "db875c3ce0776576b2773e2668c42f8b94eaae80"
+      "user": "team_73",
+      "github": "dingyue772/TensorCraft",
+      "score": 4.785434847007536,
+      "latency": 117.21672490239143,
+      "timestamp": "2026-05-31T07:50:38.076641+00:00"
     },
     {
       "rank": 4,
@@ -56,5 +56,5 @@
       "commit_sha": "f03a799b582231beb1c9ed749fd18c42f16ae1d6"
     }
   ],
-  "last_updated": "2026-05-31T07:55:28.363510+00:00"
+  "last_updated": "2026-05-31T12:38:23.181854+00:00"
 }
