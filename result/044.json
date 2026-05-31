@@ -57,6 +57,14 @@
     },
     {
       "rank": 7,
+      "user": "不知道叫什么名字组",
+      "github": "luoluoluoluoli/Luoluoli_ice1",
+      "score": 0.02990674877036764,
+      "latency": 2318.807722379764,
+      "timestamp": "2026-05-31T08:33:16.589315+00:00"
+    },
+    {
+      "rank": 8,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.0296219468583496,
@@ -65,7 +73,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.02951581081337652,
@@ -74,7 +82,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.029194031072124902,
@@ -83,7 +91,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.028482360485225476,
@@ -91,7 +99,7 @@
       "timestamp": "2026-05-28T14:51:49.888454+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.02789683398302229,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-31T06:46:25.184688+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第九组",
       "github": "silent-Ning9/BangC09",
       "score": 0.023408294746505087,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-19T04:36:39.828636+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.016106702781874347,
@@ -115,7 +123,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 3.47066173768032e-06,
@@ -124,5 +132,5 @@
       "commit_sha": "d15f03b46e5577176f5b85845274f8658b2db995"
     }
   ],
-  "last_updated": "2026-05-31T06:49:43.205590+00:00"
+  "last_updated": "2026-05-31T08:36:05.767098+00:00"
 }
