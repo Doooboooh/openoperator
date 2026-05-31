@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "不知道叫什么名字组",
+      "github": "luoluoluoluoli/Luoluoli_ice1",
+      "score": 0.013073716205810548,
+      "latency": 2202.587202191353,
+      "timestamp": "2026-05-31T14:25:02.917527+00:00"
+    },
+    {
+      "rank": 4,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.013029719281247791,
@@ -29,21 +37,13 @@
       "timestamp": "2026-05-29T12:38:12.337003+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.012934789497081989,
       "latency": 2226.244192570448,
       "timestamp": "2026-05-18T06:56:57.054864+00:00",
       "commit_sha": "1d93d30c7928472181c2e0e6a8358968cf2edf35"
-    },
-    {
-      "rank": 5,
-      "user": "不知道叫什么名字组",
-      "github": "luoluoluoluoli/Luoluoli_ice1",
-      "score": 0.012575185327087119,
-      "latency": 2289.906609803438,
-      "timestamp": "2026-05-31T13:12:48.559183+00:00"
     },
     {
       "rank": 6,
@@ -96,5 +96,5 @@
       "commit_sha": "487dd70d07257e17b1ede7c7a62d92c2747de48d"
     }
   ],
-  "last_updated": "2026-05-31T13:13:53.843468+00:00"
+  "last_updated": "2026-05-31T14:29:37.014829+00:00"
 }
