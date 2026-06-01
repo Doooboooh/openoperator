@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "不知道叫什么名字组",
+      "github": "luoluoluoluoli/Luoluoli_ice1",
+      "score": 0.020621670776318463,
+      "latency": 2295.497804880142,
+      "timestamp": "2026-06-01T00:08:25.870261+00:00"
+    },
+    {
+      "rank": 4,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.019211483685167736,
@@ -29,7 +37,7 @@
       "timestamp": "2026-05-28T14:51:49.888454+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.01906955788541932,
@@ -38,21 +46,13 @@
       "commit_sha": "5b9c70d078ced299977d8a7cca88ac9a8f6f330f"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.01905817706678792,
       "latency": 2483.815730859836,
       "timestamp": "2026-05-18T08:43:30.078519+00:00",
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
-    },
-    {
-      "rank": 6,
-      "user": "不知道叫什么名字组",
-      "github": "luoluoluoluoli/Luoluoli_ice1",
-      "score": 0.018017741953532136,
-      "latency": 2627.2437535226345,
-      "timestamp": "2026-06-01T00:03:17.203036+00:00"
     },
     {
       "rank": 7,
@@ -90,5 +90,5 @@
       "timestamp": "2026-05-24T07:25:07.431405+00:00"
     }
   ],
-  "last_updated": "2026-06-01T00:07:10.374721+00:00"
+  "last_updated": "2026-06-01T00:12:14.879716+00:00"
 }
