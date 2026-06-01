@@ -134,6 +134,14 @@
     },
     {
       "rank": 16,
+      "user": "team_36",
+      "github": "luogarden/Team35_BANGC",
+      "score": 0.0014141727537097192,
+      "latency": 17107.528013487656,
+      "timestamp": "2026-06-01T07:27:39.935525+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0008457000963186518,
@@ -141,7 +149,7 @@
       "timestamp": "2026-05-29T11:26:47.433601+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 1.1628878586559547e-06,
@@ -150,5 +158,5 @@
       "commit_sha": "e295bc31f3b60ddd87e039785c0e6404c45e4c66"
     }
   ],
-  "last_updated": "2026-05-31T14:54:57.216938+00:00"
+  "last_updated": "2026-06-01T07:30:26.708873+00:00"
 }
