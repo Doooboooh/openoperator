@@ -337,6 +337,14 @@
     },
     {
       "rank": 40,
+      "user": "team_44",
+      "github": "OrangeL-ucas/SBangC",
+      "score": 0.004905305748306333,
+      "latency": 8132.826381673415,
+      "timestamp": "2026-06-01T09:28:02.481475+00:00"
+    },
+    {
+      "rank": 41,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0028088413835771144,
@@ -345,7 +353,7 @@
       "commit_sha": "03a57ebc045da823e1542113b94679cb22a2c21e"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.002781816244756231,
@@ -353,7 +361,7 @@
       "timestamp": "2026-05-20T13:46:23.135081+00:00"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0021973921668295934,
@@ -362,7 +370,7 @@
       "commit_sha": "276526c96a7d6967fee19a5816081bbc1b0a7790"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 1.772300161894449e-05,
@@ -371,5 +379,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-05-31T13:34:09.065267+00:00"
+  "last_updated": "2026-06-01T09:31:42.743657+00:00"
 }
