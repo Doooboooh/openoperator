@@ -415,6 +415,14 @@
     },
     {
       "rank": 49,
+      "user": "team_44",
+      "github": "ISCAS-LXC/SBangC",
+      "score": 0.001297398168512082,
+      "latency": 6378050.471190363,
+      "timestamp": "2026-06-01T05:41:12.245904+00:00"
+    },
+    {
+      "rank": 50,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0005104747112576844,
@@ -423,5 +431,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-05-31T13:54:25.581027+00:00"
+  "last_updated": "2026-06-01T05:44:02.138899+00:00"
 }
