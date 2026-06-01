@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "不知道叫什么名字组",
+      "github": "luoluoluoluoli/Luoluoli_ice1",
+      "score": 0.00021829919147662436,
+      "latency": 255708.68871485195,
+      "timestamp": "2026-06-01T06:00:37.252023+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.00013664089631456228,
@@ -38,7 +46,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.00013086174519471395,
@@ -46,7 +54,7 @@
       "timestamp": "2026-05-23T08:02:41.801323+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0001275147694004538,
@@ -55,5 +63,5 @@
       "commit_sha": "5589a11fd4078ee814385f6bbde2f5cdfb06c780"
     }
   ],
-  "last_updated": "2026-05-23T08:05:35.714503+00:00"
+  "last_updated": "2026-06-01T06:04:19.914642+00:00"
 }
