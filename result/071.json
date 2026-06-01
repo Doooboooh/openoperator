@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 0.010141268017983068,
+      "latency": 2403.3483738700547,
+      "timestamp": "2026-06-01T18:58:31.629168+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.009898714743061162,
@@ -39,7 +47,7 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.00989766525511854,
@@ -48,7 +56,7 @@
       "commit_sha": "768791cc1049549e612a54e530f92d4494c1fe40"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.009782530163884537,
@@ -56,7 +64,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.009587652581706083,
@@ -65,7 +73,7 @@
       "commit_sha": "901dae5eab19b8c9a9061b33bf45321d99a123c4"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.00950271624010324,
@@ -73,21 +81,13 @@
       "timestamp": "2026-05-22T08:42:03.241947+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.009355960216493715,
       "latency": 2605.0773449242115,
       "timestamp": "2026-05-18T09:20:52.999242+00:00",
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
-    },
-    {
-      "rank": 10,
-      "user": "智算第十组",
-      "github": "koross49/openoperator-start-kit",
-      "score": 0.009331170438813693,
-      "latency": 2611.998158196608,
-      "timestamp": "2026-06-01T18:41:09.727826+00:00"
     },
     {
       "rank": 11,
@@ -165,5 +165,5 @@
       "commit_sha": "c212d9b5ed4d8c7e86571885ca0baca0f28ac4d6"
     }
   ],
-  "last_updated": "2026-06-01T18:42:31.771627+00:00"
+  "last_updated": "2026-06-01T19:02:45.895240+00:00"
 }
