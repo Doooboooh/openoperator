@@ -228,6 +228,14 @@
     },
     {
       "rank": 27,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 1.767616468783263e-05,
+      "latency": 124321143.12176903,
+      "timestamp": "2026-06-01T17:35:15.543112+00:00"
+    },
+    {
+      "rank": 28,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 1.5325856276793184e-05,
@@ -235,7 +243,7 @@
       "timestamp": "2026-05-18T14:13:54.546292+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 1.5202075683324297e-05,
@@ -243,7 +251,7 @@
       "timestamp": "2026-05-20T06:20:48.589048+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 1.4199116534882729e-05,
@@ -251,7 +259,7 @@
       "timestamp": "2026-06-01T08:52:14.926110+00:00"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 1.4008791301492696e-05,
@@ -259,5 +267,5 @@
       "timestamp": "2026-05-29T10:16:26.796521+00:00"
     }
   ],
-  "last_updated": "2026-06-01T12:38:21.445286+00:00"
+  "last_updated": "2026-06-01T17:36:54.337267+00:00"
 }
