@@ -100,6 +100,14 @@
     },
     {
       "rank": 12,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.005694298956974312,
+      "latency": 4248.6353777348995,
+      "timestamp": "2026-06-01T08:41:23.087156+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.0056070956663980195,
@@ -108,7 +116,7 @@
       "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.004260275217306673,
@@ -117,7 +125,7 @@
       "commit_sha": "ed8505a0f5f2124db6ca52682d56a6eabb3e4814"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.003623217171382803,
@@ -125,7 +133,7 @@
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0014330526917524494,
@@ -133,7 +141,7 @@
       "timestamp": "2026-05-20T13:56:11.228731+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.0014141727537097192,
@@ -141,7 +149,7 @@
       "timestamp": "2026-06-01T07:27:39.935525+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0008457000963186518,
@@ -149,7 +157,7 @@
       "timestamp": "2026-05-29T11:26:47.433601+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 1.1628878586559547e-06,
@@ -158,5 +166,5 @@
       "commit_sha": "e295bc31f3b60ddd87e039785c0e6404c45e4c66"
     }
   ],
-  "last_updated": "2026-06-01T07:30:26.708873+00:00"
+  "last_updated": "2026-06-01T08:46:19.146251+00:00"
 }
