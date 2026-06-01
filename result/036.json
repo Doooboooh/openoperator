@@ -105,6 +105,14 @@
     },
     {
       "rank": 13,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.19007221179522138,
+      "latency": 3887.3225760956607,
+      "timestamp": "2026-06-01T09:13:04.178755+00:00"
+    },
+    {
+      "rank": 14,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.10573416743238653,
@@ -113,7 +121,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.038261764767735636,
@@ -121,7 +129,7 @@
       "timestamp": "2026-05-29T02:30:27.364279+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.002642212068930692,
@@ -130,5 +138,5 @@
       "commit_sha": "4a905bac6e0d23432f4b512a57b31683d964e850"
     }
   ],
-  "last_updated": "2026-06-01T01:42:31.011774+00:00"
+  "last_updated": "2026-06-01T09:16:32.514637+00:00"
 }

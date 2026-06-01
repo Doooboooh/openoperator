@@ -92,6 +92,14 @@
     },
     {
       "rank": 11,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.008140756879452392,
+      "latency": 3770.9024424354234,
+      "timestamp": "2026-06-01T09:13:04.178755+00:00"
+    },
+    {
+      "rank": 12,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.007003535724851954,
@@ -100,7 +108,7 @@
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.006993737088473743,
@@ -109,7 +117,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.004987479350844363,
@@ -117,7 +125,7 @@
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.004839162173859963,
@@ -126,7 +134,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.002794478248161228,
@@ -134,7 +142,7 @@
       "timestamp": "2026-05-29T03:22:31.387364+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.0016071786337809545,
@@ -142,7 +150,7 @@
       "timestamp": "2026-06-01T08:18:53.039169+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0004820380829500214,
@@ -150,5 +158,5 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     }
   ],
-  "last_updated": "2026-06-01T08:21:08.466452+00:00"
+  "last_updated": "2026-06-01T09:16:32.513864+00:00"
 }
