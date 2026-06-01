@@ -75,6 +75,15 @@
     },
     {
       "rank": 9,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.08222393373834905,
+      "latency": 2517.551649361849,
+      "timestamp": "2026-06-01T15:02:03.384433+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 10,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0810716845403729,
@@ -82,21 +91,12 @@
       "timestamp": "2026-05-29T09:06:27.582441+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.08024564773701799,
       "latency": 2579.616537938515,
       "timestamp": "2026-05-26T22:41:57.703137+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.0790835622982052,
-      "latency": 2617.522453268369,
-      "timestamp": "2026-05-18T09:20:52.999242+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 12,
@@ -191,5 +191,5 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     }
   ],
-  "last_updated": "2026-06-01T14:19:46.323822+00:00"
+  "last_updated": "2026-06-01T15:05:04.245534+00:00"
 }

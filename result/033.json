@@ -48,6 +48,15 @@
     },
     {
       "rank": 6,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.012216959088337176,
+      "latency": 2347.1470922231674,
+      "timestamp": "2026-06-01T15:02:03.384433+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 7,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.01199424501623149,
@@ -55,7 +64,7 @@
       "timestamp": "2026-05-29T03:05:22.802755+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.011933823398984326,
@@ -64,7 +73,7 @@
       "commit_sha": "ae33eaf5718367316c02cdcec207923131b0cc44"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第九组",
       "github": "silent-Ning9/BangC09",
       "score": 0.011877979758220338,
@@ -73,7 +82,7 @@
       "commit_sha": "049a30c15308425464accbb92372293b0435f5db"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.011846386694299665,
@@ -81,22 +90,13 @@
       "timestamp": "2026-05-28T15:55:23.283500+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.011805125829847255,
       "latency": 2429.0295938650765,
       "timestamp": "2026-05-18T07:00:52.686734+00:00",
       "commit_sha": "901dae5eab19b8c9a9061b33bf45321d99a123c4"
-    },
-    {
-      "rank": 11,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.011529058836959585,
-      "latency": 2487.193482617537,
-      "timestamp": "2026-05-18T09:20:52.999242+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 12,
@@ -182,5 +182,5 @@
       "timestamp": "2026-05-18T13:58:49.350724+00:00"
     }
   ],
-  "last_updated": "2026-06-01T14:59:58.644603+00:00"
+  "last_updated": "2026-06-01T15:05:04.242574+00:00"
 }
