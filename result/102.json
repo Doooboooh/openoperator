@@ -74,6 +74,14 @@
     },
     {
       "rank": 9,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 0.041116708657693624,
+      "latency": 14074.934956928095,
+      "timestamp": "2026-06-01T18:55:33.568007+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.040573975763316776,
@@ -82,7 +90,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.040331354751685936,
@@ -91,7 +99,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.03676234397402695,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.020339344700946126,
@@ -108,7 +116,7 @@
       "commit_sha": "5290023de287b78782fb701b3a51fa942feb31b1"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.019347538641956697,
@@ -116,7 +124,7 @@
       "timestamp": "2026-05-29T00:22:25.509086+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.005661160864743123,
@@ -125,7 +133,7 @@
       "commit_sha": "119bdf5b4827f3779e84c8061b61b445dd2ae8c8"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.002815097994944611,
@@ -133,5 +141,5 @@
       "timestamp": "2026-06-01T00:57:01.625787+00:00"
     }
   ],
-  "last_updated": "2026-06-01T10:06:52.874247+00:00"
+  "last_updated": "2026-06-01T18:57:41.296059+00:00"
 }
