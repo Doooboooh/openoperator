@@ -108,6 +108,14 @@
     },
     {
       "rank": 13,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.025583254233578885,
+      "latency": 2710.6793907781444,
+      "timestamp": "2026-06-01T07:51:35.210147+00:00"
+    },
+    {
+      "rank": 14,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.023691506446437634,
@@ -115,7 +123,7 @@
       "timestamp": "2026-05-31T12:53:56.664185+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.016106702781874347,
@@ -123,7 +131,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 3.47066173768032e-06,
@@ -132,5 +140,5 @@
       "commit_sha": "d15f03b46e5577176f5b85845274f8658b2db995"
     }
   ],
-  "last_updated": "2026-05-31T12:58:39.070658+00:00"
+  "last_updated": "2026-06-01T07:55:42.505226+00:00"
 }
