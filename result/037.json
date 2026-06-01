@@ -57,6 +57,15 @@
     },
     {
       "rank": 7,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.016021941174497137,
+      "latency": 2634.012916435798,
+      "timestamp": "2026-06-01T02:10:30.147950+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 8,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01522210067135005,
@@ -65,7 +74,7 @@
       "commit_sha": "4b336fcdbb9ca25a026fc2f00ddd2fb31e3a3102"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.011713638009121913,
@@ -73,7 +82,7 @@
       "timestamp": "2026-05-28T13:59:34.504720+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.007041010587522143,
@@ -81,7 +90,7 @@
       "timestamp": "2026-05-29T14:27:04.332701+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.0030303950300291462,
@@ -89,21 +98,12 @@
       "timestamp": "2026-05-20T02:09:11.222098+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.002905918851042289,
       "latency": 14522.77305846413,
       "timestamp": "2026-05-26T22:41:57.703137+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.0028035113488251375,
-      "latency": 15053.265262395144,
-      "timestamp": "2026-05-18T09:20:52.999242+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 13,
@@ -114,5 +114,5 @@
       "timestamp": "2026-05-19T15:42:49.754409+00:00"
     }
   ],
-  "last_updated": "2026-05-29T14:47:38.893506+00:00"
+  "last_updated": "2026-06-01T02:12:42.420086+00:00"
 }
