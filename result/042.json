@@ -75,6 +75,15 @@
     },
     {
       "rank": 9,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.5152338227723915,
+      "latency": 6195.519119501114,
+      "timestamp": "2026-06-01T01:37:46.133288+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 10,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.2560357047273914,
@@ -82,7 +91,7 @@
       "timestamp": "2026-05-31T08:15:38.687648+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.2525481408882012,
@@ -90,21 +99,12 @@
       "timestamp": "2026-05-28T14:26:03.534767+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.0013484634655788216,
       "latency": 2367243.222737064,
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.0013109228831902613,
-      "latency": 2435033.395886421,
-      "timestamp": "2026-05-18T09:20:52.999242+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 13,
@@ -115,5 +115,5 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     }
   ],
-  "last_updated": "2026-05-31T09:21:52.390150+00:00"
+  "last_updated": "2026-06-01T01:42:31.014275+00:00"
 }

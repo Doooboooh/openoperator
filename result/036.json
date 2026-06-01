@@ -39,6 +39,15 @@
     },
     {
       "rank": 5,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.3144916952565719,
+      "latency": 2349.4165701170764,
+      "timestamp": "2026-06-01T01:37:46.133288+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 6,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.2915997307989585,
@@ -46,7 +55,7 @@
       "timestamp": "2026-05-28T13:59:34.504720+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.2709781499795758,
@@ -55,7 +64,7 @@
       "commit_sha": "e16081205aa0f296d792fb3a2fc705cd02c1ac09"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.2634713637530344,
@@ -63,7 +72,7 @@
       "timestamp": "2026-05-22T06:53:56.302347+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.2243728330904274,
@@ -71,7 +80,7 @@
       "timestamp": "2026-05-31T13:09:47.439964+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.22272048690697316,
@@ -79,7 +88,7 @@
       "timestamp": "2026-05-20T01:57:14.871653+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.22091711630246483,
@@ -87,7 +96,7 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.19131328643094306,
@@ -95,7 +104,7 @@
       "timestamp": "2026-05-29T14:43:15.337072+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.10573416743238653,
@@ -104,21 +113,12 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.038261764767735636,
       "latency": 19310.975447297096,
       "timestamp": "2026-05-29T02:30:27.364279+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.03692744118530121,
-      "latency": 20008.751656860113,
-      "timestamp": "2026-05-18T09:20:52.999242+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 15,
@@ -130,5 +130,5 @@
       "commit_sha": "4a905bac6e0d23432f4b512a57b31683d964e850"
     }
   ],
-  "last_updated": "2026-05-31T13:13:53.837042+00:00"
+  "last_updated": "2026-06-01T01:42:31.011774+00:00"
 }
