@@ -40,6 +40,15 @@
     },
     {
       "rank": 5,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.3322510722879739,
+      "latency": 3617.5504016379514,
+      "timestamp": "2026-06-01T07:21:11.622480+00:00",
+      "commit_sha": "bcc054a46f26d6bb37f2c7dea29ec6a2fe37beb4"
+    },
+    {
+      "rank": 6,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.31579414483184326,
@@ -48,7 +57,7 @@
       "commit_sha": "77fb1d14bada3606ef1d89c61deafbe1014ca639"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.20254991980503495,
@@ -57,7 +66,7 @@
       "commit_sha": "51d32f3ebb48b76af3c561c633bc3a05d31b462f"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.16596220083101987,
@@ -66,22 +75,13 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.16124420578769075,
       "latency": 7454.128315051396,
       "timestamp": "2026-05-18T06:37:34.382447+00:00",
       "commit_sha": "bc3685f48a1faba72a21160e8686cb6de75b3efb"
-    },
-    {
-      "rank": 9,
-      "user": "888",
-      "github": "RuixiZhang0906/888-op-gen",
-      "score": 0.12334063800338273,
-      "latency": 9744.84176064531,
-      "timestamp": "2026-05-18T05:55:18.127960+00:00",
-      "commit_sha": "bcc054a46f26d6bb37f2c7dea29ec6a2fe37beb4"
     },
     {
       "rank": 10,
@@ -160,5 +160,5 @@
       "commit_sha": "6fe6af9e730b4765109f623c5ba0056cf21ce301"
     }
   ],
-  "last_updated": "2026-06-01T01:37:26.423552+00:00"
+  "last_updated": "2026-06-01T07:25:21.991023+00:00"
 }
