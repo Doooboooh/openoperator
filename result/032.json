@@ -48,6 +48,15 @@
     },
     {
       "rank": 6,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.022940654918136186,
+      "latency": 2709.2077458898225,
+      "timestamp": "2026-06-01T11:11:33.259765+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 7,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.022656280848334303,
@@ -55,21 +64,12 @@
       "timestamp": "2026-05-29T03:05:22.802755+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.022490687518229597,
       "latency": 2763.4104092915854,
       "timestamp": "2026-06-01T09:13:04.178755+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.022252576889992885,
-      "latency": 2792.979901035627,
-      "timestamp": "2026-05-18T09:20:52.999242+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 9,
@@ -166,5 +166,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-01T09:16:32.517232+00:00"
+  "last_updated": "2026-06-01T11:12:22.202071+00:00"
 }
