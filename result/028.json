@@ -132,6 +132,14 @@
     },
     {
       "rank": 16,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.003460102670938137,
+      "latency": 6548.071590562661,
+      "timestamp": "2026-06-01T14:58:04.310198+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.0033772624658505073,
@@ -139,7 +147,7 @@
       "timestamp": "2026-06-01T08:06:02.938982+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.001304883469137587,
@@ -147,7 +155,7 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 2.1188617209083428e-05,
@@ -156,7 +164,7 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 1.813470616721814e-05,
@@ -165,5 +173,5 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     }
   ],
-  "last_updated": "2026-06-01T13:14:01.341874+00:00"
+  "last_updated": "2026-06-01T14:59:58.621263+00:00"
 }
