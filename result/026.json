@@ -4,20 +4,20 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.09790077441784296,
+      "latency": 295.5237093071143,
+      "timestamp": "2026-06-01T19:05:09.809467+00:00",
+      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
+    },
+    {
+      "rank": 2,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.09486020099098437,
       "latency": 304.99619121352833,
       "timestamp": "2026-05-30T18:49:57.541941+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.09359281412732616,
-      "latency": 309.12629639108974,
-      "timestamp": "2026-05-30T17:07:25.056703+00:00",
-      "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
       "rank": 3,
@@ -174,5 +174,5 @@
       "timestamp": "2026-05-29T11:26:47.433601+00:00"
     }
   ],
-  "last_updated": "2026-06-01T19:02:45.892009+00:00"
+  "last_updated": "2026-06-01T19:07:50.526551+00:00"
 }
