@@ -318,6 +318,14 @@
     },
     {
       "rank": 37,
+      "user": "team_95",
+      "github": "GrassedgeT/ics-playground",
+      "score": 0.004834596917548669,
+      "latency": 5743.808733920257,
+      "timestamp": "2026-06-01T04:38:30.665933+00:00"
+    },
+    {
+      "rank": 38,
       "user": "二十七组",
       "github": "zhangmuxiang/27_openoperator-start-kit",
       "score": 0.0048045644023740446,
@@ -325,7 +333,7 @@
       "timestamp": "2026-05-23T06:56:43.188807+00:00"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.004795087554606939,
@@ -333,7 +341,7 @@
       "timestamp": "2026-05-26T01:54:25.479277+00:00"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "user": "team_71",
       "github": "SatoriEye/BangC",
       "score": 0.0047676938059364495,
@@ -341,21 +349,13 @@
       "timestamp": "2026-05-19T15:09:42.329650+00:00"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.004745613567635829,
       "latency": 5851.508894314368,
       "timestamp": "2026-05-18T06:16:18.903500+00:00",
       "commit_sha": "e934573bc4dffb730f3812ba97f75d0280a46c9b"
-    },
-    {
-      "rank": 41,
-      "user": "team_95",
-      "github": "GrassedgeT/ics-playground",
-      "score": 0.004726126381710076,
-      "latency": 5875.636357814074,
-      "timestamp": "2026-05-31T11:15:50.587229+00:00"
     },
     {
       "rank": 42,
@@ -477,5 +477,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-05-31T16:30:46.296692+00:00"
+  "last_updated": "2026-06-01T04:43:41.747215+00:00"
 }
