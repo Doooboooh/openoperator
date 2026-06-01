@@ -63,6 +63,14 @@
     },
     {
       "rank": 8,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 0.012354824320229862,
+      "latency": 2330.7494508723416,
+      "timestamp": "2026-06-01T19:45:51.915877+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.011846896377497945,
@@ -71,7 +79,7 @@
       "commit_sha": "be1bf3d864a6c4c3ed194e5124dd4be8757efed6"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.011388349527372563,
@@ -79,7 +87,7 @@
       "timestamp": "2026-05-30T14:50:31.418533+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01124093845168104,
@@ -87,7 +95,7 @@
       "timestamp": "2026-05-23T07:58:45.555212+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 3.8143152247028627e-06,
@@ -96,5 +104,5 @@
       "commit_sha": "487dd70d07257e17b1ede7c7a62d92c2747de48d"
     }
   ],
-  "last_updated": "2026-05-31T14:29:37.014829+00:00"
+  "last_updated": "2026-06-01T19:48:04.672558+00:00"
 }
