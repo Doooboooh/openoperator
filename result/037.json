@@ -83,6 +83,14 @@
     },
     {
       "rank": 10,
+      "user": "养老组",
+      "github": "ZiFengQiao/op_retirement",
+      "score": 0.009343927534595937,
+      "latency": 4516.516191263993,
+      "timestamp": "2026-06-01T12:09:20.827913+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.008695519014387709,
@@ -90,20 +98,12 @@
       "timestamp": "2026-06-01T09:13:04.178755+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.007041010587522143,
       "latency": 5993.741874893506,
       "timestamp": "2026-05-29T14:27:04.332701+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "养老组",
-      "github": "ZiFengQiao/op_retirement",
-      "score": 0.005933625605922462,
-      "latency": 7112.346279124419,
-      "timestamp": "2026-06-01T11:14:21.663597+00:00"
     },
     {
       "rank": 13,
@@ -130,5 +130,5 @@
       "timestamp": "2026-05-19T15:42:49.754409+00:00"
     }
   ],
-  "last_updated": "2026-06-01T11:17:26.918804+00:00"
+  "last_updated": "2026-06-01T12:13:04.315159+00:00"
 }
