@@ -99,6 +99,14 @@
     },
     {
       "rank": 12,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.009243960562665401,
+      "latency": 4013.106692582369,
+      "timestamp": "2026-06-01T13:53:10.373743+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.008937625247586798,
@@ -106,7 +114,7 @@
       "timestamp": "2026-06-01T09:13:04.178755+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.007868592051185376,
@@ -115,7 +123,7 @@
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.007372931289234373,
@@ -123,7 +131,7 @@
       "timestamp": "2026-05-29T13:59:40.665492+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0045027186590945,
@@ -132,7 +140,7 @@
       "commit_sha": "7a97d59bf187777bfb6bfd6f30832e3a58d980f5"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0018763600046268277,
@@ -140,5 +148,5 @@
       "timestamp": "2026-05-20T14:02:35.490366+00:00"
     }
   ],
-  "last_updated": "2026-06-01T09:16:32.517904+00:00"
+  "last_updated": "2026-06-01T13:54:29.032893+00:00"
 }
