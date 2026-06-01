@@ -75,6 +75,15 @@
     },
     {
       "rank": 9,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.010776556891633598,
+      "latency": 2848.590724170208,
+      "timestamp": "2026-06-01T11:26:48.040347+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 10,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.010454031948404104,
@@ -82,7 +91,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.010293230269657056,
@@ -91,7 +100,7 @@
       "commit_sha": "0feb5a62f93324b05c34feb628bf3b52dee3d520"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.008140756879452392,
@@ -99,22 +108,13 @@
       "timestamp": "2026-06-01T09:13:04.178755+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.007003535724851954,
       "latency": 4383.214594175418,
       "timestamp": "2026-05-18T09:06:19.124121+00:00",
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
-    },
-    {
-      "rank": 13,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.006993737088473743,
-      "latency": 4389.355735232432,
-      "timestamp": "2026-05-18T09:20:52.999242+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 14,
@@ -158,5 +158,5 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     }
   ],
-  "last_updated": "2026-06-01T09:16:32.513864+00:00"
+  "last_updated": "2026-06-01T11:27:38.077009+00:00"
 }
