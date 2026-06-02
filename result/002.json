@@ -389,6 +389,14 @@
     },
     {
       "rank": 46,
+      "user": "team_97",
+      "github": "Clear-YW/bangc",
+      "score": 0.16025762283525216,
+      "latency": 51634.80434566736,
+      "timestamp": "2026-06-02T08:27:05.862735+00:00"
+    },
+    {
+      "rank": 47,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.16020712543351376,
@@ -396,7 +404,7 @@
       "timestamp": "2026-05-30T13:37:38.481081+00:00"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.15967021178293492,
@@ -404,20 +412,12 @@
       "timestamp": "2026-05-19T02:57:22.242993+00:00"
     },
     {
-      "rank": 48,
+      "rank": 49,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.1593195068762185,
       "latency": 51938.84391337633,
       "timestamp": "2026-05-18T14:13:54.546292+00:00"
-    },
-    {
-      "rank": 49,
-      "user": "team_97",
-      "github": "Clear-YW/bangc",
-      "score": 0.1546153045097406,
-      "latency": 53519.09389719367,
-      "timestamp": "2026-06-02T07:55:45.873850+00:00"
     },
     {
       "rank": 50,
@@ -455,5 +455,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-06-02T08:00:21.607026+00:00"
+  "last_updated": "2026-06-02T08:30:45.541914+00:00"
 }
