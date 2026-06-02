@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.12883497822358325,
+      "latency": 2091.070326666037,
+      "timestamp": "2026-06-02T11:27:04.656588+00:00"
+    },
+    {
+      "rank": 4,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.1251812310670271,
@@ -29,7 +37,7 @@
       "timestamp": "2026-05-19T15:17:08.166247+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.12494760804918786,
@@ -37,7 +45,7 @@
       "timestamp": "2026-06-01T16:52:33.777120+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.12429071905332746,
@@ -46,7 +54,7 @@
       "commit_sha": "bd05eeaa6aad963070be1c394c3a49571459d4d2"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_44",
       "github": "OrangeL-ucas/SBangC",
       "score": 0.12420102033887424,
@@ -54,7 +62,7 @@
       "timestamp": "2026-06-01T12:31:42.754716+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.12408231222166412,
@@ -63,21 +71,13 @@
       "commit_sha": "5c3d1f5418f964859ca2a361e4724c50fcaa3d12"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.12383605866294735,
       "latency": 2175.4810586571693,
       "timestamp": "2026-05-18T06:56:20.702270+00:00",
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
-    },
-    {
-      "rank": 9,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 0.12325341284937455,
-      "latency": 2185.765032966932,
-      "timestamp": "2026-05-31T21:09:14.850402+00:00"
     },
     {
       "rank": 10,
@@ -351,5 +351,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-02T11:12:37.113522+00:00"
+  "last_updated": "2026-06-02T11:27:47.847774+00:00"
 }
