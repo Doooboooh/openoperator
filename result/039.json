@@ -343,20 +343,20 @@
     },
     {
       "rank": 41,
+      "user": "team_21",
+      "github": "samwang102/openoperator-team13",
+      "score": 0.0002875073550669987,
+      "latency": 18606623.120140284,
+      "timestamp": "2026-06-02T05:30:47.739959+00:00",
+      "commit_sha": "216bf40d6350418a5d084c749a6b031ba695ebea"
+    },
+    {
+      "rank": 42,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0002547945992450294,
       "latency": 20995503.89156987,
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
-    },
-    {
-      "rank": 42,
-      "user": "team_21",
-      "github": "zhiyuanSo/ICS_13Team",
-      "score": 0.0002086185053398445,
-      "latency": 25642696.419886004,
-      "timestamp": "2026-05-18T07:21:24.236522+00:00",
-      "commit_sha": "216bf40d6350418a5d084c749a6b031ba695ebea"
     },
     {
       "rank": 43,
@@ -368,5 +368,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-02T05:12:49.686445+00:00"
+  "last_updated": "2026-06-02T05:33:13.699800+00:00"
 }
