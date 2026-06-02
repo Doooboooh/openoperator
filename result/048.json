@@ -48,6 +48,15 @@
     },
     {
       "rank": 6,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.033991466484746984,
+      "latency": 15431.93201844891,
+      "timestamp": "2026-06-02T01:53:38.842808+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.03182050036477967,
@@ -56,7 +65,7 @@
       "commit_sha": "51d32f3ebb48b76af3c561c633bc3a05d31b462f"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.031453152128494095,
@@ -65,7 +74,7 @@
       "commit_sha": "1247d9d52967edb76b9aceddeb98a6a0125fd5a8"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.01903089535664877,
@@ -73,7 +82,7 @@
       "timestamp": "2026-05-29T00:13:16.864339+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.004239573076458514,
@@ -81,21 +90,12 @@
       "timestamp": "2026-06-01T14:09:29.146497+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.004207548309067234,
       "latency": 124669.75099717577,
       "timestamp": "2026-06-01T19:36:47.979124+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.004181802914493432,
-      "latency": 125437.28404367964,
-      "timestamp": "2026-06-01T15:31:07.225756+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 12,
@@ -149,5 +149,5 @@
       "commit_sha": "0a97a25b3fdc7865944ab06c81679b1e1cfb7dd6"
     }
   ],
-  "last_updated": "2026-06-01T19:37:59.901653+00:00"
+  "last_updated": "2026-06-02T01:54:32.489856+00:00"
 }

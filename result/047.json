@@ -39,6 +39,15 @@
     },
     {
       "rank": 5,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.019161143099881303,
+      "latency": 2673.64007110397,
+      "timestamp": "2026-06-02T01:53:38.842808+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 6,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.018502854718348245,
@@ -46,7 +55,7 @@
       "timestamp": "2026-05-20T08:24:50.528013+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.018453324086049414,
@@ -55,7 +64,7 @@
       "commit_sha": "2e0bcdcf80fe034ff9af8a4bdbcfedda957cbeb9"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.016193371797827805,
@@ -63,7 +72,7 @@
       "timestamp": "2026-05-29T00:13:16.864339+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.00977010939021723,
@@ -71,7 +80,7 @@
       "timestamp": "2026-06-01T12:57:46.920393+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.009489239903164814,
@@ -79,21 +88,12 @@
       "timestamp": "2026-06-01T19:36:47.979124+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.009349115629883902,
       "latency": 5479.662679135799,
       "timestamp": "2026-05-31T13:25:33.035590+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.008984428213758371,
-      "latency": 5702.087966104348,
-      "timestamp": "2026-05-31T12:52:07.834261+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 12,
@@ -146,5 +146,5 @@
       "commit_sha": "9c32320b18dfd81799a75400a4cc834a998876d4"
     }
   ],
-  "last_updated": "2026-06-01T19:37:59.913253+00:00"
+  "last_updated": "2026-06-02T01:54:32.490388+00:00"
 }
