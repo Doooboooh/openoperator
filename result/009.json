@@ -55,6 +55,14 @@
     },
     {
       "rank": 7,
+      "user": "team_4",
+      "github": "wangyongping1/ICS-53TEAM",
+      "score": 0.027534218449889264,
+      "latency": 2608.899182329575,
+      "timestamp": "2026-06-02T04:50:59.427763+00:00"
+    },
+    {
+      "rank": 8,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.02739153486160619,
@@ -62,21 +70,13 @@
       "timestamp": "2026-05-19T15:22:03.834180+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.027226073114839894,
       "latency": 2638.426764557759,
       "timestamp": "2026-05-18T06:52:40.885207+00:00",
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
-    },
-    {
-      "rank": 9,
-      "user": "team_4",
-      "github": "wangyongping1/ICS-53TEAM",
-      "score": 0.027111743358669543,
-      "latency": 2649.552964915832,
-      "timestamp": "2026-06-02T04:45:24.614022+00:00"
     },
     {
       "rank": 10,
@@ -403,5 +403,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-02T04:47:21.310485+00:00"
+  "last_updated": "2026-06-02T04:52:26.863754+00:00"
 }

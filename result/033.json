@@ -124,6 +124,14 @@
     },
     {
       "rank": 15,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.011173609185695974,
+      "latency": 2566.3149232665696,
+      "timestamp": "2026-06-02T04:49:23.557585+00:00"
+    },
+    {
+      "rank": 16,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.00803457644881977,
@@ -131,7 +139,7 @@
       "timestamp": "2026-06-01T09:13:04.178755+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0059799206115884376,
@@ -140,7 +148,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.00487393438351975,
@@ -149,20 +157,12 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.004280660708392346,
       "latency": 6698.732264339924,
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
-    },
-    {
-      "rank": 19,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 0.0037006104177863164,
-      "latency": 7748.72163310647,
-      "timestamp": "2026-06-01T14:58:04.310198+00:00"
     },
     {
       "rank": 20,
@@ -198,5 +198,5 @@
       "timestamp": "2026-05-18T13:58:49.350724+00:00"
     }
   ],
-  "last_updated": "2026-06-02T01:59:36.949027+00:00"
+  "last_updated": "2026-06-02T04:52:26.862715+00:00"
 }
