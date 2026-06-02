@@ -73,20 +73,20 @@
     },
     {
       "rank": 9,
+      "user": "team_4",
+      "github": "wangyongping1/ICS-53TEAM",
+      "score": 0.6325954352824272,
+      "latency": 8456.49636661013,
+      "timestamp": "2026-06-02T08:05:52.106124+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.62820908676752,
       "latency": 8515.542217840752,
       "timestamp": "2026-05-22T13:20:05.267576+00:00",
       "commit_sha": "eaf4b0ca1e2b962e741d94941748b1e1cf442f8f"
-    },
-    {
-      "rank": 10,
-      "user": "team_4",
-      "github": "wangyongping1/ICS-53TEAM",
-      "score": 0.622804035034461,
-      "latency": 8589.444992442926,
-      "timestamp": "2026-06-02T05:10:31.697371+00:00"
     },
     {
       "rank": 11,
@@ -368,5 +368,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-02T05:33:13.699800+00:00"
+  "last_updated": "2026-06-02T08:10:32.383087+00:00"
 }
