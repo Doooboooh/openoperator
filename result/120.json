@@ -91,6 +91,14 @@
     },
     {
       "rank": 11,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.009537748246338611,
+      "latency": 54738.915991038084,
+      "timestamp": "2026-06-02T09:28:03.055090+00:00"
+    },
+    {
+      "rank": 12,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.008926915510218647,
@@ -99,7 +107,7 @@
       "commit_sha": "7e5ae92f118f40abd6743daa9d9699c719d68160"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.005549476123296938,
@@ -107,7 +115,7 @@
       "timestamp": "2026-05-29T02:22:28.243930+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.00471330228164353,
@@ -116,7 +124,7 @@
       "commit_sha": "209267b3065e0fa56e77d8c9eda5810242c10271"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0034397013599189075,
@@ -124,7 +132,7 @@
       "timestamp": "2026-06-01T13:13:53.031688+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0029337677401432283,
@@ -132,7 +140,7 @@
       "timestamp": "2026-06-01T00:57:01.625787+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.0025176817113206984,
@@ -140,7 +148,7 @@
       "timestamp": "2026-06-01T19:00:45.777342+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0024866586333479055,
@@ -149,7 +157,7 @@
       "commit_sha": "ce5c37463529422350f6ae3fe049467a6342cb4f"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0018700210768569786,
@@ -158,7 +166,7 @@
       "commit_sha": "1554f638953bc3b0fe31d4fe036cc411246ed528"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.001710138757490386,
@@ -166,5 +174,5 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     }
   ],
-  "last_updated": "2026-06-02T06:03:36.969827+00:00"
+  "last_updated": "2026-06-02T09:31:43.173415+00:00"
 }
