@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 0.13322848898374315,
+      "latency": 2451.5477319558463,
+      "timestamp": "2026-06-02T07:11:37.591527+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.125795330830638,
@@ -39,7 +47,7 @@
       "commit_sha": "7bbbd11518856d2b767864a1d3323f7873ae4f4e"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.08669976552274386,
@@ -48,7 +56,7 @@
       "commit_sha": "993901865258e239ed211e4f505cd7117e02a271"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0560429279915816,
@@ -56,20 +64,12 @@
       "timestamp": "2026-05-20T04:55:34.122989+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.039562795220937995,
       "latency": 8255.635077754656,
       "timestamp": "2026-05-31T09:14:23.729237+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "智算第十组",
-      "github": "koross49/openoperator-start-kit",
-      "score": 0.03673548573419326,
-      "latency": 8891.021677603325,
-      "timestamp": "2026-06-02T01:13:19.352967+00:00"
     },
     {
       "rank": 9,
@@ -113,5 +113,5 @@
       "timestamp": "2026-06-01T05:40:20.004055+00:00"
     }
   ],
-  "last_updated": "2026-06-02T03:26:05.381837+00:00"
+  "last_updated": "2026-06-02T07:14:35.096744+00:00"
 }
