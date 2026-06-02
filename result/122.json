@@ -31,6 +31,15 @@
     },
     {
       "rank": 4,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.027154783824074484,
+      "latency": 4356.764567395051,
+      "timestamp": "2026-06-02T02:21:26.588961+00:00",
+      "commit_sha": "cd5d8b0282210dfac24f61b5591ba5418016ae13"
+    },
+    {
+      "rank": 5,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.021867000924896563,
@@ -38,7 +47,7 @@
       "timestamp": "2026-05-29T06:16:36.298555+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.02141604630394843,
@@ -46,7 +55,7 @@
       "timestamp": "2026-05-29T11:58:49.451346+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.007020372245509925,
@@ -54,7 +63,7 @@
       "timestamp": "2026-06-01T06:00:37.252023+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0022928832388348992,
@@ -62,7 +71,7 @@
       "timestamp": "2026-05-20T09:41:29.807111+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.002289712659944595,
@@ -70,7 +79,7 @@
       "timestamp": "2026-06-01T18:55:33.568007+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.0022206676619045762,
@@ -78,22 +87,13 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0021372460203107437,
       "latency": 55354.88141079744,
       "timestamp": "2026-05-18T07:04:21.440830+00:00",
       "commit_sha": "209267b3065e0fa56e77d8c9eda5810242c10271"
-    },
-    {
-      "rank": 11,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.0019361035981070153,
-      "latency": 61105.717749645315,
-      "timestamp": "2026-05-18T07:11:39.533094+00:00",
-      "commit_sha": "cd5d8b0282210dfac24f61b5591ba5418016ae13"
     },
     {
       "rank": 12,
@@ -113,5 +113,5 @@
       "commit_sha": "5c79291d0dcfd506ab5ce2ba3bcd154bd69fe103"
     }
   ],
-  "last_updated": "2026-06-01T18:57:41.299761+00:00"
+  "last_updated": "2026-06-02T02:25:00.714141+00:00"
 }
