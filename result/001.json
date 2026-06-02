@@ -350,6 +350,14 @@
     },
     {
       "rank": 41,
+      "user": "team_97",
+      "github": "Clear-YW/bangc",
+      "score": 0.004791611209203128,
+      "latency": 5795.336638887723,
+      "timestamp": "2026-06-02T09:48:57.695919+00:00"
+    },
+    {
+      "rank": 42,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 0.00478304644917882,
@@ -357,7 +365,7 @@
       "timestamp": "2026-06-01T05:41:12.245904+00:00"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "team_71",
       "github": "SatoriEye/BangC",
       "score": 0.0047676938059364495,
@@ -365,7 +373,7 @@
       "timestamp": "2026-05-19T15:09:42.329650+00:00"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.004745613567635829,
@@ -374,20 +382,12 @@
       "commit_sha": "e934573bc4dffb730f3812ba97f75d0280a46c9b"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "user": "team_4",
       "github": "wangyongping1/ICS-53TEAM",
       "score": 0.004739262503184516,
       "latency": 5859.350475172202,
       "timestamp": "2026-06-02T03:35:36.768858+00:00"
-    },
-    {
-      "rank": 45,
-      "user": "team_97",
-      "github": "Clear-YW/bangc",
-      "score": 0.004725468747144776,
-      "latency": 5876.454059034586,
-      "timestamp": "2026-06-02T07:55:45.873850+00:00"
     },
     {
       "rank": 46,
@@ -525,5 +525,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-06-02T08:00:21.608542+00:00"
+  "last_updated": "2026-06-02T09:51:58.331706+00:00"
 }
