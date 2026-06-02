@@ -47,6 +47,15 @@
     },
     {
       "rank": 6,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.09247403828671166,
+      "latency": 2316.8232291936874,
+      "timestamp": "2026-06-02T10:13:19.332564+00:00",
+      "commit_sha": "90d79845e0359926a7d9de20d2e2bccaaff30190"
+    },
+    {
+      "rank": 7,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.09242434618003521,
@@ -54,7 +63,7 @@
       "timestamp": "2026-05-29T13:18:42.126133+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.09210739875456553,
@@ -62,7 +71,7 @@
       "timestamp": "2026-06-02T02:28:03.076816+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.08449251759370788,
@@ -71,7 +80,7 @@
       "commit_sha": "cb38bd7d6764fc4fc61d993fc84911de70a0599b"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.07941529442326456,
@@ -79,7 +88,7 @@
       "timestamp": "2026-05-31T08:44:46.843866+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0712855958141532,
@@ -88,22 +97,13 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.06776454300228896,
       "latency": 3161.62391876181,
       "timestamp": "2026-05-18T06:49:24.879173+00:00",
       "commit_sha": "02bd50a3d81dacba3ac71052df2910605779dbc1"
-    },
-    {
-      "rank": 12,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.058925501021890016,
-      "latency": 3635.8791403472424,
-      "timestamp": "2026-05-19T08:39:46.856896+00:00",
-      "commit_sha": "90d79845e0359926a7d9de20d2e2bccaaff30190"
     },
     {
       "rank": 13,
@@ -123,5 +123,5 @@
       "commit_sha": "281ae1e48a0cbbda06b99f61b33bf9968b20da58"
     }
   ],
-  "last_updated": "2026-06-02T02:30:05.303216+00:00"
+  "last_updated": "2026-06-02T10:17:03.419093+00:00"
 }
