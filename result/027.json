@@ -73,6 +73,14 @@
     },
     {
       "rank": 9,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.009819938165901043,
+      "latency": 2463.6611342430115,
+      "timestamp": "2026-06-02T05:03:37.033879+00:00"
+    },
+    {
+      "rank": 10,
       "user": "智算第九组",
       "github": "aoersh/BangC09",
       "score": 0.009760410300135677,
@@ -80,7 +88,7 @@
       "timestamp": "2026-05-19T15:42:49.754409+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.009297656654470323,
@@ -89,7 +97,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.007979129425577502,
@@ -98,7 +106,7 @@
       "commit_sha": "03b3c879fb7d2085ed7e0fc6e137c564d3eade86"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.0057543009590337695,
@@ -107,7 +115,7 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.005694298956974312,
@@ -115,7 +123,7 @@
       "timestamp": "2026-06-01T08:41:23.087156+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.0056070956663980195,
@@ -124,21 +132,13 @@
       "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.004260275217306673,
       "latency": 5678.7411061426,
       "timestamp": "2026-05-29T02:23:54.917984+00:00",
       "commit_sha": "ed8505a0f5f2124db6ca52682d56a6eabb3e4814"
-    },
-    {
-      "rank": 16,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 0.004206710476584211,
-      "latency": 5751.049456497033,
-      "timestamp": "2026-06-01T14:58:04.310198+00:00"
     },
     {
       "rank": 17,
@@ -182,5 +182,5 @@
       "commit_sha": "e295bc31f3b60ddd87e039785c0e6404c45e4c66"
     }
   ],
-  "last_updated": "2026-06-01T19:02:45.892661+00:00"
+  "last_updated": "2026-06-02T05:07:43.478894+00:00"
 }
