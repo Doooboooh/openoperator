@@ -22,20 +22,20 @@
     },
     {
       "rank": 3,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 0.230556592976027,
+      "latency": 2076.496680577596,
+      "timestamp": "2026-06-02T02:51:40.445585+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.22948568375545642,
       "latency": 2086.186781525612,
       "timestamp": "2026-05-18T06:38:37.570554+00:00",
       "commit_sha": "3ae2cae361916f77a73fb20a9be244fdddcd2d1c"
-    },
-    {
-      "rank": 4,
-      "user": "智算第十组",
-      "github": "koross49/openoperator-start-kit",
-      "score": 0.22238796628277038,
-      "latency": 2152.769360691309,
-      "timestamp": "2026-06-01T19:36:37.627238+00:00"
     },
     {
       "rank": 5,
@@ -123,5 +123,5 @@
       "timestamp": "2026-05-31T12:53:56.664185+00:00"
     }
   ],
-  "last_updated": "2026-06-01T19:37:59.914610+00:00"
+  "last_updated": "2026-06-02T02:55:36.850116+00:00"
 }
