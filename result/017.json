@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "team_75",
+      "github": "Jiaqi7zzz/operator-31",
+      "score": 0.6090782895888093,
+      "latency": 10676.579860349497,
+      "timestamp": "2026-06-02T13:02:14.588555+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_55",
       "github": "Ianthe1128/AICS-BangC_Game-17-7",
       "score": 0.5506565702574171,
@@ -38,7 +46,7 @@
       "timestamp": "2026-05-22T03:11:56.127541+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.18247821469816,
@@ -47,7 +55,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.10213059828372839,
@@ -55,7 +63,7 @@
       "timestamp": "2026-05-20T07:17:01.104752+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.03995155552180478,
@@ -63,7 +71,7 @@
       "timestamp": "2026-05-21T12:02:00.502688+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.038950841862185975,
@@ -71,7 +79,7 @@
       "timestamp": "2026-05-21T02:28:48.712500+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.02457429825053161,
@@ -79,7 +87,7 @@
       "timestamp": "2026-05-28T10:04:55.133710+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.01258408749139032,
@@ -88,7 +96,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.006874615765882255,
@@ -96,7 +104,7 @@
       "timestamp": "2026-06-01T07:00:25.507434+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0016924026617117082,
@@ -104,5 +112,5 @@
       "timestamp": "2026-05-31T03:02:34.850402+00:00"
     }
   ],
-  "last_updated": "2026-06-01T07:05:06.220528+00:00"
+  "last_updated": "2026-06-02T13:04:06.973066+00:00"
 }
