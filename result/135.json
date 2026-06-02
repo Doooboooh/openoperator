@@ -202,6 +202,14 @@
     },
     {
       "rank": 24,
+      "user": "team_38",
+      "github": "Godel-June/ICS_Team9",
+      "score": 0.00024121246457574816,
+      "latency": 9343936.698976904,
+      "timestamp": "2026-06-02T07:28:00.709582+00:00"
+    },
+    {
+      "rank": 25,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.00020856955789098647,
@@ -209,7 +217,7 @@
       "timestamp": "2026-05-23T09:50:21.094783+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.00013882444067069285,
@@ -218,7 +226,7 @@
       "commit_sha": "de8b26ed66e58984eb2b25a9d875ba13efc4ba86"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "养老组",
       "github": "lesheng14/op_retirement",
       "score": 0.0001019741399440522,
@@ -226,7 +234,7 @@
       "timestamp": "2026-05-21T15:39:57.105851+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 7.644799167279109e-05,
@@ -234,7 +242,7 @@
       "timestamp": "2026-06-01T12:06:38.406880+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 1.0046425762447022e-05,
@@ -242,5 +250,5 @@
       "timestamp": "2026-06-01T17:49:12.813102+00:00"
     }
   ],
-  "last_updated": "2026-06-01T17:52:08.621491+00:00"
+  "last_updated": "2026-06-02T07:29:54.298713+00:00"
 }
