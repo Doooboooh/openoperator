@@ -141,6 +141,14 @@
     },
     {
       "rank": 17,
+      "user": "team_36",
+      "github": "luogarden/Team35_BANGC",
+      "score": 0.11554966634563481,
+      "latency": 6448.309402912855,
+      "timestamp": "2026-06-02T02:06:02.995090+00:00"
+    },
+    {
+      "rank": 18,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.10796956064900179,
@@ -149,7 +157,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.036962785478031245,
@@ -157,7 +165,7 @@
       "timestamp": "2026-06-01T14:58:04.310198+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.010491817502787111,
@@ -165,5 +173,5 @@
       "timestamp": "2026-05-25T07:01:18.284338+00:00"
     }
   ],
-  "last_updated": "2026-06-01T19:27:55.265484+00:00"
+  "last_updated": "2026-06-02T02:09:46.708593+00:00"
 }
