@@ -39,6 +39,14 @@
     },
     {
       "rank": 5,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.03162030045080744,
+      "latency": 2497.66760195295,
+      "timestamp": "2026-06-02T05:09:30.447038+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.03151516763958927,
@@ -46,7 +54,7 @@
       "timestamp": "2026-05-20T07:17:47.907509+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.031361638236299526,
@@ -54,7 +62,7 @@
       "timestamp": "2026-05-28T14:51:49.888454+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0310342503448033,
@@ -63,7 +71,7 @@
       "commit_sha": "5589a11fd4078ee814385f6bbde2f5cdfb06c780"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.031029094905037413,
@@ -71,7 +79,7 @@
       "timestamp": "2026-06-01T18:36:53.231814+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.030716693946213038,
@@ -79,7 +87,7 @@
       "timestamp": "2026-05-31T10:36:08.882581+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.029907707859388018,
@@ -88,7 +96,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.017653505989491076,
@@ -96,7 +104,7 @@
       "timestamp": "2026-05-31T02:36:01.443878+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.012966753813403939,
@@ -105,7 +113,7 @@
       "commit_sha": "f82ca719f6f612388a0c79c3679eb25feca8f2db"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 3.1241485132717205e-06,
@@ -114,5 +122,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-02T01:49:27.990776+00:00"
+  "last_updated": "2026-06-02T05:12:49.687758+00:00"
 }
