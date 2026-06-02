@@ -424,6 +424,14 @@
     },
     {
       "rank": 50,
+      "user": "十七组",
+      "github": "Noitexy/openoperator-JJZZ",
+      "score": 0.004688922570002015,
+      "latency": 5922.256037592888,
+      "timestamp": "2026-06-02T12:13:33.607337+00:00"
+    },
+    {
+      "rank": 51,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.004666916636045765,
@@ -431,7 +439,7 @@
       "timestamp": "2026-06-01T05:24:45.232973+00:00"
     },
     {
-      "rank": 51,
+      "rank": 52,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.004660051239707106,
@@ -440,7 +448,7 @@
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.004616497922682382,
@@ -448,7 +456,7 @@
       "timestamp": "2026-05-18T12:35:03.217885+00:00"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.0046057161066929515,
@@ -456,7 +464,7 @@
       "timestamp": "2026-06-01T15:44:55.975968+00:00"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "user": "team_98",
       "github": "LSY839/bangc-competition",
       "score": 0.004586075729183968,
@@ -464,20 +472,12 @@
       "timestamp": "2026-05-18T14:15:25.569866+00:00"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.00457308931815337,
       "latency": 6072.262767702341,
       "timestamp": "2026-05-24T11:03:57.112062+00:00"
-    },
-    {
-      "rank": 56,
-      "user": "十七组",
-      "github": "Noitexy/openoperator-JJZZ",
-      "score": 0.004501626577136661,
-      "latency": 6168.659155567487,
-      "timestamp": "2026-06-02T07:07:39.046757+00:00"
     },
     {
       "rank": 57,
@@ -525,5 +525,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-06-02T09:51:58.331706+00:00"
+  "last_updated": "2026-06-02T12:18:38.549439+00:00"
 }
