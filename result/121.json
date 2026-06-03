@@ -39,6 +39,14 @@
     },
     {
       "rank": 5,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.049594313328799836,
+      "latency": 2826.7353773117065,
+      "timestamp": "2026-06-03T14:25:05.248807+00:00"
+    },
+    {
+      "rank": 6,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.04358595094633062,
@@ -47,7 +55,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.027303027600347637,
@@ -56,20 +64,12 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.01841767309737803,
       "latency": 7611.710733423631,
       "timestamp": "2026-05-29T12:24:48.465259+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 0.011041239240734664,
-      "latency": 12696.944332371155,
-      "timestamp": "2026-06-02T06:50:07.680620+00:00"
     },
     {
       "rank": 9,
@@ -121,5 +121,5 @@
       "timestamp": "2026-05-29T02:30:27.364279+00:00"
     }
   ],
-  "last_updated": "2026-06-03T13:52:58.681962+00:00"
+  "last_updated": "2026-06-03T14:28:37.114062+00:00"
 }
