@@ -39,6 +39,14 @@
     },
     {
       "rank": 5,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 0.7841522348806732,
+      "latency": 4070.817958563566,
+      "timestamp": "2026-06-03T02:26:54.179781+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.7521833776329158,
@@ -47,7 +55,7 @@
       "commit_sha": "ae33eaf5718367316c02cdcec207923131b0cc44"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.7192089013969367,
@@ -56,7 +64,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.5928190334209308,
@@ -65,7 +73,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.5656542718967452,
@@ -74,7 +82,7 @@
       "commit_sha": "e78bcd791a3f7ba67f1db01273f7d573c9de4dd1"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.5152338227723915,
@@ -83,7 +91,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.40565464319537575,
@@ -91,7 +99,7 @@
       "timestamp": "2026-06-03T02:16:38.776054+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.2560357047273914,
@@ -99,20 +107,12 @@
       "timestamp": "2026-05-31T08:15:38.687648+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.2525481408882012,
       "latency": 12639.732720951239,
       "timestamp": "2026-05-28T14:26:03.534767+00:00"
-    },
-    {
-      "rank": 13,
-      "user": "智算第十组",
-      "github": "koross49/openoperator-start-kit",
-      "score": 0.025566787747353256,
-      "latency": 124854.98888418078,
-      "timestamp": "2026-06-01T19:26:32.573760+00:00"
     },
     {
       "rank": 14,
@@ -131,5 +131,5 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     }
   ],
-  "last_updated": "2026-06-03T02:20:51.045951+00:00"
+  "last_updated": "2026-06-03T02:30:57.482818+00:00"
 }

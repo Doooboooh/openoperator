@@ -121,6 +121,14 @@
     },
     {
       "rank": 15,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 0.1741728503952584,
+      "latency": 4242.176655679941,
+      "timestamp": "2026-06-03T02:26:54.179781+00:00"
+    },
+    {
+      "rank": 16,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.1187753909235632,
@@ -128,7 +136,7 @@
       "timestamp": "2026-06-02T02:11:17.419881+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.10573416743238653,
@@ -137,20 +145,12 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.038261764767735636,
       "latency": 19310.975447297096,
       "timestamp": "2026-05-29T02:30:27.364279+00:00"
-    },
-    {
-      "rank": 18,
-      "user": "智算第十组",
-      "github": "koross49/openoperator-start-kit",
-      "score": 0.037287811189670825,
-      "latency": 19815.37602841854,
-      "timestamp": "2026-06-01T19:26:32.573760+00:00"
     },
     {
       "rank": 19,
@@ -170,5 +170,5 @@
       "commit_sha": "4a905bac6e0d23432f4b512a57b31683d964e850"
     }
   ],
-  "last_updated": "2026-06-02T08:46:00.204082+00:00"
+  "last_updated": "2026-06-03T02:30:57.479240+00:00"
 }
