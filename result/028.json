@@ -139,20 +139,20 @@
     },
     {
       "rank": 17,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.003868307404839151,
+      "latency": 5857.083636025588,
+      "timestamp": "2026-06-03T15:49:52.963485+00:00",
+      "commit_sha": "bc198fc4356eae3c18903c8e4e86b09c8bcd9b63"
+    },
+    {
+      "rank": 18,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.003829372481433474,
       "latency": 5916.635195414226,
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
-    },
-    {
-      "rank": 18,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.0038120307642284016,
-      "latency": 5943.551193922758,
-      "timestamp": "2026-05-18T07:09:30.365558+00:00",
-      "commit_sha": "bc198fc4356eae3c18903c8e4e86b09c8bcd9b63"
     },
     {
       "rank": 19,
@@ -197,5 +197,5 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     }
   ],
-  "last_updated": "2026-06-03T15:29:53.481236+00:00"
+  "last_updated": "2026-06-03T15:55:20.114609+00:00"
 }

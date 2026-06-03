@@ -22,21 +22,21 @@
     },
     {
       "rank": 3,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.08153247498213355,
+      "latency": 2170.4602986574173,
+      "timestamp": "2026-06-03T15:49:52.963485+00:00",
+      "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
+    },
+    {
+      "rank": 4,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.08058648420853808,
       "latency": 2195.9389559924603,
       "timestamp": "2026-05-18T09:20:52.999242+00:00",
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
-    },
-    {
-      "rank": 4,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.07844514982018823,
-      "latency": 2255.8819813032947,
-      "timestamp": "2026-05-18T09:16:37.878376+00:00",
-      "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
       "rank": 5,
@@ -139,5 +139,5 @@
       "timestamp": "2026-06-02T00:49:42.638722+00:00"
     }
   ],
-  "last_updated": "2026-06-03T12:10:36.335631+00:00"
+  "last_updated": "2026-06-03T15:55:20.118997+00:00"
 }

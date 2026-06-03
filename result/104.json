@@ -256,20 +256,20 @@
     },
     {
       "rank": 31,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.015501332734410912,
+      "latency": 10000.04339342316,
+      "timestamp": "2026-06-03T15:49:52.963485+00:00",
+      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
+    },
+    {
+      "rank": 32,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.015456242104238025,
       "latency": 10029.216607411703,
       "timestamp": "2026-05-18T16:17:29.651811+00:00"
-    },
-    {
-      "rank": 32,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.0151919782405963,
-      "latency": 10203.67443561554,
-      "timestamp": "2026-05-18T09:00:34.120470+00:00",
-      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
       "rank": 33,
@@ -391,5 +391,5 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     }
   ],
-  "last_updated": "2026-06-03T14:43:58.854883+00:00"
+  "last_updated": "2026-06-03T15:55:20.115827+00:00"
 }
