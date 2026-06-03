@@ -31,19 +31,19 @@
     },
     {
       "rank": 4,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 0.9423449295551658,
+      "latency": 3387.4443421761193,
+      "timestamp": "2026-06-03T02:38:12.092340+00:00"
+    },
+    {
+      "rank": 5,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.8102302920979585,
       "latency": 3939.7946869333587,
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "智算第十组",
-      "github": "koross49/openoperator-start-kit",
-      "score": 0.7841522348806732,
-      "latency": 4070.817958563566,
-      "timestamp": "2026-06-03T02:26:54.179781+00:00"
     },
     {
       "rank": 6,
@@ -131,5 +131,5 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     }
   ],
-  "last_updated": "2026-06-03T02:30:57.482818+00:00"
+  "last_updated": "2026-06-03T02:41:02.171795+00:00"
 }
