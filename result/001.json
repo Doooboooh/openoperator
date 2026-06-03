@@ -457,19 +457,19 @@
     },
     {
       "rank": 54,
+      "user": "干不过AI组",
+      "github": "yuanlaibuduan/Human_Vs_AI",
+      "score": 0.004652840409715731,
+      "latency": 5968.182347714901,
+      "timestamp": "2026-06-03T04:56:51.289637+00:00"
+    },
+    {
+      "rank": 55,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.004616497922682382,
       "latency": 6015.165708959103,
       "timestamp": "2026-05-18T12:35:03.217885+00:00"
-    },
-    {
-      "rank": 55,
-      "user": "干不过AI组",
-      "github": "yuanlaibuduan/Human_Vs_AI",
-      "score": 0.0046110511523383075,
-      "latency": 6022.271079321702,
-      "timestamp": "2026-06-03T03:46:49.077274+00:00"
     },
     {
       "rank": 56,
@@ -549,5 +549,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-06-03T04:22:02.686400+00:00"
+  "last_updated": "2026-06-03T06:52:25.125435+00:00"
 }
