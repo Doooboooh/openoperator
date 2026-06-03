@@ -57,19 +57,19 @@
     },
     {
       "rank": 7,
+      "user": "dev0",
+      "github": "Doooboooh/kernel-develop-competition",
+      "score": 0.10852950232316734,
+      "latency": 3317.72460291783,
+      "timestamp": "2026-06-03T14:12:33.354180+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.09761003437087712,
       "latency": 3688.872791826725,
       "timestamp": "2026-05-31T13:58:19.731359+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "dev0",
-      "github": "Doooboooh/kernel-develop-competition",
-      "score": 0.09443171230402608,
-      "latency": 3813.0305086572967,
-      "timestamp": "2026-06-03T14:07:26.596135+00:00"
     },
     {
       "rank": 9,
@@ -137,5 +137,5 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     }
   ],
-  "last_updated": "2026-06-03T14:08:15.127072+00:00"
+  "last_updated": "2026-06-03T14:13:21.840333+00:00"
 }
