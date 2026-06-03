@@ -459,6 +459,14 @@
     },
     {
       "rank": 55,
+      "user": "提示词大师",
+      "github": "Zhang-Jiahe/Prompt-Master-bangc-operator-competition",
+      "score": 0.00036417633903793143,
+      "latency": 98707.67577861746,
+      "timestamp": "2026-06-03T16:42:44.205019+00:00"
+    },
+    {
+      "rank": 56,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.5963856908340227e-05,
@@ -467,7 +475,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 4.803681316964457e-07,
@@ -476,5 +484,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-03T16:20:47.867107+00:00"
+  "last_updated": "2026-06-03T16:46:13.038728+00:00"
 }
