@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.33773013502472965,
+      "latency": 6682.128024597962,
+      "timestamp": "2026-06-03T17:05:49.186286+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.21141002660347266,
@@ -39,7 +47,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.033911306431677314,
@@ -48,7 +56,7 @@
       "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.02415258481591614,
@@ -56,7 +64,7 @@
       "timestamp": "2026-05-29T07:40:47.205581+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.02337201898937288,
@@ -64,7 +72,7 @@
       "timestamp": "2026-05-28T16:22:08.875555+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.01608218127487935,
@@ -73,7 +81,7 @@
       "commit_sha": "8f4e017b5da6c96e3e54c3e1e57391e8b1643d1c"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.010659761792491703,
@@ -81,7 +89,7 @@
       "timestamp": "2026-06-02T15:38:18.425049+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.002803203887991008,
@@ -89,7 +97,7 @@
       "timestamp": "2026-06-03T16:08:24.958479+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0013828964410174732,
@@ -97,5 +105,5 @@
       "timestamp": "2026-05-31T03:02:34.850402+00:00"
     }
   ],
-  "last_updated": "2026-06-03T16:10:36.039311+00:00"
+  "last_updated": "2026-06-03T17:06:33.410122+00:00"
 }
