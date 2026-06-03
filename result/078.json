@@ -157,6 +157,14 @@
     },
     {
       "rank": 19,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 0.009153397507108401,
+      "latency": 23791.275297602017,
+      "timestamp": "2026-06-03T15:35:48.017521+00:00"
+    },
+    {
+      "rank": 20,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.008728130112363848,
@@ -165,5 +173,5 @@
       "commit_sha": "5290023de287b78782fb701b3a51fa942feb31b1"
     }
   ],
-  "last_updated": "2026-06-03T09:34:31.665667+00:00"
+  "last_updated": "2026-06-03T15:40:05.278920+00:00"
 }
