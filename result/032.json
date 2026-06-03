@@ -124,19 +124,19 @@
     },
     {
       "rank": 15,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 0.010686272824569893,
+      "latency": 5815.966054797173,
+      "timestamp": "2026-06-03T14:58:32.956338+00:00"
+    },
+    {
+      "rank": 16,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.009591500800728524,
       "latency": 6479.799281805754,
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
-    },
-    {
-      "rank": 16,
-      "user": "二十四组",
-      "github": "Hengyu-Yu/OpenOperator-Group24",
-      "score": 0.008942139987635786,
-      "latency": 6950.349702189366,
-      "timestamp": "2026-06-03T14:51:06.469059+00:00"
     },
     {
       "rank": 17,
@@ -190,5 +190,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-03T14:54:13.465987+00:00"
+  "last_updated": "2026-06-03T14:59:21.773272+00:00"
 }
