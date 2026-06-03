@@ -38,6 +38,14 @@
     },
     {
       "rank": 5,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.24750962481624883,
+      "latency": 2266.3078270852566,
+      "timestamp": "2026-06-03T09:02:17.482434+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.24379171433364352,
@@ -46,7 +54,7 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.2334913577089979,
@@ -55,7 +63,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.1978768054532484,
@@ -63,7 +71,7 @@
       "timestamp": "2026-06-01T06:21:42.419558+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.09292851176456397,
@@ -72,5 +80,5 @@
       "commit_sha": "f03a799b582231beb1c9ed749fd18c42f16ae1d6"
     }
   ],
-  "last_updated": "2026-06-02T04:42:15.137554+00:00"
+  "last_updated": "2026-06-03T09:04:00.344180+00:00"
 }
