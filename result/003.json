@@ -467,6 +467,14 @@
     },
     {
       "rank": 56,
+      "user": "十八组",
+      "github": "Napiercc/BangC18",
+      "score": 0.0003428209193002102,
+      "latency": 104856.49496937792,
+      "timestamp": "2026-06-03T16:58:49.852246+00:00"
+    },
+    {
+      "rank": 57,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.5963856908340227e-05,
@@ -475,7 +483,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 57,
+      "rank": 58,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 4.803681316964457e-07,
@@ -484,5 +492,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-03T16:46:13.038728+00:00"
+  "last_updated": "2026-06-03T17:01:28.300199+00:00"
 }
