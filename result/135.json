@@ -91,6 +91,14 @@
     },
     {
       "rank": 11,
+      "user": "team_4",
+      "github": "wangyongping1/ICS-53TEAM",
+      "score": 0.002354350137075492,
+      "latency": 957323.1969649593,
+      "timestamp": "2026-06-03T11:37:47.509767+00:00"
+    },
+    {
+      "rank": 12,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.0011995371414557049,
@@ -98,7 +106,7 @@
       "timestamp": "2026-05-30T11:17:04.590441+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0011972537536526933,
@@ -107,7 +115,7 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0011928358991466132,
@@ -115,7 +123,7 @@
       "timestamp": "2026-05-29T13:40:01.156850+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0011823802622595455,
@@ -124,7 +132,7 @@
       "commit_sha": "34f34176ce8dfe63d8cdda3a075466e76be53a73"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_44",
       "github": "OrangeL-ucas/SBangC",
       "score": 0.0011665162525694673,
@@ -132,7 +140,7 @@
       "timestamp": "2026-06-01T15:53:51.358175+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.0008408178478155209,
@@ -140,7 +148,7 @@
       "timestamp": "2026-06-01T12:32:19.311892+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0006273720275257853,
@@ -149,21 +157,13 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0006231031921214363,
       "latency": 3617176.1411242187,
       "timestamp": "2026-05-18T06:24:49.196761+00:00",
       "commit_sha": "c8f5a25243c792f85f0fd4277112600051aec9f5"
-    },
-    {
-      "rank": 19,
-      "user": "team_4",
-      "github": "wangyongping1/ICS-53TEAM",
-      "score": 0.0005990977741668822,
-      "latency": 3762113.7937530875,
-      "timestamp": "2026-06-03T11:25:57.999228+00:00"
     },
     {
       "rank": 20,
@@ -274,5 +274,5 @@
       "timestamp": "2026-06-01T17:49:12.813102+00:00"
     }
   ],
-  "last_updated": "2026-06-03T11:30:12.465536+00:00"
+  "last_updated": "2026-06-03T11:40:23.595320+00:00"
 }
