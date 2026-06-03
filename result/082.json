@@ -81,6 +81,14 @@
     },
     {
       "rank": 10,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.00021939231389114106,
+      "latency": 395551.6875721514,
+      "timestamp": "2026-06-03T13:37:36.521369+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0001086353296130807,
@@ -89,5 +97,5 @@
       "commit_sha": "cb3517f528ba96333605ca481d0ae3b8cbab5411"
     }
   ],
-  "last_updated": "2026-06-02T01:08:56.594446+00:00"
+  "last_updated": "2026-06-03T13:42:37.204882+00:00"
 }
