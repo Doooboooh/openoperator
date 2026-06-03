@@ -64,6 +64,14 @@
     },
     {
       "rank": 8,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.016234610328078613,
+      "latency": 2386.444713920355,
+      "timestamp": "2026-06-03T11:55:57.110683+00:00"
+    },
+    {
+      "rank": 9,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.01598673439362447,
@@ -72,7 +80,7 @@
       "commit_sha": "1c89c77fc29eff1cba7b2310cb62da51202956de"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.015724535543130955,
@@ -81,20 +89,12 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.015495057839143095,
       "latency": 2500.345620016257,
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 0.015195075826472637,
-      "latency": 2549.7075791160264,
-      "timestamp": "2026-06-02T04:44:31.084170+00:00"
     },
     {
       "rank": 12,
@@ -183,5 +183,5 @@
       "timestamp": "2026-05-29T13:25:30.923732+00:00"
     }
   ],
-  "last_updated": "2026-06-03T04:27:07.824638+00:00"
+  "last_updated": "2026-06-03T12:00:29.197248+00:00"
 }
