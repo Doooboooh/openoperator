@@ -82,20 +82,20 @@
     },
     {
       "rank": 10,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 0.006088421500247152,
+      "latency": 5042.193612704675,
+      "timestamp": "2026-06-03T04:04:20.721617+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.00579613191849284,
       "latency": 5296.463302026193,
       "timestamp": "2026-05-20T14:36:55.664221+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "智算第十组",
-      "github": "koross49/openoperator-start-kit",
-      "score": 0.005772764728796101,
-      "latency": 5317.9025029142695,
-      "timestamp": "2026-06-01T18:50:04.214751+00:00"
     }
   ],
-  "last_updated": "2026-06-02T09:31:43.175783+00:00"
+  "last_updated": "2026-06-03T04:06:51.705028+00:00"
 }
