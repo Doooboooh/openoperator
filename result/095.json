@@ -57,6 +57,14 @@
     },
     {
       "rank": 7,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.11087457755306598,
+      "latency": 3247.552396108707,
+      "timestamp": "2026-06-03T15:22:49.537689+00:00"
+    },
+    {
+      "rank": 8,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.10852950232316734,
@@ -64,7 +72,7 @@
       "timestamp": "2026-06-03T14:12:33.354180+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.09761003437087712,
@@ -72,21 +80,13 @@
       "timestamp": "2026-05-31T13:58:19.731359+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0880757512843331,
       "latency": 4088.1967482467494,
       "timestamp": "2026-05-18T09:00:34.120470+00:00",
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
-    },
-    {
-      "rank": 10,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 0.08643424922024485,
-      "latency": 4165.837075561285,
-      "timestamp": "2026-06-02T10:52:06.022602+00:00"
     },
     {
       "rank": 11,
@@ -137,5 +137,5 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     }
   ],
-  "last_updated": "2026-06-03T14:38:48.750140+00:00"
+  "last_updated": "2026-06-03T15:24:48.509935+00:00"
 }
