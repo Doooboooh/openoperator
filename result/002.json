@@ -463,6 +463,14 @@
     },
     {
       "rank": 55,
+      "user": "team_4",
+      "github": "wangyongping1/ICS-53TEAM",
+      "score": 0.001326023213084829,
+      "latency": 6240366.622805595,
+      "timestamp": "2026-06-03T13:54:01.237828+00:00"
+    },
+    {
+      "rank": 56,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 0.0013102119828814,
@@ -470,7 +478,7 @@
       "timestamp": "2026-06-01T06:09:53.959393+00:00"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0005104747112576844,
@@ -479,5 +487,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-06-03T13:27:20.230609+00:00"
+  "last_updated": "2026-06-03T13:58:04.223215+00:00"
 }
