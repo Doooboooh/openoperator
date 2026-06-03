@@ -39,20 +39,20 @@
     },
     {
       "rank": 5,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.023015515922784436,
+      "latency": 2345.374319702387,
+      "timestamp": "2026-06-03T15:33:19.299835+00:00",
+      "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
+    },
+    {
+      "rank": 6,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.023004911710683997,
       "latency": 2346.4554299910865,
       "timestamp": "2026-06-01T16:07:25.144517+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.022136513744068803,
-      "latency": 2438.505024959644,
-      "timestamp": "2026-05-18T09:19:32.058156+00:00",
-      "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
       "rank": 7,
@@ -147,5 +147,5 @@
       "timestamp": "2026-06-03T14:51:06.469059+00:00"
     }
   ],
-  "last_updated": "2026-06-03T14:54:13.466768+00:00"
+  "last_updated": "2026-06-03T15:34:59.424404+00:00"
 }
