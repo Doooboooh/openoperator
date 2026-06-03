@@ -107,6 +107,14 @@
     },
     {
       "rank": 13,
+      "user": "智算第五组",
+      "github": "oops-debug/BangC05",
+      "score": 0.0042599005011934605,
+      "latency": 3278.010835250219,
+      "timestamp": "2026-06-03T13:28:15.701831+00:00"
+    },
+    {
+      "rank": 14,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.00424338462658243,
@@ -115,7 +123,7 @@
       "commit_sha": "14b60371e4d17652d07d516ff3c8beff70870f1d"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0031494084051972683,
@@ -123,7 +131,7 @@
       "timestamp": "2026-05-31T02:36:01.443878+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.003057741205641784,
@@ -131,5 +139,5 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     }
   ],
-  "last_updated": "2026-06-03T13:17:08.021233+00:00"
+  "last_updated": "2026-06-03T13:32:25.873102+00:00"
 }
