@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "智算第十组",
+      "github": "koross49/openoperator-start-kit",
+      "score": 14.64346697249072,
+      "latency": 217.9907945295175,
+      "timestamp": "2026-06-03T12:45:08.711168+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 3.8974147697007133,
@@ -12,7 +20,7 @@
       "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 3.7971758089675767,
@@ -21,21 +29,13 @@
       "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.9568799752107641,
       "latency": 3335.9889251490436,
       "timestamp": "2026-05-18T07:49:00.165578+00:00",
       "commit_sha": "172c2508e71bf1d99197580ee4ba5c1154660dae"
-    },
-    {
-      "rank": 4,
-      "user": "智算第十组",
-      "github": "koross49/openoperator-start-kit",
-      "score": 0.9423449295551658,
-      "latency": 3387.4443421761193,
-      "timestamp": "2026-06-03T02:38:12.092340+00:00"
     },
     {
       "rank": 5,
@@ -131,5 +131,5 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     }
   ],
-  "last_updated": "2026-06-03T12:10:36.336242+00:00"
+  "last_updated": "2026-06-03T13:01:52.717593+00:00"
 }

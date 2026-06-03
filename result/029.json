@@ -98,20 +98,20 @@
     },
     {
       "rank": 12,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.011688552497864277,
+      "latency": 2455.6505183378854,
+      "timestamp": "2026-06-03T12:43:13.003377+00:00"
+    },
+    {
+      "rank": 13,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.011574312154447285,
       "latency": 2479.888188342253,
       "timestamp": "2026-05-18T05:47:15.975007+00:00",
       "commit_sha": "11e3ba9831bbcbfdb31b7bf9307205c13d88418f"
-    },
-    {
-      "rank": 13,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.010393765766669722,
-      "latency": 2761.5592504541078,
-      "timestamp": "2026-06-03T12:24:42.084410+00:00"
     },
     {
       "rank": 14,
@@ -191,5 +191,5 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     }
   ],
-  "last_updated": "2026-06-03T12:31:13.692911+00:00"
+  "last_updated": "2026-06-03T13:01:52.714273+00:00"
 }
