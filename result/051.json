@@ -132,20 +132,20 @@
     },
     {
       "rank": 16,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.010975462704306205,
+      "latency": 4338.769242167473,
+      "timestamp": "2026-06-03T16:06:07.773862+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.010565693547952358,
       "latency": 4507.039673626423,
       "timestamp": "2026-05-18T07:10:34.284403+00:00",
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
-    },
-    {
-      "rank": 17,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.010304979851976735,
-      "latency": 4621.066773931186,
-      "timestamp": "2026-06-03T02:42:23.734708+00:00"
     },
     {
       "rank": 18,
@@ -351,5 +351,5 @@
       "timestamp": "2026-05-31T09:21:20.668509+00:00"
     }
   ],
-  "last_updated": "2026-06-03T14:43:58.864904+00:00"
+  "last_updated": "2026-06-03T16:10:36.036903+00:00"
 }

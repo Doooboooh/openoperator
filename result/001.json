@@ -49,6 +49,15 @@
     },
     {
       "rank": 6,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.012375871152329666,
+      "latency": 2243.801640967528,
+      "timestamp": "2026-06-03T16:06:07.773862+00:00",
+      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
+    },
+    {
+      "rank": 7,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.012252222346147545,
@@ -57,7 +66,7 @@
       "commit_sha": "938233bf08984677554c7cbbaa8c3fb10f5c00ef"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.012174930146685171,
@@ -65,22 +74,13 @@
       "timestamp": "2026-05-31T10:34:31.366738+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.012158365034985016,
       "latency": 2283.9419543743134,
       "timestamp": "2026-05-29T02:27:01.380283+00:00",
       "commit_sha": "88a92381aeadd73082e68421c9143dc0f8f46d25"
-    },
-    {
-      "rank": 9,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.012144729004072511,
-      "latency": 2286.506351083517,
-      "timestamp": "2026-05-19T22:50:34.965600+00:00",
-      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
       "rank": 10,
@@ -597,5 +597,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-06-03T16:00:25.309041+00:00"
+  "last_updated": "2026-06-03T16:10:36.031876+00:00"
 }
