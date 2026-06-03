@@ -335,6 +335,14 @@
     },
     {
       "rank": 40,
+      "user": "加油组",
+      "github": "lao7tomato/BangCompetition",
+      "score": 0.00043693178692085324,
+      "latency": 100633.55726500352,
+      "timestamp": "2026-06-03T03:00:26.286553+00:00"
+    },
+    {
+      "rank": 41,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0004256156229790862,
@@ -342,7 +350,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0004048039252301781,
@@ -350,7 +358,7 @@
       "timestamp": "2026-05-28T17:17:26.613892+00:00"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 7.880395958100901e-05,
@@ -359,7 +367,7 @@
       "commit_sha": "55232e0b64bf5fd13ad3827aa170673725087891"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 2.6331056431057348e-06,
@@ -368,5 +376,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-02T05:07:43.476280+00:00"
+  "last_updated": "2026-06-03T03:01:16.680516+00:00"
 }
