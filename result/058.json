@@ -132,6 +132,14 @@
     },
     {
       "rank": 16,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.00480012207317904,
+      "latency": 6680.038447181384,
+      "timestamp": "2026-06-03T15:06:04.936964+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.004701427407631842,
@@ -139,7 +147,7 @@
       "timestamp": "2026-06-02T03:28:17.707178+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.004019030391531416,
@@ -148,7 +156,7 @@
       "commit_sha": "7e5ae92f118f40abd6743daa9d9699c719d68160"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.003070299269214244,
@@ -157,7 +165,7 @@
       "commit_sha": "51175aaddb181701b52cf91800cf5af893cbf1d1"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0025023773940663994,
@@ -165,5 +173,5 @@
       "timestamp": "2026-05-29T14:45:41.890704+00:00"
     }
   ],
-  "last_updated": "2026-06-03T13:52:58.682997+00:00"
+  "last_updated": "2026-06-03T15:09:33.203025+00:00"
 }
