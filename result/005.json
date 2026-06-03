@@ -309,6 +309,14 @@
     },
     {
       "rank": 37,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.009465889826576814,
+      "latency": 770243.065742155,
+      "timestamp": "2026-06-03T20:10:45.050414+00:00"
+    },
+    {
+      "rank": 38,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.00942262414720807,
@@ -317,7 +325,7 @@
       "commit_sha": "711bdc9e6e4d767fab59526bb311257adfbb73b5"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.009404025086436911,
@@ -326,7 +334,7 @@
       "commit_sha": "eaf4b0ca1e2b962e741d94941748b1e1cf442f8f"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.008627345561093685,
@@ -334,7 +342,7 @@
       "timestamp": "2026-06-01T06:38:21.683099+00:00"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.008036675124663634,
@@ -342,7 +350,7 @@
       "timestamp": "2026-05-19T16:59:57.558887+00:00"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.007915231523524302,
@@ -351,7 +359,7 @@
       "commit_sha": "e934573bc4dffb730f3812ba97f75d0280a46c9b"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "干不过AI组",
       "github": "yuanlaibuduan/Human_Vs_AI",
       "score": 0.00732387541265936,
@@ -359,7 +367,7 @@
       "timestamp": "2026-06-03T08:16:31.811411+00:00"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "team_95",
       "github": "GrassedgeT/ics-playground",
       "score": 0.006492005259096884,
@@ -367,7 +375,7 @@
       "timestamp": "2026-06-01T04:36:44.384892+00:00"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.005612061000810214,
@@ -376,20 +384,12 @@
       "commit_sha": "5f4ec716c313309ce46fb584975d28327fbe0424"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "user": "team_4",
       "github": "wangyongping1/ICS-53TEAM",
       "score": 0.004897633007557093,
       "latency": 1488685.6546315055,
       "timestamp": "2026-06-03T14:06:11.060858+00:00"
-    },
-    {
-      "rank": 46,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.004893392510281951,
-      "latency": 1489975.7141247392,
-      "timestamp": "2026-06-03T15:25:42.550282+00:00"
     },
     {
       "rank": 47,
@@ -442,5 +442,5 @@
       "timestamp": "2026-05-30T12:10:09.312428+00:00"
     }
   ],
-  "last_updated": "2026-06-03T15:29:53.472848+00:00"
+  "last_updated": "2026-06-03T20:13:14.170092+00:00"
 }
