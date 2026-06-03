@@ -98,6 +98,14 @@
     },
     {
       "rank": 12,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.00409527902210784,
+      "latency": 25686.161903043587,
+      "timestamp": "2026-06-03T14:43:20.965181+00:00"
+    },
+    {
+      "rank": 13,
       "user": "养老组",
       "github": "ZiFengQiao/op_retirement",
       "score": 0.0034033128011017964,
@@ -105,7 +113,7 @@
       "timestamp": "2026-06-02T12:04:30.532165+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0014997556678986409,
@@ -113,7 +121,7 @@
       "timestamp": "2026-05-31T12:29:14.422298+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 6.232400623997355e-05,
@@ -121,7 +129,7 @@
       "timestamp": "2026-06-02T11:49:51.894346+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 6.058267031028685e-05,
@@ -130,7 +138,7 @@
       "commit_sha": "8643d488eddbb75b7f2741db7663daab03f64b44"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 5.977492595620843e-05,
@@ -139,5 +147,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-03T11:15:07.501653+00:00"
+  "last_updated": "2026-06-03T14:49:05.127046+00:00"
 }

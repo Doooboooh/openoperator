@@ -39,6 +39,14 @@
     },
     {
       "rank": 5,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.46002876696955597,
+      "latency": 5612.227289626996,
+      "timestamp": "2026-06-03T14:45:03.825465+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.4514617626955849,
@@ -47,7 +55,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.4449465116262629,
@@ -55,7 +63,7 @@
       "timestamp": "2026-06-01T06:13:38.452193+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.41807431220340435,
@@ -64,7 +72,7 @@
       "commit_sha": "6c7a6f5a27aacbb277a7119d4528e1561a98807d"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.030334270062189254,
@@ -73,7 +81,7 @@
       "commit_sha": "f82ca719f6f612388a0c79c3679eb25feca8f2db"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.019850873141844666,
@@ -81,21 +89,13 @@
       "timestamp": "2026-05-29T12:03:52.503210+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.004228561522557575,
       "latency": 610558.9303188026,
       "timestamp": "2026-05-18T06:56:07.904857+00:00",
       "commit_sha": "ab7698ebaa529d54df1b08db68b428fe98436d27"
-    },
-    {
-      "rank": 11,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 0.004223475608753622,
-      "latency": 611294.1660297414,
-      "timestamp": "2026-06-02T06:14:35.259479+00:00"
     },
     {
       "rank": 12,
@@ -149,5 +149,5 @@
       "timestamp": "2026-06-01T00:57:01.625787+00:00"
     }
   ],
-  "last_updated": "2026-06-03T13:12:03.060372+00:00"
+  "last_updated": "2026-06-03T14:49:05.130374+00:00"
 }
