@@ -399,6 +399,14 @@
     },
     {
       "rank": 47,
+      "user": "十七组",
+      "github": "Noitexy/openoperator-JJZZ",
+      "score": 0.004729170511624889,
+      "latency": 5871.85425683856,
+      "timestamp": "2026-06-03T07:14:16.859731+00:00"
+    },
+    {
+      "rank": 48,
       "user": "team_94",
       "github": "rishitash42-code/bangc-70",
       "score": 0.004715602279814008,
@@ -406,7 +414,7 @@
       "timestamp": "2026-05-23T15:09:47.004327+00:00"
     },
     {
-      "rank": 48,
+      "rank": 49,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0047099287108006566,
@@ -415,7 +423,7 @@
       "commit_sha": "27dbd8f98770a0d493c7c53ecb00991d5f00aa32"
     },
     {
-      "rank": 49,
+      "rank": 50,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.0047069767878428195,
@@ -423,20 +431,12 @@
       "timestamp": "2026-05-29T06:26:50.941038+00:00"
     },
     {
-      "rank": 50,
+      "rank": 51,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.0047023804993326515,
       "latency": 5905.306898057461,
       "timestamp": "2026-05-22T08:32:36.621716+00:00"
-    },
-    {
-      "rank": 51,
-      "user": "十七组",
-      "github": "Noitexy/openoperator-JJZZ",
-      "score": 0.004693110764733545,
-      "latency": 5916.970937202374,
-      "timestamp": "2026-06-03T04:19:29.198457+00:00"
     },
     {
       "rank": 52,
@@ -557,5 +557,5 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     }
   ],
-  "last_updated": "2026-06-03T06:57:30.018263+00:00"
+  "last_updated": "2026-06-03T07:17:43.640845+00:00"
 }
