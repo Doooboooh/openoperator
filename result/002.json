@@ -144,6 +144,14 @@
     },
     {
       "rank": 17,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 1.136985080271902,
+      "latency": 7277.906406670809,
+      "timestamp": "2026-06-03T13:59:08.957239+00:00"
+    },
+    {
+      "rank": 18,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 1.13687029621071,
@@ -152,7 +160,7 @@
       "commit_sha": "120feecf2efd2b3ec940087bf6d03807c2c52e7a"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 1.1235857473504691,
@@ -160,7 +168,7 @@
       "timestamp": "2026-05-22T08:10:05.413957+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 1.120469092484415,
@@ -169,20 +177,12 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 1.1073346432236402,
       "latency": 7472.782551000516,
       "timestamp": "2026-05-31T10:38:28.735907+00:00"
-    },
-    {
-      "rank": 21,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 1.09223124434816,
-      "latency": 7576.116360723972,
-      "timestamp": "2026-06-03T13:22:38.109556+00:00"
     },
     {
       "rank": 22,
@@ -487,5 +487,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-06-03T13:58:04.223215+00:00"
+  "last_updated": "2026-06-03T14:03:09.999191+00:00"
 }
