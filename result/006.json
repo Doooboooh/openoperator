@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "智算第五组",
+      "github": "oops-debug/BangC05",
+      "score": 0.12574671954611116,
+      "latency": 2673.1591982146106,
+      "timestamp": "2026-06-04T06:19:41.567965+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.12364774385714962,
@@ -30,21 +38,13 @@
       "commit_sha": "414c1c3239a98642ca0fbacc5d2ab42cbdd48798"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.11949803237707572,
       "latency": 2812.9417138795056,
       "timestamp": "2026-05-18T07:15:15.988206+00:00",
       "commit_sha": "1b9b9b02523afd886f173fc2eb51a72d9ebe224c"
-    },
-    {
-      "rank": 5,
-      "user": "智算第五组",
-      "github": "oops-debug/BangC05",
-      "score": 0.11887934576684756,
-      "latency": 2827.5811734298863,
-      "timestamp": "2026-06-04T06:00:15.401270+00:00"
     },
     {
       "rank": 6,
@@ -214,5 +214,5 @@
       "timestamp": "2026-05-31T07:04:03.908953+00:00"
     }
   ],
-  "last_updated": "2026-06-04T06:02:45.126898+00:00"
+  "last_updated": "2026-06-04T06:23:11.859020+00:00"
 }
