@@ -385,20 +385,20 @@
     },
     {
       "rank": 46,
+      "user": "十八组",
+      "github": "Napiercc/BangC18",
+      "score": 0.0001711175602581842,
+      "latency": 419793.2689761122,
+      "timestamp": "2026-06-04T07:28:00.118269+00:00"
+    },
+    {
+      "rank": 47,
       "user": "team_46",
       "github": "1LLLei/openoperator-start-kit_BangC_competition",
       "score": 0.0001552838722181416,
       "latency": 462597.94384241104,
       "timestamp": "2026-05-18T05:46:46.130578+00:00",
       "commit_sha": "bf68a391f54eec4b9a0b8d14a63a440406411edf"
-    },
-    {
-      "rank": 47,
-      "user": "十八组",
-      "github": "Napiercc/BangC18",
-      "score": 0.00014172702740956279,
-      "latency": 506847.57390990853,
-      "timestamp": "2026-06-04T03:08:34.023981+00:00"
     },
     {
       "rank": 48,
@@ -427,5 +427,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-04T05:52:33.938338+00:00"
+  "last_updated": "2026-06-04T07:29:08.848663+00:00"
 }

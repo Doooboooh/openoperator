@@ -90,6 +90,14 @@
     },
     {
       "rank": 11,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.04142490464615945,
+      "latency": 140136.61708061895,
+      "timestamp": "2026-06-04T07:23:25.890729+00:00"
+    },
+    {
+      "rank": 12,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.011494894294110483,
@@ -98,7 +106,7 @@
       "commit_sha": "3715ca11dc68037a191a9956ca40f3dc539f11df"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.0036061701459103516,
@@ -106,7 +114,7 @@
       "timestamp": "2026-06-01T08:01:30.583861+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.002564674501772202,
@@ -114,7 +122,7 @@
       "timestamp": "2026-06-01T19:45:39.117614+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.002210660610256093,
@@ -122,7 +130,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0021984851571340927,
@@ -130,5 +138,5 @@
       "timestamp": "2026-06-01T12:44:55.880745+00:00"
     }
   ],
-  "last_updated": "2026-06-04T05:16:59.558005+00:00"
+  "last_updated": "2026-06-04T07:29:08.847786+00:00"
 }
