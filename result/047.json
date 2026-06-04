@@ -130,6 +130,14 @@
     },
     {
       "rank": 16,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.006411058656549041,
+      "latency": 7990.879938006401,
+      "timestamp": "2026-06-04T04:18:10.375768+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.006352022104159095,
@@ -137,7 +145,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.005967900568559446,
@@ -145,7 +153,7 @@
       "timestamp": "2026-06-03T16:53:30.192031+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.004847703104171985,
@@ -153,7 +161,7 @@
       "timestamp": "2026-05-29T02:30:27.364279+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0038259835631573955,
@@ -162,5 +170,5 @@
       "commit_sha": "9c32320b18dfd81799a75400a4cc834a998876d4"
     }
   ],
-  "last_updated": "2026-06-03T18:07:13.539169+00:00"
+  "last_updated": "2026-06-04T04:21:08.240231+00:00"
 }
