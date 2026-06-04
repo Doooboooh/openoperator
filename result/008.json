@@ -93,6 +93,14 @@
     },
     {
       "rank": 11,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.12739352531705203,
+      "latency": 9434.820152819157,
+      "timestamp": "2026-06-04T03:22:40.122806+00:00"
+    },
+    {
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.10659809095760715,
@@ -101,7 +109,7 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.10598064089385309,
@@ -109,7 +117,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.06613587603029535,
@@ -117,7 +125,7 @@
       "timestamp": "2026-06-01T01:33:15.962685+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.011093798977039398,
@@ -125,7 +133,7 @@
       "timestamp": "2026-06-02T00:57:00.235787+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_95",
       "github": "GrassedgeT/ics-playground",
       "score": 0.008864807965109182,
@@ -133,7 +141,7 @@
       "timestamp": "2026-06-01T11:14:01.586082+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.004397165859292812,
@@ -142,7 +150,7 @@
       "commit_sha": "b97c1dc3cf875322ecc738b4f8d7a29858979ac6"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0007686778802839844,
@@ -150,7 +158,7 @@
       "timestamp": "2026-05-31T13:26:22.703549+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0006858825818867188,
@@ -158,21 +166,13 @@
       "timestamp": "2026-05-25T11:12:09.990232+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0003573950209127775,
       "latency": 3363043.4943673513,
       "timestamp": "2026-05-18T13:10:30.644866+00:00",
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
-    },
-    {
-      "rank": 20,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.00033123810419087286,
-      "latency": 3628613.3291820684,
-      "timestamp": "2026-06-03T17:05:49.186286+00:00"
     },
     {
       "rank": 21,
@@ -192,5 +192,5 @@
       "commit_sha": "6fe6af9e730b4765109f623c5ba0056cf21ce301"
     }
   ],
-  "last_updated": "2026-06-03T18:37:36.761038+00:00"
+  "last_updated": "2026-06-04T03:25:33.303858+00:00"
 }

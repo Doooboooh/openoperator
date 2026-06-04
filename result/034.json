@@ -318,6 +318,14 @@
     },
     {
       "rank": 38,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 0.001607960971752906,
+      "latency": 27345.191066463787,
+      "timestamp": "2026-06-04T03:23:46.150694+00:00"
+    },
+    {
+      "rank": 39,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.001521981516562346,
@@ -325,20 +333,12 @@
       "timestamp": "2026-05-31T06:47:29.213849+00:00"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0015177811731627569,
       "latency": 28969.920550783474,
       "timestamp": "2026-05-29T11:06:32.357682+00:00"
-    },
-    {
-      "rank": 40,
-      "user": "二十四组",
-      "github": "Hengyu-Yu/OpenOperator-Group24",
-      "score": 0.0014059260084180291,
-      "latency": 31274.7610732913,
-      "timestamp": "2026-06-04T03:16:17.713885+00:00"
     },
     {
       "rank": 41,
@@ -424,5 +424,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-04T03:20:27.137029+00:00"
+  "last_updated": "2026-06-04T03:25:33.305827+00:00"
 }
