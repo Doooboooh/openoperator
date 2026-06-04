@@ -39,6 +39,14 @@
     },
     {
       "rank": 5,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.5813800741648013,
+      "latency": 303624.22422816354,
+      "timestamp": "2026-06-04T05:10:07.814327+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.396401884373107,
@@ -47,7 +55,7 @@
       "commit_sha": "5c1c64f77698b47027bf6fec3da300d7e9e1095b"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.18902070290403974,
@@ -56,7 +64,7 @@
       "commit_sha": "5b9c70d078ced299977d8a7cca88ac9a8f6f330f"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.17038462897442627,
@@ -64,5 +72,5 @@
       "timestamp": "2026-06-01T06:24:17.594191+00:00"
     }
   ],
-  "last_updated": "2026-06-03T15:55:20.118022+00:00"
+  "last_updated": "2026-06-04T05:11:53.895077+00:00"
 }
