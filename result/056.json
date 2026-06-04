@@ -198,6 +198,14 @@
     },
     {
       "rank": 24,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.09609911805470205,
+      "latency": 2803.386809925238,
+      "timestamp": "2026-06-04T13:02:21.661021+00:00"
+    },
+    {
+      "rank": 25,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.09553411277296729,
@@ -206,7 +214,7 @@
       "commit_sha": "43fb0ddda831190a9477d284bca0054a8be8e993"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_21",
       "github": "samwang102/openoperator-team13",
       "score": 0.09551958043893881,
@@ -215,7 +223,7 @@
       "commit_sha": "a92293d12609ec343193cf4e91fafa4931632814"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.09511802791929223,
@@ -223,7 +231,7 @@
       "timestamp": "2026-05-29T04:32:48.618338+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_19",
       "github": "JerryLiu369/openoperator-start-kit-experiment",
       "score": 0.09507496873589075,
@@ -231,7 +239,7 @@
       "timestamp": "2026-05-20T13:43:06.998115+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.09488282501101192,
@@ -239,7 +247,7 @@
       "timestamp": "2026-05-29T09:16:53.203445+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.09473217288009916,
@@ -247,20 +255,12 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "我说删题大于一切组",
       "github": "Oreki2eru/openoperator-start-kit",
       "score": 0.0945293309341257,
       "latency": 2849.940831462542,
       "timestamp": "2026-06-01T12:49:01.251586+00:00"
-    },
-    {
-      "rank": 31,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.09434652257514506,
-      "latency": 2855.4629534482956,
-      "timestamp": "2026-06-04T11:55:52.665337+00:00"
     },
     {
       "rank": 32,
@@ -399,5 +399,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-04T12:07:23.867516+00:00"
+  "last_updated": "2026-06-04T13:03:07.687445+00:00"
 }

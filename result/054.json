@@ -92,6 +92,14 @@
     },
     {
       "rank": 11,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.16992687791879693,
+      "latency": 2817.3883135120072,
+      "timestamp": "2026-06-04T13:02:21.661021+00:00"
+    },
+    {
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.16844543780763396,
@@ -99,20 +107,12 @@
       "timestamp": "2026-05-31T08:44:46.843866+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.16734902657949877,
       "latency": 2860.7874798278012,
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
-    },
-    {
-      "rank": 13,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.1672584570918854,
-      "latency": 2862.336579710245,
-      "timestamp": "2026-06-04T11:55:52.665337+00:00"
     },
     {
       "rank": 14,
@@ -155,5 +155,5 @@
       "timestamp": "2026-06-04T04:18:10.375768+00:00"
     }
   ],
-  "last_updated": "2026-06-04T11:57:12.668617+00:00"
+  "last_updated": "2026-06-04T13:03:07.691024+00:00"
 }

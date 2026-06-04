@@ -48,6 +48,14 @@
     },
     {
       "rank": 6,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.043846460771347455,
+      "latency": 2365.3904596964517,
+      "timestamp": "2026-06-04T13:02:21.661021+00:00"
+    },
+    {
+      "rank": 7,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.04369770019770175,
@@ -56,7 +64,7 @@
       "commit_sha": "501f30a08ec97063f771e42c96d865d6cefecfef"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.043507163462759756,
@@ -64,7 +72,7 @@
       "timestamp": "2026-05-29T12:35:35.333681+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第九组",
       "github": "zzyzyc/BangC09",
       "score": 0.04320132314575386,
@@ -72,7 +80,7 @@
       "timestamp": "2026-06-01T04:38:30.561221+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.043181511525682725,
@@ -80,7 +88,7 @@
       "timestamp": "2026-05-22T06:53:56.302347+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.042601624552584164,
@@ -89,21 +97,13 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.04199086124959315,
       "latency": 2469.9183801809945,
       "timestamp": "2026-05-18T06:53:30.171327+00:00",
       "commit_sha": "8c32fc00c648d61ae4442b87f14e9db034d01f99"
-    },
-    {
-      "rank": 12,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.040008521605167095,
-      "latency": 2592.297736555338,
-      "timestamp": "2026-06-04T12:54:21.457455+00:00"
     },
     {
       "rank": 13,
@@ -170,5 +170,5 @@
       "timestamp": "2026-05-28T09:42:42.687630+00:00"
     }
   ],
-  "last_updated": "2026-06-04T12:58:02.594497+00:00"
+  "last_updated": "2026-06-04T13:03:07.690383+00:00"
 }
