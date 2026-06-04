@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 57.01562244382125,
+      "latency": 3096.0123986005783,
+      "timestamp": "2026-06-04T23:36:09.931184+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 3.065285144401313,
@@ -12,7 +20,7 @@
       "commit_sha": "f74f9875005282ea5a6cb452c17095d775e2dc90"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 3.0588623677015003,
@@ -21,7 +29,7 @@
       "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 1.7207148502630996,
@@ -30,7 +38,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 1.714741421839519,
@@ -38,7 +46,7 @@
       "timestamp": "2026-06-03T15:49:52.963485+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.5813800741648013,
@@ -46,7 +54,7 @@
       "timestamp": "2026-06-04T05:10:07.814327+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.396401884373107,
@@ -55,7 +63,7 @@
       "commit_sha": "5c1c64f77698b47027bf6fec3da300d7e9e1095b"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.26715222142397216,
@@ -64,7 +72,7 @@
       "commit_sha": "5b9c70d078ced299977d8a7cca88ac9a8f6f330f"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.17038462897442627,
@@ -72,5 +80,5 @@
       "timestamp": "2026-06-01T06:24:17.594191+00:00"
     }
   ],
-  "last_updated": "2026-06-04T19:13:37.251891+00:00"
+  "last_updated": "2026-06-04T23:36:52.901269+00:00"
 }
