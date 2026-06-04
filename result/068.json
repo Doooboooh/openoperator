@@ -115,6 +115,14 @@
     },
     {
       "rank": 14,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 3.29303118031222,
+      "latency": 2408.7360749642053,
+      "timestamp": "2026-06-04T02:12:45.943106+00:00"
+    },
+    {
+      "rank": 15,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 2.9826751724899507,
@@ -123,7 +131,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 1.9210149275727142,
@@ -131,5 +139,5 @@
       "timestamp": "2026-05-29T12:11:39.984178+00:00"
     }
   ],
-  "last_updated": "2026-06-03T15:55:20.129757+00:00"
+  "last_updated": "2026-06-04T02:14:40.593903+00:00"
 }
