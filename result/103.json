@@ -377,19 +377,19 @@
     },
     {
       "rank": 45,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.0019823852967280576,
+      "latency": 21303.124104936916,
+      "timestamp": "2026-06-04T20:20:52.040034+00:00"
+    },
+    {
+      "rank": 46,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0019769239358489975,
       "latency": 21361.975154529016,
       "timestamp": "2026-05-28T17:09:48.976107+00:00"
-    },
-    {
-      "rank": 46,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.0019693311839848616,
-      "latency": 21444.33620075385,
-      "timestamp": "2026-06-04T18:38:41.570801+00:00"
     },
     {
       "rank": 47,
@@ -443,5 +443,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-04T18:43:18.463922+00:00"
+  "last_updated": "2026-06-04T20:24:32.515572+00:00"
 }
