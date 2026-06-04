@@ -101,6 +101,14 @@
     },
     {
       "rank": 12,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.02371152192503782,
+      "latency": 532434.7817028562,
+      "timestamp": "2026-06-04T15:59:13.479823+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.02134440296002534,
@@ -108,21 +116,13 @@
       "timestamp": "2026-05-31T17:00:42.134147+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0178707174171162,
       "latency": 706453.9551114043,
       "timestamp": "2026-05-18T06:29:48.989054+00:00",
       "commit_sha": "de8b26ed66e58984eb2b25a9d875ba13efc4ba86"
-    },
-    {
-      "rank": 14,
-      "user": "team_2",
-      "github": "HT1108/BangcOperator",
-      "score": 0.017211419141450152,
-      "latency": 733515.284024179,
-      "timestamp": "2026-06-04T15:54:42.590015+00:00"
     },
     {
       "rank": 15,
@@ -388,5 +388,5 @@
       "timestamp": "2026-05-19T08:50:11.391853+00:00"
     }
   ],
-  "last_updated": "2026-06-04T15:56:02.371507+00:00"
+  "last_updated": "2026-06-04T16:01:08.833633+00:00"
 }
