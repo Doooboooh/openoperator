@@ -55,6 +55,14 @@
     },
     {
       "rank": 7,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.24972043561005453,
+      "latency": 2246.243879199028,
+      "timestamp": "2026-06-04T22:20:36.614366+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.24379171433364352,
@@ -63,7 +71,7 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.2334913577089979,
@@ -72,7 +80,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.1978768054532484,
@@ -80,7 +88,7 @@
       "timestamp": "2026-06-01T06:21:42.419558+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.1237399514882488,
@@ -88,5 +96,5 @@
       "timestamp": "2026-06-04T04:18:10.375768+00:00"
     }
   ],
-  "last_updated": "2026-06-04T18:38:13.566788+00:00"
+  "last_updated": "2026-06-04T22:25:59.328693+00:00"
 }
