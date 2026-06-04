@@ -88,6 +88,14 @@
     },
     {
       "rank": 11,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.02833880206187674,
+      "latency": 229468.87401243052,
+      "timestamp": "2026-06-04T13:12:41.557739+00:00"
+    },
+    {
+      "rank": 12,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.02457429825053161,
@@ -95,7 +103,7 @@
       "timestamp": "2026-05-28T10:04:55.133710+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.01258408749139032,
@@ -104,7 +112,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.011590084082305259,
@@ -112,7 +120,7 @@
       "timestamp": "2026-06-02T15:38:18.425049+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.006874615765882255,
@@ -120,7 +128,7 @@
       "timestamp": "2026-06-01T07:00:25.507434+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0016924026617117082,
@@ -128,5 +136,5 @@
       "timestamp": "2026-05-31T03:02:34.850402+00:00"
     }
   ],
-  "last_updated": "2026-06-04T04:51:27.798933+00:00"
+  "last_updated": "2026-06-04T13:18:25.449531+00:00"
 }
