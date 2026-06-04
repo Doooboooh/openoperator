@@ -80,6 +80,14 @@
     },
     {
       "rank": 10,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.012609572828193916,
+      "latency": 2850.7706398765245,
+      "timestamp": "2026-06-04T05:50:05.439623+00:00"
+    },
+    {
+      "rank": 11,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.012460818099605392,
@@ -88,21 +96,13 @@
       "commit_sha": "2752b0c591915bec55c03f3fe6616639b6eb1ce6"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.012417649773336434,
       "latency": 2894.831200440725,
       "timestamp": "2026-05-18T07:48:46.961584+00:00",
       "commit_sha": "61edb14b1de7dd10b11cafa5306512367205303b"
-    },
-    {
-      "rank": 12,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.012414964385565613,
-      "latency": 2895.4573596517243,
-      "timestamp": "2026-06-04T05:04:02.407351+00:00"
     },
     {
       "rank": 13,
@@ -500,5 +500,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-04T05:06:49.270068+00:00"
+  "last_updated": "2026-06-04T05:52:33.937045+00:00"
 }
