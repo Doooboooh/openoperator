@@ -75,6 +75,14 @@
     },
     {
       "rank": 9,
+      "user": "算不懂",
+      "github": "caozhining/suanbudong_openoperator",
+      "score": 0.03466473030199153,
+      "latency": 2320.3411449988685,
+      "timestamp": "2026-06-04T17:42:57.637297+00:00"
+    },
+    {
+      "rank": 10,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.034190104712236,
@@ -82,7 +90,7 @@
       "timestamp": "2026-06-03T11:33:12.248286+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.03374416048332481,
@@ -90,7 +98,7 @@
       "timestamp": "2026-05-29T13:42:05.873217+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.03355947135512297,
@@ -98,20 +106,12 @@
       "timestamp": "2026-06-04T13:21:26.199258+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.03351123482438804,
       "latency": 2400.20997201403,
       "timestamp": "2026-05-29T02:19:46.388059+00:00"
-    },
-    {
-      "rank": 13,
-      "user": "算不懂",
-      "github": "caozhining/suanbudong_openoperator",
-      "score": 0.03298994696760951,
-      "latency": 2438.1366868813834,
-      "timestamp": "2026-06-04T17:30:56.681789+00:00"
     },
     {
       "rank": 14,
@@ -155,5 +155,5 @@
       "commit_sha": "1735b38130fa080911566f71b9d0c143d4064d0b"
     }
   ],
-  "last_updated": "2026-06-04T17:32:22.676734+00:00"
+  "last_updated": "2026-06-04T17:47:31.890071+00:00"
 }
