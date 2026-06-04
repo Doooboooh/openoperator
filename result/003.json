@@ -156,6 +156,14 @@
     },
     {
       "rank": 19,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.011186533045531017,
+      "latency": 3213.417405883471,
+      "timestamp": "2026-06-04T15:48:00.049844+00:00"
+    },
+    {
+      "rank": 20,
       "user": "十三组",
       "github": "Yy12136/BangC13",
       "score": 0.009723221443595696,
@@ -163,7 +171,7 @@
       "timestamp": "2026-06-04T12:47:45.976361+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.009103448398445298,
@@ -172,7 +180,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.007939903707195847,
@@ -181,21 +189,13 @@
       "commit_sha": "4f2c118fee212a2159d652cc1bb22b42efb39597"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.007530895476000827,
       "latency": 4773.270338773727,
       "timestamp": "2026-05-18T06:14:26.960051+00:00",
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
-    },
-    {
-      "rank": 23,
-      "user": "team_2",
-      "github": "HT1108/BangcOperator",
-      "score": 0.007077153506778962,
-      "latency": 5079.302005469799,
-      "timestamp": "2026-06-04T07:46:48.508145+00:00"
     },
     {
       "rank": 24,
@@ -532,5 +532,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-04T15:05:06.215327+00:00"
+  "last_updated": "2026-06-04T15:50:57.111021+00:00"
 }

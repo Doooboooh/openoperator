@@ -118,19 +118,19 @@
     },
     {
       "rank": 14,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.10571078773079216,
+      "latency": 11370.031628757715,
+      "timestamp": "2026-06-04T15:48:00.049844+00:00"
+    },
+    {
+      "rank": 15,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.06613587603029535,
       "latency": 18173.721618950367,
       "timestamp": "2026-06-01T01:33:15.962685+00:00"
-    },
-    {
-      "rank": 15,
-      "user": "team_2",
-      "github": "HT1108/BangcOperator",
-      "score": 0.023325903422369697,
-      "latency": 51527.90776143471,
-      "timestamp": "2026-06-04T13:49:22.278431+00:00"
     },
     {
       "rank": 16,
@@ -200,5 +200,5 @@
       "commit_sha": "6fe6af9e730b4765109f623c5ba0056cf21ce301"
     }
   ],
-  "last_updated": "2026-06-04T13:53:54.156837+00:00"
+  "last_updated": "2026-06-04T15:50:57.093098+00:00"
 }

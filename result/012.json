@@ -83,6 +83,14 @@
     },
     {
       "rank": 10,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.010956041435691979,
+      "latency": 200576.18555923304,
+      "timestamp": "2026-06-04T15:48:00.049844+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.005208142871047473,
@@ -91,7 +99,7 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.00404464039973772,
@@ -99,7 +107,7 @@
       "timestamp": "2026-05-29T09:04:02.452131+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.003657215647336349,
@@ -108,7 +116,7 @@
       "commit_sha": "155e00c63cc472e3847e29a22e96d98e534e9e11"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.002895504200463937,
@@ -117,7 +125,7 @@
       "commit_sha": "02337649a046168fade9067e049ec03fb4f0eef3"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.0023447541838511944,
@@ -125,21 +133,13 @@
       "timestamp": "2026-05-28T11:51:56.636005+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0018098670855850867,
       "latency": 1214189.1620121896,
       "timestamp": "2026-05-18T07:38:48.425044+00:00",
       "commit_sha": "8b569012b1f99c722178643956b5392428dc8dcd"
-    },
-    {
-      "rank": 16,
-      "user": "team_2",
-      "github": "HT1108/BangcOperator",
-      "score": 0.0015267941317869823,
-      "latency": 1439304.0648040671,
-      "timestamp": "2026-06-04T13:28:08.196848+00:00"
     },
     {
       "rank": 17,
@@ -307,5 +307,5 @@
       "timestamp": "2026-06-03T13:50:16.207343+00:00"
     }
   ],
-  "last_updated": "2026-06-04T13:33:36.452848+00:00"
+  "last_updated": "2026-06-04T15:50:57.101476+00:00"
 }
