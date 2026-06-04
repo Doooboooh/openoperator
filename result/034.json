@@ -334,6 +334,14 @@
     },
     {
       "rank": 40,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 0.0014059260084180291,
+      "latency": 31274.7610732913,
+      "timestamp": "2026-06-04T03:16:17.713885+00:00"
+    },
+    {
+      "rank": 41,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.0013807393068221397,
@@ -341,7 +349,7 @@
       "timestamp": "2026-06-01T06:57:04.265520+00:00"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.0012732039636023703,
@@ -350,7 +358,7 @@
       "commit_sha": "d94ec0eb311effc122f1e20cdb8bafef5f9de073"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0008224386493225445,
@@ -358,7 +366,7 @@
       "timestamp": "2026-05-20T17:01:34.243258+00:00"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "加油组",
       "github": "lao7tomato/BangCompetition",
       "score": 0.0004379242093493479,
@@ -366,7 +374,7 @@
       "timestamp": "2026-06-03T03:13:54.671394+00:00"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0004256156229790862,
@@ -374,7 +382,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0004048039252301781,
@@ -382,7 +390,7 @@
       "timestamp": "2026-05-28T17:17:26.613892+00:00"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "user": "干不过AI组",
       "github": "yuanlaibuduan/Human_Vs_AI",
       "score": 0.0004037673493299518,
@@ -390,20 +398,12 @@
       "timestamp": "2026-06-03T09:42:31.389407+00:00"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.0004031756859808745,
       "latency": 109059.15591865778,
       "timestamp": "2026-06-03T15:48:17.996521+00:00"
-    },
-    {
-      "rank": 48,
-      "user": "二十四组",
-      "github": "Hengyu-Yu/OpenOperator-Group24",
-      "score": 0.0003379103448400875,
-      "latency": 130123.27284862597,
-      "timestamp": "2026-06-04T03:14:10.964615+00:00"
     },
     {
       "rank": 49,
@@ -424,5 +424,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-04T03:15:21.689688+00:00"
+  "last_updated": "2026-06-04T03:20:27.137029+00:00"
 }
