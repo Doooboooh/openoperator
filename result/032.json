@@ -132,6 +132,14 @@
     },
     {
       "rank": 16,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.011833632592620316,
+      "latency": 5252.064360926549,
+      "timestamp": "2026-06-04T08:29:59.532590+00:00"
+    },
+    {
+      "rank": 17,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.010686272824569893,
@@ -139,7 +147,7 @@
       "timestamp": "2026-06-03T14:58:32.956338+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.009591500800728524,
@@ -147,7 +155,7 @@
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0083846278812977,
@@ -156,7 +164,7 @@
       "commit_sha": "08fec8aa754a092009a87a5292621a7b653d06dc"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0072819650519770265,
@@ -164,7 +172,7 @@
       "timestamp": "2026-05-25T06:53:52.381239+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.0054999169750518,
@@ -172,7 +180,7 @@
       "timestamp": "2026-06-01T08:23:20.985400+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.004365550021412027,
@@ -180,7 +188,7 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.00018877851763307365,
@@ -189,7 +197,7 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 2.536238934795308e-05,
@@ -198,5 +206,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-04T02:04:29.951063+00:00"
+  "last_updated": "2026-06-04T08:35:03.196750+00:00"
 }
