@@ -88,6 +88,14 @@
     },
     {
       "rank": 11,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.011392595335921154,
+      "latency": 2527.606673538685,
+      "timestamp": "2026-06-04T19:12:00.009679+00:00"
+    },
+    {
+      "rank": 12,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.011388349527372563,
@@ -95,7 +103,7 @@
       "timestamp": "2026-05-30T14:50:31.418533+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01124093845168104,
@@ -103,7 +111,7 @@
       "timestamp": "2026-05-23T07:58:45.555212+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.011071531447485773,
@@ -111,7 +119,7 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 3.8143152247028627e-06,
@@ -120,5 +128,5 @@
       "commit_sha": "487dd70d07257e17b1ede7c7a62d92c2747de48d"
     }
   ],
-  "last_updated": "2026-06-04T02:34:57.967458+00:00"
+  "last_updated": "2026-06-04T19:13:37.272939+00:00"
 }

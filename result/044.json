@@ -56,6 +56,14 @@
     },
     {
       "rank": 7,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.030964936805713775,
+      "latency": 2239.5653650164604,
+      "timestamp": "2026-06-04T19:12:00.009679+00:00"
+    },
+    {
+      "rank": 8,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.03081029903402717,
@@ -64,7 +72,7 @@
       "commit_sha": "a911e8965177c8f5c6d3cebe605c8fc90d86860c"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.03055471810043168,
@@ -72,7 +80,7 @@
       "timestamp": "2026-06-04T09:53:03.785717+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.030428393030637407,
@@ -80,7 +88,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.0296219468583496,
@@ -89,7 +97,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.02951581081337652,
@@ -98,21 +106,13 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.029194031072124902,
       "latency": 2375.417078534762,
       "timestamp": "2026-05-18T09:19:32.058156+00:00",
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
-    },
-    {
-      "rank": 13,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.029059323561092306,
-      "latency": 2386.428570995728,
-      "timestamp": "2026-06-04T11:44:32.152337+00:00"
     },
     {
       "rank": 14,
@@ -180,5 +180,5 @@
       "commit_sha": "d15f03b46e5577176f5b85845274f8658b2db995"
     }
   ],
-  "last_updated": "2026-06-04T18:43:18.455864+00:00"
+  "last_updated": "2026-06-04T19:13:37.251218+00:00"
 }

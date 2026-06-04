@@ -48,6 +48,14 @@
     },
     {
       "rank": 6,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.0786438561968825,
+      "latency": 2250.1821319262185,
+      "timestamp": "2026-06-04T19:12:00.009679+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.07841471391893363,
@@ -56,7 +64,7 @@
       "commit_sha": "2b92698f90f3d741e801c7619f9ddfcfefd80483"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.07706814369952983,
@@ -64,7 +72,7 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.07550200020060163,
@@ -72,7 +80,7 @@
       "timestamp": "2026-05-31T13:16:19.101893+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.07505077417670286,
@@ -80,20 +88,12 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.07416819024957584,
       "latency": 2385.9689633051553,
       "timestamp": "2026-05-31T07:56:11.547301+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.07392062101681407,
-      "latency": 2393.9598662157855,
-      "timestamp": "2026-06-04T14:07:05.717409+00:00"
     },
     {
       "rank": 12,
@@ -163,5 +163,5 @@
       "timestamp": "2026-06-02T00:49:42.638722+00:00"
     }
   ],
-  "last_updated": "2026-06-04T18:17:59.617895+00:00"
+  "last_updated": "2026-06-04T19:13:37.253061+00:00"
 }
