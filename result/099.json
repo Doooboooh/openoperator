@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 4.364470534162369,
+      "latency": 37.657717863718666,
+      "timestamp": "2026-06-04T23:45:58.118422+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.07328204325158563,
@@ -12,7 +20,7 @@
       "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.06751351266571212,
@@ -21,7 +29,7 @@
       "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.001578927267504498,
@@ -29,5 +37,5 @@
       "timestamp": "2026-05-19T05:26:24.842548+00:00"
     }
   ],
-  "last_updated": "2026-05-19T05:30:54.848577+00:00"
+  "last_updated": "2026-06-04T23:47:01.871439+00:00"
 }
