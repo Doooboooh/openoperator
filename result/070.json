@@ -122,6 +122,14 @@
     },
     {
       "rank": 15,
+      "user": "十八组",
+      "github": "Napiercc/BangC18",
+      "score": 0.016617397452446718,
+      "latency": 2400.736945370833,
+      "timestamp": "2026-06-04T08:39:29.697009+00:00"
+    },
+    {
+      "rank": 16,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.01627859316649303,
@@ -130,7 +138,7 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_71",
       "github": "SatoriEye/BangC",
       "score": 0.016196785143894034,
@@ -138,21 +146,13 @@
       "timestamp": "2026-05-20T02:06:56.020228+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.0159797193840508,
       "latency": 2496.5394598742328,
       "timestamp": "2026-05-18T06:53:30.117808+00:00",
       "commit_sha": "cfb0d05df9f8299c507a5f7c3bcc806445cf3bb3"
-    },
-    {
-      "rank": 18,
-      "user": "十八组",
-      "github": "Napiercc/BangC18",
-      "score": 0.015945668425691017,
-      "latency": 2501.8706607321897,
-      "timestamp": "2026-06-04T08:27:44.219442+00:00"
     },
     {
       "rank": 19,
@@ -443,5 +443,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-06-04T08:29:57.709248+00:00"
+  "last_updated": "2026-06-04T08:45:14.340675+00:00"
 }
