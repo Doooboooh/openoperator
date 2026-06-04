@@ -376,6 +376,14 @@
     },
     {
       "rank": 45,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.0005475159861361562,
+      "latency": 131199.8221402367,
+      "timestamp": "2026-06-04T14:37:11.512909+00:00"
+    },
+    {
+      "rank": 46,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0005464028530010142,
@@ -384,7 +392,7 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.0004598503930489156,
@@ -392,7 +400,7 @@
       "timestamp": "2026-05-18T14:34:32.966408+00:00"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.00042675281919458106,
@@ -400,7 +408,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 48,
+      "rank": 49,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.00017422033866975697,
@@ -408,7 +416,7 @@
       "timestamp": "2026-06-04T13:49:22.278431+00:00"
     },
     {
-      "rank": 49,
+      "rank": 50,
       "user": "十八组",
       "github": "Napiercc/BangC18",
       "score": 0.0001711175602581842,
@@ -416,7 +424,7 @@
       "timestamp": "2026-06-04T07:28:00.118269+00:00"
     },
     {
-      "rank": 50,
+      "rank": 51,
       "user": "team_46",
       "github": "1LLLei/openoperator-start-kit_BangC_competition",
       "score": 0.0001552838722181416,
@@ -425,7 +433,7 @@
       "commit_sha": "bf68a391f54eec4b9a0b8d14a63a440406411edf"
     },
     {
-      "rank": 51,
+      "rank": 52,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.00013408868074242132,
@@ -433,7 +441,7 @@
       "timestamp": "2026-05-28T08:40:41.813974+00:00"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 3.437691486652544e-05,
@@ -442,7 +450,7 @@
       "commit_sha": "4f2c118fee212a2159d652cc1bb22b42efb39597"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 4.417527535643685e-06,
@@ -451,5 +459,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-04T13:53:54.154275+00:00"
+  "last_updated": "2026-06-04T14:39:33.791069+00:00"
 }
