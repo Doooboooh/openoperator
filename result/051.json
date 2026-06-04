@@ -318,6 +318,14 @@
     },
     {
       "rank": 38,
+      "user": "team_80",
+      "github": "MariyaSuwako/openoperator-start-kit",
+      "score": 0.0016228188332853021,
+      "latency": 29344.002561022837,
+      "timestamp": "2026-06-04T12:06:44.249968+00:00"
+    },
+    {
+      "rank": 39,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0015899956642284137,
@@ -326,7 +334,7 @@
       "commit_sha": "276526c96a7d6967fee19a5816081bbc1b0a7790"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0009615241002383644,
@@ -334,7 +342,7 @@
       "timestamp": "2026-05-21T07:34:23.118332+00:00"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0008693041438489338,
@@ -343,7 +351,7 @@
       "commit_sha": "1f30091b09493541a7d78a1ea37896dafa0b6c0d"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0005088823886395614,
@@ -351,7 +359,7 @@
       "timestamp": "2026-05-20T07:46:51.605493+00:00"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "team_44",
       "github": "OrangeL-ucas/SBangC",
       "score": 0.0002899710048699043,
@@ -359,7 +367,7 @@
       "timestamp": "2026-06-01T09:28:02.481475+00:00"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.0002032145729232252,
@@ -367,5 +375,5 @@
       "timestamp": "2026-05-31T09:21:20.668509+00:00"
     }
   ],
-  "last_updated": "2026-06-04T07:29:08.852536+00:00"
+  "last_updated": "2026-06-04T12:07:23.868540+00:00"
 }
