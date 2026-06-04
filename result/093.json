@@ -63,6 +63,14 @@
     },
     {
       "rank": 8,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.0320835648898365,
+      "latency": 2469.2704901099205,
+      "timestamp": "2026-06-04T01:44:23.199927+00:00"
+    },
+    {
+      "rank": 9,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.031002890366039818,
@@ -70,7 +78,7 @@
       "timestamp": "2026-06-01T06:21:42.419558+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.030596102491730205,
@@ -79,7 +87,7 @@
       "commit_sha": "12d3b11bab86076c32f77af1bd3da814cf30e1b6"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.02873481540409705,
@@ -88,7 +96,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.027549952978855492,
@@ -97,7 +105,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.025901074947358868,
@@ -105,7 +113,7 @@
       "timestamp": "2026-06-01T14:16:22.226562+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.025304214909479043,
@@ -113,7 +121,7 @@
       "timestamp": "2026-05-30T22:16:36.224930+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "养老组",
       "github": "ZiFengQiao/op_retirement",
       "score": 0.01842887631423377,
@@ -121,5 +129,5 @@
       "timestamp": "2026-06-02T08:32:24.853158+00:00"
     }
   ],
-  "last_updated": "2026-06-03T03:46:41.397486+00:00"
+  "last_updated": "2026-06-04T01:49:16.082482+00:00"
 }
