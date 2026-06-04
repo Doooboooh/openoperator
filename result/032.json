@@ -81,6 +81,15 @@
     },
     {
       "rank": 10,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.022754741733946593,
+      "latency": 2731.342799961567,
+      "timestamp": "2026-06-04T18:14:36.647278+00:00",
+      "commit_sha": "7a97d59bf187777bfb6bfd6f30832e3a58d980f5"
+    },
+    {
+      "rank": 11,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.022656280848334303,
@@ -88,7 +97,7 @@
       "timestamp": "2026-05-29T03:05:22.802755+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.022490687518229597,
@@ -96,21 +105,12 @@
       "timestamp": "2026-06-01T09:13:04.178755+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.022107960577654916,
       "latency": 2811.2498112022877,
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
-    },
-    {
-      "rank": 13,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.021629793563286922,
-      "latency": 2873.397742708524,
-      "timestamp": "2026-05-24T07:45:54.942529+00:00",
-      "commit_sha": "7a97d59bf187777bfb6bfd6f30832e3a58d980f5"
     },
     {
       "rank": 14,
@@ -206,5 +206,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-04T15:35:37.169705+00:00"
+  "last_updated": "2026-06-04T18:17:59.626119+00:00"
 }

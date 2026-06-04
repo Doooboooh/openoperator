@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 3.856825043000848,
+      "latency": 2056.6250508030257,
+      "timestamp": "2026-06-04T18:14:36.647278+00:00"
+    },
+    {
+      "rank": 4,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 3.7958356403946336,
@@ -30,7 +38,7 @@
       "commit_sha": "ee32f3f936107e9dce60e1bba33e1a58a22f5ebe"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 3.774004457688259,
@@ -38,7 +46,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 3.708021497147616,
@@ -46,7 +54,7 @@
       "timestamp": "2026-05-31T13:16:19.101893+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 3.7034152776230704,
@@ -55,7 +63,7 @@
       "commit_sha": "5b5c0bf64367f0e22bf496bf632790e5d95d9286"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 3.691504385598423,
@@ -63,7 +71,7 @@
       "timestamp": "2026-06-01T19:45:51.915877+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 3.655361856160248,
@@ -71,21 +79,13 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 3.5739869284242745,
       "latency": 2219.382207840681,
       "timestamp": "2026-06-02T02:39:46.357367+00:00",
       "commit_sha": "be1bf3d864a6c4c3ed194e5124dd4be8757efed6"
-    },
-    {
-      "rank": 10,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 3.5561864237094083,
-      "latency": 2230.491333951553,
-      "timestamp": "2026-06-01T14:16:22.226562+00:00"
     },
     {
       "rank": 11,
@@ -147,5 +147,5 @@
       "timestamp": "2026-05-29T12:11:39.984178+00:00"
     }
   ],
-  "last_updated": "2026-06-04T14:09:10.675065+00:00"
+  "last_updated": "2026-06-04T18:17:59.627145+00:00"
 }
