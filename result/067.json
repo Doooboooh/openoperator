@@ -58,6 +58,14 @@
     },
     {
       "rank": 7,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 0.036174488738176344,
+      "latency": 2223.5006714860597,
+      "timestamp": "2026-06-04T02:30:12.101709+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.03566420811791529,
@@ -66,20 +74,12 @@
       "commit_sha": "55a7e51c69317bce5000a0e5f221f72eed68d791"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.034190104712236,
       "latency": 2352.5520227849483,
       "timestamp": "2026-06-03T11:33:12.248286+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "二十四组",
-      "github": "Hengyu-Yu/OpenOperator-Group24",
-      "score": 0.033890235116253456,
-      "latency": 2373.368013650179,
-      "timestamp": "2026-06-04T02:14:57.812775+00:00"
     },
     {
       "rank": 10,
@@ -139,5 +139,5 @@
       "commit_sha": "1735b38130fa080911566f71b9d0c143d4064d0b"
     }
   ],
-  "last_updated": "2026-06-04T02:19:45.432888+00:00"
+  "last_updated": "2026-06-04T02:34:57.961912+00:00"
 }
