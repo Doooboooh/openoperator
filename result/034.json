@@ -399,6 +399,14 @@
     },
     {
       "rank": 48,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 0.0003379103448400875,
+      "latency": 130123.27284862597,
+      "timestamp": "2026-06-04T03:14:10.964615+00:00"
+    },
+    {
+      "rank": 49,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 7.880395958100901e-05,
@@ -407,7 +415,7 @@
       "commit_sha": "55232e0b64bf5fd13ad3827aa170673725087891"
     },
     {
-      "rank": 49,
+      "rank": 50,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 2.6331056431057348e-06,
@@ -416,5 +424,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-04T02:40:02.614776+00:00"
+  "last_updated": "2026-06-04T03:15:21.689688+00:00"
 }
