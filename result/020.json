@@ -55,6 +55,14 @@
     },
     {
       "rank": 7,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.03388860125547728,
+      "latency": 50631.71498477459,
+      "timestamp": "2026-06-04T13:05:26.612642+00:00"
+    },
+    {
+      "rank": 8,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.001832181675780052,
@@ -63,7 +71,7 @@
       "commit_sha": "713f98a551ec17c0ae58ac01158f62398602b748"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0014744794908902897,
@@ -71,7 +79,7 @@
       "timestamp": "2026-05-31T03:21:00.744676+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.000696679433857626,
@@ -79,7 +87,7 @@
       "timestamp": "2026-06-01T07:16:38.171191+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 8.918831055647221e-05,
@@ -87,7 +95,7 @@
       "timestamp": "2026-05-19T06:39:53.310374+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 1.4844892274524551e-05,
@@ -95,5 +103,5 @@
       "timestamp": "2026-05-18T14:41:00.506323+00:00"
     }
   ],
-  "last_updated": "2026-06-04T06:43:28.219918+00:00"
+  "last_updated": "2026-06-04T13:08:14.249921+00:00"
 }
