@@ -351,6 +351,14 @@
     },
     {
       "rank": 42,
+      "user": "二十四组",
+      "github": "Hengyu-Yu/OpenOperator-Group24",
+      "score": 0.0015568644964794774,
+      "latency": 18426.780278484028,
+      "timestamp": "2026-06-04T06:38:50.146475+00:00"
+    },
+    {
+      "rank": 43,
       "user": "智算第九组",
       "github": "adwsssss/BangC09",
       "score": 0.0015379015873754377,
@@ -358,20 +366,12 @@
       "timestamp": "2026-05-19T06:44:07.140248+00:00"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.0015137321255191591,
       "latency": 18951.834024240572,
       "timestamp": "2026-05-20T10:12:46.860787+00:00"
-    },
-    {
-      "rank": 44,
-      "user": "二十四组",
-      "github": "Hengyu-Yu/OpenOperator-Group24",
-      "score": 0.001508027248007721,
-      "latency": 19023.528943459194,
-      "timestamp": "2026-06-04T04:09:09.026142+00:00"
     },
     {
       "rank": 45,
@@ -392,5 +392,5 @@
       "commit_sha": "56e8d6715d42ecea38af6d2d83d20d043464aeab"
     }
   ],
-  "last_updated": "2026-06-04T04:11:02.431694+00:00"
+  "last_updated": "2026-06-04T06:43:28.220377+00:00"
 }
