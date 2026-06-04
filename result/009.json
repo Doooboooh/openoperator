@@ -393,6 +393,14 @@
     },
     {
       "rank": 47,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.0001730069664824791,
+      "latency": 415208.7136171758,
+      "timestamp": "2026-06-04T13:18:00.760619+00:00"
+    },
+    {
+      "rank": 48,
       "user": "十八组",
       "github": "Napiercc/BangC18",
       "score": 0.0001711175602581842,
@@ -400,7 +408,7 @@
       "timestamp": "2026-06-04T07:28:00.118269+00:00"
     },
     {
-      "rank": 48,
+      "rank": 49,
       "user": "team_46",
       "github": "1LLLei/openoperator-start-kit_BangC_competition",
       "score": 0.0001552838722181416,
@@ -409,7 +417,7 @@
       "commit_sha": "bf68a391f54eec4b9a0b8d14a63a440406411edf"
     },
     {
-      "rank": 49,
+      "rank": 50,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.00013408868074242132,
@@ -417,7 +425,7 @@
       "timestamp": "2026-05-28T08:40:41.813974+00:00"
     },
     {
-      "rank": 50,
+      "rank": 51,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 3.437691486652544e-05,
@@ -426,7 +434,7 @@
       "commit_sha": "4f2c118fee212a2159d652cc1bb22b42efb39597"
     },
     {
-      "rank": 51,
+      "rank": 52,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 4.417527535643685e-06,
@@ -435,5 +443,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-04T12:52:57.964916+00:00"
+  "last_updated": "2026-06-04T13:23:31.579081+00:00"
 }
