@@ -249,21 +249,21 @@
     },
     {
       "rank": 30,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.0031217767566097433,
+      "latency": 15254.133691390356,
+      "timestamp": "2026-06-04T05:52:57.780308+00:00",
+      "commit_sha": "60b693d9e83360244f58bba0571219210d07c63b"
+    },
+    {
+      "rank": 31,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.003111962899278385,
       "latency": 15302.23898589611,
       "timestamp": "2026-05-18T05:46:11.849419+00:00",
       "commit_sha": "1129a3afdfe17f4b4dc6d1ab8bd95c63670fcf4e"
-    },
-    {
-      "rank": 31,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.0031081345097188394,
-      "latency": 15321.087247381607,
-      "timestamp": "2026-06-03T16:50:31.464110+00:00",
-      "commit_sha": "60b693d9e83360244f58bba0571219210d07c63b"
     },
     {
       "rank": 32,
@@ -359,5 +359,5 @@
       "timestamp": "2026-05-31T09:21:20.668509+00:00"
     }
   ],
-  "last_updated": "2026-06-04T04:11:02.433865+00:00"
+  "last_updated": "2026-06-04T05:57:38.791488+00:00"
 }
