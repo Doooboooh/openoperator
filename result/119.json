@@ -38,6 +38,15 @@
     },
     {
       "rank": 5,
+      "user": "team_18",
+      "github": "wbr258/openoperator-start-kit",
+      "score": 0.041367367898202535,
+      "latency": 2340.7580641408763,
+      "timestamp": "2026-06-04T06:59:59.671671+00:00",
+      "commit_sha": "8e360ec462fad2c90f60fa986ec2431e192219e5"
+    },
+    {
+      "rank": 6,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.04133304661879933,
@@ -45,7 +54,7 @@
       "timestamp": "2026-05-24T11:07:54.096842+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.0409364797022409,
@@ -53,7 +62,7 @@
       "timestamp": "2026-06-02T04:46:06.457141+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0407856427185686,
@@ -62,7 +71,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.04071618037033843,
@@ -71,7 +80,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.03990530429698147,
@@ -79,7 +88,7 @@
       "timestamp": "2026-05-29T11:42:06.976741+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.03879403583129271,
@@ -87,21 +96,12 @@
       "timestamp": "2026-05-31T02:36:01.443878+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.035424472708293464,
       "latency": 2733.449296404918,
       "timestamp": "2026-06-03T14:08:25.201221+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "team_18",
-      "github": "wbr258/openoperator-start-kit",
-      "score": 0.033933290474922925,
-      "latency": 2853.5694194336734,
-      "timestamp": "2026-05-18T06:50:01.423446+00:00",
-      "commit_sha": "8e360ec462fad2c90f60fa986ec2431e192219e5"
     },
     {
       "rank": 13,
@@ -146,5 +146,5 @@
       "timestamp": "2026-06-03T15:57:34.885156+00:00"
     }
   ],
-  "last_updated": "2026-06-03T16:00:25.306626+00:00"
+  "last_updated": "2026-06-04T07:03:51.041404+00:00"
 }
