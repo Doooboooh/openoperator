@@ -1,6 +1,15 @@
 {
   "problem_id": "136",
   "problem_name": "136_Grouped_conv_2D",
-  "results": [],
-  "last_updated": "2026-05-18T05:45:54.601374+00:00"
+  "results": [
+    {
+      "rank": 1,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 1.0643463388397436,
+      "latency": 3132.6748430728912,
+      "timestamp": "2026-06-05T01:25:00.370493+00:00"
+    }
+  ],
+  "last_updated": "2026-06-05T01:27:49.303027+00:00"
 }
