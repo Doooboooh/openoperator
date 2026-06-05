@@ -223,6 +223,14 @@
     },
     {
       "rank": 27,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.0035494013136945233,
+      "latency": 13416.347093880177,
+      "timestamp": "2026-06-05T02:55:28.665243+00:00"
+    },
+    {
+      "rank": 28,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.0034712878806576596,
@@ -230,7 +238,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.0034143755952354875,
@@ -239,20 +247,12 @@
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_4",
       "github": "wangyongping1/ICS-53TEAM",
       "score": 0.003412442572994007,
       "latency": 13954.813592135906,
       "timestamp": "2026-06-03T14:38:59.869060+00:00"
-    },
-    {
-      "rank": 30,
-      "user": "team_2",
-      "github": "HT1108/BangcOperator",
-      "score": 0.0033939967256467873,
-      "latency": 14030.655845999718,
-      "timestamp": "2026-06-05T02:02:02.896857+00:00"
     },
     {
       "rank": 31,
@@ -399,5 +399,5 @@
       "timestamp": "2026-05-31T09:21:20.668509+00:00"
     }
   ],
-  "last_updated": "2026-06-05T02:03:03.873711+00:00"
+  "last_updated": "2026-06-05T02:58:52.954720+00:00"
 }
