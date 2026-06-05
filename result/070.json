@@ -233,19 +233,19 @@
     },
     {
       "rank": 28,
+      "user": "team_75",
+      "github": "Jiaqi7zzz/operator-31",
+      "score": 0.014654727471190959,
+      "latency": 2722.2614735364914,
+      "timestamp": "2026-06-05T17:45:05.913454+00:00"
+    },
+    {
+      "rank": 29,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.01404668306624725,
       "latency": 2840.1010980208716,
       "timestamp": "2026-06-05T02:55:28.665243+00:00"
-    },
-    {
-      "rank": 29,
-      "user": "team_75",
-      "github": "Jiaqi7zzz/operator-31",
-      "score": 0.013684386457532715,
-      "latency": 2915.2932887276015,
-      "timestamp": "2026-06-05T17:31:32.836864+00:00"
     },
     {
       "rank": 30,
@@ -483,5 +483,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-06-05T17:33:14.402255+00:00"
+  "last_updated": "2026-06-05T17:48:28.931744+00:00"
 }
