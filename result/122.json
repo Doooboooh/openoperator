@@ -129,6 +129,14 @@
     },
     {
       "rank": 16,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.0020751767580821107,
+      "latency": 57010.56526352962,
+      "timestamp": "2026-06-05T09:26:20.204075+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.0020479991772820354,
@@ -136,7 +144,7 @@
       "timestamp": "2026-06-05T09:17:43.466911+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.001196329702040764,
@@ -144,7 +152,7 @@
       "timestamp": "2026-05-19T05:38:13.473617+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 9.637297740420454e-06,
@@ -153,5 +161,5 @@
       "commit_sha": "5c79291d0dcfd506ab5ce2ba3bcd154bd69fe103"
     }
   ],
-  "last_updated": "2026-06-05T09:18:30.449315+00:00"
+  "last_updated": "2026-06-05T09:28:40.398122+00:00"
 }
