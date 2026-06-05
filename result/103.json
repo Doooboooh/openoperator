@@ -90,6 +90,14 @@
     },
     {
       "rank": 11,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.016534842615243787,
+      "latency": 2554.061201711496,
+      "timestamp": "2026-06-05T02:36:18.099498+00:00"
+    },
+    {
+      "rank": 12,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.01652350219860368,
@@ -98,7 +106,7 @@
       "commit_sha": "e5381a5a9ca091bc7be5762a67f35e70a5f40aba"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "十八组",
       "github": "Napiercc/BangC18",
       "score": 0.016248783724270046,
@@ -106,7 +114,7 @@
       "timestamp": "2026-06-03T16:03:17.335584+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.016166256524442632,
@@ -114,7 +122,7 @@
       "timestamp": "2026-05-29T09:15:56.512630+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.016019475165888572,
@@ -122,7 +130,7 @@
       "timestamp": "2026-05-19T07:22:21.979717+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.015946939288180206,
@@ -131,7 +139,7 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.015891397258146183,
@@ -139,7 +147,7 @@
       "timestamp": "2026-05-20T10:00:06.258766+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_4",
       "github": "wangyongping1/ICS-53TEAM",
       "score": 0.01583435230520555,
@@ -147,20 +155,12 @@
       "timestamp": "2026-06-03T08:39:36.558294+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.014977872996631302,
       "latency": 2819.559226433436,
       "timestamp": "2026-05-31T14:31:27.041236+00:00"
-    },
-    {
-      "rank": 19,
-      "user": "team_2",
-      "github": "HT1108/BangcOperator",
-      "score": 0.014928577524739788,
-      "latency": 2828.869658211867,
-      "timestamp": "2026-06-05T02:10:02.775996+00:00"
     },
     {
       "rank": 20,
@@ -467,5 +467,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-05T02:33:33.142044+00:00"
+  "last_updated": "2026-06-05T02:38:38.267669+00:00"
 }

@@ -228,19 +228,19 @@
     },
     {
       "rank": 28,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.01442961469482865,
+      "latency": 30939.42627310753,
+      "timestamp": "2026-06-05T02:36:18.099498+00:00"
+    },
+    {
+      "rank": 29,
       "user": "加油组",
       "github": "lao7tomato/BangCompetition",
       "score": 0.014258600253666707,
       "latency": 31310.506785909336,
       "timestamp": "2026-06-04T06:12:16.387206+00:00"
-    },
-    {
-      "rank": 29,
-      "user": "team_2",
-      "github": "HT1108/BangcOperator",
-      "score": 0.014040901837215916,
-      "latency": 31795.963334540527,
-      "timestamp": "2026-06-05T02:02:02.896857+00:00"
     },
     {
       "rank": 30,
@@ -441,5 +441,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-05T02:03:03.864445+00:00"
+  "last_updated": "2026-06-05T02:38:38.263555+00:00"
 }

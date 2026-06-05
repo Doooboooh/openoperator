@@ -225,6 +225,14 @@
     },
     {
       "rank": 27,
+      "user": "team_2",
+      "github": "HT1108/BangcOperator",
+      "score": 0.013411751694943932,
+      "latency": 2974.5555172363916,
+      "timestamp": "2026-06-05T02:36:18.099498+00:00"
+    },
+    {
+      "rank": 28,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.01335787527493441,
@@ -232,7 +240,7 @@
       "timestamp": "2026-05-26T12:24:39.333060+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.013298348730048141,
@@ -241,21 +249,13 @@
       "commit_sha": "d92172fad4e3e3839c760d083b53ebc7fe001040"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.012790896780155351,
       "latency": 3118.9369037747383,
       "timestamp": "2026-05-18T06:17:28.701402+00:00",
       "commit_sha": "a7558f4c9026636c874dfb5d112eff7a769b0b8d"
-    },
-    {
-      "rank": 30,
-      "user": "team_2",
-      "github": "HT1108/BangcOperator",
-      "score": 0.012574996037393977,
-      "latency": 3172.486089169979,
-      "timestamp": "2026-06-05T02:10:02.775996+00:00"
     },
     {
       "rank": 31,
@@ -459,5 +459,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-06-05T02:13:13.570071+00:00"
+  "last_updated": "2026-06-05T02:38:38.261595+00:00"
 }
