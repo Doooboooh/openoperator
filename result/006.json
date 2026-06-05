@@ -48,6 +48,15 @@
     },
     {
       "rank": 6,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.11430009562608057,
+      "latency": 2940.863681336244,
+      "timestamp": "2026-06-05T12:19:18.672156+00:00",
+      "commit_sha": "75b1019b699f11ede2f84441c66adb0635e6d1e6"
+    },
+    {
+      "rank": 7,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.11350655377120952,
@@ -56,7 +65,7 @@
       "commit_sha": "1fa5fc3b827a224bf1015c82150766259f2d397b"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.06869214164731463,
@@ -65,7 +74,7 @@
       "commit_sha": "e53be12a3b403ce2c70cce800900acb45ef91bab"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.06661010054168175,
@@ -74,7 +83,7 @@
       "commit_sha": "646976e0beae3891ae9c511b4a8e40ac4989e37b"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.05964724495389092,
@@ -83,7 +92,7 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.05670035330222063,
@@ -91,7 +100,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.05508043913147439,
@@ -99,7 +108,7 @@
       "timestamp": "2026-05-22T06:41:15.167388+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "养老组",
       "github": "ZiFengQiao/op_retirement",
       "score": 0.04711535258469014,
@@ -107,21 +116,12 @@
       "timestamp": "2026-06-02T08:32:24.853158+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.02667975156225184,
       "latency": 12599.10532583793,
       "timestamp": "2026-06-04T05:50:05.439623+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.017241539691119766,
-      "latency": 19495.99664658308,
-      "timestamp": "2026-05-18T05:57:14.950661+00:00",
-      "commit_sha": "75b1019b699f11ede2f84441c66adb0635e6d1e6"
     },
     {
       "rank": 15,
@@ -238,5 +238,5 @@
       "timestamp": "2026-05-31T07:04:03.908953+00:00"
     }
   ],
-  "last_updated": "2026-06-05T05:56:16.840120+00:00"
+  "last_updated": "2026-06-05T12:20:06.261466+00:00"
 }
