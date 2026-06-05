@@ -501,19 +501,19 @@
     },
     {
       "rank": 60,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.16012615709597985,
+      "latency": 51677.197217941284,
+      "timestamp": "2026-06-05T19:52:41.906940+00:00"
+    },
+    {
+      "rank": 61,
       "user": "提示词大师",
       "github": "Zhang-Jiahe/Prompt-Master-bangc-operator-competition",
       "score": 0.15983116864045616,
       "latency": 51772.573962807655,
       "timestamp": "2026-06-03T14:05:06.455425+00:00"
-    },
-    {
-      "rank": 61,
-      "user": "888",
-      "github": "RuixiZhang0906/888-op-gen",
-      "score": 0.1597086332953126,
-      "latency": 51812.29611237844,
-      "timestamp": "2026-06-04T01:17:22.992995+00:00"
     },
     {
       "rank": 62,
@@ -583,5 +583,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-06-05T14:06:33.459459+00:00"
+  "last_updated": "2026-06-05T19:53:58.013833+00:00"
 }

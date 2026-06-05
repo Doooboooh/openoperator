@@ -57,20 +57,20 @@
     },
     {
       "rank": 7,
+      "user": "888",
+      "github": "RuixiZhang0906/888-op-gen",
+      "score": 0.02263268278378356,
+      "latency": 2485.7415507237115,
+      "timestamp": "2026-06-05T19:52:41.906940+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.022566320817530666,
       "latency": 2493.0515016118684,
       "timestamp": "2026-05-18T16:07:28.064982+00:00",
       "commit_sha": "49516f907efecfd0c079ed4463ca28dc9a8b3ce1"
-    },
-    {
-      "rank": 8,
-      "user": "888",
-      "github": "RuixiZhang0906/888-op-gen",
-      "score": 0.02171316840472827,
-      "latency": 2591.008320450783,
-      "timestamp": "2026-06-05T16:32:04.350904+00:00"
     },
     {
       "rank": 9,
@@ -187,5 +187,5 @@
       "timestamp": "2026-06-03T15:57:34.885156+00:00"
     }
   ],
-  "last_updated": "2026-06-05T16:37:49.039561+00:00"
+  "last_updated": "2026-06-05T19:53:58.016702+00:00"
 }
