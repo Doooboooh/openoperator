@@ -89,6 +89,14 @@
     },
     {
       "rank": 11,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.00931890176707566,
+      "latency": 11288.025416433811,
+      "timestamp": "2026-06-05T12:35:22.458554+00:00"
+    },
+    {
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.009119905803798992,
@@ -96,7 +104,7 @@
       "timestamp": "2026-05-31T08:15:38.687648+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.006572302017761677,
@@ -104,7 +112,7 @@
       "timestamp": "2026-06-03T14:48:48.412589+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.006407939191419518,
@@ -113,7 +121,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "养老组",
       "github": "ZiFengQiao/op_retirement",
       "score": 0.0034033128011017964,
@@ -121,7 +129,7 @@
       "timestamp": "2026-06-02T12:04:30.532165+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0014997556678986409,
@@ -129,7 +137,7 @@
       "timestamp": "2026-05-31T12:29:14.422298+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 9.488115241465566e-05,
@@ -137,20 +145,12 @@
       "timestamp": "2026-06-04T17:42:57.637297+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 6.232400623997355e-05,
       "latency": 1687824.7459729512,
       "timestamp": "2026-06-02T11:49:51.894346+00:00"
-    },
-    {
-      "rank": 18,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 6.223042784458965e-05,
-      "latency": 1690362.79587696,
-      "timestamp": "2026-06-05T11:05:05.788788+00:00"
     },
     {
       "rank": 19,
@@ -171,5 +171,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-05T11:09:33.427398+00:00"
+  "last_updated": "2026-06-05T12:40:21.515422+00:00"
 }
