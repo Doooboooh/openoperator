@@ -39,6 +39,14 @@
     },
     {
       "rank": 5,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.01837412228790467,
+      "latency": 3038.022667169571,
+      "timestamp": "2026-06-05T12:33:26.808716+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.012801957149668435,
@@ -46,7 +54,7 @@
       "timestamp": "2026-06-05T07:36:38.942486+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.008704673291966728,
@@ -54,7 +62,7 @@
       "timestamp": "2026-06-05T04:03:43.486650+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.003257972254342484,
@@ -62,7 +70,7 @@
       "timestamp": "2026-06-04T02:18:09.982782+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.002853361034037622,
@@ -71,7 +79,7 @@
       "commit_sha": "5589a11fd4078ee814385f6bbde2f5cdfb06c780"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.00021829919147662436,
@@ -79,7 +87,7 @@
       "timestamp": "2026-06-01T06:00:37.252023+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.00013664089631456228,
@@ -87,20 +95,12 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.00013314997660905545,
       "latency": 419234.0203250448,
       "timestamp": "2026-06-01T19:36:37.627238+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.00013101156174855574,
-      "latency": 426076.89928263426,
-      "timestamp": "2026-06-05T12:10:10.451848+00:00"
     },
     {
       "rank": 13,
@@ -119,5 +119,5 @@
       "timestamp": "2026-06-03T13:49:28.804144+00:00"
     }
   ],
-  "last_updated": "2026-06-05T12:15:01.492314+00:00"
+  "last_updated": "2026-06-05T12:35:16.068238+00:00"
 }
