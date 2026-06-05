@@ -453,6 +453,14 @@
     },
     {
       "rank": 54,
+      "user": "team_77",
+      "github": "Atopos666/BangC_Team41",
+      "score": 0.1616830165264493,
+      "latency": 51179.59311852852,
+      "timestamp": "2026-06-05T03:37:20.363136+00:00"
+    },
+    {
+      "rank": 55,
       "user": "二十七组",
       "github": "zhangmuxiang/27_openoperator-start-kit",
       "score": 0.16167198806563365,
@@ -460,7 +468,7 @@
       "timestamp": "2026-05-23T16:23:27.453216+00:00"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "team_98",
       "github": "LSY839/bangc-competition",
       "score": 0.16110736124509503,
@@ -468,7 +476,7 @@
       "timestamp": "2026-05-18T15:10:25.096773+00:00"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "team_97",
       "github": "Clear-YW/bangc",
       "score": 0.16025762283525216,
@@ -476,7 +484,7 @@
       "timestamp": "2026-06-02T08:27:05.862735+00:00"
     },
     {
-      "rank": 57,
+      "rank": 58,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.16020712543351376,
@@ -484,20 +492,12 @@
       "timestamp": "2026-05-30T13:37:38.481081+00:00"
     },
     {
-      "rank": 58,
+      "rank": 59,
       "user": "提示词大师",
       "github": "Zhang-Jiahe/Prompt-Master-bangc-operator-competition",
       "score": 0.15983116864045616,
       "latency": 51772.573962807655,
       "timestamp": "2026-06-03T14:05:06.455425+00:00"
-    },
-    {
-      "rank": 59,
-      "user": "team_77",
-      "github": "QAQqingcheng/openoperator-start-kit",
-      "score": 0.1598120209389337,
-      "latency": 51778.77703681588,
-      "timestamp": "2026-06-04T09:21:13.362450+00:00"
     },
     {
       "rank": 60,
@@ -575,5 +575,5 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     }
   ],
-  "last_updated": "2026-06-05T02:33:33.138963+00:00"
+  "last_updated": "2026-06-05T03:39:25.337377+00:00"
 }
