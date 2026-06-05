@@ -65,6 +65,14 @@
     },
     {
       "rank": 8,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.07034413266201554,
+      "latency": 4643.116456766923,
+      "timestamp": "2026-06-05T08:56:15.311343+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.07024666625066438,
@@ -72,7 +80,7 @@
       "timestamp": "2026-06-05T03:21:26.520576+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0560429279915816,
@@ -80,7 +88,7 @@
       "timestamp": "2026-05-20T04:55:34.122989+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.039562795220937995,
@@ -88,7 +96,7 @@
       "timestamp": "2026-05-31T09:14:23.729237+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.028409305710297244,
@@ -96,7 +104,7 @@
       "timestamp": "2026-06-05T04:15:52.264576+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01948886777240174,
@@ -104,7 +112,7 @@
       "timestamp": "2026-05-25T11:30:41.116965+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.01688381267766377,
@@ -113,7 +121,7 @@
       "commit_sha": "8d2e21be068311cfa76e0594b0705c14d6fe43af"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.016816849261403977,
@@ -121,7 +129,7 @@
       "timestamp": "2026-06-04T15:27:36.702580+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.016595488121819307,
@@ -129,20 +137,12 @@
       "timestamp": "2026-06-04T09:15:05.348454+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.0164528797497062,
       "latency": 19851.600751280785,
       "timestamp": "2026-05-30T22:16:36.224930+00:00"
-    },
-    {
-      "rank": 17,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.010708241187551712,
-      "latency": 30501.367524266243,
-      "timestamp": "2026-06-05T06:19:49.739701+00:00"
     },
     {
       "rank": 18,
@@ -161,5 +161,5 @@
       "timestamp": "2026-06-03T16:57:29.481134+00:00"
     }
   ],
-  "last_updated": "2026-06-05T06:21:32.209486+00:00"
+  "last_updated": "2026-06-05T08:57:55.492741+00:00"
 }
