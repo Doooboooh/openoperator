@@ -39,6 +39,15 @@
     },
     {
       "rank": 5,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.033931666754412365,
+      "latency": 2334.7806806365647,
+      "timestamp": "2026-06-05T03:30:19.074727+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 6,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.033399299369393794,
@@ -46,7 +55,7 @@
       "timestamp": "2026-06-02T06:56:06.186687+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.033132138606401726,
@@ -54,7 +63,7 @@
       "timestamp": "2026-06-03T03:43:24.487162+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.03263056669814144,
@@ -62,7 +71,7 @@
       "timestamp": "2026-05-29T12:18:30.241461+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.03230581243109484,
@@ -70,7 +79,7 @@
       "timestamp": "2026-06-04T03:59:06.695327+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.031002890366039818,
@@ -78,22 +87,13 @@
       "timestamp": "2026-06-01T06:21:42.419558+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.030596102491730205,
       "latency": 2589.3167282144227,
       "timestamp": "2026-05-18T06:44:02.721737+00:00",
       "commit_sha": "12d3b11bab86076c32f77af1bd3da814cf30e1b6"
-    },
-    {
-      "rank": 11,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.02873481540409705,
-      "latency": 2757.0387658973536,
-      "timestamp": "2026-06-02T08:05:03.461247+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 12,
@@ -137,5 +137,5 @@
       "timestamp": "2026-06-02T08:32:24.853158+00:00"
     }
   ],
-  "last_updated": "2026-06-04T19:08:32.472348+00:00"
+  "last_updated": "2026-06-05T03:34:17.674866+00:00"
 }
