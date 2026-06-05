@@ -81,19 +81,19 @@
     },
     {
       "rank": 10,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.015127575614769084,
+      "latency": 6953.658846517404,
+      "timestamp": "2026-06-05T12:43:54.460615+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.011948470394294869,
       "latency": 8803.804715474447,
       "timestamp": "2026-06-04T18:14:36.647278+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.00931890176707566,
-      "latency": 11288.025416433811,
-      "timestamp": "2026-06-05T12:35:22.458554+00:00"
     },
     {
       "rank": 12,
@@ -171,5 +171,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-05T12:40:21.515422+00:00"
+  "last_updated": "2026-06-05T12:45:26.964794+00:00"
 }
