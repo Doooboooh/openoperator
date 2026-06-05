@@ -64,6 +64,14 @@
     },
     {
       "rank": 8,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.03202767920412078,
+      "latency": 3195.548430085182,
+      "timestamp": "2026-06-05T00:45:53.408467+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.030318991507471308,
@@ -72,7 +80,7 @@
       "commit_sha": "c9c76215a81e655039e875d35c1e1a7c5be0284f"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.028785844532326688,
@@ -80,7 +88,7 @@
       "timestamp": "2026-06-02T08:05:03.461247+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0236975676504256,
@@ -89,7 +97,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.017708936093540784,
@@ -97,7 +105,7 @@
       "timestamp": "2026-05-29T13:31:06.231028+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.016625775017837734,
@@ -106,7 +114,7 @@
       "commit_sha": "aa32204e3ffa73d4c3917d9dc2c858a218f50487"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0159195533246292,
@@ -114,7 +122,7 @@
       "timestamp": "2026-06-01T05:40:20.004055+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.003509046596711414,
@@ -122,7 +130,7 @@
       "timestamp": "2026-06-02T00:53:36.973509+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.003420414822747525,
@@ -130,5 +138,5 @@
       "timestamp": "2026-05-24T13:02:23.812547+00:00"
     }
   ],
-  "last_updated": "2026-06-04T01:49:16.076118+00:00"
+  "last_updated": "2026-06-05T00:47:35.012195+00:00"
 }
