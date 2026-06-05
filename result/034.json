@@ -247,19 +247,19 @@
     },
     {
       "rank": 30,
+      "user": "从0开始干科研",
+      "github": "wyh-lyy/openoperator-start-kit",
+      "score": 0.0029995101031752573,
+      "latency": 14659.060475726923,
+      "timestamp": "2026-06-05T14:15:19.237600+00:00"
+    },
+    {
+      "rank": 31,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.0029934203301105965,
       "latency": 14688.882666329542,
       "timestamp": "2026-06-04T06:40:37.122093+00:00"
-    },
-    {
-      "rank": 31,
-      "user": "从0开始干科研",
-      "github": "wyh-lyy/openoperator-start-kit",
-      "score": 0.0029844752686335263,
-      "latency": 14732.908147076765,
-      "timestamp": "2026-06-05T14:04:24.329473+00:00"
     },
     {
       "rank": 32,
@@ -480,5 +480,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-05T14:06:33.462054+00:00"
+  "last_updated": "2026-06-05T14:16:44.018910+00:00"
 }
