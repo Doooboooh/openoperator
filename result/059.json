@@ -80,6 +80,14 @@
     },
     {
       "rank": 10,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.13797889512181685,
+      "latency": 9177.381793657938,
+      "timestamp": "2026-06-05T09:41:28.476227+00:00"
+    },
+    {
+      "rank": 11,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.10993409803924714,
@@ -87,7 +95,7 @@
       "timestamp": "2026-06-04T13:02:21.661021+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.10923608462027676,
@@ -96,7 +104,7 @@
       "commit_sha": "969815c358145da4b6b5edd6f5075eeccdc41c37"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.10539442691520455,
@@ -105,7 +113,7 @@
       "commit_sha": "5589a11fd4078ee814385f6bbde2f5cdfb06c780"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.060173771157947115,
@@ -113,5 +121,5 @@
       "timestamp": "2026-05-28T09:42:42.687630+00:00"
     }
   ],
-  "last_updated": "2026-06-04T19:08:32.475068+00:00"
+  "last_updated": "2026-06-05T09:43:51.281330+00:00"
 }
