@@ -173,6 +173,14 @@
     },
     {
       "rank": 21,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.015829051506420364,
+      "latency": 2520.302621026834,
+      "timestamp": "2026-06-05T04:50:05.793137+00:00"
+    },
+    {
+      "rank": 22,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.01558539907307727,
@@ -181,7 +189,7 @@
       "commit_sha": "0feb5a62f93324b05c34feb628bf3b52dee3d520"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.015499830625170012,
@@ -190,7 +198,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.015377469693656125,
@@ -198,7 +206,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.015165746712365155,
@@ -207,7 +215,7 @@
       "commit_sha": "e4e723290ef8e541347d068709b31ffc4fa78cb0"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.015118638021531319,
@@ -216,7 +224,7 @@
       "commit_sha": "e92831f9965b4fb7b6e9b91dfb7275ba76684027"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.01482621343736161,
@@ -224,7 +232,7 @@
       "timestamp": "2026-05-20T10:10:08.096340+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.01404668306624725,
@@ -232,7 +240,7 @@
       "timestamp": "2026-06-05T02:55:28.665243+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.01335787527493441,
@@ -240,7 +248,7 @@
       "timestamp": "2026-05-26T12:24:39.333060+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.013298348730048141,
@@ -249,7 +257,7 @@
       "commit_sha": "d92172fad4e3e3839c760d083b53ebc7fe001040"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.012790896780155351,
@@ -258,7 +266,7 @@
       "commit_sha": "a7558f4c9026636c874dfb5d112eff7a769b0b8d"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "智算第四组",
       "github": "rashxxxxxx-netizen/openoperator-work",
       "score": 0.012166015813371244,
@@ -266,7 +274,7 @@
       "timestamp": "2026-05-31T11:23:55.768870+00:00"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.009085261641712453,
@@ -274,7 +282,7 @@
       "timestamp": "2026-05-25T09:37:00.093655+00:00"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.007679853532004203,
@@ -282,7 +290,7 @@
       "timestamp": "2026-06-02T03:08:26.781614+00:00"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.007073211600714027,
@@ -290,20 +298,12 @@
       "timestamp": "2026-05-21T08:09:23.396123+00:00"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.006976270837733354,
       "latency": 5718.527982632319,
       "timestamp": "2026-05-22T08:32:36.621716+00:00"
-    },
-    {
-      "rank": 36,
-      "user": "三十二组",
-      "github": "yuanmoleisheng/BangC32",
-      "score": 0.006968434659384566,
-      "latency": 5724.95860978961,
-      "timestamp": "2026-06-04T04:36:09.858372+00:00"
     },
     {
       "rank": 37,
@@ -459,5 +459,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-06-05T03:59:44.259582+00:00"
+  "last_updated": "2026-06-05T04:55:25.214259+00:00"
 }
