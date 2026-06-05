@@ -47,6 +47,15 @@
     },
     {
       "rank": 6,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.0189077768165979,
+      "latency": 3152.3536890745163,
+      "timestamp": "2026-06-05T11:22:04.762178+00:00",
+      "commit_sha": "9bc2bc364e27cc3a03db67c35c029cd7c2f96eb4"
+    },
+    {
+      "rank": 7,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.018313780747628888,
@@ -55,7 +64,7 @@
       "commit_sha": "3abfc01d92b6644a6a4dd7bfa3be105f7af222b4"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.01657655639753758,
@@ -63,7 +72,7 @@
       "timestamp": "2026-06-03T15:49:52.963485+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.01584635235579936,
@@ -71,21 +80,12 @@
       "timestamp": "2026-06-04T05:49:47.532759+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.014199325786020725,
       "latency": 4197.664093226194,
       "timestamp": "2026-05-29T08:17:33.537123+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "team_86",
-      "github": "RachelGu2003/ICS_86Team",
-      "score": 0.013063333292039691,
-      "latency": 4562.694579362869,
-      "timestamp": "2026-05-18T06:25:54.636112+00:00",
-      "commit_sha": "9bc2bc364e27cc3a03db67c35c029cd7c2f96eb4"
     },
     {
       "rank": 11,
@@ -137,5 +137,5 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     }
   ],
-  "last_updated": "2026-06-05T00:47:35.016128+00:00"
+  "last_updated": "2026-06-05T11:24:44.685576+00:00"
 }
