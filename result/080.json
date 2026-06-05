@@ -97,6 +97,15 @@
     },
     {
       "rank": 12,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.021898331330526846,
+      "latency": 2465.0280053416886,
+      "timestamp": "2026-06-05T13:26:34.343794+00:00",
+      "commit_sha": "7fbbbb8a79fea7863c26e38b636105e9810628f4"
+    },
+    {
+      "rank": 13,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.021617465833740385,
@@ -104,7 +113,7 @@
       "timestamp": "2026-06-04T19:12:00.009679+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.02131078397520189,
@@ -112,7 +121,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.021101857179991152,
@@ -121,7 +130,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.020858315724587354,
@@ -130,21 +139,12 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.020138063983289326,
       "latency": 2680.496002237002,
       "timestamp": "2026-06-02T05:21:49.266017+00:00"
-    },
-    {
-      "rank": 17,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.018734532258621858,
-      "latency": 2881.3102593024573,
-      "timestamp": "2026-06-05T12:19:18.672156+00:00",
-      "commit_sha": "7fbbbb8a79fea7863c26e38b636105e9810628f4"
     },
     {
       "rank": 18,
@@ -171,5 +171,5 @@
       "timestamp": "2026-06-03T14:51:06.469059+00:00"
     }
   ],
-  "last_updated": "2026-06-05T12:20:06.264725+00:00"
+  "last_updated": "2026-06-05T13:31:01.246310+00:00"
 }
