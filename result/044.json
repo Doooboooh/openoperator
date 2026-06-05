@@ -40,6 +40,14 @@
     },
     {
       "rank": 5,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.032826740746493124,
+      "latency": 2112.5460043549538,
+      "timestamp": "2026-06-05T04:03:43.486650+00:00"
+    },
+    {
+      "rank": 6,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.03248510940254011,
@@ -47,20 +55,12 @@
       "timestamp": "2026-06-03T07:59:23.393923+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.03225157859708768,
       "latency": 2150.2203308045864,
       "timestamp": "2026-05-31T08:38:31.867140+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.030964936805713775,
-      "latency": 2239.5653650164604,
-      "timestamp": "2026-06-04T19:12:00.009679+00:00"
     },
     {
       "rank": 8,
@@ -180,5 +180,5 @@
       "commit_sha": "d15f03b46e5577176f5b85845274f8658b2db995"
     }
   ],
-  "last_updated": "2026-06-04T20:34:41.541695+00:00"
+  "last_updated": "2026-06-05T04:04:48.882966+00:00"
 }

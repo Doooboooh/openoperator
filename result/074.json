@@ -65,20 +65,20 @@
     },
     {
       "rank": 8,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.03940651966291303,
+      "latency": 2661.0571270187697,
+      "timestamp": "2026-06-05T04:03:43.486650+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.038324747289762776,
       "latency": 2736.1693792045116,
       "timestamp": "2026-06-02T03:23:23.701099+00:00",
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
-    },
-    {
-      "rank": 9,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.037251430497439446,
-      "latency": 2815.005990366141,
-      "timestamp": "2026-06-04T14:33:46.390275+00:00"
     },
     {
       "rank": 10,
@@ -182,5 +182,5 @@
       "commit_sha": "8228f2be1c965c2ec0731de89804b73f6846a63e"
     }
   ],
-  "last_updated": "2026-06-05T03:59:44.262520+00:00"
+  "last_updated": "2026-06-05T04:04:48.904801+00:00"
 }

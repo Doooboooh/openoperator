@@ -82,20 +82,20 @@
     },
     {
       "rank": 10,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.015278152293287316,
+      "latency": 2762.245014309883,
+      "timestamp": "2026-06-05T04:03:43.486650+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01522210067135005,
       "latency": 2772.416298588117,
       "timestamp": "2026-05-18T09:38:18.809755+00:00",
       "commit_sha": "4b336fcdbb9ca25a026fc2f00ddd2fb31e3a3102"
-    },
-    {
-      "rank": 11,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.01519603936390751,
-      "latency": 2777.171010772387,
-      "timestamp": "2026-06-04T10:00:22.544473+00:00"
     },
     {
       "rank": 12,
@@ -194,5 +194,5 @@
       "timestamp": "2026-06-02T02:22:27.290127+00:00"
     }
   ],
-  "last_updated": "2026-06-05T00:37:25.275766+00:00"
+  "last_updated": "2026-06-05T04:04:48.904182+00:00"
 }

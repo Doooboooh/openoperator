@@ -6,27 +6,27 @@
       "rank": 1,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
-      "score": 0.541483161515412,
-      "latency": 2959.510311484337,
-      "timestamp": "2026-06-05T00:45:53.408467+00:00"
+      "score": 0.5516677116154496,
+      "latency": 2904.8736517628035,
+      "timestamp": "2026-06-05T04:03:43.486650+00:00"
     },
     {
       "rank": 2,
-      "user": "team_91",
+      "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.4488945933118712,
-      "latency": 3569.9360693494477,
-      "timestamp": "2026-06-05T03:52:42.826716+00:00",
-      "commit_sha": "438092ed9530e144106eebca4eb8ec1064845ef8"
+      "score": 0.461911713079218,
+      "latency": 3469.33181087176,
+      "timestamp": "2026-06-05T04:01:14.229974+00:00",
+      "commit_sha": "2d9bb063a7a06c7f36e8bcc44264e35f6bd804e8"
     },
     {
       "rank": 3,
-      "user": "team_42",
+      "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.4459748995120631,
-      "latency": 3593.307609359423,
-      "timestamp": "2026-06-05T03:47:22.863868+00:00",
-      "commit_sha": "2d9bb063a7a06c7f36e8bcc44264e35f6bd804e8"
+      "score": 0.46181972518531955,
+      "latency": 3470.0228522221246,
+      "timestamp": "2026-06-05T04:00:55.363910+00:00",
+      "commit_sha": "438092ed9530e144106eebca4eb8ec1064845ef8"
     },
     {
       "rank": 4,
@@ -103,5 +103,5 @@
       "timestamp": "2026-06-01T06:42:30.389980+00:00"
     }
   ],
-  "last_updated": "2026-06-05T03:54:39.653955+00:00"
+  "last_updated": "2026-06-05T04:04:48.892856+00:00"
 }

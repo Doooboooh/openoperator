@@ -91,19 +91,19 @@
     },
     {
       "rank": 11,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.0073454365861546685,
+      "latency": 23778.572989006836,
+      "timestamp": "2026-06-05T04:03:43.486650+00:00"
+    },
+    {
+      "rank": 12,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.00733955472933631,
       "latency": 23797.628935426474,
       "timestamp": "2026-05-29T13:39:01.954122+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.007185670545592775,
-      "latency": 24307.265256841976,
-      "timestamp": "2026-06-04T14:45:50.850828+00:00"
     },
     {
       "rank": 13,
@@ -164,5 +164,5 @@
       "commit_sha": "50371c7514dcf8d3abdbfa3d11f59cdaa28cbee4"
     }
   ],
-  "last_updated": "2026-06-04T20:44:50.490526+00:00"
+  "last_updated": "2026-06-05T04:04:48.893304+00:00"
 }

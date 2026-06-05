@@ -31,6 +31,14 @@
     },
     {
       "rank": 4,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.037909678720428316,
+      "latency": 2121.7272927363715,
+      "timestamp": "2026-06-05T04:03:43.486650+00:00"
+    },
+    {
+      "rank": 5,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.037602932466055325,
@@ -39,7 +47,7 @@
       "commit_sha": "27dbd8f98770a0d493c7c53ecb00991d5f00aa32"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.03746013920389094,
@@ -48,7 +56,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.037207070573432456,
@@ -57,7 +65,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.036174488738176344,
@@ -65,7 +73,7 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.03566420811791529,
@@ -74,7 +82,7 @@
       "commit_sha": "55a7e51c69317bce5000a0e5f221f72eed68d791"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.03466473030199153,
@@ -82,7 +90,7 @@
       "timestamp": "2026-06-04T17:42:57.637297+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.034190104712236,
@@ -90,20 +98,12 @@
       "timestamp": "2026-06-03T11:33:12.248286+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.03374416048332481,
       "latency": 2383.6420538524785,
       "timestamp": "2026-05-29T13:42:05.873217+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.03356330784264411,
-      "latency": 2396.48607869943,
-      "timestamp": "2026-06-04T19:12:00.009679+00:00"
     },
     {
       "rank": 13,
@@ -155,5 +155,5 @@
       "commit_sha": "1735b38130fa080911566f71b9d0c143d4064d0b"
     }
   ],
-  "last_updated": "2026-06-04T20:24:32.513949+00:00"
+  "last_updated": "2026-06-05T04:04:48.900911+00:00"
 }
