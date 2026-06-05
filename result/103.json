@@ -275,6 +275,14 @@
     },
     {
       "rank": 33,
+      "user": "team_77",
+      "github": "Atopos666/BangC_Team41",
+      "score": 0.007527884926305064,
+      "latency": 5609.942289690177,
+      "timestamp": "2026-06-05T17:05:11.396065+00:00"
+    },
+    {
+      "rank": 34,
       "user": "我说删题大于一切组",
       "github": "Oreki2eru/openoperator-start-kit",
       "score": 0.007520378650895692,
@@ -282,21 +290,13 @@
       "timestamp": "2026-06-03T07:42:13.225404+00:00"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.007485459742528562,
       "latency": 5641.737642387549,
       "timestamp": "2026-05-18T06:05:42.216189+00:00",
       "commit_sha": "8782e2f1b49983fd10675c3a891271ff72ab6c31"
-    },
-    {
-      "rank": 35,
-      "user": "team_77",
-      "github": "Atopos666/BangC_Team41",
-      "score": 0.007078597094830896,
-      "latency": 5966.012676556905,
-      "timestamp": "2026-06-05T16:56:32.518978+00:00"
     },
     {
       "rank": 36,
@@ -475,5 +475,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-05T16:57:59.090132+00:00"
+  "last_updated": "2026-06-05T17:08:04.269916+00:00"
 }
