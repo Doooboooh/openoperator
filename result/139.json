@@ -56,6 +56,14 @@
     },
     {
       "rank": 7,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.04052876282672637,
+      "latency": 7297.459368904431,
+      "timestamp": "2026-06-05T17:25:19.565014+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.030279289084177954,
@@ -63,7 +71,7 @@
       "timestamp": "2026-05-20T09:34:52.477319+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0023946782991067597,
@@ -71,7 +79,7 @@
       "timestamp": "2026-06-02T07:39:49.692907+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0023196436786738794,
@@ -79,21 +87,13 @@
       "timestamp": "2026-06-01T00:57:37.608657+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0017806051280993256,
       "latency": 166099.15097554526,
       "timestamp": "2026-06-03T16:06:07.773862+00:00",
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
-    },
-    {
-      "rank": 11,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 0.0016508430179352099,
-      "latency": 179155.13273328543,
-      "timestamp": "2026-06-03T20:13:23.791933+00:00"
     },
     {
       "rank": 12,
@@ -128,5 +128,5 @@
       "timestamp": "2026-05-29T02:30:27.364279+00:00"
     }
   ],
-  "last_updated": "2026-06-05T04:04:48.890226+00:00"
+  "last_updated": "2026-06-05T17:28:09.383500+00:00"
 }
