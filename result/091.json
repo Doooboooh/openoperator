@@ -65,6 +65,14 @@
     },
     {
       "rank": 8,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.07024666625066438,
+      "latency": 4649.558725456397,
+      "timestamp": "2026-06-05T03:21:26.520576+00:00"
+    },
+    {
+      "rank": 9,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0560429279915816,
@@ -72,7 +80,7 @@
       "timestamp": "2026-05-20T04:55:34.122989+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.039562795220937995,
@@ -80,7 +88,7 @@
       "timestamp": "2026-05-31T09:14:23.729237+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01948886777240174,
@@ -88,7 +96,7 @@
       "timestamp": "2026-05-25T11:30:41.116965+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.01688381267766377,
@@ -97,7 +105,7 @@
       "commit_sha": "8d2e21be068311cfa76e0594b0705c14d6fe43af"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.016816849261403977,
@@ -105,20 +113,12 @@
       "timestamp": "2026-06-04T15:27:36.702580+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.016595488121819307,
       "latency": 19681.01194749276,
       "timestamp": "2026-06-04T09:15:05.348454+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.016562093534968875,
-      "latency": 19720.695291956265,
-      "timestamp": "2026-06-02T07:39:49.692907+00:00"
     },
     {
       "rank": 15,
@@ -145,5 +145,5 @@
       "timestamp": "2026-06-03T16:57:29.481134+00:00"
     }
   ],
-  "last_updated": "2026-06-04T15:30:32.451105+00:00"
+  "last_updated": "2026-06-05T03:24:08.822710+00:00"
 }
