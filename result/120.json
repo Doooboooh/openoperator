@@ -166,6 +166,14 @@
     },
     {
       "rank": 20,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.001983017481141104,
+      "latency": 263278.5666113098,
+      "timestamp": "2026-06-05T12:24:24.082301+00:00"
+    },
+    {
+      "rank": 21,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0018700210768569786,
@@ -174,7 +182,7 @@
       "commit_sha": "1554f638953bc3b0fe31d4fe036cc411246ed528"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.001710138757490386,
@@ -182,7 +190,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.0009218343536933219,
@@ -190,5 +198,5 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     }
   ],
-  "last_updated": "2026-06-05T04:04:48.889288+00:00"
+  "last_updated": "2026-06-05T12:25:10.830454+00:00"
 }
