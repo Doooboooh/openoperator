@@ -97,6 +97,14 @@
     },
     {
       "rank": 12,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.1100901213080148,
+      "latency": 6729.704638322194,
+      "timestamp": "2026-06-05T12:54:02.008897+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.08702007001221947,
@@ -105,7 +113,7 @@
       "commit_sha": "119bdf5b4827f3779e84c8061b61b445dd2ae8c8"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.08640156628281757,
@@ -114,7 +122,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.018390977661732037,
@@ -122,21 +130,13 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0020100464144436458,
       "latency": 368585.5185613036,
       "timestamp": "2026-06-04T17:39:05.028417+00:00",
       "commit_sha": "7de4d03ece1877a671d580d08549190bd41d297c"
-    },
-    {
-      "rank": 16,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.0018886409013139278,
-      "latency": 392278.913098077,
-      "timestamp": "2026-06-05T09:09:13.242628+00:00"
     },
     {
       "rank": 17,
@@ -171,5 +171,5 @@
       "timestamp": "2026-06-03T16:57:29.481134+00:00"
     }
   ],
-  "last_updated": "2026-06-05T09:28:40.396074+00:00"
+  "last_updated": "2026-06-05T12:55:31.689315+00:00"
 }
