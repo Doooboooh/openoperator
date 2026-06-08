@@ -312,20 +312,20 @@
     },
     {
       "rank": 38,
+      "user": "二十六组",
+      "github": "zhcsyyy/openoperator_26",
+      "score": 0.09273006325133769,
+      "latency": 2905.2390406529107,
+      "timestamp": "2026-06-08T14:14:48.893533+00:00"
+    },
+    {
+      "rank": 39,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.0924006874124698,
       "latency": 2915.595192462206,
       "timestamp": "2026-05-18T07:49:22.593982+00:00",
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
-    },
-    {
-      "rank": 39,
-      "user": "二十六组",
-      "github": "zhcsyyy/openoperator_26",
-      "score": 0.09137421731213292,
-      "latency": 2948.348099986712,
-      "timestamp": "2026-06-08T14:09:34.379835+00:00"
     },
     {
       "rank": 40,
@@ -479,5 +479,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-08T14:14:38.975053+00:00"
+  "last_updated": "2026-06-08T14:19:44.851643+00:00"
 }
