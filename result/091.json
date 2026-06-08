@@ -56,6 +56,14 @@
     },
     {
       "rank": 7,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.11152306277872073,
+      "latency": 2928.685707350572,
+      "timestamp": "2026-06-08T16:40:17.728000+00:00"
+    },
+    {
+      "rank": 8,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.08669976552274386,
@@ -64,7 +72,7 @@
       "commit_sha": "993901865258e239ed211e4f505cd7117e02a271"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.07034413266201554,
@@ -72,7 +80,7 @@
       "timestamp": "2026-06-05T08:56:15.311343+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.07024666625066438,
@@ -80,20 +88,12 @@
       "timestamp": "2026-06-05T03:21:26.520576+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0560429279915816,
       "latency": 5827.961023896933,
       "timestamp": "2026-05-20T04:55:34.122989+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.045127251390217685,
-      "latency": 7237.666596968968,
-      "timestamp": "2026-06-08T16:21:14.576491+00:00"
     },
     {
       "rank": 12,
@@ -161,5 +161,5 @@
       "timestamp": "2026-06-03T16:57:29.481134+00:00"
     }
   ],
-  "last_updated": "2026-06-08T16:26:41.764161+00:00"
+  "last_updated": "2026-06-08T16:42:00.330487+00:00"
 }
