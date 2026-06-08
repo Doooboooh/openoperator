@@ -271,6 +271,14 @@
     },
     {
       "rank": 33,
+      "user": "team_34",
+      "github": "Dreeeeeeeee/dree",
+      "score": 0.002979597841324537,
+      "latency": 14757.025055587292,
+      "timestamp": "2026-06-08T14:02:20.000145+00:00"
+    },
+    {
+      "rank": 34,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.002967536157826002,
@@ -278,21 +286,13 @@
       "timestamp": "2026-06-01T16:52:33.777120+00:00"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.002965031261412208,
       "latency": 14829.523240526518,
       "timestamp": "2026-05-18T06:16:54.463264+00:00",
       "commit_sha": "ff8c106af515a2c6a53b182f6ee27cada7365f3f"
-    },
-    {
-      "rank": 35,
-      "user": "team_34",
-      "github": "Dreeeeeeeee/dree",
-      "score": 0.0029543564453062294,
-      "latency": 14883.105953534445,
-      "timestamp": "2026-06-08T13:56:16.041050+00:00"
     },
     {
       "rank": 36,
@@ -504,5 +504,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-08T13:59:21.173065+00:00"
+  "last_updated": "2026-06-08T14:04:28.112678+00:00"
 }

@@ -432,6 +432,14 @@
     },
     {
       "rank": 52,
+      "user": "team_34",
+      "github": "Dreeeeeeeee/dree",
+      "score": 0.004950583526929607,
+      "latency": 8058.4439759453135,
+      "timestamp": "2026-06-08T14:02:20.000145+00:00"
+    },
+    {
+      "rank": 53,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.004942743287110239,
@@ -440,20 +448,12 @@
       "commit_sha": "e6cbd06b310a85a275ed6b68c815dcdeb8bceeb1"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "user": "team_44",
       "github": "OrangeL-ucas/SBangC",
       "score": 0.004905305748306333,
       "latency": 8132.826381673415,
       "timestamp": "2026-06-01T09:28:02.481475+00:00"
-    },
-    {
-      "rank": 54,
-      "user": "team_34",
-      "github": "Dreeeeeeeee/dree",
-      "score": 0.004843134606412324,
-      "latency": 8237.227176626524,
-      "timestamp": "2026-06-08T13:39:55.540871+00:00"
     },
     {
       "rank": 55,
@@ -507,5 +507,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-06-08T13:59:21.174940+00:00"
+  "last_updated": "2026-06-08T14:04:28.118630+00:00"
 }

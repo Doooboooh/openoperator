@@ -387,20 +387,20 @@
     },
     {
       "rank": 47,
+      "user": "team_34",
+      "github": "Dreeeeeeeee/dree",
+      "score": 0.0020189103239662575,
+      "latency": 2649716.996587813,
+      "timestamp": "2026-06-08T14:02:20.000145+00:00"
+    },
+    {
+      "rank": 48,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.0020181560318329743,
       "latency": 2650707.3366083205,
       "timestamp": "2026-05-18T07:14:59.976445+00:00",
       "commit_sha": "e4e723290ef8e541347d068709b31ffc4fa78cb0"
-    },
-    {
-      "rank": 48,
-      "user": "team_34",
-      "github": "Dreeeeeeeee/dree",
-      "score": 0.0020171889925781625,
-      "latency": 2651978.084196647,
-      "timestamp": "2026-06-08T13:33:58.576404+00:00"
     },
     {
       "rank": 49,
@@ -504,5 +504,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-08T13:54:15.931417+00:00"
+  "last_updated": "2026-06-08T14:04:28.117368+00:00"
 }
