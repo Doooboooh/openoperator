@@ -48,6 +48,14 @@
     },
     {
       "rank": 6,
+      "user": "team_75",
+      "github": "Jiaqi7zzz/operator-31",
+      "score": 0.19142063110785282,
+      "latency": 33962.98487981161,
+      "timestamp": "2026-06-08T15:58:59.677155+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.11634735620831159,
@@ -56,7 +64,7 @@
       "commit_sha": "61edb14b1de7dd10b11cafa5306512367205303b"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.11130328909055377,
@@ -64,7 +72,7 @@
       "timestamp": "2026-06-04T16:23:40.208703+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.06830352819829698,
@@ -72,7 +80,7 @@
       "timestamp": "2026-06-04T12:29:50.395457+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.04255592773654066,
@@ -80,7 +88,7 @@
       "timestamp": "2026-05-21T01:55:50.569709+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.011587660367499671,
@@ -88,7 +96,7 @@
       "timestamp": "2026-06-02T15:38:18.425049+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.005869452279318413,
@@ -96,7 +104,7 @@
       "timestamp": "2026-06-01T06:43:31.073270+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0018896539631907854,
@@ -104,7 +112,7 @@
       "timestamp": "2026-05-31T13:26:22.703549+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0016874805712409127,
@@ -112,7 +120,7 @@
       "timestamp": "2026-05-31T03:02:34.850402+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0003406782051566232,
@@ -121,7 +129,7 @@
       "commit_sha": "18e0a10b4a7642075505b69a6a349b9aa5007fcc"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 4.300270485439946e-05,
@@ -129,5 +137,5 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     }
   ],
-  "last_updated": "2026-06-08T13:23:40.756117+00:00"
+  "last_updated": "2026-06-08T16:01:20.445291+00:00"
 }
