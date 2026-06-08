@@ -39,6 +39,14 @@
     },
     {
       "rank": 5,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 2.853762231252637,
+      "latency": 167.76099801063538,
+      "timestamp": "2026-06-08T12:32:53.949088+00:00"
+    },
+    {
+      "rank": 6,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.2286589483413956,
@@ -46,7 +54,7 @@
       "timestamp": "2026-06-02T06:36:32.358109+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.22321282837232598,
@@ -55,7 +63,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.22166824152290526,
@@ -64,7 +72,7 @@
       "commit_sha": "e15f90e3a4ad07da4379ab4c0ed79932d7f3b2e9"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.22142339564125935,
@@ -72,7 +80,7 @@
       "timestamp": "2026-06-05T09:20:34.683782+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.21600629220023812,
@@ -81,7 +89,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.21014030432538408,
@@ -90,21 +98,13 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.2085660954312991,
       "latency": 2295.435406267643,
       "timestamp": "2026-05-18T15:44:03.909234+00:00",
       "commit_sha": "bd05eeaa6aad963070be1c394c3a49571459d4d2"
-    },
-    {
-      "rank": 12,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.16996527040325488,
-      "latency": 2816.751909752687,
-      "timestamp": "2026-06-05T04:03:43.486650+00:00"
     },
     {
       "rank": 13,
@@ -163,5 +163,5 @@
       "timestamp": "2026-06-04T04:18:10.375768+00:00"
     }
   ],
-  "last_updated": "2026-06-05T15:22:26.338041+00:00"
+  "last_updated": "2026-06-08T12:37:48.252963+00:00"
 }
