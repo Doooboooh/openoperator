@@ -105,6 +105,14 @@
     },
     {
       "rank": 13,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.10440010526715957,
+      "latency": 7096.48709744215,
+      "timestamp": "2026-06-08T11:59:18.827793+00:00"
+    },
+    {
+      "rank": 14,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.08702007001221947,
@@ -113,7 +121,7 @@
       "commit_sha": "119bdf5b4827f3779e84c8061b61b445dd2ae8c8"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.08640156628281757,
@@ -122,7 +130,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.018390977661732037,
@@ -130,21 +138,13 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0020100464144436458,
       "latency": 368585.5185613036,
       "timestamp": "2026-06-04T17:39:05.028417+00:00",
       "commit_sha": "7de4d03ece1877a671d580d08549190bd41d297c"
-    },
-    {
-      "rank": 17,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.0019075164661760118,
-      "latency": 388397.1714725097,
-      "timestamp": "2026-06-08T10:55:41.101108+00:00"
     },
     {
       "rank": 18,
@@ -179,5 +179,5 @@
       "timestamp": "2026-06-03T16:57:29.481134+00:00"
     }
   ],
-  "last_updated": "2026-06-08T11:51:55.036383+00:00"
+  "last_updated": "2026-06-08T12:02:05.658181+00:00"
 }

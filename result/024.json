@@ -64,6 +64,14 @@
     },
     {
       "rank": 8,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.020132784000071673,
+      "latency": 41165.84174335003,
+      "timestamp": "2026-06-08T11:59:18.827793+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.01352416603823105,
@@ -72,7 +80,7 @@
       "commit_sha": "ae33eaf5718367316c02cdcec207923131b0cc44"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.007766514790434488,
@@ -80,7 +88,7 @@
       "timestamp": "2026-05-31T13:25:33.035590+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.007141571904731433,
@@ -89,20 +97,12 @@
       "commit_sha": "dd7afa32a9370b2c00385de6634eb9500e579b0d"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0017212268499342336,
       "latency": 481507.12965677184,
       "timestamp": "2026-05-31T08:11:39.372858+00:00"
-    },
-    {
-      "rank": 12,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.0016459717800062562,
-      "latency": 503521.9984129071,
-      "timestamp": "2026-06-08T10:55:41.101108+00:00"
     },
     {
       "rank": 13,
@@ -121,5 +121,5 @@
       "timestamp": "2026-05-18T14:13:54.546292+00:00"
     }
   ],
-  "last_updated": "2026-06-08T11:00:59.484608+00:00"
+  "last_updated": "2026-06-08T12:02:05.652785+00:00"
 }

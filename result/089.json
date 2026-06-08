@@ -72,6 +72,14 @@
     },
     {
       "rank": 9,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.005840375333625907,
+      "latency": 2390.942225853602,
+      "timestamp": "2026-06-08T11:59:18.827793+00:00"
+    },
+    {
+      "rank": 10,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.005709819085028669,
@@ -79,7 +87,7 @@
       "timestamp": "2026-05-28T14:51:49.888454+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.005665190392329602,
@@ -87,7 +95,7 @@
       "timestamp": "2026-06-05T12:40:17.100141+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.005500789050150078,
@@ -96,21 +104,13 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.005426474545165758,
       "latency": 2573.3097766836486,
       "timestamp": "2026-05-18T07:12:29.740562+00:00",
       "commit_sha": "2f82587a0ffefc3dc95c993ca6aa86f5c2d90872"
-    },
-    {
-      "rank": 13,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.005409861621742593,
-      "latency": 2581.212048729261,
-      "timestamp": "2026-06-08T10:55:41.101108+00:00"
     },
     {
       "rank": 14,
@@ -187,5 +187,5 @@
       "timestamp": "2026-05-29T14:29:05.849858+00:00"
     }
   ],
-  "last_updated": "2026-06-08T11:00:59.489714+00:00"
+  "last_updated": "2026-06-08T12:02:05.655239+00:00"
 }
