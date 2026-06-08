@@ -97,20 +97,20 @@
     },
     {
       "rank": 12,
+      "user": "team_75",
+      "github": "Jiaqi7zzz/operator-31",
+      "score": 0.08839206376774059,
+      "latency": 4073.567067583402,
+      "timestamp": "2026-06-08T13:09:13.191458+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.0880757512843331,
       "latency": 4088.1967482467494,
       "timestamp": "2026-05-18T09:00:34.120470+00:00",
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
-    },
-    {
-      "rank": 13,
-      "user": "team_75",
-      "github": "Jiaqi7zzz/operator-31",
-      "score": 0.08562513634590296,
-      "latency": 4205.202062924703,
-      "timestamp": "2026-06-08T13:03:27.825943+00:00"
     },
     {
       "rank": 14,
@@ -185,5 +185,5 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     }
   ],
-  "last_updated": "2026-06-08T13:08:23.162274+00:00"
+  "last_updated": "2026-06-08T13:13:29.106464+00:00"
 }
