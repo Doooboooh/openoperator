@@ -40,6 +40,14 @@
     },
     {
       "rank": 5,
+      "user": "十五组",
+      "github": "fengjin1126/BangC15",
+      "score": 0.01716355576538233,
+      "latency": 2257.2828456759453,
+      "timestamp": "2026-06-08T21:18:14.732614+00:00"
+    },
+    {
+      "rank": 6,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.01714799426582001,
@@ -47,7 +55,7 @@
       "timestamp": "2026-06-03T04:23:14.081492+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.016797812845850517,
@@ -55,20 +63,12 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.016788357223015478,
       "latency": 2307.730261236429,
       "timestamp": "2026-06-01T00:08:57.172170+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "十五组",
-      "github": "fengjin1126/BangC15",
-      "score": 0.016592446691978496,
-      "latency": 2334.978121022383,
-      "timestamp": "2026-06-08T19:42:12.281825+00:00"
     },
     {
       "rank": 9,
@@ -215,5 +215,5 @@
       "timestamp": "2026-05-29T13:25:30.923732+00:00"
     }
   ],
-  "last_updated": "2026-06-08T19:44:32.383066+00:00"
+  "last_updated": "2026-06-08T21:20:27.719748+00:00"
 }
