@@ -288,6 +288,14 @@
     },
     {
       "rank": 35,
+      "user": "team_34",
+      "github": "Dreeeeeeeee/dree",
+      "score": 0.0029543564453062294,
+      "latency": 14883.105953534445,
+      "timestamp": "2026-06-08T13:56:16.041050+00:00"
+    },
+    {
+      "rank": 36,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.002946463158707976,
@@ -296,7 +304,7 @@
       "commit_sha": "cfb0d05df9f8299c507a5f7c3bcc806445cf3bb3"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.002942481160069474,
@@ -304,7 +312,7 @@
       "timestamp": "2026-05-30T14:53:32.588816+00:00"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0029214633046238643,
@@ -313,7 +321,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.002679646717710652,
@@ -322,7 +330,7 @@
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 0.0026563016404972614,
@@ -330,7 +338,7 @@
       "timestamp": "2026-06-01T05:41:12.245904+00:00"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.002618691045806266,
@@ -339,7 +347,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "十八组",
       "github": "Napiercc/BangC18",
       "score": 0.0023835396702902665,
@@ -347,20 +355,12 @@
       "timestamp": "2026-06-04T02:34:24.714873+00:00"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "team_24",
       "github": "oreo34567/bangc_55_yyx",
       "score": 0.00237475053246536,
       "latency": 18515.62907298406,
       "timestamp": "2026-06-08T11:33:00.603833+00:00"
-    },
-    {
-      "rank": 43,
-      "user": "team_34",
-      "github": "Dreeeeeeeee/dree",
-      "score": 0.0022901649339053874,
-      "latency": 19199.490547180176,
-      "timestamp": "2026-06-08T13:52:59.490637+00:00"
     },
     {
       "rank": 44,
@@ -504,5 +504,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-08T13:54:15.930008+00:00"
+  "last_updated": "2026-06-08T13:59:21.173065+00:00"
 }
