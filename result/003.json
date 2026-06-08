@@ -440,6 +440,14 @@
     },
     {
       "rank": 53,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.001323985750653278,
+      "latency": 27150.594318906467,
+      "timestamp": "2026-06-08T10:26:35.987589+00:00"
+    },
+    {
+      "rank": 54,
       "user": "team_19",
       "github": "JerryLiu369/openoperator-start-kit-experiment",
       "score": 0.0013225465781198692,
@@ -447,21 +455,13 @@
       "timestamp": "2026-05-22T04:09:19.649458+00:00"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.001320930246938491,
       "latency": 27213.397591064375,
       "timestamp": "2026-05-18T05:48:00.089373+00:00",
       "commit_sha": "88b0b66d34a95fc59a2e94040240a2f4bc5ea946"
-    },
-    {
-      "rank": 55,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.001316966292177843,
-      "latency": 27295.307566722233,
-      "timestamp": "2026-05-22T06:36:15.754211+00:00"
     },
     {
       "rank": 56,
@@ -548,5 +548,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-05T14:11:38.466004+00:00"
+  "last_updated": "2026-06-08T10:30:29.242813+00:00"
 }

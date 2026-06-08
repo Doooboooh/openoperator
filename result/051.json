@@ -42,25 +42,25 @@
       "rank": 5,
       "user": "team_19",
       "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.018350054442146754,
-      "latency": 2595.0876685480275,
-      "timestamp": "2026-05-21T18:09:31.612896+00:00"
+      "score": 0.01912965774159563,
+      "latency": 2489.328384399414,
+      "timestamp": "2026-06-08T10:26:08.138188+00:00"
     },
     {
       "rank": 6,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.018738638484693527,
+      "latency": 2541.2732114394507,
+      "timestamp": "2026-06-08T10:26:35.987589+00:00"
+    },
+    {
+      "rank": 7,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.01806469371367683,
       "latency": 2636.0812286535897,
       "timestamp": "2026-05-28T15:01:49.929602+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.01801242077262892,
-      "latency": 2643.7312675019107,
-      "timestamp": "2026-05-22T06:35:28.590808+00:00"
     },
     {
       "rank": 8,
@@ -407,5 +407,5 @@
       "timestamp": "2026-05-31T09:21:20.668509+00:00"
     }
   ],
-  "last_updated": "2026-06-05T05:20:42.001297+00:00"
+  "last_updated": "2026-06-08T10:30:29.241771+00:00"
 }

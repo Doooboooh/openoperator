@@ -230,6 +230,14 @@
     },
     {
       "rank": 28,
+      "user": "team_19",
+      "github": "JerryLiu369/openoperator-start-kit-experiment",
+      "score": 0.09577626981970053,
+      "latency": 2812.8366296490035,
+      "timestamp": "2026-06-08T10:26:08.138188+00:00"
+    },
+    {
+      "rank": 29,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.09553411277296729,
@@ -238,7 +246,7 @@
       "commit_sha": "43fb0ddda831190a9477d284bca0054a8be8e993"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_21",
       "github": "samwang102/openoperator-team13",
       "score": 0.09551958043893881,
@@ -247,20 +255,12 @@
       "commit_sha": "a92293d12609ec343193cf4e91fafa4931632814"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.09511802791929223,
       "latency": 2832.3022027810416,
       "timestamp": "2026-05-29T04:32:48.618338+00:00"
-    },
-    {
-      "rank": 31,
-      "user": "team_19",
-      "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.09507496873589075,
-      "latency": 2833.584944407145,
-      "timestamp": "2026-05-20T13:43:06.998115+00:00"
     },
     {
       "rank": 32,
@@ -439,5 +439,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-05T17:48:28.930615+00:00"
+  "last_updated": "2026-06-08T10:30:29.237142+00:00"
 }
