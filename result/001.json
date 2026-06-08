@@ -382,6 +382,14 @@
     },
     {
       "rank": 45,
+      "user": "team_53",
+      "github": "liuranra/kernel-competition",
+      "score": 0.004799540904841343,
+      "latency": 5785.761711498101,
+      "timestamp": "2026-06-08T11:55:32.070517+00:00"
+    },
+    {
+      "rank": 46,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.004795087554606939,
@@ -389,7 +397,7 @@
       "timestamp": "2026-05-26T01:54:25.479277+00:00"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.004792794511546159,
@@ -397,7 +405,7 @@
       "timestamp": "2026-06-02T06:49:21.650215+00:00"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "user": "team_97",
       "github": "Clear-YW/bangc",
       "score": 0.004791611209203128,
@@ -405,7 +413,7 @@
       "timestamp": "2026-06-02T09:48:57.695919+00:00"
     },
     {
-      "rank": 48,
+      "rank": 49,
       "user": "二十六组",
       "github": "zhcsyyy/openoperator_26",
       "score": 0.004787709736156492,
@@ -413,7 +421,7 @@
       "timestamp": "2026-06-02T13:07:34.574938+00:00"
     },
     {
-      "rank": 49,
+      "rank": 50,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 0.00478304644917882,
@@ -421,7 +429,7 @@
       "timestamp": "2026-06-01T05:41:12.245904+00:00"
     },
     {
-      "rank": 50,
+      "rank": 51,
       "user": "team_34",
       "github": "Dreeeeeeeee/ddrr",
       "score": 0.004774457079291215,
@@ -429,20 +437,12 @@
       "timestamp": "2026-06-04T08:24:44.561435+00:00"
     },
     {
-      "rank": 51,
+      "rank": 52,
       "user": "team_71",
       "github": "SatoriEye/BangC",
       "score": 0.0047676938059364495,
       "latency": 5824.409270038207,
       "timestamp": "2026-05-19T15:09:42.329650+00:00"
-    },
-    {
-      "rank": 52,
-      "user": "team_53",
-      "github": "liuranra/kernel-competition",
-      "score": 0.004762091885529907,
-      "latency": 5831.260854999225,
-      "timestamp": "2026-06-08T11:32:09.475767+00:00"
     },
     {
       "rank": 53,
@@ -653,5 +653,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-08T11:36:38.220364+00:00"
+  "last_updated": "2026-06-08T11:56:59.590435+00:00"
 }
