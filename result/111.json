@@ -327,6 +327,15 @@
     },
     {
       "rank": 40,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.008714827996487035,
+      "latency": 51228.09081027905,
+      "timestamp": "2026-06-08T15:30:57.831314+00:00",
+      "commit_sha": "a8e0b51057140ee11733e5c47d5f4db8cd698bdb"
+    },
+    {
+      "rank": 41,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.00866830710845549,
@@ -334,7 +343,7 @@
       "timestamp": "2026-05-29T13:40:01.156850+00:00"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.00862141246881786,
@@ -343,7 +352,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.008445899755787904,
@@ -352,7 +361,7 @@
       "commit_sha": "8752ccb5b45d19255875ffe2ea2039639d81c713"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.006959802049747195,
@@ -361,21 +370,12 @@
       "commit_sha": "0feb5a62f93324b05c34feb628bf3b52dee3d520"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.006873802957634048,
       "latency": 64948.617635915674,
       "timestamp": "2026-05-19T03:02:55.838572+00:00"
-    },
-    {
-      "rank": 45,
-      "user": "team_86",
-      "github": "RachelGu2003/ICS_86Team",
-      "score": 0.006108291533591546,
-      "latency": 73088.19455405076,
-      "timestamp": "2026-05-18T05:46:27.289972+00:00",
-      "commit_sha": "a8e0b51057140ee11733e5c47d5f4db8cd698bdb"
     },
     {
       "rank": 46,
@@ -481,5 +481,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-08T15:00:14.657943+00:00"
+  "last_updated": "2026-06-08T15:35:57.508306+00:00"
 }
