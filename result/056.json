@@ -122,19 +122,19 @@
     },
     {
       "rank": 15,
+      "user": "team_65",
+      "github": "imczxx/ICS_45Team",
+      "score": 0.12057406044755055,
+      "latency": 2234.336299200853,
+      "timestamp": "2026-06-08T12:15:09.567886+00:00"
+    },
+    {
+      "rank": 16,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.11825557908168051,
       "latency": 2278.1419878204665,
       "timestamp": "2026-05-19T08:38:52.235866+00:00"
-    },
-    {
-      "rank": 16,
-      "user": "team_65",
-      "github": "imczxx/ICS_45Team",
-      "score": 0.11788869546602852,
-      "latency": 2285.231836140156,
-      "timestamp": "2026-06-08T12:00:49.259689+00:00"
     },
     {
       "rank": 17,
@@ -455,5 +455,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-08T12:02:05.653325+00:00"
+  "last_updated": "2026-06-08T12:17:23.736375+00:00"
 }
