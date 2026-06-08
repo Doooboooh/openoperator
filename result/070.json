@@ -441,19 +441,19 @@
     },
     {
       "rank": 53,
+      "user": "team_34",
+      "github": "Dreeeeeeeee/dree",
+      "score": 0.004843134606412324,
+      "latency": 8237.227176626524,
+      "timestamp": "2026-06-08T13:39:55.540871+00:00"
+    },
+    {
+      "rank": 54,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.003922953727135045,
       "latency": 10169.378171364466,
       "timestamp": "2026-06-05T13:26:34.343794+00:00"
-    },
-    {
-      "rank": 54,
-      "user": "team_34",
-      "github": "Dreeeeeeeee/dree",
-      "score": 0.003901371871677745,
-      "latency": 10225.63378016154,
-      "timestamp": "2026-06-08T12:59:08.198857+00:00"
     },
     {
       "rank": 55,
@@ -499,5 +499,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-06-08T13:03:17.858859+00:00"
+  "last_updated": "2026-06-08T13:44:02.553210+00:00"
 }
