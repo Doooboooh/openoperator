@@ -420,20 +420,20 @@
     },
     {
       "rank": 51,
+      "user": "十五组",
+      "github": "fengjin1126/BangC15",
+      "score": 0.0005048705979259818,
+      "latency": 884274.1126815478,
+      "timestamp": "2026-06-08T22:03:45.828381+00:00"
+    },
+    {
+      "rank": 52,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0005021948642612806,
       "latency": 888985.5945793291,
       "timestamp": "2026-05-18T06:28:52.168804+00:00",
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
-    },
-    {
-      "rank": 52,
-      "user": "十五组",
-      "github": "fengjin1126/BangC15",
-      "score": 0.0004932072698111482,
-      "latency": 905185.3598405918,
-      "timestamp": "2026-06-08T19:42:12.281825+00:00"
     },
     {
       "rank": 53,
@@ -489,5 +489,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-08T19:44:32.395141+00:00"
+  "last_updated": "2026-06-08T22:05:55.044040+00:00"
 }

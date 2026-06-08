@@ -196,6 +196,14 @@
     },
     {
       "rank": 23,
+      "user": "十五组",
+      "github": "fengjin1126/BangC15",
+      "score": 0.011132313568344028,
+      "latency": 2494.450037678083,
+      "timestamp": "2026-06-08T22:03:45.828381+00:00"
+    },
+    {
+      "rank": 24,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.011083644597602442,
@@ -203,7 +211,7 @@
       "timestamp": "2026-06-08T13:01:43.005226+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.01105399025953188,
@@ -212,7 +220,7 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.011048346019793969,
@@ -221,7 +229,7 @@
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.010987173427238702,
@@ -229,7 +237,7 @@
       "timestamp": "2026-05-20T10:00:06.258766+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.010955792364886184,
@@ -238,7 +246,7 @@
       "commit_sha": "137a933b31e0f88880a570a01c577992aa6fc5c7"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "十三组",
       "github": "Yy12136/BangC13",
       "score": 0.01092375822463859,
@@ -246,7 +254,7 @@
       "timestamp": "2026-06-04T12:47:45.976361+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "我说删题大于一切组",
       "github": "Oreki2eru/openoperator-start-kit",
       "score": 0.010906756610959585,
@@ -255,20 +263,12 @@
       "commit_sha": "478955d161c295539d9785057e539095efb585bf"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.010859099015201367,
       "latency": 2557.2103137771287,
       "timestamp": "2026-05-30T13:05:23.093868+00:00"
-    },
-    {
-      "rank": 31,
-      "user": "十五组",
-      "github": "fengjin1126/BangC15",
-      "score": 0.010855988775816042,
-      "latency": 2557.942954202493,
-      "timestamp": "2026-06-08T21:18:14.732614+00:00"
     },
     {
       "rank": 32,
@@ -677,5 +677,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-08T21:20:27.739991+00:00"
+  "last_updated": "2026-06-08T22:05:55.045144+00:00"
 }
