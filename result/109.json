@@ -439,6 +439,14 @@
     },
     {
       "rank": 53,
+      "user": "从0开始干科研",
+      "github": "wyh-lyy/openoperator-start-kit",
+      "score": 1.6864982524417477e-05,
+      "latency": 5285507.996877034,
+      "timestamp": "2026-06-08T15:18:45.637861+00:00"
+    },
+    {
+      "rank": 54,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 1.6377445811577195e-05,
@@ -447,7 +455,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 1.5557603874735078e-05,
@@ -456,7 +464,7 @@
       "commit_sha": "67e30db510330f49ce1bfc0a58028c03c77815b5"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 1.867435048935941e-06,
@@ -464,5 +472,5 @@
       "timestamp": "2026-05-20T07:53:32.411230+00:00"
     }
   ],
-  "last_updated": "2026-06-08T15:15:32.616986+00:00"
+  "last_updated": "2026-06-08T15:20:41.273134+00:00"
 }

@@ -123,6 +123,14 @@
     },
     {
       "rank": 15,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.03494521633904837,
+      "latency": 9200.601217647394,
+      "timestamp": "2026-06-08T15:16:50.239762+00:00"
+    },
+    {
+      "rank": 16,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01425467362085249,
@@ -131,5 +139,5 @@
       "commit_sha": "5290023de287b78782fb701b3a51fa942feb31b1"
     }
   ],
-  "last_updated": "2026-06-08T14:55:06.037685+00:00"
+  "last_updated": "2026-06-08T15:20:41.269917+00:00"
 }

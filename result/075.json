@@ -440,6 +440,14 @@
     },
     {
       "rank": 53,
+      "user": "从0开始干科研",
+      "github": "wyh-lyy/openoperator-start-kit",
+      "score": 0.0015479855301388805,
+      "latency": 18532.472973068554,
+      "timestamp": "2026-06-08T15:18:45.637861+00:00"
+    },
+    {
+      "rank": 54,
       "user": "智算第九组",
       "github": "adwsssss/BangC09",
       "score": 0.0015379015873754377,
@@ -447,7 +455,7 @@
       "timestamp": "2026-05-19T06:44:07.140248+00:00"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.0015137321255191591,
@@ -455,7 +463,7 @@
       "timestamp": "2026-05-20T10:12:46.860787+00:00"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "team_68",
       "github": "Wonder1107/Bangc49",
       "score": 0.0007010051021957926,
@@ -463,7 +471,7 @@
       "timestamp": "2026-06-05T05:14:10.384460+00:00"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "team_21",
       "github": "samwang102/openoperator-team13",
       "score": 0.000303567429338049,
@@ -472,5 +480,5 @@
       "commit_sha": "9d448c1df6bacc72c6dbc7af5cd766cf21f43f24"
     }
   ],
-  "last_updated": "2026-06-08T15:10:26.548605+00:00"
+  "last_updated": "2026-06-08T15:20:41.265145+00:00"
 }
