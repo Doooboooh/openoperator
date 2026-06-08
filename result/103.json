@@ -441,6 +441,14 @@
     },
     {
       "rank": 53,
+      "user": "888",
+      "github": "RuiXiZhang03/888-op-gen",
+      "score": 0.0016937941690972837,
+      "latency": 24932.78154482444,
+      "timestamp": "2026-06-08T14:50:50.718877+00:00"
+    },
+    {
+      "rank": 54,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0008076710448744204,
@@ -448,7 +456,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.00022464672732725114,
@@ -456,7 +464,7 @@
       "timestamp": "2026-05-21T08:43:00.430390+00:00"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00022225142106754622,
@@ -465,7 +473,7 @@
       "commit_sha": "f9ccaec54ed3f58878c5033b4c4b87942d179fdd"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.00021997901744882277,
@@ -474,7 +482,7 @@
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
     },
     {
-      "rank": 57,
+      "rank": 58,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 2.1973774728125108e-06,
@@ -483,5 +491,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-08T13:59:21.176216+00:00"
+  "last_updated": "2026-06-08T14:55:06.038230+00:00"
 }

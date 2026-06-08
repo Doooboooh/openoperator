@@ -156,19 +156,19 @@
     },
     {
       "rank": 19,
+      "user": "888",
+      "github": "RuiXiZhang03/888-op-gen",
+      "score": 0.06607357753933216,
+      "latency": 3215.0521874427795,
+      "timestamp": "2026-06-08T14:50:50.718877+00:00"
+    },
+    {
+      "rank": 20,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.06361377592722489,
       "latency": 3339.3710230787597,
       "timestamp": "2026-06-05T04:03:43.486650+00:00"
-    },
-    {
-      "rank": 20,
-      "user": "888",
-      "github": "RuiXiZhang03/888-op-gen",
-      "score": 0.06305705328599265,
-      "latency": 3368.853901823362,
-      "timestamp": "2026-06-08T12:04:54.288686+00:00"
     },
     {
       "rank": 21,
@@ -204,5 +204,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-08T13:23:40.788177+00:00"
+  "last_updated": "2026-06-08T14:55:06.047915+00:00"
 }

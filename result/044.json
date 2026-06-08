@@ -164,6 +164,14 @@
     },
     {
       "rank": 20,
+      "user": "888",
+      "github": "RuiXiZhang03/888-op-gen",
+      "score": 0.016357059196488086,
+      "latency": 4239.637404680252,
+      "timestamp": "2026-06-08T14:50:50.718877+00:00"
+    },
+    {
+      "rank": 21,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.016106702781874347,
@@ -171,7 +179,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.014688459993976026,
@@ -179,7 +187,7 @@
       "timestamp": "2026-06-04T04:18:10.375768+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 3.47066173768032e-06,
@@ -188,5 +196,5 @@
       "commit_sha": "d15f03b46e5577176f5b85845274f8658b2db995"
     }
   ],
-  "last_updated": "2026-06-05T09:18:30.443194+00:00"
+  "last_updated": "2026-06-08T14:55:06.041917+00:00"
 }
