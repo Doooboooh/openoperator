@@ -98,6 +98,14 @@
     },
     {
       "rank": 12,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.012289734678271502,
+      "latency": 3851.75117601951,
+      "timestamp": "2026-06-08T13:19:51.016191+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.012179703804642164,
@@ -105,7 +113,7 @@
       "timestamp": "2026-06-02T05:42:56.983160+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.010038147871480921,
@@ -114,7 +122,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.009882455146231067,
@@ -122,7 +130,7 @@
       "timestamp": "2026-06-05T08:56:15.311343+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.006865785190105965,
@@ -130,7 +138,7 @@
       "timestamp": "2026-06-03T14:51:06.469059+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0032392484403804944,
@@ -138,5 +146,5 @@
       "timestamp": "2026-05-24T07:25:07.431405+00:00"
     }
   ],
-  "last_updated": "2026-06-08T12:12:17.924757+00:00"
+  "last_updated": "2026-06-08T13:23:40.762439+00:00"
 }

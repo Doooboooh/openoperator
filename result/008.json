@@ -175,6 +175,14 @@
     },
     {
       "rank": 21,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.0006562578496893219,
+      "latency": 1831498.0926613014,
+      "timestamp": "2026-06-08T13:19:51.016191+00:00"
+    },
+    {
+      "rank": 22,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0003573950209127775,
@@ -183,7 +191,7 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.00014702623925098165,
@@ -191,7 +199,7 @@
       "timestamp": "2026-05-18T14:29:10.286439+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 4.548882752853897e-05,
@@ -200,5 +208,5 @@
       "commit_sha": "6fe6af9e730b4765109f623c5ba0056cf21ce301"
     }
   ],
-  "last_updated": "2026-06-05T04:04:48.878867+00:00"
+  "last_updated": "2026-06-08T13:23:40.753682+00:00"
 }

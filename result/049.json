@@ -56,6 +56,14 @@
     },
     {
       "rank": 7,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.043586839357672644,
+      "latency": 411396.31283779937,
+      "timestamp": "2026-06-08T13:19:51.016191+00:00"
+    },
+    {
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.03062393936918201,
@@ -64,7 +72,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "888",
       "github": "RuiXiZhang03/888-op-gen",
       "score": 0.020674894200797028,
@@ -72,7 +80,7 @@
       "timestamp": "2026-06-08T12:04:54.288686+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.012328826492139473,
@@ -80,20 +88,12 @@
       "timestamp": "2026-06-04T19:12:00.009679+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.012311424997960126,
       "latency": 1456489.8054425914,
       "timestamp": "2026-06-05T08:47:02.483196+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.004095172348650989,
-      "latency": 4378683.843649924,
-      "timestamp": "2026-06-05T12:24:24.082301+00:00"
     },
     {
       "rank": 12,
@@ -193,5 +193,5 @@
       "timestamp": "2026-06-04T08:41:37.052522+00:00"
     }
   ],
-  "last_updated": "2026-06-08T12:07:12.826829+00:00"
+  "last_updated": "2026-06-08T13:23:40.790251+00:00"
 }

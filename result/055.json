@@ -63,6 +63,14 @@
     },
     {
       "rank": 8,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.2590009543166847,
+      "latency": 2165.756498773893,
+      "timestamp": "2026-06-08T13:19:51.016191+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.24379171433364352,
@@ -71,7 +79,7 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.2334913577089979,
@@ -80,7 +88,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.1978768054532484,
@@ -88,7 +96,7 @@
       "timestamp": "2026-06-01T06:21:42.419558+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.19625201004033954,
@@ -96,7 +104,7 @@
       "timestamp": "2026-06-08T13:10:49.362822+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.1237399514882488,
@@ -104,5 +112,5 @@
       "timestamp": "2026-06-04T04:18:10.375768+00:00"
     }
   ],
-  "last_updated": "2026-06-08T13:13:29.107791+00:00"
+  "last_updated": "2026-06-08T13:23:40.787649+00:00"
 }

@@ -136,6 +136,14 @@
     },
     {
       "rank": 17,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.04481930662793243,
+      "latency": 2355.2350079019866,
+      "timestamp": "2026-06-08T13:19:51.016191+00:00"
+    },
+    {
+      "rank": 18,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0433071773466463,
@@ -144,7 +152,7 @@
       "commit_sha": "8c32fc00c648d61ae4442b87f14e9db034d01f99"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.04132581682521844,
@@ -153,7 +161,7 @@
       "commit_sha": "e8501aa8f912656f8d86578ba1c068607746437a"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.04085688151435228,
@@ -162,5 +170,5 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     }
   ],
-  "last_updated": "2026-06-08T13:13:29.107088+00:00"
+  "last_updated": "2026-06-08T13:23:40.777385+00:00"
 }

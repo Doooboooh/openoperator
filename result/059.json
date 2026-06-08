@@ -105,6 +105,14 @@
     },
     {
       "rank": 13,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.10764191469285096,
+      "latency": 11763.865438600382,
+      "timestamp": "2026-06-08T13:19:51.016191+00:00"
+    },
+    {
+      "rank": 14,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.10539442691520455,
@@ -113,7 +121,7 @@
       "commit_sha": "5589a11fd4078ee814385f6bbde2f5cdfb06c780"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0630758478556456,
@@ -121,7 +129,7 @@
       "timestamp": "2026-06-08T12:43:27.895435+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.060173771157947115,
@@ -129,5 +137,5 @@
       "timestamp": "2026-05-28T09:42:42.687630+00:00"
     }
   ],
-  "last_updated": "2026-06-08T12:47:58.058386+00:00"
+  "last_updated": "2026-06-08T13:23:40.775467+00:00"
 }
