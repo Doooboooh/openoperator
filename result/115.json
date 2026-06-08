@@ -98,20 +98,20 @@
     },
     {
       "rank": 12,
+      "user": "team_75",
+      "github": "Jiaqi7zzz/operator-31",
+      "score": 0.004254955833081048,
+      "latency": 606771.5156823397,
+      "timestamp": "2026-06-08T13:03:27.825943+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.004228561522557575,
       "latency": 610558.9303188026,
       "timestamp": "2026-05-18T06:56:07.904857+00:00",
       "commit_sha": "ab7698ebaa529d54df1b08db68b428fe98436d27"
-    },
-    {
-      "rank": 13,
-      "user": "team_75",
-      "github": "Jiaqi7zzz/operator-31",
-      "score": 0.00421425034757419,
-      "latency": 612632.3277130723,
-      "timestamp": "2026-06-08T13:00:39.296909+00:00"
     },
     {
       "rank": 14,
@@ -181,5 +181,5 @@
       "timestamp": "2026-06-01T00:57:01.625787+00:00"
     }
   ],
-  "last_updated": "2026-06-08T13:03:17.862611+00:00"
+  "last_updated": "2026-06-08T13:08:23.161696+00:00"
 }
