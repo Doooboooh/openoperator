@@ -131,6 +131,14 @@
     },
     {
       "rank": 16,
+      "user": "888",
+      "github": "RuiXiZhang03/888-op-gen",
+      "score": 0.0537051585342572,
+      "latency": 5589.276862641175,
+      "timestamp": "2026-06-08T16:57:28.342374+00:00"
+    },
+    {
+      "rank": 17,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.04863161111117205,
@@ -139,7 +147,7 @@
       "commit_sha": "4660cc541fc0cdc0081a4818f9b6ca633dc806a1"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.03618786356447806,
@@ -148,7 +156,7 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.029918412885541593,
@@ -156,7 +164,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.010825597392038214,
@@ -164,7 +172,7 @@
       "timestamp": "2026-06-01T07:46:37.148157+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.0016487048467315481,
@@ -172,5 +180,5 @@
       "timestamp": "2026-06-04T02:14:57.812775+00:00"
     }
   ],
-  "last_updated": "2026-06-08T14:35:01.207085+00:00"
+  "last_updated": "2026-06-08T17:02:21.476207+00:00"
 }
