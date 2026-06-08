@@ -63,6 +63,14 @@
     },
     {
       "rank": 8,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.008164135432858854,
+      "latency": 12510.449004669985,
+      "timestamp": "2026-06-08T10:55:41.101108+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0067162753653938765,
@@ -71,7 +79,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.005366564804210451,
@@ -79,7 +87,7 @@
       "timestamp": "2026-06-04T02:25:54.732629+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0014404496202163799,
@@ -88,7 +96,7 @@
       "commit_sha": "501f30a08ec97063f771e42c96d865d6cefecfef"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.0013248921549744894,
@@ -96,7 +104,7 @@
       "timestamp": "2026-05-29T13:26:24.635679+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0003841583099662591,
@@ -104,7 +112,7 @@
       "timestamp": "2026-06-01T01:33:15.962685+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.00026344715508078544,
@@ -112,7 +120,7 @@
       "timestamp": "2026-05-31T13:25:33.035590+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.0002558767491623696,
@@ -120,7 +128,7 @@
       "timestamp": "2026-06-02T01:06:00.224141+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0002501133183824417,
@@ -128,5 +136,5 @@
       "timestamp": "2026-06-03T14:01:45.492062+00:00"
     }
   ],
-  "last_updated": "2026-06-05T03:08:58.624122+00:00"
+  "last_updated": "2026-06-08T11:00:59.492211+00:00"
 }

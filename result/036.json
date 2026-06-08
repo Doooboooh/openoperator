@@ -30,21 +30,21 @@
     },
     {
       "rank": 4,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.32986477443038875,
+      "latency": 2239.9239242076874,
+      "timestamp": "2026-06-08T10:55:41.101108+00:00",
+      "commit_sha": "4a905bac6e0d23432f4b512a57b31683d964e850"
+    },
+    {
+      "rank": 5,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.3219899811367823,
       "latency": 2294.704938928286,
       "timestamp": "2026-05-18T09:19:32.058156+00:00",
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
-    },
-    {
-      "rank": 5,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.32050167294667886,
-      "latency": 2305.3608213861785,
-      "timestamp": "2026-06-05T09:30:57.473280+00:00",
-      "commit_sha": "4a905bac6e0d23432f4b512a57b31683d964e850"
     },
     {
       "rank": 6,
@@ -194,5 +194,5 @@
       "timestamp": "2026-06-01T12:06:14.604234+00:00"
     }
   ],
-  "last_updated": "2026-06-05T17:53:33.454554+00:00"
+  "last_updated": "2026-06-08T11:00:59.490381+00:00"
 }

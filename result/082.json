@@ -48,6 +48,14 @@
     },
     {
       "rank": 6,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.008935603150074066,
+      "latency": 9711.823426187038,
+      "timestamp": "2026-06-08T10:55:41.101108+00:00"
+    },
+    {
+      "rank": 7,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.005427774210538394,
@@ -55,7 +63,7 @@
       "timestamp": "2026-06-04T02:44:32.613524+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.003937694862513367,
@@ -63,7 +71,7 @@
       "timestamp": "2026-06-03T13:50:16.207343+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.0037677213872870656,
@@ -71,7 +79,7 @@
       "timestamp": "2026-06-04T14:40:16.985973+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.002095019206590537,
@@ -79,7 +87,7 @@
       "timestamp": "2026-05-29T13:41:40.111663+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0003281557044413558,
@@ -87,7 +95,7 @@
       "timestamp": "2026-06-04T02:24:43.801452+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.00022027280276756738,
@@ -96,7 +104,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.00022009741300080678,
@@ -104,7 +112,7 @@
       "timestamp": "2026-06-02T01:03:25.990587+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.00021939231389114106,
@@ -112,7 +120,7 @@
       "timestamp": "2026-06-03T13:37:36.521369+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0001086353296130807,
@@ -121,5 +129,5 @@
       "commit_sha": "cb3517f528ba96333605ca481d0ae3b8cbab5411"
     }
   ],
-  "last_updated": "2026-06-04T19:08:32.479382+00:00"
+  "last_updated": "2026-06-08T11:00:59.489127+00:00"
 }
