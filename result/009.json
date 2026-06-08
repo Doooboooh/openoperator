@@ -355,6 +355,14 @@
     },
     {
       "rank": 43,
+      "user": "十五组",
+      "github": "fengjin1126/BangC15",
+      "score": 0.0010295827420418486,
+      "latency": 69770.01174042623,
+      "timestamp": "2026-06-08T19:42:12.281825+00:00"
+    },
+    {
+      "rank": 44,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 0.0010193901104524432,
@@ -362,7 +370,7 @@
       "timestamp": "2026-06-01T06:09:53.959393+00:00"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.0010108828812272312,
@@ -371,7 +379,7 @@
       "commit_sha": "978afd5178348f16f33a534672b656bf81395e67"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0010096678916119309,
@@ -380,7 +388,7 @@
       "commit_sha": "5ea39637d48b08d86f91c772961a1cd02f4894ae"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0009912935066541458,
@@ -389,20 +397,12 @@
       "commit_sha": "dc3d018d16f5558273580942ec6d1f207348e760"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.0009758411808419688,
       "latency": 73612.38837863009,
       "timestamp": "2026-05-20T08:46:19.408236+00:00"
-    },
-    {
-      "rank": 48,
-      "user": "十五组",
-      "github": "fengjin1126/BangC15",
-      "score": 0.0009657735592392294,
-      "latency": 74379.7542527318,
-      "timestamp": "2026-06-08T19:17:13.810051+00:00"
     },
     {
       "rank": 49,
@@ -539,5 +539,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-08T19:19:14.157044+00:00"
+  "last_updated": "2026-06-08T19:44:32.385105+00:00"
 }

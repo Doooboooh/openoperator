@@ -154,6 +154,14 @@
     },
     {
       "rank": 19,
+      "user": "十五组",
+      "github": "fengjin1126/BangC15",
+      "score": 0.016320630701243878,
+      "latency": 2444.3908284107843,
+      "timestamp": "2026-06-08T19:42:12.281825+00:00"
+    },
+    {
+      "rank": 20,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.01627859316649303,
@@ -162,7 +170,7 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_71",
       "github": "SatoriEye/BangC",
       "score": 0.016196785143894034,
@@ -170,7 +178,7 @@
       "timestamp": "2026-05-20T02:06:56.020228+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.0159797193840508,
@@ -179,7 +187,7 @@
       "commit_sha": "cfb0d05df9f8299c507a5f7c3bcc806445cf3bb3"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "十三组",
       "github": "Yy12136/BangC13",
       "score": 0.015924029255857314,
@@ -187,7 +195,7 @@
       "timestamp": "2026-06-04T13:07:16.347585+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.015884307862271508,
@@ -196,7 +204,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.01558539907307727,
@@ -205,7 +213,7 @@
       "commit_sha": "0feb5a62f93324b05c34feb628bf3b52dee3d520"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.015499830625170012,
@@ -214,20 +222,12 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.015377469693656125,
       "latency": 2594.314981251955,
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
-    },
-    {
-      "rank": 27,
-      "user": "十五组",
-      "github": "fengjin1126/BangC15",
-      "score": 0.015371470554000384,
-      "latency": 2595.327484110991,
-      "timestamp": "2026-06-08T19:17:13.810051+00:00"
     },
     {
       "rank": 28,
@@ -531,5 +531,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-06-08T19:19:14.170022+00:00"
+  "last_updated": "2026-06-08T19:44:32.396373+00:00"
 }

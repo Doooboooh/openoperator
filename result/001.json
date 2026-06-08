@@ -273,6 +273,14 @@
     },
     {
       "rank": 32,
+      "user": "十五组",
+      "github": "fengjin1126/BangC15",
+      "score": 0.01080289801182072,
+      "latency": 2570.513946314653,
+      "timestamp": "2026-06-08T19:42:12.281825+00:00"
+    },
+    {
+      "rank": 33,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.010691008659573325,
@@ -281,7 +289,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "team_56",
       "github": "wuyu685/BangC61_cww",
       "score": 0.010649436739811833,
@@ -289,7 +297,7 @@
       "timestamp": "2026-06-08T12:16:30.128741+00:00"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.01059513611928117,
@@ -297,7 +305,7 @@
       "timestamp": "2026-05-19T07:22:21.979717+00:00"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "user": "智能哈基系统组",
       "github": "Glucose-180/AIHS-Operator",
       "score": 0.010557801779002297,
@@ -305,21 +313,13 @@
       "timestamp": "2026-05-20T14:12:27.116624+00:00"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.01016902310613394,
       "latency": 2730.744114766518,
       "timestamp": "2026-05-18T06:28:04.922424+00:00",
       "commit_sha": "36b12293e02f35cbe28028a710a4e18b5ba99833"
-    },
-    {
-      "rank": 37,
-      "user": "十五组",
-      "github": "fengjin1126/BangC15",
-      "score": 0.010127209697277862,
-      "latency": 2742.0188610752425,
-      "timestamp": "2026-06-08T19:17:13.810051+00:00"
     },
     {
       "rank": 38,
@@ -677,5 +677,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-08T19:19:14.167360+00:00"
+  "last_updated": "2026-06-08T19:44:32.397634+00:00"
 }
