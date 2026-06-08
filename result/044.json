@@ -48,6 +48,14 @@
     },
     {
       "rank": 6,
+      "user": "十五组",
+      "github": "fengjin1126/BangC15",
+      "score": 0.032582945156795655,
+      "latency": 2128.352721532186,
+      "timestamp": "2026-06-08T23:11:48.618040+00:00"
+    },
+    {
+      "rank": 7,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.03248510940254011,
@@ -55,7 +63,7 @@
       "timestamp": "2026-06-03T07:59:23.393923+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.03225157859708768,
@@ -63,7 +71,7 @@
       "timestamp": "2026-05-31T08:38:31.867140+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.030824137335007197,
@@ -71,7 +79,7 @@
       "timestamp": "2026-06-05T09:14:53.363801+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.03081029903402717,
@@ -80,7 +88,7 @@
       "commit_sha": "a911e8965177c8f5c6d3cebe605c8fc90d86860c"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.03055471810043168,
@@ -88,7 +96,7 @@
       "timestamp": "2026-06-04T09:53:03.785717+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.030428393030637407,
@@ -96,21 +104,13 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.0296219468583496,
       "latency": 2341.1020326117673,
       "timestamp": "2026-05-18T09:41:07.584422+00:00",
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
-    },
-    {
-      "rank": 13,
-      "user": "十五组",
-      "github": "fengjin1126/BangC15",
-      "score": 0.02960207859161528,
-      "latency": 2342.673329015573,
-      "timestamp": "2026-06-08T22:03:45.828381+00:00"
     },
     {
       "rank": 14,
@@ -204,5 +204,5 @@
       "commit_sha": "d15f03b46e5577176f5b85845274f8658b2db995"
     }
   ],
-  "last_updated": "2026-06-08T22:05:55.039652+00:00"
+  "last_updated": "2026-06-08T23:16:05.234439+00:00"
 }
