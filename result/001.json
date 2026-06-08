@@ -569,6 +569,14 @@
     },
     {
       "rank": 68,
+      "user": "team_53",
+      "github": "liuranra/kernel-competition",
+      "score": 0.004595871983196976,
+      "latency": 6042.161335547765,
+      "timestamp": "2026-06-08T11:25:20.042185+00:00"
+    },
+    {
+      "rank": 69,
       "user": "team_98",
       "github": "LSY839/bangc-competition",
       "score": 0.004586075729183968,
@@ -576,7 +584,7 @@
       "timestamp": "2026-05-18T14:15:25.569866+00:00"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "user": "提示词大师",
       "github": "Zhang-Jiahe/Prompt-Master-bangc-operator-competition",
       "score": 0.004577230327350411,
@@ -584,7 +592,7 @@
       "timestamp": "2026-06-03T06:56:31.305575+00:00"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.00457308931815337,
@@ -592,7 +600,7 @@
       "timestamp": "2026-05-24T11:03:57.112062+00:00"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.00449953358039888,
@@ -601,21 +609,13 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.0044584290044308045,
       "latency": 6228.427092234294,
       "timestamp": "2026-06-05T16:32:04.350904+00:00",
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
-    },
-    {
-      "rank": 73,
-      "user": "team_53",
-      "github": "liuranra/kernel-competition",
-      "score": 0.004445206492499196,
-      "latency": 6246.95389221112,
-      "timestamp": "2026-06-08T11:14:40.414003+00:00"
     },
     {
       "rank": 74,
@@ -653,5 +653,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-08T11:16:15.150379+00:00"
+  "last_updated": "2026-06-08T11:26:25.305786+00:00"
 }
