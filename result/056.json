@@ -321,6 +321,14 @@
     },
     {
       "rank": 39,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.09024416200846633,
+      "latency": 2985.267899930477,
+      "timestamp": "2026-06-08T13:27:48.085248+00:00"
+    },
+    {
+      "rank": 40,
       "user": "二十六组",
       "github": "zhcsyyy/openoperator_26",
       "score": 0.09022963702218426,
@@ -328,20 +336,12 @@
       "timestamp": "2026-06-08T10:44:36.132836+00:00"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.08862190056761378,
       "latency": 3039.9144937594733,
       "timestamp": "2026-06-05T17:45:05.913454+00:00"
-    },
-    {
-      "rank": 41,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.08565159280951733,
-      "latency": 3145.3355525930724,
-      "timestamp": "2026-06-08T13:06:23.140798+00:00"
     },
     {
       "rank": 42,
@@ -479,5 +479,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-08T13:13:29.103588+00:00"
+  "last_updated": "2026-06-08T13:28:46.733598+00:00"
 }
