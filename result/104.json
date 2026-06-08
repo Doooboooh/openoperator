@@ -113,19 +113,19 @@
     },
     {
       "rank": 14,
+      "user": "team_19",
+      "github": "JerryLiu369/openoperator-start-kit-experiment",
+      "score": 0.04265710649437766,
+      "latency": 3633.954872687658,
+      "timestamp": "2026-06-08T13:15:39.132862+00:00"
+    },
+    {
+      "rank": 15,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.042094175699245624,
       "latency": 3682.552215953668,
       "timestamp": "2026-05-22T08:53:36.581933+00:00"
-    },
-    {
-      "rank": 15,
-      "user": "team_19",
-      "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.041594120464929156,
-      "latency": 3726.824807624022,
-      "timestamp": "2026-06-08T11:19:14.189289+00:00"
     },
     {
       "rank": 16,
@@ -463,5 +463,5 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     }
   ],
-  "last_updated": "2026-06-08T11:21:20.393923+00:00"
+  "last_updated": "2026-06-08T13:18:34.646811+00:00"
 }
