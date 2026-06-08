@@ -438,6 +438,14 @@
     },
     {
       "rank": 52,
+      "user": "team_53",
+      "github": "liuranra/kernel-competition",
+      "score": 0.004762091885529907,
+      "latency": 5831.260854999225,
+      "timestamp": "2026-06-08T11:32:09.475767+00:00"
+    },
+    {
+      "rank": 53,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.004745613567635829,
@@ -446,7 +454,7 @@
       "commit_sha": "e934573bc4dffb730f3812ba97f75d0280a46c9b"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "user": "team_4",
       "github": "wangyongping1/ICS-53TEAM",
       "score": 0.004739262503184516,
@@ -454,7 +462,7 @@
       "timestamp": "2026-06-02T03:35:36.768858+00:00"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "user": "十七组",
       "github": "Noitexy/openoperator-JJZZ",
       "score": 0.004729170511624889,
@@ -462,7 +470,7 @@
       "timestamp": "2026-06-03T07:14:16.859731+00:00"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "team_94",
       "github": "rishitash42-code/bangc-70",
       "score": 0.004715602279814008,
@@ -470,7 +478,7 @@
       "timestamp": "2026-05-23T15:09:47.004327+00:00"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0047099287108006566,
@@ -479,7 +487,7 @@
       "commit_sha": "27dbd8f98770a0d493c7c53ecb00991d5f00aa32"
     },
     {
-      "rank": 57,
+      "rank": 58,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.0047069767878428195,
@@ -487,7 +495,7 @@
       "timestamp": "2026-05-29T06:26:50.941038+00:00"
     },
     {
-      "rank": 58,
+      "rank": 59,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.0047023804993326515,
@@ -495,7 +503,7 @@
       "timestamp": "2026-05-22T08:32:36.621716+00:00"
     },
     {
-      "rank": 59,
+      "rank": 60,
       "user": "team_82",
       "github": "Xdddyy/openoperator-25",
       "score": 0.004700810541434774,
@@ -503,7 +511,7 @@
       "timestamp": "2026-06-05T10:17:19.357746+00:00"
     },
     {
-      "rank": 60,
+      "rank": 61,
       "user": "team_77",
       "github": "Atopos666/BangC_Team41",
       "score": 0.004690574248009139,
@@ -511,7 +519,7 @@
       "timestamp": "2026-06-04T09:54:57.007327+00:00"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.004666916636045765,
@@ -519,7 +527,7 @@
       "timestamp": "2026-06-01T05:24:45.232973+00:00"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.004660051239707106,
@@ -528,7 +536,7 @@
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "user": "干不过AI组",
       "github": "yuanlaibuduan/Human_Vs_AI",
       "score": 0.004652840409715731,
@@ -536,7 +544,7 @@
       "timestamp": "2026-06-03T04:56:51.289637+00:00"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "user": "从0开始干科研",
       "github": "wyh-lyy/openoperator-start-kit",
       "score": 0.0046185289956180604,
@@ -544,7 +552,7 @@
       "timestamp": "2026-06-03T15:59:32.783455+00:00"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.004616497922682382,
@@ -552,7 +560,7 @@
       "timestamp": "2026-05-18T12:35:03.217885+00:00"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.004612526278677096,
@@ -560,20 +568,12 @@
       "timestamp": "2026-06-05T13:26:34.343794+00:00"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.0046057161066929515,
       "latency": 6029.246995846431,
       "timestamp": "2026-06-01T15:44:55.975968+00:00"
-    },
-    {
-      "rank": 68,
-      "user": "team_53",
-      "github": "liuranra/kernel-competition",
-      "score": 0.004595871983196976,
-      "latency": 6042.161335547765,
-      "timestamp": "2026-06-08T11:25:20.042185+00:00"
     },
     {
       "rank": 69,
@@ -653,5 +653,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-08T11:26:25.305786+00:00"
+  "last_updated": "2026-06-08T11:36:38.220364+00:00"
 }

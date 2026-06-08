@@ -348,6 +348,14 @@
     },
     {
       "rank": 42,
+      "user": "team_24",
+      "github": "oreo34567/bangc_55_yyx",
+      "score": 0.00237475053246536,
+      "latency": 18515.62907298406,
+      "timestamp": "2026-06-08T11:33:00.603833+00:00"
+    },
+    {
+      "rank": 43,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.002071414056391015,
@@ -356,7 +364,7 @@
       "commit_sha": "037e7af38fbf12c11227988fd86980e3dd0e4754"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0016169263793599157,
@@ -365,7 +373,7 @@
       "commit_sha": "9652eb84d263ccf69bb488d8bb6e789d89710eb5"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.001607960971752906,
@@ -373,7 +381,7 @@
       "timestamp": "2026-06-04T03:23:46.150694+00:00"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.001521981516562346,
@@ -381,7 +389,7 @@
       "timestamp": "2026-05-31T06:47:29.213849+00:00"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0015177811731627569,
@@ -389,20 +397,12 @@
       "timestamp": "2026-05-29T11:06:32.357682+00:00"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.0013807393068221397,
       "latency": 31845.25839363535,
       "timestamp": "2026-06-01T06:57:04.265520+00:00"
-    },
-    {
-      "rank": 48,
-      "user": "team_24",
-      "github": "oreo34567/bangc_55_yyx",
-      "score": 0.0013733101859987682,
-      "latency": 32017.52994209528,
-      "timestamp": "2026-06-08T11:23:34.179615+00:00"
     },
     {
       "rank": 49,
@@ -496,5 +496,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-08T11:26:25.304278+00:00"
+  "last_updated": "2026-06-08T11:36:38.216865+00:00"
 }
