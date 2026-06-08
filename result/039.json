@@ -115,6 +115,14 @@
     },
     {
       "rank": 14,
+      "user": "team_65",
+      "github": "imczxx/ICS_45Team",
+      "score": 0.4212170235810157,
+      "latency": 12700.201322635015,
+      "timestamp": "2026-06-08T12:59:38.502350+00:00"
+    },
+    {
+      "rank": 15,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.20759038723158577,
@@ -122,7 +130,7 @@
       "timestamp": "2026-06-04T11:44:32.152337+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_68",
       "github": "Wonder1107/Bangc49",
       "score": 0.20580176261760355,
@@ -130,7 +138,7 @@
       "timestamp": "2026-06-05T05:02:01.959141+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.16393299560810393,
@@ -138,7 +146,7 @@
       "timestamp": "2026-05-29T08:40:58.629877+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.1381011232715652,
@@ -147,21 +155,13 @@
       "commit_sha": "c8c1fd120f90a8bb9064c034968d0c4e042d6372"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.08906221094880955,
       "latency": 60065.21669526895,
       "timestamp": "2026-05-18T06:31:07.242097+00:00",
       "commit_sha": "9cbf54315eac9d68e9fe0dfd7b7380c9ab92eae9"
-    },
-    {
-      "rank": 19,
-      "user": "team_65",
-      "github": "imczxx/ICS_45Team",
-      "score": 0.0861115651283453,
-      "latency": 62123.374392588936,
-      "timestamp": "2026-06-08T12:00:49.259689+00:00"
     },
     {
       "rank": 20,
@@ -496,5 +496,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-08T12:42:52.743116+00:00"
+  "last_updated": "2026-06-08T13:03:17.860989+00:00"
 }
