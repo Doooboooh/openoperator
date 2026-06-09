@@ -304,6 +304,14 @@
     },
     {
       "rank": 37,
+      "user": "十五组",
+      "github": "fengjin1126/BangC15",
+      "score": 0.0012209676553782192,
+      "latency": 58833.66335183382,
+      "timestamp": "2026-06-09T00:52:08.716595+00:00"
+    },
+    {
+      "rank": 38,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 0.001198376583812931,
@@ -311,7 +319,7 @@
       "timestamp": "2026-06-04T15:00:47.721966+00:00"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.0011391335008204282,
@@ -319,7 +327,7 @@
       "timestamp": "2026-06-08T12:39:33.793929+00:00"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.001106501700404154,
@@ -328,7 +336,7 @@
       "commit_sha": "55232e0b64bf5fd13ad3827aa170673725087891"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.0010942079328008488,
@@ -336,7 +344,7 @@
       "timestamp": "2026-06-01T16:52:33.777120+00:00"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0010787860254561014,
@@ -345,21 +353,13 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.0010484352380241535,
       "latency": 68515.43843125303,
       "timestamp": "2026-05-22T13:20:05.267576+00:00",
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
-    },
-    {
-      "rank": 43,
-      "user": "十五组",
-      "github": "fengjin1126/BangC15",
-      "score": 0.0010443098969914557,
-      "latency": 68786.0952069362,
-      "timestamp": "2026-06-08T22:03:45.828381+00:00"
     },
     {
       "rank": 44,
@@ -539,5 +539,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-08T22:05:55.034111+00:00"
+  "last_updated": "2026-06-09T00:56:25.016464+00:00"
 }
