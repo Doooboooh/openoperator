@@ -47,20 +47,20 @@
     },
     {
       "rank": 6,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.12813098697683714,
+      "latency": 2549.078936378161,
+      "timestamp": "2026-06-09T13:45:00.114026+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.125795330830638,
       "latency": 2596.4079735179744,
       "timestamp": "2026-05-18T06:51:14.811139+00:00",
       "commit_sha": "7bbbd11518856d2b767864a1d3323f7873ae4f4e"
-    },
-    {
-      "rank": 7,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.1215688107806053,
-      "latency": 2686.6759484012923,
-      "timestamp": "2026-06-08T16:46:12.774404+00:00"
     },
     {
       "rank": 8,
@@ -169,5 +169,5 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     }
   ],
-  "last_updated": "2026-06-09T10:08:40.651039+00:00"
+  "last_updated": "2026-06-09T13:46:57.588897+00:00"
 }

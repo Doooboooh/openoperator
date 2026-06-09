@@ -39,20 +39,20 @@
     },
     {
       "rank": 5,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.08773000767169602,
+      "latency": 2482.286343971888,
+      "timestamp": "2026-06-09T13:45:00.114026+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.08450212532508351,
       "latency": 2577.106778820356,
       "timestamp": "2026-05-18T09:11:58.720814+00:00",
       "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
-    },
-    {
-      "rank": 6,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.08439826232779453,
-      "latency": 2580.2782426277795,
-      "timestamp": "2026-06-05T04:03:43.486650+00:00"
     },
     {
       "rank": 7,
@@ -229,5 +229,5 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     }
   ],
-  "last_updated": "2026-06-09T10:08:40.695700+00:00"
+  "last_updated": "2026-06-09T13:46:57.591231+00:00"
 }
