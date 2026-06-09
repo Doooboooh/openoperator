@@ -95,20 +95,20 @@
     },
     {
       "rank": 12,
+      "user": "十七组",
+      "github": "Youtanzhi158/BangC17",
+      "score": 0.12436760627519303,
+      "latency": 2166.1830445130668,
+      "timestamp": "2026-06-09T07:34:21.906218+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.12429071905332746,
       "latency": 2167.523062477509,
       "timestamp": "2026-05-18T07:55:09.119177+00:00",
       "commit_sha": "bd05eeaa6aad963070be1c394c3a49571459d4d2"
-    },
-    {
-      "rank": 13,
-      "user": "十七组",
-      "github": "Youtanzhi158/BangC17",
-      "score": 0.1242032423414485,
-      "latency": 2169.049655397733,
-      "timestamp": "2026-06-09T06:57:44.216677+00:00"
     },
     {
       "rank": 14,
@@ -519,5 +519,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-09T07:01:29.906026+00:00"
+  "last_updated": "2026-06-09T07:36:55.290875+00:00"
 }
