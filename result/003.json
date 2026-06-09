@@ -333,6 +333,14 @@
     },
     {
       "rank": 40,
+      "user": "team_95",
+      "github": "GrassedgeT/ics-playground",
+      "score": 0.005597430335181655,
+      "latency": 6422.054022550583,
+      "timestamp": "2026-06-09T11:13:34.122473+00:00"
+    },
+    {
+      "rank": 41,
       "user": "加油组",
       "github": "lao7tomato/BangCompetition",
       "score": 0.005046095401920424,
@@ -340,7 +348,7 @@
       "timestamp": "2026-06-02T14:13:48.526454+00:00"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.004824278925144479,
@@ -348,20 +356,12 @@
       "timestamp": "2026-05-30T14:04:22.604559+00:00"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.00475293339188165,
       "latency": 7563.118822872639,
       "timestamp": "2026-06-09T02:50:49.869421+00:00"
-    },
-    {
-      "rank": 43,
-      "user": "team_95",
-      "github": "GrassedgeT/ics-playground",
-      "score": 0.004591590851870554,
-      "latency": 7828.876997033755,
-      "timestamp": "2026-06-01T06:22:44.549784+00:00"
     },
     {
       "rank": 44,
@@ -620,5 +620,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-09T10:08:40.709132+00:00"
+  "last_updated": "2026-06-09T11:14:41.316184+00:00"
 }
