@@ -71,6 +71,14 @@
     },
     {
       "rank": 9,
+      "user": "二十组",
+      "github": "ujsq/bangc-kernel-competition",
+      "score": 0.010502811059575764,
+      "latency": 1353345.4919233918,
+      "timestamp": "2026-06-09T17:58:15.333283+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.010214323425404175,
@@ -78,7 +86,7 @@
       "timestamp": "2026-06-01T07:04:35.698244+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.003799500198086877,
@@ -87,7 +95,7 @@
       "commit_sha": "501f30a08ec97063f771e42c96d865d6cefecfef"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0018774972645019385,
@@ -95,7 +103,7 @@
       "timestamp": "2026-05-31T03:06:44.500932+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.00014069847306187266,
@@ -103,5 +111,5 @@
       "timestamp": "2026-06-08T20:57:33.549824+00:00"
     }
   ],
-  "last_updated": "2026-06-08T21:00:18.473010+00:00"
+  "last_updated": "2026-06-09T18:00:58.183415+00:00"
 }
