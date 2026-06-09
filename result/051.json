@@ -398,6 +398,15 @@
     },
     {
       "rank": 48,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.0018085741462355747,
+      "latency": 26330.134210487206,
+      "timestamp": "2026-06-09T08:56:24.149422+00:00",
+      "commit_sha": "1f30091b09493541a7d78a1ea37896dafa0b6c0d"
+    },
+    {
+      "rank": 49,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.0016604724306922558,
@@ -405,7 +414,7 @@
       "timestamp": "2026-06-01T06:57:04.265520+00:00"
     },
     {
-      "rank": 49,
+      "rank": 50,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.0016228188332853021,
@@ -413,7 +422,7 @@
       "timestamp": "2026-06-04T12:06:44.249968+00:00"
     },
     {
-      "rank": 50,
+      "rank": 51,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0015899956642284137,
@@ -422,21 +431,12 @@
       "commit_sha": "276526c96a7d6967fee19a5816081bbc1b0a7790"
     },
     {
-      "rank": 51,
+      "rank": 52,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0009615241002383644,
       "latency": 49525.53970118364,
       "timestamp": "2026-05-21T07:34:23.118332+00:00"
-    },
-    {
-      "rank": 52,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.0008693041438489338,
-      "latency": 54779.44668382406,
-      "timestamp": "2026-05-18T05:52:27.292706+00:00",
-      "commit_sha": "1f30091b09493541a7d78a1ea37896dafa0b6c0d"
     },
     {
       "rank": 53,
@@ -471,5 +471,5 @@
       "timestamp": "2026-05-31T09:21:20.668509+00:00"
     }
   ],
-  "last_updated": "2026-06-09T07:47:05.847996+00:00"
+  "last_updated": "2026-06-09T08:57:37.846854+00:00"
 }
