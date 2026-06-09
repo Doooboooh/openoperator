@@ -455,6 +455,14 @@
     },
     {
       "rank": 55,
+      "user": "team_19",
+      "github": "JerryLiu369/openoperator-start-kit-experiment",
+      "score": 0.0013464687347232661,
+      "latency": 26697.24076986313,
+      "timestamp": "2026-06-09T05:50:38.292131+00:00"
+    },
+    {
+      "rank": 56,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.001331135049966155,
@@ -462,7 +470,7 @@
       "timestamp": "2026-06-09T05:12:01.838413+00:00"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "team_4",
       "github": "wangyongping1/ICS-53TEAM",
       "score": 0.0013294589835310415,
@@ -470,7 +478,7 @@
       "timestamp": "2026-06-03T13:54:01.237828+00:00"
     },
     {
-      "rank": 57,
+      "rank": 58,
       "user": "当家作组",
       "github": "xiunianjun/openoperator-start-kit",
       "score": 0.0013291645085200233,
@@ -478,7 +486,7 @@
       "timestamp": "2026-06-08T14:28:23.450924+00:00"
     },
     {
-      "rank": 58,
+      "rank": 59,
       "user": "team_56",
       "github": "wuyu685/BangC61_cww",
       "score": 0.0013288521458254478,
@@ -486,7 +494,7 @@
       "timestamp": "2026-06-08T15:17:34.269571+00:00"
     },
     {
-      "rank": 59,
+      "rank": 60,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.001328016986856882,
@@ -495,20 +503,12 @@
       "commit_sha": "5c3d1f5418f964859ca2a361e4724c50fcaa3d12"
     },
     {
-      "rank": 60,
+      "rank": 61,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.001323985750653278,
       "latency": 27150.594318906467,
       "timestamp": "2026-06-08T10:26:35.987589+00:00"
-    },
-    {
-      "rank": 61,
-      "user": "team_19",
-      "github": "JerryLiu369/openoperator-start-kit-experiment",
-      "score": 0.0013225465781198692,
-      "latency": 27180.13913060228,
-      "timestamp": "2026-05-22T04:09:19.649458+00:00"
     },
     {
       "rank": 62,
@@ -604,5 +604,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-09T05:14:59.664151+00:00"
+  "last_updated": "2026-06-09T05:55:31.571837+00:00"
 }
