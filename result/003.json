@@ -538,6 +538,14 @@
     },
     {
       "rank": 65,
+      "user": "team_82",
+      "github": "Xdddyy/openoperator-25",
+      "score": 0.001196642134330187,
+      "latency": 30039.891600608826,
+      "timestamp": "2026-06-09T06:48:26.242763+00:00"
+    },
+    {
+      "rank": 66,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 0.0011949522012686784,
@@ -545,7 +553,7 @@
       "timestamp": "2026-06-01T06:09:53.959393+00:00"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0011844116077282297,
@@ -553,21 +561,13 @@
       "timestamp": "2026-05-19T03:08:56.335232+00:00"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0011831333595311584,
       "latency": 30382.880941033363,
       "timestamp": "2026-05-18T08:12:57.884338+00:00",
       "commit_sha": "dc3d018d16f5558273580942ec6d1f207348e760"
-    },
-    {
-      "rank": 68,
-      "user": "team_82",
-      "github": "Xdddyy/openoperator-25",
-      "score": 0.0011754085071216868,
-      "latency": 30582.55898455779,
-      "timestamp": "2026-06-09T05:10:48.696575+00:00"
     },
     {
       "rank": 69,
@@ -604,5 +604,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-09T05:55:31.571837+00:00"
+  "last_updated": "2026-06-09T06:51:19.830743+00:00"
 }
