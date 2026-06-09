@@ -489,6 +489,14 @@
     },
     {
       "rank": 59,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.0002241149399705089,
+      "latency": 188434.55954144397,
+      "timestamp": "2026-06-09T10:07:42.531987+00:00"
+    },
+    {
+      "rank": 60,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00022225142106754622,
@@ -497,7 +505,7 @@
       "commit_sha": "f9ccaec54ed3f58878c5033b4c4b87942d179fdd"
     },
     {
-      "rank": 60,
+      "rank": 61,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.00021997901744882277,
@@ -506,7 +514,7 @@
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "user": "当家作组",
       "github": "xiunianjun/openoperator-start-kit",
       "score": 3.0331081128297903e-06,
@@ -514,7 +522,7 @@
       "timestamp": "2026-06-09T03:55:20.255369+00:00"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 2.1973774728125108e-06,
@@ -523,5 +531,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-09T08:52:33.367802+00:00"
+  "last_updated": "2026-06-09T10:08:40.675993+00:00"
 }

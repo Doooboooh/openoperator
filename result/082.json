@@ -137,6 +137,14 @@
     },
     {
       "rank": 17,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.00021840164856822358,
+      "latency": 397345.9017773469,
+      "timestamp": "2026-06-09T10:07:42.531987+00:00"
+    },
+    {
+      "rank": 18,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0001086353296130807,
@@ -145,7 +153,7 @@
       "commit_sha": "cb3517f528ba96333605ca481d0ae3b8cbab5411"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 6.245923218455434e-06,
@@ -153,5 +161,5 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     }
   ],
-  "last_updated": "2026-06-09T06:36:03.842465+00:00"
+  "last_updated": "2026-06-09T10:08:40.681120+00:00"
 }

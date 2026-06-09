@@ -485,6 +485,14 @@
     },
     {
       "rank": 59,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.002591471755789452,
+      "latency": 59816.974525650345,
+      "timestamp": "2026-06-09T10:07:42.531987+00:00"
+    },
+    {
+      "rank": 60,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0025516121441182768,
@@ -492,7 +500,7 @@
       "timestamp": "2026-05-20T17:01:34.243258+00:00"
     },
     {
-      "rank": 60,
+      "rank": 61,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0004853574640695557,
@@ -501,7 +509,7 @@
       "commit_sha": "f9ccaec54ed3f58878c5033b4c4b87942d179fdd"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.00018291496741104507,
@@ -510,7 +518,7 @@
       "commit_sha": "c4c7df89d71292032360a1e89bd74d0467bb18e4"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0001225054379968139,
@@ -519,5 +527,5 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     }
   ],
-  "last_updated": "2026-06-09T08:47:27.761709+00:00"
+  "last_updated": "2026-06-09T10:08:40.664169+00:00"
 }

@@ -178,6 +178,14 @@
     },
     {
       "rank": 22,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 6.095398984238411e-05,
+      "latency": 1725760.697076718,
+      "timestamp": "2026-06-09T10:07:42.531987+00:00"
+    },
+    {
+      "rank": 23,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 6.058267031028685e-05,
@@ -186,7 +194,7 @@
       "commit_sha": "8643d488eddbb75b7f2741db7663daab03f64b44"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 5.977492595620843e-05,
@@ -195,5 +203,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-09T08:47:27.758004+00:00"
+  "last_updated": "2026-06-09T10:08:40.697088+00:00"
 }

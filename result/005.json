@@ -413,20 +413,20 @@
     },
     {
       "rank": 50,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.00943176252031472,
+      "latency": 773030.0656209389,
+      "timestamp": "2026-06-09T10:07:42.531987+00:00"
+    },
+    {
+      "rank": 51,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.00942262414720807,
       "latency": 773779.775792112,
       "timestamp": "2026-05-19T22:50:34.965600+00:00",
       "commit_sha": "711bdc9e6e4d767fab59526bb311257adfbb73b5"
-    },
-    {
-      "rank": 51,
-      "user": "team_25",
-      "github": "zion-zion-zion/openoperator-start-kit",
-      "score": 0.00942022428364415,
-      "latency": 773976.9012356797,
-      "timestamp": "2026-06-09T05:12:01.838413+00:00"
     },
     {
       "rank": 52,
@@ -602,5 +602,5 @@
       "timestamp": "2026-05-30T12:10:09.312428+00:00"
     }
   ],
-  "last_updated": "2026-06-09T09:28:02.807422+00:00"
+  "last_updated": "2026-06-09T10:08:40.671385+00:00"
 }

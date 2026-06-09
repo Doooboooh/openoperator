@@ -116,6 +116,14 @@
     },
     {
       "rank": 14,
+      "user": "team_25",
+      "github": "zion-zion-zion/openoperator-start-kit",
+      "score": 0.011067524765978096,
+      "latency": 2773.700592418512,
+      "timestamp": "2026-06-09T10:07:42.531987+00:00"
+    },
+    {
+      "rank": 15,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.010987369746621614,
@@ -123,7 +131,7 @@
       "timestamp": "2026-05-29T07:38:37.033480+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.010714620556133793,
@@ -131,7 +139,7 @@
       "timestamp": "2026-06-04T02:03:12.293099+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.010454031948404104,
@@ -139,7 +147,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.010293230269657056,
@@ -148,7 +156,7 @@
       "commit_sha": "0feb5a62f93324b05c34feb628bf3b52dee3d520"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.008140756879452392,
@@ -156,7 +164,7 @@
       "timestamp": "2026-06-01T09:13:04.178755+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.007003535724851954,
@@ -165,7 +173,7 @@
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.006872357683829309,
@@ -173,7 +181,7 @@
       "timestamp": "2026-06-04T18:35:33.528910+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "888",
       "github": "RuixiZhang03/888-op-gen",
       "score": 0.005086519779468943,
@@ -181,7 +189,7 @@
       "timestamp": "2026-06-09T08:44:12.728986+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.004987479350844363,
@@ -189,7 +197,7 @@
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.004900337739844349,
@@ -197,7 +205,7 @@
       "timestamp": "2026-06-05T13:26:34.343794+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.004839162173859963,
@@ -206,7 +214,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.002794478248161228,
@@ -214,7 +222,7 @@
       "timestamp": "2026-05-29T03:22:31.387364+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.001752055162457104,
@@ -222,7 +230,7 @@
       "timestamp": "2026-06-04T08:36:50.237649+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.0016630813461661839,
@@ -230,7 +238,7 @@
       "timestamp": "2026-06-03T14:58:32.956338+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.0016071786337809545,
@@ -238,7 +246,7 @@
       "timestamp": "2026-06-01T08:18:53.039169+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0004820380829500214,
@@ -246,5 +254,5 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     }
   ],
-  "last_updated": "2026-06-09T09:28:02.809758+00:00"
+  "last_updated": "2026-06-09T10:08:40.694868+00:00"
 }
