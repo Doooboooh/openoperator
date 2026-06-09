@@ -170,19 +170,19 @@
     },
     {
       "rank": 21,
+      "user": "team_82",
+      "github": "Xdddyy/openoperator-25",
+      "score": 0.034976838336505965,
+      "latency": 4431.9042935967445,
+      "timestamp": "2026-06-09T05:37:47.322682+00:00"
+    },
+    {
+      "rank": 22,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.034861551846416074,
       "latency": 4446.560516953468,
       "timestamp": "2026-06-08T21:18:14.732614+00:00"
-    },
-    {
-      "rank": 22,
-      "user": "team_82",
-      "github": "Xdddyy/openoperator-25",
-      "score": 0.034409248879218444,
-      "latency": 4505.009700854619,
-      "timestamp": "2026-06-09T05:25:11.414456+00:00"
     },
     {
       "rank": 23,
@@ -511,5 +511,5 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     }
   ],
-  "last_updated": "2026-06-09T05:30:10.900379+00:00"
+  "last_updated": "2026-06-09T05:40:20.489996+00:00"
 }
