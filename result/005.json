@@ -215,6 +215,14 @@
     },
     {
       "rank": 26,
+      "user": "二十组",
+      "github": "ujsq/bangc-kernel-competition",
+      "score": 0.07871373999709187,
+      "latency": 92627.23382562399,
+      "timestamp": "2026-06-09T03:17:01.276725+00:00"
+    },
+    {
+      "rank": 27,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.07870834545885029,
@@ -222,21 +230,13 @@
       "timestamp": "2026-06-08T11:02:39.957202+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.07865362572702765,
       "latency": 92698.02800069253,
       "timestamp": "2026-05-18T06:19:37.302069+00:00",
       "commit_sha": "137a933b31e0f88880a570a01c577992aa6fc5c7"
-    },
-    {
-      "rank": 28,
-      "user": "二十组",
-      "github": "ujsq/bangc-kernel-competition",
-      "score": 0.07863795482304646,
-      "latency": 92716.50078396003,
-      "timestamp": "2026-06-09T03:01:52.851597+00:00"
     },
     {
       "rank": 29,
@@ -578,5 +578,5 @@
       "timestamp": "2026-05-30T12:10:09.312428+00:00"
     }
   ],
-  "last_updated": "2026-06-09T03:02:51.979048+00:00"
+  "last_updated": "2026-06-09T03:18:01.769913+00:00"
 }
