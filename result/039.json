@@ -402,6 +402,14 @@
     },
     {
       "rank": 49,
+      "user": "十七组",
+      "github": "Youtanzhi158/BangC17",
+      "score": 0.0020271192562869855,
+      "latency": 2638986.8200446167,
+      "timestamp": "2026-06-09T06:57:44.216677+00:00"
+    },
+    {
+      "rank": 50,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0020224778183305634,
@@ -410,7 +418,7 @@
       "commit_sha": "baaa16475d04372fe3ee6008d93f8ba9fd9c35c6"
     },
     {
-      "rank": 50,
+      "rank": 51,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0020212116482129804,
@@ -418,7 +426,7 @@
       "timestamp": "2026-06-08T11:09:42.112444+00:00"
     },
     {
-      "rank": 51,
+      "rank": 52,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.0020189103239662575,
@@ -426,7 +434,7 @@
       "timestamp": "2026-06-08T14:02:20.000145+00:00"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.0020181560318329743,
@@ -435,7 +443,7 @@
       "commit_sha": "e4e723290ef8e541347d068709b31ffc4fa78cb0"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0020170382238813727,
@@ -444,7 +452,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.0020123533861440158,
@@ -452,7 +460,7 @@
       "timestamp": "2026-05-30T15:00:18.896457+00:00"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.001999954529408424,
@@ -460,20 +468,12 @@
       "timestamp": "2026-05-20T09:47:06.466041+00:00"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.001967977196185876,
       "latency": 2718294.200953096,
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
-    },
-    {
-      "rank": 57,
-      "user": "十七组",
-      "github": "Youtanzhi158/BangC",
-      "score": 0.0019552454734084544,
-      "latency": 2735994.570888579,
-      "timestamp": "2026-06-09T04:10:00.512508+00:00"
     },
     {
       "rank": 58,
@@ -552,5 +552,5 @@
       "timestamp": "2026-06-08T15:46:48.948437+00:00"
     }
   ],
-  "last_updated": "2026-06-09T06:36:03.840180+00:00"
+  "last_updated": "2026-06-09T07:01:29.930007+00:00"
 }

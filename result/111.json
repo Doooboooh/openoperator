@@ -445,19 +445,19 @@
     },
     {
       "rank": 54,
+      "user": "十七组",
+      "github": "Youtanzhi158/BangC17",
+      "score": 0.0004968910859162329,
+      "latency": 898474.5604296526,
+      "timestamp": "2026-06-09T06:57:44.216677+00:00"
+    },
+    {
+      "rank": 55,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.0004915133919364187,
       "latency": 908304.8546065887,
       "timestamp": "2026-06-01T16:52:33.777120+00:00"
-    },
-    {
-      "rank": 55,
-      "user": "十七组",
-      "github": "Youtanzhi158/BangC",
-      "score": 0.00048551518261246525,
-      "latency": 919526.3423025608,
-      "timestamp": "2026-06-09T04:10:00.512508+00:00"
     },
     {
       "rank": 56,
@@ -505,5 +505,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-09T04:44:26.730038+00:00"
+  "last_updated": "2026-06-09T07:01:29.909110+00:00"
 }
