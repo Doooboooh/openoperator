@@ -71,6 +71,14 @@
     },
     {
       "rank": 9,
+      "user": "team_82",
+      "github": "Xdddyy/openoperator-25",
+      "score": 0.017388640971688765,
+      "latency": 2294.25635188818,
+      "timestamp": "2026-06-09T16:05:12.989985+00:00"
+    },
+    {
+      "rank": 10,
       "user": "team_38",
       "github": "shijuanerr/ICS_Team9",
       "score": 0.01736809274366225,
@@ -78,7 +86,7 @@
       "timestamp": "2026-05-26T06:35:59.832391+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.01735158905269252,
@@ -86,7 +94,7 @@
       "timestamp": "2026-05-31T13:29:50.960880+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "十玖",
       "github": "enevel/ICS_19team",
       "score": 0.017267546688154382,
@@ -94,7 +102,7 @@
       "timestamp": "2026-06-09T15:59:49.794801+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.01721127693857784,
@@ -102,7 +110,7 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.01716189079777098,
@@ -110,7 +118,7 @@
       "timestamp": "2026-05-19T07:22:21.979717+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.017079782872255266,
@@ -118,7 +126,7 @@
       "timestamp": "2026-06-08T10:48:44.994064+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.017043435120189326,
@@ -127,21 +135,13 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.017027728516872558,
       "latency": 2342.8844287991524,
       "timestamp": "2026-05-18T09:16:37.878376+00:00",
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
-    },
-    {
-      "rank": 17,
-      "user": "team_82",
-      "github": "Xdddyy/openoperator-25",
-      "score": 0.01693962939591672,
-      "latency": 2355.069232483705,
-      "timestamp": "2026-06-09T15:31:18.997581+00:00"
     },
     {
       "rank": 18,
@@ -579,5 +579,5 @@
       "timestamp": "2026-06-09T03:55:20.255369+00:00"
     }
   ],
-  "last_updated": "2026-06-09T16:04:09.016619+00:00"
+  "last_updated": "2026-06-09T16:09:14.517693+00:00"
 }
