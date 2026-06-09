@@ -139,6 +139,14 @@
     },
     {
       "rank": 17,
+      "user": "888",
+      "github": "RuixiZhang03/888-op-gen",
+      "score": 0.004837137674482087,
+      "latency": 153163.71992230415,
+      "timestamp": "2026-06-09T04:10:31.093416+00:00"
+    },
+    {
+      "rank": 18,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0020100464144436458,
@@ -147,7 +155,7 @@
       "commit_sha": "7de4d03ece1877a671d580d08549190bd41d297c"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.0019034901371323021,
@@ -155,7 +163,7 @@
       "timestamp": "2026-06-08T23:11:48.618040+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.0018876757794551923,
@@ -163,7 +171,7 @@
       "timestamp": "2026-06-08T11:50:24.177036+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0009983915788701189,
@@ -171,7 +179,7 @@
       "timestamp": "2026-05-31T13:09:47.439964+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.0009732913342144476,
@@ -179,21 +187,13 @@
       "timestamp": "2026-06-03T15:48:18.856356+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0002473944353185883,
       "latency": 2994707.617598275,
       "timestamp": "2026-06-09T04:01:14.301296+00:00"
-    },
-    {
-      "rank": 23,
-      "user": "888",
-      "github": "RuiXiZhang03/888-op-gen",
-      "score": 1.4872195399451591e-05,
-      "latency": 49816048.00776889,
-      "timestamp": "2026-06-08T14:50:50.718877+00:00"
     }
   ],
-  "last_updated": "2026-06-09T04:03:46.090750+00:00"
+  "last_updated": "2026-06-09T04:13:56.776675+00:00"
 }

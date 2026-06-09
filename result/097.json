@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "888",
+      "github": "RuixiZhang03/888-op-gen",
+      "score": 0.0246399948209867,
+      "latency": 2283.239116271337,
+      "timestamp": "2026-06-09T04:10:31.093416+00:00"
+    },
+    {
+      "rank": 4,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.023737882548660823,
@@ -30,7 +38,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.02365764715417639,
@@ -38,7 +46,7 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.023300132979004563,
@@ -47,21 +55,13 @@
       "commit_sha": "e59efe014b9910c95394a45c9b6f45930fbbe3d3"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.023101917666518066,
       "latency": 2435.2523808677993,
       "timestamp": "2026-05-18T09:41:07.584422+00:00",
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
-    },
-    {
-      "rank": 7,
-      "user": "888",
-      "github": "RuixiZhang0906/888-op-gen",
-      "score": 0.02263268278378356,
-      "latency": 2485.7415507237115,
-      "timestamp": "2026-06-05T19:52:41.906940+00:00"
     },
     {
       "rank": 8,
@@ -203,5 +203,5 @@
       "timestamp": "2026-06-03T15:57:34.885156+00:00"
     }
   ],
-  "last_updated": "2026-06-09T01:46:44.103260+00:00"
+  "last_updated": "2026-06-09T04:13:56.769606+00:00"
 }
