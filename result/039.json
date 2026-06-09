@@ -40,6 +40,14 @@
     },
     {
       "rank": 5,
+      "user": "二十组",
+      "github": "ujsq/bangc-kernel-competition",
+      "score": 1.2309165038291925,
+      "latency": 4345.982025067012,
+      "timestamp": "2026-06-09T06:33:45.129418+00:00"
+    },
+    {
+      "rank": 6,
       "user": "team_19",
       "github": "JerryLiu369/openoperator-start-kit-experiment",
       "score": 1.2263477645040288,
@@ -47,7 +55,7 @@
       "timestamp": "2026-05-21T18:09:31.612896+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 1.1976094852792833,
@@ -55,21 +63,13 @@
       "timestamp": "2026-05-22T01:13:51.120609+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.9774181650071102,
       "latency": 5473.134418328603,
       "timestamp": "2026-06-04T04:57:18.361622+00:00",
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
-    },
-    {
-      "rank": 8,
-      "user": "二十组",
-      "github": "ujsq/bangc-kernel-competition",
-      "score": 0.8531513324665717,
-      "latency": 6270.330709715684,
-      "timestamp": "2026-06-09T06:21:29.402170+00:00"
     },
     {
       "rank": 9,
@@ -552,5 +552,5 @@
       "timestamp": "2026-06-08T15:46:48.948437+00:00"
     }
   ],
-  "last_updated": "2026-06-09T06:25:53.281841+00:00"
+  "last_updated": "2026-06-09T06:36:03.840180+00:00"
 }

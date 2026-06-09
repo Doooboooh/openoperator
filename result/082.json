@@ -48,6 +48,14 @@
     },
     {
       "rank": 6,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.014753763631466521,
+      "latency": 5881.9567784667015,
+      "timestamp": "2026-06-09T06:34:21.954480+00:00"
+    },
+    {
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.010440223385847033,
@@ -55,7 +63,7 @@
       "timestamp": "2026-06-08T12:35:19.460847+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.005427774210538394,
@@ -63,7 +71,7 @@
       "timestamp": "2026-06-04T02:44:32.613524+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.003937694862513367,
@@ -71,7 +79,7 @@
       "timestamp": "2026-06-03T13:50:16.207343+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.0037677213872870656,
@@ -79,20 +87,12 @@
       "timestamp": "2026-06-04T14:40:16.985973+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.002095019206590537,
       "latency": 41422.53194004297,
       "timestamp": "2026-05-29T13:41:40.111663+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.001735548498898263,
-      "latency": 50002.059899270535,
-      "timestamp": "2026-06-08T16:33:05.474412+00:00"
     },
     {
       "rank": 12,
@@ -153,5 +153,5 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     }
   ],
-  "last_updated": "2026-06-09T04:34:16.865481+00:00"
+  "last_updated": "2026-06-09T06:36:03.842465+00:00"
 }
