@@ -283,20 +283,20 @@
     },
     {
       "rank": 34,
+      "user": "888",
+      "github": "RuixiZhang03/888-op-gen",
+      "score": 0.005987235501078462,
+      "latency": 6003.939546644688,
+      "timestamp": "2026-06-09T04:16:03.867549+00:00",
+      "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
+    },
+    {
+      "rank": 35,
       "user": "team_98",
       "github": "LSY839/bangc-competition",
       "score": 0.005972032635770809,
       "latency": 6019.223636637132,
       "timestamp": "2026-05-18T15:00:12.780986+00:00"
-    },
-    {
-      "rank": 35,
-      "user": "888",
-      "github": "RuixiZhang0906/888-op-gen",
-      "score": 0.005882849825337671,
-      "latency": 6110.47384639581,
-      "timestamp": "2026-06-01T07:33:23.547488+00:00",
-      "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     },
     {
       "rank": 36,
@@ -596,5 +596,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-09T03:07:56.793519+00:00"
+  "last_updated": "2026-06-09T04:19:01.412734+00:00"
 }
