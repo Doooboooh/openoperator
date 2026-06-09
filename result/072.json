@@ -48,6 +48,14 @@
     },
     {
       "rank": 6,
+      "user": "888",
+      "github": "RuixiZhang03/888-op-gen",
+      "score": 0.08545270308569039,
+      "latency": 2422.427758574486,
+      "timestamp": "2026-06-09T15:48:44.548808+00:00"
+    },
+    {
+      "rank": 7,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.08511602666645937,
@@ -56,7 +64,7 @@
       "commit_sha": "d4592876490aab4e8abe569ba37afad02d020b82"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.08446477133385598,
@@ -64,7 +72,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.08421198991638655,
@@ -73,7 +81,7 @@
       "commit_sha": "5b5c0bf64367f0e22bf496bf632790e5d95d9286"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.08420077647683717,
@@ -81,7 +89,7 @@
       "timestamp": "2026-06-02T08:17:39.983430+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.08302508325880238,
@@ -89,7 +97,7 @@
       "timestamp": "2026-06-03T11:55:57.110683+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.08300362272408436,
@@ -98,21 +106,13 @@
       "commit_sha": "fd71adc41700f9542d9b0e4375970a1995a4067a"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.0822554378005164,
       "latency": 2516.5874200562635,
       "timestamp": "2026-05-18T09:41:07.584422+00:00",
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
-    },
-    {
-      "rank": 13,
-      "user": "888",
-      "github": "RuixiZhang03/888-op-gen",
-      "score": 0.08167881917375158,
-      "latency": 2534.3534847100577,
-      "timestamp": "2026-06-09T14:15:48.478488+00:00"
     },
     {
       "rank": 14,
@@ -247,5 +247,5 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     }
   ],
-  "last_updated": "2026-06-09T14:17:33.120306+00:00"
+  "last_updated": "2026-06-09T15:53:58.060296+00:00"
 }
