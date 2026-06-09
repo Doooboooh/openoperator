@@ -132,20 +132,20 @@
     },
     {
       "rank": 16,
+      "user": "二十组",
+      "github": "ujsq/bangc-kernel-competition",
+      "score": 0.0039449518720968,
+      "latency": 557046.3395367066,
+      "timestamp": "2026-06-09T05:20:14.586694+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.003657215647336349,
       "latency": 600872.6889267564,
       "timestamp": "2026-05-18T07:14:07.627152+00:00",
       "commit_sha": "155e00c63cc472e3847e29a22e96d98e534e9e11"
-    },
-    {
-      "rank": 17,
-      "user": "二十组",
-      "github": "ujsq/bangc-kernel-competition",
-      "score": 0.0036278256504913807,
-      "latency": 605740.5211031437,
-      "timestamp": "2026-06-09T04:34:48.702509+00:00"
     },
     {
       "rank": 18,
@@ -371,5 +371,5 @@
       "timestamp": "2026-06-03T13:50:16.207343+00:00"
     }
   ],
-  "last_updated": "2026-06-09T05:14:59.666839+00:00"
+  "last_updated": "2026-06-09T05:25:05.048947+00:00"
 }
