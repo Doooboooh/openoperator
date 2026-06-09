@@ -39,6 +39,14 @@
     },
     {
       "rank": 5,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.25273981071351903,
+      "latency": 2931.37039989233,
+      "timestamp": "2026-06-09T07:43:28.664088+00:00"
+    },
+    {
+      "rank": 6,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.21343777991916885,
@@ -46,7 +54,7 @@
       "timestamp": "2026-05-29T14:46:52.968440+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.20729123303413508,
@@ -55,7 +63,7 @@
       "commit_sha": "4b336fcdbb9ca25a026fc2f00ddd2fb31e3a3102"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.1790064413848638,
@@ -63,7 +71,7 @@
       "timestamp": "2026-05-18T15:26:01.687911+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.14781969375702067,
@@ -71,21 +79,13 @@
       "timestamp": "2026-06-05T04:03:43.486650+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.12012559389473344,
       "latency": 6167.495002349217,
       "timestamp": "2026-05-31T12:52:07.834261+00:00",
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
-    },
-    {
-      "rank": 10,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 0.11676218180974798,
-      "latency": 6345.153786242008,
-      "timestamp": "2026-06-05T09:25:11.817999+00:00"
     },
     {
       "rank": 11,
@@ -203,5 +203,5 @@
       "timestamp": "2026-06-09T06:32:23.454182+00:00"
     }
   ],
-  "last_updated": "2026-06-09T06:36:03.846386+00:00"
+  "last_updated": "2026-06-09T07:47:05.852307+00:00"
 }
