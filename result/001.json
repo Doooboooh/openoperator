@@ -561,6 +561,14 @@
     },
     {
       "rank": 67,
+      "user": "十四组",
+      "github": "ljj0119/BangC14",
+      "score": 0.004700941969436643,
+      "latency": 5907.113974293073,
+      "timestamp": "2026-06-09T22:59:53.865728+00:00"
+    },
+    {
+      "rank": 68,
       "user": "team_77",
       "github": "Atopos666/BangC_Team41",
       "score": 0.004690574248009139,
@@ -568,7 +576,7 @@
       "timestamp": "2026-06-04T09:54:57.007327+00:00"
     },
     {
-      "rank": 68,
+      "rank": 69,
       "user": "team_13",
       "github": "Shiyu-Quan/openoperator-start-kit",
       "score": 0.0046712641545351855,
@@ -576,7 +584,7 @@
       "timestamp": "2026-06-09T06:41:37.003129+00:00"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.004666916636045765,
@@ -584,21 +592,13 @@
       "timestamp": "2026-06-01T05:24:45.232973+00:00"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.004660051239707106,
       "latency": 5958.947353065014,
       "timestamp": "2026-05-18T06:56:20.702270+00:00",
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
-    },
-    {
-      "rank": 71,
-      "user": "十四组",
-      "github": "ljj0119/BangC14",
-      "score": 0.004657933524335132,
-      "latency": 5961.65657043457,
-      "timestamp": "2026-06-09T16:09:08.874873+00:00"
     },
     {
       "rank": 72,
@@ -709,5 +709,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-09T17:00:14.784395+00:00"
+  "last_updated": "2026-06-09T23:02:10.450270+00:00"
 }
