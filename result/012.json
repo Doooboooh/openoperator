@@ -307,6 +307,14 @@
     },
     {
       "rank": 37,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 7.179842583226591e-05,
+      "latency": 30606813.095510006,
+      "timestamp": "2026-06-09T09:44:43.497063+00:00"
+    },
+    {
+      "rank": 38,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 2.437938121493216e-05,
@@ -315,7 +323,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 1.7712820895687264e-05,
@@ -323,7 +331,7 @@
       "timestamp": "2026-05-19T08:50:11.391853+00:00"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 1.767616468783263e-05,
@@ -331,7 +339,7 @@
       "timestamp": "2026-06-01T17:35:15.543112+00:00"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "user": "team_19",
       "github": "JerryLiu369/openoperator-start-kit-experiment",
       "score": 1.7457815263628127e-05,
@@ -339,7 +347,7 @@
       "timestamp": "2026-06-09T07:30:50.871073+00:00"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "十七组",
       "github": "Youtanzhi158/BangC17",
       "score": 1.564189337241939e-05,
@@ -347,7 +355,7 @@
       "timestamp": "2026-06-09T07:46:06.160270+00:00"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 1.5444670439476983e-05,
@@ -355,7 +363,7 @@
       "timestamp": "2026-06-08T12:46:55.458733+00:00"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 1.5325856276793184e-05,
@@ -363,7 +371,7 @@
       "timestamp": "2026-05-18T14:13:54.546292+00:00"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 1.5202075683324297e-05,
@@ -371,7 +379,7 @@
       "timestamp": "2026-05-20T06:20:48.589048+00:00"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 1.4199116534882729e-05,
@@ -379,7 +387,7 @@
       "timestamp": "2026-06-01T08:52:14.926110+00:00"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 1.4018088492546624e-05,
@@ -387,7 +395,7 @@
       "timestamp": "2026-06-03T13:50:16.207343+00:00"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 1.1785745677828461e-05,
@@ -395,5 +403,5 @@
       "timestamp": "2026-06-09T08:15:47.438819+00:00"
     }
   ],
-  "last_updated": "2026-06-09T08:17:11.175512+00:00"
+  "last_updated": "2026-06-09T09:48:26.583184+00:00"
 }
