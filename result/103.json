@@ -499,6 +499,14 @@
     },
     {
       "rank": 60,
+      "user": "当家作组",
+      "github": "xiunianjun/openoperator-start-kit",
+      "score": 3.0331081128297903e-06,
+      "latency": 13923341.479773322,
+      "timestamp": "2026-06-09T03:55:20.255369+00:00"
+    },
+    {
+      "rank": 61,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 2.1973774728125108e-06,
@@ -507,5 +515,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-09T03:53:37.176292+00:00"
+  "last_updated": "2026-06-09T03:58:41.600292+00:00"
 }
