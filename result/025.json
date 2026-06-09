@@ -154,6 +154,14 @@
     },
     {
       "rank": 19,
+      "user": "888",
+      "github": "RuixiZhang03/888-op-gen",
+      "score": 0.0002537951305367073,
+      "latency": 414476.0373358925,
+      "timestamp": "2026-06-09T08:44:12.728986+00:00"
+    },
+    {
+      "rank": 20,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 9.488115241465566e-05,
@@ -161,7 +169,7 @@
       "timestamp": "2026-06-04T17:42:57.637297+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 6.232400623997355e-05,
@@ -169,7 +177,7 @@
       "timestamp": "2026-06-02T11:49:51.894346+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 6.058267031028685e-05,
@@ -178,7 +186,7 @@
       "commit_sha": "8643d488eddbb75b7f2741db7663daab03f64b44"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 5.977492595620843e-05,
@@ -187,5 +195,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-08T14:04:28.109678+00:00"
+  "last_updated": "2026-06-09T08:47:27.758004+00:00"
 }
