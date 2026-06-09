@@ -206,20 +206,20 @@
     },
     {
       "rank": 25,
+      "user": "二十组",
+      "github": "ujsq/bangc-kernel-competition",
+      "score": 0.07879436068009746,
+      "latency": 92532.4596464634,
+      "timestamp": "2026-06-09T03:35:22.846768+00:00"
+    },
+    {
+      "rank": 26,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.07874061119225746,
       "latency": 92595.62365089853,
       "timestamp": "2026-05-18T07:49:22.593982+00:00",
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
-    },
-    {
-      "rank": 26,
-      "user": "二十组",
-      "github": "ujsq/bangc-kernel-competition",
-      "score": 0.07871373999709187,
-      "latency": 92627.23382562399,
-      "timestamp": "2026-06-09T03:17:01.276725+00:00"
     },
     {
       "rank": 27,
@@ -578,5 +578,5 @@
       "timestamp": "2026-05-30T12:10:09.312428+00:00"
     }
   ],
-  "last_updated": "2026-06-09T03:18:01.769913+00:00"
+  "last_updated": "2026-06-09T03:38:22.392289+00:00"
 }
