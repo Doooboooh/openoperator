@@ -99,6 +99,14 @@
     },
     {
       "rank": 12,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.08247446278834426,
+      "latency": 2575.706380108992,
+      "timestamp": "2026-06-09T10:50:54.324965+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.08041327044636869,
@@ -106,7 +114,7 @@
       "timestamp": "2026-06-05T09:22:16.423070+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.07998240734196463,
@@ -115,7 +123,7 @@
       "commit_sha": "92eb6ed43e61fc96bab02af348c0df0dac386c1e"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.07977317095802774,
@@ -123,20 +131,12 @@
       "timestamp": "2026-05-31T02:36:01.443878+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.07889544031462022,
       "latency": 2692.5510416428247,
       "timestamp": "2026-06-05T08:56:15.311343+00:00"
-    },
-    {
-      "rank": 16,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.07883762088061591,
-      "latency": 2694.525755941868,
-      "timestamp": "2026-06-09T10:48:29.357220+00:00"
     },
     {
       "rank": 17,
@@ -236,5 +236,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-09T10:49:24.028119+00:00"
+  "last_updated": "2026-06-09T10:54:28.826386+00:00"
 }
