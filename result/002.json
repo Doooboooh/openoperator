@@ -467,6 +467,14 @@
     },
     {
       "rank": 56,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.27896110344624525,
+      "latency": 29663.171308736008,
+      "timestamp": "2026-06-09T15:20:50.716373+00:00"
+    },
+    {
+      "rank": 57,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.2650531146611488,
@@ -474,7 +482,7 @@
       "timestamp": "2026-05-21T08:09:23.396123+00:00"
     },
     {
-      "rank": 57,
+      "rank": 58,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.20715547466152928,
@@ -483,7 +491,7 @@
       "commit_sha": "36b12293e02f35cbe28028a710a4e18b5ba99833"
     },
     {
-      "rank": 58,
+      "rank": 59,
       "user": "team_95",
       "github": "GrassedgeT/ics-playground",
       "score": 0.1978694252302847,
@@ -491,7 +499,7 @@
       "timestamp": "2026-05-31T13:49:59.037584+00:00"
     },
     {
-      "rank": 59,
+      "rank": 60,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.19181910238237102,
@@ -500,7 +508,7 @@
       "commit_sha": "41d911f5294d00d95a0ba63536015f43135f144e"
     },
     {
-      "rank": 60,
+      "rank": 61,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.16190699943563913,
@@ -508,7 +516,7 @@
       "timestamp": "2026-06-03T17:27:02.832655+00:00"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.16182934475563082,
@@ -516,7 +524,7 @@
       "timestamp": "2026-06-01T11:36:33.040380+00:00"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "user": "team_94",
       "github": "rishitash42-code/bangc-70",
       "score": 0.16182503268165127,
@@ -524,7 +532,7 @@
       "timestamp": "2026-05-24T07:03:14.384658+00:00"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "user": "team_53",
       "github": "liuranra/kernel-competition",
       "score": 0.16181314152799664,
@@ -532,7 +540,15 @@
       "timestamp": "2026-06-08T11:47:01.119001+00:00"
     },
     {
-      "rank": 64,
+      "rank": 65,
+      "user": "智能人工",
+      "github": "asfdf-sudo/goodluck",
+      "score": 0.16178849734908016,
+      "latency": 51146.2256933252,
+      "timestamp": "2026-06-09T15:22:29.120560+00:00"
+    },
+    {
+      "rank": 66,
       "user": "干不过AI组",
       "github": "yuanlaibuduan/Human_Vs_AI",
       "score": 0.16169903087054774,
@@ -540,7 +556,7 @@
       "timestamp": "2026-06-03T04:56:51.289637+00:00"
     },
     {
-      "rank": 65,
+      "rank": 67,
       "user": "team_77",
       "github": "Atopos666/BangC_Team41",
       "score": 0.1616830165264493,
@@ -548,7 +564,7 @@
       "timestamp": "2026-06-05T03:37:20.363136+00:00"
     },
     {
-      "rank": 66,
+      "rank": 68,
       "user": "二十七组",
       "github": "zhangmuxiang/27_openoperator-start-kit",
       "score": 0.16167198806563365,
@@ -556,15 +572,7 @@
       "timestamp": "2026-05-23T16:23:27.453216+00:00"
     },
     {
-      "rank": 67,
-      "user": "智能人工",
-      "github": "asfdf-sudo/goodluck",
-      "score": 0.16159385619660316,
-      "latency": 51207.83175031344,
-      "timestamp": "2026-06-09T15:15:12.551201+00:00"
-    },
-    {
-      "rank": 68,
+      "rank": 69,
       "user": "team_98",
       "github": "LSY839/bangc-competition",
       "score": 0.16110736124509503,
@@ -572,7 +580,7 @@
       "timestamp": "2026-05-18T15:10:25.096773+00:00"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "user": "team_97",
       "github": "Clear-YW/bangc",
       "score": 0.16025762283525216,
@@ -580,7 +588,7 @@
       "timestamp": "2026-06-02T08:27:05.862735+00:00"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.16020712543351376,
@@ -588,7 +596,7 @@
       "timestamp": "2026-05-30T13:37:38.481081+00:00"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "user": "提示词大师",
       "github": "Zhang-Jiahe/Prompt-Master-bangc-operator-competition",
       "score": 0.15983116864045616,
@@ -596,7 +604,7 @@
       "timestamp": "2026-06-03T14:05:06.455425+00:00"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.15967021178293492,
@@ -604,7 +612,7 @@
       "timestamp": "2026-05-19T02:57:22.242993+00:00"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "user": "加油组",
       "github": "lao7tomato/BangCompetition",
       "score": 0.1594039065648164,
@@ -612,7 +620,7 @@
       "timestamp": "2026-06-02T14:13:48.526454+00:00"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.1593195068762185,
@@ -620,7 +628,7 @@
       "timestamp": "2026-05-18T14:13:54.546292+00:00"
     },
     {
-      "rank": 75,
+      "rank": 76,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.015820816234331344,
@@ -629,7 +637,7 @@
       "commit_sha": "4a8699dced123f1b992e911f39427066adbc861c"
     },
     {
-      "rank": 76,
+      "rank": 77,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.0033386609648728854,
@@ -638,7 +646,7 @@
       "commit_sha": "5e84cc4670f531393414d3fbbfdb392a1091a484"
     },
     {
-      "rank": 77,
+      "rank": 78,
       "user": "team_4",
       "github": "wangyongping1/ICS-53TEAM",
       "score": 0.001326023213084829,
@@ -646,7 +654,7 @@
       "timestamp": "2026-06-03T13:54:01.237828+00:00"
     },
     {
-      "rank": 78,
+      "rank": 79,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 0.0013102119828814,
@@ -654,7 +662,7 @@
       "timestamp": "2026-06-01T06:09:53.959393+00:00"
     },
     {
-      "rank": 79,
+      "rank": 80,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0005104747112576844,
@@ -663,7 +671,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 80,
+      "rank": 81,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.00022743648249493915,
@@ -671,5 +679,5 @@
       "timestamp": "2026-06-08T14:13:15.771009+00:00"
     }
   ],
-  "last_updated": "2026-06-09T15:18:26.309113+00:00"
+  "last_updated": "2026-06-09T15:23:34.761794+00:00"
 }
