@@ -132,6 +132,14 @@
     },
     {
       "rank": 16,
+      "user": "team_48",
+      "github": "zhangxingyin/ICS_18Team",
+      "score": 0.07883762088061591,
+      "latency": 2694.525755941868,
+      "timestamp": "2026-06-09T10:48:29.357220+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.07853102175860571,
@@ -139,7 +147,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.077442720862407,
@@ -147,7 +155,7 @@
       "timestamp": "2026-06-01T18:29:54.858986+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.07739582883698413,
@@ -155,7 +163,7 @@
       "timestamp": "2026-06-08T23:11:48.618040+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0754144000722266,
@@ -163,7 +171,7 @@
       "timestamp": "2026-06-03T09:03:40.599540+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "888",
       "github": "RuiXiZhang03/888-op-gen",
       "score": 0.06607357753933216,
@@ -171,7 +179,7 @@
       "timestamp": "2026-06-08T14:50:50.718877+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.06361377592722489,
@@ -179,7 +187,7 @@
       "timestamp": "2026-06-05T04:03:43.486650+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.04080885900449059,
@@ -187,20 +195,12 @@
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.040697737851606935,
       "latency": 5219.700435797374,
       "timestamp": "2026-06-09T06:23:47.289698+00:00"
-    },
-    {
-      "rank": 24,
-      "user": "team_48",
-      "github": "zhangxingyin/ICS_18Team",
-      "score": 0.03939952528468036,
-      "latency": 5391.689327855905,
-      "timestamp": "2026-06-09T10:41:12.388268+00:00"
     },
     {
       "rank": 25,
@@ -236,5 +236,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-09T10:44:16.477769+00:00"
+  "last_updated": "2026-06-09T10:49:24.028119+00:00"
 }
