@@ -178,6 +178,14 @@
     },
     {
       "rank": 22,
+      "user": "team_82",
+      "github": "Xdddyy/openoperator-25",
+      "score": 0.034409248879218444,
+      "latency": 4505.009700854619,
+      "timestamp": "2026-06-09T05:25:11.414456+00:00"
+    },
+    {
+      "rank": 23,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.03393916081792653,
@@ -185,7 +193,7 @@
       "timestamp": "2026-06-01T16:52:33.777120+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_44",
       "github": "OrangeL-ucas/SBangC",
       "score": 0.03245513855539324,
@@ -193,21 +201,13 @@
       "timestamp": "2026-06-01T09:28:02.481475+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.032256433719593636,
       "latency": 4805.6769495209055,
       "timestamp": "2026-05-18T06:58:02.917280+00:00",
       "commit_sha": "60b693d9e83360244f58bba0571219210d07c63b"
-    },
-    {
-      "rank": 25,
-      "user": "team_82",
-      "github": "Xdddyy/openoperator-25",
-      "score": 0.03201036397047637,
-      "latency": 4842.619101206462,
-      "timestamp": "2026-06-09T05:10:48.696575+00:00"
     },
     {
       "rank": 26,
@@ -511,5 +511,5 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     }
   ],
-  "last_updated": "2026-06-09T05:14:59.659582+00:00"
+  "last_updated": "2026-06-09T05:30:10.900379+00:00"
 }
