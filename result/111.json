@@ -497,6 +497,14 @@
     },
     {
       "rank": 60,
+      "user": "当家作组",
+      "github": "xiunianjun/openoperator-start-kit",
+      "score": 0.0004054306476126403,
+      "latency": 1101159.9705864985,
+      "timestamp": "2026-06-09T09:04:34.257800+00:00"
+    },
+    {
+      "rank": 61,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 1.8458499143140315e-05,
@@ -505,5 +513,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-09T07:01:29.909110+00:00"
+  "last_updated": "2026-06-09T09:07:42.427956+00:00"
 }
