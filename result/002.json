@@ -392,20 +392,20 @@
     },
     {
       "rank": 47,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.3520701522639902,
+      "latency": 23503.472097218037,
+      "timestamp": "2026-06-09T16:35:26.342479+00:00"
+    },
+    {
+      "rank": 48,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.3477316784504152,
       "latency": 23796.71313489477,
       "timestamp": "2026-05-18T05:56:45.576660+00:00",
       "commit_sha": "f89a1429279b01ecda388159bcd50f898a6b25ff"
-    },
-    {
-      "rank": 48,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.3471807809782815,
-      "latency": 23834.473143021267,
-      "timestamp": "2026-06-09T16:19:41.863019+00:00"
     },
     {
       "rank": 49,
@@ -509,6 +509,14 @@
     },
     {
       "rank": 61,
+      "user": "智能人工",
+      "github": "asfdf-sudo/goodluck",
+      "score": 0.16272658443127436,
+      "latency": 50851.37765854597,
+      "timestamp": "2026-06-09T16:38:22.511380+00:00"
+    },
+    {
+      "rank": 62,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.16190699943563913,
@@ -516,7 +524,7 @@
       "timestamp": "2026-06-03T17:27:02.832655+00:00"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.16182934475563082,
@@ -524,7 +532,7 @@
       "timestamp": "2026-06-01T11:36:33.040380+00:00"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "user": "team_94",
       "github": "rishitash42-code/bangc-70",
       "score": 0.16182503268165127,
@@ -532,20 +540,12 @@
       "timestamp": "2026-05-24T07:03:14.384658+00:00"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "user": "team_53",
       "github": "liuranra/kernel-competition",
       "score": 0.16181314152799664,
       "latency": 51138.436111311115,
       "timestamp": "2026-06-08T11:47:01.119001+00:00"
-    },
-    {
-      "rank": 65,
-      "user": "智能人工",
-      "github": "asfdf-sudo/goodluck",
-      "score": 0.16178849734908016,
-      "latency": 51146.2256933252,
-      "timestamp": "2026-06-09T15:22:29.120560+00:00"
     },
     {
       "rank": 66,
@@ -679,5 +679,5 @@
       "timestamp": "2026-06-08T14:13:15.771009+00:00"
     }
   ],
-  "last_updated": "2026-06-09T16:24:32.417873+00:00"
+  "last_updated": "2026-06-09T16:39:52.930495+00:00"
 }
