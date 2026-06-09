@@ -47,6 +47,14 @@
     },
     {
       "rank": 6,
+      "user": "team_9",
+      "github": "ghfSlience/BangC",
+      "score": 0.6371680157153817,
+      "latency": 277040.07364809513,
+      "timestamp": "2026-06-09T02:36:50.709911+00:00"
+    },
+    {
+      "rank": 7,
       "user": "888",
       "github": "RuixiZhang0906/888-op-gen",
       "score": 0.5824220872514572,
@@ -54,7 +62,7 @@
       "timestamp": "2026-06-05T12:50:42.071211+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.396401884373107,
@@ -63,7 +71,7 @@
       "commit_sha": "5c1c64f77698b47027bf6fec3da300d7e9e1095b"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.26715222142397216,
@@ -72,7 +80,7 @@
       "commit_sha": "5b9c70d078ced299977d8a7cca88ac9a8f6f330f"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.17038462897442627,
@@ -80,7 +88,7 @@
       "timestamp": "2026-06-01T06:24:17.594191+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.10886962433471477,
@@ -88,5 +96,5 @@
       "timestamp": "2026-06-05T13:48:20.195966+00:00"
     }
   ],
-  "last_updated": "2026-06-05T18:43:52.195232+00:00"
+  "last_updated": "2026-06-09T02:37:26.359293+00:00"
 }
