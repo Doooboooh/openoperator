@@ -527,6 +527,14 @@
     },
     {
       "rank": 64,
+      "user": "二十六组",
+      "github": "zhcsyyy/openoperator_26",
+      "score": 0.00040435066709030475,
+      "latency": 108742.24671473105,
+      "timestamp": "2026-06-09T15:09:49.222055+00:00"
+    },
+    {
+      "rank": 65,
       "user": "干不过AI组",
       "github": "yuanlaibuduan/Human_Vs_AI",
       "score": 0.0004037673493299518,
@@ -534,7 +542,7 @@
       "timestamp": "2026-06-03T09:42:31.389407+00:00"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.0004031756859808745,
@@ -542,7 +550,7 @@
       "timestamp": "2026-06-03T15:48:17.996521+00:00"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 7.880395958100901e-05,
@@ -551,7 +559,7 @@
       "commit_sha": "55232e0b64bf5fd13ad3827aa170673725087891"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 2.6331056431057348e-06,
@@ -560,5 +568,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-09T14:17:33.115257+00:00"
+  "last_updated": "2026-06-09T15:13:17.851084+00:00"
 }
