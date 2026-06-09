@@ -569,6 +569,14 @@
     },
     {
       "rank": 68,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.004633664732323892,
+      "latency": 5992.880711952846,
+      "timestamp": "2026-06-09T02:03:13.330288+00:00"
+    },
+    {
+      "rank": 69,
       "user": "从0开始干科研",
       "github": "wyh-lyy/openoperator-start-kit",
       "score": 0.0046185289956180604,
@@ -576,20 +584,12 @@
       "timestamp": "2026-06-03T15:59:32.783455+00:00"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.004616497922682382,
       "latency": 6015.165708959103,
       "timestamp": "2026-05-18T12:35:03.217885+00:00"
-    },
-    {
-      "rank": 70,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.004612526278677096,
-      "latency": 6020.345104237397,
-      "timestamp": "2026-06-05T13:26:34.343794+00:00"
     },
     {
       "rank": 71,
@@ -677,5 +677,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-09T00:56:25.030028+00:00"
+  "last_updated": "2026-06-09T02:07:04.974093+00:00"
 }

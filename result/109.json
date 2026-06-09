@@ -229,6 +229,15 @@
     },
     {
       "rank": 28,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.0038503522537354173,
+      "latency": 23151.12855285406,
+      "timestamp": "2026-06-09T02:04:09.713653+00:00",
+      "commit_sha": "67e30db510330f49ce1bfc0a58028c03c77815b5"
+    },
+    {
+      "rank": 29,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.00344372875028211,
@@ -236,7 +245,7 @@
       "timestamp": "2026-06-01T12:04:12.189669+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "十三组",
       "github": "Yy12136/BangC13",
       "score": 0.0034263928316501757,
@@ -244,7 +253,7 @@
       "timestamp": "2026-06-04T13:07:16.347585+00:00"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.0033365033082154417,
@@ -253,7 +262,7 @@
       "commit_sha": "c00d941c6a57fdc15418aff59d973279dfa61dae"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.003259752388202877,
@@ -261,7 +270,7 @@
       "timestamp": "2026-05-20T10:24:17.988431+00:00"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0032105245638424586,
@@ -269,7 +278,7 @@
       "timestamp": "2026-06-01T06:00:04.375824+00:00"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0031610891029815844,
@@ -278,7 +287,7 @@
       "commit_sha": "2f82587a0ffefc3dc95c993ca6aa86f5c2d90872"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "十八组",
       "github": "Napiercc/BangC18",
       "score": 0.002694664761320528,
@@ -286,21 +295,12 @@
       "timestamp": "2026-06-04T07:40:51.537344+00:00"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.0026010749572114894,
       "latency": 34270.44643710057,
       "timestamp": "2026-06-05T02:02:02.896857+00:00"
-    },
-    {
-      "rank": 36,
-      "user": "team_86",
-      "github": "RachelGu2003/ICS_86Team",
-      "score": 0.0022206708026899454,
-      "latency": 40141.02400590976,
-      "timestamp": "2026-06-09T01:54:21.795687+00:00",
-      "commit_sha": "67e30db510330f49ce1bfc0a58028c03c77815b5"
     },
     {
       "rank": 37,
@@ -472,5 +472,5 @@
       "timestamp": "2026-05-20T07:53:32.411230+00:00"
     }
   ],
-  "last_updated": "2026-06-09T01:56:54.712595+00:00"
+  "last_updated": "2026-06-09T02:07:04.971323+00:00"
 }
