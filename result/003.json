@@ -521,6 +521,14 @@
     },
     {
       "rank": 63,
+      "user": "team_13",
+      "github": "Shiyu-Quan/openoperator-start-kit",
+      "score": 0.0013134550497950264,
+      "latency": 27368.27575912078,
+      "timestamp": "2026-06-09T06:53:46.288986+00:00"
+    },
+    {
+      "rank": 64,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0012975598240673376,
@@ -529,7 +537,7 @@
       "commit_sha": "c4118fa227da6040aa48c39289338a0cd78f230d"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.0012956350065555153,
@@ -537,7 +545,7 @@
       "timestamp": "2026-05-29T17:04:30.844306+00:00"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "user": "team_82",
       "github": "Xdddyy/openoperator-25",
       "score": 0.001196642134330187,
@@ -545,7 +553,7 @@
       "timestamp": "2026-06-09T06:48:26.242763+00:00"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 0.0011949522012686784,
@@ -553,7 +561,7 @@
       "timestamp": "2026-06-01T06:09:53.959393+00:00"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0011844116077282297,
@@ -561,7 +569,7 @@
       "timestamp": "2026-05-19T03:08:56.335232+00:00"
     },
     {
-      "rank": 68,
+      "rank": 69,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0011831333595311584,
@@ -570,7 +578,7 @@
       "commit_sha": "dc3d018d16f5558273580942ec6d1f207348e760"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0006588031597375883,
@@ -578,7 +586,7 @@
       "timestamp": "2026-05-21T08:09:23.396123+00:00"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "user": "提示词大师",
       "github": "Zhang-Jiahe/Prompt-Master-bangc-operator-competition",
       "score": 0.00036417633903793143,
@@ -586,7 +594,7 @@
       "timestamp": "2026-06-03T16:42:44.205019+00:00"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.5963856908340227e-05,
@@ -595,7 +603,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 4.803681316964457e-07,
@@ -604,5 +612,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-09T06:51:19.830743+00:00"
+  "last_updated": "2026-06-09T06:56:24.902088+00:00"
 }
