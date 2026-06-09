@@ -205,6 +205,14 @@
     },
     {
       "rank": 25,
+      "user": "888",
+      "github": "RuixiZhang03/888-op-gen",
+      "score": 0.1236183707360282,
+      "latency": 6027.421293159326,
+      "timestamp": "2026-06-09T14:15:48.478488+00:00"
+    },
+    {
+      "rank": 26,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.11876737288553463,
@@ -212,7 +220,7 @@
       "timestamp": "2026-05-29T14:43:15.337072+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.11554966634563481,
@@ -220,7 +228,7 @@
       "timestamp": "2026-06-02T02:06:02.995090+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.10913374866635608,
@@ -229,21 +237,13 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.010491817502787111,
       "latency": 71017.24746947487,
       "timestamp": "2026-05-25T07:01:18.284338+00:00"
-    },
-    {
-      "rank": 29,
-      "user": "888",
-      "github": "RuixiZhang03/888-op-gen",
-      "score": 6.698908324187774e-05,
-      "latency": 11122707.81956613,
-      "timestamp": "2026-06-09T08:44:12.728986+00:00"
     }
   ],
-  "last_updated": "2026-06-09T11:55:19.930159+00:00"
+  "last_updated": "2026-06-09T14:17:33.110785+00:00"
 }

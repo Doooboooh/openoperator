@@ -180,6 +180,14 @@
     },
     {
       "rank": 22,
+      "user": "888",
+      "github": "RuixiZhang03/888-op-gen",
+      "score": 0.009641695101074151,
+      "latency": 6446.065691610177,
+      "timestamp": "2026-06-09T14:15:48.478488+00:00"
+    },
+    {
+      "rank": 23,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.009591500800728524,
@@ -187,7 +195,7 @@
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0083846278812977,
@@ -196,7 +204,7 @@
       "commit_sha": "08fec8aa754a092009a87a5292621a7b653d06dc"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0072819650519770265,
@@ -204,7 +212,7 @@
       "timestamp": "2026-05-25T06:53:52.381239+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.0054999169750518,
@@ -212,7 +220,7 @@
       "timestamp": "2026-06-01T08:23:20.985400+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.004365550021412027,
@@ -220,7 +228,7 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.00018877851763307365,
@@ -229,22 +237,14 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 2.536238934795308e-05,
       "latency": 2450518.330403914,
       "timestamp": "2026-05-18T06:27:51.708939+00:00",
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
-    },
-    {
-      "rank": 29,
-      "user": "888",
-      "github": "RuixiZhang03/888-op-gen",
-      "score": 7.639113423272029e-07,
-      "latency": 81358917.6600799,
-      "timestamp": "2026-06-09T08:44:12.728986+00:00"
     }
   ],
-  "last_updated": "2026-06-09T13:26:41.734025+00:00"
+  "last_updated": "2026-06-09T14:17:33.118014+00:00"
 }
