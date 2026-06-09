@@ -65,6 +65,14 @@
     },
     {
       "rank": 8,
+      "user": "十六组",
+      "github": "Cek2001/BangC16",
+      "score": 0.07781965607111814,
+      "latency": 2798.4060967961946,
+      "timestamp": "2026-06-09T06:22:42.137922+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.07776991912726453,
@@ -72,7 +80,7 @@
       "timestamp": "2026-06-05T00:15:27.658515+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.0771333679838962,
@@ -80,7 +88,7 @@
       "timestamp": "2026-06-09T01:43:55.428766+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.07559433417236348,
@@ -88,7 +96,7 @@
       "timestamp": "2026-06-02T07:26:18.227675+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0714247378945639,
@@ -97,7 +105,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.06813984256137687,
@@ -105,7 +113,7 @@
       "timestamp": "2026-06-02T03:00:34.654022+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.06218304331766814,
@@ -113,7 +121,7 @@
       "timestamp": "2026-05-29T15:11:39.534827+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.05418573225914299,
@@ -121,20 +129,12 @@
       "timestamp": "2026-05-29T01:40:13.524891+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "888",
       "github": "RuiXiZhang03/888-op-gen",
       "score": 0.03704021747463312,
       "latency": 5879.312132795651,
       "timestamp": "2026-06-08T17:12:02.989404+00:00"
-    },
-    {
-      "rank": 16,
-      "user": "十六组",
-      "github": "Cek2001/BangC16",
-      "score": 0.032915959546168314,
-      "latency": 6615.9699733058615,
-      "timestamp": "2026-06-04T09:10:55.410849+00:00"
     },
     {
       "rank": 17,
@@ -221,5 +221,5 @@
       "timestamp": "2026-06-03T16:57:29.481134+00:00"
     }
   ],
-  "last_updated": "2026-06-09T03:07:56.787515+00:00"
+  "last_updated": "2026-06-09T06:25:53.280014+00:00"
 }
