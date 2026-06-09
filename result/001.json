@@ -586,6 +586,14 @@
     },
     {
       "rank": 70,
+      "user": "十四组",
+      "github": "ljj0119/BangC14",
+      "score": 0.004657933524335132,
+      "latency": 5961.65657043457,
+      "timestamp": "2026-06-09T16:09:08.874873+00:00"
+    },
+    {
+      "rank": 71,
       "user": "干不过AI组",
       "github": "yuanlaibuduan/Human_Vs_AI",
       "score": 0.004652840409715731,
@@ -593,7 +601,7 @@
       "timestamp": "2026-06-03T04:56:51.289637+00:00"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.004633664732323892,
@@ -601,7 +609,7 @@
       "timestamp": "2026-06-09T02:03:13.330288+00:00"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "user": "从0开始干科研",
       "github": "wyh-lyy/openoperator-start-kit",
       "score": 0.0046185289956180604,
@@ -609,7 +617,7 @@
       "timestamp": "2026-06-03T15:59:32.783455+00:00"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.004616497922682382,
@@ -617,20 +625,12 @@
       "timestamp": "2026-05-18T12:35:03.217885+00:00"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.0046057161066929515,
       "latency": 6029.246995846431,
       "timestamp": "2026-06-01T15:44:55.975968+00:00"
-    },
-    {
-      "rank": 75,
-      "user": "十四组",
-      "github": "ljj0119/BangC14",
-      "score": 0.004590797452848232,
-      "latency": 6048.840160171191,
-      "timestamp": "2026-06-09T15:55:36.985605+00:00"
     },
     {
       "rank": 76,
@@ -701,5 +701,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-09T15:59:03.740879+00:00"
+  "last_updated": "2026-06-09T16:14:19.982274+00:00"
 }
