@@ -80,6 +80,14 @@
     },
     {
       "rank": 10,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.07630712632546764,
+      "latency": 2439.0906716386476,
+      "timestamp": "2026-06-09T16:25:15.167626+00:00"
+    },
+    {
+      "rank": 11,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.07603588139904568,
@@ -87,7 +95,7 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0756082977507529,
@@ -95,7 +103,7 @@
       "timestamp": "2026-06-08T16:42:57.094218+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.07555655764824554,
@@ -103,20 +111,12 @@
       "timestamp": "2026-06-05T13:08:12.001828+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.07538634503617204,
       "latency": 2468.882128596306,
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "team_43",
-      "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 0.07142750588884303,
-      "latency": 2605.7188709576926,
-      "timestamp": "2026-06-09T08:45:55.265499+00:00"
     },
     {
       "rank": 15,
@@ -176,5 +176,5 @@
       "timestamp": "2026-05-29T01:46:41.792522+00:00"
     }
   ],
-  "last_updated": "2026-06-09T14:17:33.111592+00:00"
+  "last_updated": "2026-06-09T16:29:42.526015+00:00"
 }
