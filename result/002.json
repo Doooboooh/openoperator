@@ -123,6 +123,14 @@
     },
     {
       "rank": 15,
+      "user": "十五组",
+      "github": "fengjin1126/BangC15",
+      "score": 1.1877527988359056,
+      "latency": 6966.829299926758,
+      "timestamp": "2026-06-09T01:43:55.428766+00:00"
+    },
+    {
+      "rank": 16,
       "user": "我说删题大于一切组",
       "github": "Oreki2eru/openoperator-start-kit",
       "score": 1.1856627800140673,
@@ -131,7 +139,7 @@
       "commit_sha": "562a4f100dbb6d07b2ee0c66e461619d13c684cf"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "智能哈基系统组",
       "github": "Glucose-180/AIHS-Operator",
       "score": 1.1814924502789075,
@@ -139,21 +147,13 @@
       "timestamp": "2026-05-20T14:12:27.116624+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.181313320920856,
       "latency": 7004.8063062131405,
       "timestamp": "2026-05-18T08:43:30.078519+00:00",
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
-    },
-    {
-      "rank": 18,
-      "user": "十五组",
-      "github": "fengjin1126/BangC15",
-      "score": 1.1721105582991391,
-      "latency": 7059.804163873196,
-      "timestamp": "2026-06-08T19:17:13.810051+00:00"
     },
     {
       "rank": 19,
@@ -639,5 +639,5 @@
       "timestamp": "2026-06-08T14:13:15.771009+00:00"
     }
   ],
-  "last_updated": "2026-06-08T19:19:14.181441+00:00"
+  "last_updated": "2026-06-09T01:46:44.093188+00:00"
 }
