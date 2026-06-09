@@ -6,9 +6,9 @@
       "rank": 1,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
-      "score": 0.19035738692273274,
-      "latency": 150.70599814256033,
-      "timestamp": "2026-06-09T04:23:01.370343+00:00",
+      "score": 0.19567016039471752,
+      "latency": 146.6140771905581,
+      "timestamp": "2026-06-09T04:25:18.723356+00:00",
       "commit_sha": "aeb17f8b66c32dc2e890936d9fb437f63d833f9b"
     },
     {
@@ -488,6 +488,14 @@
     },
     {
       "rank": 59,
+      "user": "当家作组",
+      "github": "xiunianjun/openoperator-start-kit",
+      "score": 0.0014858613205147035,
+      "latency": 19307.32000619173,
+      "timestamp": "2026-06-09T04:28:13.842434+00:00"
+    },
+    {
+      "rank": 60,
       "user": "team_68",
       "github": "Wonder1107/Bangc49",
       "score": 0.0007010051021957926,
@@ -495,7 +503,7 @@
       "timestamp": "2026-06-05T05:14:10.384460+00:00"
     },
     {
-      "rank": 60,
+      "rank": 61,
       "user": "team_21",
       "github": "samwang102/openoperator-team13",
       "score": 0.000303567429338049,
@@ -504,5 +512,5 @@
       "commit_sha": "9d448c1df6bacc72c6dbc7af5cd766cf21f43f24"
     }
   ],
-  "last_updated": "2026-06-09T04:24:07.091550+00:00"
+  "last_updated": "2026-06-09T04:29:12.085575+00:00"
 }
