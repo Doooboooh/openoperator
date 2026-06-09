@@ -146,6 +146,14 @@
     },
     {
       "rank": 18,
+      "user": "team_36",
+      "github": "luogarden/Team35_BANGC",
+      "score": 0.025243452447133406,
+      "latency": 8626.831074555716,
+      "timestamp": "2026-06-09T03:07:10.533849+00:00"
+    },
+    {
+      "rank": 19,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.017532952253042154,
@@ -153,7 +161,7 @@
       "timestamp": "2026-06-05T09:12:29.157367+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.016340644394587864,
@@ -161,7 +169,7 @@
       "timestamp": "2026-06-03T04:09:03.822786+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.01548999188033845,
@@ -170,7 +178,7 @@
       "commit_sha": "7e5ae92f118f40abd6743daa9d9699c719d68160"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.014171919888096763,
@@ -179,7 +187,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.01207857160964912,
@@ -188,7 +196,7 @@
       "commit_sha": "2a34aed23a91ea2095022f927c5876330334835f"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.009153397507108401,
@@ -196,7 +204,7 @@
       "timestamp": "2026-06-03T15:35:48.017521+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.008728130112363848,
@@ -205,7 +213,7 @@
       "commit_sha": "5290023de287b78782fb701b3a51fa942feb31b1"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.002268744074334678,
@@ -213,5 +221,5 @@
       "timestamp": "2026-06-03T16:57:29.481134+00:00"
     }
   ],
-  "last_updated": "2026-06-09T01:46:44.095715+00:00"
+  "last_updated": "2026-06-09T03:07:56.787515+00:00"
 }
