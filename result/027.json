@@ -181,6 +181,14 @@
     },
     {
       "rank": 22,
+      "user": "NPC组",
+      "github": "zfgincau/openoperator-start-kit",
+      "score": 0.004380700069208569,
+      "latency": 5522.633281846841,
+      "timestamp": "2026-06-10T17:30:02.185977+00:00"
+    },
+    {
+      "rank": 23,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.004260275217306673,
@@ -189,7 +197,7 @@
       "commit_sha": "ed8505a0f5f2124db6ca52682d56a6eabb3e4814"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.004130737649471212,
@@ -197,20 +205,12 @@
       "timestamp": "2026-06-09T16:23:28.819754+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "888",
       "github": "RuiXiZhang03/888-op-gen",
       "score": 0.004128988544330815,
       "latency": 5859.304219484329,
       "timestamp": "2026-06-09T03:14:48.685713+00:00"
-    },
-    {
-      "rank": 25,
-      "user": "NPC组",
-      "github": "zfgincau/openoperator-start-kit",
-      "score": 0.004001075076315893,
-      "latency": 6046.624854207039,
-      "timestamp": "2026-06-10T16:54:08.360095+00:00"
     },
     {
       "rank": 26,
@@ -270,5 +270,5 @@
       "commit_sha": "e295bc31f3b60ddd87e039785c0e6404c45e4c66"
     }
   ],
-  "last_updated": "2026-06-10T16:54:48.952392+00:00"
+  "last_updated": "2026-06-10T17:35:05.477284+00:00"
 }
