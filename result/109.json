@@ -228,20 +228,20 @@
     },
     {
       "rank": 28,
+      "user": "team_77",
+      "github": "Atopos666/BangC_Team41",
+      "score": 0.008062228654030565,
+      "latency": 11056.496140857538,
+      "timestamp": "2026-06-10T14:11:50.233590+00:00"
+    },
+    {
+      "rank": 29,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.00795777161899905,
       "latency": 11201.628328611454,
       "timestamp": "2026-05-18T06:57:15.915145+00:00",
       "commit_sha": "cb120d7dfa5238825bed2f0766c5aea1afae4c2a"
-    },
-    {
-      "rank": 29,
-      "user": "team_77",
-      "github": "Atopos666/BangC_Team41",
-      "score": 0.0075845785409781145,
-      "latency": 11752.795428037643,
-      "timestamp": "2026-06-10T14:05:11.026446+00:00"
     },
     {
       "rank": 30,
@@ -346,9 +346,9 @@
       "rank": 42,
       "user": "智能人工",
       "github": "AccioNimbus2000/goodluck",
-      "score": 0.00252980410032856,
-      "latency": 35235.92992375294,
-      "timestamp": "2026-06-10T14:06:04.531274+00:00"
+      "score": 0.0025691056911014165,
+      "latency": 34696.89873357614,
+      "timestamp": "2026-06-10T14:14:58.684043+00:00"
     },
     {
       "rank": 43,
@@ -560,5 +560,5 @@
       "timestamp": "2026-05-20T07:53:32.411230+00:00"
     }
   ],
-  "last_updated": "2026-06-10T14:06:56.308607+00:00"
+  "last_updated": "2026-06-10T14:17:09.813536+00:00"
 }

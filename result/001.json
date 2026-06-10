@@ -626,6 +626,14 @@
     },
     {
       "rank": 75,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.0046521667178673195,
+      "latency": 5969.046615064144,
+      "timestamp": "2026-06-10T14:11:51.707042+00:00"
+    },
+    {
+      "rank": 76,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.004633664732323892,
@@ -633,7 +641,7 @@
       "timestamp": "2026-06-09T02:03:13.330288+00:00"
     },
     {
-      "rank": 76,
+      "rank": 77,
       "user": "从0开始干科研",
       "github": "wyh-lyy/openoperator-start-kit",
       "score": 0.0046185289956180604,
@@ -641,7 +649,7 @@
       "timestamp": "2026-06-03T15:59:32.783455+00:00"
     },
     {
-      "rank": 77,
+      "rank": 78,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.004616497922682382,
@@ -649,7 +657,7 @@
       "timestamp": "2026-05-18T12:35:03.217885+00:00"
     },
     {
-      "rank": 78,
+      "rank": 79,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.0046057161066929515,
@@ -657,20 +665,12 @@
       "timestamp": "2026-06-01T15:44:55.975968+00:00"
     },
     {
-      "rank": 79,
+      "rank": 80,
       "user": "team_98",
       "github": "LSY839/bangc-competition",
       "score": 0.004586075729183968,
       "latency": 6055.067914227645,
       "timestamp": "2026-05-18T14:15:25.569866+00:00"
-    },
-    {
-      "rank": 80,
-      "user": "提示词大师",
-      "github": "Zhang-Jiahe/Prompt-Master-bangc-operator-competition",
-      "score": 0.004577230327350411,
-      "latency": 6066.769206275542,
-      "timestamp": "2026-06-03T06:56:31.305575+00:00"
     },
     {
       "rank": 81,
@@ -733,5 +733,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-10T13:31:13.832710+00:00"
+  "last_updated": "2026-06-10T14:17:09.815434+00:00"
 }
