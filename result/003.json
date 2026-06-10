@@ -365,6 +365,14 @@
     },
     {
       "rank": 44,
+      "user": "NPC组",
+      "github": "zfgincau/openoperator-start-kit",
+      "score": 0.005625527127737021,
+      "latency": 6389.978962639968,
+      "timestamp": "2026-06-10T16:35:22.967579+00:00"
+    },
+    {
+      "rank": 45,
       "user": "team_95",
       "github": "GrassedgeT/ics-playground",
       "score": 0.005597430335181655,
@@ -372,20 +380,12 @@
       "timestamp": "2026-06-09T11:13:34.122473+00:00"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "user": "加油组",
       "github": "lao7tomato/BangCompetition",
       "score": 0.005046095401920424,
       "latency": 7123.725799222787,
       "timestamp": "2026-06-02T14:13:48.526454+00:00"
-    },
-    {
-      "rank": 46,
-      "user": "NPC组",
-      "github": "zfgincau/openoperator-start-kit",
-      "score": 0.004825520678264553,
-      "latency": 7449.351561566194,
-      "timestamp": "2026-06-10T16:32:24.708572+00:00"
     },
     {
       "rank": 47,
@@ -652,5 +652,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-10T16:34:28.091640+00:00"
+  "last_updated": "2026-06-10T16:39:33.891446+00:00"
 }
