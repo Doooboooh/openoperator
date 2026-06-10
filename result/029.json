@@ -221,20 +221,20 @@
     },
     {
       "rank": 27,
+      "user": "NPC组",
+      "github": "zfgincau/openoperator-start-kit",
+      "score": 0.00430134741069979,
+      "latency": 6673.025277753671,
+      "timestamp": "2026-06-10T16:54:08.360095+00:00"
+    },
+    {
+      "rank": 28,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.004235329077802317,
       "latency": 6777.041281263034,
       "timestamp": "2026-05-18T06:42:23.637274+00:00",
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
-    },
-    {
-      "rank": 28,
-      "user": "NPC组",
-      "github": "zfgincau/openoperator-start-kit",
-      "score": 0.004181302528006668,
-      "latency": 6864.607334136963,
-      "timestamp": "2026-06-10T16:45:13.511352+00:00"
     },
     {
       "rank": 29,
@@ -287,5 +287,5 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     }
   ],
-  "last_updated": "2026-06-10T16:49:44.143175+00:00"
+  "last_updated": "2026-06-10T16:54:48.955845+00:00"
 }
