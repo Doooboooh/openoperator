@@ -96,6 +96,14 @@
     },
     {
       "rank": 12,
+      "user": "team_8",
+      "github": "ykkkx/ICS_28",
+      "score": 0.1876452510614598,
+      "latency": 6748.292284707229,
+      "timestamp": "2026-06-10T03:28:17.596574+00:00"
+    },
+    {
+      "rank": 13,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.13797889512181685,
@@ -103,7 +111,7 @@
       "timestamp": "2026-06-05T09:41:28.476227+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.10923608462027676,
@@ -112,7 +120,7 @@
       "commit_sha": "969815c358145da4b6b5edd6f5075eeccdc41c37"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.10764191469285096,
@@ -120,7 +128,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.10539442691520455,
@@ -129,7 +137,7 @@
       "commit_sha": "5589a11fd4078ee814385f6bbde2f5cdfb06c780"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.0630758478556456,
@@ -137,7 +145,7 @@
       "timestamp": "2026-06-08T12:43:27.895435+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.060173771157947115,
@@ -145,7 +153,7 @@
       "timestamp": "2026-05-28T09:42:42.687630+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.005231023813758637,
@@ -153,5 +161,5 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     }
   ],
-  "last_updated": "2026-06-09T13:46:57.597405+00:00"
+  "last_updated": "2026-06-10T03:33:24.224637+00:00"
 }
