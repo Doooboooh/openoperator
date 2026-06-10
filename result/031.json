@@ -124,6 +124,14 @@
     },
     {
       "rank": 15,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.010988303152766193,
+      "latency": 2793.6979507406554,
+      "timestamp": "2026-06-10T13:30:14.750448+00:00"
+    },
+    {
+      "rank": 16,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.010987369746621614,
@@ -131,20 +139,12 @@
       "timestamp": "2026-05-29T07:38:37.033480+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.010714620556133793,
       "latency": 2865.057128171126,
       "timestamp": "2026-06-04T02:03:12.293099+00:00"
-    },
-    {
-      "rank": 17,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.010454031948404104,
-      "latency": 2936.4746684829393,
-      "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
       "rank": 18,
@@ -278,5 +278,5 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     }
   ],
-  "last_updated": "2026-06-10T11:49:49.297495+00:00"
+  "last_updated": "2026-06-10T13:31:13.789031+00:00"
 }

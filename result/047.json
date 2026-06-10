@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition",
+      "score": 0.022652233829428412,
+      "latency": 2261.5871081749597,
+      "timestamp": "2026-06-10T13:30:14.750448+00:00"
+    },
+    {
+      "rank": 4,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.02190113700306692,
@@ -30,7 +38,7 @@
       "commit_sha": "9c32320b18dfd81799a75400a4cc834a998876d4"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.02138498586659966,
@@ -38,7 +46,7 @@
       "timestamp": "2026-06-09T03:53:36.795539+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.02048724439179817,
@@ -47,7 +55,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.01991934904226975,
@@ -55,7 +63,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.01986829797966352,
@@ -64,20 +72,12 @@
       "commit_sha": "2e0bcdcf80fe034ff9af8a4bdbcfedda957cbeb9"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "888",
       "github": "RuiXiZhang03/888-op-gen",
       "score": 0.0195456714580604,
       "latency": 2621.040679514408,
       "timestamp": "2026-06-08T12:04:54.288686+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.019457957009497557,
-      "latency": 2632.8560585776963,
-      "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
       "rank": 10,
@@ -226,5 +226,5 @@
       "timestamp": "2026-06-09T17:09:59.069298+00:00"
     }
   ],
-  "last_updated": "2026-06-09T17:15:28.847079+00:00"
+  "last_updated": "2026-06-10T13:31:13.794141+00:00"
 }
