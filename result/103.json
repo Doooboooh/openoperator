@@ -123,6 +123,14 @@
     },
     {
       "rank": 15,
+      "user": "二十七组",
+      "github": "zhangmuxiang/27_openoperator-start-kit",
+      "score": 0.016377270838122675,
+      "latency": 2578.6347687244415,
+      "timestamp": "2026-06-10T17:47:00.764821+00:00"
+    },
+    {
+      "rank": 16,
       "user": "十八组",
       "github": "Napiercc/BangC18",
       "score": 0.016248783724270046,
@@ -130,7 +138,7 @@
       "timestamp": "2026-06-03T16:03:17.335584+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.016166256524442632,
@@ -138,7 +146,7 @@
       "timestamp": "2026-05-29T09:15:56.512630+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.016019475165888572,
@@ -146,7 +154,7 @@
       "timestamp": "2026-05-19T07:22:21.979717+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.015946939288180206,
@@ -155,7 +163,7 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.015891397258146183,
@@ -163,20 +171,12 @@
       "timestamp": "2026-05-20T10:00:06.258766+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_4",
       "github": "wangyongping1/ICS-53TEAM",
       "score": 0.01583435230520555,
       "latency": 2667.0494116842747,
       "timestamp": "2026-06-03T08:39:36.558294+00:00"
-    },
-    {
-      "rank": 21,
-      "user": "二十七组",
-      "github": "zhangmuxiang/27_openoperator-start-kit",
-      "score": 0.015334336144234925,
-      "latency": 2754.0155375997224,
-      "timestamp": "2026-06-10T14:14:50.973413+00:00"
     },
     {
       "rank": 22,
@@ -595,5 +595,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-10T16:34:28.099843+00:00"
+  "last_updated": "2026-06-10T17:50:19.644828+00:00"
 }
