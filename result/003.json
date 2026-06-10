@@ -180,6 +180,14 @@
     },
     {
       "rank": 22,
+      "user": "二十七组",
+      "github": "zhangmuxiang/27_openoperator-start-kit",
+      "score": 0.011546521680278712,
+      "latency": 3113.2319321235022,
+      "timestamp": "2026-06-10T08:37:05.843289+00:00"
+    },
+    {
+      "rank": 23,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.011186533045531017,
@@ -187,20 +195,12 @@
       "timestamp": "2026-06-04T15:48:00.049844+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.010662797149609424,
       "latency": 3371.254230539004,
       "timestamp": "2026-06-08T19:42:12.281825+00:00"
-    },
-    {
-      "rank": 24,
-      "user": "二十七组",
-      "github": "zhangmuxiang/27_openoperator-start-kit",
-      "score": 0.010381888080265361,
-      "latency": 3462.472309668859,
-      "timestamp": "2026-06-10T08:34:32.382967+00:00"
     },
     {
       "rank": 25,
@@ -644,5 +644,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-10T08:37:19.288122+00:00"
+  "last_updated": "2026-06-10T08:42:25.234534+00:00"
 }
