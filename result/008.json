@@ -159,6 +159,14 @@
     },
     {
       "rank": 19,
+      "user": "team_82",
+      "github": "Xdddyy/openoperator-25",
+      "score": 0.002511167034371076,
+      "latency": 478636.02203627425,
+      "timestamp": "2026-06-10T04:36:44.485809+00:00"
+    },
+    {
+      "rank": 20,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0007686778802839844,
@@ -166,7 +174,7 @@
       "timestamp": "2026-05-31T13:26:22.703549+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0006858825818867188,
@@ -174,7 +182,7 @@
       "timestamp": "2026-05-25T11:12:09.990232+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.0006562578496893219,
@@ -182,7 +190,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0003573950209127775,
@@ -191,7 +199,7 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.0003381575084010126,
@@ -199,7 +207,7 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.00014702623925098165,
@@ -207,7 +215,7 @@
       "timestamp": "2026-05-18T14:29:10.286439+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 4.548882752853897e-05,
@@ -216,5 +224,5 @@
       "commit_sha": "6fe6af9e730b4765109f623c5ba0056cf21ce301"
     }
   ],
-  "last_updated": "2026-06-09T10:08:40.689810+00:00"
+  "last_updated": "2026-06-10T04:39:05.559971+00:00"
 }
