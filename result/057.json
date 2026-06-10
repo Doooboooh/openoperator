@@ -97,20 +97,20 @@
     },
     {
       "rank": 12,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.08252650586554632,
+      "latency": 2596.0871328910193,
+      "timestamp": "2026-06-10T07:03:17.810809+00:00",
+      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
+    },
+    {
+      "rank": 13,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.07941529442326456,
       "latency": 2697.79268031319,
       "timestamp": "2026-05-31T08:44:46.843866+00:00"
-    },
-    {
-      "rank": 13,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.07721696692694284,
-      "latency": 2774.5974560578666,
-      "timestamp": "2026-06-05T14:48:55.104296+00:00",
-      "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
       "rank": 14,
@@ -203,5 +203,5 @@
       "timestamp": "2026-06-04T08:41:37.052522+00:00"
     }
   ],
-  "last_updated": "2026-06-10T07:00:36.148923+00:00"
+  "last_updated": "2026-06-10T07:05:41.658576+00:00"
 }
