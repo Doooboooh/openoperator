@@ -436,19 +436,19 @@
     },
     {
       "rank": 53,
+      "user": "team_82",
+      "github": "Xdddyy/openoperator-25",
+      "score": 0.0007840631339741677,
+      "latency": 569398.0250507593,
+      "timestamp": "2026-06-10T03:50:31.753349+00:00"
+    },
+    {
+      "rank": 54,
       "user": "team_44",
       "github": "OrangeL-ucas/SBangC",
       "score": 0.0007752769804955977,
       "latency": 575850.9684043626,
       "timestamp": "2026-06-01T12:31:42.754716+00:00"
-    },
-    {
-      "rank": 54,
-      "user": "team_82",
-      "github": "Xdddyy/openoperator-25",
-      "score": 0.0007687146672144651,
-      "latency": 580766.8554286162,
-      "timestamp": "2026-06-10T03:43:53.416694+00:00"
     },
     {
       "rank": 55,
@@ -545,5 +545,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-10T03:48:38.672734+00:00"
+  "last_updated": "2026-06-10T03:53:44.466402+00:00"
 }
