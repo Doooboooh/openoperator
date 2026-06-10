@@ -431,6 +431,14 @@
     },
     {
       "rank": 51,
+      "user": "十四组",
+      "github": "ljj0119/BangC14",
+      "score": 0.004813121648954277,
+      "latency": 5769.4365580876665,
+      "timestamp": "2026-06-10T10:17:41.590290+00:00"
+    },
+    {
+      "rank": 52,
       "user": "二十七组",
       "github": "zhangmuxiang/27_openoperator-start-kit",
       "score": 0.0048045644023740446,
@@ -438,7 +446,7 @@
       "timestamp": "2026-05-23T06:56:43.188807+00:00"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "user": "team_82",
       "github": "Xdddyy/openoperator-25",
       "score": 0.004801323118730778,
@@ -446,7 +454,7 @@
       "timestamp": "2026-06-09T15:48:17.475178+00:00"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "user": "team_68",
       "github": "Wonder1107/Bangc49",
       "score": 0.0048012130767436535,
@@ -454,7 +462,7 @@
       "timestamp": "2026-06-04T12:58:32.187227+00:00"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "user": "team_53",
       "github": "liuranra/kernel-competition",
       "score": 0.004799540904841343,
@@ -462,7 +470,7 @@
       "timestamp": "2026-06-08T11:55:32.070517+00:00"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "dev0",
       "github": "Doooboooh/kernel-develop-competition",
       "score": 0.004795087554606939,
@@ -470,20 +478,12 @@
       "timestamp": "2026-05-26T01:54:25.479277+00:00"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "team_97",
       "github": "Clear-YW/bangc",
       "score": 0.004791611209203128,
       "latency": 5795.336638887723,
       "timestamp": "2026-06-02T09:48:57.695919+00:00"
-    },
-    {
-      "rank": 57,
-      "user": "十四组",
-      "github": "ljj0119/BangC14",
-      "score": 0.004790902637248753,
-      "latency": 5796.193766097228,
-      "timestamp": "2026-06-10T07:18:46.523999+00:00"
     },
     {
       "rank": 58,
@@ -725,5 +725,5 @@
       "timestamp": "2026-06-10T09:46:05.028655+00:00"
     }
   ],
-  "last_updated": "2026-06-10T09:48:13.169065+00:00"
+  "last_updated": "2026-06-10T10:18:38.014233+00:00"
 }
