@@ -122,6 +122,14 @@
     },
     {
       "rank": 15,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.010431567795584901,
+      "latency": 4537.86055246989,
+      "timestamp": "2026-06-10T15:12:48.712511+00:00"
+    },
+    {
+      "rank": 16,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.010308560882027896,
@@ -129,21 +137,13 @@
       "timestamp": "2026-06-10T02:18:39.554336+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.010038147871480921,
       "latency": 4715.7105679313345,
       "timestamp": "2026-05-18T09:19:32.058156+00:00",
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
-    },
-    {
-      "rank": 17,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.009882455146231067,
-      "latency": 4790.00403235356,
-      "timestamp": "2026-06-05T08:56:15.311343+00:00"
     },
     {
       "rank": 18,
@@ -170,5 +170,5 @@
       "timestamp": "2026-06-10T07:44:46.029555+00:00"
     }
   ],
-  "last_updated": "2026-06-10T07:46:30.445479+00:00"
+  "last_updated": "2026-06-10T15:18:15.505678+00:00"
 }
