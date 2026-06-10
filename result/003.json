@@ -381,6 +381,14 @@
     },
     {
       "rank": 46,
+      "user": "NPC组",
+      "github": "zfgincau/openoperator-start-kit",
+      "score": 0.004825520678264553,
+      "latency": 7449.351561566194,
+      "timestamp": "2026-06-10T16:32:24.708572+00:00"
+    },
+    {
+      "rank": 47,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.004824278925144479,
@@ -388,20 +396,12 @@
       "timestamp": "2026-05-30T14:04:22.604559+00:00"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.004765810513154141,
       "latency": 7542.683432499568,
       "timestamp": "2026-06-10T14:27:27.146607+00:00"
-    },
-    {
-      "rank": 48,
-      "user": "NPC组",
-      "github": "zfgincau/openoperator-start-kit",
-      "score": 0.004725158684085896,
-      "latency": 7607.575195531051,
-      "timestamp": "2026-06-10T15:22:34.523033+00:00"
     },
     {
       "rank": 49,
@@ -652,5 +652,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-10T15:48:55.257548+00:00"
+  "last_updated": "2026-06-10T16:34:28.091640+00:00"
 }

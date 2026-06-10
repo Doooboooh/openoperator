@@ -634,6 +634,14 @@
     },
     {
       "rank": 76,
+      "user": "NPC组",
+      "github": "zfgincau/openoperator-start-kit",
+      "score": 0.004636442838805022,
+      "latency": 5989.289842545986,
+      "timestamp": "2026-06-10T16:32:25.093426+00:00"
+    },
+    {
+      "rank": 77,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.004633664732323892,
@@ -641,7 +649,7 @@
       "timestamp": "2026-06-09T02:03:13.330288+00:00"
     },
     {
-      "rank": 77,
+      "rank": 78,
       "user": "从0开始干科研",
       "github": "wyh-lyy/openoperator-start-kit",
       "score": 0.0046185289956180604,
@@ -649,20 +657,12 @@
       "timestamp": "2026-06-03T15:59:32.783455+00:00"
     },
     {
-      "rank": 78,
+      "rank": 79,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.004616497922682382,
       "latency": 6015.165708959103,
       "timestamp": "2026-05-18T12:35:03.217885+00:00"
-    },
-    {
-      "rank": 79,
-      "user": "NPC组",
-      "github": "zfgincau/openoperator-start-kit",
-      "score": 0.004606784927560497,
-      "latency": 6027.848149339358,
-      "timestamp": "2026-06-10T15:22:34.523033+00:00"
     },
     {
       "rank": 80,
@@ -741,5 +741,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-10T15:23:24.240790+00:00"
+  "last_updated": "2026-06-10T16:34:28.111426+00:00"
 }
