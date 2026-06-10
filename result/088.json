@@ -87,6 +87,14 @@
     },
     {
       "rank": 11,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.03146734519903551,
+      "latency": 2509.8081678152084,
+      "timestamp": "2026-06-10T06:58:04.177322+00:00"
+    },
+    {
+      "rank": 12,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.031361638236299526,
@@ -94,7 +102,7 @@
       "timestamp": "2026-05-28T14:51:49.888454+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0310342503448033,
@@ -103,7 +111,7 @@
       "commit_sha": "5589a11fd4078ee814385f6bbde2f5cdfb06c780"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.030935680508631623,
@@ -111,7 +119,7 @@
       "timestamp": "2026-06-04T20:05:51.700127+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.030837661946253103,
@@ -119,7 +127,7 @@
       "timestamp": "2026-06-08T11:51:34.070158+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.030716693946213038,
@@ -127,21 +135,13 @@
       "timestamp": "2026-05-31T10:36:08.882581+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.029907707859388018,
       "latency": 2640.690499295791,
       "timestamp": "2026-05-18T09:41:07.584422+00:00",
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
-    },
-    {
-      "rank": 17,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.02931877721980112,
-      "latency": 2693.734442194303,
-      "timestamp": "2026-06-05T12:02:41.062724+00:00"
     },
     {
       "rank": 18,
@@ -178,5 +178,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-08T13:23:40.789628+00:00"
+  "last_updated": "2026-06-10T07:00:36.157025+00:00"
 }
