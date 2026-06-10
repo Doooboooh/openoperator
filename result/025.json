@@ -105,20 +105,20 @@
     },
     {
       "rank": 13,
+      "user": "team_90",
+      "github": "sleepy3dog/AICS-38",
+      "score": 0.015137776360586339,
+      "latency": 6948.973052203655,
+      "timestamp": "2026-06-10T07:41:10.858071+00:00",
+      "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
+    },
+    {
+      "rank": 14,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.011948470394294869,
       "latency": 8803.804715474447,
       "timestamp": "2026-06-04T18:14:36.647278+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "team_90",
-      "github": "sleepy3dog/AICS-38",
-      "score": 0.010250175348008223,
-      "latency": 10262.458585202694,
-      "timestamp": "2026-06-10T07:03:17.810809+00:00",
-      "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
       "rank": 15,
@@ -211,5 +211,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-10T07:05:41.656462+00:00"
+  "last_updated": "2026-06-10T07:46:30.440063+00:00"
 }
