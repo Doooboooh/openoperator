@@ -38,6 +38,14 @@
     },
     {
       "rank": 5,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.4626867884637577,
+      "latency": 8597.00795263052,
+      "timestamp": "2026-06-10T01:43:14.371608+00:00"
+    },
+    {
+      "rank": 6,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.46009622297840835,
@@ -46,7 +54,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.2083644975141837,
@@ -54,7 +62,7 @@
       "timestamp": "2026-05-18T14:13:54.546292+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.13573460840061793,
@@ -63,7 +71,7 @@
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.0859002062778174,
@@ -71,7 +79,7 @@
       "timestamp": "2026-06-08T20:19:55.096868+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.02815260061060967,
@@ -79,7 +87,7 @@
       "timestamp": "2026-06-01T09:24:55.713098+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.01587714514378437,
@@ -87,7 +95,7 @@
       "timestamp": "2026-05-31T08:33:16.589315+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.001370196403033217,
@@ -95,7 +103,7 @@
       "timestamp": "2026-05-31T13:26:22.703549+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 4.312028989649994e-05,
@@ -104,5 +112,5 @@
       "commit_sha": "501f30a08ec97063f771e42c96d865d6cefecfef"
     }
   ],
-  "last_updated": "2026-06-08T20:24:51.575373+00:00"
+  "last_updated": "2026-06-10T01:47:32.405814+00:00"
 }
