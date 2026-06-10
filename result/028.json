@@ -121,19 +121,19 @@
     },
     {
       "rank": 15,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.009159965249321505,
+      "latency": 2473.480999469757,
+      "timestamp": "2026-06-10T13:56:45.940041+00:00"
+    },
+    {
+      "rank": 16,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.008868154931861985,
       "latency": 2554.8719180126986,
       "timestamp": "2026-06-01T18:29:54.858986+00:00"
-    },
-    {
-      "rank": 16,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.008678576062032956,
-      "latency": 2610.681733737389,
-      "timestamp": "2026-06-03T14:42:14.256624+00:00"
     },
     {
       "rank": 17,
@@ -285,5 +285,5 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     }
   ],
-  "last_updated": "2026-06-10T13:56:43.004565+00:00"
+  "last_updated": "2026-06-10T14:01:49.342196+00:00"
 }
