@@ -422,6 +422,15 @@
     },
     {
       "rank": 51,
+      "user": "team_86",
+      "github": "RachelGu2003/ICS_86Team",
+      "score": 0.004298454970750565,
+      "latency": 9824.692892531553,
+      "timestamp": "2026-06-10T11:46:24.215945+00:00",
+      "commit_sha": "d3867cee647b90aeb63c3ee97618337d9bf15605"
+    },
+    {
+      "rank": 52,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.004272088140155179,
@@ -429,21 +438,12 @@
       "timestamp": "2026-06-08T19:42:12.281825+00:00"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.004236506034042013,
       "latency": 9968.355918924013,
       "timestamp": "2026-06-01T16:52:33.777120+00:00"
-    },
-    {
-      "rank": 53,
-      "user": "team_86",
-      "github": "RachelGu2003/ICS_86Team",
-      "score": 0.0041283773805698325,
-      "latency": 10229.442734271288,
-      "timestamp": "2026-05-18T06:37:57.873297+00:00",
-      "commit_sha": "d3867cee647b90aeb63c3ee97618337d9bf15605"
     },
     {
       "rank": 54,
@@ -579,5 +579,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-10T08:37:19.285369+00:00"
+  "last_updated": "2026-06-10T11:49:49.292451+00:00"
 }
