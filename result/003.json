@@ -586,6 +586,14 @@
     },
     {
       "rank": 71,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.0012047607291052031,
+      "latency": 29837.459946672123,
+      "timestamp": "2026-06-10T14:40:23.682202+00:00"
+    },
+    {
+      "rank": 72,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 0.0011949522012686784,
@@ -593,7 +601,7 @@
       "timestamp": "2026-06-01T06:09:53.959393+00:00"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0011844116077282297,
@@ -601,7 +609,7 @@
       "timestamp": "2026-05-19T03:08:56.335232+00:00"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0011831333595311584,
@@ -610,20 +618,12 @@
       "commit_sha": "dc3d018d16f5558273580942ec6d1f207348e760"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0006588031597375883,
       "latency": 54564.09774099787,
       "timestamp": "2026-05-21T08:09:23.396123+00:00"
-    },
-    {
-      "rank": 75,
-      "user": "提示词大师",
-      "github": "Zhang-Jiahe/Prompt-Master-bangc-operator-competition",
-      "score": 0.00036417633903793143,
-      "latency": 98707.67577861746,
-      "timestamp": "2026-06-03T16:42:44.205019+00:00"
     },
     {
       "rank": 76,
@@ -644,5 +644,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-10T14:32:29.552758+00:00"
+  "last_updated": "2026-06-10T14:42:34.489358+00:00"
 }
