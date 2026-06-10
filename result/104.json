@@ -476,19 +476,19 @@
     },
     {
       "rank": 58,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.005265215429064885,
+      "latency": 29441.1505262057,
+      "timestamp": "2026-06-10T08:30:32.962414+00:00"
+    },
+    {
+      "rank": 59,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0050948687443440385,
       "latency": 30425.513939311106,
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
-    },
-    {
-      "rank": 59,
-      "user": "team_43",
-      "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 0.004887040462810358,
-      "latency": 31719.401789208252,
-      "timestamp": "2026-06-10T08:24:35.259479+00:00"
     },
     {
       "rank": 60,
@@ -551,5 +551,5 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     }
   ],
-  "last_updated": "2026-06-10T08:27:07.622943+00:00"
+  "last_updated": "2026-06-10T08:32:12.878562+00:00"
 }
