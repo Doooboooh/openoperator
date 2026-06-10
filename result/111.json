@@ -235,19 +235,19 @@
     },
     {
       "rank": 29,
+      "user": "二十七组",
+      "github": "zhangmuxiang/27_openoperator-start-kit",
+      "score": 0.031792763349150786,
+      "latency": 14042.315073311329,
+      "timestamp": "2026-06-10T15:27:46.318748+00:00"
+    },
+    {
+      "rank": 30,
       "user": "team_68",
       "github": "Wonder1107/Bangc49",
       "score": 0.03134556095474263,
       "latency": 14242.654666304588,
       "timestamp": "2026-06-05T05:02:01.959141+00:00"
-    },
-    {
-      "rank": 30,
-      "user": "二十七组",
-      "github": "zhangmuxiang/27_openoperator-start-kit",
-      "score": 0.03021997515239557,
-      "latency": 14773.142524063587,
-      "timestamp": "2026-06-10T15:19:54.136320+00:00"
     },
     {
       "rank": 31,
@@ -593,5 +593,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-10T15:23:24.237153+00:00"
+  "last_updated": "2026-06-10T15:28:31.712028+00:00"
 }
