@@ -97,6 +97,14 @@
     },
     {
       "rank": 12,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.3045378980555706,
+      "latency": 2426.2070655822754,
+      "timestamp": "2026-06-10T12:12:25.971457+00:00"
+    },
+    {
+      "rank": 13,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.29883017953083646,
@@ -104,7 +112,7 @@
       "timestamp": "2026-06-08T21:18:14.732614+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.2979280875004846,
@@ -112,20 +120,12 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.2915997307989585,
       "latency": 2533.8569345573583,
       "timestamp": "2026-05-28T13:59:34.504720+00:00"
-    },
-    {
-      "rank": 15,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.2715202620828595,
-      "latency": 2721.240743994713,
-      "timestamp": "2026-06-10T11:42:03.167148+00:00"
     },
     {
       "rank": 16,
@@ -242,5 +242,5 @@
       "timestamp": "2026-06-01T12:06:14.604234+00:00"
     }
   ],
-  "last_updated": "2026-06-10T11:44:43.546746+00:00"
+  "last_updated": "2026-06-10T12:15:11.116450+00:00"
 }

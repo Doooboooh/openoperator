@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "team_55",
+      "github": "geotle77/AICS-BangC_Game-17",
+      "score": 0.020131068625751692,
+      "latency": 2365.497872233391,
+      "timestamp": "2026-06-10T12:12:25.971457+00:00"
+    },
+    {
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.019936007255270324,
@@ -30,7 +38,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.019602853191417798,
@@ -39,7 +47,7 @@
       "commit_sha": "5b5c0bf64367f0e22bf496bf632790e5d95d9286"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.019408893825627525,
@@ -47,7 +55,7 @@
       "timestamp": "2026-06-09T10:45:59.335080+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_19",
       "github": "JerryLiu369/openoperator-start-kit-experiment",
       "score": 0.01912965774159563,
@@ -55,7 +63,7 @@
       "timestamp": "2026-06-08T10:26:08.138188+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.018738638484693527,
@@ -63,20 +71,12 @@
       "timestamp": "2026-06-08T10:26:35.987589+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.018721718983085434,
       "latency": 2543.5698529084525,
       "timestamp": "2026-06-08T11:54:19.404080+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_55",
-      "github": "geotle77/AICS-BangC_Game-17",
-      "score": 0.018412915334262252,
-      "latency": 2586.22815211614,
-      "timestamp": "2026-06-08T15:59:47.396642+00:00"
     },
     {
       "rank": 10,
@@ -527,5 +527,5 @@
       "timestamp": "2026-05-31T09:21:20.668509+00:00"
     }
   ],
-  "last_updated": "2026-06-10T11:24:16.999033+00:00"
+  "last_updated": "2026-06-10T12:15:11.114283+00:00"
 }
