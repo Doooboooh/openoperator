@@ -152,6 +152,14 @@
     },
     {
       "rank": 18,
+      "user": "六神五组",
+      "github": "yuuu37/good-transport-coming",
+      "score": 0.011771060856566437,
+      "latency": 2359.0906833608947,
+      "timestamp": "2026-06-10T11:34:53.499553+00:00"
+    },
+    {
+      "rank": 19,
       "user": "十八组",
       "github": "Napiercc/BangC18",
       "score": 0.011643451427457496,
@@ -159,7 +167,7 @@
       "timestamp": "2026-06-04T09:24:28.298813+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.011628779312803546,
@@ -168,7 +176,7 @@
       "commit_sha": "e78bcd791a3f7ba67f1db01273f7d573c9de4dd1"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.011587096956761122,
@@ -177,20 +185,12 @@
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.011577255300266378,
       "latency": 2398.58233059446,
       "timestamp": "2026-06-03T17:27:23.722162+00:00"
-    },
-    {
-      "rank": 22,
-      "user": "六神五组",
-      "github": "yuuu37/good-transport-coming",
-      "score": 0.01151747421829663,
-      "latency": 2411.032095551491,
-      "timestamp": "2026-06-10T10:56:40.016626+00:00"
     },
     {
       "rank": 23,
@@ -733,5 +733,5 @@
       "timestamp": "2026-06-10T09:46:05.028655+00:00"
     }
   ],
-  "last_updated": "2026-06-10T10:59:05.006671+00:00"
+  "last_updated": "2026-06-10T11:39:37.972541+00:00"
 }
