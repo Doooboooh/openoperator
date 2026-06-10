@@ -971,11 +971,12 @@ function renderBasicCheck() {
 
     const completedTasks = [];
     const pendingTasks = [];
+    const matchedRepoKeys = new Set(matchedRepos.map(normalizeRepoName));
 
     basicTasks.forEach(task => {
         const rd = resultsMap[task.id];
         const matchingResults = (rd && rd.results ? rd.results : []).filter(result => {
-            return matchedRepos.includes((result.github || '').trim());
+            return matchedRepoKeys.has(normalizeRepoName(result.github));
         });
         if (matchingResults.length) {
             const best = [...matchingResults].sort((a, b) => b.score - a.score)[0];
@@ -1050,16 +1051,17 @@ function getRepoRankForTask(taskId, matchedRepos) {
 
     const sorted = [...rd.results].sort((a, b) => b.score - a.score);
     const bestRankByRepo = new Map();
+    const matchedRepoKeys = new Set(matchedRepos.map(normalizeRepoName));
 
     sorted.forEach((result, index) => {
-        const repo = (result.github || '').trim();
-        if (!repo || bestRankByRepo.has(repo)) return;
-        bestRankByRepo.set(repo, result.rank || (index + 1));
+        const repoKey = normalizeRepoName(result.github);
+        if (!repoKey || bestRankByRepo.has(repoKey)) return;
+        bestRankByRepo.set(repoKey, result.rank || (index + 1));
     });
 
     let bestRank = null;
-    matchedRepos.forEach(repo => {
-        const rank = bestRankByRepo.get(repo);
+    matchedRepoKeys.forEach(repoKey => {
+        const rank = bestRankByRepo.get(repoKey);
         if (rank && (bestRank === null || rank < bestRank)) {
             bestRank = rank;
         }
@@ -1440,4 +1442,3 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 </body>
 </html>
-
