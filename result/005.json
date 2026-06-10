@@ -545,20 +545,20 @@
     },
     {
       "rank": 66,
+      "user": "team_80",
+      "github": "MariyaSuwako/openoperator-start-kit",
+      "score": 0.004882146819927289,
+      "latency": 1493407.7709913254,
+      "timestamp": "2026-06-10T14:09:37.621642+00:00"
+    },
+    {
+      "rank": 67,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00484106386170915,
       "latency": 1506081.350768606,
       "timestamp": "2026-05-18T05:48:27.440769+00:00",
       "commit_sha": "75eb43a6060651bded303d3487e51c737b30a94e"
-    },
-    {
-      "rank": 67,
-      "user": "team_80",
-      "github": "MariyaSuwako/openoperator-start-kit",
-      "score": 0.004830041620916198,
-      "latency": 1509518.255169193,
-      "timestamp": "2026-06-10T09:07:29.109067+00:00"
     },
     {
       "rank": 68,
@@ -658,5 +658,5 @@
       "timestamp": "2026-06-10T11:44:53.201677+00:00"
     }
   ],
-  "last_updated": "2026-06-10T14:01:49.334039+00:00"
+  "last_updated": "2026-06-10T14:12:02.035732+00:00"
 }
