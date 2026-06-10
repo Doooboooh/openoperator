@@ -204,6 +204,14 @@
     },
     {
       "rank": 25,
+      "user": "智能人工",
+      "github": "AccioNimbus2000/goodluck",
+      "score": 0.00885990820718174,
+      "latency": 10061.052317420641,
+      "timestamp": "2026-06-10T15:02:02.397657+00:00"
+    },
+    {
+      "rank": 26,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.00856159290850934,
@@ -211,7 +219,7 @@
       "timestamp": "2026-05-31T09:00:06.819623+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "十四组",
       "github": "ljj0119/BangC14",
       "score": 0.00843252543248859,
@@ -219,7 +227,7 @@
       "timestamp": "2026-06-10T07:18:46.523999+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.008406206761599448,
@@ -227,7 +235,7 @@
       "timestamp": "2026-05-22T04:13:29.633654+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_77",
       "github": "Atopos666/BangC_Team41",
       "score": 0.008062228654030565,
@@ -235,7 +243,7 @@
       "timestamp": "2026-06-10T14:11:50.233590+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.00795777161899905,
@@ -244,20 +252,12 @@
       "commit_sha": "cb120d7dfa5238825bed2f0766c5aea1afae4c2a"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.00723917502393889,
       "latency": 12313.557788729668,
       "timestamp": "2026-05-20T11:27:33.615190+00:00"
-    },
-    {
-      "rank": 31,
-      "user": "智能人工",
-      "github": "AccioNimbus2000/goodluck",
-      "score": 0.005891697881350323,
-      "latency": 15129.764253894487,
-      "timestamp": "2026-06-10T14:50:06.272206+00:00"
     },
     {
       "rank": 32,
@@ -436,9 +436,9 @@
       "rank": 53,
       "user": "十七组",
       "github": "Noitexy/openoperator-JJZZ",
-      "score": 0.00012371647825761172,
-      "latency": 720518.4083431959,
-      "timestamp": "2026-06-10T03:49:47.999938+00:00"
+      "score": 0.00012691423059837722,
+      "latency": 702364.1051103672,
+      "timestamp": "2026-06-10T14:58:56.664771+00:00"
     },
     {
       "rank": 54,
@@ -560,5 +560,5 @@
       "timestamp": "2026-05-20T07:53:32.411230+00:00"
     }
   ],
-  "last_updated": "2026-06-10T14:52:45.527250+00:00"
+  "last_updated": "2026-06-10T15:02:58.264356+00:00"
 }
