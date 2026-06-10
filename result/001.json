@@ -101,6 +101,14 @@
     },
     {
       "rank": 12,
+      "user": "六神五组",
+      "github": "yuuu37/good-transport-coming",
+      "score": 0.012087193271397319,
+      "latency": 2297.390252351761,
+      "timestamp": "2026-06-10T12:54:20.118929+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 0.012041909263715778,
@@ -109,7 +117,7 @@
       "commit_sha": "7c856e3d832959a17095887bc3680631799b385c"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.01198367706872418,
@@ -118,7 +126,7 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.011893967243993825,
@@ -126,7 +134,7 @@
       "timestamp": "2026-05-26T22:41:57.703137+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.011884524430076343,
@@ -134,7 +142,7 @@
       "timestamp": "2026-06-04T13:49:22.278431+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.011819790978748143,
@@ -143,20 +151,12 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.01180318925936949,
       "latency": 2352.669214208921,
       "timestamp": "2026-06-09T05:12:01.838413+00:00"
-    },
-    {
-      "rank": 18,
-      "user": "六神五组",
-      "github": "yuuu37/good-transport-coming",
-      "score": 0.011771060856566437,
-      "latency": 2359.0906833608947,
-      "timestamp": "2026-06-10T11:34:53.499553+00:00"
     },
     {
       "rank": 19,
@@ -733,5 +733,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-10T11:54:53.922884+00:00"
+  "last_updated": "2026-06-10T12:55:40.153652+00:00"
 }
