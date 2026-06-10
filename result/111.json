@@ -129,6 +129,14 @@
     },
     {
       "rank": 16,
+      "user": "team_65",
+      "github": "imczxx/ICS_45Team",
+      "score": 0.07789906729574514,
+      "latency": 5731.0570652286215,
+      "timestamp": "2026-06-10T11:58:18.425395+00:00"
+    },
+    {
+      "rank": 17,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.07505076856477716,
@@ -136,21 +144,13 @@
       "timestamp": "2026-05-22T04:13:29.633654+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.07139461405202491,
       "latency": 6253.188786407311,
       "timestamp": "2026-05-18T09:06:19.124121+00:00",
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
-    },
-    {
-      "rank": 18,
-      "user": "team_65",
-      "github": "imczxx/ICS_45Team",
-      "score": 0.0707647518522248,
-      "latency": 6308.847106993198,
-      "timestamp": "2026-06-08T14:09:25.897309+00:00"
     },
     {
       "rank": 19,
@@ -569,5 +569,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-10T10:48:58.689551+00:00"
+  "last_updated": "2026-06-10T11:59:59.781393+00:00"
 }
