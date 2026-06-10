@@ -99,6 +99,14 @@
     },
     {
       "rank": 12,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition-p",
+      "score": 0.011513629982336444,
+      "latency": 2666.231244802475,
+      "timestamp": "2026-06-10T13:52:43.138493+00:00"
+    },
+    {
+      "rank": 13,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.01147016145766609,
@@ -106,7 +114,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.011298723497303752,
@@ -115,20 +123,12 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.011067524765978096,
       "latency": 2773.700592418512,
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
-    },
-    {
-      "rank": 15,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.010988303152766193,
-      "latency": 2793.6979507406554,
-      "timestamp": "2026-06-10T13:30:14.750448+00:00"
     },
     {
       "rank": 16,
@@ -278,5 +278,5 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     }
   ],
-  "last_updated": "2026-06-10T13:31:13.789031+00:00"
+  "last_updated": "2026-06-10T13:56:43.001670+00:00"
 }

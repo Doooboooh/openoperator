@@ -130,10 +130,10 @@
     {
       "rank": 16,
       "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.04299727080064272,
-      "latency": 3605.2055656909943,
-      "timestamp": "2026-05-26T08:34:39.424330+00:00"
+      "github": "HeiHuDie/openoperator-competition-p",
+      "score": 0.04358663646308821,
+      "latency": 3556.457037727038,
+      "timestamp": "2026-06-10T13:52:43.138493+00:00"
     },
     {
       "rank": 17,
@@ -551,5 +551,5 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     }
   ],
-  "last_updated": "2026-06-10T08:32:12.878562+00:00"
+  "last_updated": "2026-06-10T13:56:43.012201+00:00"
 }

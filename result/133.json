@@ -47,6 +47,14 @@
     },
     {
       "rank": 6,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition-p",
+      "score": 0.05315484723995595,
+      "latency": 2382.021707793077,
+      "timestamp": "2026-06-10T13:52:43.138493+00:00"
+    },
+    {
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0514205511233707,
@@ -55,7 +63,7 @@
       "commit_sha": "0265f3d004e3b68ef03958441d13ba2e56ea950d"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.051410025184231344,
@@ -64,7 +72,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.05121842045211547,
@@ -72,20 +80,12 @@
       "timestamp": "2026-06-05T04:03:43.486650+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.050942651220043586,
       "latency": 2485.4615330696106,
       "timestamp": "2026-06-10T11:42:03.167148+00:00"
-    },
-    {
-      "rank": 10,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.050886186096714255,
-      "latency": 2488.2194896539054,
-      "timestamp": "2026-05-30T22:16:36.224930+00:00"
     },
     {
       "rank": 11,
@@ -228,5 +228,5 @@
       "timestamp": "2026-06-05T13:08:12.001828+00:00"
     }
   ],
-  "last_updated": "2026-06-10T11:44:43.551510+00:00"
+  "last_updated": "2026-06-10T13:56:43.010052+00:00"
 }

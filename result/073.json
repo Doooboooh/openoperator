@@ -80,19 +80,19 @@
     },
     {
       "rank": 10,
+      "user": "不懂算子",
+      "github": "HeiHuDie/openoperator-competition-p",
+      "score": 0.01624461941775715,
+      "latency": 2384.974310795466,
+      "timestamp": "2026-06-10T13:52:43.138493+00:00"
+    },
+    {
+      "rank": 11,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.016234610328078613,
       "latency": 2386.444713920355,
       "timestamp": "2026-06-03T11:55:57.110683+00:00"
-    },
-    {
-      "rank": 11,
-      "user": "不懂算子",
-      "github": "HeiHuDie/openoperator-competition",
-      "score": 0.01604738951555839,
-      "latency": 2414.2867575089135,
-      "timestamp": "2026-06-10T13:30:14.750448+00:00"
     },
     {
       "rank": 12,
@@ -199,6 +199,14 @@
     },
     {
       "rank": 24,
+      "user": "team_34",
+      "github": "Dreeeeeeeee/dree",
+      "score": 0.004287076469757598,
+      "latency": 9037.160935501257,
+      "timestamp": "2026-06-10T13:54:07.885879+00:00"
+    },
+    {
+      "rank": 25,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0041356540415556885,
@@ -206,7 +214,7 @@
       "timestamp": "2026-05-25T09:57:05.961029+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.003450656785332711,
@@ -215,7 +223,7 @@
       "commit_sha": "f82ca719f6f612388a0c79c3679eb25feca8f2db"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.0025423302464926065,
@@ -223,7 +231,7 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0011437692065952845,
@@ -231,5 +239,5 @@
       "timestamp": "2026-05-29T13:25:30.923732+00:00"
     }
   ],
-  "last_updated": "2026-06-10T13:31:13.787197+00:00"
+  "last_updated": "2026-06-10T13:56:43.000937+00:00"
 }
