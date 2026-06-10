@@ -340,6 +340,14 @@
     },
     {
       "rank": 41,
+      "user": "NPC组",
+      "github": "zfgincau/openoperator-start-kit",
+      "score": 0.005866390551045298,
+      "latency": 6127.617942790191,
+      "timestamp": "2026-06-10T16:40:22.595250+00:00"
+    },
+    {
+      "rank": 42,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.005706198193682376,
@@ -347,7 +355,7 @@
       "timestamp": "2026-05-29T07:13:34.766446+00:00"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "智算第四组",
       "github": "rashxxxxxx-netizen/openoperator-work",
       "score": 0.0057011303353499245,
@@ -355,21 +363,13 @@
       "timestamp": "2026-05-26T06:04:13.976868+00:00"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.005629190117105213,
       "latency": 6385.820917785168,
       "timestamp": "2026-05-18T09:06:19.124121+00:00",
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
-    },
-    {
-      "rank": 44,
-      "user": "NPC组",
-      "github": "zfgincau/openoperator-start-kit",
-      "score": 0.005625527127737021,
-      "latency": 6389.978962639968,
-      "timestamp": "2026-06-10T16:35:22.967579+00:00"
     },
     {
       "rank": 45,
@@ -652,5 +652,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-10T16:39:33.891446+00:00"
+  "last_updated": "2026-06-10T16:44:39.094737+00:00"
 }
