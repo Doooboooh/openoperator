@@ -161,6 +161,14 @@
     },
     {
       "rank": 20,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 5.392352349912591e-05,
+      "latency": 120594363.61026019,
+      "timestamp": "2026-06-11T02:58:24.855303+00:00"
+    },
+    {
+      "rank": 21,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 4.239580648554856e-05,
@@ -168,5 +176,5 @@
       "timestamp": "2026-06-05T16:16:38.231242+00:00"
     }
   ],
-  "last_updated": "2026-06-11T01:36:49.862017+00:00"
+  "last_updated": "2026-06-11T03:03:04.682363+00:00"
 }
