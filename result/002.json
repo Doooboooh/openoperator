@@ -208,6 +208,14 @@
     },
     {
       "rank": 25,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 1.1530345897813625,
+      "latency": 7176.602569719155,
+      "timestamp": "2026-06-11T12:18:10.290676+00:00"
+    },
+    {
+      "rank": 26,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 1.1384309556947434,
@@ -216,7 +224,7 @@
       "commit_sha": "137a933b31e0f88880a570a01c577992aa6fc5c7"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "十七组",
       "github": "Noitexy/openoperator-JJZZ",
       "score": 1.1368768179623785,
@@ -224,21 +232,13 @@
       "timestamp": "2026-06-10T02:46:53.589547+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 1.13687029621071,
       "latency": 7278.64122018218,
       "timestamp": "2026-05-18T07:02:25.081692+00:00",
       "commit_sha": "120feecf2efd2b3ec940087bf6d03807c2c52e7a"
-    },
-    {
-      "rank": 28,
-      "user": "智算第九组",
-      "github": "XLS233/BangC09",
-      "score": 1.1235857473504691,
-      "latency": 7364.699151366949,
-      "timestamp": "2026-05-22T08:10:05.413957+00:00"
     },
     {
       "rank": 29,
@@ -719,5 +719,5 @@
       "timestamp": "2026-06-10T07:25:55.674674+00:00"
     }
   ],
-  "last_updated": "2026-06-11T10:33:26.928442+00:00"
+  "last_updated": "2026-06-11T12:20:01.629614+00:00"
 }
