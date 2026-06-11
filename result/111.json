@@ -382,6 +382,14 @@
     },
     {
       "rank": 47,
+      "user": "team_94",
+      "github": "rishitash42-code/bangc-70",
+      "score": 0.01329107104591571,
+      "latency": 33589.76853390535,
+      "timestamp": "2026-06-11T13:55:49.328309+00:00"
+    },
+    {
+      "rank": 48,
       "user": "提示词大师",
       "github": "Fly-61/openoperator-start-kit-fly--",
       "score": 0.012873091068291511,
@@ -389,21 +397,13 @@
       "timestamp": "2026-06-11T10:24:11.979521+00:00"
     },
     {
-      "rank": 48,
+      "rank": 49,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.012490450536939389,
       "latency": 35742.82598371307,
       "timestamp": "2026-05-18T09:19:32.058156+00:00",
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
-    },
-    {
-      "rank": 49,
-      "user": "team_94",
-      "github": "rishitash42-code/bangc-70",
-      "score": 0.010856024833392128,
-      "latency": 41124.07689293226,
-      "timestamp": "2026-06-11T13:38:56.847152+00:00"
     },
     {
       "rank": 50,
@@ -641,5 +641,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-11T13:40:53.117445+00:00"
+  "last_updated": "2026-06-11T14:01:12.392909+00:00"
 }

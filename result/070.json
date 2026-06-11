@@ -305,6 +305,14 @@
     },
     {
       "rank": 37,
+      "user": "team_9",
+      "github": "ghfSlience/BangC",
+      "score": 0.014046721451115534,
+      "latency": 2840.0933369994164,
+      "timestamp": "2026-06-11T13:56:33.022176+00:00"
+    },
+    {
+      "rank": 38,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.01404668306624725,
@@ -312,7 +320,7 @@
       "timestamp": "2026-06-05T02:55:28.665243+00:00"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.01335787527493441,
@@ -320,7 +328,7 @@
       "timestamp": "2026-05-26T12:24:39.333060+00:00"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.013298348730048141,
@@ -329,20 +337,12 @@
       "commit_sha": "d92172fad4e3e3839c760d083b53ebc7fe001040"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "user": "team_95",
       "github": "GrassedgeT/ics-playground",
       "score": 0.013080542793245747,
       "latency": 3049.8734364906945,
       "timestamp": "2026-06-10T16:33:17.498015+00:00"
-    },
-    {
-      "rank": 41,
-      "user": "team_9",
-      "github": "ghfSlience/BangC",
-      "score": 0.012963905868416337,
-      "latency": 3077.3133039474487,
-      "timestamp": "2026-06-11T13:39:34.749015+00:00"
     },
     {
       "rank": 42,
@@ -675,5 +675,5 @@
       "timestamp": "2026-06-09T03:55:20.255369+00:00"
     }
   ],
-  "last_updated": "2026-06-11T13:40:53.121548+00:00"
+  "last_updated": "2026-06-11T14:01:12.397093+00:00"
 }
