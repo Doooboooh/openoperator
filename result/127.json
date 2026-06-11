@@ -12,6 +12,14 @@
     },
     {
       "rank": 2,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 2.9044372311819733,
+      "latency": 110.6985534230868,
+      "timestamp": "2026-06-11T15:29:05.259607+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 1.0977196704134515,
@@ -20,7 +28,7 @@
       "commit_sha": "9e62a10f0ae67c6c74e472a8ef8de6da2fd19912"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 1.0941143007708969,
@@ -29,7 +37,7 @@
       "commit_sha": "9e62a10f0ae67c6c74e472a8ef8de6da2fd19912"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "888",
       "github": "RuixiZhang03/888-op-gen",
       "score": 0.48306993350645167,
@@ -37,21 +45,13 @@
       "timestamp": "2026-06-09T05:11:20.599325+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.15470695524594966,
       "latency": 2078.232355415821,
       "timestamp": "2026-06-04T20:20:52.040034+00:00",
       "commit_sha": "e15f90e3a4ad07da4379ab4c0ed79932d7f3b2e9"
-    },
-    {
-      "rank": 6,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.12215231080198218,
-      "latency": 2632.0992037653923,
-      "timestamp": "2026-06-05T04:03:43.486650+00:00"
     },
     {
       "rank": 7,
@@ -195,5 +195,5 @@
       "timestamp": "2026-06-11T10:25:25.981376+00:00"
     }
   ],
-  "last_updated": "2026-06-11T10:28:21.240441+00:00"
+  "last_updated": "2026-06-11T15:32:50.447864+00:00"
 }
