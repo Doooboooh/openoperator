@@ -454,6 +454,14 @@
     },
     {
       "rank": 54,
+      "user": "team_82",
+      "github": "Xdddyy/openoperator-25",
+      "score": 0.004834215449855144,
+      "latency": 5744.2619775732355,
+      "timestamp": "2026-06-11T14:39:17.925682+00:00"
+    },
+    {
+      "rank": 55,
       "user": "888",
       "github": "RuixiZhang03/888-op-gen",
       "score": 0.004824136510282747,
@@ -462,20 +470,12 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "十四组",
       "github": "ljj0119/BangC14",
       "score": 0.004813121648954277,
       "latency": 5769.4365580876665,
       "timestamp": "2026-06-10T10:17:41.590290+00:00"
-    },
-    {
-      "rank": 56,
-      "user": "team_82",
-      "github": "Xdddyy/openoperator-25",
-      "score": 0.004801323118730778,
-      "latency": 5783.614081641038,
-      "timestamp": "2026-06-09T15:48:17.475178+00:00"
     },
     {
       "rank": 57,
@@ -749,5 +749,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-11T07:21:38.208021+00:00"
+  "last_updated": "2026-06-11T14:41:51.224887+00:00"
 }
