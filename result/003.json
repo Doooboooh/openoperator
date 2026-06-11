@@ -577,6 +577,14 @@
     },
     {
       "rank": 70,
+      "user": "team_77",
+      "github": "Atopos666/BangC_Team41",
+      "score": 0.0013031696937321762,
+      "latency": 27584.281750023365,
+      "timestamp": "2026-06-11T07:36:49.447831+00:00"
+    },
+    {
+      "rank": 71,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.0012975598240673376,
@@ -585,20 +593,12 @@
       "commit_sha": "c4118fa227da6040aa48c39289338a0cd78f230d"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.0012956350065555153,
       "latency": 27744.696475565434,
       "timestamp": "2026-05-29T17:04:30.844306+00:00"
-    },
-    {
-      "rank": 72,
-      "user": "team_77",
-      "github": "Atopos666/BangC_Team41",
-      "score": 0.001234151764138732,
-      "latency": 29126.887830595177,
-      "timestamp": "2026-06-11T07:24:55.977738+00:00"
     },
     {
       "rank": 73,
@@ -676,5 +676,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-11T07:26:43.238796+00:00"
+  "last_updated": "2026-06-11T07:41:59.884365+00:00"
 }
