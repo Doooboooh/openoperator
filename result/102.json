@@ -189,6 +189,14 @@
     },
     {
       "rank": 23,
+      "user": "NPC组",
+      "github": "zfgincau/openoperator-start-kit",
+      "score": 0.0167687653109163,
+      "latency": 34511.485447486244,
+      "timestamp": "2026-06-11T05:37:46.683051+00:00"
+    },
+    {
+      "rank": 24,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.005815613026563636,
@@ -196,7 +204,7 @@
       "timestamp": "2026-06-09T06:00:02.150322+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.005661160864743123,
@@ -205,7 +213,7 @@
       "commit_sha": "119bdf5b4827f3779e84c8061b61b445dd2ae8c8"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.002815097994944611,
@@ -213,5 +221,5 @@
       "timestamp": "2026-06-01T00:57:01.625787+00:00"
     }
   ],
-  "last_updated": "2026-06-09T14:17:33.116530+00:00"
+  "last_updated": "2026-06-11T05:39:58.577263+00:00"
 }

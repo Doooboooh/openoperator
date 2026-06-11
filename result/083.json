@@ -180,6 +180,14 @@
     },
     {
       "rank": 22,
+      "user": "NPC组",
+      "github": "zfgincau/openoperator-start-kit",
+      "score": 0.0005243177318497872,
+      "latency": 333126.25034401816,
+      "timestamp": "2026-06-11T05:37:46.683051+00:00"
+    },
+    {
+      "rank": 23,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.00042987677419929245,
@@ -188,7 +196,7 @@
       "commit_sha": "50371c7514dcf8d3abdbfa3d11f59cdaa28cbee4"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 2.44704474200727e-05,
@@ -196,5 +204,5 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     }
   ],
-  "last_updated": "2026-06-11T05:29:53.239762+00:00"
+  "last_updated": "2026-06-11T05:39:58.581995+00:00"
 }
