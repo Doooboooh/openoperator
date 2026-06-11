@@ -221,6 +221,14 @@
     },
     {
       "rank": 27,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.0050399491443216295,
+      "latency": 5695.0971484184265,
+      "timestamp": "2026-06-11T18:26:20.690820+00:00"
+    },
+    {
+      "rank": 28,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.004923248575792413,
@@ -228,7 +236,7 @@
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "NPC组",
       "github": "zfgincau/openoperator-start-kit",
       "score": 0.00470579071095011,
@@ -236,7 +244,7 @@
       "timestamp": "2026-06-10T17:30:02.185977+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.004235329077802317,
@@ -245,7 +253,7 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.003890508399952334,
@@ -253,7 +261,7 @@
       "timestamp": "2026-06-01T08:09:57.496639+00:00"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.00353948447761133,
@@ -262,7 +270,7 @@
       "commit_sha": "90d79845e0359926a7d9de20d2e2bccaaff30190"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.003468258441657107,
@@ -270,7 +278,7 @@
       "timestamp": "2026-06-10T15:43:59.287699+00:00"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.003360810702125714,
@@ -279,7 +287,7 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.003174174415797989,
@@ -287,7 +295,7 @@
       "timestamp": "2026-06-10T11:49:01.035863+00:00"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0015757154800533865,
@@ -295,5 +303,5 @@
       "timestamp": "2026-05-29T11:12:14.871116+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.262514+00:00"
+  "last_updated": "2026-06-11T18:30:55.336707+00:00"
 }
