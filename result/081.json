@@ -106,6 +106,14 @@
     },
     {
       "rank": 13,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.013979637729505836,
+      "latency": 3386.139248808225,
+      "timestamp": "2026-06-11T11:23:24.405739+00:00"
+    },
+    {
+      "rank": 14,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.01340195689911984,
@@ -113,7 +121,7 @@
       "timestamp": "2026-06-08T12:07:40.396029+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.012289734678271502,
@@ -121,7 +129,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.012179703804642164,
@@ -129,7 +137,7 @@
       "timestamp": "2026-06-02T05:42:56.983160+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.010431567795584901,
@@ -137,7 +145,7 @@
       "timestamp": "2026-06-10T15:12:48.712511+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "888",
       "github": "RuixiZhang03/888-op-gen",
       "score": 0.010375255619642606,
@@ -145,7 +153,7 @@
       "timestamp": "2026-06-11T05:39:26.382790+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.010308560882027896,
@@ -153,7 +161,7 @@
       "timestamp": "2026-06-10T02:18:39.554336+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.010038147871480921,
@@ -162,7 +170,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.006865785190105965,
@@ -170,7 +178,7 @@
       "timestamp": "2026-06-03T14:51:06.469059+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0032392484403804944,
@@ -178,7 +186,7 @@
       "timestamp": "2026-05-24T07:25:07.431405+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.003211457382411847,
@@ -186,7 +194,7 @@
       "timestamp": "2026-06-10T07:44:46.029555+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.0030966316595180867,
@@ -194,5 +202,5 @@
       "timestamp": "2026-06-10T15:59:32.329131+00:00"
     }
   ],
-  "last_updated": "2026-06-11T05:45:04.272280+00:00"
+  "last_updated": "2026-06-11T11:24:17.405760+00:00"
 }
