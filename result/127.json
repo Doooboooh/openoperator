@@ -131,19 +131,19 @@
     },
     {
       "rank": 16,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.047826542224334224,
+      "latency": 6722.564188142617,
+      "timestamp": "2026-06-11T05:52:59.137843+00:00"
+    },
+    {
+      "rank": 17,
       "user": "NPC组",
       "github": "zfgincau/openoperator-start-kit",
       "score": 0.045222923417904196,
       "latency": 7109.602292378743,
       "timestamp": "2026-06-11T05:37:46.683051+00:00"
-    },
-    {
-      "rank": 17,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.042590444973842914,
-      "latency": 7549.040640393893,
-      "timestamp": "2026-06-11T04:13:46.347678+00:00"
     },
     {
       "rank": 18,
@@ -179,5 +179,5 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     }
   ],
-  "last_updated": "2026-06-11T05:39:58.578443+00:00"
+  "last_updated": "2026-06-11T05:55:14.468676+00:00"
 }

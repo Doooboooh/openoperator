@@ -4,6 +4,15 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 0.3625469228313462,
+      "latency": 2631.2069967389107,
+      "timestamp": "2026-06-11T05:51:49.833565+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
+    },
+    {
+      "rank": 2,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.3585207866179847,
@@ -12,21 +21,12 @@
       "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "二十组",
       "github": "ujsq/bangc-kernel-competition",
       "score": 0.35232899209928553,
       "latency": 2707.51491189003,
       "timestamp": "2026-06-09T06:46:23.134946+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.34701717025024253,
-      "latency": 2748.959076901277,
-      "timestamp": "2026-06-04T15:40:25.554342+00:00",
-      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
       "rank": 4,
@@ -541,5 +541,5 @@
       "timestamp": "2026-06-08T16:26:22.948540+00:00"
     }
   ],
-  "last_updated": "2026-06-10T16:34:28.102331+00:00"
+  "last_updated": "2026-06-11T05:55:14.464699+00:00"
 }
