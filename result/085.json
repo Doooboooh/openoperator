@@ -4,6 +4,22 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 46.053852062364754,
+      "latency": 19.114514,
+      "timestamp": "2026-06-11T18:10:18.830075+00:00"
+    },
+    {
+      "rank": 2,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 46.053852062364754,
+      "latency": 19.114514,
+      "timestamp": "2026-06-11T18:11:20.370777+00:00"
+    },
+    {
+      "rank": 3,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 7.5671621874079245,
@@ -11,7 +27,7 @@
       "timestamp": "2026-06-11T06:34:18.309028+00:00"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 5.169319022889729,
@@ -19,7 +35,7 @@
       "timestamp": "2026-06-11T17:24:34.770963+00:00"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.016682767879804983,
@@ -27,7 +43,7 @@
       "timestamp": "2026-06-08T16:47:01.898388+00:00"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 2.2588582454818268e-05,
@@ -35,5 +51,5 @@
       "timestamp": "2026-06-09T12:43:57.087597+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.298182+00:00"
+  "last_updated": "2026-06-11T18:15:46.200703+00:00"
 }
