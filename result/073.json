@@ -215,6 +215,14 @@
     },
     {
       "rank": 26,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.003541143467049474,
+      "latency": 10940.81625342369,
+      "timestamp": "2026-06-11T02:05:01.133318+00:00"
+    },
+    {
+      "rank": 27,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.003450656785332711,
@@ -223,7 +231,7 @@
       "commit_sha": "f82ca719f6f612388a0c79c3679eb25feca8f2db"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.0025423302464926065,
@@ -231,7 +239,7 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0011437692065952845,
@@ -239,5 +247,5 @@
       "timestamp": "2026-05-29T13:25:30.923732+00:00"
     }
   ],
-  "last_updated": "2026-06-10T13:56:43.000937+00:00"
+  "last_updated": "2026-06-11T02:07:20.751938+00:00"
 }
