@@ -573,6 +573,14 @@
     },
     {
       "rank": 69,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.16182457437150904,
+      "latency": 51134.82320060333,
+      "timestamp": "2026-06-11T16:52:26.182403+00:00"
+    },
+    {
+      "rank": 70,
       "user": "team_53",
       "github": "liuranra/kernel-competition",
       "score": 0.16181314152799664,
@@ -580,7 +588,7 @@
       "timestamp": "2026-06-08T11:47:01.119001+00:00"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "user": "干不过AI组",
       "github": "yuanlaibuduan/Human_Vs_AI",
       "score": 0.16169903087054774,
@@ -588,7 +596,7 @@
       "timestamp": "2026-06-03T04:56:51.289637+00:00"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "user": "team_77",
       "github": "Atopos666/BangC_Team41",
       "score": 0.1616830165264493,
@@ -596,7 +604,7 @@
       "timestamp": "2026-06-05T03:37:20.363136+00:00"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "user": "二十七组",
       "github": "zhangmuxiang/27_openoperator-start-kit",
       "score": 0.16167198806563365,
@@ -604,7 +612,7 @@
       "timestamp": "2026-05-23T16:23:27.453216+00:00"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "user": "team_98",
       "github": "LSY839/bangc-competition",
       "score": 0.16110736124509503,
@@ -612,7 +620,7 @@
       "timestamp": "2026-05-18T15:10:25.096773+00:00"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "user": "team_97",
       "github": "Clear-YW/bangc",
       "score": 0.16025762283525216,
@@ -620,20 +628,12 @@
       "timestamp": "2026-06-02T08:27:05.862735+00:00"
     },
     {
-      "rank": 75,
+      "rank": 76,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.16020712543351376,
       "latency": 51651.079673320055,
       "timestamp": "2026-05-30T13:37:38.481081+00:00"
-    },
-    {
-      "rank": 76,
-      "user": "提示词大师",
-      "github": "Zhang-Jiahe/Prompt-Master-bangc-operator-competition",
-      "score": 0.15983116864045616,
-      "latency": 51772.573962807655,
-      "timestamp": "2026-06-03T14:05:06.455425+00:00"
     },
     {
       "rank": 77,
@@ -719,5 +719,5 @@
       "timestamp": "2026-06-10T07:25:55.674674+00:00"
     }
   ],
-  "last_updated": "2026-06-11T12:20:01.629614+00:00"
+  "last_updated": "2026-06-11T16:54:21.829592+00:00"
 }
