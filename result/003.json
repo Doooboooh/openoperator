@@ -397,19 +397,19 @@
     },
     {
       "rank": 48,
+      "user": "team_14",
+      "github": "snowballOUO/BangC-Operator-Competition",
+      "score": 0.004808598831875023,
+      "latency": 7475.56642939647,
+      "timestamp": "2026-06-11T02:38:03.611559+00:00"
+    },
+    {
+      "rank": 49,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.004765810513154141,
       "latency": 7542.683432499568,
       "timestamp": "2026-06-10T14:27:27.146607+00:00"
-    },
-    {
-      "rank": 49,
-      "user": "team_14",
-      "github": "snowballOUO/BangC-Operator-Competition",
-      "score": 0.004751529728710086,
-      "latency": 7565.353065729141,
-      "timestamp": "2026-06-11T02:32:46.480210+00:00"
     },
     {
       "rank": 50,
@@ -660,5 +660,5 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     }
   ],
-  "last_updated": "2026-06-11T02:37:45.094838+00:00"
+  "last_updated": "2026-06-11T02:42:50.146993+00:00"
 }
