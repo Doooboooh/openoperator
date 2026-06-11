@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.04502207759339279,
+      "latency": 2329.146179060141,
+      "timestamp": "2026-06-11T17:24:34.770963+00:00"
+    },
+    {
+      "rank": 4,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.042690597381752196,
@@ -29,7 +37,7 @@
       "timestamp": "2026-06-03T14:09:56.114711+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.04264607811787865,
@@ -38,7 +46,7 @@
       "commit_sha": "eabed1c1d4d29db09016ce9166cad1f7c6fba4ec"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.04199944566495685,
@@ -47,7 +55,7 @@
       "commit_sha": "ca33177ed60523bbddb5c4e583d4ff1d9d2b84a8"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition-p",
       "score": 0.041194445379870895,
@@ -55,20 +63,12 @@
       "timestamp": "2026-06-10T13:52:43.138493+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.04029259466105969,
       "latency": 2602.537783483664,
       "timestamp": "2026-06-09T00:52:08.716595+00:00"
-    },
-    {
-      "rank": 8,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.03961168387501847,
-      "latency": 2647.2744842370353,
-      "timestamp": "2026-06-09T13:45:00.114026+00:00"
     },
     {
       "rank": 9,
@@ -246,5 +246,5 @@
       "timestamp": "2026-06-01T00:08:25.870261+00:00"
     }
   ],
-  "last_updated": "2026-06-11T16:03:25.532099+00:00"
+  "last_updated": "2026-06-11T17:30:07.273340+00:00"
 }

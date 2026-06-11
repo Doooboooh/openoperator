@@ -46,6 +46,14 @@
     },
     {
       "rank": 6,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.014341950188231376,
+      "latency": 2506.4234311381974,
+      "timestamp": "2026-06-11T17:24:34.770963+00:00"
+    },
+    {
+      "rank": 7,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.013984655981318912,
@@ -54,7 +62,7 @@
       "commit_sha": "cf7d693fbd18cd853bf0579877ef40eb70efe3ad"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.013921448976358518,
@@ -62,7 +70,7 @@
       "timestamp": "2026-05-29T03:18:33.664859+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.01381135334678256,
@@ -70,21 +78,13 @@
       "timestamp": "2026-05-20T10:00:06.258766+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.013313211994759953,
       "latency": 2700.0997215509415,
       "timestamp": "2026-05-18T07:05:05.272429+00:00",
       "commit_sha": "a1dde78e9c464797583835784b5b43629c11b964"
-    },
-    {
-      "rank": 10,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.013198332451910705,
-      "latency": 2723.601646721363,
-      "timestamp": "2026-06-05T04:03:43.486650+00:00"
     },
     {
       "rank": 11,
@@ -692,5 +692,5 @@
       "timestamp": "2026-06-11T08:00:36.272022+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:14:50.591011+00:00"
+  "last_updated": "2026-06-11T17:30:07.295584+00:00"
 }

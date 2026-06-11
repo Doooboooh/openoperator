@@ -139,6 +139,14 @@
     },
     {
       "rank": 17,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.08038724492134904,
+      "latency": 2642.583412428697,
+      "timestamp": "2026-06-11T17:24:34.770963+00:00"
+    },
+    {
+      "rank": 18,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.07998240734196463,
@@ -147,7 +155,7 @@
       "commit_sha": "92eb6ed43e61fc96bab02af348c0df0dac386c1e"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.07977317095802774,
@@ -155,7 +163,7 @@
       "timestamp": "2026-05-31T02:36:01.443878+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.07853102175860571,
@@ -163,7 +171,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.077442720862407,
@@ -171,7 +179,7 @@
       "timestamp": "2026-06-01T18:29:54.858986+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.07739582883698413,
@@ -179,20 +187,12 @@
       "timestamp": "2026-06-08T23:11:48.618040+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0754144000722266,
       "latency": 2816.8360392252603,
       "timestamp": "2026-06-03T09:03:40.599540+00:00"
-    },
-    {
-      "rank": 23,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.06887821925870183,
-      "latency": 3084.1389670968056,
-      "timestamp": "2026-06-09T17:09:20.151616+00:00"
     },
     {
       "rank": 24,
@@ -284,5 +284,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-11T14:46:55.955499+00:00"
+  "last_updated": "2026-06-11T17:30:07.243573+00:00"
 }

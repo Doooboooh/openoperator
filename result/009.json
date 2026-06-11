@@ -155,19 +155,19 @@
     },
     {
       "rank": 19,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.011607782717666226,
+      "latency": 6188.434238235156,
+      "timestamp": "2026-06-11T17:24:34.770963+00:00"
+    },
+    {
+      "rank": 20,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.011559489883271755,
       "latency": 6214.28806334734,
       "timestamp": "2026-06-08T10:47:30.070848+00:00"
-    },
-    {
-      "rank": 20,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.01142125376531997,
-      "latency": 6289.502140134573,
-      "timestamp": "2026-06-04T05:50:05.439623+00:00"
     },
     {
       "rank": 21,
@@ -683,5 +683,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-11T17:14:50.587135+00:00"
+  "last_updated": "2026-06-11T17:30:07.282852+00:00"
 }

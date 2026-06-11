@@ -30,19 +30,19 @@
     },
     {
       "rank": 4,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.18568993732570124,
+      "latency": 4463.262856006622,
+      "timestamp": "2026-06-11T17:24:34.770963+00:00"
+    },
+    {
+      "rank": 5,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.18518454697160633,
       "latency": 4475.443623960018,
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.17104507917022416,
-      "latency": 4845.406860113144,
-      "timestamp": "2026-06-05T04:03:43.486650+00:00"
     },
     {
       "rank": 6,
@@ -161,5 +161,5 @@
       "timestamp": "2026-05-18T14:13:54.546292+00:00"
     }
   ],
-  "last_updated": "2026-06-11T15:58:17.964375+00:00"
+  "last_updated": "2026-06-11T17:30:07.303369+00:00"
 }

@@ -173,6 +173,14 @@
     },
     {
       "rank": 21,
+      "user": "三十二组",
+      "github": "zhengbanlinyi/BangC32",
+      "score": 0.0757774549994535,
+      "latency": 2731.72277957201,
+      "timestamp": "2026-06-11T17:24:34.770963+00:00"
+    },
+    {
+      "rank": 22,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.07535021190507232,
@@ -180,21 +188,13 @@
       "timestamp": "2026-06-01T00:08:57.172170+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.07534569936520505,
       "latency": 2747.376449406147,
       "timestamp": "2026-06-10T11:46:24.215945+00:00",
       "commit_sha": "8228f2be1c965c2ec0731de89804b73f6846a63e"
-    },
-    {
-      "rank": 23,
-      "user": "三十二组",
-      "github": "zhengbanlinyi/BangC32",
-      "score": 0.0678013510053616,
-      "latency": 3053.0807562172413,
-      "timestamp": "2026-06-04T13:51:21.155202+00:00"
     },
     {
       "rank": 24,
@@ -279,5 +279,5 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     }
   ],
-  "last_updated": "2026-06-11T10:43:37.748377+00:00"
+  "last_updated": "2026-06-11T17:30:07.240829+00:00"
 }
