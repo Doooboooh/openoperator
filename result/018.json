@@ -179,6 +179,14 @@
     },
     {
       "rank": 22,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 1.0761098985582425,
+      "latency": 5886.4982177813845,
+      "timestamp": "2026-06-11T02:47:15.799294+00:00"
+    },
+    {
+      "rank": 23,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 1.0620614465732419,
@@ -186,7 +194,7 @@
       "timestamp": "2026-06-04T13:05:26.612642+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.86865324189815,
@@ -194,7 +202,7 @@
       "timestamp": "2026-06-09T02:06:10.561939+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.015229611340447057,
@@ -202,7 +210,7 @@
       "timestamp": "2026-06-09T15:20:10.317811+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.014930259105168535,
@@ -210,5 +218,5 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     }
   ],
-  "last_updated": "2026-06-10T14:01:49.346629+00:00"
+  "last_updated": "2026-06-11T02:47:54.841395+00:00"
 }
