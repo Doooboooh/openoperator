@@ -112,6 +112,14 @@
     },
     {
       "rank": 14,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.0002417615254266511,
+      "latency": 16453081.163267294,
+      "timestamp": "2026-06-11T07:28:32.270461+00:00"
+    },
+    {
+      "rank": 15,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 4.312028989649994e-05,
@@ -120,7 +128,7 @@
       "commit_sha": "501f30a08ec97063f771e42c96d865d6cefecfef"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 3.932316597040666e-05,
@@ -128,5 +136,5 @@
       "timestamp": "2026-06-10T17:42:23.303599+00:00"
     }
   ],
-  "last_updated": "2026-06-11T03:58:56.640823+00:00"
+  "last_updated": "2026-06-11T07:31:48.825824+00:00"
 }
