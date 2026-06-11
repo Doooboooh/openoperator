@@ -104,6 +104,14 @@
     },
     {
       "rank": 13,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.0011120578141525716,
+      "latency": 78036.41042361657,
+      "timestamp": "2026-06-11T12:48:36.927345+00:00"
+    },
+    {
+      "rank": 14,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.00040452094576386735,
@@ -112,7 +120,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0003281557044413558,
@@ -120,7 +128,7 @@
       "timestamp": "2026-06-04T02:24:43.801452+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.00022009741300080678,
@@ -128,7 +136,7 @@
       "timestamp": "2026-06-02T01:03:25.990587+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.00021939231389114106,
@@ -136,7 +144,7 @@
       "timestamp": "2026-06-03T13:37:36.521369+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.00021840164856822358,
@@ -144,7 +152,7 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0001086353296130807,
@@ -153,7 +161,7 @@
       "commit_sha": "cb3517f528ba96333605ca481d0ae3b8cbab5411"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 6.245923218455434e-06,
@@ -161,5 +169,5 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     }
   ],
-  "last_updated": "2026-06-10T12:50:35.081216+00:00"
+  "last_updated": "2026-06-11T12:50:20.341182+00:00"
 }
