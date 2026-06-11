@@ -204,6 +204,14 @@
     },
     {
       "rank": 25,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.13729074702653274,
+      "latency": 5427.16837177674,
+      "timestamp": "2026-06-11T19:07:42.402501+00:00"
+    },
+    {
+      "rank": 26,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.13243809297713427,
@@ -212,7 +220,7 @@
       "commit_sha": "3715ca11dc68037a191a9956ca40f3dc539f11df"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.11876737288553463,
@@ -220,7 +228,7 @@
       "timestamp": "2026-05-29T14:43:15.337072+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.11554966634563481,
@@ -228,7 +236,7 @@
       "timestamp": "2026-06-02T02:06:02.995090+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.10913374866635608,
@@ -237,7 +245,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.08816464684946676,
@@ -245,7 +253,7 @@
       "timestamp": "2026-06-11T14:41:42.962892+00:00"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.03760772870514383,
@@ -253,7 +261,7 @@
       "timestamp": "2026-06-10T12:52:50.997928+00:00"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.010491817502787111,
@@ -261,5 +269,5 @@
       "timestamp": "2026-05-25T07:01:18.284338+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.274808+00:00"
+  "last_updated": "2026-06-11T19:11:31.356039+00:00"
 }
