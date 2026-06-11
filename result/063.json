@@ -38,6 +38,15 @@
     },
     {
       "rank": 5,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.013743379135265264,
+      "latency": 2095.2634513378143,
+      "timestamp": "2026-06-11T04:25:51.323223+00:00",
+      "commit_sha": "487dd70d07257e17b1ede7c7a62d92c2747de48d"
+    },
+    {
+      "rank": 6,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.013368872144449713,
@@ -45,7 +54,7 @@
       "timestamp": "2026-06-09T00:52:08.716595+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.013233645865172575,
@@ -53,7 +62,7 @@
       "timestamp": "2026-06-08T15:59:47.396642+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.013117032735408112,
@@ -61,7 +70,7 @@
       "timestamp": "2026-06-08T21:37:25.367915+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.013073716205810548,
@@ -69,7 +78,7 @@
       "timestamp": "2026-05-31T14:25:02.917527+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.013069391075367835,
@@ -78,7 +87,7 @@
       "commit_sha": "be1bf3d864a6c4c3ed194e5124dd4be8757efed6"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.013029719281247791,
@@ -86,22 +95,13 @@
       "timestamp": "2026-05-29T12:38:12.337003+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.012934789497081989,
       "latency": 2226.244192570448,
       "timestamp": "2026-05-18T06:56:57.054864+00:00",
       "commit_sha": "1d93d30c7928472181c2e0e6a8358968cf2edf35"
-    },
-    {
-      "rank": 12,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.012574722488725057,
-      "latency": 2289.990894496441,
-      "timestamp": "2026-06-11T04:04:30.668872+00:00",
-      "commit_sha": "487dd70d07257e17b1ede7c7a62d92c2747de48d"
     },
     {
       "rank": 13,
@@ -176,5 +176,5 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     }
   ],
-  "last_updated": "2026-06-11T04:09:07.000562+00:00"
+  "last_updated": "2026-06-11T04:29:27.076086+00:00"
 }
