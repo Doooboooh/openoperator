@@ -47,19 +47,19 @@
     },
     {
       "rank": 6,
+      "user": "六神五组",
+      "github": "yuuu37/good-transport-coming",
+      "score": 0.01060682592477958,
+      "latency": 2280.88969985644,
+      "timestamp": "2026-06-11T03:31:00.824397+00:00"
+    },
+    {
+      "rank": 7,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.010597486562147807,
       "latency": 2282.8998044133186,
       "timestamp": "2026-06-08T19:42:12.281825+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "六神五组",
-      "github": "yuuu37/good-transport-coming",
-      "score": 0.010507209038052733,
-      "latency": 2302.514389157295,
-      "timestamp": "2026-06-11T03:11:54.540490+00:00"
     },
     {
       "rank": 8,
@@ -278,5 +278,5 @@
       "commit_sha": "e295bc31f3b60ddd87e039785c0e6404c45e4c66"
     }
   ],
-  "last_updated": "2026-06-11T03:13:14.086057+00:00"
+  "last_updated": "2026-06-11T03:33:28.354810+00:00"
 }

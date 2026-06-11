@@ -236,6 +236,14 @@
     },
     {
       "rank": 29,
+      "user": "NPC组",
+      "github": "zfgincau/openoperator-start-kit",
+      "score": 0.006288655758752771,
+      "latency": 33779.87413356701,
+      "timestamp": "2026-06-11T03:31:45.812404+00:00"
+    },
+    {
+      "rank": 30,
       "user": "team_86",
       "github": "RachelGu2003/ICS_86Team",
       "score": 0.001899797186608138,
@@ -244,5 +252,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-11T00:56:30.578071+00:00"
+  "last_updated": "2026-06-11T03:33:28.358196+00:00"
 }

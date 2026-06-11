@@ -206,6 +206,14 @@
     },
     {
       "rank": 25,
+      "user": "NPC组",
+      "github": "zfgincau/openoperator-start-kit",
+      "score": 0.04044106843824605,
+      "latency": 5118.633310000102,
+      "timestamp": "2026-06-11T03:31:45.812404+00:00"
+    },
+    {
+      "rank": 26,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.040245870156742095,
@@ -213,7 +221,7 @@
       "timestamp": "2026-05-28T13:40:54.373360+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.03886434478705243,
@@ -221,20 +229,12 @@
       "timestamp": "2026-06-01T05:27:48.826801+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.03748402166576945,
       "latency": 5522.433047493299,
       "timestamp": "2026-05-29T13:25:30.923732+00:00"
-    },
-    {
-      "rank": 28,
-      "user": "NPC组",
-      "github": "zfgincau/openoperator-start-kit",
-      "score": 0.02994863109572259,
-      "latency": 6911.935284733772,
-      "timestamp": "2026-06-10T17:30:02.185977+00:00"
     },
     {
       "rank": 29,
@@ -271,5 +271,5 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     }
   ],
-  "last_updated": "2026-06-10T22:26:14.294749+00:00"
+  "last_updated": "2026-06-11T03:33:28.357230+00:00"
 }
