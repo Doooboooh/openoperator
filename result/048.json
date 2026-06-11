@@ -179,6 +179,14 @@
     },
     {
       "rank": 22,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.002806121723034683,
+      "latency": 186932.019268473,
+      "timestamp": "2026-06-11T07:49:18.788052+00:00"
+    },
+    {
+      "rank": 23,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0021526652631674663,
@@ -187,7 +195,7 @@
       "commit_sha": "5290023de287b78782fb701b3a51fa942feb31b1"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.002098780888937891,
@@ -195,7 +203,7 @@
       "timestamp": "2026-06-03T16:53:30.192031+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.0020747000202839434,
@@ -204,7 +212,7 @@
       "commit_sha": "50371c7514dcf8d3abdbfa3d11f59cdaa28cbee4"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0011977206619488167,
@@ -212,7 +220,7 @@
       "timestamp": "2026-05-29T13:25:30.923732+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0009401549541919332,
@@ -221,7 +229,7 @@
       "commit_sha": "0a97a25b3fdc7865944ab06c81679b1e1cfb7dd6"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0005417282404430063,
@@ -229,7 +237,7 @@
       "timestamp": "2026-06-03T16:57:29.481134+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0005188866229460849,
@@ -237,5 +245,5 @@
       "timestamp": "2026-06-04T17:42:57.637297+00:00"
     }
   ],
-  "last_updated": "2026-06-09T17:15:28.848950+00:00"
+  "last_updated": "2026-06-11T07:52:14.502837+00:00"
 }
