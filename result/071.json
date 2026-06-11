@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.5976411944237258,
+      "latency": 40.781994660695396,
+      "timestamp": "2026-06-11T07:19:23.534344+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.08482825849575162,
@@ -12,7 +20,7 @@
       "commit_sha": "24a2f11606e9bddeacea1a87b0f4156aa986fb8f"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.08149308643402263,
@@ -21,7 +29,7 @@
       "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.010947960491180693,
@@ -29,7 +37,7 @@
       "timestamp": "2026-06-03T13:43:17.252356+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.010366664553445263,
@@ -38,7 +46,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.010340416884571836,
@@ -46,20 +54,12 @@
       "timestamp": "2026-06-09T00:52:08.716595+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.010311601922636714,
       "latency": 2363.6482656002045,
       "timestamp": "2026-06-02T07:46:27.063173+00:00"
-    },
-    {
-      "rank": 7,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.01026231779621926,
-      "latency": 2374.9995355804763,
-      "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
       "rank": 8,
@@ -277,5 +277,5 @@
       "timestamp": "2026-06-10T13:54:07.885879+00:00"
     }
   ],
-  "last_updated": "2026-06-11T02:58:00.185143+00:00"
+  "last_updated": "2026-06-11T07:21:38.212021+00:00"
 }

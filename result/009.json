@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.441444082605486,
+      "latency": 162.72502640883127,
+      "timestamp": "2026-06-11T07:19:23.534344+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.03135850444139106,
@@ -12,7 +20,7 @@
       "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.03130331934821901,
@@ -21,7 +29,7 @@
       "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.030664464243807615,
@@ -30,7 +38,7 @@
       "commit_sha": "7cadff0e9f6e08e788b279d04322a5115e1dd804"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.03051859062351968,
@@ -38,7 +46,7 @@
       "timestamp": "2026-05-29T08:39:04.893822+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "二十组",
       "github": "ujsq/bangc-kernel-competition",
       "score": 0.029616413246260857,
@@ -46,7 +54,7 @@
       "timestamp": "2026-06-09T06:33:45.129418+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.02958978892907382,
@@ -54,7 +62,7 @@
       "timestamp": "2026-06-10T13:30:14.750448+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.02944437148891129,
@@ -62,7 +70,7 @@
       "timestamp": "2026-06-08T17:10:28.342323+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_4",
       "github": "wangyongping1/ICS-53TEAM",
       "score": 0.0277538305984906,
@@ -70,7 +78,7 @@
       "timestamp": "2026-06-02T04:57:33.854310+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.02758028759342703,
@@ -78,7 +86,7 @@
       "timestamp": "2026-05-23T11:43:39.793793+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.02739153486160619,
@@ -86,7 +94,7 @@
       "timestamp": "2026-05-19T15:22:03.834180+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.027226073114839894,
@@ -95,7 +103,7 @@
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.022919230185021813,
@@ -103,7 +111,7 @@
       "timestamp": "2026-06-03T13:50:16.207343+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.021819209255493653,
@@ -112,7 +120,7 @@
       "commit_sha": "2a19c4fece2319677ed889f53543ce361f63e350"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "提示词大师",
       "github": "Fly-61/openoperator-start-kit-fly--",
       "score": 0.01757612315872968,
@@ -120,7 +128,7 @@
       "timestamp": "2026-06-11T01:28:17.987289+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "二十七组",
       "github": "zhangmuxiang/27_openoperator-start-kit",
       "score": 0.014027514131458712,
@@ -128,7 +136,7 @@
       "timestamp": "2026-06-10T12:29:46.515978+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.013011220161706787,
@@ -137,7 +145,7 @@
       "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.011819094167476,
@@ -146,7 +154,7 @@
       "commit_sha": "5e5defc3845a0947e04ff4e1ba329a5618ee31b1"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.011559489883271755,
@@ -154,7 +162,7 @@
       "timestamp": "2026-06-08T10:47:30.070848+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.01142125376531997,
@@ -162,7 +170,7 @@
       "timestamp": "2026-06-04T05:50:05.439623+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_95",
       "github": "GrassedgeT/ics-playground",
       "score": 0.010883618986438932,
@@ -170,7 +178,7 @@
       "timestamp": "2026-06-10T16:33:17.498015+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.008268966600537426,
@@ -179,7 +187,7 @@
       "commit_sha": "3f72c5d2cc1ba076b993248e5907c9264f1d60a9"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.007970954136211822,
@@ -188,7 +196,7 @@
       "commit_sha": "981de8928c404108566ef779b75420aac1751a0e"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_97",
       "github": "Clear-YW/bangc",
       "score": 0.007956783158946221,
@@ -196,7 +204,7 @@
       "timestamp": "2026-06-09T18:45:48.763676+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.007392509547056416,
@@ -204,7 +212,7 @@
       "timestamp": "2026-06-08T14:01:18.020848+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "888",
       "github": "RuixiZhang03/888-op-gen",
       "score": 0.006211667862298118,
@@ -212,7 +220,7 @@
       "timestamp": "2026-06-11T06:15:13.149418+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.00598455183387039,
@@ -221,7 +229,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_77",
       "github": "Atopos666/BangC_Team41",
       "score": 0.005904766976423371,
@@ -229,7 +237,7 @@
       "timestamp": "2026-06-04T13:28:39.878462+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_82",
       "github": "Xdddyy/openoperator-25",
       "score": 0.005147962992041469,
@@ -237,7 +245,7 @@
       "timestamp": "2026-06-04T15:20:06.481585+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 0.003807051328259267,
@@ -246,7 +254,7 @@
       "commit_sha": "d8a5ef4ec415dec83b6b6f2c750f817032adbf79"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "十玖",
       "github": "enevel/ICS_19team",
       "score": 0.003648404103331189,
@@ -254,7 +262,7 @@
       "timestamp": "2026-06-09T16:59:16.849535+00:00"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "我说删题大于一切组",
       "github": "Oreki2eru/openoperator-start-kit",
       "score": 0.003641121139180582,
@@ -262,7 +270,7 @@
       "timestamp": "2026-05-18T11:45:07.436842+00:00"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.0036278704927994784,
@@ -271,7 +279,7 @@
       "commit_sha": "a1dde78e9c464797583835784b5b43629c11b964"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "智算第四组",
       "github": "rashxxxxxx-netizen/openoperator-work",
       "score": 0.0032007384556320324,
@@ -279,7 +287,7 @@
       "timestamp": "2026-06-09T03:36:45.611225+00:00"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "team_68",
       "github": "Wonder1107/Bangc49",
       "score": 0.0029874288278137684,
@@ -287,7 +295,7 @@
       "timestamp": "2026-06-05T05:32:21.999480+00:00"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "user": "干不过AI组",
       "github": "yuanlaibuduan/Human_Vs_AI",
       "score": 0.0029624635174759777,
@@ -295,7 +303,7 @@
       "timestamp": "2026-06-03T09:04:16.876672+00:00"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "user": "十三组",
       "github": "Yy12136/BangC13",
       "score": 0.0029084731447216634,
@@ -303,7 +311,7 @@
       "timestamp": "2026-06-04T12:47:45.976361+00:00"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.0028848720386620104,
@@ -311,20 +319,12 @@
       "timestamp": "2026-05-31T20:55:20.630681+00:00"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "user": "team_19",
       "github": "JerryLiu369/openoperator-start-kit-experiment",
       "score": 0.0020435946967658518,
       "latency": 35150.805643449225,
       "timestamp": "2026-05-22T04:23:27.412464+00:00"
-    },
-    {
-      "rank": 39,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.0017719316135872984,
-      "latency": 40539.93926693996,
-      "timestamp": "2026-05-22T06:36:15.754211+00:00"
     },
     {
       "rank": 40,
@@ -651,5 +651,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-11T06:20:41.464759+00:00"
+  "last_updated": "2026-06-11T07:21:38.206232+00:00"
 }
