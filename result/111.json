@@ -557,21 +557,21 @@
     },
     {
       "rank": 68,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.0004782722528658465,
+      "latency": 933451.6006832322,
+      "timestamp": "2026-06-11T06:53:44.595771+00:00",
+      "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
+    },
+    {
+      "rank": 69,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.0004762381948444197,
       "latency": 937438.4600669146,
       "timestamp": "2026-05-18T06:56:20.702270+00:00",
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
-    },
-    {
-      "rank": 69,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.0004746406622605199,
-      "latency": 940593.6648448309,
-      "timestamp": "2026-05-18T07:47:26.153520+00:00",
-      "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
       "rank": 70,
@@ -609,5 +609,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-11T06:10:30.945562+00:00"
+  "last_updated": "2026-06-11T06:56:15.791838+00:00"
 }

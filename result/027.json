@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.6076452257221854,
+      "latency": 39.814350505669914,
+      "timestamp": "2026-06-11T06:55:22.368216+00:00"
+    },
+    {
+      "rank": 2,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.29408964019191597,
@@ -11,7 +19,7 @@
       "timestamp": "2026-06-08T17:24:43.348341+00:00"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.287441383314016,
@@ -20,7 +28,7 @@
       "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.27061385671905247,
@@ -29,7 +37,7 @@
       "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "六神五组",
       "github": "yuuu37/good-transport-coming",
       "score": 0.010844850681776416,
@@ -37,21 +45,13 @@
       "timestamp": "2026-06-11T04:05:23.288317+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.01071344771444373,
       "latency": 2258.1899538636208,
       "timestamp": "2026-05-31T12:42:56.463919+00:00",
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
-    },
-    {
-      "rank": 6,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.010708569034261851,
-      "latency": 2259.2187548677125,
-      "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
       "rank": 7,
@@ -278,5 +278,5 @@
       "commit_sha": "e295bc31f3b60ddd87e039785c0e6404c45e4c66"
     }
   ],
-  "last_updated": "2026-06-11T04:09:06.997507+00:00"
+  "last_updated": "2026-06-11T06:56:15.770200+00:00"
 }

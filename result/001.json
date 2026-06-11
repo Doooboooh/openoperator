@@ -202,6 +202,15 @@
     },
     {
       "rank": 24,
+      "user": "team_72",
+      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
+      "score": 0.011469760823283005,
+      "latency": 2421.0618187983832,
+      "timestamp": "2026-06-11T06:53:44.595771+00:00",
+      "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
+    },
+    {
+      "rank": 25,
       "user": "智算第四组",
       "github": "rashxxxxxx-netizen/openoperator-work",
       "score": 0.011466296874479146,
@@ -209,7 +218,7 @@
       "timestamp": "2026-05-26T09:34:43.407312+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.01133297378712354,
@@ -218,7 +227,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.011140816996969378,
@@ -226,7 +235,7 @@
       "timestamp": "2026-06-09T00:52:08.716595+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "养老组",
       "github": "lesheng14/op_retirement",
       "score": 0.011139045360771972,
@@ -235,21 +244,12 @@
       "commit_sha": "04c41ea5777b276d866f971964a872e92d681e81"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.011083644597602442,
       "latency": 2505.4033224781356,
       "timestamp": "2026-06-08T13:01:43.005226+00:00"
-    },
-    {
-      "rank": 29,
-      "user": "team_72",
-      "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
-      "score": 0.01105399025953188,
-      "latency": 2512.124522278706,
-      "timestamp": "2026-05-18T07:47:26.153520+00:00",
-      "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
       "rank": 30,
@@ -749,5 +749,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-11T02:32:40.269884+00:00"
+  "last_updated": "2026-06-11T06:56:15.797774+00:00"
 }
