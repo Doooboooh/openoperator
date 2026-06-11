@@ -169,6 +169,14 @@
     },
     {
       "rank": 21,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.02611381293021702,
+      "latency": 3024.3381236990294,
+      "timestamp": "2026-06-11T11:51:23.042793+00:00"
+    },
+    {
+      "rank": 22,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.017653505989491076,
@@ -176,7 +184,7 @@
       "timestamp": "2026-05-31T02:36:01.443878+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.012966753813403939,
@@ -185,7 +193,7 @@
       "commit_sha": "f82ca719f6f612388a0c79c3679eb25feca8f2db"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 3.1241485132717205e-06,
@@ -194,5 +202,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-11T06:10:30.944009+00:00"
+  "last_updated": "2026-06-11T11:54:44.994785+00:00"
 }
