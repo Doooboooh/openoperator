@@ -626,6 +626,14 @@
     },
     {
       "rank": 76,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.001192843081551414,
+      "latency": 30135.56481649478,
+      "timestamp": "2026-06-11T18:40:43.049314+00:00"
+    },
+    {
+      "rank": 77,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0011844116077282297,
@@ -633,7 +641,7 @@
       "timestamp": "2026-05-19T03:08:56.335232+00:00"
     },
     {
-      "rank": 77,
+      "rank": 78,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0011831333595311584,
@@ -642,7 +650,7 @@
       "commit_sha": "dc3d018d16f5558273580942ec6d1f207348e760"
     },
     {
-      "rank": 78,
+      "rank": 79,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.0006588031597375883,
@@ -650,7 +658,7 @@
       "timestamp": "2026-05-21T08:09:23.396123+00:00"
     },
     {
-      "rank": 79,
+      "rank": 80,
       "user": "team_94",
       "github": "rishitash42-code/bangc-70",
       "score": 0.0005936049861090762,
@@ -658,7 +666,7 @@
       "timestamp": "2026-06-11T03:40:19.932592+00:00"
     },
     {
-      "rank": 80,
+      "rank": 81,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.5963856908340227e-05,
@@ -667,7 +675,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 81,
+      "rank": 82,
       "user": "二十八组",
       "github": "dh-Unicorn/team_28",
       "score": 8.479193269754604e-07,
@@ -675,7 +683,7 @@
       "timestamp": "2026-06-11T14:51:47.479462+00:00"
     },
     {
-      "rank": 82,
+      "rank": 83,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 4.803681316964457e-07,
@@ -684,7 +692,7 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     },
     {
-      "rank": 83,
+      "rank": 84,
       "user": "智算第三组",
       "github": "Yan-Yiming/openoperator03",
       "score": 4.5014651492678777e-07,
@@ -692,5 +700,5 @@
       "timestamp": "2026-06-11T08:00:36.272022+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.295584+00:00"
+  "last_updated": "2026-06-11T18:46:08.840386+00:00"
 }
