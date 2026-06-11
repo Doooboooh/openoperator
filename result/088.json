@@ -128,6 +128,14 @@
     },
     {
       "rank": 16,
+      "user": "team_40",
+      "github": "CCyyyydr/openoperator-32",
+      "score": 0.03085161479335388,
+      "latency": 2559.8984211683273,
+      "timestamp": "2026-06-11T05:59:33.955557+00:00"
+    },
+    {
+      "rank": 17,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.030837661946253103,
@@ -135,7 +143,7 @@
       "timestamp": "2026-06-08T11:51:34.070158+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.030716693946213038,
@@ -143,7 +151,7 @@
       "timestamp": "2026-05-31T10:36:08.882581+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.029907707859388018,
@@ -152,7 +160,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.029316307482612818,
@@ -160,7 +168,7 @@
       "timestamp": "2026-06-03T15:35:48.017521+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.017653505989491076,
@@ -168,7 +176,7 @@
       "timestamp": "2026-05-31T02:36:01.443878+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.012966753813403939,
@@ -177,7 +185,7 @@
       "commit_sha": "f82ca719f6f612388a0c79c3679eb25feca8f2db"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 3.1241485132717205e-06,
@@ -186,5 +194,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-11T04:14:11.379376+00:00"
+  "last_updated": "2026-06-11T06:00:19.371653+00:00"
 }
