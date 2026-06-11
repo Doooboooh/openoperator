@@ -610,6 +610,14 @@
     },
     {
       "rank": 74,
+      "user": "team_14",
+      "github": "snowballOUO/BangC-Operator-Competition",
+      "score": 0.00014491496460497893,
+      "latency": 495697.59890437126,
+      "timestamp": "2026-06-11T06:10:55.616995+00:00"
+    },
+    {
+      "rank": 75,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.00013408868074242132,
@@ -617,7 +625,7 @@
       "timestamp": "2026-05-28T08:40:41.813974+00:00"
     },
     {
-      "rank": 75,
+      "rank": 76,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 3.437691486652544e-05,
@@ -626,7 +634,7 @@
       "commit_sha": "4f2c118fee212a2159d652cc1bb22b42efb39597"
     },
     {
-      "rank": 76,
+      "rank": 77,
       "user": "team_13",
       "github": "Shiyu-Quan/openoperator-start-kit",
       "score": 1.2855363691812595e-05,
@@ -634,7 +642,7 @@
       "timestamp": "2026-06-09T10:07:26.813979+00:00"
     },
     {
-      "rank": 77,
+      "rank": 78,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 4.417527535643685e-06,
@@ -643,5 +651,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-11T01:31:45.295441+00:00"
+  "last_updated": "2026-06-11T06:15:35.521545+00:00"
 }
