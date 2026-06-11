@@ -600,6 +600,14 @@
     },
     {
       "rank": 73,
+      "user": "二十六组",
+      "github": "zhcsyyy/openoperator_26",
+      "score": 0.001403665439552103,
+      "latency": 20437.918603420258,
+      "timestamp": "2026-06-11T14:55:14.881245+00:00"
+    },
+    {
+      "rank": 74,
       "user": "team_13",
       "github": "Shiyu-Quan/openoperator-start-kit",
       "score": 0.001320487844452688,
@@ -607,7 +615,15 @@
       "timestamp": "2026-06-09T10:19:14.000992+00:00"
     },
     {
-      "rank": 74,
+      "rank": 75,
+      "user": "二十八组",
+      "github": "dh-Unicorn/team_28",
+      "score": 0.0010705683446645927,
+      "latency": 26796.98138187329,
+      "timestamp": "2026-06-11T14:51:47.479462+00:00"
+    },
+    {
+      "rank": 76,
       "user": "team_68",
       "github": "Wonder1107/Bangc49",
       "score": 0.0007010051021957926,
@@ -615,7 +631,7 @@
       "timestamp": "2026-06-05T05:14:10.384460+00:00"
     },
     {
-      "rank": 75,
+      "rank": 77,
       "user": "team_21",
       "github": "samwang102/openoperator-team13",
       "score": 0.000303567429338049,
@@ -624,5 +640,5 @@
       "commit_sha": "9d448c1df6bacc72c6dbc7af5cd766cf21f43f24"
     }
   ],
-  "last_updated": "2026-06-11T14:46:55.957893+00:00"
+  "last_updated": "2026-06-11T14:57:07.734851+00:00"
 }

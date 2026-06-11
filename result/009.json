@@ -520,6 +520,14 @@
     },
     {
       "rank": 63,
+      "user": "二十八组",
+      "github": "dh-Unicorn/team_28",
+      "score": 0.0009442934011006012,
+      "latency": 76071.69542461634,
+      "timestamp": "2026-06-11T14:51:47.479462+00:00"
+    },
+    {
+      "rank": 64,
       "user": "team_39",
       "github": "monikabbb/bangc-competition-27",
       "score": 0.0009058049222586898,
@@ -527,7 +535,7 @@
       "timestamp": "2026-05-31T07:20:51.218122+00:00"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.0006268259100399409,
@@ -535,7 +543,7 @@
       "timestamp": "2026-05-29T15:10:22.473311+00:00"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.0005861254217426146,
@@ -543,7 +551,7 @@
       "timestamp": "2026-06-10T06:37:22.306373+00:00"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.0005658273142453056,
@@ -551,7 +559,7 @@
       "timestamp": "2026-05-26T12:24:39.333060+00:00"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0005464028530010142,
@@ -560,7 +568,7 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     },
     {
-      "rank": 68,
+      "rank": 69,
       "user": "智算第三组",
       "github": "Yan-Yiming/openoperator03",
       "score": 0.0005366087679768991,
@@ -568,7 +576,7 @@
       "timestamp": "2026-06-11T07:26:35.900052+00:00"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "user": "当家作组",
       "github": "xiunianjun/openoperator-start-kit",
       "score": 0.0005294837958567262,
@@ -576,7 +584,7 @@
       "timestamp": "2026-06-08T15:46:48.948437+00:00"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.0004598503930489156,
@@ -584,7 +592,7 @@
       "timestamp": "2026-05-18T14:34:32.966408+00:00"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.00042675281919458106,
@@ -592,7 +600,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.00031041987728421124,
@@ -600,7 +608,7 @@
       "timestamp": "2026-06-09T01:17:46.711303+00:00"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "user": "十八组",
       "github": "Napiercc/BangC18",
       "score": 0.0001711175602581842,
@@ -608,7 +616,7 @@
       "timestamp": "2026-06-04T07:28:00.118269+00:00"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "user": "team_46",
       "github": "1LLLei/openoperator-start-kit_BangC_competition",
       "score": 0.0001552838722181416,
@@ -617,7 +625,7 @@
       "commit_sha": "bf68a391f54eec4b9a0b8d14a63a440406411edf"
     },
     {
-      "rank": 75,
+      "rank": 76,
       "user": "team_14",
       "github": "snowballOUO/BangC-Operator-Competition",
       "score": 0.00014491496460497893,
@@ -625,7 +633,7 @@
       "timestamp": "2026-06-11T06:10:55.616995+00:00"
     },
     {
-      "rank": 76,
+      "rank": 77,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.00013408868074242132,
@@ -633,7 +641,7 @@
       "timestamp": "2026-05-28T08:40:41.813974+00:00"
     },
     {
-      "rank": 77,
+      "rank": 78,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 3.437691486652544e-05,
@@ -642,7 +650,7 @@
       "commit_sha": "4f2c118fee212a2159d652cc1bb22b42efb39597"
     },
     {
-      "rank": 78,
+      "rank": 79,
       "user": "team_13",
       "github": "Shiyu-Quan/openoperator-start-kit",
       "score": 1.2855363691812595e-05,
@@ -650,7 +658,7 @@
       "timestamp": "2026-06-09T10:07:26.813979+00:00"
     },
     {
-      "rank": 79,
+      "rank": 80,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 4.417527535643685e-06,
@@ -659,5 +667,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-11T07:31:48.829688+00:00"
+  "last_updated": "2026-06-11T14:57:07.739215+00:00"
 }
