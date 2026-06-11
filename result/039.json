@@ -64,20 +64,20 @@
     },
     {
       "rank": 8,
+      "user": "智算第十一组",
+      "github": "liuyitongnetizen/BangC11",
+      "score": 1.0000610371494045,
+      "latency": 5349.2144991954165,
+      "timestamp": "2026-06-11T18:02:05.248701+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.9774181650071102,
       "latency": 5473.134418328603,
       "timestamp": "2026-06-04T04:57:18.361622+00:00",
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
-    },
-    {
-      "rank": 9,
-      "user": "智算第十一组",
-      "github": "liuyitongnetizen/BangC11",
-      "score": 0.9470438637670112,
-      "latency": 5648.672891159852,
-      "timestamp": "2026-06-11T14:53:20.975236+00:00"
     },
     {
       "rank": 10,
@@ -680,5 +680,5 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.275592+00:00"
+  "last_updated": "2026-06-11T18:05:37.275231+00:00"
 }
