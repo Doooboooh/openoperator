@@ -373,20 +373,20 @@
     },
     {
       "rank": 46,
+      "user": "team_94",
+      "github": "rishitash42-code/bangc-70",
+      "score": 0.013363389066204764,
+      "latency": 33407.99237291018,
+      "timestamp": "2026-06-11T15:56:22.740549+00:00"
+    },
+    {
+      "rank": 47,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0133339058239876,
       "latency": 33481.862396001816,
       "timestamp": "2026-05-18T07:06:00.663225+00:00",
       "commit_sha": "1554f638953bc3b0fe31d4fe036cc411246ed528"
-    },
-    {
-      "rank": 47,
-      "user": "team_94",
-      "github": "rishitash42-code/bangc-70",
-      "score": 0.01329107104591571,
-      "latency": 33589.76853390535,
-      "timestamp": "2026-06-11T13:55:49.328309+00:00"
     },
     {
       "rank": 48,
@@ -641,5 +641,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-11T14:01:12.392909+00:00"
+  "last_updated": "2026-06-11T15:58:17.967647+00:00"
 }

@@ -186,20 +186,20 @@
     },
     {
       "rank": 23,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.010239953765587185,
+      "latency": 8705.117429296175,
+      "timestamp": "2026-06-11T15:57:21.415816+00:00",
+      "commit_sha": "29a01555cb874682459d644203d03b21096fb557"
+    },
+    {
+      "rank": 24,
       "user": "team_97",
       "github": "Clear-YW/bangc",
       "score": 0.01010954203731714,
       "latency": 8817.412269612154,
       "timestamp": "2026-06-09T18:45:48.763676+00:00"
-    },
-    {
-      "rank": 24,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.010091935700385744,
-      "latency": 8832.795079797506,
-      "timestamp": "2026-05-19T08:39:46.856896+00:00",
-      "commit_sha": "29a01555cb874682459d644203d03b21096fb557"
     },
     {
       "rank": 25,
@@ -335,19 +335,19 @@
     },
     {
       "rank": 41,
+      "user": "team_94",
+      "github": "rishitash42-code/bangc-70",
+      "score": 0.0032621306656189617,
+      "latency": 27325.698795417946,
+      "timestamp": "2026-06-11T15:56:22.740549+00:00"
+    },
+    {
+      "rank": 42,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.003259752388202877,
       "latency": 27345.63530733188,
       "timestamp": "2026-05-20T10:24:17.988431+00:00"
-    },
-    {
-      "rank": 42,
-      "user": "team_94",
-      "github": "rishitash42-code/bangc-70",
-      "score": 0.0032380688059879432,
-      "latency": 27528.754125038784,
-      "timestamp": "2026-06-11T13:55:49.328309+00:00"
     },
     {
       "rank": 43,
@@ -490,6 +490,14 @@
     },
     {
       "rank": 60,
+      "user": "二十六组",
+      "github": "zhcsyyy/openoperator_26",
+      "score": 0.00029632783481228634,
+      "latency": 300815.48045078915,
+      "timestamp": "2026-06-11T15:55:46.764623+00:00"
+    },
+    {
+      "rank": 61,
       "user": "十七组",
       "github": "Noitexy/openoperator-JJZZ",
       "score": 0.00012691423059837722,
@@ -497,7 +505,7 @@
       "timestamp": "2026-06-10T14:58:56.664771+00:00"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "user": "加油组",
       "github": "lao7tomato/BangCompetition",
       "score": 0.00011863300220255873,
@@ -505,7 +513,7 @@
       "timestamp": "2026-06-03T03:43:14.212053+00:00"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "user": "二十七组",
       "github": "zhangmuxiang/27_openoperator-start-kit",
       "score": 0.00011627658041222849,
@@ -513,7 +521,7 @@
       "timestamp": "2026-06-10T15:16:21.955371+00:00"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "user": "当家作组",
       "github": "xiunianjun/openoperator-start-kit",
       "score": 0.00011270516219627174,
@@ -521,7 +529,7 @@
       "timestamp": "2026-06-09T09:28:10.978570+00:00"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.00011081027769451085,
@@ -529,7 +537,7 @@
       "timestamp": "2026-06-01T16:57:31.048128+00:00"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.0001095544661758569,
@@ -538,7 +546,7 @@
       "commit_sha": "8782e2f1b49983fd10675c3a891271ff72ab6c31"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.0001075815664265306,
@@ -547,7 +555,7 @@
       "commit_sha": "e4e723290ef8e541347d068709b31ffc4fa78cb0"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.00010755003156794888,
@@ -556,7 +564,7 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     },
     {
-      "rank": 68,
+      "rank": 69,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.00010753549418637436,
@@ -565,7 +573,7 @@
       "commit_sha": "0e91a919099946d1e9a1fac41edcac71d6f14aaa"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00010724401590809128,
@@ -574,7 +582,7 @@
       "commit_sha": "43a4d81194c7125f30cada68775c11e8d2f93fba"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "user": "team_44",
       "github": "OrangeL-ucas/SBangC",
       "score": 8.16204630682882e-05,
@@ -582,7 +590,7 @@
       "timestamp": "2026-06-01T12:31:42.754716+00:00"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 1.745405179754074e-05,
@@ -591,7 +599,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "user": "从0开始干科研",
       "github": "wyh-lyy/openoperator-start-kit",
       "score": 1.6864982524417477e-05,
@@ -599,7 +607,7 @@
       "timestamp": "2026-06-08T15:18:45.637861+00:00"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 1.6377445811577195e-05,
@@ -608,7 +616,7 @@
       "commit_sha": "2f086e662eda30056e5cef457f2d64788be5d97e"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "user": "team_13",
       "github": "Shiyu-Quan/openoperator-start-kit",
       "score": 7.642810438625444e-06,
@@ -616,7 +624,7 @@
       "timestamp": "2026-06-09T10:25:46.188076+00:00"
     },
     {
-      "rank": 75,
+      "rank": 76,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 1.867435048935941e-06,
@@ -624,7 +632,7 @@
       "timestamp": "2026-05-20T07:53:32.411230+00:00"
     },
     {
-      "rank": 76,
+      "rank": 77,
       "user": "提示词大师",
       "github": "Fly-61/openoperator-start-kit-fly--",
       "score": 1.0249223483364155e-06,
@@ -632,5 +640,5 @@
       "timestamp": "2026-06-11T10:24:17.570003+00:00"
     }
   ],
-  "last_updated": "2026-06-11T14:26:31.531583+00:00"
+  "last_updated": "2026-06-11T15:58:17.959178+00:00"
 }
