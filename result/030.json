@@ -90,6 +90,14 @@
     },
     {
       "rank": 11,
+      "user": "888",
+      "github": "RuixiZhang03/888-op-gen",
+      "score": 0.4538141075996234,
+      "latency": 2591.342975695928,
+      "timestamp": "2026-06-11T06:09:18.461646+00:00"
+    },
+    {
+      "rank": 12,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.448275125566386,
@@ -97,7 +105,7 @@
       "timestamp": "2026-06-10T06:58:04.177322+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.44093347071121225,
@@ -105,7 +113,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.4404622029684118,
@@ -113,7 +121,7 @@
       "timestamp": "2026-05-29T03:05:18.959929+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 0.4179079112513142,
@@ -121,7 +129,7 @@
       "timestamp": "2026-06-08T22:03:45.828381+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.39331291041792155,
@@ -129,7 +137,7 @@
       "timestamp": "2026-06-04T17:42:57.637297+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.39291054846343404,
@@ -137,7 +145,7 @@
       "timestamp": "2026-06-09T17:09:20.151616+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_40",
       "github": "CCyyyydr/openoperator-32",
       "score": 0.3921098518364713,
@@ -146,7 +154,7 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.38462629964469275,
@@ -154,21 +162,13 @@
       "timestamp": "2026-06-02T04:24:00.276525+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.25576185724678335,
       "latency": 4597.980373849471,
       "timestamp": "2026-05-18T09:06:19.124121+00:00",
       "commit_sha": "7538baaa717c052ab19721550219e3dd7ac3e86e"
-    },
-    {
-      "rank": 20,
-      "user": "888",
-      "github": "RuixiZhang03/888-op-gen",
-      "score": 0.19387285874742818,
-      "latency": 6065.769121050835,
-      "timestamp": "2026-06-09T08:44:12.728986+00:00"
     },
     {
       "rank": 21,
@@ -267,5 +267,5 @@
       "timestamp": "2026-06-08T12:16:16.869059+00:00"
     }
   ],
-  "last_updated": "2026-06-10T19:50:40.036533+00:00"
+  "last_updated": "2026-06-11T06:10:30.944739+00:00"
 }

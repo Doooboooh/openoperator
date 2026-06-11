@@ -62,6 +62,14 @@
     },
     {
       "rank": 8,
+      "user": "team_40",
+      "github": "CCyyyydr/openoperator-32",
+      "score": 0.03274835208969245,
+      "latency": 2411.6327986121178,
+      "timestamp": "2026-06-11T06:05:55.635595+00:00"
+    },
+    {
+      "rank": 9,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.03231745206323177,
@@ -69,7 +77,7 @@
       "timestamp": "2026-06-02T06:32:27.365068+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0320182285604001,
@@ -78,7 +86,7 @@
       "commit_sha": "1d93d30c7928472181c2e0e6a8358968cf2edf35"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.03160837494960531,
@@ -86,7 +94,7 @@
       "timestamp": "2026-06-11T04:09:04.616952+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 0.03151516763958927,
@@ -94,7 +102,7 @@
       "timestamp": "2026-05-20T07:17:47.907509+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.03146734519903551,
@@ -102,7 +110,7 @@
       "timestamp": "2026-06-10T06:58:04.177322+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.031361638236299526,
@@ -110,7 +118,7 @@
       "timestamp": "2026-05-28T14:51:49.888454+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.0310342503448033,
@@ -119,20 +127,12 @@
       "commit_sha": "5589a11fd4078ee814385f6bbde2f5cdfb06c780"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.030935680508631623,
       "latency": 2552.942062417666,
       "timestamp": "2026-06-04T20:05:51.700127+00:00"
-    },
-    {
-      "rank": 16,
-      "user": "team_40",
-      "github": "CCyyyydr/openoperator-32",
-      "score": 0.03085161479335388,
-      "latency": 2559.8984211683273,
-      "timestamp": "2026-06-11T05:59:33.955557+00:00"
     },
     {
       "rank": 17,
@@ -194,5 +194,5 @@
       "commit_sha": "dc38774f54566ea17e5e7fe151e59f5f6ba8ba0d"
     }
   ],
-  "last_updated": "2026-06-11T06:00:19.371653+00:00"
+  "last_updated": "2026-06-11T06:10:30.944009+00:00"
 }

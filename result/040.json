@@ -130,6 +130,14 @@
     },
     {
       "rank": 16,
+      "user": "888",
+      "github": "RuixiZhang03/888-op-gen",
+      "score": 0.08588151193456298,
+      "latency": 3495.199295381705,
+      "timestamp": "2026-06-11T06:09:18.461646+00:00"
+    },
+    {
+      "rank": 17,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.08534899913083398,
@@ -137,7 +145,7 @@
       "timestamp": "2026-05-28T15:14:04.307895+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.08274341598419349,
@@ -146,20 +154,12 @@
       "commit_sha": "7e5ae92f118f40abd6743daa9d9699c719d68160"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.057420297828819,
       "latency": 5227.646169563134,
       "timestamp": "2026-06-10T06:58:04.177322+00:00"
-    },
-    {
-      "rank": 19,
-      "user": "888",
-      "github": "RuiXiZhang03/888-op-gen",
-      "score": 0.05534437282353121,
-      "latency": 5423.731170594692,
-      "timestamp": "2026-06-08T17:12:02.989404+00:00"
     },
     {
       "rank": 20,
@@ -212,5 +212,5 @@
       "timestamp": "2026-06-09T11:09:39.483114+00:00"
     }
   ],
-  "last_updated": "2026-06-10T21:56:00.278794+00:00"
+  "last_updated": "2026-06-11T06:10:30.946852+00:00"
 }
