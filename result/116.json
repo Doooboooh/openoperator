@@ -155,6 +155,14 @@
     },
     {
       "rank": 19,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.004582632051172058,
+      "latency": 78076.52807484071,
+      "timestamp": "2026-06-11T13:41:13.747979+00:00"
+    },
+    {
+      "rank": 20,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.004541856668123431,
@@ -162,7 +170,7 @@
       "timestamp": "2026-06-04T11:20:10.086973+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_82",
       "github": "Xdddyy/openoperator-25",
       "score": 0.003646178774953359,
@@ -170,7 +178,7 @@
       "timestamp": "2026-06-09T09:18:35.630912+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0035963376761016575,
@@ -179,7 +187,7 @@
       "commit_sha": "ab2b51f4fc8f07580e8f84852517b4f29dfca3c6"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.000588739131991487,
@@ -187,5 +195,5 @@
       "timestamp": "2026-06-01T00:57:01.625787+00:00"
     }
   ],
-  "last_updated": "2026-06-11T07:41:59.896772+00:00"
+  "last_updated": "2026-06-11T13:45:57.851802+00:00"
 }

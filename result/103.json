@@ -256,6 +256,15 @@
     },
     {
       "rank": 31,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.011377453785161525,
+      "latency": 3711.8146816889443,
+      "timestamp": "2026-06-11T13:41:46.020501+00:00",
+      "commit_sha": "60b693d9e83360244f58bba0571219210d07c63b"
+    },
+    {
+      "rank": 32,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.011371897467357563,
@@ -263,21 +272,12 @@
       "timestamp": "2026-05-28T15:24:48.552356+00:00"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "二十组",
       "github": "ujsq/bangc-kernel-competition",
       "score": 0.010826091132489597,
       "latency": 3900.853917002678,
       "timestamp": "2026-06-09T16:53:26.829136+00:00"
-    },
-    {
-      "rank": 33,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.010738668045911432,
-      "latency": 3932.610619813204,
-      "timestamp": "2026-05-18T06:58:02.917280+00:00",
-      "commit_sha": "60b693d9e83360244f58bba0571219210d07c63b"
     },
     {
       "rank": 34,
@@ -619,5 +619,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-11T12:55:25.543650+00:00"
+  "last_updated": "2026-06-11T13:45:57.847354+00:00"
 }
