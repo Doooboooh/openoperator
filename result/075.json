@@ -211,6 +211,14 @@
     },
     {
       "rank": 26,
+      "user": "team_9",
+      "github": "ghfSlience/BangC",
+      "score": 0.00994493632636858,
+      "latency": 2884.684130549431,
+      "timestamp": "2026-06-11T15:12:58.992667+00:00"
+    },
+    {
+      "rank": 27,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.009701094003583327,
@@ -218,7 +226,7 @@
       "timestamp": "2026-05-29T01:40:13.524891+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "十七组",
       "github": "Youtanzhi158/BangC17",
       "score": 0.009640620653945277,
@@ -226,20 +234,12 @@
       "timestamp": "2026-06-11T07:35:48.027982+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.009535005360842477,
       "latency": 3008.703080316385,
       "timestamp": "2026-06-08T15:51:33.336892+00:00"
-    },
-    {
-      "rank": 29,
-      "user": "team_9",
-      "github": "ghfSlience/BangC",
-      "score": 0.009324145622618692,
-      "latency": 3076.7430240909257,
-      "timestamp": "2026-06-11T15:00:40.386699+00:00"
     },
     {
       "rank": 30,
@@ -640,5 +640,5 @@
       "commit_sha": "9d448c1df6bacc72c6dbc7af5cd766cf21f43f24"
     }
   ],
-  "last_updated": "2026-06-11T15:02:13.226624+00:00"
+  "last_updated": "2026-06-11T15:17:32.358997+00:00"
 }
