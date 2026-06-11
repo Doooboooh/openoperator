@@ -4,6 +4,24 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 45.39515082078785,
+      "latency": 24.114514,
+      "timestamp": "2026-06-11T17:29:44.358760+00:00",
+      "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 45.39515082078785,
+      "latency": 24.114514,
+      "timestamp": "2026-06-11T17:30:26.629363+00:00",
+      "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
+    },
+    {
+      "rank": 3,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 9.466787859150362,
@@ -11,30 +29,12 @@
       "timestamp": "2026-06-11T07:40:01.176657+00:00"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 6.2202962875270185,
       "latency": 175.98550766706467,
       "timestamp": "2026-06-11T17:24:34.770963+00:00"
-    },
-    {
-      "rank": 3,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.171685355813475,
-      "latency": 934.2798342307409,
-      "timestamp": "2026-06-11T17:28:28.712153+00:00",
-      "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
-    },
-    {
-      "rank": 4,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 1.170410146736979,
-      "latency": 935.2977698047956,
-      "timestamp": "2026-06-11T17:28:57.066855+00:00",
-      "commit_sha": "f973075041f662efa5574e7118884927f0aae4cd"
     },
     {
       "rank": 5,
@@ -53,5 +53,5 @@
       "timestamp": "2026-05-30T13:44:36.420167+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.306606+00:00"
+  "last_updated": "2026-06-11T17:35:13.025318+00:00"
 }
