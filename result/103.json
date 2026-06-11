@@ -247,20 +247,20 @@
     },
     {
       "rank": 30,
+      "user": "智算第九组",
+      "github": "XLS233/BangC09",
+      "score": 0.011628438021719149,
+      "latency": 3631.7001407345138,
+      "timestamp": "2026-06-11T12:27:14.199574+00:00",
+      "commit_sha": "1a16b2ccff0d93fc049c1ab108b3a2b768961f5c"
+    },
+    {
+      "rank": 31,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.011371897467357563,
       "latency": 3713.628277182579,
       "timestamp": "2026-05-28T15:24:48.552356+00:00"
-    },
-    {
-      "rank": 31,
-      "user": "智算第九组",
-      "github": "aoersh/BangC09",
-      "score": 0.011345640877598703,
-      "latency": 3722.2225219011307,
-      "timestamp": "2026-05-19T15:36:24.589406+00:00",
-      "commit_sha": "1a16b2ccff0d93fc049c1ab108b3a2b768961f5c"
     },
     {
       "rank": 32,
@@ -619,5 +619,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-11T12:04:55.126139+00:00"
+  "last_updated": "2026-06-11T12:30:11.602726+00:00"
 }
