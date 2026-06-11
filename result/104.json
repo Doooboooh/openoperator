@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "十七组",
+      "github": "Youtanzhi158/BangC17",
+      "score": 0.060863848279940895,
+      "latency": 2546.8977789084115,
+      "timestamp": "2026-06-11T07:35:48.027982+00:00"
+    },
+    {
+      "rank": 4,
       "user": "十八组",
       "github": "Napiercc/BangC18",
       "score": 0.058259174614994386,
@@ -29,7 +37,7 @@
       "timestamp": "2026-06-04T01:13:20.749452+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.05769966609994943,
@@ -37,20 +45,12 @@
       "timestamp": "2026-06-09T13:45:00.114026+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.057342183443133826,
       "latency": 2703.3152679602304,
       "timestamp": "2026-06-08T14:21:26.638927+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "十七组",
-      "github": "Noitexy/openoperator-JJZZ",
-      "score": 0.05623333646218689,
-      "latency": 2756.6210677226386,
-      "timestamp": "2026-06-10T02:37:11.512154+00:00"
     },
     {
       "rank": 7,
@@ -583,5 +583,5 @@
       "commit_sha": "58023de3fa7ab95ac9aef773e41c498d9bee0f02"
     }
   ],
-  "last_updated": "2026-06-11T04:14:11.380726+00:00"
+  "last_updated": "2026-06-11T07:36:54.037041+00:00"
 }

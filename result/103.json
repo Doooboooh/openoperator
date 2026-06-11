@@ -222,20 +222,20 @@
     },
     {
       "rank": 27,
+      "user": "十七组",
+      "github": "Youtanzhi158/BangC17",
+      "score": 0.014479361757832139,
+      "latency": 2916.6340827941895,
+      "timestamp": "2026-06-11T07:35:48.027982+00:00"
+    },
+    {
+      "rank": 28,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.013988317144516852,
       "latency": 3019.0193404754004,
       "timestamp": "2026-05-18T06:17:28.701402+00:00",
       "commit_sha": "a7558f4c9026636c874dfb5d112eff7a769b0b8d"
-    },
-    {
-      "rank": 28,
-      "user": "十七组",
-      "github": "Noitexy/openoperator-JJZZ",
-      "score": 0.01397303938473403,
-      "latency": 3022.3202581206956,
-      "timestamp": "2026-06-10T05:27:26.757440+00:00"
     },
     {
       "rank": 29,
@@ -611,5 +611,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-11T02:27:35.621808+00:00"
+  "last_updated": "2026-06-11T07:36:54.042259+00:00"
 }
