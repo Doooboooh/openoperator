@@ -22,6 +22,15 @@
     },
     {
       "rank": 3,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 3.959276662752358,
+      "latency": 2003.4071058034897,
+      "timestamp": "2026-06-11T14:41:42.962892+00:00",
+      "commit_sha": "ee32f3f936107e9dce60e1bba33e1a58a22f5ebe"
+    },
+    {
+      "rank": 4,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 3.9243357787150743,
@@ -29,21 +38,12 @@
       "timestamp": "2026-06-04T18:35:33.528910+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 3.799981224826835,
       "latency": 2087.390050292015,
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
-    },
-    {
-      "rank": 5,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 3.7958356403946336,
-      "latency": 2089.669772734245,
-      "timestamp": "2026-05-19T08:24:28.367485+00:00",
-      "commit_sha": "ee32f3f936107e9dce60e1bba33e1a58a22f5ebe"
     },
     {
       "rank": 6,
@@ -195,5 +195,5 @@
       "timestamp": "2026-06-11T05:37:46.683051+00:00"
     }
   ],
-  "last_updated": "2026-06-11T05:39:58.576506+00:00"
+  "last_updated": "2026-06-11T14:46:55.959245+00:00"
 }

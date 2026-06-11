@@ -236,19 +236,19 @@
     },
     {
       "rank": 29,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.03550871108722616,
+      "latency": 5982.475665708383,
+      "timestamp": "2026-06-11T14:41:42.962892+00:00"
+    },
+    {
+      "rank": 30,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.03395292595856163,
       "latency": 6256.6036358475685,
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
-    },
-    {
-      "rank": 30,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.03202421740373487,
-      "latency": 6633.417370418708,
-      "timestamp": "2026-06-11T11:57:50.738141+00:00"
     },
     {
       "rank": 31,
@@ -284,5 +284,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-11T11:59:49.830129+00:00"
+  "last_updated": "2026-06-11T14:46:55.955499+00:00"
 }

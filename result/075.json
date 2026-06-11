@@ -326,6 +326,15 @@
     },
     {
       "rank": 40,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.007003701106105365,
+      "latency": 4096.11997505029,
+      "timestamp": "2026-06-11T14:45:09.072788+00:00",
+      "commit_sha": "caf37213c67759b4ba47b062d7bc8e612bf971d7"
+    },
+    {
+      "rank": 41,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.006866471091655879,
@@ -334,21 +343,12 @@
       "commit_sha": "4f2c118fee212a2159d652cc1bb22b42efb39597"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "智算第四组",
       "github": "rashxxxxxx-netizen/openoperator-work",
       "score": 0.006770347898455459,
       "latency": 4237.300716340542,
       "timestamp": "2026-06-05T05:17:41.414687+00:00"
-    },
-    {
-      "rank": 42,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.0067470996132932524,
-      "latency": 4251.901060342789,
-      "timestamp": "2026-05-19T08:39:46.856896+00:00",
-      "commit_sha": "caf37213c67759b4ba47b062d7bc8e612bf971d7"
     },
     {
       "rank": 43,
@@ -624,5 +624,5 @@
       "commit_sha": "9d448c1df6bacc72c6dbc7af5cd766cf21f43f24"
     }
   ],
-  "last_updated": "2026-06-11T14:26:31.533042+00:00"
+  "last_updated": "2026-06-11T14:46:55.957893+00:00"
 }

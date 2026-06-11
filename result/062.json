@@ -107,20 +107,20 @@
     },
     {
       "rank": 13,
+      "user": "智算第七组",
+      "github": "laomaer/BANGC07",
+      "score": 0.01228829160719809,
+      "latency": 2809.0967486302056,
+      "timestamp": "2026-06-11T14:41:42.962892+00:00",
+      "commit_sha": "ee32f3f936107e9dce60e1bba33e1a58a22f5ebe"
+    },
+    {
+      "rank": 14,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.011991046958265474,
       "latency": 2878.7311166524887,
       "timestamp": "2026-06-03T11:33:12.248286+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "智算第七组",
-      "github": "laomaer/BANGC07",
-      "score": 0.011970962477442025,
-      "latency": 2883.5609555244446,
-      "timestamp": "2026-05-18T06:09:38.921362+00:00",
-      "commit_sha": "ee32f3f936107e9dce60e1bba33e1a58a22f5ebe"
     },
     {
       "rank": 15,
@@ -181,5 +181,5 @@
       "commit_sha": "61988a482ce9e4f976a0bdca2d1bae104b0610d9"
     }
   ],
-  "last_updated": "2026-06-09T10:08:40.682439+00:00"
+  "last_updated": "2026-06-11T14:46:55.950054+00:00"
 }
