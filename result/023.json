@@ -4,29 +4,29 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_42",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 47.6968,
+      "latency": 20.0,
+      "timestamp": "2026-06-11T17:12:00.427180+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
+    },
+    {
+      "rank": 2,
+      "user": "team_91",
+      "github": "PRO-2684/AICS-openoperator",
+      "score": 47.6968,
+      "latency": 20.0,
+      "timestamp": "2026-06-11T17:12:52.459861+00:00",
+      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
+    },
+    {
+      "rank": 3,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 5.452827775277699,
       "latency": 174.94335770606995,
       "timestamp": "2026-06-11T07:26:50.483635+00:00"
-    },
-    {
-      "rank": 2,
-      "user": "team_42",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.3625469228313462,
-      "latency": 2631.2069967389107,
-      "timestamp": "2026-06-11T05:51:49.833565+00:00",
-      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
-    },
-    {
-      "rank": 3,
-      "user": "team_91",
-      "github": "PRO-2684/AICS-openoperator",
-      "score": 0.3585207866179847,
-      "latency": 2660.755068063736,
-      "timestamp": "2026-06-04T15:38:51.460934+00:00",
-      "commit_sha": "5054c52c63873af0b05219e8741b6479f441dff9"
     },
     {
       "rank": 4,
@@ -514,6 +514,14 @@
     },
     {
       "rank": 63,
+      "user": "team_56",
+      "github": "wuyu685/BangC61_cww",
+      "score": 0.0022441556677093443,
+      "latency": 425075.6815696756,
+      "timestamp": "2026-06-11T17:10:42.850333+00:00"
+    },
+    {
+      "rank": 64,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.002212519235213821,
@@ -522,7 +530,7 @@
       "commit_sha": "111bd772a17ee08c25e7245d05abb769e2a22b4e"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.002199904473058991,
@@ -531,7 +539,7 @@
       "commit_sha": "c2b4f9bcc08628437c5279d762148e344b8273d4"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.00216078206164826,
@@ -540,7 +548,7 @@
       "commit_sha": "e4e723290ef8e541347d068709b31ffc4fa78cb0"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.0020806247584234995,
@@ -549,7 +557,7 @@
       "commit_sha": "de8b26ed66e58984eb2b25a9d875ba13efc4ba86"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "user": "十四组",
       "github": "ljj0119/BangC14",
       "score": 0.0014412087694867532,
@@ -557,7 +565,7 @@
       "timestamp": "2026-06-11T07:47:42.333663+00:00"
     },
     {
-      "rank": 68,
+      "rank": 69,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.001125401334757869,
@@ -565,7 +573,7 @@
       "timestamp": "2026-06-08T12:17:02.618391+00:00"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "user": "二十六组",
       "github": "zhcsyyy/openoperator_26",
       "score": 0.00036842478478863914,
@@ -573,7 +581,7 @@
       "timestamp": "2026-06-10T11:48:24.933225+00:00"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "user": "从0开始干科研",
       "github": "wyh-lyy/openoperator-start-kit",
       "score": 2.6806151514004295e-05,
@@ -581,5 +589,5 @@
       "timestamp": "2026-06-08T16:26:22.948540+00:00"
     }
   ],
-  "last_updated": "2026-06-11T14:52:02.243110+00:00"
+  "last_updated": "2026-06-11T17:14:50.585526+00:00"
 }
