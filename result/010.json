@@ -98,6 +98,22 @@
     },
     {
       "rank": 12,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.0023515470479551974,
+      "latency": 534433.2791864872,
+      "timestamp": "2026-06-11T01:34:46.070185+00:00"
+    },
+    {
+      "rank": 13,
+      "user": "888",
+      "github": "RuixiZhang03/888-op-gen",
+      "score": 0.000531518061718614,
+      "latency": 2364444.5796186724,
+      "timestamp": "2026-06-11T01:35:44.562386+00:00"
+    },
+    {
+      "rank": 14,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0005173054901453615,
@@ -105,7 +121,7 @@
       "timestamp": "2026-06-02T06:21:42.077883+00:00"
     },
     {
-      "rank": 13,
+      "rank": 15,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 7.926512723499604e-05,
@@ -113,7 +129,7 @@
       "timestamp": "2026-05-18T14:41:55.032808+00:00"
     },
     {
-      "rank": 14,
+      "rank": 16,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 5.2196265108642104e-05,
@@ -122,7 +138,7 @@
       "commit_sha": "fcea15240699c6c961c56f58b83ea1c76794d620"
     },
     {
-      "rank": 15,
+      "rank": 17,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 5.1927712298654277e-05,
@@ -131,21 +147,13 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 16,
+      "rank": 18,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 4.5813322593850555e-05,
       "latency": 27431867.606317002,
       "timestamp": "2026-06-01T06:00:37.252023+00:00"
-    },
-    {
-      "rank": 17,
-      "user": "888",
-      "github": "RuixiZhang03/888-op-gen",
-      "score": 2.7303901366838393e-05,
-      "latency": 46028037.6461645,
-      "timestamp": "2026-06-10T06:50:24.548346+00:00"
     }
   ],
-  "last_updated": "2026-06-10T07:05:41.657952+00:00"
+  "last_updated": "2026-06-11T01:36:49.859936+00:00"
 }
