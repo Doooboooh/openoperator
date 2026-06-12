@@ -169,6 +169,14 @@
     },
     {
       "rank": 21,
+      "user": "team_34",
+      "github": "Dreeeeeeeee/dree",
+      "score": 0.045147603366403444,
+      "latency": 2338.108606636524,
+      "timestamp": "2026-06-12T05:25:37.454521+00:00"
+    },
+    {
+      "rank": 22,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.0433071773466463,
@@ -177,7 +185,7 @@
       "commit_sha": "8c32fc00c648d61ae4442b87f14e9db034d01f99"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.04085688151435228,
@@ -186,7 +194,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "888",
       "github": "RuiXiZhang03/888-op-gen",
       "score": 0.025666474575852683,
@@ -194,7 +202,7 @@
       "timestamp": "2026-06-08T17:12:02.989404+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.01849050675854771,
@@ -202,7 +210,7 @@
       "timestamp": "2026-06-09T16:25:15.167626+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "NPC组",
       "github": "zfgincau/openoperator-start-kit",
       "score": 0.018319726895423664,
@@ -210,5 +218,5 @@
       "timestamp": "2026-06-11T05:37:46.683051+00:00"
     }
   ],
-  "last_updated": "2026-06-12T05:01:36.841001+00:00"
+  "last_updated": "2026-06-12T05:27:03.301850+00:00"
 }
