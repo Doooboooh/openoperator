@@ -4,6 +4,14 @@
   "results": [
     {
       "rank": 1,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.9572898192507443,
+      "latency": 93.1170458594958,
+      "timestamp": "2026-06-12T01:34:48.209169+00:00"
+    },
+    {
+      "rank": 2,
       "user": "team_91",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.21412381698290828,
@@ -12,7 +20,7 @@
       "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "user": "team_42",
       "github": "PRO-2684/AICS-openoperator",
       "score": 0.20633983519122037,
@@ -21,7 +29,7 @@
       "commit_sha": "86422c0377b6516e6be1e911c90789dc8eb99a34"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.03579725726948023,
@@ -29,7 +37,7 @@
       "timestamp": "2026-06-11T17:24:34.770963+00:00"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.034788470953263824,
@@ -38,7 +46,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.033592175620591205,
@@ -47,7 +55,7 @@
       "commit_sha": "5b9c70d078ced299977d8a7cca88ac9a8f6f330f"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.033360675580204856,
@@ -55,7 +63,7 @@
       "timestamp": "2026-05-29T08:22:00.144108+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.031672980826959865,
@@ -63,7 +71,7 @@
       "timestamp": "2026-05-29T14:47:32.042311+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.031207759766371142,
@@ -71,7 +79,7 @@
       "timestamp": "2026-05-29T13:40:01.156850+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.02865528631022971,
@@ -79,21 +87,13 @@
       "timestamp": "2026-06-10T11:25:45.334183+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.028538154602562472,
       "latency": 3123.537637293339,
       "timestamp": "2026-05-22T13:20:05.267576+00:00",
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
-    },
-    {
-      "rank": 11,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.0275890997007591,
-      "latency": 3230.9861853718758,
-      "timestamp": "2026-05-21T16:50:03.061469+00:00"
     },
     {
       "rank": 12,
@@ -648,5 +648,5 @@
       "timestamp": "2026-06-11T10:24:17.570003+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.286524+00:00"
+  "last_updated": "2026-06-12T01:38:42.360252+00:00"
 }
