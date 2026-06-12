@@ -145,6 +145,14 @@
     },
     {
       "rank": 18,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.011972115784027898,
+      "latency": 2405.2557225028672,
+      "timestamp": "2026-06-12T10:25:47.290696+00:00"
+    },
+    {
+      "rank": 19,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.011388349527372563,
@@ -152,7 +160,7 @@
       "timestamp": "2026-05-30T14:50:31.418533+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.011385479054055197,
@@ -160,7 +168,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.01124093845168104,
@@ -168,7 +176,7 @@
       "timestamp": "2026-05-23T07:58:45.555212+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.011071531447485773,
@@ -176,7 +184,7 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.006399508278882331,
@@ -184,5 +192,5 @@
       "timestamp": "2026-06-12T01:44:40.231176+00:00"
     }
   ],
-  "last_updated": "2026-06-12T01:48:51.696027+00:00"
+  "last_updated": "2026-06-12T10:30:55.952637+00:00"
 }
