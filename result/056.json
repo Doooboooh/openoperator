@@ -234,6 +234,14 @@
     },
     {
       "rank": 29,
+      "user": "十四组",
+      "github": "ljj0119/BangC14",
+      "score": 0.11658103932622946,
+      "latency": 2310.8646273612976,
+      "timestamp": "2026-06-12T16:19:35.396080+00:00"
+    },
+    {
+      "rank": 30,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.11625129851629099,
@@ -241,7 +249,7 @@
       "timestamp": "2026-05-28T13:55:57.540888+00:00"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.11537462858335057,
@@ -250,7 +258,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.11482358877557464,
@@ -259,7 +267,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "提示词大师",
       "github": "Fly-61/openoperator-start-kit-fly--",
       "score": 0.11450024888647149,
@@ -267,20 +275,12 @@
       "timestamp": "2026-06-11T10:44:35.375283+00:00"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.11403983681769113,
       "latency": 2362.3586942752204,
       "timestamp": "2026-06-01T16:51:07.993734+00:00"
-    },
-    {
-      "rank": 34,
-      "user": "十四组",
-      "github": "ljj0119/BangC14",
-      "score": 0.1133480281934966,
-      "latency": 2376.777119934559,
-      "timestamp": "2026-06-12T15:59:10.583110+00:00"
     },
     {
       "rank": 35,
@@ -671,5 +671,5 @@
       "timestamp": "2026-06-11T07:56:04.256485+00:00"
     }
   ],
-  "last_updated": "2026-06-12T16:00:32.203703+00:00"
+  "last_updated": "2026-06-12T16:20:53.850805+00:00"
 }
