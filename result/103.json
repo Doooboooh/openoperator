@@ -617,6 +617,14 @@
     },
     {
       "rank": 75,
+      "user": "team_87",
+      "github": "xunz3/AICS26-operator-42G",
+      "score": 0.0002504721719951826,
+      "latency": 168605.55671155453,
+      "timestamp": "2026-06-12T09:37:13.788782+00:00"
+    },
+    {
+      "rank": 76,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.00022464672732725114,
@@ -624,7 +632,7 @@
       "timestamp": "2026-05-21T08:43:00.430390+00:00"
     },
     {
-      "rank": 76,
+      "rank": 77,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.0002241149399705089,
@@ -632,7 +640,7 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 77,
+      "rank": 78,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00022225142106754622,
@@ -641,7 +649,7 @@
       "commit_sha": "f9ccaec54ed3f58878c5033b4c4b87942d179fdd"
     },
     {
-      "rank": 78,
+      "rank": 79,
       "user": "二十五组",
       "github": "cotangents/openoperator-start-kit-team25",
       "score": 0.00021997901744882277,
@@ -650,7 +658,7 @@
       "commit_sha": "1cfad915f1e51160b8c154a38a1c532477fb8534"
     },
     {
-      "rank": 79,
+      "rank": 80,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 9.914458769880292e-06,
@@ -658,7 +666,7 @@
       "timestamp": "2026-06-10T06:35:59.830426+00:00"
     },
     {
-      "rank": 80,
+      "rank": 81,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 2.1973774728125108e-06,
@@ -667,5 +675,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-12T06:27:41.343816+00:00"
+  "last_updated": "2026-06-12T09:40:39.598220+00:00"
 }

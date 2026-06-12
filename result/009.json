@@ -642,19 +642,19 @@
     },
     {
       "rank": 78,
+      "user": "team_87",
+      "github": "xunz3/AICS26-operator-42G",
+      "score": 0.00014640990615165402,
+      "latency": 490636.20002319413,
+      "timestamp": "2026-06-12T09:37:13.788782+00:00"
+    },
+    {
+      "rank": 79,
       "user": "team_14",
       "github": "snowballOUO/BangC-Operator-Competition",
       "score": 0.00014491496460497893,
       "latency": 495697.59890437126,
       "timestamp": "2026-06-11T06:10:55.616995+00:00"
-    },
-    {
-      "rank": 79,
-      "user": "team_87",
-      "github": "xunz3/AICS26-operator-42G",
-      "score": 0.00014324922062772363,
-      "latency": 501461.7160583536,
-      "timestamp": "2026-06-12T09:03:17.840287+00:00"
     },
     {
       "rank": 80,
@@ -699,5 +699,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-12T09:05:04.194951+00:00"
+  "last_updated": "2026-06-12T09:40:39.591027+00:00"
 }

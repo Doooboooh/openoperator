@@ -122,6 +122,15 @@
     },
     {
       "rank": 15,
+      "user": "智算第八组",
+      "github": "beiwenziyao/BANGC08",
+      "score": 0.01177270456790321,
+      "latency": 12100.108278294405,
+      "timestamp": "2026-06-12T09:38:31.086806+00:00",
+      "commit_sha": "4fbb62784297404af9d8f46ad482c62e64199590"
+    },
+    {
+      "rank": 16,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.011284068160209462,
@@ -129,7 +138,7 @@
       "timestamp": "2026-06-05T09:17:43.466911+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.010904750052997783,
@@ -137,7 +146,7 @@
       "timestamp": "2026-06-01T19:36:47.979124+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.01073855453115953,
@@ -145,21 +154,12 @@
       "timestamp": "2026-06-10T13:30:14.750448+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 0.01019682359871464,
       "latency": 13970.134779810905,
       "timestamp": "2026-06-12T08:52:57.482373+00:00"
-    },
-    {
-      "rank": 19,
-      "user": "智算第八组",
-      "github": "beiwenziyao/BANGC08",
-      "score": 0.010140244487340107,
-      "latency": 14048.083374897638,
-      "timestamp": "2026-06-11T10:32:25.484216+00:00",
-      "commit_sha": "4fbb62784297404af9d8f46ad482c62e64199590"
     },
     {
       "rank": 20,
@@ -178,5 +178,5 @@
       "timestamp": "2026-06-12T06:22:15.171105+00:00"
     }
   ],
-  "last_updated": "2026-06-12T08:54:54.090507+00:00"
+  "last_updated": "2026-06-12T09:40:39.601797+00:00"
 }
