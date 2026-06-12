@@ -501,6 +501,14 @@
     },
     {
       "rank": 61,
+      "user": "六神五组",
+      "github": "yuuu37/good-transport-coming",
+      "score": 0.0016193452865560403,
+      "latency": 27152.949012815952,
+      "timestamp": "2026-06-12T03:44:20.105704+00:00"
+    },
+    {
+      "rank": 62,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0016169263793599157,
@@ -509,7 +517,7 @@
       "commit_sha": "9652eb84d263ccf69bb488d8bb6e789d89710eb5"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "user": "team_13",
       "github": "Shiyu-Quan/openoperator-start-kit",
       "score": 0.0016140497037909016,
@@ -517,20 +525,12 @@
       "timestamp": "2026-06-09T09:21:50.678915+00:00"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.001607960971752906,
       "latency": 27345.191066463787,
       "timestamp": "2026-06-04T03:23:46.150694+00:00"
-    },
-    {
-      "rank": 64,
-      "user": "六神五组",
-      "github": "yuuu37/good-transport-coming",
-      "score": 0.0015859059657502685,
-      "latency": 27725.47739247481,
-      "timestamp": "2026-06-12T03:01:56.729563+00:00"
     },
     {
       "rank": 65,
@@ -696,5 +696,5 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     }
   ],
-  "last_updated": "2026-06-12T03:04:51.872107+00:00"
+  "last_updated": "2026-06-12T03:45:21.888750+00:00"
 }

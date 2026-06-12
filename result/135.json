@@ -434,6 +434,14 @@
     },
     {
       "rank": 53,
+      "user": "智能人工",
+      "github": "asfdf-sudo/goodluck",
+      "score": 0.00019202480016764604,
+      "latency": 11737410.990831753,
+      "timestamp": "2026-06-12T03:40:23.997909+00:00"
+    },
+    {
+      "rank": 54,
       "user": "team_12",
       "github": "yinuo222/kernel-competition-group40",
       "score": 0.00013882444067069285,
@@ -442,7 +450,7 @@
       "commit_sha": "de8b26ed66e58984eb2b25a9d875ba13efc4ba86"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.00011674344975233961,
@@ -450,7 +458,7 @@
       "timestamp": "2026-06-08T13:18:40.051510+00:00"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "研讨第九组",
       "github": "JiaxiangE/BangC_Team09",
       "score": 0.0001023714132216521,
@@ -458,7 +466,7 @@
       "timestamp": "2026-06-08T12:39:15.616167+00:00"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "养老组",
       "github": "lesheng14/op_retirement",
       "score": 0.0001019741399440522,
@@ -466,20 +474,12 @@
       "timestamp": "2026-05-21T15:39:57.105851+00:00"
     },
     {
-      "rank": 57,
+      "rank": 58,
       "user": "智算第四组",
       "github": "rashxxxxxx-netizen/openoperator-work",
       "score": 0.00010184677024061063,
       "latency": 22130048.84372155,
       "timestamp": "2026-06-08T10:45:27.202388+00:00"
-    },
-    {
-      "rank": 58,
-      "user": "智能人工",
-      "github": "asfdf-sudo/goodluck",
-      "score": 9.283321644278455e-05,
-      "latency": 24278745.11263023,
-      "timestamp": "2026-06-10T11:58:11.354054+00:00"
     },
     {
       "rank": 59,
@@ -570,5 +570,5 @@
       "timestamp": "2026-06-10T07:34:25.517660+00:00"
     }
   ],
-  "last_updated": "2026-06-11T19:06:26.899644+00:00"
+  "last_updated": "2026-06-12T03:45:21.891067+00:00"
 }

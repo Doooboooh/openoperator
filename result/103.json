@@ -593,6 +593,14 @@
     },
     {
       "rank": 72,
+      "user": "六神五组",
+      "github": "yuuu37/good-transport-coming",
+      "score": 0.00026982741858234564,
+      "latency": 156511.15154226622,
+      "timestamp": "2026-06-12T03:44:20.105704+00:00"
+    },
+    {
+      "rank": 73,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.00022464672732725114,
@@ -600,7 +608,7 @@
       "timestamp": "2026-05-21T08:43:00.430390+00:00"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.0002241149399705089,
@@ -608,21 +616,13 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.00022225142106754622,
       "latency": 190014.5330776771,
       "timestamp": "2026-05-18T05:48:17.300259+00:00",
       "commit_sha": "f9ccaec54ed3f58878c5033b4c4b87942d179fdd"
-    },
-    {
-      "rank": 75,
-      "user": "六神五组",
-      "github": "yuuu37/good-transport-coming",
-      "score": 0.0002204237585494977,
-      "latency": 191590.05489200354,
-      "timestamp": "2026-06-12T03:01:56.729563+00:00"
     },
     {
       "rank": 76,
@@ -659,5 +659,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-12T03:04:51.876799+00:00"
+  "last_updated": "2026-06-12T03:45:21.892313+00:00"
 }
