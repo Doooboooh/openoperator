@@ -39,20 +39,20 @@
     },
     {
       "rank": 5,
+      "user": "team_27",
+      "github": "JerryLiu369/openoperator-start-kit-theory",
+      "score": 0.4678250547935471,
+      "latency": 90.2709240714709,
+      "timestamp": "2026-06-12T15:04:28.582152+00:00",
+      "commit_sha": "9cb0699672a702e018ffc6edd719f14e33b30fd5"
+    },
+    {
+      "rank": 6,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.019055440881951036,
       "latency": 2216.2174185117087,
       "timestamp": "2026-06-12T06:22:15.171105+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_27",
-      "github": "JerryLiu369/openoperator-start-kit-theory",
-      "score": 0.018238894919219404,
-      "latency": 2315.436334659656,
-      "timestamp": "2026-05-19T08:18:35.367788+00:00",
-      "commit_sha": "9cb0699672a702e018ffc6edd719f14e33b30fd5"
     },
     {
       "rank": 7,
@@ -683,5 +683,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-12T15:04:29.174324+00:00"
+  "last_updated": "2026-06-12T15:09:34.427981+00:00"
 }
