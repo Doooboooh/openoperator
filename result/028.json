@@ -96,6 +96,14 @@
     },
     {
       "rank": 12,
+      "user": "team_56",
+      "github": "wuyu685/BangC61_cww",
+      "score": 0.009867894845171657,
+      "latency": 2296.0317631562552,
+      "timestamp": "2026-06-12T08:14:40.347120+00:00"
+    },
+    {
+      "rank": 13,
       "user": "十七组",
       "github": "Youtanzhi158/BangC17",
       "score": 0.0097911151893195,
@@ -103,7 +111,7 @@
       "timestamp": "2026-06-11T10:43:00.013796+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "智算第九组",
       "github": "zzyzyc/BangC09",
       "score": 0.009711161324597232,
@@ -111,7 +119,7 @@
       "timestamp": "2026-06-01T06:41:32.810451+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.009592262598849717,
@@ -119,7 +127,7 @@
       "timestamp": "2026-05-25T06:41:08.192083+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.00934495755831134,
@@ -127,7 +135,7 @@
       "timestamp": "2026-05-29T03:05:27.321200+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.009255337400497138,
@@ -136,7 +144,7 @@
       "commit_sha": "a6efc6a9b73ca131cfbaa4704a496f47dc632623"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.009159965249321505,
@@ -144,7 +152,7 @@
       "timestamp": "2026-06-10T13:56:45.940041+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.008868154931861985,
@@ -152,7 +160,7 @@
       "timestamp": "2026-06-01T18:29:54.858986+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.008286935430585922,
@@ -160,21 +168,13 @@
       "timestamp": "2026-06-11T17:24:34.770963+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.008160828068388176,
       "latency": 2776.311400036017,
       "timestamp": "2026-06-10T12:12:25.971457+00:00",
       "commit_sha": "43705b291e08b64b414a6211d4962507fb1fc28c"
-    },
-    {
-      "rank": 21,
-      "user": "team_56",
-      "github": "wuyu685/BangC61_cww",
-      "score": 0.008095081680766312,
-      "latency": 2798.8599613308907,
-      "timestamp": "2026-06-12T08:12:17.494410+00:00"
     },
     {
       "rank": 22,
@@ -341,5 +341,5 @@
       "commit_sha": "45e17ae0105666cc0a029c7a31899043943fc3ea"
     }
   ],
-  "last_updated": "2026-06-12T08:14:19.017800+00:00"
+  "last_updated": "2026-06-12T08:19:24.872217+00:00"
 }
