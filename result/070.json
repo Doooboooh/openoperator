@@ -64,6 +64,14 @@
     },
     {
       "rank": 8,
+      "user": "team_87",
+      "github": "xunz3/AICS26-operator-42G",
+      "score": 0.017973606925398816,
+      "latency": 2219.587874909242,
+      "timestamp": "2026-06-12T08:08:45.887336+00:00"
+    },
+    {
+      "rank": 9,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.01788382253445571,
@@ -71,7 +79,7 @@
       "timestamp": "2026-06-08T13:58:24.893622+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_82",
       "github": "Xdddyy/openoperator-25",
       "score": 0.01739665862766832,
@@ -79,7 +87,7 @@
       "timestamp": "2026-06-09T16:21:17.744499+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.01739127308326715,
@@ -87,7 +95,7 @@
       "timestamp": "2026-05-20T10:00:06.258766+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_38",
       "github": "shijuanerr/ICS_Team9",
       "score": 0.01736809274366225,
@@ -95,20 +103,12 @@
       "timestamp": "2026-05-26T06:35:59.832391+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.01735158905269252,
       "latency": 2299.1554190715156,
       "timestamp": "2026-05-31T13:29:50.960880+00:00"
-    },
-    {
-      "rank": 13,
-      "user": "team_87",
-      "github": "xunz3/AICS26-operator-42G",
-      "score": 0.01729355157810418,
-      "latency": 2306.871426602205,
-      "timestamp": "2026-06-12T06:24:47.941077+00:00"
     },
     {
       "rank": 14,
@@ -707,5 +707,5 @@
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
     }
   ],
-  "last_updated": "2026-06-12T06:27:41.353090+00:00"
+  "last_updated": "2026-06-12T08:14:19.014855+00:00"
 }
