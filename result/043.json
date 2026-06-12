@@ -171,6 +171,14 @@
     },
     {
       "rank": 21,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.004494474958519168,
+      "latency": 764740.2714937925,
+      "timestamp": "2026-06-12T07:37:55.638926+00:00"
+    },
+    {
+      "rank": 22,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.002063995991007025,
@@ -179,7 +187,7 @@
       "commit_sha": "ab7698ebaa529d54df1b08db68b428fe98436d27"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.0015088159959395571,
@@ -187,7 +195,7 @@
       "timestamp": "2026-06-01T19:45:39.117614+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.001494754225542857,
@@ -195,7 +203,7 @@
       "timestamp": "2026-06-12T05:25:37.454521+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.0012977322897000574,
@@ -203,7 +211,7 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_49",
       "github": "drafter0364/AICS-30",
       "score": 0.0012966166192875704,
@@ -211,7 +219,7 @@
       "timestamp": "2026-05-22T09:37:19.732669+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 0.0012807753254924987,
@@ -219,7 +227,7 @@
       "timestamp": "2026-05-26T23:57:22.226121+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.0011359023966988264,
@@ -227,5 +235,5 @@
       "timestamp": "2026-06-05T15:30:37.781245+00:00"
     }
   ],
-  "last_updated": "2026-06-12T05:27:03.303228+00:00"
+  "last_updated": "2026-06-12T07:38:40.610587+00:00"
 }

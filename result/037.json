@@ -179,6 +179,14 @@
     },
     {
       "rank": 22,
+      "user": "team_56",
+      "github": "wuyu685/BangC61_cww",
+      "score": 0.007445170501192336,
+      "latency": 5668.3725366989775,
+      "timestamp": "2026-06-12T07:37:13.836541+00:00"
+    },
+    {
+      "rank": 23,
       "user": "提示词大师",
       "github": "Fly-61/openoperator-start-kit-fly--",
       "score": 0.007405297147640946,
@@ -186,7 +194,7 @@
       "timestamp": "2026-06-11T19:31:32.718408+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.007041010587522143,
@@ -194,7 +202,7 @@
       "timestamp": "2026-05-29T14:27:04.332701+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.0030303950300291462,
@@ -202,20 +210,12 @@
       "timestamp": "2026-05-20T02:09:11.222098+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 0.002978154515730799,
       "latency": 14170.520628492037,
       "timestamp": "2026-06-12T05:51:45.895068+00:00"
-    },
-    {
-      "rank": 26,
-      "user": "team_56",
-      "github": "wuyu685/BangC61_cww",
-      "score": 0.002936917621639671,
-      "latency": 14369.487141569456,
-      "timestamp": "2026-06-12T05:54:23.803022+00:00"
     },
     {
       "rank": 27,
@@ -306,5 +306,5 @@
       "timestamp": "2026-06-02T02:22:27.290127+00:00"
     }
   ],
-  "last_updated": "2026-06-12T06:17:31.333405+00:00"
+  "last_updated": "2026-06-12T07:38:40.609859+00:00"
 }

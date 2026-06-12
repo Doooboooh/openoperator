@@ -648,6 +648,14 @@
     },
     {
       "rank": 79,
+      "user": "team_87",
+      "github": "xunz3/AICS26-operator-42G",
+      "score": 0.00025853410880966927,
+      "latency": 20691819.0587312,
+      "timestamp": "2026-06-12T07:37:10.120035+00:00"
+    },
+    {
+      "rank": 80,
       "user": "关东组",
       "github": "Cahemgco/kernal_competition_ucas",
       "score": 0.0002547945992450294,
@@ -655,7 +663,7 @@
       "timestamp": "2026-05-19T03:35:10.402479+00:00"
     },
     {
-      "rank": 80,
+      "rank": 81,
       "user": "随缘组",
       "github": "xufeng102403/operator",
       "score": 0.00020855307137194033,
@@ -664,7 +672,7 @@
       "commit_sha": "0f365e0c5607e1c9aab65353ead1192204c10e7e"
     },
     {
-      "rank": 81,
+      "rank": 82,
       "user": "当家作组",
       "github": "xiunianjun/openoperator-start-kit",
       "score": 0.0001888893574445977,
@@ -672,7 +680,7 @@
       "timestamp": "2026-06-08T15:46:48.948437+00:00"
     },
     {
-      "rank": 82,
+      "rank": 83,
       "user": "二十七组",
       "github": "zhangmuxiang/27_openoperator-start-kit",
       "score": 0.00012378379043485887,
@@ -680,7 +688,7 @@
       "timestamp": "2026-06-10T13:10:29.194513+00:00"
     },
     {
-      "rank": 83,
+      "rank": 84,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.0001191249153979229,
@@ -688,5 +696,5 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     }
   ],
-  "last_updated": "2026-06-12T04:00:37.992591+00:00"
+  "last_updated": "2026-06-12T07:38:40.605298+00:00"
 }
