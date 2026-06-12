@@ -220,6 +220,14 @@
     },
     {
       "rank": 27,
+      "user": "team_9",
+      "github": "ghfSlience/BangC",
+      "score": 0.003053856874451831,
+      "latency": 7981.0551057259245,
+      "timestamp": "2026-06-12T06:27:51.012801+00:00"
+    },
+    {
+      "rank": 28,
       "user": "当家作组",
       "github": "xiunianjun/openoperator-start-kit",
       "score": 0.0030119423744496394,
@@ -227,20 +235,12 @@
       "timestamp": "2026-06-12T05:18:41.452295+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0030113546954180196,
       "latency": 8093.699502448241,
       "timestamp": "2026-06-08T12:52:50.506914+00:00"
-    },
-    {
-      "rank": 29,
-      "user": "team_9",
-      "github": "ghfSlience/BangC",
-      "score": 0.0030050096462331363,
-      "latency": 8110.789271692435,
-      "timestamp": "2026-06-12T05:51:45.895068+00:00"
     },
     {
       "rank": 30,
@@ -309,5 +309,5 @@
       "timestamp": "2026-06-10T13:54:07.885879+00:00"
     }
   ],
-  "last_updated": "2026-06-12T05:57:19.975427+00:00"
+  "last_updated": "2026-06-12T06:32:46.279047+00:00"
 }
