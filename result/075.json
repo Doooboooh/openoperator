@@ -533,6 +533,14 @@
     },
     {
       "rank": 65,
+      "user": "team_53",
+      "github": "liuranra/kernel-competition",
+      "score": 0.00353625476400562,
+      "latency": 8112.537674605846,
+      "timestamp": "2026-06-12T15:47:02.315241+00:00"
+    },
+    {
+      "rank": 66,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.003458567237514926,
@@ -541,7 +549,7 @@
       "commit_sha": "0e91a919099946d1e9a1fac41edcac71d6f14aaa"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.0034442201155097238,
@@ -549,20 +557,12 @@
       "timestamp": "2026-06-05T02:36:18.099498+00:00"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "user": "干不过AI组",
       "github": "yuanlaibuduan/Human_Vs_AI",
       "score": 0.003430289084437759,
       "latency": 8363.143540918827,
       "timestamp": "2026-06-12T14:30:02.777649+00:00"
-    },
-    {
-      "rank": 68,
-      "user": "team_53",
-      "github": "liuranra/kernel-competition",
-      "score": 0.0034130329760718955,
-      "latency": 8405.42713801066,
-      "timestamp": "2026-06-12T15:42:52.387719+00:00"
     },
     {
       "rank": 69,
@@ -704,5 +704,5 @@
       "commit_sha": "9d448c1df6bacc72c6dbc7af5cd766cf21f43f24"
     }
   ],
-  "last_updated": "2026-06-12T15:45:14.814844+00:00"
+  "last_updated": "2026-06-12T15:50:20.332435+00:00"
 }
