@@ -22,20 +22,20 @@
     },
     {
       "rank": 3,
+      "user": "二十五组",
+      "github": "cotangents/openoperator-start-kit-team25",
+      "score": 1.1067666754891037,
+      "latency": 2788.5868524511657,
+      "timestamp": "2026-06-12T17:03:01.912532+00:00"
+    },
+    {
+      "rank": 4,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.9939201377707051,
       "latency": 3105.1941526432834,
       "timestamp": "2026-05-18T06:17:38.749658+00:00",
       "commit_sha": "277c5f922713eb6e0dee4c286aefc3d13b7682dd"
-    },
-    {
-      "rank": 4,
-      "user": "二十五组",
-      "github": "cotangents/openoperator-start-kit-team25",
-      "score": 0.9538384931930506,
-      "latency": 3235.678809384505,
-      "timestamp": "2026-06-12T16:21:36.899538+00:00"
     },
     {
       "rank": 5,
@@ -261,5 +261,5 @@
       "timestamp": "2026-06-01T00:57:01.625787+00:00"
     }
   ],
-  "last_updated": "2026-06-12T16:25:58.939251+00:00"
+  "last_updated": "2026-06-12T17:06:15.265264+00:00"
 }
