@@ -121,19 +121,19 @@
     },
     {
       "rank": 15,
+      "user": "智能人工",
+      "github": "AccioNimbus2000/goodluck",
+      "score": 0.0855434405696053,
+      "latency": 5218.915641307831,
+      "timestamp": "2026-06-12T13:32:50.580945+00:00"
+    },
+    {
+      "rank": 16,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.08520979987897041,
       "latency": 5239.350410799186,
       "timestamp": "2026-06-10T07:44:46.029555+00:00"
-    },
-    {
-      "rank": 16,
-      "user": "智能人工",
-      "github": "AccioNimbus2000/goodluck",
-      "score": 0.0846608005795147,
-      "latency": 5273.325989643733,
-      "timestamp": "2026-06-11T06:08:58.072744+00:00"
     },
     {
       "rank": 17,
@@ -681,5 +681,5 @@
       "commit_sha": "14ba47e15d433b38b8e77e32bf60aeebfc9de1da"
     }
   ],
-  "last_updated": "2026-06-12T13:02:30.786809+00:00"
+  "last_updated": "2026-06-12T13:37:53.924787+00:00"
 }
