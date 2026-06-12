@@ -147,6 +147,14 @@
     },
     {
       "rank": 18,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.05882410817245909,
+      "latency": 3642.146165172259,
+      "timestamp": "2026-06-12T09:32:15.740328+00:00"
+    },
+    {
+      "rank": 19,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.05814335728659587,
@@ -154,20 +162,12 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "智算第九组",
       "github": "XLS233/BangC09",
       "score": 0.05780585917036737,
       "latency": 3706.3024938106537,
       "timestamp": "2026-05-31T13:25:33.035590+00:00"
-    },
-    {
-      "rank": 20,
-      "user": "提示词大师",
-      "github": "Fly-61/openoperator-start-kit-fly--",
-      "score": 0.05676660100908952,
-      "latency": 3774.1558626294136,
-      "timestamp": "2026-06-12T09:25:09.775279+00:00"
     },
     {
       "rank": 21,
@@ -219,5 +219,5 @@
       "timestamp": "2026-06-11T16:18:50.214264+00:00"
     }
   ],
-  "last_updated": "2026-06-12T09:30:29.981734+00:00"
+  "last_updated": "2026-06-12T09:35:34.983407+00:00"
 }
