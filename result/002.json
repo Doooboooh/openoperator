@@ -425,6 +425,14 @@
     },
     {
       "rank": 51,
+      "user": "team_87",
+      "github": "xunz3/AICS26-operator-42G",
+      "score": 0.33701777160060653,
+      "latency": 24553.21854601304,
+      "timestamp": "2026-06-12T06:24:47.941077+00:00"
+    },
+    {
+      "rank": 52,
       "user": "team_71",
       "github": "SatoriEye/BangC",
       "score": 0.3345970892623255,
@@ -432,7 +440,7 @@
       "timestamp": "2026-05-20T01:56:52.255398+00:00"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "user": "从0开始干科研",
       "github": "wyh-lyy/openoperator-start-kit",
       "score": 0.33353786824647425,
@@ -440,7 +448,7 @@
       "timestamp": "2026-06-04T02:17:19.717488+00:00"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.33269333822528546,
@@ -449,7 +457,7 @@
       "commit_sha": "88b0b66d34a95fc59a2e94040240a2f4bc5ea946"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "user": "NPC组",
       "github": "zfgincau/openoperator-start-kit",
       "score": 0.33120832352491286,
@@ -457,7 +465,7 @@
       "timestamp": "2026-06-10T16:32:24.708572+00:00"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.328391192282791,
@@ -465,7 +473,7 @@
       "timestamp": "2026-05-29T06:39:11.707379+00:00"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "user": "team_82",
       "github": "Xdddyy/openoperator-25",
       "score": 0.3280333362579488,
@@ -473,7 +481,7 @@
       "timestamp": "2026-06-04T15:20:06.481585+00:00"
     },
     {
-      "rank": 57,
+      "rank": 58,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.3134636005475437,
@@ -481,7 +489,7 @@
       "timestamp": "2026-06-04T12:42:30.890935+00:00"
     },
     {
-      "rank": 58,
+      "rank": 59,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.2961247802589293,
@@ -490,7 +498,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 59,
+      "rank": 60,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.2650531146611488,
@@ -498,7 +506,7 @@
       "timestamp": "2026-05-21T08:09:23.396123+00:00"
     },
     {
-      "rank": 60,
+      "rank": 61,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.20715547466152928,
@@ -507,7 +515,7 @@
       "commit_sha": "36b12293e02f35cbe28028a710a4e18b5ba99833"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "user": "team_14",
       "github": "snowballOUO/BangC-Operator-Competition",
       "score": 0.20005530082748574,
@@ -515,7 +523,7 @@
       "timestamp": "2026-06-11T02:46:30.193408+00:00"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "user": "team_95",
       "github": "GrassedgeT/ics-playground",
       "score": 0.1978694252302847,
@@ -523,7 +531,7 @@
       "timestamp": "2026-05-31T13:49:59.037584+00:00"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.19181910238237102,
@@ -532,7 +540,7 @@
       "commit_sha": "41d911f5294d00d95a0ba63536015f43135f144e"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "user": "二十八组",
       "github": "dh-Unicorn/team_28",
       "score": 0.18084197809175862,
@@ -540,7 +548,7 @@
       "timestamp": "2026-06-11T06:21:25.768750+00:00"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "user": "二十六组",
       "github": "zhcsyyy/openoperator_26",
       "score": 0.16335514226711764,
@@ -548,7 +556,7 @@
       "timestamp": "2026-06-12T03:59:36.656111+00:00"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "user": "十四组",
       "github": "ljj0119/BangC14",
       "score": 0.16277274504839853,
@@ -556,20 +564,12 @@
       "timestamp": "2026-06-10T14:19:56.849911+00:00"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "user": "智能人工",
       "github": "asfdf-sudo/goodluck",
       "score": 0.16272658443127436,
       "latency": 50851.37765854597,
       "timestamp": "2026-06-09T16:38:22.511380+00:00"
-    },
-    {
-      "rank": 68,
-      "user": "team_87",
-      "github": "xunz3/AICS26-operator-42G",
-      "score": 0.16208232590516367,
-      "latency": 51053.506011764206,
-      "timestamp": "2026-06-12T04:17:11.827881+00:00"
     },
     {
       "rank": 69,
@@ -743,5 +743,5 @@
       "timestamp": "2026-06-10T07:25:55.674674+00:00"
     }
   ],
-  "last_updated": "2026-06-12T04:20:58.193529+00:00"
+  "last_updated": "2026-06-12T06:27:41.335994+00:00"
 }

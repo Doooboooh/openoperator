@@ -683,6 +683,14 @@
     },
     {
       "rank": 83,
+      "user": "team_87",
+      "github": "xunz3/AICS26-operator-42G",
+      "score": 0.000383091367251329,
+      "latency": 93834.01212592919,
+      "timestamp": "2026-06-12T06:24:47.941077+00:00"
+    },
+    {
+      "rank": 84,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 1.5963856908340227e-05,
@@ -691,7 +699,7 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 84,
+      "rank": 85,
       "user": "二十八组",
       "github": "dh-Unicorn/team_28",
       "score": 8.479193269754604e-07,
@@ -699,7 +707,7 @@
       "timestamp": "2026-06-11T14:51:47.479462+00:00"
     },
     {
-      "rank": 85,
+      "rank": 86,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 4.803681316964457e-07,
@@ -708,7 +716,7 @@
       "commit_sha": "d49e532f38135da6e63f6e216973609058b09f9e"
     },
     {
-      "rank": 86,
+      "rank": 87,
       "user": "智算第三组",
       "github": "Yan-Yiming/openoperator03",
       "score": 4.5014651492678777e-07,
@@ -716,5 +724,5 @@
       "timestamp": "2026-06-11T08:00:36.272022+00:00"
     }
   ],
-  "last_updated": "2026-06-12T05:01:36.827889+00:00"
+  "last_updated": "2026-06-12T06:27:41.334526+00:00"
 }

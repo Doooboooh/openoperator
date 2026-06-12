@@ -656,6 +656,14 @@
     },
     {
       "rank": 80,
+      "user": "team_87",
+      "github": "xunz3/AICS26-operator-42G",
+      "score": 0.00039237131811979686,
+      "latency": 73114.41656202078,
+      "timestamp": "2026-06-12T06:24:47.941077+00:00"
+    },
+    {
+      "rank": 81,
       "user": "team_21",
       "github": "samwang102/openoperator-team13",
       "score": 0.000303567429338049,
@@ -664,5 +672,5 @@
       "commit_sha": "9d448c1df6bacc72c6dbc7af5cd766cf21f43f24"
     }
   ],
-  "last_updated": "2026-06-12T04:00:37.988991+00:00"
+  "last_updated": "2026-06-12T06:27:41.349338+00:00"
 }
