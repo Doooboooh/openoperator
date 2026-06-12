@@ -122,6 +122,14 @@
     },
     {
       "rank": 15,
+      "user": "team_9",
+      "github": "ghfSlience/BangC",
+      "score": 0.0039911188552812435,
+      "latency": 18517.11329072714,
+      "timestamp": "2026-06-12T09:22:00.800261+00:00"
+    },
+    {
+      "rank": 16,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.003550661483910016,
@@ -130,7 +138,7 @@
       "commit_sha": "cdb251d978f99f8654f340eb9f29dfbb202b028b"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.003369486693509137,
@@ -138,7 +146,7 @@
       "timestamp": "2026-06-04T15:48:00.049844+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.003133980124079345,
@@ -147,7 +155,7 @@
       "commit_sha": "e8f67100518f1fdf0123fc8298ee36f3a1065aba"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0027183629557675786,
@@ -155,7 +163,7 @@
       "timestamp": "2026-05-21T07:32:26.096127+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "888",
       "github": "RuixiZhang03/888-op-gen",
       "score": 0.0023048565128820035,
@@ -163,7 +171,7 @@
       "timestamp": "2026-06-10T06:12:51.699149+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "提示词大师",
       "github": "Fly-61/openoperator-start-kit-fly--",
       "score": 0.0021966117122713767,
@@ -171,7 +179,7 @@
       "timestamp": "2026-06-11T01:38:40.396157+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.001773789164494001,
@@ -179,5 +187,5 @@
       "timestamp": "2026-05-18T14:47:21.500105+00:00"
     }
   ],
-  "last_updated": "2026-06-12T08:44:48.573970+00:00"
+  "last_updated": "2026-06-12T09:25:24.904854+00:00"
 }

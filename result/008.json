@@ -224,6 +224,14 @@
     },
     {
       "rank": 27,
+      "user": "team_9",
+      "github": "ghfSlience/BangC",
+      "score": 0.0003363477582190671,
+      "latency": 3573488.9578695097,
+      "timestamp": "2026-06-12T09:22:00.800261+00:00"
+    },
+    {
+      "rank": 28,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.00014702623925098165,
@@ -231,7 +239,7 @@
       "timestamp": "2026-05-18T14:29:10.286439+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 4.548882752853897e-05,
@@ -240,5 +248,5 @@
       "commit_sha": "6fe6af9e730b4765109f623c5ba0056cf21ce301"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.272545+00:00"
+  "last_updated": "2026-06-12T09:25:24.904061+00:00"
 }
