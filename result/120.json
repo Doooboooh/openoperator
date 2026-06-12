@@ -214,6 +214,14 @@
     },
     {
       "rank": 26,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.00187160807853775,
+      "latency": 278950.4950245221,
+      "timestamp": "2026-06-12T15:59:00.244213+00:00"
+    },
+    {
+      "rank": 27,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0018700210768569786,
@@ -222,20 +230,12 @@
       "commit_sha": "1554f638953bc3b0fe31d4fe036cc411246ed528"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 0.0018491760225248762,
       "latency": 282334.3984782696,
       "timestamp": "2026-06-12T09:15:26.062839+00:00"
-    },
-    {
-      "rank": 28,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.0018433866009458632,
-      "latency": 283221.11039112014,
-      "timestamp": "2026-06-12T15:46:33.576676+00:00"
     },
     {
       "rank": 29,
@@ -262,5 +262,5 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     }
   ],
-  "last_updated": "2026-06-12T15:50:20.333950+00:00"
+  "last_updated": "2026-06-12T16:00:32.206738+00:00"
 }

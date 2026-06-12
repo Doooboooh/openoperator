@@ -170,19 +170,19 @@
     },
     {
       "rank": 21,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.0052165801033078755,
+      "latency": 17736.907737950485,
+      "timestamp": "2026-06-12T15:59:00.244213+00:00"
+    },
+    {
+      "rank": 22,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.005175106394522338,
       "latency": 17879.05270854632,
       "timestamp": "2026-06-05T08:58:31.389714+00:00"
-    },
-    {
-      "rank": 22,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.005153064763739015,
-      "latency": 17955.528261760872,
-      "timestamp": "2026-06-12T15:46:33.576676+00:00"
     },
     {
       "rank": 23,
@@ -217,5 +217,5 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     }
   ],
-  "last_updated": "2026-06-12T15:55:26.405362+00:00"
+  "last_updated": "2026-06-12T16:00:32.205994+00:00"
 }
