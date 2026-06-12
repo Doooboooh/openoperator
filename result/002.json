@@ -498,6 +498,14 @@
     },
     {
       "rank": 60,
+      "user": "二十八组",
+      "github": "dh-Unicorn/team_28",
+      "score": 0.30230790420478343,
+      "latency": 27372.327633202076,
+      "timestamp": "2026-06-12T13:00:24.409401+00:00"
+    },
+    {
+      "rank": 61,
       "user": "team_29",
       "github": "duroey/openoperator-basic",
       "score": 0.2961247802589293,
@@ -506,7 +514,7 @@
       "commit_sha": "b6c59d3731358837ab8e80e9a6424ae9aa7f6ecf"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "user": "智算第五组",
       "github": "oops-debug/BangC05",
       "score": 0.2650531146611488,
@@ -514,7 +522,7 @@
       "timestamp": "2026-05-21T08:09:23.396123+00:00"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "user": "team_38",
       "github": "Godel-June/ICS_Team9",
       "score": 0.20715547466152928,
@@ -523,7 +531,7 @@
       "commit_sha": "36b12293e02f35cbe28028a710a4e18b5ba99833"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "user": "team_14",
       "github": "snowballOUO/BangC-Operator-Competition",
       "score": 0.20005530082748574,
@@ -531,7 +539,7 @@
       "timestamp": "2026-06-11T02:46:30.193408+00:00"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "user": "team_95",
       "github": "GrassedgeT/ics-playground",
       "score": 0.1978694252302847,
@@ -539,21 +547,13 @@
       "timestamp": "2026-05-31T13:49:59.037584+00:00"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "user": "team_24",
       "github": "wysqwysq/bangc_55",
       "score": 0.19181910238237102,
       "latency": 43138.93088450035,
       "timestamp": "2026-05-18T07:04:56.360733+00:00",
       "commit_sha": "41d911f5294d00d95a0ba63536015f43135f144e"
-    },
-    {
-      "rank": 66,
-      "user": "二十八组",
-      "github": "dh-Unicorn/team_28",
-      "score": 0.18084197809175862,
-      "latency": 45757.46785849333,
-      "timestamp": "2026-06-11T06:21:25.768750+00:00"
     },
     {
       "rank": 67,
@@ -751,5 +751,5 @@
       "timestamp": "2026-06-10T07:25:55.674674+00:00"
     }
   ],
-  "last_updated": "2026-06-12T08:59:59.005600+00:00"
+  "last_updated": "2026-06-12T13:02:30.797143+00:00"
 }

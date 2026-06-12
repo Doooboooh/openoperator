@@ -502,6 +502,14 @@
     },
     {
       "rank": 61,
+      "user": "二十八组",
+      "github": "dh-Unicorn/team_28",
+      "score": 0.000986481947256268,
+      "latency": 72818.36246450742,
+      "timestamp": "2026-06-12T13:00:24.409401+00:00"
+    },
+    {
+      "rank": 62,
       "user": "team_26",
       "github": "Hanjinghui25/openoperator-start",
       "score": 0.0009758411808419688,
@@ -509,7 +517,7 @@
       "timestamp": "2026-05-20T08:46:19.408236+00:00"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0009637419271621825,
@@ -517,7 +525,7 @@
       "timestamp": "2026-06-09T11:09:39.483114+00:00"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0009585255233556244,
@@ -526,21 +534,13 @@
       "commit_sha": "75eb43a6060651bded303d3487e51c737b30a94e"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.0009490839448820243,
       "latency": 75687.72012988727,
       "timestamp": "2026-05-18T06:16:18.903500+00:00",
       "commit_sha": "e934573bc4dffb730f3812ba97f75d0280a46c9b"
-    },
-    {
-      "rank": 65,
-      "user": "二十八组",
-      "github": "dh-Unicorn/team_28",
-      "score": 0.0009442934011006012,
-      "latency": 76071.69542461634,
-      "timestamp": "2026-06-11T14:51:47.479462+00:00"
     },
     {
       "rank": 66,
@@ -699,5 +699,5 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     }
   ],
-  "last_updated": "2026-06-12T09:40:39.591027+00:00"
+  "last_updated": "2026-06-12T13:02:30.788184+00:00"
 }
