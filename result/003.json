@@ -288,6 +288,14 @@
     },
     {
       "rank": 35,
+      "user": "二十六组",
+      "github": "zhcsyyy/openoperator_26",
+      "score": 0.006194375733757599,
+      "latency": 5803.167509535949,
+      "timestamp": "2026-06-12T08:50:03.347516+00:00"
+    },
+    {
+      "rank": 36,
       "user": "team_67",
       "github": "Auro-sol/BangC68",
       "score": 0.006111297729068601,
@@ -296,7 +304,7 @@
       "commit_sha": "cfb0d05df9f8299c507a5f7c3bcc806445cf3bb3"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0060635761945695855,
@@ -305,7 +313,7 @@
       "commit_sha": "713f98a551ec17c0ae58ac01158f62398602b748"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "user": "算不懂",
       "github": "caozhining/suanbudong_openoperator",
       "score": 0.00604445454334197,
@@ -314,7 +322,7 @@
       "commit_sha": "e934573bc4dffb730f3812ba97f75d0280a46c9b"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "user": "NPC组",
       "github": "zfgincau/openoperator-start-kit",
       "score": 0.006012642434126342,
@@ -322,7 +330,7 @@
       "timestamp": "2026-06-11T03:39:01.457679+00:00"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "user": "team_80",
       "github": "MariyaSuwako/openoperator-start-kit",
       "score": 0.005994591412510599,
@@ -330,7 +338,7 @@
       "timestamp": "2026-06-08T13:01:43.005226+00:00"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.005989462653348577,
@@ -338,7 +346,7 @@
       "timestamp": "2026-06-04T13:46:15.743950+00:00"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "user": "888",
       "github": "RuixiZhang03/888-op-gen",
       "score": 0.005987235501078462,
@@ -347,20 +355,12 @@
       "commit_sha": "4d518fd06146d710d38897ddd730fcf1be3ec9c8"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "user": "team_98",
       "github": "LSY839/bangc-competition",
       "score": 0.005972032635770809,
       "latency": 6019.223636637132,
       "timestamp": "2026-05-18T15:00:12.780986+00:00"
-    },
-    {
-      "rank": 43,
-      "user": "二十六组",
-      "github": "zhcsyyy/openoperator_26",
-      "score": 0.005934998424777111,
-      "latency": 6056.783410410087,
-      "timestamp": "2026-06-12T04:04:24.737433+00:00"
     },
     {
       "rank": 44,
@@ -724,5 +724,5 @@
       "timestamp": "2026-06-11T08:00:36.272022+00:00"
     }
   ],
-  "last_updated": "2026-06-12T06:27:41.334526+00:00"
+  "last_updated": "2026-06-12T08:54:54.077936+00:00"
 }

@@ -71,6 +71,14 @@
     },
     {
       "rank": 9,
+      "user": "team_9",
+      "github": "ghfSlience/BangC",
+      "score": 0.010013180862599237,
+      "latency": 2302.2654155890145,
+      "timestamp": "2026-06-12T08:52:57.482373+00:00"
+    },
+    {
+      "rank": 10,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.009992078047807265,
@@ -78,7 +86,7 @@
       "timestamp": "2026-06-01T15:27:06.215334+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 0.00997115771538923,
@@ -86,7 +94,7 @@
       "timestamp": "2026-05-28T15:29:13.765978+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.00981364126796008,
@@ -94,7 +102,7 @@
       "timestamp": "2026-06-01T00:57:01.625787+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.009677100018324468,
@@ -103,7 +111,7 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.00967058463565818,
@@ -112,7 +120,7 @@
       "commit_sha": "8e360ec462fad2c90f60fa986ec2431e192219e5"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.009634388760166758,
@@ -120,7 +128,7 @@
       "timestamp": "2026-06-12T01:12:15.079995+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.009487857805003903,
@@ -128,7 +136,7 @@
       "timestamp": "2026-06-12T03:37:32.183771+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.009446999065211202,
@@ -137,20 +145,12 @@
       "commit_sha": "209ef8470eb2725e187f203aba1cb369078376f1"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.009326606942435178,
       "latency": 2471.74563507239,
       "timestamp": "2026-06-05T08:58:31.389714+00:00"
-    },
-    {
-      "rank": 18,
-      "user": "team_9",
-      "github": "ghfSlience/BangC",
-      "score": 0.009297288322832227,
-      "latency": 2479.5401841402054,
-      "timestamp": "2026-06-12T08:33:01.849752+00:00"
     },
     {
       "rank": 19,
@@ -249,5 +249,5 @@
       "timestamp": "2026-06-01T05:33:27.522803+00:00"
     }
   ],
-  "last_updated": "2026-06-12T08:34:36.521604+00:00"
+  "last_updated": "2026-06-12T08:54:54.086423+00:00"
 }
