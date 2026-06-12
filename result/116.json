@@ -138,6 +138,14 @@
     },
     {
       "rank": 17,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.004759892526123369,
+      "latency": 75168.92409572999,
+      "timestamp": "2026-06-12T14:52:53.087736+00:00"
+    },
+    {
+      "rank": 18,
       "user": "智算第十组",
       "github": "koross49/openoperator-start-kit",
       "score": 0.004698073302143486,
@@ -145,7 +153,7 @@
       "timestamp": "2026-06-01T19:51:40.608455+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.004621975086286552,
@@ -154,7 +162,7 @@
       "commit_sha": "15abd1031bc938b1c91abfe3ef8a11711196baca"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.004589210213933204,
@@ -162,7 +170,7 @@
       "timestamp": "2026-06-02T08:54:56.348489+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.004582632051172058,
@@ -170,7 +178,7 @@
       "timestamp": "2026-06-11T13:41:13.747979+00:00"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.004541856668123431,
@@ -178,7 +186,7 @@
       "timestamp": "2026-06-04T11:20:10.086973+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_82",
       "github": "Xdddyy/openoperator-25",
       "score": 0.003646178774953359,
@@ -186,7 +194,7 @@
       "timestamp": "2026-06-09T09:18:35.630912+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0035963376761016575,
@@ -195,7 +203,7 @@
       "commit_sha": "ab2b51f4fc8f07580e8f84852517b4f29dfca3c6"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.000588739131991487,
@@ -203,5 +211,5 @@
       "timestamp": "2026-06-01T00:57:01.625787+00:00"
     }
   ],
-  "last_updated": "2026-06-12T06:27:41.348656+00:00"
+  "last_updated": "2026-06-12T14:54:18.836891+00:00"
 }
