@@ -30,6 +30,14 @@
     },
     {
       "rank": 4,
+      "user": "二十五组",
+      "github": "cotangents/openoperator-start-kit-team25",
+      "score": 0.8459459096590982,
+      "latency": 7226.434846719106,
+      "timestamp": "2026-06-12T16:21:36.899538+00:00"
+    },
+    {
+      "rank": 5,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.571026228452052,
@@ -37,7 +45,7 @@
       "timestamp": "2026-06-11T17:24:34.770963+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.5520253999677691,
@@ -45,7 +53,7 @@
       "timestamp": "2026-05-25T07:12:50.596267+00:00"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.5425972531242721,
@@ -53,7 +61,7 @@
       "timestamp": "2026-06-10T01:43:14.371608+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.5318878778914236,
@@ -62,7 +70,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.17033349079084364,
@@ -71,7 +79,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.16254387548241586,
@@ -79,7 +87,7 @@
       "timestamp": "2026-06-04T16:23:40.208703+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "888",
       "github": "RuixiZhang03/888-op-gen",
       "score": 0.0757068074966275,
@@ -87,7 +95,7 @@
       "timestamp": "2026-06-10T15:05:08.532342+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.01767739716542891,
@@ -95,7 +103,7 @@
       "timestamp": "2026-05-21T02:00:55.145534+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.01706607237581794,
@@ -103,7 +111,7 @@
       "timestamp": "2026-06-10T08:07:44.636803+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.010900673778962524,
@@ -111,7 +119,7 @@
       "timestamp": "2026-06-02T15:19:35.515712+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.0062600485184377535,
@@ -119,7 +127,7 @@
       "timestamp": "2026-06-01T06:55:57.691031+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.004070382451186368,
@@ -127,7 +135,7 @@
       "timestamp": "2026-06-09T16:25:15.167626+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0015998029454731286,
@@ -135,7 +143,7 @@
       "timestamp": "2026-05-31T03:02:34.850402+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0004610886829849621,
@@ -143,7 +151,7 @@
       "timestamp": "2026-06-11T03:06:14.745270+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.00012499329886288304,
@@ -151,7 +159,7 @@
       "timestamp": "2026-06-08T20:39:36.436504+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "二十组",
       "github": "ujsq/bangc-kernel-competition",
       "score": 6.764092389882541e-05,
@@ -159,7 +167,7 @@
       "timestamp": "2026-06-09T13:07:45.661063+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "提示词大师",
       "github": "Fly-61/openoperator-start-kit-fly--",
       "score": 5.083765355127575e-05,
@@ -167,5 +175,5 @@
       "timestamp": "2026-06-11T02:46:30.607406+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.278278+00:00"
+  "last_updated": "2026-06-12T16:25:58.930837+00:00"
 }

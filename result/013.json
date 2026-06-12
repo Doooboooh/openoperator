@@ -22,6 +22,14 @@
     },
     {
       "rank": 3,
+      "user": "二十五组",
+      "github": "cotangents/openoperator-start-kit-team25",
+      "score": 0.9265109640491065,
+      "latency": 2435.7574681440988,
+      "timestamp": "2026-06-12T16:21:36.899538+00:00"
+    },
+    {
+      "rank": 4,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 0.40094642352792237,
@@ -30,7 +38,7 @@
       "commit_sha": "1b9b9b02523afd886f173fc2eb51a72d9ebe224c"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.3528836630912627,
@@ -38,7 +46,7 @@
       "timestamp": "2026-06-11T17:24:34.770963+00:00"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.21228227544042083,
@@ -47,7 +55,7 @@
       "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.2059788797150909,
@@ -55,7 +63,7 @@
       "timestamp": "2026-06-04T16:23:40.208703+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.033911306431677314,
@@ -64,7 +72,7 @@
       "commit_sha": "8c2e89390ca0035acb7329a022ecddfb56227058"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.02415258481591614,
@@ -72,7 +80,7 @@
       "timestamp": "2026-05-29T07:40:47.205581+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.02337201898937288,
@@ -80,7 +88,7 @@
       "timestamp": "2026-05-28T16:22:08.875555+00:00"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.01631608892900799,
@@ -88,7 +96,7 @@
       "timestamp": "2026-06-10T04:15:19.842681+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.01608218127487935,
@@ -97,7 +105,7 @@
       "commit_sha": "8f4e017b5da6c96e3e54c3e1e57391e8b1643d1c"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.010659761792491703,
@@ -105,7 +113,7 @@
       "timestamp": "2026-06-02T15:38:18.425049+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.002803203887991008,
@@ -113,7 +121,7 @@
       "timestamp": "2026-06-03T16:08:24.958479+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.0013828964410174732,
@@ -121,7 +129,7 @@
       "timestamp": "2026-05-31T03:02:34.850402+00:00"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.0008694798188583168,
@@ -129,7 +137,7 @@
       "timestamp": "2026-06-10T16:50:43.307763+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.0002500926686108686,
@@ -137,7 +145,7 @@
       "timestamp": "2026-06-08T18:51:11.781168+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "提示词大师",
       "github": "Fly-61/openoperator-start-kit-fly--",
       "score": 6.268186385805623e-05,
@@ -145,7 +153,7 @@
       "timestamp": "2026-06-11T02:15:43.489204+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "888",
       "github": "RuixiZhang03/888-op-gen",
       "score": 3.0799236086793033e-05,
@@ -153,5 +161,5 @@
       "timestamp": "2026-06-11T02:00:00.900621+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.231131+00:00"
+  "last_updated": "2026-06-12T16:25:58.922609+00:00"
 }

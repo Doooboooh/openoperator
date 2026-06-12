@@ -171,19 +171,19 @@
     },
     {
       "rank": 21,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.008327611915920442,
+      "latency": 3964.521922171116,
+      "timestamp": "2026-06-12T16:21:55.622055+00:00"
+    },
+    {
+      "rank": 22,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition-p",
       "score": 0.008054961835477208,
       "latency": 4098.715881506602,
       "timestamp": "2026-06-10T13:52:43.138493+00:00"
-    },
-    {
-      "rank": 22,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.00791254559406166,
-      "latency": 4172.487805287044,
-      "timestamp": "2026-06-12T14:02:39.684428+00:00"
     },
     {
       "rank": 23,
@@ -251,5 +251,5 @@
       "timestamp": "2026-06-11T05:37:46.683051+00:00"
     }
   ],
-  "last_updated": "2026-06-12T16:20:53.852342+00:00"
+  "last_updated": "2026-06-12T16:25:58.923213+00:00"
 }
