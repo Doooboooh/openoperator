@@ -602,6 +602,14 @@
     },
     {
       "rank": 73,
+      "user": "team_43",
+      "github": "Demoxxy/smart_openoperator-start-kit",
+      "score": 0.0012261164280714136,
+      "latency": 29317.77046372493,
+      "timestamp": "2026-06-12T01:08:32.567486+00:00"
+    },
+    {
+      "rank": 74,
       "user": "team_82",
       "github": "Xdddyy/openoperator-25",
       "score": 0.0012112339557204918,
@@ -609,7 +617,7 @@
       "timestamp": "2026-06-09T09:05:04.121689+00:00"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "user": "提示词大师",
       "github": "Fly-61/openoperator-start-kit-fly--",
       "score": 0.0012047607291052031,
@@ -617,20 +625,12 @@
       "timestamp": "2026-06-10T14:40:23.682202+00:00"
     },
     {
-      "rank": 75,
+      "rank": 76,
       "user": "team_44",
       "github": "ISCAS-LXC/SBangC",
       "score": 0.0011949522012686784,
       "latency": 30082.374811172485,
       "timestamp": "2026-06-01T06:09:53.959393+00:00"
-    },
-    {
-      "rank": 76,
-      "user": "team_43",
-      "github": "Demoxxy/smart_openoperator-start-kit",
-      "score": 0.001192843081551414,
-      "latency": 30135.56481649478,
-      "timestamp": "2026-06-11T18:40:43.049314+00:00"
     },
     {
       "rank": 77,
@@ -700,5 +700,5 @@
       "timestamp": "2026-06-11T08:00:36.272022+00:00"
     }
   ],
-  "last_updated": "2026-06-11T18:46:08.840386+00:00"
+  "last_updated": "2026-06-12T01:13:24.095899+00:00"
 }
