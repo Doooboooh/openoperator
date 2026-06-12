@@ -104,6 +104,14 @@
     },
     {
       "rank": 13,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 3.575850848545344,
+      "latency": 2218.2253499825797,
+      "timestamp": "2026-06-12T11:10:09.710746+00:00"
+    },
+    {
+      "rank": 14,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 3.5739869284242745,
@@ -112,7 +120,7 @@
       "commit_sha": "be1bf3d864a6c4c3ed194e5124dd4be8757efed6"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "team_70",
       "github": "SilWhite/ICS-Competition",
       "score": 3.520579641541722,
@@ -121,7 +129,7 @@
       "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 3.5058783081239313,
@@ -129,7 +137,7 @@
       "timestamp": "2026-05-29T08:59:46.592381+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 3.470871307010696,
@@ -137,7 +145,7 @@
       "timestamp": "2026-06-03T11:29:55.821392+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 3.4676415562742524,
@@ -146,7 +154,7 @@
       "commit_sha": "209267b3065e0fa56e77d8c9eda5810242c10271"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "十五组",
       "github": "fengjin1126/BangC15",
       "score": 3.444241041561064,
@@ -154,7 +162,7 @@
       "timestamp": "2026-06-09T01:43:55.428766+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 3.422008075735187,
@@ -162,7 +170,7 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "cuda组",
       "github": "AICS-2025-63H/openoperator",
       "score": 2.9826751724899507,
@@ -171,7 +179,7 @@
       "commit_sha": "55b30331cca73c1347cb94835c265143dc404e70"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "二十一组",
       "github": "ouligei6666/y-team-21-openoperator-start-kit",
       "score": 1.9210149275727142,
@@ -179,7 +187,7 @@
       "timestamp": "2026-05-29T12:11:39.984178+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "888",
       "github": "RuixiZhang03/888-op-gen",
       "score": 1.9031035552521758,
@@ -187,7 +195,7 @@
       "timestamp": "2026-06-09T04:29:35.150750+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "NPC组",
       "github": "zfgincau/openoperator-start-kit",
       "score": 0.8478441974223954,
@@ -195,5 +203,5 @@
       "timestamp": "2026-06-11T05:37:46.683051+00:00"
     }
   ],
-  "last_updated": "2026-06-12T05:01:36.854144+00:00"
+  "last_updated": "2026-06-12T11:11:18.838498+00:00"
 }
