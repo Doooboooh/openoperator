@@ -81,6 +81,14 @@
     },
     {
       "rank": 10,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.07724807488197559,
+      "latency": 2290.84026068449,
+      "timestamp": "2026-06-12T11:16:36.896771+00:00"
+    },
+    {
+      "rank": 11,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.07706814369952983,
@@ -88,7 +96,7 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.07550200020060163,
@@ -96,7 +104,7 @@
       "timestamp": "2026-05-31T13:16:19.101893+00:00"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "user": "team_27",
       "github": "JerryLiu369/openoperator-start-kit-theory",
       "score": 0.07481445251342679,
@@ -104,20 +112,12 @@
       "timestamp": "2026-06-08T13:19:51.016191+00:00"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.07416819024957584,
       "latency": 2385.9689633051553,
       "timestamp": "2026-05-31T07:56:11.547301+00:00"
-    },
-    {
-      "rank": 14,
-      "user": "提示词大师",
-      "github": "Fly-61/openoperator-start-kit-fly--",
-      "score": 0.07404192173631312,
-      "latency": 2390.0379116336503,
-      "timestamp": "2026-06-12T11:15:25.131553+00:00"
     },
     {
       "rank": 15,
@@ -211,5 +211,5 @@
       "timestamp": "2026-06-02T00:49:42.638722+00:00"
     }
   ],
-  "last_updated": "2026-06-12T11:16:23.496849+00:00"
+  "last_updated": "2026-06-12T11:21:28.540932+00:00"
 }
