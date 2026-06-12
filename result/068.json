@@ -47,6 +47,14 @@
     },
     {
       "rank": 6,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 3.90789185241617,
+      "latency": 2029.7498752673466,
+      "timestamp": "2026-06-12T16:25:59.173191+00:00"
+    },
+    {
+      "rank": 7,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 3.799981224826835,
@@ -54,7 +62,7 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "user": "不懂算子",
       "github": "HeiHuDie/openoperator-competition",
       "score": 3.774004457688259,
@@ -62,20 +70,12 @@
       "timestamp": "2026-05-29T18:57:46.468729+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 3.750395239088356,
       "latency": 2114.988553027312,
       "timestamp": "2026-06-11T17:24:34.770963+00:00"
-    },
-    {
-      "rank": 9,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 3.7189183170295137,
-      "latency": 2132.8898146748543,
-      "timestamp": "2026-06-12T16:21:55.622055+00:00"
     },
     {
       "rank": 10,
@@ -219,5 +219,5 @@
       "timestamp": "2026-06-11T05:37:46.683051+00:00"
     }
   ],
-  "last_updated": "2026-06-12T16:25:58.962509+00:00"
+  "last_updated": "2026-06-12T16:31:04.552182+00:00"
 }
