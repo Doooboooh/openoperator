@@ -179,6 +179,14 @@
     },
     {
       "rank": 22,
+      "user": "team_9",
+      "github": "ghfSlience/BangC",
+      "score": 0.004127673230568344,
+      "latency": 12689.958016077677,
+      "timestamp": "2026-06-12T08:33:01.849752+00:00"
+    },
+    {
+      "rank": 23,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0036392651030532895,
@@ -187,7 +195,7 @@
       "commit_sha": "11add0f23180092f5d1f3c1d42b87490183a46b4"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.002289401853583066,
@@ -195,7 +203,7 @@
       "timestamp": "2026-06-10T17:29:42.906086+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0019303592608131653,
@@ -203,7 +211,7 @@
       "timestamp": "2026-06-11T14:38:14.383012+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_75",
       "github": "Jiaqi7zzz/operator-31",
       "score": 0.001684616023608536,
@@ -211,7 +219,7 @@
       "timestamp": "2026-06-08T13:24:00.846397+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.000981540777909846,
@@ -219,7 +227,7 @@
       "timestamp": "2026-06-11T16:03:15.027004+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.00026347348232459147,
@@ -227,7 +235,7 @@
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.0002629504463189327,
@@ -235,7 +243,7 @@
       "timestamp": "2026-06-04T02:12:45.943106+00:00"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "user": "提示词大师",
       "github": "Fly-61/openoperator-start-kit-fly--",
       "score": 0.00024121316773489156,
@@ -243,5 +251,5 @@
       "timestamp": "2026-06-12T07:54:53.591200+00:00"
     }
   ],
-  "last_updated": "2026-06-12T07:59:02.617840+00:00"
+  "last_updated": "2026-06-12T08:34:36.512788+00:00"
 }
