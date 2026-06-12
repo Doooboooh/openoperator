@@ -106,6 +106,15 @@
     },
     {
       "rank": 13,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.01653843084379525,
+      "latency": 2553.5070647795997,
+      "timestamp": "2026-06-12T04:55:47.479370+00:00",
+      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
+    },
+    {
+      "rank": 14,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.016534842615243787,
@@ -113,7 +122,7 @@
       "timestamp": "2026-06-05T02:36:18.099498+00:00"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "user": "智算第八组",
       "github": "beiwenziyao/BANGC08",
       "score": 0.01652350219860368,
@@ -122,7 +131,7 @@
       "commit_sha": "e5381a5a9ca091bc7be5762a67f35e70a5f40aba"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "user": "team_65",
       "github": "imczxx/ICS_45Team",
       "score": 0.016494910578285473,
@@ -130,7 +139,7 @@
       "timestamp": "2026-06-08T13:58:24.893622+00:00"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "user": "二十七组",
       "github": "zhangmuxiang/27_openoperator-start-kit",
       "score": 0.016377270838122675,
@@ -138,7 +147,7 @@
       "timestamp": "2026-06-10T17:47:00.764821+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "十八组",
       "github": "Napiercc/BangC18",
       "score": 0.016248783724270046,
@@ -146,7 +155,7 @@
       "timestamp": "2026-06-03T16:03:17.335584+00:00"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "user": "不知道叫什么名字组",
       "github": "luoluoluoluoli/Luoluoli_ice1",
       "score": 0.016166256524442632,
@@ -154,7 +163,7 @@
       "timestamp": "2026-05-29T09:15:56.512630+00:00"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "user": "智算第十一组",
       "github": "liuyitongnetizen/BangC11",
       "score": 0.016019475165888572,
@@ -162,7 +171,7 @@
       "timestamp": "2026-05-19T07:22:21.979717+00:00"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.015946939288180206,
@@ -171,7 +180,7 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "智算第六组",
       "github": "niuma-li/BangC06",
       "score": 0.015891397258146183,
@@ -179,7 +188,7 @@
       "timestamp": "2026-05-20T10:00:06.258766+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_4",
       "github": "wangyongping1/ICS-53TEAM",
       "score": 0.01583435230520555,
@@ -187,7 +196,7 @@
       "timestamp": "2026-06-03T08:39:36.558294+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "十六组",
       "github": "Cek2001/BangC16",
       "score": 0.014977872996631302,
@@ -195,21 +204,12 @@
       "timestamp": "2026-05-31T14:31:27.041236+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_95",
       "github": "GrassedgeT/ics-playground",
       "score": 0.014891015097843087,
       "latency": 2836.0054517785707,
       "timestamp": "2026-06-10T16:33:17.498015+00:00"
-    },
-    {
-      "rank": 25,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.014839727355101449,
-      "latency": 2845.8070009946823,
-      "timestamp": "2026-06-03T16:06:07.773862+00:00",
-      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
       "rank": 26,
@@ -659,5 +659,5 @@
       "commit_sha": "9e94283d3efcedb500bc2334ef54cb37288ebc27"
     }
   ],
-  "last_updated": "2026-06-12T03:45:21.892313+00:00"
+  "last_updated": "2026-06-12T05:01:36.838958+00:00"
 }

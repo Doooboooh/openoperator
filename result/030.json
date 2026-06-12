@@ -30,6 +30,15 @@
     },
     {
       "rank": 4,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.49928668111049684,
+      "latency": 2355.3362116217613,
+      "timestamp": "2026-06-12T04:55:47.479370+00:00",
+      "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
+    },
+    {
+      "rank": 5,
       "user": "team_90",
       "github": "sleepy3dog/AICS-38",
       "score": 0.49289271178202354,
@@ -38,21 +47,12 @@
       "commit_sha": "0341c165f3c6454e3e29c5f79646bbc38ca22ac6"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "user": "team_25",
       "github": "zion-zion-zion/openoperator-start-kit",
       "score": 0.4922449242608393,
       "latency": 2389.0302206079164,
       "timestamp": "2026-06-09T10:07:42.531987+00:00"
-    },
-    {
-      "rank": 6,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.4868207942307094,
-      "latency": 2415.6486615538597,
-      "timestamp": "2026-05-18T09:16:37.878376+00:00",
-      "commit_sha": "e138f9dce6805191ae3acfdc7c91702daf24d103"
     },
     {
       "rank": 7,
@@ -275,5 +275,5 @@
       "timestamp": "2026-06-08T12:16:16.869059+00:00"
     }
   ],
-  "last_updated": "2026-06-11T23:12:42.358167+00:00"
+  "last_updated": "2026-06-12T05:01:36.832218+00:00"
 }

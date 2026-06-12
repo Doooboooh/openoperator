@@ -22,21 +22,21 @@
     },
     {
       "rank": 3,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.03473976984925572,
+      "latency": 1996.2135702371597,
+      "timestamp": "2026-06-12T04:55:47.479370+00:00",
+      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
+    },
+    {
+      "rank": 4,
       "user": "team_55",
       "github": "geotle77/AICS-BangC_Game-17",
       "score": 0.03413661612606487,
       "latency": 2031.484308342139,
       "timestamp": "2026-06-04T20:32:35.623271+00:00",
       "commit_sha": "43705b291e08b64b414a6211d4962507fb1fc28c"
-    },
-    {
-      "rank": 4,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.03333044033528594,
-      "latency": 2080.6205769379935,
-      "timestamp": "2026-06-03T15:49:52.963485+00:00",
-      "commit_sha": "14cee49804ac595b52e7a9a34fafba505e1406b1"
     },
     {
       "rank": 5,
@@ -228,5 +228,5 @@
       "commit_sha": "d15f03b46e5577176f5b85845274f8658b2db995"
     }
   ],
-  "last_updated": "2026-06-11T14:41:51.230593+00:00"
+  "last_updated": "2026-06-12T05:01:36.843125+00:00"
 }

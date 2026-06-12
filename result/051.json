@@ -203,6 +203,14 @@
     },
     {
       "rank": 25,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.01120795954362902,
+      "latency": 4248.766228556633,
+      "timestamp": "2026-06-12T04:55:47.479370+00:00"
+    },
+    {
+      "rank": 26,
       "user": "team_77",
       "github": "Atopos666/BangC_Team41",
       "score": 0.011191858948619512,
@@ -210,7 +218,7 @@
       "timestamp": "2026-06-10T09:47:04.596926+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.011102487713681518,
@@ -218,21 +226,13 @@
       "timestamp": "2026-05-28T17:20:31.322859+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "team_48",
       "github": "zhangxingyin/ICS_18Team",
       "score": 0.011011399447511786,
       "latency": 4324.60925852259,
       "timestamp": "2026-05-18T07:49:33.567047+00:00",
       "commit_sha": "5e5defc3845a0947e04ff4e1ba329a5618ee31b1"
-    },
-    {
-      "rank": 28,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.010975462704306205,
-      "latency": 4338.769242167473,
-      "timestamp": "2026-06-03T16:06:07.773862+00:00"
     },
     {
       "rank": 29,
@@ -607,5 +607,5 @@
       "timestamp": "2026-05-31T09:21:20.668509+00:00"
     }
   ],
-  "last_updated": "2026-06-12T04:00:37.995652+00:00"
+  "last_updated": "2026-06-12T05:01:36.824567+00:00"
 }

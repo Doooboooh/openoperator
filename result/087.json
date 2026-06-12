@@ -131,6 +131,15 @@
     },
     {
       "rank": 16,
+      "user": "team_70",
+      "github": "SilWhite/ICS-Competition",
+      "score": 0.08204918203412592,
+      "latency": 2589.056889216105,
+      "timestamp": "2026-06-12T04:55:47.479370+00:00",
+      "commit_sha": "92eb6ed43e61fc96bab02af348c0df0dac386c1e"
+    },
+    {
+      "rank": 17,
       "user": "team_2",
       "github": "HT1108/BangcOperator",
       "score": 0.08041327044636869,
@@ -138,21 +147,12 @@
       "timestamp": "2026-06-05T09:22:16.423070+00:00"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.08038724492134904,
       "latency": 2642.583412428697,
       "timestamp": "2026-06-11T17:24:34.770963+00:00"
-    },
-    {
-      "rank": 18,
-      "user": "team_70",
-      "github": "SilWhite/ICS-Competition",
-      "score": 0.07998240734196463,
-      "latency": 2655.9590672453246,
-      "timestamp": "2026-05-19T22:50:34.965600+00:00",
-      "commit_sha": "92eb6ed43e61fc96bab02af348c0df0dac386c1e"
     },
     {
       "rank": 19,
@@ -292,5 +292,5 @@
       "commit_sha": "dbcb65d4c0c25cf901b77cfa5a55adb1b97df1a1"
     }
   ],
-  "last_updated": "2026-06-12T03:50:27.976844+00:00"
+  "last_updated": "2026-06-12T05:01:36.848587+00:00"
 }
