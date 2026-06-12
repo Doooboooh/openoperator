@@ -163,6 +163,14 @@
     },
     {
       "rank": 20,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.05588192917903214,
+      "latency": 3833.9048624038696,
+      "timestamp": "2026-06-12T09:18:10.022836+00:00"
+    },
+    {
+      "rank": 21,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0511656900664933,
@@ -171,7 +179,7 @@
       "commit_sha": "281ae1e48a0cbbda06b99f61b33bf9968b20da58"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.04071948935181394,
@@ -179,7 +187,7 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.03961946741585159,
@@ -187,7 +195,7 @@
       "timestamp": "2026-06-10T13:56:45.940041+00:00"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "user": "三十二组",
       "github": "zhengbanlinyi/BangC32",
       "score": 0.027172169052013844,
@@ -195,7 +203,7 @@
       "timestamp": "2026-06-12T06:22:15.171105+00:00"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.020303901044391025,
@@ -203,7 +211,7 @@
       "timestamp": "2026-06-04T08:41:37.052522+00:00"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.011925630666275444,
@@ -211,5 +219,5 @@
       "timestamp": "2026-06-11T16:18:50.214264+00:00"
     }
   ],
-  "last_updated": "2026-06-12T06:27:41.339093+00:00"
+  "last_updated": "2026-06-12T09:20:19.839223+00:00"
 }
