@@ -253,19 +253,19 @@
     },
     {
       "rank": 31,
+      "user": "当家作组",
+      "github": "xiunianjun/openoperator-start-kit",
+      "score": 0.0034102143109720853,
+      "latency": 8483.924282093843,
+      "timestamp": "2026-06-12T16:08:18.872286+00:00"
+    },
+    {
+      "rank": 32,
       "user": "team_9",
       "github": "ghfSlience/BangC",
       "score": 0.003406327189368614,
       "latency": 8493.605690697828,
       "timestamp": "2026-06-12T06:27:51.012801+00:00"
-    },
-    {
-      "rank": 32,
-      "user": "当家作组",
-      "github": "xiunianjun/openoperator-start-kit",
-      "score": 0.003384350044573929,
-      "latency": 8548.761097093424,
-      "timestamp": "2026-06-12T05:18:41.452295+00:00"
     },
     {
       "rank": 33,
@@ -326,5 +326,5 @@
       "timestamp": "2026-06-03T16:57:29.481134+00:00"
     }
   ],
-  "last_updated": "2026-06-12T12:06:56.595340+00:00"
+  "last_updated": "2026-06-12T16:10:42.599035+00:00"
 }
