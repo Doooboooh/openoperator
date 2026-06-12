@@ -204,6 +204,14 @@
     },
     {
       "rank": 25,
+      "user": "提示词大师",
+      "github": "Fly-61/openoperator-start-kit-fly--",
+      "score": 0.015994415771332357,
+      "latency": 4335.763243337472,
+      "timestamp": "2026-06-12T07:46:14.414163+00:00"
+    },
+    {
+      "rank": 26,
       "user": "team_37",
       "github": "mygitljf/openoperator-mvp",
       "score": 0.014688459993976026,
@@ -211,7 +219,7 @@
       "timestamp": "2026-06-04T04:18:10.375768+00:00"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.013741267304398855,
@@ -219,7 +227,7 @@
       "timestamp": "2026-06-09T17:01:20.335506+00:00"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "user": "智算第七组",
       "github": "laomaer/BANGC07",
       "score": 0.0004014464798076354,
@@ -227,7 +235,7 @@
       "timestamp": "2026-06-11T14:37:10.349303+00:00"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 3.47066173768032e-06,
@@ -236,5 +244,5 @@
       "commit_sha": "d15f03b46e5577176f5b85845274f8658b2db995"
     }
   ],
-  "last_updated": "2026-06-12T05:21:57.517147+00:00"
+  "last_updated": "2026-06-12T07:48:51.327537+00:00"
 }
