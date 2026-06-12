@@ -193,6 +193,15 @@
     },
     {
       "rank": 23,
+      "user": "team_37",
+      "github": "mygitljf/openoperator-mvp",
+      "score": 0.011621232901688107,
+      "latency": 2389.5055055618286,
+      "timestamp": "2026-06-12T00:25:45.506388+00:00",
+      "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
+    },
+    {
+      "rank": 24,
       "user": "team_18",
       "github": "wbr258/openoperator-start-kit",
       "score": 0.011587096956761122,
@@ -201,7 +210,7 @@
       "commit_sha": "097e1ff155e9160649a62eced828dfd1913590af"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "user": "team_72",
       "github": "ifbluerain/kernel-competition-bot-openoperator-start-kit",
       "score": 0.011469760823283005,
@@ -210,21 +219,12 @@
       "commit_sha": "49d35c44c5f830e6f9e652c40295eaa09932301f"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "user": "智算第四组",
       "github": "rashxxxxxx-netizen/openoperator-work",
       "score": 0.011466296874479146,
       "latency": 2421.7932174603143,
       "timestamp": "2026-05-26T09:34:43.407312+00:00"
-    },
-    {
-      "rank": 26,
-      "user": "team_37",
-      "github": "mygitljf/openoperator-mvp",
-      "score": 0.01133297378712354,
-      "latency": 2450.2836167812347,
-      "timestamp": "2026-05-18T07:28:29.291604+00:00",
-      "commit_sha": "9e5e569ddd15bb547a02863fc4b2304f324da41f"
     },
     {
       "rank": 27,
@@ -749,5 +749,5 @@
       "commit_sha": "1da9ae40e5f4c5af3d6d5d46a1edf335d52f795e"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.311816+00:00"
+  "last_updated": "2026-06-12T00:28:01.322739+00:00"
 }
