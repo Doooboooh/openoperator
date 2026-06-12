@@ -666,6 +666,14 @@
     },
     {
       "rank": 81,
+      "user": "当家作组",
+      "github": "xiunianjun/openoperator-start-kit",
+      "score": 0.0027909816029539312,
+      "latency": 14293.895723919073,
+      "timestamp": "2026-06-12T05:18:41.452295+00:00"
+    },
+    {
+      "rank": 82,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.002781816244756231,
@@ -673,7 +681,7 @@
       "timestamp": "2026-05-20T13:46:23.135081+00:00"
     },
     {
-      "rank": 82,
+      "rank": 83,
       "user": "六神五组",
       "github": "yuuu37/good-transport-coming",
       "score": 0.002764181258693736,
@@ -681,7 +689,7 @@
       "timestamp": "2026-06-12T03:55:33.773136+00:00"
     },
     {
-      "rank": 83,
+      "rank": 84,
       "user": "养老组",
       "github": "Ace-Eternal/op_retirement",
       "score": 0.0021973921668295934,
@@ -690,22 +698,14 @@
       "commit_sha": "276526c96a7d6967fee19a5816081bbc1b0a7790"
     },
     {
-      "rank": 84,
+      "rank": 85,
       "user": "team_21",
       "github": "zhiyuanSo/ICS_13Team",
       "score": 1.772300161894449e-05,
       "latency": 2250973.1058962643,
       "timestamp": "2026-05-18T07:22:44.613390+00:00",
       "commit_sha": "a8414354f5246264b28fe888bfd8db6fae6c64b4"
-    },
-    {
-      "rank": 85,
-      "user": "当家作组",
-      "github": "xiunianjun/openoperator-start-kit",
-      "score": 2.889409317227981e-06,
-      "latency": 13806974.235922098,
-      "timestamp": "2026-06-09T03:55:20.255369+00:00"
     }
   ],
-  "last_updated": "2026-06-12T05:01:36.854773+00:00"
+  "last_updated": "2026-06-12T05:21:57.531688+00:00"
 }

@@ -161,6 +161,14 @@
     },
     {
       "rank": 20,
+      "user": "当家作组",
+      "github": "xiunianjun/openoperator-start-kit",
+      "score": 0.003674734588185872,
+      "latency": 38149.69398081303,
+      "timestamp": "2026-06-12T05:18:41.452295+00:00"
+    },
+    {
+      "rank": 21,
       "user": "team_8",
       "github": "ykkkx/ICS_28",
       "score": 0.0030982198774721363,
@@ -169,7 +177,7 @@
       "commit_sha": "1554f638953bc3b0fe31d4fe036cc411246ed528"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.0020005189928109937,
@@ -177,7 +185,7 @@
       "timestamp": "2026-06-04T02:30:12.101709+00:00"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "user": "team_43",
       "github": "Demoxxy/smart_openoperator-start-kit",
       "score": 0.0018511580782226728,
@@ -185,5 +193,5 @@
       "timestamp": "2026-05-29T02:30:27.364279+00:00"
     }
   ],
-  "last_updated": "2026-06-11T17:30:07.268953+00:00"
+  "last_updated": "2026-06-12T05:21:57.530979+00:00"
 }

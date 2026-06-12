@@ -254,6 +254,14 @@
     },
     {
       "rank": 31,
+      "user": "当家作组",
+      "github": "xiunianjun/openoperator-start-kit",
+      "score": 0.0031591501275272976,
+      "latency": 9076.808268825213,
+      "timestamp": "2026-06-12T05:18:41.452295+00:00"
+    },
+    {
+      "rank": 32,
       "user": "二十四组",
       "github": "Hengyu-Yu/OpenOperator-Group24",
       "score": 0.00228706841139269,
@@ -261,7 +269,7 @@
       "timestamp": "2026-06-03T14:51:06.469059+00:00"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "user": "team_36",
       "github": "luogarden/Team35_BANGC",
       "score": 0.0018748754118547597,
@@ -269,7 +277,7 @@
       "timestamp": "2026-06-02T01:58:40.602027+00:00"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "user": "team_73",
       "github": "dingyue772/TensorCraft",
       "score": 0.0017410893659003206,
@@ -278,7 +286,7 @@
       "commit_sha": "14b60371e4d17652d07d516ff3c8beff70870f1d"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "user": "team_34",
       "github": "Dreeeeeeeee/dree",
       "score": 0.0016574002937501308,
@@ -286,7 +294,7 @@
       "timestamp": "2026-06-10T12:52:50.997928+00:00"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "user": "team_60",
       "github": "shadowcathh/openoperator-start-kit",
       "score": 0.0006599194529167921,
@@ -294,5 +302,5 @@
       "timestamp": "2026-05-29T11:26:47.433601+00:00"
     }
   ],
-  "last_updated": "2026-06-12T05:01:36.836056+00:00"
+  "last_updated": "2026-06-12T05:21:57.512373+00:00"
 }
